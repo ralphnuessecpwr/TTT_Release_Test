@@ -1,0 +1,10 @@
+
+***************** Output from TTTRUNNR *****************
+
+ STTR043I Initializing simulation environment for: COBOL V4
+ STTR043I Initializing simulation environment for: COBOL V5
+ STTR011I totaltest zTargetRunner v170200 on 2018-11-30 20:25.50��������������������������������������
+ STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
+ CEE3501S The module CWXTDB2  was not found.
+          From compile unit TTTRUNNR at entry point TTTRUNNR at compile unit offset +00003430 at entry offset +00003430
+           at address 37503430.
