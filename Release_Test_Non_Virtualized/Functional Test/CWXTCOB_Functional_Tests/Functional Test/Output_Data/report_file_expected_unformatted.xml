@@ -1,0 +1,122 @@
+<SerializedData xmlns="http://www.xact.dk/xatester/v/1">
+  <record>
+    <rpt-unformatted>
+      <filler1></filler1>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1></filler1>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1></filler1>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1>' RUN DATE  09/06/19       EMPLOYEE COMPENSATION REPORT                  PAGE   1'</filler1>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1></filler1>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1></filler1>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1>'                               HIRE  YRS OF'</filler1>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1>' EMPLOYEE NAME   REGION TYPE   DATE  SERVICE  SALARY   O/T   COMMISSION    TOTAL'</filler1>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1></filler1>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1>' JOHN SMITH      NORTH   H   10/15/81   37   1083.00     0.00      0.00  1083.00'</filler1>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1>' ROY GARDNER     NORTH   S   12/31/92   26    750.00     0.00   3300.00  4050.00'</filler1>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1>' DAN PEARSON     NORTH   S   07/20/89   30    850.00     0.00   1000.00  1850.00'</filler1>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1>' MICHAEL DAYTON  SOUTH   S   08/30/82   37    825.00     0.00   6000.00  6825.00'</filler1>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1>' DENNIS WHITE    SOUTH   S   02/29/88   31   1050.00     0.00   1120.00  2170.00'</filler1>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1>' VALERIE OLSEN   EAST    S   05/01/94   25    900.00     0.00   5600.00  6500.00'</filler1>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1>' LAURA MARTIN    EAST    S   06/14/83   36   1225.00     0.00   6000.00  7225.00'</filler1>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1>' MARCIA SULLIVAN EAST    H   04/05/93   26   1200.00   180.00      0.00  1380.00'</filler1>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1>' JAMES MORRISON  EAST    H   09/13/91   27   1017.50     0.00      0.00  1017.50'</filler1>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1>' THOMAS LONG     WEST    H   03/31/87   32   1000.00     0.00      0.00  1000.00'</filler1>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1>' DONNA BROWN     WEST    S   11/11/81   37   1000.00     0.00   3333.00  4333.00'</filler1>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1>' SAMUEL ADDAMS   WEST    H   01/02/86   33   1100.00    82.50      0.00  1182.50'</filler1>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1>' MARK JOHNSON    WEST    S   09/30/82   36    750.00     0.00   6000.00  6750.00'</filler1>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1></filler1>
+    </rpt-unformatted>
+  </record>
+  <record>
+    <rpt-unformatted>
+      <filler1>'    TOTAL                                                               45366.00'</filler1>
+    </rpt-unformatted>
+  </record>
+</SerializedData>

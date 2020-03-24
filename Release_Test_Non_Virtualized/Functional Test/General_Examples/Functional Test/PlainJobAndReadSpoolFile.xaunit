@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1">
+  <Test>
+    <Job name="Job">
+      <Content><![CDATA[//HDDRXM0X JOB ('EUDD,INTL'),'NUESSE',NOTIFY=&SYSUID,      
+//             MSGLEVEL=(1,1),MSGCLASS=X,CLASS=A,REGION=6M 
+/*JOBPARM S=CWCC 
+// JCLLIB ORDER=('HDDRXM0.DEMO.JCL')                                           
+//STEP1  EXEC CWXTPROC
+//STEP2  EXEC CWXTPROC]]></Content>
+    </Job>
+    <SpoolFile ddname="RPTFILE" stepname="STEP2" ashex="false" id="spoolId" />
+    <Verify name="Verify" haltExecution="false">
+      <Statement><![CDATA[spoolId.indexOf('EMPLOYEE COMPENSATION REPORT') != -1]]></Statement>
+    </Verify>
+  </Test>
+  <MetaData>
+    <MDataDefinition name="rptEmpDetail">
+      <filler1 type="Character" length="1" bytes="1" />
+      <empName type="Character" length="15" bytes="15" />
+      <filler2 type="Character" length="1" bytes="1" />
+      <empRegion type="Character" length="7" bytes="7" />
+      <filler3 type="Character" length="1" bytes="1" />
+      <empType type="Character" length="1" bytes="1" />
+      <filler4 type="Character" length="3" bytes="3" />
+      <empHireMonth type="Character" length="2" bytes="2" />
+      <filler5 type="Character" length="1" bytes="1" />
+      <empHireDay type="Character" length="2" bytes="2" />
+      <filler6 type="Character" length="1" bytes="1" />
+      <empHireYear type="Character" length="2" bytes="2" />
+      <filler7 type="Character" length="3" bytes="3" />
+      <empYearsOfService type="Character" length="2" bytes="2" />
+      <filler8 type="Character" length="3" bytes="3" />
+      <empSalary type="NumericDisplay" length="7" bytes="7" signed="false" decimals="2" />
+      <filler9 type="Character" length="3" bytes="3" />
+      <empOvertime type="NumericDisplay" length="5" bytes="5" signed="false" decimals="2" />
+      <filler10 type="Character" length="3" bytes="3" />
+      <empCommision type="NumericDisplay" length="6" bytes="6" signed="false" decimals="2" />
+      <filler11 type="Character" length="3" bytes="3" />
+      <empTotal type="NumericDisplay" length="6" bytes="6" signed="false" decimals="2" />
+    </MDataDefinition>
+  </MetaData>
+</XaUnit>

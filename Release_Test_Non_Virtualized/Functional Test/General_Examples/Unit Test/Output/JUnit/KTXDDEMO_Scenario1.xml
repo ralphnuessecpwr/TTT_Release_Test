@@ -1,0 +1,1195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.3.1.v20181214-1343_790?>
+<!--Topaz for Total Test 19.3.1.v20181214-1343_790 08.02.2019 11:48:11-->
+<testsuites>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" tests="31">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" name="00001: Check for eibtime"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" name="00002: Check for eibdate"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" name="00003: Check for eibtrnid"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" name="00004: Check for eibtaskn"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" name="00005: Check for eibtrmid"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" name="00006: Check for dfheigdi"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" name="00007: Check for eibcposn"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" name="00008: Check for eibcalen"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" name="00009: Check for eibaid"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" name="00010: Check for eibfn"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" name="00011: Check for eibrcode"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" name="00012: Check for eibds"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" name="00013: Check for eibreqid"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" name="00014: Check for eibrsrce"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" name="00015: Check for eibsync"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" name="00016: Check for eibfree"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" name="00017: Check for eibrecv"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" name="00018: Check for eibfil01"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" name="00019: Check for eibatt"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" name="00020: Check for eibeoc"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" name="00021: Check for eibfmh"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" name="00022: Check for eibcompl"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" name="00023: Check for eibsig"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" name="00024: Check for eibconf"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" name="00025: Check for eiberr"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" name="00026: Check for eiberrcd"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" name="00027: Check for eibsynrb"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" name="00028: Check for eibnodat"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" name="00029: Check for eibresp"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" name="00030: Check for eibresp2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" name="00031: Check for eibrldbk"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_EXEC_CICS_ASSIGN1_01.00001: EXEC CICS ASSIGN assertion" tests="0">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_EXEC_CICS_ASSIGN1_01.00001: EXEC CICS ASSIGN assertion" name="EXEC CICS ASSIGN"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00001: EXEC CICS DELETEQ assertion" tests="0">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00001: EXEC CICS DELETEQ assertion" name="EXEC CICS DELETEQ"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00002: EXEC CICS WRITEQ assertion" tests="17">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00002: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00002: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00002: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00002: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00002: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00002: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00002: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00002: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00002: EXEC CICS WRITEQ assertion" name="00009: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00002: EXEC CICS WRITEQ assertion" name="00010: WA_SALES_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00002: EXEC CICS WRITEQ assertion" name="00011: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00002: EXEC CICS WRITEQ assertion" name="00012: WA_MGMT_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00002: EXEC CICS WRITEQ assertion" name="00013: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00002: EXEC CICS WRITEQ assertion" name="00014: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00002: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00002: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00002: EXEC CICS WRITEQ assertion" name="00017: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00003: EXEC CICS WRITEQ assertion" tests="35">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00003: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00003: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00003: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00003: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00003: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00003: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00003: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00003: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00003: EXEC CICS WRITEQ assertion" name="00009: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00003: EXEC CICS WRITEQ assertion" name="00010: WA_SALES_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00003: EXEC CICS WRITEQ assertion" name="00011: WA_SALES_AMOUNT"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00003: EXEC CICS WRITEQ assertion" name="00012: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00003: EXEC CICS WRITEQ assertion" name="00013: WA_MGMT_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00003: EXEC CICS WRITEQ assertion" name="00014: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00003: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00003: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00003: EXEC CICS WRITEQ assertion" name="00017: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00003: EXEC CICS WRITEQ assertion" name="00018: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00004: EXEC CICS WRITEQ assertion" tests="52">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00004: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00004: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00004: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00004: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00004: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00004: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00004: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00004: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00004: EXEC CICS WRITEQ assertion" name="00009: WA_EMP_HOURS"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00004: EXEC CICS WRITEQ assertion" name="00010: WA_EMP_RATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00004: EXEC CICS WRITEQ assertion" name="00011: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00004: EXEC CICS WRITEQ assertion" name="00012: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00004: EXEC CICS WRITEQ assertion" name="00013: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00004: EXEC CICS WRITEQ assertion" name="00014: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00004: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00004: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00004: EXEC CICS WRITEQ assertion" name="00017: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00005: EXEC CICS WRITEQ assertion" tests="70">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00005: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00005: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00005: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00005: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00005: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00005: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00005: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00005: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00005: EXEC CICS WRITEQ assertion" name="00009: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00005: EXEC CICS WRITEQ assertion" name="00010: WA_SALES_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00005: EXEC CICS WRITEQ assertion" name="00011: WA_SALES_AMOUNT"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00005: EXEC CICS WRITEQ assertion" name="00012: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00005: EXEC CICS WRITEQ assertion" name="00013: WA_MGMT_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00005: EXEC CICS WRITEQ assertion" name="00014: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00005: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00005: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00005: EXEC CICS WRITEQ assertion" name="00017: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00005: EXEC CICS WRITEQ assertion" name="00018: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00006: EXEC CICS DELETEQ assertion" tests="70">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-SOUTH_01.00006: EXEC CICS DELETEQ assertion" name="EXEC CICS DELETEQ"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00001: EXEC CICS DELETEQ assertion" tests="0">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00001: EXEC CICS DELETEQ assertion" name="EXEC CICS DELETEQ"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00002: EXEC CICS WRITEQ assertion" tests="17">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00002: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00002: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00002: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00002: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00002: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00002: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00002: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00002: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00002: EXEC CICS WRITEQ assertion" name="00009: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00002: EXEC CICS WRITEQ assertion" name="00010: WA_SALES_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00002: EXEC CICS WRITEQ assertion" name="00011: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00002: EXEC CICS WRITEQ assertion" name="00012: WA_MGMT_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00002: EXEC CICS WRITEQ assertion" name="00013: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00002: EXEC CICS WRITEQ assertion" name="00014: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00002: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00002: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00002: EXEC CICS WRITEQ assertion" name="00017: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00003: EXEC CICS WRITEQ assertion" tests="34">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00003: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00003: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00003: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00003: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00003: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00003: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00003: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00003: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00003: EXEC CICS WRITEQ assertion" name="00009: WA_EMP_HOURS"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00003: EXEC CICS WRITEQ assertion" name="00010: WA_EMP_RATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00003: EXEC CICS WRITEQ assertion" name="00011: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00003: EXEC CICS WRITEQ assertion" name="00012: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00003: EXEC CICS WRITEQ assertion" name="00013: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00003: EXEC CICS WRITEQ assertion" name="00014: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00003: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00003: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00003: EXEC CICS WRITEQ assertion" name="00017: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00004: EXEC CICS WRITEQ assertion" tests="52">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00004: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00004: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00004: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00004: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00004: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00004: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00004: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00004: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00004: EXEC CICS WRITEQ assertion" name="00009: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00004: EXEC CICS WRITEQ assertion" name="00010: WA_SALES_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00004: EXEC CICS WRITEQ assertion" name="00011: WA_SALES_AMOUNT"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00004: EXEC CICS WRITEQ assertion" name="00012: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00004: EXEC CICS WRITEQ assertion" name="00013: WA_MGMT_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00004: EXEC CICS WRITEQ assertion" name="00014: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00004: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00004: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00004: EXEC CICS WRITEQ assertion" name="00017: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00004: EXEC CICS WRITEQ assertion" name="00018: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00005: EXEC CICS WRITEQ assertion" tests="69">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00005: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00005: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00005: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00005: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00005: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00005: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00005: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00005: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00005: EXEC CICS WRITEQ assertion" name="00009: WA_EMP_HOURS"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00005: EXEC CICS WRITEQ assertion" name="00010: WA_EMP_RATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00005: EXEC CICS WRITEQ assertion" name="00011: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00005: EXEC CICS WRITEQ assertion" name="00012: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00005: EXEC CICS WRITEQ assertion" name="00013: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00005: EXEC CICS WRITEQ assertion" name="00014: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00005: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00005: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00005: EXEC CICS WRITEQ assertion" name="00017: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00006: EXEC CICS WRITEQ assertion" tests="87">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00006: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00006: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00006: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00006: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00006: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00006: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00006: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00006: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00006: EXEC CICS WRITEQ assertion" name="00009: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00006: EXEC CICS WRITEQ assertion" name="00010: WA_SALES_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00006: EXEC CICS WRITEQ assertion" name="00011: WA_SALES_AMOUNT"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00006: EXEC CICS WRITEQ assertion" name="00012: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00006: EXEC CICS WRITEQ assertion" name="00013: WA_MGMT_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00006: EXEC CICS WRITEQ assertion" name="00014: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00006: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00006: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00006: EXEC CICS WRITEQ assertion" name="00017: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00006: EXEC CICS WRITEQ assertion" name="00018: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00007: EXEC CICS WRITEQ assertion" tests="105">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00007: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00007: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00007: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00007: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00007: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00007: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00007: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00007: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00007: EXEC CICS WRITEQ assertion" name="00009: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00007: EXEC CICS WRITEQ assertion" name="00010: WA_SALES_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00007: EXEC CICS WRITEQ assertion" name="00011: WA_SALES_AMOUNT"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00007: EXEC CICS WRITEQ assertion" name="00012: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00007: EXEC CICS WRITEQ assertion" name="00013: WA_MGMT_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00007: EXEC CICS WRITEQ assertion" name="00014: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00007: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00007: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00007: EXEC CICS WRITEQ assertion" name="00017: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00007: EXEC CICS WRITEQ assertion" name="00018: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00008: EXEC CICS DELETEQ assertion" tests="105">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-EAST_01.00008: EXEC CICS DELETEQ assertion" name="EXEC CICS DELETEQ"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_EXEC_CICS_FORMATTIME1_01.00001: EXEC CICS FORMATTIME assertion" tests="0">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_EXEC_CICS_FORMATTIME1_01.00001: EXEC CICS FORMATTIME assertion" name="EXEC CICS FORMATTIME"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00001: EXEC CICS DELETEQ assertion" tests="0">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00001: EXEC CICS DELETEQ assertion" name="EXEC CICS DELETEQ"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00002: EXEC CICS WRITEQ assertion" tests="18">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00002: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00002: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00002: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00002: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00002: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00002: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00002: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00002: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00002: EXEC CICS WRITEQ assertion" name="00009: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00002: EXEC CICS WRITEQ assertion" name="00010: WA_SALES_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00002: EXEC CICS WRITEQ assertion" name="00011: WA_SALES_AMOUNT"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00002: EXEC CICS WRITEQ assertion" name="00012: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00002: EXEC CICS WRITEQ assertion" name="00013: WA_MGMT_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00002: EXEC CICS WRITEQ assertion" name="00014: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00002: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00002: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00002: EXEC CICS WRITEQ assertion" name="00017: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00002: EXEC CICS WRITEQ assertion" name="00018: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00003: EXEC CICS WRITEQ assertion" tests="35">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00003: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00003: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00003: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00003: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00003: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00003: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00003: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00003: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00003: EXEC CICS WRITEQ assertion" name="00009: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00003: EXEC CICS WRITEQ assertion" name="00010: WA_SALES_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00003: EXEC CICS WRITEQ assertion" name="00011: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00003: EXEC CICS WRITEQ assertion" name="00012: WA_MGMT_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00003: EXEC CICS WRITEQ assertion" name="00013: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00003: EXEC CICS WRITEQ assertion" name="00014: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00003: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00003: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00003: EXEC CICS WRITEQ assertion" name="00017: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00004: EXEC CICS WRITEQ assertion" tests="52">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00004: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00004: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00004: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00004: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00004: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00004: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00004: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00004: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00004: EXEC CICS WRITEQ assertion" name="00009: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00004: EXEC CICS WRITEQ assertion" name="00010: WA_SALES_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00004: EXEC CICS WRITEQ assertion" name="00011: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00004: EXEC CICS WRITEQ assertion" name="00012: WA_MGMT_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00004: EXEC CICS WRITEQ assertion" name="00013: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00004: EXEC CICS WRITEQ assertion" name="00014: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00004: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00004: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00004: EXEC CICS WRITEQ assertion" name="00017: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00005: EXEC CICS WRITEQ assertion" tests="69">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00005: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00005: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00005: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00005: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00005: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00005: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00005: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00005: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00005: EXEC CICS WRITEQ assertion" name="00009: WA_EMP_HOURS"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00005: EXEC CICS WRITEQ assertion" name="00010: WA_EMP_RATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00005: EXEC CICS WRITEQ assertion" name="00011: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00005: EXEC CICS WRITEQ assertion" name="00012: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00005: EXEC CICS WRITEQ assertion" name="00013: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00005: EXEC CICS WRITEQ assertion" name="00014: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00005: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00005: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00005: EXEC CICS WRITEQ assertion" name="00017: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00006: EXEC CICS WRITEQ assertion" tests="87">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00006: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00006: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00006: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00006: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00006: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00006: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00006: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00006: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00006: EXEC CICS WRITEQ assertion" name="00009: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00006: EXEC CICS WRITEQ assertion" name="00010: WA_SALES_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00006: EXEC CICS WRITEQ assertion" name="00011: WA_SALES_AMOUNT"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00006: EXEC CICS WRITEQ assertion" name="00012: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00006: EXEC CICS WRITEQ assertion" name="00013: WA_MGMT_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00006: EXEC CICS WRITEQ assertion" name="00014: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00006: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00006: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00006: EXEC CICS WRITEQ assertion" name="00017: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00006: EXEC CICS WRITEQ assertion" name="00018: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00007: EXEC CICS WRITEQ assertion" tests="104">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00007: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00007: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00007: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00007: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00007: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00007: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00007: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00007: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00007: EXEC CICS WRITEQ assertion" name="00009: WA_EMP_HOURS"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00007: EXEC CICS WRITEQ assertion" name="00010: WA_EMP_RATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00007: EXEC CICS WRITEQ assertion" name="00011: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00007: EXEC CICS WRITEQ assertion" name="00012: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00007: EXEC CICS WRITEQ assertion" name="00013: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00007: EXEC CICS WRITEQ assertion" name="00014: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00007: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00007: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00007: EXEC CICS WRITEQ assertion" name="00017: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00008: EXEC CICS WRITEQ assertion" tests="122">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00008: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00008: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00008: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00008: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00008: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00008: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00008: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00008: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00008: EXEC CICS WRITEQ assertion" name="00009: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00008: EXEC CICS WRITEQ assertion" name="00010: WA_SALES_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00008: EXEC CICS WRITEQ assertion" name="00011: WA_SALES_AMOUNT"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00008: EXEC CICS WRITEQ assertion" name="00012: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00008: EXEC CICS WRITEQ assertion" name="00013: WA_MGMT_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00008: EXEC CICS WRITEQ assertion" name="00014: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00008: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00008: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00008: EXEC CICS WRITEQ assertion" name="00017: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00008: EXEC CICS WRITEQ assertion" name="00018: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00009: EXEC CICS WRITEQ assertion" tests="139">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00009: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00009: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00009: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00009: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00009: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00009: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00009: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00009: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00009: EXEC CICS WRITEQ assertion" name="00009: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00009: EXEC CICS WRITEQ assertion" name="00010: WA_SALES_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00009: EXEC CICS WRITEQ assertion" name="00011: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00009: EXEC CICS WRITEQ assertion" name="00012: WA_MGMT_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00009: EXEC CICS WRITEQ assertion" name="00013: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00009: EXEC CICS WRITEQ assertion" name="00014: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00009: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00009: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00009: EXEC CICS WRITEQ assertion" name="00017: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00010: EXEC CICS WRITEQ assertion" tests="156">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00010: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00010: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00010: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00010: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00010: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00010: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00010: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00010: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00010: EXEC CICS WRITEQ assertion" name="00009: WA_EMP_HOURS"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00010: EXEC CICS WRITEQ assertion" name="00010: WA_EMP_RATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00010: EXEC CICS WRITEQ assertion" name="00011: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00010: EXEC CICS WRITEQ assertion" name="00012: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00010: EXEC CICS WRITEQ assertion" name="00013: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00010: EXEC CICS WRITEQ assertion" name="00014: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00010: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00010: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00010: EXEC CICS WRITEQ assertion" name="00017: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00011: EXEC CICS WRITEQ assertion" tests="174">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00011: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00011: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00011: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00011: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00011: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00011: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00011: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00011: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00011: EXEC CICS WRITEQ assertion" name="00009: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00011: EXEC CICS WRITEQ assertion" name="00010: WA_SALES_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00011: EXEC CICS WRITEQ assertion" name="00011: WA_SALES_AMOUNT"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00011: EXEC CICS WRITEQ assertion" name="00012: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00011: EXEC CICS WRITEQ assertion" name="00013: WA_MGMT_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00011: EXEC CICS WRITEQ assertion" name="00014: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00011: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00011: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00011: EXEC CICS WRITEQ assertion" name="00017: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00011: EXEC CICS WRITEQ assertion" name="00018: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00012: EXEC CICS WRITEQ assertion" tests="191">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00012: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00012: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00012: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00012: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00012: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00012: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00012: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00012: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00012: EXEC CICS WRITEQ assertion" name="00009: WA_EMP_HOURS"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00012: EXEC CICS WRITEQ assertion" name="00010: WA_EMP_RATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00012: EXEC CICS WRITEQ assertion" name="00011: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00012: EXEC CICS WRITEQ assertion" name="00012: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00012: EXEC CICS WRITEQ assertion" name="00013: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00012: EXEC CICS WRITEQ assertion" name="00014: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00012: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00012: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00012: EXEC CICS WRITEQ assertion" name="00017: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00013: EXEC CICS WRITEQ assertion" tests="209">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00013: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00013: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00013: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00013: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00013: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00013: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00013: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00013: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00013: EXEC CICS WRITEQ assertion" name="00009: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00013: EXEC CICS WRITEQ assertion" name="00010: WA_SALES_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00013: EXEC CICS WRITEQ assertion" name="00011: WA_SALES_AMOUNT"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00013: EXEC CICS WRITEQ assertion" name="00012: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00013: EXEC CICS WRITEQ assertion" name="00013: WA_MGMT_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00013: EXEC CICS WRITEQ assertion" name="00014: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00013: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00013: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00013: EXEC CICS WRITEQ assertion" name="00017: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00013: EXEC CICS WRITEQ assertion" name="00018: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00014: EXEC CICS WRITEQ assertion" tests="226">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00014: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00014: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00014: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00014: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00014: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00014: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00014: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00014: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00014: EXEC CICS WRITEQ assertion" name="00009: WA_EMP_HOURS"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00014: EXEC CICS WRITEQ assertion" name="00010: WA_EMP_RATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00014: EXEC CICS WRITEQ assertion" name="00011: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00014: EXEC CICS WRITEQ assertion" name="00012: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00014: EXEC CICS WRITEQ assertion" name="00013: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00014: EXEC CICS WRITEQ assertion" name="00014: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00014: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00014: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00014: EXEC CICS WRITEQ assertion" name="00017: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00015: EXEC CICS WRITEQ assertion" tests="243">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00015: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00015: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00015: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00015: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00015: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00015: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00015: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00015: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00015: EXEC CICS WRITEQ assertion" name="00009: WA_EMP_HOURS"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00015: EXEC CICS WRITEQ assertion" name="00010: WA_EMP_RATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00015: EXEC CICS WRITEQ assertion" name="00011: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00015: EXEC CICS WRITEQ assertion" name="00012: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00015: EXEC CICS WRITEQ assertion" name="00013: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00015: EXEC CICS WRITEQ assertion" name="00014: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00015: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00015: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00015: EXEC CICS WRITEQ assertion" name="00017: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00016: EXEC CICS WRITEQ assertion" tests="261">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00016: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00016: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00016: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00016: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00016: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00016: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00016: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00016: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00016: EXEC CICS WRITEQ assertion" name="00009: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00016: EXEC CICS WRITEQ assertion" name="00010: WA_SALES_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00016: EXEC CICS WRITEQ assertion" name="00011: WA_SALES_AMOUNT"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00016: EXEC CICS WRITEQ assertion" name="00012: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00016: EXEC CICS WRITEQ assertion" name="00013: WA_MGMT_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00016: EXEC CICS WRITEQ assertion" name="00014: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00016: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00016: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00016: EXEC CICS WRITEQ assertion" name="00017: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00016: EXEC CICS WRITEQ assertion" name="00018: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00017: EXEC CICS WRITEQ assertion" tests="279">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00017: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00017: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00017: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00017: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00017: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00017: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00017: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00017: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00017: EXEC CICS WRITEQ assertion" name="00009: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00017: EXEC CICS WRITEQ assertion" name="00010: WA_SALES_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00017: EXEC CICS WRITEQ assertion" name="00011: WA_SALES_AMOUNT"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00017: EXEC CICS WRITEQ assertion" name="00012: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00017: EXEC CICS WRITEQ assertion" name="00013: WA_MGMT_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00017: EXEC CICS WRITEQ assertion" name="00014: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00017: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00017: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00017: EXEC CICS WRITEQ assertion" name="00017: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00017: EXEC CICS WRITEQ assertion" name="00018: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00018: EXEC CICS WRITEQ assertion" tests="297">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00018: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00018: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00018: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00018: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00018: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00018: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00018: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00018: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00018: EXEC CICS WRITEQ assertion" name="00009: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00018: EXEC CICS WRITEQ assertion" name="00010: WA_SALES_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00018: EXEC CICS WRITEQ assertion" name="00011: WA_SALES_AMOUNT"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00018: EXEC CICS WRITEQ assertion" name="00012: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00018: EXEC CICS WRITEQ assertion" name="00013: WA_MGMT_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00018: EXEC CICS WRITEQ assertion" name="00014: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00018: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00018: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00018: EXEC CICS WRITEQ assertion" name="00017: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00018: EXEC CICS WRITEQ assertion" name="00018: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00019: EXEC CICS READQ assertion" tests="297">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00019: EXEC CICS READQ assertion" name="EXEC CICS READQ"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00020: EXEC CICS READQ assertion" tests="297">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00020: EXEC CICS READQ assertion" name="EXEC CICS READQ"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00021: EXEC CICS READQ assertion" tests="297">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00021: EXEC CICS READQ assertion" name="EXEC CICS READQ"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00022: EXEC CICS READQ assertion" tests="297">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00022: EXEC CICS READQ assertion" name="EXEC CICS READQ"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00023: EXEC CICS READQ assertion" tests="297">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00023: EXEC CICS READQ assertion" name="EXEC CICS READQ"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00024: EXEC CICS READQ assertion" tests="297">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00024: EXEC CICS READQ assertion" name="EXEC CICS READQ"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00025: EXEC CICS READQ assertion" tests="297">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00025: EXEC CICS READQ assertion" name="EXEC CICS READQ"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00026: EXEC CICS READQ assertion" tests="297">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00026: EXEC CICS READQ assertion" name="EXEC CICS READQ"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00027: EXEC CICS READQ assertion" tests="297">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00027: EXEC CICS READQ assertion" name="EXEC CICS READQ"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00028: EXEC CICS READQ assertion" tests="297">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00028: EXEC CICS READQ assertion" name="EXEC CICS READQ"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00029: EXEC CICS READQ assertion" tests="297">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00029: EXEC CICS READQ assertion" name="EXEC CICS READQ"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00030: EXEC CICS READQ assertion" tests="297">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00030: EXEC CICS READQ assertion" name="EXEC CICS READQ"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00031: EXEC CICS READQ assertion" tests="297">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00031: EXEC CICS READQ assertion" name="EXEC CICS READQ"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00032: EXEC CICS READQ assertion" tests="297">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00032: EXEC CICS READQ assertion" name="EXEC CICS READQ"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00033: EXEC CICS READQ assertion" tests="297">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00033: EXEC CICS READQ assertion" name="EXEC CICS READQ"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00034: EXEC CICS READQ assertion" tests="297">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00034: EXEC CICS READQ assertion" name="EXEC CICS READQ"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00035: EXEC CICS READQ assertion" tests="297">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00035: EXEC CICS READQ assertion" name="EXEC CICS READQ"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00036: EXEC CICS READQ assertion" tests="297">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00036: EXEC CICS READQ assertion" name="EXEC CICS READQ"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00037: EXEC CICS DELETEQ assertion" tests="297">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-TEMP_01.00037: EXEC CICS DELETEQ assertion" name="EXEC CICS DELETEQ"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" tests="1">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00001: FILLER0"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00002: EXEC CICS SEND assertion" tests="10">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00002: EXEC CICS SEND assertion" name="00001: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00002: EXEC CICS SEND assertion" name="00002: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00002: EXEC CICS SEND assertion" name="00003: CICSDATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00002: EXEC CICS SEND assertion" name="00004: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00002: EXEC CICS SEND assertion" name="00005: FILLER3"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00002: EXEC CICS SEND assertion" name="00006: FILLER4"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00002: EXEC CICS SEND assertion" name="00007: FILLER5"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00002: EXEC CICS SEND assertion" name="00008: FILLER6"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00002: EXEC CICS SEND assertion" name="00009: EMP_PAGE"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00003: EXEC CICS SEND assertion" tests="15">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00003: EXEC CICS SEND assertion" name="00001: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00003: EXEC CICS SEND assertion" name="00002: CICSUSERID"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00003: EXEC CICS SEND assertion" name="00003: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00003: EXEC CICS SEND assertion" name="00004: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00003: EXEC CICS SEND assertion" name="00005: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00004: EXEC CICS SEND assertion" tests="16">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00004: EXEC CICS SEND assertion" name="00001: FILLER0"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00005: EXEC CICS SEND assertion" tests="19">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00005: EXEC CICS SEND assertion" name="00001: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00005: EXEC CICS SEND assertion" name="00002: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00005: EXEC CICS SEND assertion" name="00003: FILLER2"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00006: EXEC CICS SEND assertion" tests="36">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00006: EXEC CICS SEND assertion" name="00001: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00006: EXEC CICS SEND assertion" name="00002: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00006: EXEC CICS SEND assertion" name="00003: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00006: EXEC CICS SEND assertion" name="00004: FILLER3"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00006: EXEC CICS SEND assertion" name="00005: FILLER4"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00006: EXEC CICS SEND assertion" name="00006: FILLER5"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00006: EXEC CICS SEND assertion" name="00007: FILLER6"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00006: EXEC CICS SEND assertion" name="00008: FILLER7"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00006: EXEC CICS SEND assertion" name="00009: FILLER8"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00006: EXEC CICS SEND assertion" name="00010: FILLER9"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00006: EXEC CICS SEND assertion" name="00011: FILLER10"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00006: EXEC CICS SEND assertion" name="00012: FILLER11"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00006: EXEC CICS SEND assertion" name="00013: FILLER12"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00006: EXEC CICS SEND assertion" name="00014: FILLER13"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00006: EXEC CICS SEND assertion" name="00015: FILLER14"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00006: EXEC CICS SEND assertion" name="00016: FILLER15"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00006: EXEC CICS SEND assertion" name="00017: FILLER16"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00007: EXEC CICS SEND assertion" tests="37">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00007: EXEC CICS SEND assertion" name="00001: FILLER0"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00008: EXEC CICS SEND assertion" tests="59">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00008: EXEC CICS SEND assertion" name="00001: EMP_DTL_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00008: EXEC CICS SEND assertion" name="00002: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00008: EXEC CICS SEND assertion" name="00003: EMP_DTL_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00008: EXEC CICS SEND assertion" name="00004: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00008: EXEC CICS SEND assertion" name="00005: EMP_DTL_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00008: EXEC CICS SEND assertion" name="00006: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00008: EXEC CICS SEND assertion" name="00007: EMP_DTL_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00008: EXEC CICS SEND assertion" name="00008: EMP_DTL_SLASH1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00008: EXEC CICS SEND assertion" name="00009: EMP_DTL_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00008: EXEC CICS SEND assertion" name="00010: EMP_DTL_SLASH2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00008: EXEC CICS SEND assertion" name="00011: EMP_DTL_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00008: EXEC CICS SEND assertion" name="00012: FILLER3"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00008: EXEC CICS SEND assertion" name="00013: EMP_DTL_YRS_OF_SERVICE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00008: EXEC CICS SEND assertion" name="00014: FILLER4"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00008: EXEC CICS SEND assertion" name="00015: EMP_DTL_WAGES"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00008: EXEC CICS SEND assertion" name="00016: FILLER5"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00008: EXEC CICS SEND assertion" name="00017: EMP_DTL_OT"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00008: EXEC CICS SEND assertion" name="00018: FILLER6"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00008: EXEC CICS SEND assertion" name="00019: EMP_DTL_COMM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00008: EXEC CICS SEND assertion" name="00020: FILLER7"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00008: EXEC CICS SEND assertion" name="00021: EMP_DTL_TOTAL"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00008: EXEC CICS SEND assertion" name="00022: FILLER8"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00009: EXEC CICS SEND assertion" tests="81">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00009: EXEC CICS SEND assertion" name="00001: EMP_DTL_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00009: EXEC CICS SEND assertion" name="00002: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00009: EXEC CICS SEND assertion" name="00003: EMP_DTL_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00009: EXEC CICS SEND assertion" name="00004: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00009: EXEC CICS SEND assertion" name="00005: EMP_DTL_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00009: EXEC CICS SEND assertion" name="00006: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00009: EXEC CICS SEND assertion" name="00007: EMP_DTL_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00009: EXEC CICS SEND assertion" name="00008: EMP_DTL_SLASH1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00009: EXEC CICS SEND assertion" name="00009: EMP_DTL_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00009: EXEC CICS SEND assertion" name="00010: EMP_DTL_SLASH2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00009: EXEC CICS SEND assertion" name="00011: EMP_DTL_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00009: EXEC CICS SEND assertion" name="00012: FILLER3"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00009: EXEC CICS SEND assertion" name="00013: EMP_DTL_YRS_OF_SERVICE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00009: EXEC CICS SEND assertion" name="00014: FILLER4"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00009: EXEC CICS SEND assertion" name="00015: EMP_DTL_WAGES"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00009: EXEC CICS SEND assertion" name="00016: FILLER5"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00009: EXEC CICS SEND assertion" name="00017: EMP_DTL_OT"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00009: EXEC CICS SEND assertion" name="00018: FILLER6"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00009: EXEC CICS SEND assertion" name="00019: EMP_DTL_COMM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00009: EXEC CICS SEND assertion" name="00020: FILLER7"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00009: EXEC CICS SEND assertion" name="00021: EMP_DTL_TOTAL"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00009: EXEC CICS SEND assertion" name="00022: FILLER8"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00010: EXEC CICS SEND assertion" tests="103">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00010: EXEC CICS SEND assertion" name="00001: EMP_DTL_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00010: EXEC CICS SEND assertion" name="00002: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00010: EXEC CICS SEND assertion" name="00003: EMP_DTL_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00010: EXEC CICS SEND assertion" name="00004: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00010: EXEC CICS SEND assertion" name="00005: EMP_DTL_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00010: EXEC CICS SEND assertion" name="00006: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00010: EXEC CICS SEND assertion" name="00007: EMP_DTL_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00010: EXEC CICS SEND assertion" name="00008: EMP_DTL_SLASH1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00010: EXEC CICS SEND assertion" name="00009: EMP_DTL_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00010: EXEC CICS SEND assertion" name="00010: EMP_DTL_SLASH2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00010: EXEC CICS SEND assertion" name="00011: EMP_DTL_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00010: EXEC CICS SEND assertion" name="00012: FILLER3"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00010: EXEC CICS SEND assertion" name="00013: EMP_DTL_YRS_OF_SERVICE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00010: EXEC CICS SEND assertion" name="00014: FILLER4"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00010: EXEC CICS SEND assertion" name="00015: EMP_DTL_WAGES"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00010: EXEC CICS SEND assertion" name="00016: FILLER5"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00010: EXEC CICS SEND assertion" name="00017: EMP_DTL_OT"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00010: EXEC CICS SEND assertion" name="00018: FILLER6"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00010: EXEC CICS SEND assertion" name="00019: EMP_DTL_COMM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00010: EXEC CICS SEND assertion" name="00020: FILLER7"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00010: EXEC CICS SEND assertion" name="00021: EMP_DTL_TOTAL"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00010: EXEC CICS SEND assertion" name="00022: FILLER8"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00011: EXEC CICS SEND assertion" tests="125">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00011: EXEC CICS SEND assertion" name="00001: EMP_DTL_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00011: EXEC CICS SEND assertion" name="00002: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00011: EXEC CICS SEND assertion" name="00003: EMP_DTL_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00011: EXEC CICS SEND assertion" name="00004: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00011: EXEC CICS SEND assertion" name="00005: EMP_DTL_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00011: EXEC CICS SEND assertion" name="00006: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00011: EXEC CICS SEND assertion" name="00007: EMP_DTL_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00011: EXEC CICS SEND assertion" name="00008: EMP_DTL_SLASH1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00011: EXEC CICS SEND assertion" name="00009: EMP_DTL_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00011: EXEC CICS SEND assertion" name="00010: EMP_DTL_SLASH2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00011: EXEC CICS SEND assertion" name="00011: EMP_DTL_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00011: EXEC CICS SEND assertion" name="00012: FILLER3"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00011: EXEC CICS SEND assertion" name="00013: EMP_DTL_YRS_OF_SERVICE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00011: EXEC CICS SEND assertion" name="00014: FILLER4"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00011: EXEC CICS SEND assertion" name="00015: EMP_DTL_WAGES"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00011: EXEC CICS SEND assertion" name="00016: FILLER5"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00011: EXEC CICS SEND assertion" name="00017: EMP_DTL_OT"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00011: EXEC CICS SEND assertion" name="00018: FILLER6"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00011: EXEC CICS SEND assertion" name="00019: EMP_DTL_COMM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00011: EXEC CICS SEND assertion" name="00020: FILLER7"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00011: EXEC CICS SEND assertion" name="00021: EMP_DTL_TOTAL"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00011: EXEC CICS SEND assertion" name="00022: FILLER8"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00012: EXEC CICS SEND assertion" tests="147">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00012: EXEC CICS SEND assertion" name="00001: EMP_DTL_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00012: EXEC CICS SEND assertion" name="00002: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00012: EXEC CICS SEND assertion" name="00003: EMP_DTL_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00012: EXEC CICS SEND assertion" name="00004: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00012: EXEC CICS SEND assertion" name="00005: EMP_DTL_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00012: EXEC CICS SEND assertion" name="00006: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00012: EXEC CICS SEND assertion" name="00007: EMP_DTL_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00012: EXEC CICS SEND assertion" name="00008: EMP_DTL_SLASH1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00012: EXEC CICS SEND assertion" name="00009: EMP_DTL_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00012: EXEC CICS SEND assertion" name="00010: EMP_DTL_SLASH2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00012: EXEC CICS SEND assertion" name="00011: EMP_DTL_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00012: EXEC CICS SEND assertion" name="00012: FILLER3"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00012: EXEC CICS SEND assertion" name="00013: EMP_DTL_YRS_OF_SERVICE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00012: EXEC CICS SEND assertion" name="00014: FILLER4"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00012: EXEC CICS SEND assertion" name="00015: EMP_DTL_WAGES"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00012: EXEC CICS SEND assertion" name="00016: FILLER5"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00012: EXEC CICS SEND assertion" name="00017: EMP_DTL_OT"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00012: EXEC CICS SEND assertion" name="00018: FILLER6"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00012: EXEC CICS SEND assertion" name="00019: EMP_DTL_COMM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00012: EXEC CICS SEND assertion" name="00020: FILLER7"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00012: EXEC CICS SEND assertion" name="00021: EMP_DTL_TOTAL"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00012: EXEC CICS SEND assertion" name="00022: FILLER8"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00013: EXEC CICS SEND assertion" tests="169">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00013: EXEC CICS SEND assertion" name="00001: EMP_DTL_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00013: EXEC CICS SEND assertion" name="00002: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00013: EXEC CICS SEND assertion" name="00003: EMP_DTL_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00013: EXEC CICS SEND assertion" name="00004: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00013: EXEC CICS SEND assertion" name="00005: EMP_DTL_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00013: EXEC CICS SEND assertion" name="00006: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00013: EXEC CICS SEND assertion" name="00007: EMP_DTL_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00013: EXEC CICS SEND assertion" name="00008: EMP_DTL_SLASH1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00013: EXEC CICS SEND assertion" name="00009: EMP_DTL_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00013: EXEC CICS SEND assertion" name="00010: EMP_DTL_SLASH2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00013: EXEC CICS SEND assertion" name="00011: EMP_DTL_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00013: EXEC CICS SEND assertion" name="00012: FILLER3"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00013: EXEC CICS SEND assertion" name="00013: EMP_DTL_YRS_OF_SERVICE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00013: EXEC CICS SEND assertion" name="00014: FILLER4"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00013: EXEC CICS SEND assertion" name="00015: EMP_DTL_WAGES"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00013: EXEC CICS SEND assertion" name="00016: FILLER5"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00013: EXEC CICS SEND assertion" name="00017: EMP_DTL_OT"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00013: EXEC CICS SEND assertion" name="00018: FILLER6"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00013: EXEC CICS SEND assertion" name="00019: EMP_DTL_COMM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00013: EXEC CICS SEND assertion" name="00020: FILLER7"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00013: EXEC CICS SEND assertion" name="00021: EMP_DTL_TOTAL"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00013: EXEC CICS SEND assertion" name="00022: FILLER8"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00014: EXEC CICS SEND assertion" tests="191">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00014: EXEC CICS SEND assertion" name="00001: EMP_DTL_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00014: EXEC CICS SEND assertion" name="00002: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00014: EXEC CICS SEND assertion" name="00003: EMP_DTL_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00014: EXEC CICS SEND assertion" name="00004: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00014: EXEC CICS SEND assertion" name="00005: EMP_DTL_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00014: EXEC CICS SEND assertion" name="00006: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00014: EXEC CICS SEND assertion" name="00007: EMP_DTL_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00014: EXEC CICS SEND assertion" name="00008: EMP_DTL_SLASH1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00014: EXEC CICS SEND assertion" name="00009: EMP_DTL_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00014: EXEC CICS SEND assertion" name="00010: EMP_DTL_SLASH2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00014: EXEC CICS SEND assertion" name="00011: EMP_DTL_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00014: EXEC CICS SEND assertion" name="00012: FILLER3"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00014: EXEC CICS SEND assertion" name="00013: EMP_DTL_YRS_OF_SERVICE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00014: EXEC CICS SEND assertion" name="00014: FILLER4"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00014: EXEC CICS SEND assertion" name="00015: EMP_DTL_WAGES"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00014: EXEC CICS SEND assertion" name="00016: FILLER5"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00014: EXEC CICS SEND assertion" name="00017: EMP_DTL_OT"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00014: EXEC CICS SEND assertion" name="00018: FILLER6"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00014: EXEC CICS SEND assertion" name="00019: EMP_DTL_COMM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00014: EXEC CICS SEND assertion" name="00020: FILLER7"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00014: EXEC CICS SEND assertion" name="00021: EMP_DTL_TOTAL"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00014: EXEC CICS SEND assertion" name="00022: FILLER8"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00015: EXEC CICS SEND assertion" tests="213">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00015: EXEC CICS SEND assertion" name="00001: EMP_DTL_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00015: EXEC CICS SEND assertion" name="00002: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00015: EXEC CICS SEND assertion" name="00003: EMP_DTL_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00015: EXEC CICS SEND assertion" name="00004: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00015: EXEC CICS SEND assertion" name="00005: EMP_DTL_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00015: EXEC CICS SEND assertion" name="00006: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00015: EXEC CICS SEND assertion" name="00007: EMP_DTL_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00015: EXEC CICS SEND assertion" name="00008: EMP_DTL_SLASH1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00015: EXEC CICS SEND assertion" name="00009: EMP_DTL_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00015: EXEC CICS SEND assertion" name="00010: EMP_DTL_SLASH2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00015: EXEC CICS SEND assertion" name="00011: EMP_DTL_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00015: EXEC CICS SEND assertion" name="00012: FILLER3"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00015: EXEC CICS SEND assertion" name="00013: EMP_DTL_YRS_OF_SERVICE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00015: EXEC CICS SEND assertion" name="00014: FILLER4"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00015: EXEC CICS SEND assertion" name="00015: EMP_DTL_WAGES"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00015: EXEC CICS SEND assertion" name="00016: FILLER5"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00015: EXEC CICS SEND assertion" name="00017: EMP_DTL_OT"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00015: EXEC CICS SEND assertion" name="00018: FILLER6"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00015: EXEC CICS SEND assertion" name="00019: EMP_DTL_COMM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00015: EXEC CICS SEND assertion" name="00020: FILLER7"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00015: EXEC CICS SEND assertion" name="00021: EMP_DTL_TOTAL"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00015: EXEC CICS SEND assertion" name="00022: FILLER8"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00016: EXEC CICS SEND assertion" tests="235">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00016: EXEC CICS SEND assertion" name="00001: EMP_DTL_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00016: EXEC CICS SEND assertion" name="00002: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00016: EXEC CICS SEND assertion" name="00003: EMP_DTL_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00016: EXEC CICS SEND assertion" name="00004: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00016: EXEC CICS SEND assertion" name="00005: EMP_DTL_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00016: EXEC CICS SEND assertion" name="00006: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00016: EXEC CICS SEND assertion" name="00007: EMP_DTL_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00016: EXEC CICS SEND assertion" name="00008: EMP_DTL_SLASH1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00016: EXEC CICS SEND assertion" name="00009: EMP_DTL_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00016: EXEC CICS SEND assertion" name="00010: EMP_DTL_SLASH2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00016: EXEC CICS SEND assertion" name="00011: EMP_DTL_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00016: EXEC CICS SEND assertion" name="00012: FILLER3"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00016: EXEC CICS SEND assertion" name="00013: EMP_DTL_YRS_OF_SERVICE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00016: EXEC CICS SEND assertion" name="00014: FILLER4"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00016: EXEC CICS SEND assertion" name="00015: EMP_DTL_WAGES"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00016: EXEC CICS SEND assertion" name="00016: FILLER5"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00016: EXEC CICS SEND assertion" name="00017: EMP_DTL_OT"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00016: EXEC CICS SEND assertion" name="00018: FILLER6"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00016: EXEC CICS SEND assertion" name="00019: EMP_DTL_COMM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00016: EXEC CICS SEND assertion" name="00020: FILLER7"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00016: EXEC CICS SEND assertion" name="00021: EMP_DTL_TOTAL"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00016: EXEC CICS SEND assertion" name="00022: FILLER8"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00017: EXEC CICS SEND assertion" tests="257">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00017: EXEC CICS SEND assertion" name="00001: EMP_DTL_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00017: EXEC CICS SEND assertion" name="00002: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00017: EXEC CICS SEND assertion" name="00003: EMP_DTL_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00017: EXEC CICS SEND assertion" name="00004: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00017: EXEC CICS SEND assertion" name="00005: EMP_DTL_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00017: EXEC CICS SEND assertion" name="00006: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00017: EXEC CICS SEND assertion" name="00007: EMP_DTL_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00017: EXEC CICS SEND assertion" name="00008: EMP_DTL_SLASH1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00017: EXEC CICS SEND assertion" name="00009: EMP_DTL_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00017: EXEC CICS SEND assertion" name="00010: EMP_DTL_SLASH2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00017: EXEC CICS SEND assertion" name="00011: EMP_DTL_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00017: EXEC CICS SEND assertion" name="00012: FILLER3"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00017: EXEC CICS SEND assertion" name="00013: EMP_DTL_YRS_OF_SERVICE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00017: EXEC CICS SEND assertion" name="00014: FILLER4"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00017: EXEC CICS SEND assertion" name="00015: EMP_DTL_WAGES"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00017: EXEC CICS SEND assertion" name="00016: FILLER5"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00017: EXEC CICS SEND assertion" name="00017: EMP_DTL_OT"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00017: EXEC CICS SEND assertion" name="00018: FILLER6"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00017: EXEC CICS SEND assertion" name="00019: EMP_DTL_COMM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00017: EXEC CICS SEND assertion" name="00020: FILLER7"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00017: EXEC CICS SEND assertion" name="00021: EMP_DTL_TOTAL"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00017: EXEC CICS SEND assertion" name="00022: FILLER8"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00018: EXEC CICS SEND assertion" tests="279">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00018: EXEC CICS SEND assertion" name="00001: EMP_DTL_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00018: EXEC CICS SEND assertion" name="00002: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00018: EXEC CICS SEND assertion" name="00003: EMP_DTL_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00018: EXEC CICS SEND assertion" name="00004: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00018: EXEC CICS SEND assertion" name="00005: EMP_DTL_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00018: EXEC CICS SEND assertion" name="00006: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00018: EXEC CICS SEND assertion" name="00007: EMP_DTL_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00018: EXEC CICS SEND assertion" name="00008: EMP_DTL_SLASH1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00018: EXEC CICS SEND assertion" name="00009: EMP_DTL_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00018: EXEC CICS SEND assertion" name="00010: EMP_DTL_SLASH2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00018: EXEC CICS SEND assertion" name="00011: EMP_DTL_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00018: EXEC CICS SEND assertion" name="00012: FILLER3"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00018: EXEC CICS SEND assertion" name="00013: EMP_DTL_YRS_OF_SERVICE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00018: EXEC CICS SEND assertion" name="00014: FILLER4"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00018: EXEC CICS SEND assertion" name="00015: EMP_DTL_WAGES"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00018: EXEC CICS SEND assertion" name="00016: FILLER5"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00018: EXEC CICS SEND assertion" name="00017: EMP_DTL_OT"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00018: EXEC CICS SEND assertion" name="00018: FILLER6"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00018: EXEC CICS SEND assertion" name="00019: EMP_DTL_COMM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00018: EXEC CICS SEND assertion" name="00020: FILLER7"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00018: EXEC CICS SEND assertion" name="00021: EMP_DTL_TOTAL"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00018: EXEC CICS SEND assertion" name="00022: FILLER8"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00019: EXEC CICS SEND assertion" tests="301">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00019: EXEC CICS SEND assertion" name="00001: EMP_DTL_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00019: EXEC CICS SEND assertion" name="00002: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00019: EXEC CICS SEND assertion" name="00003: EMP_DTL_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00019: EXEC CICS SEND assertion" name="00004: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00019: EXEC CICS SEND assertion" name="00005: EMP_DTL_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00019: EXEC CICS SEND assertion" name="00006: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00019: EXEC CICS SEND assertion" name="00007: EMP_DTL_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00019: EXEC CICS SEND assertion" name="00008: EMP_DTL_SLASH1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00019: EXEC CICS SEND assertion" name="00009: EMP_DTL_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00019: EXEC CICS SEND assertion" name="00010: EMP_DTL_SLASH2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00019: EXEC CICS SEND assertion" name="00011: EMP_DTL_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00019: EXEC CICS SEND assertion" name="00012: FILLER3"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00019: EXEC CICS SEND assertion" name="00013: EMP_DTL_YRS_OF_SERVICE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00019: EXEC CICS SEND assertion" name="00014: FILLER4"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00019: EXEC CICS SEND assertion" name="00015: EMP_DTL_WAGES"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00019: EXEC CICS SEND assertion" name="00016: FILLER5"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00019: EXEC CICS SEND assertion" name="00017: EMP_DTL_OT"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00019: EXEC CICS SEND assertion" name="00018: FILLER6"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00019: EXEC CICS SEND assertion" name="00019: EMP_DTL_COMM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00019: EXEC CICS SEND assertion" name="00020: FILLER7"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00019: EXEC CICS SEND assertion" name="00021: EMP_DTL_TOTAL"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00019: EXEC CICS SEND assertion" name="00022: FILLER8"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00020: EXEC CICS SEND assertion" tests="323">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00020: EXEC CICS SEND assertion" name="00001: EMP_DTL_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00020: EXEC CICS SEND assertion" name="00002: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00020: EXEC CICS SEND assertion" name="00003: EMP_DTL_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00020: EXEC CICS SEND assertion" name="00004: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00020: EXEC CICS SEND assertion" name="00005: EMP_DTL_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00020: EXEC CICS SEND assertion" name="00006: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00020: EXEC CICS SEND assertion" name="00007: EMP_DTL_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00020: EXEC CICS SEND assertion" name="00008: EMP_DTL_SLASH1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00020: EXEC CICS SEND assertion" name="00009: EMP_DTL_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00020: EXEC CICS SEND assertion" name="00010: EMP_DTL_SLASH2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00020: EXEC CICS SEND assertion" name="00011: EMP_DTL_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00020: EXEC CICS SEND assertion" name="00012: FILLER3"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00020: EXEC CICS SEND assertion" name="00013: EMP_DTL_YRS_OF_SERVICE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00020: EXEC CICS SEND assertion" name="00014: FILLER4"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00020: EXEC CICS SEND assertion" name="00015: EMP_DTL_WAGES"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00020: EXEC CICS SEND assertion" name="00016: FILLER5"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00020: EXEC CICS SEND assertion" name="00017: EMP_DTL_OT"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00020: EXEC CICS SEND assertion" name="00018: FILLER6"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00020: EXEC CICS SEND assertion" name="00019: EMP_DTL_COMM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00020: EXEC CICS SEND assertion" name="00020: FILLER7"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00020: EXEC CICS SEND assertion" name="00021: EMP_DTL_TOTAL"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00020: EXEC CICS SEND assertion" name="00022: FILLER8"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00021: EXEC CICS SEND assertion" tests="345">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00021: EXEC CICS SEND assertion" name="00001: EMP_DTL_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00021: EXEC CICS SEND assertion" name="00002: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00021: EXEC CICS SEND assertion" name="00003: EMP_DTL_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00021: EXEC CICS SEND assertion" name="00004: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00021: EXEC CICS SEND assertion" name="00005: EMP_DTL_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00021: EXEC CICS SEND assertion" name="00006: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00021: EXEC CICS SEND assertion" name="00007: EMP_DTL_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00021: EXEC CICS SEND assertion" name="00008: EMP_DTL_SLASH1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00021: EXEC CICS SEND assertion" name="00009: EMP_DTL_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00021: EXEC CICS SEND assertion" name="00010: EMP_DTL_SLASH2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00021: EXEC CICS SEND assertion" name="00011: EMP_DTL_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00021: EXEC CICS SEND assertion" name="00012: FILLER3"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00021: EXEC CICS SEND assertion" name="00013: EMP_DTL_YRS_OF_SERVICE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00021: EXEC CICS SEND assertion" name="00014: FILLER4"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00021: EXEC CICS SEND assertion" name="00015: EMP_DTL_WAGES"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00021: EXEC CICS SEND assertion" name="00016: FILLER5"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00021: EXEC CICS SEND assertion" name="00017: EMP_DTL_OT"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00021: EXEC CICS SEND assertion" name="00018: FILLER6"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00021: EXEC CICS SEND assertion" name="00019: EMP_DTL_COMM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00021: EXEC CICS SEND assertion" name="00020: FILLER7"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00021: EXEC CICS SEND assertion" name="00021: EMP_DTL_TOTAL"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00021: EXEC CICS SEND assertion" name="00022: FILLER8"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00022: EXEC CICS SEND assertion" tests="346">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00022: EXEC CICS SEND assertion" name="00001: FILLER0"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00023: EXEC CICS SEND assertion" tests="350">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00023: EXEC CICS SEND assertion" name="00001: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00023: EXEC CICS SEND assertion" name="00002: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00023: EXEC CICS SEND assertion" name="00003: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00023: EXEC CICS SEND assertion" name="00004: EMP_GRAND_TOTAL"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00024: EXEC CICS SEND assertion" tests="350">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_BMS_SEND_RECEIVE_01.00024: EXEC CICS SEND assertion" name="EXEC CICS SEND"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00001: EXEC CICS DELETEQ assertion" tests="0">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00001: EXEC CICS DELETEQ assertion" name="EXEC CICS DELETEQ"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00002: EXEC CICS WRITEQ assertion" tests="18">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00002: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00002: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00002: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00002: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00002: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00002: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00002: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00002: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00002: EXEC CICS WRITEQ assertion" name="00009: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00002: EXEC CICS WRITEQ assertion" name="00010: WA_SALES_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00002: EXEC CICS WRITEQ assertion" name="00011: WA_SALES_AMOUNT"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00002: EXEC CICS WRITEQ assertion" name="00012: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00002: EXEC CICS WRITEQ assertion" name="00013: WA_MGMT_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00002: EXEC CICS WRITEQ assertion" name="00014: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00002: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00002: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00002: EXEC CICS WRITEQ assertion" name="00017: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00002: EXEC CICS WRITEQ assertion" name="00018: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00003: EXEC CICS WRITEQ assertion" tests="35">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00003: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00003: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00003: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00003: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00003: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00003: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00003: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00003: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00003: EXEC CICS WRITEQ assertion" name="00009: WA_EMP_HOURS"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00003: EXEC CICS WRITEQ assertion" name="00010: WA_EMP_RATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00003: EXEC CICS WRITEQ assertion" name="00011: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00003: EXEC CICS WRITEQ assertion" name="00012: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00003: EXEC CICS WRITEQ assertion" name="00013: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00003: EXEC CICS WRITEQ assertion" name="00014: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00003: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00003: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00003: EXEC CICS WRITEQ assertion" name="00017: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00004: EXEC CICS WRITEQ assertion" tests="52">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00004: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00004: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00004: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00004: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00004: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00004: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00004: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00004: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00004: EXEC CICS WRITEQ assertion" name="00009: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00004: EXEC CICS WRITEQ assertion" name="00010: WA_SALES_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00004: EXEC CICS WRITEQ assertion" name="00011: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00004: EXEC CICS WRITEQ assertion" name="00012: WA_MGMT_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00004: EXEC CICS WRITEQ assertion" name="00013: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00004: EXEC CICS WRITEQ assertion" name="00014: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00004: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00004: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00004: EXEC CICS WRITEQ assertion" name="00017: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00005: EXEC CICS WRITEQ assertion" tests="69">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00005: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00005: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00005: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00005: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00005: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00005: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00005: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00005: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00005: EXEC CICS WRITEQ assertion" name="00009: WA_EMP_HOURS"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00005: EXEC CICS WRITEQ assertion" name="00010: WA_EMP_RATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00005: EXEC CICS WRITEQ assertion" name="00011: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00005: EXEC CICS WRITEQ assertion" name="00012: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00005: EXEC CICS WRITEQ assertion" name="00013: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00005: EXEC CICS WRITEQ assertion" name="00014: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00005: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00005: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00005: EXEC CICS WRITEQ assertion" name="00017: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00006: EXEC CICS WRITEQ assertion" tests="87">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00006: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00006: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00006: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00006: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00006: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00006: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00006: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00006: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00006: EXEC CICS WRITEQ assertion" name="00009: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00006: EXEC CICS WRITEQ assertion" name="00010: WA_SALES_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00006: EXEC CICS WRITEQ assertion" name="00011: WA_SALES_AMOUNT"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00006: EXEC CICS WRITEQ assertion" name="00012: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00006: EXEC CICS WRITEQ assertion" name="00013: WA_MGMT_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00006: EXEC CICS WRITEQ assertion" name="00014: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00006: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00006: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00006: EXEC CICS WRITEQ assertion" name="00017: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00006: EXEC CICS WRITEQ assertion" name="00018: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00007: EXEC CICS DELETEQ assertion" tests="87">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-WEST_01.00007: EXEC CICS DELETEQ assertion" name="EXEC CICS DELETEQ"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" tests="0">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="EXEC CICS RETURN"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_EXEC_CICS_ASKTIME1_01.00001: EXEC CICS ASKTIME assertion" tests="0">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_EXEC_CICS_ASKTIME1_01.00001: EXEC CICS ASKTIME assertion" name="EXEC CICS ASKTIME"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00001: EXEC CICS DELETEQ assertion" tests="0">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00001: EXEC CICS DELETEQ assertion" name="EXEC CICS DELETEQ"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00002: EXEC CICS WRITEQ assertion" tests="18">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00002: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00002: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00002: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00002: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00002: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00002: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00002: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00002: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00002: EXEC CICS WRITEQ assertion" name="00009: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00002: EXEC CICS WRITEQ assertion" name="00010: WA_SALES_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00002: EXEC CICS WRITEQ assertion" name="00011: WA_SALES_AMOUNT"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00002: EXEC CICS WRITEQ assertion" name="00012: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00002: EXEC CICS WRITEQ assertion" name="00013: WA_MGMT_SALARY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00002: EXEC CICS WRITEQ assertion" name="00014: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00002: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00002: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00002: EXEC CICS WRITEQ assertion" name="00017: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00002: EXEC CICS WRITEQ assertion" name="00018: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00003: EXEC CICS WRITEQ assertion" tests="35">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00003: EXEC CICS WRITEQ assertion" name="00001: WA_EMP_NUM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00003: EXEC CICS WRITEQ assertion" name="00002: WA_EMP_TYPE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00003: EXEC CICS WRITEQ assertion" name="00003: WA_EMP_REGION"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00003: EXEC CICS WRITEQ assertion" name="00004: WA_EMP_NAME"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00003: EXEC CICS WRITEQ assertion" name="00005: WA_EMP_STREET"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00003: EXEC CICS WRITEQ assertion" name="00006: WA_EMP_CITY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00003: EXEC CICS WRITEQ assertion" name="00007: WA_EMP_STATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00003: EXEC CICS WRITEQ assertion" name="00008: WA_EMP_ZIP"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00003: EXEC CICS WRITEQ assertion" name="00009: WA_EMP_HOURS"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00003: EXEC CICS WRITEQ assertion" name="00010: WA_EMP_RATE"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00003: EXEC CICS WRITEQ assertion" name="00011: FILLER0"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00003: EXEC CICS WRITEQ assertion" name="00012: FILLER1"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00003: EXEC CICS WRITEQ assertion" name="00013: FILLER2"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00003: EXEC CICS WRITEQ assertion" name="00014: WA_EMP_HIRE_YY"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00003: EXEC CICS WRITEQ assertion" name="00015: WA_EMP_HIRE_MM"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00003: EXEC CICS WRITEQ assertion" name="00016: WA_EMP_HIRE_DD"/>
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00003: EXEC CICS WRITEQ assertion" name="00017: FILLER3"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00004: EXEC CICS DELETEQ assertion" tests="35">
+    <testcase classname="TTT_Demo.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_QUEUE_TS_TTT-NORTH_01.00004: EXEC CICS DELETEQ assertion" name="EXEC CICS DELETEQ"/>
+  </testsuite>
+</testsuites>

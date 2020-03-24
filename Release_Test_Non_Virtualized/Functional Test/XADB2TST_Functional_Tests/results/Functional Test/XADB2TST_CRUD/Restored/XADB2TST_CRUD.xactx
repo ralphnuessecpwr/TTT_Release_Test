@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5cee98c2d3142c1f90a4976d" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3">
+  <ExtensionData />
+  <ExtensionData componentName="xadb2tst" componentId="5d4d3c84423da3164cab5cb0">
+    <Parameter key="db2id">
+      <Value>DBCC</Value>
+    </Parameter>
+    <Parameter key="sourcelibrary">
+      <Value>HDDRXM0.DEMO.COB.BATCH</Value>
+    </Parameter>
+    <Parameter key="db2plan">
+      <Value>TOPAZTST</Value>
+    </Parameter>
+    <Parameter key="loadlibrary">
+      <Value>SYS2.CW.CXR17Y.SLCXLOAD</Value>
+    </Parameter>
+    <Parameter key="callinterface">
+      <Value>NONE</Value>
+    </Parameter>
+  </ExtensionData>
+  <XaUnit path="XADB2TST_CRUD.xaunit" />
+</ExecutionContext>

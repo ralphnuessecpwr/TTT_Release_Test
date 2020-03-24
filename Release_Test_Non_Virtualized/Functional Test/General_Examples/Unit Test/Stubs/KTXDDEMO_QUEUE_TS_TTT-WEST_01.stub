@@ -1,0 +1,1289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub:stub xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/KTXDDEMO_QUEUE_TS_TTT-WEST_01.stub" nextCalltoken="90008" stubtype="CICS" target="TTT-WEST        " token="90000">
+  <stub:description>Created: 08.02.2019 11:23:37</stub:description>
+  <stub:stubdata callToken="90001" id="0" name="EXEC CICS DELETEQ">
+    <stub:interface>../Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST.interface#Unit%20Test/Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST.interface#Unit%20Test/Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a0680002780002100f0f1f4f3f2404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" id="input0.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-QUEUE-WEST.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-QUEUE-WEST.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-QUEUE-WEST.listructure#TS_QUEUE_WEST" id="arg1.TS_QUEUE_WEST">
+        <properties:properties>
+          <properties:property name="value" type="string">E3E3E360E6C5E2E34040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-QUEUE-WEST.listructure#TS_QUEUE_WEST.TS_QUEUE_WEST" id="input0.arg1.TS_QUEUE_WEST.TS_QUEUE_WEST" offset="0"/>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a0680002780002100f0f1f4f3f2404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" id="output0.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-QUEUE-WEST.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-QUEUE-WEST.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-QUEUE-WEST.listructure#TS_QUEUE_WEST" id="arg1.TS_QUEUE_WEST">
+        <properties:properties>
+          <properties:property name="value" type="string">E3E3E360E6C5E2E34040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-QUEUE-WEST.listructure#TS_QUEUE_WEST.TS_QUEUE_WEST" id="output0.arg1.TS_QUEUE_WEST.TS_QUEUE_WEST" offset="0"/>
+    </stub:output>
+    <stub:statement type="EXEC CICS DELETEQ">
+      <stub:text>      *EXEC CICS DELETEQ TS
+      *     QNAME(TS-QUEUE-WEST)
+      *     RESP(CICS-RESPONSE)
+      *END-EXEC.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+        <properties:properties>
+          <properties:property name="value" type="string">0052327F0119039FD2E3E7C40004177CC3F4F3F60000000400007D0A0602000000000000000000000000000000000000000000E3E3E360E6C5E2E300000000000000000000000000000000000000002C0000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibtime" id="eib.arg0.dfheiblk.eibtime" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibdate" id="eib.arg0.dfheiblk.eibdate" offset="4"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibtrnid" id="eib.arg0.dfheiblk.eibtrnid" offset="8"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibtaskn" id="eib.arg0.dfheiblk.eibtaskn" offset="12"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibtrmid" id="eib.arg0.dfheiblk.eibtrmid" offset="16"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.dfheigdi" id="eib.arg0.dfheiblk.dfheigdi" offset="20"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibcposn" id="eib.arg0.dfheiblk.eibcposn" offset="22"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibcalen" id="eib.arg0.dfheiblk.eibcalen" offset="24"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibaid" id="eib.arg0.dfheiblk.eibaid" offset="26"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibfn" id="eib.arg0.dfheiblk.eibfn" offset="27"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibrcode" id="eib.arg0.dfheiblk.eibrcode" offset="29"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibds" id="eib.arg0.dfheiblk.eibds" offset="35"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibreqid" id="eib.arg0.dfheiblk.eibreqid" offset="43"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibrsrce" id="eib.arg0.dfheiblk.eibrsrce" offset="51"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibsync" id="eib.arg0.dfheiblk.eibsync" offset="59"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibfree" id="eib.arg0.dfheiblk.eibfree" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibrecv" id="eib.arg0.dfheiblk.eibrecv" offset="61"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibfil01" id="eib.arg0.dfheiblk.eibfil01" offset="62"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibatt" id="eib.arg0.dfheiblk.eibatt" offset="63"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibeoc" id="eib.arg0.dfheiblk.eibeoc" offset="64"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibfmh" id="eib.arg0.dfheiblk.eibfmh" offset="65"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibcompl" id="eib.arg0.dfheiblk.eibcompl" offset="66"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibsig" id="eib.arg0.dfheiblk.eibsig" offset="67"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibconf" id="eib.arg0.dfheiblk.eibconf" offset="68"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eiberr" id="eib.arg0.dfheiblk.eiberr" offset="69"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eiberrcd" id="eib.arg0.dfheiblk.eiberrcd" offset="70"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibsynrb" id="eib.arg0.dfheiblk.eibsynrb" offset="74"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibnodat" id="eib.arg0.dfheiblk.eibnodat" offset="75"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibresp" id="eib.arg0.dfheiblk.eibresp" offset="76"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibresp2" id="eib.arg0.dfheiblk.eibresp2" offset="80"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibrldbk" id="eib.arg0.dfheiblk.eibrldbk" offset="84"/>
+    </stub:eib>
+  </stub:stubdata>
+  <stub:stubdata callToken="90002" id="1" name="EXEC CICS WRITEQ">
+    <stub:interface>../Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface#Unit%20Test/Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface#Unit%20Test/Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a02e0002780004100f0f1f2f7f1404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" id="input1.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#TS_CUR_QUEUE_NAME" id="arg1.TS_CUR_QUEUE_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">E3E3E360E6C5E2E34040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#TS_CUR_QUEUE_NAME.TS_CUR_QUEUE_NAME" id="input1.arg1.TS_CUR_QUEUE_NAME.TS_CUR_QUEUE_NAME" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg2.EMPLOYEE_WORK_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F9F5F9E2F4C4D6D5D5C140C2D9D6E6D540404040F340E2C1D540E3C8D6D4C1E2404040C3C1D4D7C2C5D3D3C3C1F9F5F1F3F3404040403000000FF5F5F5F5F0F0F04040F8F1F1F1F1F14040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NUM" id="input1.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NUM" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_TYPE" id="input1.arg2.EMPLOYEE_WORK_AREA.WA_EMP_TYPE" offset="5"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_REGION" id="input1.arg2.EMPLOYEE_WORK_AREA.WA_EMP_REGION" offset="6"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NAME" id="input1.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NAME" offset="7"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" id="input1.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" offset="22"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" id="input1.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" offset="37"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" id="input1.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" offset="45"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" id="input1.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" offset="47"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" id="input1.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" id="input1.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" offset="58"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" id="input1.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" offset="61"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" id="input1.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" id="input1.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" id="input1.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" offset="67"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" id="input1.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" offset="56"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" id="input1.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" offset="60"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="input1.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="69"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="input1.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="71"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="input1.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="73"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="input1.arg2.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#EMPOLYEE_RECORD_LENGTH" id="arg3.EMPOLYEE_RECORD_LENGTH">
+        <properties:properties>
+          <properties:property name="value" type="string">0050</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#EMPOLYEE_RECORD_LENGTH.EMPOLYEE_RECORD_LENGTH" id="input1.arg3.EMPOLYEE_RECORD_LENGTH.EMPOLYEE_RECORD_LENGTH" offset="0"/>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a02e0002780004100f0f1f2f7f1404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" id="output1.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#TS_CUR_QUEUE_NAME" id="arg1.TS_CUR_QUEUE_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">E3E3E360E6C5E2E34040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#TS_CUR_QUEUE_NAME.TS_CUR_QUEUE_NAME" id="output1.arg1.TS_CUR_QUEUE_NAME.TS_CUR_QUEUE_NAME" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg2.EMPLOYEE_WORK_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F9F5F9E2F4C4D6D5D5C140C2D9D6E6D540404040F340E2C1D540E3C8D6D4C1E2404040C3C1D4D7C2C5D3D3C3C1F9F5F1F3F3404040403000000FF5F5F5F5F0F0F04040F8F1F1F1F1F14040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NUM" id="output1.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NUM" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_TYPE" id="output1.arg2.EMPLOYEE_WORK_AREA.WA_EMP_TYPE" offset="5"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_REGION" id="output1.arg2.EMPLOYEE_WORK_AREA.WA_EMP_REGION" offset="6"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NAME" id="output1.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NAME" offset="7"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" id="output1.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" offset="22"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" id="output1.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" offset="37"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" id="output1.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" offset="45"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" id="output1.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" offset="47"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" id="output1.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" id="output1.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" offset="58"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" id="output1.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" offset="61"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" id="output1.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" id="output1.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" id="output1.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" offset="67"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" id="output1.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" offset="56"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" id="output1.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" offset="60"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="output1.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="69"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="output1.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="71"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="output1.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="73"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="output1.arg2.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#EMPOLYEE_RECORD_LENGTH" id="arg3.EMPOLYEE_RECORD_LENGTH">
+        <properties:properties>
+          <properties:property name="value" type="string">0050</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#EMPOLYEE_RECORD_LENGTH.EMPOLYEE_RECORD_LENGTH" id="output1.arg3.EMPOLYEE_RECORD_LENGTH.EMPOLYEE_RECORD_LENGTH" offset="0"/>
+    </stub:output>
+    <stub:inputDataCheckconditions>
+      <checkconditions:simpleCheckcondition refData="#input1.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NUM">
+        <checkconditions:expression>BigDecimalCreator.make('959').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NUM) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">959</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input1.arg2.EMPLOYEE_WORK_AREA.WA_EMP_TYPE">
+        <checkconditions:expression>'S' eq result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_TYPE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">S</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input1.arg2.EMPLOYEE_WORK_AREA.WA_EMP_REGION">
+        <checkconditions:expression>BigDecimalCreator.make('4').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_REGION) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">4</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input1.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NAME">
+        <checkconditions:expression>'DONNA BROWN' eq result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NAME</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">DONNA BROWN</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input1.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET">
+        <checkconditions:expression>'3 SAN THOMAS' eq result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">3 SAN THOMAS</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input1.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY">
+        <checkconditions:expression>'CAMPBELL' eq result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CAMPBELL</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input1.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE">
+        <checkconditions:expression>'CA' eq result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CA</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input1.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP">
+        <checkconditions:expression>'95133' eq result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">95133</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input1.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0">
+        <checkconditions:expression>'555000' eq result.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">555000</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input1.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY">
+        <checkconditions:expression>BigDecimalCreator.make('30000.00').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">30000.00</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input1.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT">
+        <checkconditions:expression>BigDecimalCreator.make('55550.00').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">55550.00</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input1.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1">
+        <checkconditions:expression>'' eq result.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input1.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY">
+        <checkconditions:expression>BigDecimalCreator.make('30000.00').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">30000.00</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input1.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2">
+        <checkconditions:expression>'5555000' eq result.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">5555000</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input1.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY">
+        <checkconditions:expression>BigDecimalCreator.make('81').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">81</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input1.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM">
+        <checkconditions:expression>BigDecimalCreator.make('11').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">11</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input1.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD">
+        <checkconditions:expression>BigDecimalCreator.make('11').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">11</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input1.arg2.EMPLOYEE_WORK_AREA.FILLER3">
+        <checkconditions:expression>'' eq result.arg2.EMPLOYEE_WORK_AREA.FILLER3</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:inputDataCheckconditions>
+    <stub:statement type="EXEC CICS WRITEQ">
+      <stub:text>      *EXEC CICS WRITEQ TS
+      *        QNAME(TS-CUR-QUEUE-NAME)
+      *        FROM(EMPLOYEE-WORK-AREA)
+      *        LENGTH (EMPOLYEE-RECORD-LENGTH)
+      *        RESP(CICS-RESPONSE)
+      *END-EXEC.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+        <properties:properties>
+          <properties:property name="value" type="string">0052327F0119039FD2E3E7C40004177CC3F4F3F60000000400007D0A0200000000000000000000000000000000000000000000E3E3E360E6C5E2E30000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibtime" id="eib.arg0.dfheiblk.eibtime" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibdate" id="eib.arg0.dfheiblk.eibdate" offset="4"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibtrnid" id="eib.arg0.dfheiblk.eibtrnid" offset="8"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibtaskn" id="eib.arg0.dfheiblk.eibtaskn" offset="12"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibtrmid" id="eib.arg0.dfheiblk.eibtrmid" offset="16"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.dfheigdi" id="eib.arg0.dfheiblk.dfheigdi" offset="20"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibcposn" id="eib.arg0.dfheiblk.eibcposn" offset="22"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibcalen" id="eib.arg0.dfheiblk.eibcalen" offset="24"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibaid" id="eib.arg0.dfheiblk.eibaid" offset="26"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibfn" id="eib.arg0.dfheiblk.eibfn" offset="27"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibrcode" id="eib.arg0.dfheiblk.eibrcode" offset="29"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibds" id="eib.arg0.dfheiblk.eibds" offset="35"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibreqid" id="eib.arg0.dfheiblk.eibreqid" offset="43"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibrsrce" id="eib.arg0.dfheiblk.eibrsrce" offset="51"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibsync" id="eib.arg0.dfheiblk.eibsync" offset="59"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibfree" id="eib.arg0.dfheiblk.eibfree" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibrecv" id="eib.arg0.dfheiblk.eibrecv" offset="61"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibfil01" id="eib.arg0.dfheiblk.eibfil01" offset="62"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibatt" id="eib.arg0.dfheiblk.eibatt" offset="63"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibeoc" id="eib.arg0.dfheiblk.eibeoc" offset="64"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibfmh" id="eib.arg0.dfheiblk.eibfmh" offset="65"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibcompl" id="eib.arg0.dfheiblk.eibcompl" offset="66"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibsig" id="eib.arg0.dfheiblk.eibsig" offset="67"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibconf" id="eib.arg0.dfheiblk.eibconf" offset="68"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eiberr" id="eib.arg0.dfheiblk.eiberr" offset="69"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eiberrcd" id="eib.arg0.dfheiblk.eiberrcd" offset="70"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibsynrb" id="eib.arg0.dfheiblk.eibsynrb" offset="74"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibnodat" id="eib.arg0.dfheiblk.eibnodat" offset="75"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibresp" id="eib.arg0.dfheiblk.eibresp" offset="76"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibresp2" id="eib.arg0.dfheiblk.eibresp2" offset="80"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibrldbk" id="eib.arg0.dfheiblk.eibrldbk" offset="84"/>
+    </stub:eib>
+  </stub:stubdata>
+  <stub:stubdata callToken="90003" id="2" name="EXEC CICS WRITEQ">
+    <stub:interface>../Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface#Unit%20Test/Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface#Unit%20Test/Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a02e0002780004100f0f1f2f7f1404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" id="input2.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#TS_CUR_QUEUE_NAME" id="arg1.TS_CUR_QUEUE_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">E3E3E360E6C5E2E34040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#TS_CUR_QUEUE_NAME.TS_CUR_QUEUE_NAME" id="input2.arg1.TS_CUR_QUEUE_NAME.TS_CUR_QUEUE_NAME" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg2.EMPLOYEE_WORK_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F1F5F6F8C8F4E3C8D6D4C1E240D3D6D5C740404040F1F240D9C1C3C540E2E3D9C5C5E340E2C1D540D1D6E2C5C3C1F9F5F1F2F640404040F4F003000F4040404040404040F8F7F0F3F3F14040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NUM" id="input2.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NUM" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_TYPE" id="input2.arg2.EMPLOYEE_WORK_AREA.WA_EMP_TYPE" offset="5"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_REGION" id="input2.arg2.EMPLOYEE_WORK_AREA.WA_EMP_REGION" offset="6"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NAME" id="input2.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NAME" offset="7"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" id="input2.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" offset="22"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" id="input2.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" offset="37"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" id="input2.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" offset="45"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" id="input2.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" offset="47"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" id="input2.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" id="input2.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" offset="58"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" id="input2.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" offset="61"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" id="input2.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" id="input2.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" id="input2.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" offset="67"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" id="input2.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" offset="56"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" id="input2.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" offset="60"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="input2.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="69"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="input2.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="71"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="input2.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="73"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="input2.arg2.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#EMPOLYEE_RECORD_LENGTH" id="arg3.EMPOLYEE_RECORD_LENGTH">
+        <properties:properties>
+          <properties:property name="value" type="string">0050</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#EMPOLYEE_RECORD_LENGTH.EMPOLYEE_RECORD_LENGTH" id="input2.arg3.EMPOLYEE_RECORD_LENGTH.EMPOLYEE_RECORD_LENGTH" offset="0"/>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a02e0002780004100f0f1f2f7f1404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" id="output2.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#TS_CUR_QUEUE_NAME" id="arg1.TS_CUR_QUEUE_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">E3E3E360E6C5E2E34040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#TS_CUR_QUEUE_NAME.TS_CUR_QUEUE_NAME" id="output2.arg1.TS_CUR_QUEUE_NAME.TS_CUR_QUEUE_NAME" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg2.EMPLOYEE_WORK_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F1F5F6F8C8F4E3C8D6D4C1E240D3D6D5C740404040F1F240D9C1C3C540E2E3D9C5C5E340E2C1D540D1D6E2C5C3C1F9F5F1F2F640404040F4F003000F4040404040404040F8F7F0F3F3F14040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NUM" id="output2.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NUM" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_TYPE" id="output2.arg2.EMPLOYEE_WORK_AREA.WA_EMP_TYPE" offset="5"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_REGION" id="output2.arg2.EMPLOYEE_WORK_AREA.WA_EMP_REGION" offset="6"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NAME" id="output2.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NAME" offset="7"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" id="output2.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" offset="22"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" id="output2.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" offset="37"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" id="output2.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" offset="45"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" id="output2.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" offset="47"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" id="output2.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" id="output2.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" offset="58"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" id="output2.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" offset="61"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" id="output2.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" id="output2.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" id="output2.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" offset="67"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" id="output2.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" offset="56"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" id="output2.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" offset="60"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="output2.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="69"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="output2.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="71"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="output2.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="73"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="output2.arg2.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#EMPOLYEE_RECORD_LENGTH" id="arg3.EMPOLYEE_RECORD_LENGTH">
+        <properties:properties>
+          <properties:property name="value" type="string">0050</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#EMPOLYEE_RECORD_LENGTH.EMPOLYEE_RECORD_LENGTH" id="output2.arg3.EMPOLYEE_RECORD_LENGTH.EMPOLYEE_RECORD_LENGTH" offset="0"/>
+    </stub:output>
+    <stub:inputDataCheckconditions>
+      <checkconditions:simpleCheckcondition refData="#input2.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NUM">
+        <checkconditions:expression>BigDecimalCreator.make('1568').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NUM) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">1568</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input2.arg2.EMPLOYEE_WORK_AREA.WA_EMP_TYPE">
+        <checkconditions:expression>'H' eq result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_TYPE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">H</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input2.arg2.EMPLOYEE_WORK_AREA.WA_EMP_REGION">
+        <checkconditions:expression>BigDecimalCreator.make('4').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_REGION) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">4</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input2.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NAME">
+        <checkconditions:expression>'THOMAS LONG' eq result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NAME</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">THOMAS LONG</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input2.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET">
+        <checkconditions:expression>'12 RACE STREET' eq result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">12 RACE STREET</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input2.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY">
+        <checkconditions:expression>'SAN JOSE' eq result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">SAN JOSE</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input2.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE">
+        <checkconditions:expression>'CA' eq result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CA</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input2.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP">
+        <checkconditions:expression>'95126' eq result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">95126</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input2.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS">
+        <checkconditions:expression>BigDecimalCreator.make('40').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">40</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input2.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE">
+        <checkconditions:expression>BigDecimalCreator.make('30.00').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">30.00</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input2.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0">
+        <checkconditions:expression>'' eq result.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input2.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1">
+        <checkconditions:expression>'' eq result.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input2.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2">
+        <checkconditions:expression>x'0F4040404040404040' eq result.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'0F4040404040404040'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input2.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY">
+        <checkconditions:expression>BigDecimalCreator.make('87').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">87</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input2.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM">
+        <checkconditions:expression>BigDecimalCreator.make('3').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">3</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input2.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD">
+        <checkconditions:expression>BigDecimalCreator.make('31').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">31</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input2.arg2.EMPLOYEE_WORK_AREA.FILLER3">
+        <checkconditions:expression>'' eq result.arg2.EMPLOYEE_WORK_AREA.FILLER3</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:inputDataCheckconditions>
+    <stub:statement type="EXEC CICS WRITEQ">
+      <stub:text>      *EXEC CICS WRITEQ TS
+      *        QNAME(TS-CUR-QUEUE-NAME)
+      *        FROM(EMPLOYEE-WORK-AREA)
+      *        LENGTH (EMPOLYEE-RECORD-LENGTH)
+      *        RESP(CICS-RESPONSE)
+      *END-EXEC.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+        <properties:properties>
+          <properties:property name="value" type="string">0052327F0119039FD2E3E7C40004177CC3F4F3F60000000400007D0A0200000000000000000000000000000000000000000000E3E3E360E6C5E2E30000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibtime" id="eib.arg0.dfheiblk.eibtime" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibdate" id="eib.arg0.dfheiblk.eibdate" offset="4"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibtrnid" id="eib.arg0.dfheiblk.eibtrnid" offset="8"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibtaskn" id="eib.arg0.dfheiblk.eibtaskn" offset="12"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibtrmid" id="eib.arg0.dfheiblk.eibtrmid" offset="16"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.dfheigdi" id="eib.arg0.dfheiblk.dfheigdi" offset="20"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibcposn" id="eib.arg0.dfheiblk.eibcposn" offset="22"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibcalen" id="eib.arg0.dfheiblk.eibcalen" offset="24"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibaid" id="eib.arg0.dfheiblk.eibaid" offset="26"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibfn" id="eib.arg0.dfheiblk.eibfn" offset="27"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibrcode" id="eib.arg0.dfheiblk.eibrcode" offset="29"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibds" id="eib.arg0.dfheiblk.eibds" offset="35"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibreqid" id="eib.arg0.dfheiblk.eibreqid" offset="43"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibrsrce" id="eib.arg0.dfheiblk.eibrsrce" offset="51"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibsync" id="eib.arg0.dfheiblk.eibsync" offset="59"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibfree" id="eib.arg0.dfheiblk.eibfree" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibrecv" id="eib.arg0.dfheiblk.eibrecv" offset="61"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibfil01" id="eib.arg0.dfheiblk.eibfil01" offset="62"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibatt" id="eib.arg0.dfheiblk.eibatt" offset="63"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibeoc" id="eib.arg0.dfheiblk.eibeoc" offset="64"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibfmh" id="eib.arg0.dfheiblk.eibfmh" offset="65"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibcompl" id="eib.arg0.dfheiblk.eibcompl" offset="66"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibsig" id="eib.arg0.dfheiblk.eibsig" offset="67"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibconf" id="eib.arg0.dfheiblk.eibconf" offset="68"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eiberr" id="eib.arg0.dfheiblk.eiberr" offset="69"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eiberrcd" id="eib.arg0.dfheiblk.eiberrcd" offset="70"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibsynrb" id="eib.arg0.dfheiblk.eibsynrb" offset="74"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibnodat" id="eib.arg0.dfheiblk.eibnodat" offset="75"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibresp" id="eib.arg0.dfheiblk.eibresp" offset="76"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibresp2" id="eib.arg0.dfheiblk.eibresp2" offset="80"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibrldbk" id="eib.arg0.dfheiblk.eibrldbk" offset="84"/>
+    </stub:eib>
+  </stub:stubdata>
+  <stub:stubdata callToken="90004" id="3" name="EXEC CICS WRITEQ">
+    <stub:interface>../Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface#Unit%20Test/Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface#Unit%20Test/Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a02e0002780004100f0f1f2f7f1404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" id="input3.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#TS_CUR_QUEUE_NAME" id="arg1.TS_CUR_QUEUE_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">E3E3E360E6C5E2E34040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#TS_CUR_QUEUE_NAME.TS_CUR_QUEUE_NAME" id="input3.arg1.TS_CUR_QUEUE_NAME.TS_CUR_QUEUE_NAME" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg2.EMPLOYEE_WORK_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F1F3F6D4F4E2C1D440D4C9D3D3E2404040404040F1F340E2E4E3E3D6D540C2D3E5C440E6C1D3D5E4E34040C3C1F9F0F0F6F6404040402000000F404040404040404040F9F0F0F3F1F74040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NUM" id="input3.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NUM" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_TYPE" id="input3.arg2.EMPLOYEE_WORK_AREA.WA_EMP_TYPE" offset="5"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_REGION" id="input3.arg2.EMPLOYEE_WORK_AREA.WA_EMP_REGION" offset="6"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NAME" id="input3.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NAME" offset="7"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" id="input3.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" offset="22"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" id="input3.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" offset="37"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" id="input3.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" offset="45"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" id="input3.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" offset="47"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" id="input3.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" id="input3.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" offset="58"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" id="input3.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" offset="61"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" id="input3.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" id="input3.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" id="input3.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" offset="67"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" id="input3.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" offset="56"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" id="input3.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" offset="60"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="input3.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="69"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="input3.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="71"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="input3.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="73"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="input3.arg2.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#EMPOLYEE_RECORD_LENGTH" id="arg3.EMPOLYEE_RECORD_LENGTH">
+        <properties:properties>
+          <properties:property name="value" type="string">0050</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#EMPOLYEE_RECORD_LENGTH.EMPOLYEE_RECORD_LENGTH" id="input3.arg3.EMPOLYEE_RECORD_LENGTH.EMPOLYEE_RECORD_LENGTH" offset="0"/>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a02e0002780004100f0f1f2f7f1404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" id="output3.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#TS_CUR_QUEUE_NAME" id="arg1.TS_CUR_QUEUE_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">E3E3E360E6C5E2E34040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#TS_CUR_QUEUE_NAME.TS_CUR_QUEUE_NAME" id="output3.arg1.TS_CUR_QUEUE_NAME.TS_CUR_QUEUE_NAME" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg2.EMPLOYEE_WORK_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F1F3F6D4F4E2C1D440D4C9D3D3E2404040404040F1F340E2E4E3E3D6D540C2D3E5C440E6C1D3D5E4E34040C3C1F9F0F0F6F6404040402000000F404040404040404040F9F0F0F3F1F74040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NUM" id="output3.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NUM" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_TYPE" id="output3.arg2.EMPLOYEE_WORK_AREA.WA_EMP_TYPE" offset="5"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_REGION" id="output3.arg2.EMPLOYEE_WORK_AREA.WA_EMP_REGION" offset="6"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NAME" id="output3.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NAME" offset="7"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" id="output3.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" offset="22"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" id="output3.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" offset="37"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" id="output3.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" offset="45"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" id="output3.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" offset="47"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" id="output3.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" id="output3.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" offset="58"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" id="output3.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" offset="61"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" id="output3.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" id="output3.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" id="output3.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" offset="67"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" id="output3.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" offset="56"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" id="output3.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" offset="60"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="output3.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="69"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="output3.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="71"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="output3.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="73"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="output3.arg2.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#EMPOLYEE_RECORD_LENGTH" id="arg3.EMPOLYEE_RECORD_LENGTH">
+        <properties:properties>
+          <properties:property name="value" type="string">0050</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#EMPOLYEE_RECORD_LENGTH.EMPOLYEE_RECORD_LENGTH" id="output3.arg3.EMPOLYEE_RECORD_LENGTH.EMPOLYEE_RECORD_LENGTH" offset="0"/>
+    </stub:output>
+    <stub:inputDataCheckconditions>
+      <checkconditions:simpleCheckcondition refData="#input3.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NUM">
+        <checkconditions:expression>BigDecimalCreator.make('2136').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NUM) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">2136</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input3.arg2.EMPLOYEE_WORK_AREA.WA_EMP_TYPE">
+        <checkconditions:expression>'M' eq result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_TYPE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">M</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input3.arg2.EMPLOYEE_WORK_AREA.WA_EMP_REGION">
+        <checkconditions:expression>BigDecimalCreator.make('4').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_REGION) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">4</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input3.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NAME">
+        <checkconditions:expression>'SAM MILLS' eq result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NAME</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">SAM MILLS</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input3.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET">
+        <checkconditions:expression>'13 SUTTON BLVD' eq result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">13 SUTTON BLVD</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input3.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY">
+        <checkconditions:expression>'WALNUT' eq result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">WALNUT</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input3.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE">
+        <checkconditions:expression>'CA' eq result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CA</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input3.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP">
+        <checkconditions:expression>'90066' eq result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">90066</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input3.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0">
+        <checkconditions:expression>'' eq result.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input3.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY">
+        <checkconditions:expression>BigDecimalCreator.make('20000.00').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">20000.00</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input3.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1">
+        <checkconditions:expression>'' eq result.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input3.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY">
+        <checkconditions:expression>BigDecimalCreator.make('20000.00').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">20000.00</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input3.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2">
+        <checkconditions:expression>'' eq result.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input3.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY">
+        <checkconditions:expression>BigDecimalCreator.make('90').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">90</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input3.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM">
+        <checkconditions:expression>BigDecimalCreator.make('3').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">3</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input3.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD">
+        <checkconditions:expression>BigDecimalCreator.make('17').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">17</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input3.arg2.EMPLOYEE_WORK_AREA.FILLER3">
+        <checkconditions:expression>'' eq result.arg2.EMPLOYEE_WORK_AREA.FILLER3</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:inputDataCheckconditions>
+    <stub:statement type="EXEC CICS WRITEQ">
+      <stub:text>      *EXEC CICS WRITEQ TS
+      *        QNAME(TS-CUR-QUEUE-NAME)
+      *        FROM(EMPLOYEE-WORK-AREA)
+      *        LENGTH (EMPOLYEE-RECORD-LENGTH)
+      *        RESP(CICS-RESPONSE)
+      *END-EXEC.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+        <properties:properties>
+          <properties:property name="value" type="string">0052327F0119039FD2E3E7C40004177CC3F4F3F60000000400007D0A0200000000000000000000000000000000000000000000E3E3E360E6C5E2E30000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibtime" id="eib.arg0.dfheiblk.eibtime" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibdate" id="eib.arg0.dfheiblk.eibdate" offset="4"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibtrnid" id="eib.arg0.dfheiblk.eibtrnid" offset="8"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibtaskn" id="eib.arg0.dfheiblk.eibtaskn" offset="12"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibtrmid" id="eib.arg0.dfheiblk.eibtrmid" offset="16"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.dfheigdi" id="eib.arg0.dfheiblk.dfheigdi" offset="20"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibcposn" id="eib.arg0.dfheiblk.eibcposn" offset="22"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibcalen" id="eib.arg0.dfheiblk.eibcalen" offset="24"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibaid" id="eib.arg0.dfheiblk.eibaid" offset="26"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibfn" id="eib.arg0.dfheiblk.eibfn" offset="27"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibrcode" id="eib.arg0.dfheiblk.eibrcode" offset="29"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibds" id="eib.arg0.dfheiblk.eibds" offset="35"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibreqid" id="eib.arg0.dfheiblk.eibreqid" offset="43"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibrsrce" id="eib.arg0.dfheiblk.eibrsrce" offset="51"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibsync" id="eib.arg0.dfheiblk.eibsync" offset="59"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibfree" id="eib.arg0.dfheiblk.eibfree" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibrecv" id="eib.arg0.dfheiblk.eibrecv" offset="61"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibfil01" id="eib.arg0.dfheiblk.eibfil01" offset="62"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibatt" id="eib.arg0.dfheiblk.eibatt" offset="63"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibeoc" id="eib.arg0.dfheiblk.eibeoc" offset="64"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibfmh" id="eib.arg0.dfheiblk.eibfmh" offset="65"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibcompl" id="eib.arg0.dfheiblk.eibcompl" offset="66"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibsig" id="eib.arg0.dfheiblk.eibsig" offset="67"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibconf" id="eib.arg0.dfheiblk.eibconf" offset="68"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eiberr" id="eib.arg0.dfheiblk.eiberr" offset="69"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eiberrcd" id="eib.arg0.dfheiblk.eiberrcd" offset="70"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibsynrb" id="eib.arg0.dfheiblk.eibsynrb" offset="74"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibnodat" id="eib.arg0.dfheiblk.eibnodat" offset="75"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibresp" id="eib.arg0.dfheiblk.eibresp" offset="76"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibresp2" id="eib.arg0.dfheiblk.eibresp2" offset="80"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibrldbk" id="eib.arg0.dfheiblk.eibrldbk" offset="84"/>
+    </stub:eib>
+  </stub:stubdata>
+  <stub:stubdata callToken="90005" id="4" name="EXEC CICS WRITEQ">
+    <stub:interface>../Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface#Unit%20Test/Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface#Unit%20Test/Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a02e0002780004100f0f1f2f7f1404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" id="input4.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#TS_CUR_QUEUE_NAME" id="arg1.TS_CUR_QUEUE_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">E3E3E360E6C5E2E34040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#TS_CUR_QUEUE_NAME.TS_CUR_QUEUE_NAME" id="input4.arg1.TS_CUR_QUEUE_NAME.TS_CUR_QUEUE_NAME" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg2.EMPLOYEE_WORK_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F1F7F1C8F4E2C1D4E4C5D340C1C4C4C1D4E24040F9F0F040D3C9D5C3D6D3D540C3E340D9C5D5D640404040D5E5F8F2F4F3F340404040F4F200995F4040404040404040F8F6F0F1F0F24040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NUM" id="input4.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NUM" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_TYPE" id="input4.arg2.EMPLOYEE_WORK_AREA.WA_EMP_TYPE" offset="5"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_REGION" id="input4.arg2.EMPLOYEE_WORK_AREA.WA_EMP_REGION" offset="6"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NAME" id="input4.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NAME" offset="7"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" id="input4.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" offset="22"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" id="input4.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" offset="37"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" id="input4.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" offset="45"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" id="input4.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" offset="47"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" id="input4.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" id="input4.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" offset="58"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" id="input4.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" offset="61"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" id="input4.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" id="input4.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" id="input4.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" offset="67"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" id="input4.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" offset="56"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" id="input4.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" offset="60"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="input4.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="69"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="input4.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="71"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="input4.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="73"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="input4.arg2.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#EMPOLYEE_RECORD_LENGTH" id="arg3.EMPOLYEE_RECORD_LENGTH">
+        <properties:properties>
+          <properties:property name="value" type="string">0050</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#EMPOLYEE_RECORD_LENGTH.EMPOLYEE_RECORD_LENGTH" id="input4.arg3.EMPOLYEE_RECORD_LENGTH.EMPOLYEE_RECORD_LENGTH" offset="0"/>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a02e0002780004100f0f1f2f7f1404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" id="output4.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#TS_CUR_QUEUE_NAME" id="arg1.TS_CUR_QUEUE_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">E3E3E360E6C5E2E34040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#TS_CUR_QUEUE_NAME.TS_CUR_QUEUE_NAME" id="output4.arg1.TS_CUR_QUEUE_NAME.TS_CUR_QUEUE_NAME" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg2.EMPLOYEE_WORK_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F1F7F1C8F4E2C1D4E4C5D340C1C4C4C1D4E24040F9F0F040D3C9D5C3D6D3D540C3E340D9C5D5D640404040D5E5F8F2F4F3F340404040F4F200995F4040404040404040F8F6F0F1F0F24040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NUM" id="output4.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NUM" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_TYPE" id="output4.arg2.EMPLOYEE_WORK_AREA.WA_EMP_TYPE" offset="5"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_REGION" id="output4.arg2.EMPLOYEE_WORK_AREA.WA_EMP_REGION" offset="6"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NAME" id="output4.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NAME" offset="7"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" id="output4.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" offset="22"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" id="output4.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" offset="37"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" id="output4.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" offset="45"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" id="output4.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" offset="47"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" id="output4.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" id="output4.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" offset="58"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" id="output4.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" offset="61"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" id="output4.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" id="output4.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" id="output4.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" offset="67"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" id="output4.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" offset="56"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" id="output4.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" offset="60"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="output4.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="69"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="output4.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="71"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="output4.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="73"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="output4.arg2.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#EMPOLYEE_RECORD_LENGTH" id="arg3.EMPOLYEE_RECORD_LENGTH">
+        <properties:properties>
+          <properties:property name="value" type="string">0050</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#EMPOLYEE_RECORD_LENGTH.EMPOLYEE_RECORD_LENGTH" id="output4.arg3.EMPOLYEE_RECORD_LENGTH.EMPOLYEE_RECORD_LENGTH" offset="0"/>
+    </stub:output>
+    <stub:inputDataCheckconditions>
+      <checkconditions:simpleCheckcondition refData="#input4.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NUM">
+        <checkconditions:expression>BigDecimalCreator.make('2171').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NUM) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">2171</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input4.arg2.EMPLOYEE_WORK_AREA.WA_EMP_TYPE">
+        <checkconditions:expression>'H' eq result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_TYPE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">H</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input4.arg2.EMPLOYEE_WORK_AREA.WA_EMP_REGION">
+        <checkconditions:expression>BigDecimalCreator.make('4').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_REGION) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">4</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input4.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NAME">
+        <checkconditions:expression>'SAMUEL ADDAMS' eq result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NAME</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">SAMUEL ADDAMS</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input4.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET">
+        <checkconditions:expression>'900 LINCOLN CT' eq result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">900 LINCOLN CT</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input4.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY">
+        <checkconditions:expression>'RENO' eq result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">RENO</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input4.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE">
+        <checkconditions:expression>'NV' eq result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">NV</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input4.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP">
+        <checkconditions:expression>'82433' eq result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">82433</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input4.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS">
+        <checkconditions:expression>BigDecimalCreator.make('42').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">42</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input4.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE">
+        <checkconditions:expression>BigDecimalCreator.make('9.95').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">9.95</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input4.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0">
+        <checkconditions:expression>'' eq result.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input4.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1">
+        <checkconditions:expression>'' eq result.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input4.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2">
+        <checkconditions:expression>'^' eq result.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">^</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input4.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY">
+        <checkconditions:expression>BigDecimalCreator.make('86').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">86</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input4.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM">
+        <checkconditions:expression>BigDecimalCreator.make('1').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">1</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input4.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD">
+        <checkconditions:expression>BigDecimalCreator.make('2').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">2</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input4.arg2.EMPLOYEE_WORK_AREA.FILLER3">
+        <checkconditions:expression>'' eq result.arg2.EMPLOYEE_WORK_AREA.FILLER3</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:inputDataCheckconditions>
+    <stub:statement type="EXEC CICS WRITEQ">
+      <stub:text>      *EXEC CICS WRITEQ TS
+      *        QNAME(TS-CUR-QUEUE-NAME)
+      *        FROM(EMPLOYEE-WORK-AREA)
+      *        LENGTH (EMPOLYEE-RECORD-LENGTH)
+      *        RESP(CICS-RESPONSE)
+      *END-EXEC.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+        <properties:properties>
+          <properties:property name="value" type="string">0052327F0119039FD2E3E7C40004177CC3F4F3F60000000400007D0A0200000000000000000000000000000000000000000000E3E3E360E6C5E2E30000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibtime" id="eib.arg0.dfheiblk.eibtime" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibdate" id="eib.arg0.dfheiblk.eibdate" offset="4"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibtrnid" id="eib.arg0.dfheiblk.eibtrnid" offset="8"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibtaskn" id="eib.arg0.dfheiblk.eibtaskn" offset="12"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibtrmid" id="eib.arg0.dfheiblk.eibtrmid" offset="16"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.dfheigdi" id="eib.arg0.dfheiblk.dfheigdi" offset="20"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibcposn" id="eib.arg0.dfheiblk.eibcposn" offset="22"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibcalen" id="eib.arg0.dfheiblk.eibcalen" offset="24"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibaid" id="eib.arg0.dfheiblk.eibaid" offset="26"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibfn" id="eib.arg0.dfheiblk.eibfn" offset="27"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibrcode" id="eib.arg0.dfheiblk.eibrcode" offset="29"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibds" id="eib.arg0.dfheiblk.eibds" offset="35"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibreqid" id="eib.arg0.dfheiblk.eibreqid" offset="43"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibrsrce" id="eib.arg0.dfheiblk.eibrsrce" offset="51"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibsync" id="eib.arg0.dfheiblk.eibsync" offset="59"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibfree" id="eib.arg0.dfheiblk.eibfree" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibrecv" id="eib.arg0.dfheiblk.eibrecv" offset="61"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibfil01" id="eib.arg0.dfheiblk.eibfil01" offset="62"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibatt" id="eib.arg0.dfheiblk.eibatt" offset="63"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibeoc" id="eib.arg0.dfheiblk.eibeoc" offset="64"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibfmh" id="eib.arg0.dfheiblk.eibfmh" offset="65"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibcompl" id="eib.arg0.dfheiblk.eibcompl" offset="66"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibsig" id="eib.arg0.dfheiblk.eibsig" offset="67"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibconf" id="eib.arg0.dfheiblk.eibconf" offset="68"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eiberr" id="eib.arg0.dfheiblk.eiberr" offset="69"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eiberrcd" id="eib.arg0.dfheiblk.eiberrcd" offset="70"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibsynrb" id="eib.arg0.dfheiblk.eibsynrb" offset="74"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibnodat" id="eib.arg0.dfheiblk.eibnodat" offset="75"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibresp" id="eib.arg0.dfheiblk.eibresp" offset="76"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibresp2" id="eib.arg0.dfheiblk.eibresp2" offset="80"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibrldbk" id="eib.arg0.dfheiblk.eibrldbk" offset="84"/>
+    </stub:eib>
+  </stub:stubdata>
+  <stub:stubdata callToken="90006" id="5" name="EXEC CICS WRITEQ">
+    <stub:interface>../Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface#Unit%20Test/Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface#Unit%20Test/Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a02e0002780004100f0f1f2f7f1404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" id="input5.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#TS_CUR_QUEUE_NAME" id="arg1.TS_CUR_QUEUE_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">E3E3E360E6C5E2E34040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#TS_CUR_QUEUE_NAME.TS_CUR_QUEUE_NAME" id="input5.arg1.TS_CUR_QUEUE_NAME.TS_CUR_QUEUE_NAME" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg2.EMPLOYEE_WORK_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F3F2F1F5E2F4D4C1D9D240D1D6C8D5E2D6D5404040F1F240C8D6C2C1D9E340D9D6C1C440D7C8D6C5D5C9E740C1E9F3F1F2F3F4404040405900000FF7F5F0F0F0F0F04040F8F2F0F9F3F04040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NUM" id="input5.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NUM" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_TYPE" id="input5.arg2.EMPLOYEE_WORK_AREA.WA_EMP_TYPE" offset="5"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_REGION" id="input5.arg2.EMPLOYEE_WORK_AREA.WA_EMP_REGION" offset="6"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NAME" id="input5.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NAME" offset="7"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" id="input5.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" offset="22"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" id="input5.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" offset="37"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" id="input5.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" offset="45"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" id="input5.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" offset="47"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" id="input5.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" id="input5.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" offset="58"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" id="input5.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" offset="61"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" id="input5.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" id="input5.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" id="input5.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" offset="67"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" id="input5.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" offset="56"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" id="input5.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" offset="60"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="input5.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="69"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="input5.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="71"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="input5.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="73"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="input5.arg2.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#EMPOLYEE_RECORD_LENGTH" id="arg3.EMPOLYEE_RECORD_LENGTH">
+        <properties:properties>
+          <properties:property name="value" type="string">0050</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#EMPOLYEE_RECORD_LENGTH.EMPOLYEE_RECORD_LENGTH" id="input5.arg3.EMPOLYEE_RECORD_LENGTH.EMPOLYEE_RECORD_LENGTH" offset="0"/>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a02e0002780004100f0f1f2f7f1404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" id="output5.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#TS_CUR_QUEUE_NAME" id="arg1.TS_CUR_QUEUE_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">E3E3E360E6C5E2E34040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#TS_CUR_QUEUE_NAME.TS_CUR_QUEUE_NAME" id="output5.arg1.TS_CUR_QUEUE_NAME.TS_CUR_QUEUE_NAME" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg2.EMPLOYEE_WORK_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F3F2F1F5E2F4D4C1D9D240D1D6C8D5E2D6D5404040F1F240C8D6C2C1D9E340D9D6C1C440D7C8D6C5D5C9E740C1E9F3F1F2F3F4404040405900000FF7F5F0F0F0F0F04040F8F2F0F9F3F04040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NUM" id="output5.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NUM" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_TYPE" id="output5.arg2.EMPLOYEE_WORK_AREA.WA_EMP_TYPE" offset="5"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_REGION" id="output5.arg2.EMPLOYEE_WORK_AREA.WA_EMP_REGION" offset="6"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_NAME" id="output5.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NAME" offset="7"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" id="output5.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET" offset="22"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" id="output5.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY" offset="37"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" id="output5.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE" offset="45"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" id="output5.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP" offset="47"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" id="output5.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_HOURS" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" id="output5.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.WA_EMP_RATE" offset="58"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" id="output5.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0" offset="61"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" id="output5.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY" offset="56"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" id="output5.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" id="output5.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1" offset="67"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" id="output5.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY" offset="56"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" id="output5.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2" offset="60"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="output5.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="69"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="output5.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="71"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="output5.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="73"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA.FILLER3" id="output5.arg2.EMPLOYEE_WORK_AREA.FILLER3" offset="75"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#EMPOLYEE_RECORD_LENGTH" id="arg3.EMPOLYEE_RECORD_LENGTH">
+        <properties:properties>
+          <properties:property name="value" type="string">0050</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#EMPOLYEE_RECORD_LENGTH.EMPOLYEE_RECORD_LENGTH" id="output5.arg3.EMPOLYEE_RECORD_LENGTH.EMPOLYEE_RECORD_LENGTH" offset="0"/>
+    </stub:output>
+    <stub:inputDataCheckconditions>
+      <checkconditions:simpleCheckcondition refData="#input5.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NUM">
+        <checkconditions:expression>BigDecimalCreator.make('3215').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NUM) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">3215</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input5.arg2.EMPLOYEE_WORK_AREA.WA_EMP_TYPE">
+        <checkconditions:expression>'S' eq result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_TYPE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">S</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input5.arg2.EMPLOYEE_WORK_AREA.WA_EMP_REGION">
+        <checkconditions:expression>BigDecimalCreator.make('4').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_REGION) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">4</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input5.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NAME">
+        <checkconditions:expression>'MARK JOHNSON' eq result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_NAME</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">MARK JOHNSON</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input5.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET">
+        <checkconditions:expression>'12 HOBART ROAD' eq result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STREET</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">12 HOBART ROAD</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input5.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY">
+        <checkconditions:expression>'PHOENIX' eq result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_CITY</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">PHOENIX</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input5.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE">
+        <checkconditions:expression>'AZ' eq result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_STATE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">AZ</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input5.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP">
+        <checkconditions:expression>'31234' eq result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_ADDRESS.WA_EMP_ZIP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">31234</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input5.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0">
+        <checkconditions:expression>'500000' eq result.arg2.EMPLOYEE_WORK_AREA.WA_HOURLY_EMPLOYEE_DATA.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">500000</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input5.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY">
+        <checkconditions:expression>BigDecimalCreator.make('59000.00').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_SALARY) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">59000.00</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input5.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT">
+        <checkconditions:expression>BigDecimalCreator.make('75000.00').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.WA_SALES_AMOUNT) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">75000.00</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input5.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1">
+        <checkconditions:expression>'' eq result.arg2.EMPLOYEE_WORK_AREA.WA_SALES_EMPLOYEE_DATA.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input5.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY">
+        <checkconditions:expression>BigDecimalCreator.make('59000.00').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.WA_MGMT_SALARY) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">59000.00</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input5.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2">
+        <checkconditions:expression>'7500000' eq result.arg2.EMPLOYEE_WORK_AREA.WA_MGMT_EMPLOYEE_DATA.FILLER2</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">7500000</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input5.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY">
+        <checkconditions:expression>BigDecimalCreator.make('82').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">82</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input5.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM">
+        <checkconditions:expression>BigDecimalCreator.make('9').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">9</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input5.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD">
+        <checkconditions:expression>BigDecimalCreator.make('30').compareTo(result.arg2.EMPLOYEE_WORK_AREA.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">30</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input5.arg2.EMPLOYEE_WORK_AREA.FILLER3">
+        <checkconditions:expression>'' eq result.arg2.EMPLOYEE_WORK_AREA.FILLER3</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:inputDataCheckconditions>
+    <stub:statement type="EXEC CICS WRITEQ">
+      <stub:text>      *EXEC CICS WRITEQ TS
+      *        QNAME(TS-CUR-QUEUE-NAME)
+      *        FROM(EMPLOYEE-WORK-AREA)
+      *        LENGTH (EMPOLYEE-RECORD-LENGTH)
+      *        RESP(CICS-RESPONSE)
+      *END-EXEC.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+        <properties:properties>
+          <properties:property name="value" type="string">0052327F0119039FD2E3E7C40004177CC3F4F3F60000000400007D0A0200000000000000000000000000000000000000000000E3E3E360E6C5E2E30000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibtime" id="eib.arg0.dfheiblk.eibtime" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibdate" id="eib.arg0.dfheiblk.eibdate" offset="4"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibtrnid" id="eib.arg0.dfheiblk.eibtrnid" offset="8"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibtaskn" id="eib.arg0.dfheiblk.eibtaskn" offset="12"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibtrmid" id="eib.arg0.dfheiblk.eibtrmid" offset="16"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.dfheigdi" id="eib.arg0.dfheiblk.dfheigdi" offset="20"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibcposn" id="eib.arg0.dfheiblk.eibcposn" offset="22"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibcalen" id="eib.arg0.dfheiblk.eibcalen" offset="24"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibaid" id="eib.arg0.dfheiblk.eibaid" offset="26"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibfn" id="eib.arg0.dfheiblk.eibfn" offset="27"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibrcode" id="eib.arg0.dfheiblk.eibrcode" offset="29"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibds" id="eib.arg0.dfheiblk.eibds" offset="35"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibreqid" id="eib.arg0.dfheiblk.eibreqid" offset="43"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibrsrce" id="eib.arg0.dfheiblk.eibrsrce" offset="51"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibsync" id="eib.arg0.dfheiblk.eibsync" offset="59"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibfree" id="eib.arg0.dfheiblk.eibfree" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibrecv" id="eib.arg0.dfheiblk.eibrecv" offset="61"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibfil01" id="eib.arg0.dfheiblk.eibfil01" offset="62"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibatt" id="eib.arg0.dfheiblk.eibatt" offset="63"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibeoc" id="eib.arg0.dfheiblk.eibeoc" offset="64"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibfmh" id="eib.arg0.dfheiblk.eibfmh" offset="65"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibcompl" id="eib.arg0.dfheiblk.eibcompl" offset="66"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibsig" id="eib.arg0.dfheiblk.eibsig" offset="67"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibconf" id="eib.arg0.dfheiblk.eibconf" offset="68"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eiberr" id="eib.arg0.dfheiblk.eiberr" offset="69"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eiberrcd" id="eib.arg0.dfheiblk.eiberrcd" offset="70"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibsynrb" id="eib.arg0.dfheiblk.eibsynrb" offset="74"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibnodat" id="eib.arg0.dfheiblk.eibnodat" offset="75"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibresp" id="eib.arg0.dfheiblk.eibresp" offset="76"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibresp2" id="eib.arg0.dfheiblk.eibresp2" offset="80"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibrldbk" id="eib.arg0.dfheiblk.eibrldbk" offset="84"/>
+    </stub:eib>
+  </stub:stubdata>
+  <stub:stubdata callToken="90007" id="6" name="EXEC CICS DELETEQ">
+    <stub:interface>../Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST.interface#Unit%20Test/Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST.interface#Unit%20Test/Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a0680002780002100f0f1f4f3f2404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" id="input6.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-QUEUE-WEST.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-QUEUE-WEST.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-QUEUE-WEST.listructure#TS_QUEUE_WEST" id="arg1.TS_QUEUE_WEST">
+        <properties:properties>
+          <properties:property name="value" type="string">E3E3E360E6C5E2E34040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-QUEUE-WEST.listructure#TS_QUEUE_WEST.TS_QUEUE_WEST" id="input6.arg1.TS_QUEUE_WEST.TS_QUEUE_WEST" offset="0"/>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a0680002780002100f0f1f4f3f2404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" id="output6.arg0.CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-QUEUE-WEST.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-QUEUE-WEST.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-QUEUE-WEST.listructure#TS_QUEUE_WEST" id="arg1.TS_QUEUE_WEST">
+        <properties:properties>
+          <properties:property name="value" type="string">E3E3E360E6C5E2E34040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-QUEUE-WEST.listructure#TS_QUEUE_WEST.TS_QUEUE_WEST" id="output6.arg1.TS_QUEUE_WEST.TS_QUEUE_WEST" offset="0"/>
+    </stub:output>
+    <stub:statement type="EXEC CICS DELETEQ">
+      <stub:text>      *EXEC CICS DELETEQ TS
+      *     QNAME(TS-QUEUE-WEST)
+      *     RESP(CICS-RESPONSE)
+      *END-EXEC.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+        <properties:properties>
+          <properties:property name="value" type="string">0052327F0119039FD2E3E7C40004177CC3F4F3F60000000400007D0A0600000000000000000000000000000000000000000000E3E3E360E6C5E2E30000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibtime" id="eib.arg0.dfheiblk.eibtime" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibdate" id="eib.arg0.dfheiblk.eibdate" offset="4"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibtrnid" id="eib.arg0.dfheiblk.eibtrnid" offset="8"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibtaskn" id="eib.arg0.dfheiblk.eibtaskn" offset="12"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibtrmid" id="eib.arg0.dfheiblk.eibtrmid" offset="16"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.dfheigdi" id="eib.arg0.dfheiblk.dfheigdi" offset="20"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibcposn" id="eib.arg0.dfheiblk.eibcposn" offset="22"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibcalen" id="eib.arg0.dfheiblk.eibcalen" offset="24"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibaid" id="eib.arg0.dfheiblk.eibaid" offset="26"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibfn" id="eib.arg0.dfheiblk.eibfn" offset="27"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibrcode" id="eib.arg0.dfheiblk.eibrcode" offset="29"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibds" id="eib.arg0.dfheiblk.eibds" offset="35"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibreqid" id="eib.arg0.dfheiblk.eibreqid" offset="43"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibrsrce" id="eib.arg0.dfheiblk.eibrsrce" offset="51"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibsync" id="eib.arg0.dfheiblk.eibsync" offset="59"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibfree" id="eib.arg0.dfheiblk.eibfree" offset="60"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibrecv" id="eib.arg0.dfheiblk.eibrecv" offset="61"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibfil01" id="eib.arg0.dfheiblk.eibfil01" offset="62"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibatt" id="eib.arg0.dfheiblk.eibatt" offset="63"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibeoc" id="eib.arg0.dfheiblk.eibeoc" offset="64"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibfmh" id="eib.arg0.dfheiblk.eibfmh" offset="65"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibcompl" id="eib.arg0.dfheiblk.eibcompl" offset="66"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibsig" id="eib.arg0.dfheiblk.eibsig" offset="67"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibconf" id="eib.arg0.dfheiblk.eibconf" offset="68"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eiberr" id="eib.arg0.dfheiblk.eiberr" offset="69"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eiberrcd" id="eib.arg0.dfheiblk.eiberrcd" offset="70"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibsynrb" id="eib.arg0.dfheiblk.eibsynrb" offset="74"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibnodat" id="eib.arg0.dfheiblk.eibnodat" offset="75"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibresp" id="eib.arg0.dfheiblk.eibresp" offset="76"/>
+      <stub:data baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibresp2" id="eib.arg0.dfheiblk.eibresp2" offset="80"/>
+      <stub:data baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk.eibrldbk" id="eib.arg0.dfheiblk.eibrldbk" offset="84"/>
+    </stub:eib>
+  </stub:stubdata>
+</stub:stub>

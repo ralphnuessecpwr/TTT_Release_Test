@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1">
+  <Test>
+    <Job name="Job" jobName="HDDRXM0J" jobLocation="JOBDEFINITION">
+      <Content><![CDATA[//*HDDRXM0X JOB ('EUDD,INTL'),'NUESSE',NOTIFY=&SYSUID,      
+//*             MSGLEVEL=(1,1),MSGCLASS=X,CLASS=A,REGION=6M 
+/*JOBPARM S=CWCC                                           
+//STEP1  EXEC PGM=CWXTCOB,PARM=00001                       
+//STEPLIB DD DISP=SHR,DSN=SALESSUP.RXN3.DEV1.LOAD          
+//        DD DISP=SHR,DSN=SALESSUP.RXN3.QA1.LOAD           
+//        DD DISP=SHR,DSN=SALESSUP.RXN3.STG.LOAD           
+//        DD DISP=SHR,DSN=SALESSUP.RXN3.PRD.LOAD           
+//EMPFILE  DD  DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA
+//RPTFILE  DD  SYSOUT=*
+//SYSUDUMP DD  SYSOUT=*                                    
+//SYSOUT   DD  SYSOUT=*]]></Content>
+    </Job>
+    <SpoolFile ddname="JESMSGLG" stepname="JES2" ashex="false" id="spoolId" />
+    <Verify name="Verify" haltExecution="false">
+      <Statement><![CDATA[spoolId.indexOf('HDDRXM0J ENDED - ABEND') != -1]]></Statement>
+    </Verify>
+  </Test>
+</XaUnit>

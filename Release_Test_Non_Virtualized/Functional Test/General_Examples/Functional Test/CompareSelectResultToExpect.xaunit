@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1">
+  <Test>
+    <SQLSelect id="SqlSelect" maxRows="20">
+      <Statement>SELECT RIDENT, FIRSTNAME, LASTNAME, CPRNR, TSTMP, USERID, STATUSCODE FROM ADKKXC0.XAEMPLOYEE WHERE LASTNAME LIKE 'H%'</Statement>
+      <Output name="RIDENT" />
+      <Output name="FIRSTNAME" />
+      <Output name="LASTNAME" />
+      <Output name="CPRNR" />
+      <Output name="TSTMP" />
+      <Output name="USERID" />
+      <Output name="STATUSCODE" />
+    </SQLSelect>
+    <DataStore referencedId="SqlSelect" referencePath="" filePath="sqlOutActual.xml" />
+    <Variable id="actual" filePath="sqlOutActual.xml" />
+    <Variable id="expect" filePath="sqlOutExpect.xml" />
+    <Verify name="Verify" haltExecution="false">
+      <Expected expression="actual" />
+      <Actual expression="expect" />
+    </Verify>
+  </Test>
+  <MetaData>
+    <MDataDefinition name="xaemployee">
+      <dclxaemployee native="01 DCLXAEMPLOYEE.">
+        <rident type="NumericBinary" length="9" bytes="4" native="10 RIDENT PIC S9(9) USAGE COMP." signed="true" decimals="0" />
+        <firstname type="Character" length="32" bytes="32" native="10 FIRSTNAME PIC X(32)." />
+        <lastname type="Character" length="32" bytes="32" native="10 LASTNAME PIC X(32)." />
+        <cprnr type="NumericPacked" length="10" bytes="6" native="10 CPRNR PIC S9(10)V USAGE COMP-3." signed="true" decimals="0" />
+        <tstmp type="Character" length="26" bytes="26" native="10 TSTMP PIC X(26)." />
+        <userid type="Character" length="8" bytes="8" native="10 USERID PIC X(8)." />
+        <statuscode type="Character" length="1" bytes="1" native="10 STATUSCODE PIC X(1)." />
+      </dclxaemployee>
+    </MDataDefinition>
+  </MetaData>
+</XaUnit>

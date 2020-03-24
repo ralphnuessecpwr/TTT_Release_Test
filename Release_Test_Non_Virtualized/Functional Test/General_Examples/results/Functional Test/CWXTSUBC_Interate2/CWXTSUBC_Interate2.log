@@ -1,0 +1,214 @@
+09:04:00.976 COMMENT   Engine           Test Scenario execution started
+09:04:00.977 INFO      Engine           Using context settings:
+  Engine Version       : 19.5.1
+  Environment id                : 5cee98c2d3142c1f90a4976d
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwcc.compuware.com
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+09:04:00.977 INFO      Engine           Setting variables from context and context data extensions
+09:04:00.977 INFO      Engine             id: environmentId      value: 5cee98c2d3142c1f90a4976d
+09:04:00.977 INFO      Engine             id: environmentType    value: BATCH
+09:04:00.977 INFO      Engine             id: userId             value: HDDRXM0
+09:04:00.978 INFO      Variable         Interpreting Variable id:data dataFile:CWXTSUBC_Iterate_data.xls
+09:04:01.018 LOG       Variable         Resolved data items from file CWXTSUBC_Iterate_data.xls
+<testcase>
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>0</sales-amount_input>
+  <comm-total_expected>0</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>1</sales-amount_input>
+  <comm-total_expected>0.02</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>75000</sales-amount_input>
+  <comm-total_expected>1500</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>100000</sales-amount_input>
+  <comm-total_expected>2000</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>100001</sales-amount_input>
+  <comm-total_expected>2500.02</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>150000</sales-amount_input>
+  <comm-total_expected>3750</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>200000</sales-amount_input>
+  <comm-total_expected>5000</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>200001</sales-amount_input>
+  <comm-total_expected>6000.03</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>250000</sales-amount_input>
+  <comm-total_expected>7500</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>300000</sales-amount_input>
+  <comm-total_expected>9000</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>300001</sales-amount_input>
+  <comm-total_expected>10500.03</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>350000</sales-amount_input>
+  <comm-total_expected>12250</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>400000</sales-amount_input>
+  <comm-total_expected>14000</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>400001</sales-amount_input>
+  <comm-total_expected>16000.04</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>450000</sales-amount_input>
+  <comm-total_expected>18000</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>500000</sales-amount_input>
+  <comm-total_expected>20001</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>S</emp-type_input>
+  <sales-amount_input>0</sales-amount_input>
+  <comm-total_expected>0</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>S</emp-type_input>
+  <sales-amount_input>1</sales-amount_input>
+  <comm-total_expected>0.02</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>S</emp-type_input>
+  <sales-amount_input>15000</sales-amount_input>
+  <comm-total_expected>300</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>S</emp-type_input>
+  <sales-amount_input>20000</sales-amount_input>
+  <comm-total_expected>400</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>S</emp-type_input>
+  <sales-amount_input>20001</sales-amount_input>
+  <comm-total_expected>800.04</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>S</emp-type_input>
+  <sales-amount_input>25000</sales-amount_input>
+  <comm-total_expected>1000</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>S</emp-type_input>
+  <sales-amount_input>40000</sales-amount_input>
+  <comm-total_expected>1600</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>S</emp-type_input>
+  <sales-amount_input>40001</sales-amount_input>
+  <comm-total_expected>2400.06</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>S</emp-type_input>
+  <sales-amount_input>55000</sales-amount_input>
+  <comm-total_expected>3300</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>S</emp-type_input>
+  <sales-amount_input>60000</sales-amount_input>
+  <comm-total_expected>3600</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>S</emp-type_input>
+  <sales-amount_input>60001</sales-amount_input>
+  <comm-total_expected>4800.08</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>S</emp-type_input>
+  <sales-amount_input>75000</sales-amount_input>
+  <comm-total_expected>6001</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>S</emp-type_input>
+  <sales-amount_input>80000</sales-amount_input>
+  <comm-total_expected>6400</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>S</emp-type_input>
+  <sales-amount_input>80001</sales-amount_input>
+  <comm-total_expected>8000.1</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>S</emp-type_input>
+  <sales-amount_input>85000</sales-amount_input>
+  <comm-total_expected>8500</comm-total_expected>
+</testcase>
+<testcase>
+  <emp-type_input>S</emp-type_input>
+  <sales-amount_input>100000</sales-amount_input>
+  <comm-total_expected>10000</comm-total_expected>
+</testcase>
+09:04:01.022 INFO      IterateData      Interpreting IterateData id: loop. Number of data iterations: 32. Variable loopIndex contains iteration number
+09:04:01.022 INFO      IterateData      Iteration number 0 started.
+09:04:01.022 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emp-type_input>M</emp-type_input>
+  <sales-amount_input>0</sales-amount_input>
+  <comm-total_expected>0</comm-total_expected>
+</testcase>
+09:04:01.022 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+09:04:01.058 LOG       CWCC Batch       Component Runtime Settings:
+09:04:01.058 LOG       CWCC Batch         Load library              :SALESSUP.RXN3.DEV1.LOAD
+09:04:01.058 LOG       CWCC Batch         Additional load libraries :SALESSUP.RXN3.QA1.LOAD,SALESSUP.RXN3.STG.LOAD,SALESSUP.RXN3.PRD.LOAD
+09:04:01.058 LOG       CWCC Batch         Listing libraries         :
+09:04:01.058 LOG       CWCC Batch         SysDebug libraries        :
+09:04:01.058 LOG       CWCC Batch         DB2 Subsystem ID          :
+09:04:01.058 LOG       CWCC Batch         DB2 plan                  :
+09:04:01.058 LOG       CWCC Batch         Call interface            :NONE
+09:04:01.058 LOG       CWCC Batch         Debugger type             :NONE
+09:04:01.058 LOG       CWCC Batch         Component type            :COBOL
+09:04:01.069 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+09:04:02.838 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/a3a16f0f392045c48d8e2ca40f091003
+09:04:03.173 LOG       CWCC Batch       Uploading input data for module CWXTSUBC
+09:04:04.299 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>a3a16f0f392045c48d8e2ca40f091003</jobdirectory><amode24>false</amode24><members><membername>CWXTSUBC</membername></members><loads><mainload>SALESSUP.RXN3.DEV1.LOAD</mainload><load>SALESSUP.RXN3.QA1.LOAD</load><load>SALESSUP.RXN3.STG.LOAD</load><load>SALESSUP.RXN3.PRD.LOAD</load></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+09:04:04.736 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0771849</jobid><jobname>HDDRXM0E</jobname><starttime>20190809030404980</starttime></xatz_response></XATZRESP>
+09:04:04.742 LOG       HCIClient        Response received from Host. Message: JobId:J0771849
+09:04:04.742 INFO      HCIClient        Job has been started at host with JobId:J0771849
+09:04:04.744 INFO      CWCC Batch       Waiting for Execution Result from Host
+09:04:08.058 ERROR     CWCC Batch       Message from host: CallException on Target CWXTSUBC
+09:04:08.152 ERROR     Engine           Unable to execute the module:CWXTSUBC at the host. Notification received from host with FAILURE status. Error: CallException on Target CWXTSUBC
+09:04:08.152 ERROR     Engine           An error occurred. Now stopping the execution.
+09:04:08.152 ERROR     IterateData      Iteration unexpectedly stopped. Child component failed.
+09:04:08.152 INFO      IterateData      IterateData completed
+09:04:08.152 COMMENT   Engine           Test Scenario execution ended

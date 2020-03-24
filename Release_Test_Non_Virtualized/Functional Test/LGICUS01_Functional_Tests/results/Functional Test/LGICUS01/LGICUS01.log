@@ -1,0 +1,672 @@
+20:28:56.479 COMMENT   Engine           Test Scenario execution started
+20:28:56.480 INFO      Engine           Using context settings:
+  Engine Version       : 19.6.1
+  Environment id                : 5cee990bd3142c1f90a4976f
+  Environment type              : Cics
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwcc.compuware.com
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : hddrxm0
+20:28:56.480 INFO      Engine           Setting variables from context and context data extensions
+20:28:56.480 INFO      Engine             id: environmentId      value: 5cee990bd3142c1f90a4976f
+20:28:56.480 INFO      Engine             id: environmentType    value: CICS
+20:28:56.480 INFO      Engine             id: userId             value: hddrxm0
+20:28:56.512 INFO      Scope            Interpreting Scope name:Positive Tests
+20:28:56.512 INFO      SQLSelect        Interpreting SQLSelect id:select statement: SELECT CITY,  CUSTOMERNUMBER,  EMAILADDRESS,  FIRSTNAME,  LASTNAME,  STATE FROM GENAPPDB.CUSTOMER
+20:28:56.512 INFO      SQLSelect        Using database from Environment:DBCCCWCC
+20:28:56.512 LOG       SQLSelect        Establishing connection to database DBCCCWCC
+20:28:57.403 LOG       SQLSelect        Preparing the SQL statement: SELECT CITY,  CUSTOMERNUMBER,  EMAILADDRESS,  FIRSTNAME,  LASTNAME,  STATE FROM GENAPPDB.CUSTOMER
+20:28:57.449 LOG       SQLSelect        Setting max rows to: 3
+20:28:57.449 LOG       SQLSelect        Setting up the SQL statement with parameters
+20:28:57.449 LOG       SQLSelect        Executing the SQL statement
+20:28:57.678 LOG       SQLSelect        Handling the SQL result
+20:28:57.680 INFO      SQLSelect        Finished SQLSelect. Number of rows selected:3
+20:28:57.682 INFO      IterateData      Interpreting IterateData id: loopThroughDb2Records. Number of data iterations: 3. Variable loopThroughDb2RecordsIndex contains iteration number
+20:28:57.682 INFO      IterateData      Iteration number 0 started.
+20:28:57.684 LOG       IterateData      Iteration Data:
+<Row xmlns="http://www.xact.dk/xatester/v/1">
+  <CITY></CITY>
+  <CUSTOMERNUMBER>1</CUSTOMERNUMBER>
+  <EMAILADDRESS>A.Pandy@beebhouse.com</EMAILADDRESS>
+  <FIRSTNAME>Andrew</FIRSTNAME>
+  <LASTNAME>Pandy</LASTNAME>
+  <STATE></STATE>
+</Row>
+20:28:57.684 INFO      Component        Interpreting Component: LGICUS01 program:LGICUS01
+20:28:57.686 INFO      Component        Component will be executed in CICS and top level element definitions are:
+20:28:57.687 INFO      Component          Element: dfhcommarea Area type:DEFAULT
+20:28:57.715 LOG       CWCC CICS        Component Runtime Settings:
+20:28:57.715 LOG       CWCC CICS          Load libraries :
+20:28:57.715 LOG       CWCC CICS          Optional main Load library:GENAPP.ISPW.PROD.LOAD
+20:28:57.715 LOG       CWCC CICS          Listing libraries         :
+20:28:57.715 LOG       CWCC CICS          SysDebug libraries        :
+20:28:57.715 LOG       CWCC CICS          DB2 Subsystem ID          :DBCC
+20:28:57.715 LOG       CWCC CICS          DB2 plan                  :GENAONE
+20:28:57.715 LOG       CWCC CICS          APPLID                    :HCCAC013
+20:28:57.715 LOG       CWCC CICS          Channel                   :
+20:28:57.715 LOG       CWCC CICS          Call interface            :CICSLINK
+20:28:57.715 LOG       CWCC CICS          Debugger type             :NONE
+20:28:57.715 LOG       CWCC CICS          Component type            :COBOL
+20:28:57.724 INFO      CWCC CICS        Sending Module execution request to Host for module:LGICUS01 rollback:false
+20:29:03.168 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/f072580166f64de08c2cbce8d81be43d
+20:29:03.613 LOG       CWCC CICS        Uploading input data for module LGICUS01
+20:29:04.806 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>CICS</runtime><callinterface>CICSLINK</callinterface><applid>HCCAC013</applid><db2plan>GENAONE</db2plan><db2id>DBCC</db2id><rollback>false</rollback><jobdirectory>f072580166f64de08c2cbce8d81be43d</jobdirectory><amode24>false</amode24><members><membername>LGICUS01</membername></members><loads><mainload>GENAPP.ISPW.PROD.LOAD</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+20:29:05.239 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0797557</jobid><jobname>HDDRXM0C</jobname><starttime>20191022142905246</starttime></xatz_response></XATZRESP>
+20:29:05.243 LOG       HCIClient        Response received from Host. Message: JobId:J0797557
+20:29:05.243 INFO      HCIClient        Job has been started at host with JobId:J0797557
+20:29:05.245 INFO      CWCC CICS        Waiting for Execution Result from Host
+20:29:08.435 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0797557</jobid></xatz_request></XATZREQ>
+20:29:08.694 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>OUTPUT</status><returncode>CC=0000    </returncode><steps><step><id>J0797557</id><name>JES2    </name><procstep>        </procstep><ddname>JESMSGLG</ddname><linect>   30</linect><lrecl>  133</lrecl><dsname>HDDRXM0.HDDRXM0C.J0797557.D0000002.JESMSGLG </dsname></step><step><id>J0797557</id><name>JES2    </name><procstep>        </procstep><ddname>JESJCL  </ddname><linect>  183</linect><lrecl>  136</lrecl><dsname>HDDRXM0.HDDRXM0C.J0797557.D0000003.JESJCL   </dsname></step><step><id>J0797557</id><name>JES2    </name><procstep>        </procstep><ddname>JESYSMSG</ddname><linect>  181</linect><lrecl>  137</lrecl><dsname>HDDRXM0.HDDRXM0C.J0797557.D0000004.JESYSMSG </dsname></step><step><id>J0797557</id><name>COPYLOAD</name><procstep>        </procstep><ddname>SYSPRINT</ddname><linect>   13</linect><lrecl>  121</lrecl><dsname>HDDRXM0.HDDRXM0C.J0797557.D0000110.?        </dsname></step><step><id>J0797557</id><name>EXCIEXEC</name><procstep>        </procstep><ddname>TTOUT   </ddname><linect>   34</linect><lrecl>  121</lrecl><dsname>HDDRXM0.HDDRXM0C.J0797557.D0000114.?        </dsname></step><step><id>J0797557</id><name>COPYLOG </name><procstep>        </procstep><ddname>STDOUT  </ddname><linect>   26</linect><lrecl>16383</lrecl><dsname>HDDRXM0.HDDRXM0C.J0797557.D0000115.?        </dsname></step><step><id>J0797557</id><name>COPYLOG </name><procstep>        </procstep><ddname>STDERR  </ddname><linect>    1</linect><lrecl>16383</lrecl><dsname>HDDRXM0.HDDRXM0C.J0797557.D0000116.?        </dsname></step></steps></job></responsedata></xatz_response></XATZRESP>
+20:29:08.695 LOG       HCIClient        Response received from Host. Message:Job information successfully returned JobId:
+20:29:09.005 ERROR     CWCC CICS        Job with JobId:J0797557 has finished without a notify file present: /u/xatester/hddrxm0/f072580166f64de08c2cbce8d81be43d/XAT_Module.o.xml.notify. This means that something went wrong when running the job at the server. There might be a JCL error in the submitted job. Please take a look at the job info at the host.
+20:29:09.209 LOG       CWCC CICS        Retrieving job information host for job:J0797557
+20:29:09.210 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0797557</jobid></xatz_request></XATZREQ>
+20:29:09.438 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>OUTPUT</status><returncode>CC=0000    </returncode><steps><step><id>J0797557</id><name>JES2    </name><procstep>        </procstep><ddname>JESMSGLG</ddname><linect>   30</linect><lrecl>  133</lrecl><dsname>HDDRXM0.HDDRXM0C.J0797557.D0000002.JESMSGLG </dsname></step><step><id>J0797557</id><name>JES2    </name><procstep>        </procstep><ddname>JESJCL  </ddname><linect>  183</linect><lrecl>  136</lrecl><dsname>HDDRXM0.HDDRXM0C.J0797557.D0000003.JESJCL   </dsname></step><step><id>J0797557</id><name>JES2    </name><procstep>        </procstep><ddname>JESYSMSG</ddname><linect>  181</linect><lrecl>  137</lrecl><dsname>HDDRXM0.HDDRXM0C.J0797557.D0000004.JESYSMSG </dsname></step><step><id>J0797557</id><name>COPYLOAD</name><procstep>        </procstep><ddname>SYSPRINT</ddname><linect>   13</linect><lrecl>  121</lrecl><dsname>HDDRXM0.HDDRXM0C.J0797557.D0000110.?        </dsname></step><step><id>J0797557</id><name>EXCIEXEC</name><procstep>        </procstep><ddname>TTOUT   </ddname><linect>   34</linect><lrecl>  121</lrecl><dsname>HDDRXM0.HDDRXM0C.J0797557.D0000114.?        </dsname></step><step><id>J0797557</id><name>COPYLOG </name><procstep>        </procstep><ddname>STDOUT  </ddname><linect>   26</linect><lrecl>16383</lrecl><dsname>HDDRXM0.HDDRXM0C.J0797557.D0000115.?        </dsname></step><step><id>J0797557</id><name>COPYLOG </name><procstep>        </procstep><ddname>STDERR  </ddname><linect>    1</linect><lrecl>16383</lrecl><dsname>HDDRXM0.HDDRXM0C.J0797557.D0000116.?        </dsname></step></steps></job></responsedata></xatz_response></XATZRESP>
+20:29:09.440 LOG       HCIClient        Response received from Host. Message:Job information successfully returned JobId:
+20:29:09.442 ERROR     CWCC CICS        Job information:
+<job>
+  <name>HDDRXM0C</name>
+  <status>OUTPUT</status>
+  <returncode>CC=0000</returncode>
+  <steps>
+    <step>
+      <id>J0797557</id>
+      <name>JES2</name>
+      <procstep />
+      <ddname>JESMSGLG</ddname>
+      <linect>30</linect>
+      <lrecl>133</lrecl>
+      <dsname>HDDRXM0.HDDRXM0C.J0797557.D0000002.JESMSGLG</dsname>
+    </step>
+    <step>
+      <id>J0797557</id>
+      <name>JES2</name>
+      <procstep />
+      <ddname>JESJCL</ddname>
+      <linect>183</linect>
+      <lrecl>136</lrecl>
+      <dsname>HDDRXM0.HDDRXM0C.J0797557.D0000003.JESJCL</dsname>
+    </step>
+    <step>
+      <id>J0797557</id>
+      <name>JES2</name>
+      <procstep />
+      <ddname>JESYSMSG</ddname>
+      <linect>181</linect>
+      <lrecl>137</lrecl>
+      <dsname>HDDRXM0.HDDRXM0C.J0797557.D0000004.JESYSMSG</dsname>
+    </step>
+    <step>
+      <id>J0797557</id>
+      <name>COPYLOAD</name>
+      <procstep />
+      <ddname>SYSPRINT</ddname>
+      <linect>13</linect>
+      <lrecl>121</lrecl>
+      <dsname>HDDRXM0.HDDRXM0C.J0797557.D0000110.?</dsname>
+    </step>
+    <step>
+      <id>J0797557</id>
+      <name>EXCIEXEC</name>
+      <procstep />
+      <ddname>TTOUT</ddname>
+      <linect>34</linect>
+      <lrecl>121</lrecl>
+      <dsname>HDDRXM0.HDDRXM0C.J0797557.D0000114.?</dsname>
+    </step>
+    <step>
+      <id>J0797557</id>
+      <name>COPYLOG</name>
+      <procstep />
+      <ddname>STDOUT</ddname>
+      <linect>26</linect>
+      <lrecl>16383</lrecl>
+      <dsname>HDDRXM0.HDDRXM0C.J0797557.D0000115.?</dsname>
+    </step>
+    <step>
+      <id>J0797557</id>
+      <name>COPYLOG</name>
+      <procstep />
+      <ddname>STDERR</ddname>
+      <linect>1</linect>
+      <lrecl>16383</lrecl>
+      <dsname>HDDRXM0.HDDRXM0C.J0797557.D0000116.?</dsname>
+    </step>
+  </steps>
+</job>
+20:29:09.445 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0797557</jobid></xatz_request></XATZREQ>
+20:29:09.676 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0C</name><status>OUTPUT</status><returncode>CC=0000    </returncode><steps><step><id>J0797557</id><name>JES2    </name><procstep>        </procstep><ddname>JESMSGLG</ddname><linect>   30</linect><lrecl>  133</lrecl><dsname>HDDRXM0.HDDRXM0C.J0797557.D0000002.JESMSGLG </dsname></step><step><id>J0797557</id><name>JES2    </name><procstep>        </procstep><ddname>JESJCL  </ddname><linect>  183</linect><lrecl>  136</lrecl><dsname>HDDRXM0.HDDRXM0C.J0797557.D0000003.JESJCL   </dsname></step><step><id>J0797557</id><name>JES2    </name><procstep>        </procstep><ddname>JESYSMSG</ddname><linect>  181</linect><lrecl>  137</lrecl><dsname>HDDRXM0.HDDRXM0C.J0797557.D0000004.JESYSMSG </dsname></step><step><id>J0797557</id><name>COPYLOAD</name><procstep>        </procstep><ddname>SYSPRINT</ddname><linect>   13</linect><lrecl>  121</lrecl><dsname>HDDRXM0.HDDRXM0C.J0797557.D0000110.?        </dsname></step><step><id>J0797557</id><name>EXCIEXEC</name><procstep>        </procstep><ddname>TTOUT   </ddname><linect>   34</linect><lrecl>  121</lrecl><dsname>HDDRXM0.HDDRXM0C.J0797557.D0000114.?        </dsname></step><step><id>J0797557</id><name>COPYLOG </name><procstep>        </procstep><ddname>STDOUT  </ddname><linect>   26</linect><lrecl>16383</lrecl><dsname>HDDRXM0.HDDRXM0C.J0797557.D0000115.?        </dsname></step><step><id>J0797557</id><name>COPYLOG </name><procstep>        </procstep><ddname>STDERR  </ddname><linect>    1</linect><lrecl>16383</lrecl><dsname>HDDRXM0.HDDRXM0C.J0797557.D0000116.?        </dsname></step></steps></job></responsedata></xatz_response></XATZRESP>
+20:29:09.678 LOG       HCIClient        Response received from Host. Message:Job information successfully returned JobId:
+20:29:09.688 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>SPOOLGET</operation><runat>DAY</runat><spooldsn>HDDRXM0.HDDRXM0C.J0797557.D0000002.JESMSGLG</spooldsn><spoollrecl>133</spoollrecl><spoollinecnt>30</spoollinecnt><spoolfromcnt>1</spoolfromcnt></xatz_request></XATZREQ>
+20:29:09.903 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP><xatz_response><resultcode>0000</resultcode><resultmessage>Complete SPOOL data returned</resultmessage><responsedata><spoolfile><line t="D"><![CDATA[1                       J E S 2  J O B  L O G  --  S Y S T E M  C W C C  --  N O D E  C W C C]]></line><line t="D"><![CDATA[0]]></line><line t="D"><![CDATA[ 14.29.05 J0797557 ---- TUESDAY,   22 OCT 2019 ----]]></line><line t="D"><![CDATA[ 14.29.05 J0797557  IRR010I  USERID HDDRXM0  IS ASSIGNED TO THIS JOB.]]></line><line t="D"><![CDATA[ 14.29.05 J0797557  ICH70001I HDDRXM0  LAST ACCESS AT 14:28:58 ON TUESDAY, OCTOBER 22, 2019]]></line><line t="D"><![CDATA[ 14.29.05 J0797557  $HASP373 HDDRXM0C STARTED - INIT 1    - CLASS A        - SYS CWCC]]></line><line t="D"><![CDATA[ 14.29.05 J0797557  IEF403I HDDRXM0C - STARTED - TIME=14.29.05]]></line><line t="D"><![CDATA[ 14.29.05 J0797557  -                                      ----TIMINGS (MINUTES)-----                          -----PAGING COUNTS----]]></line><line t="D"><![CDATA[ 14.29.05 J0797557  -STEPNAME PROCSTEP    RC   EXCP   CONN       TCB       SRB  CLOCK          SERV  WORKLOAD  PAGE  SWAP   VIO SWAPS]]></line><line t="D"><![CDATA[ 14.29.05 J0797557  -XADCHK               00     52      7  0.000413  0.000009    0.0          5590  BATCH        0     0     0     0]]></line><line t="D"><![CDATA[ 14.29.05 J0797557  -COPYLOAD             00    118      8  0.000423  0.000016    0.0          6112  BATCH        0     0     0     0]]></line><line t="D"><![CDATA[ 14.29.05 J0797557  -AMBLST               00      9      1  0.000038  0.000000    0.0           491  BATCH        0     0     0     0]]></line><line t="D"><![CDATA[ 14.29.05 J0797557  -PUTMSG   XAMSG    FLUSH      0      0  0.000000  0.000000    0.0                BATCH        0     0     0     0]]></line><line t="D"><![CDATA[ 14.29.06 J0797557  -EXCIEXEC             00    166     40  0.000347  0.000019    0.0          5402  BATCH        0     0     0     0]]></line><line t="D"><![CDATA[ 14.29.06 J0797557  -COPYLOG              00     76      5  0.000205  0.000006    0.0          3003  BATCH        0     0     0     0]]></line><line t="D"><![CDATA[ 14.29.06 J0797557  -XACDMP            FLUSH      0      0  0.000000  0.000000    0.0                BATCH        0     0     0     0]]></line><line t="D"><![CDATA[ 14.29.06 J0797557  -NOTIFY            FLUSH      0      0  0.000000  0.000000    0.0                BATCH        0     0     0     0]]></line><line t="D"><![CDATA[ 14.29.06 J0797557  -RENAME            FLUSH      0      0  0.000000  0.000000    0.0                BATCH        0     0     0     0]]></line><line t="D"><![CDATA[ 14.29.06 J0797557  -MSGFIL            FLUSH      0      0  0.000000  0.000000    0.0                BATCH        0     0     0     0]]></line><line t="D"><![CDATA[ 14.29.06 J0797557  -CICSLOG              00     76      5  0.000359  0.000006    0.0          4978  BATCH        0     0     0     0]]></line><line t="D"><![CDATA[ 14.29.06 J0797557  IEF404I HDDRXM0C - ENDED - TIME=14.29.06]]></line><line t="D"><![CDATA[ 14.29.06 J0797557  -HDDRXM0C ENDED.  NAME-TOPAZTST LGICUS01    TOTAL TCB CPU TIME= 0.001787 TOTAL ELAPSED TIME=   0.0 SUBSYS=JES2]]></line><line t="D"><![CDATA[ 14.29.06 J0797557  $HASP395 HDDRXM0C ENDED - RC=0000]]></line><line t="D"><![CDATA[0------ JES2 JOB STATISTICS ------]]></line><line t="D"><![CDATA[-  22 OCT 2019 JOB EXECUTION DATE]]></line><line t="D"><![CDATA[-          197 CARDS READ]]></line><line t="D"><![CDATA[-          492 SYSOUT PRINT RECORDS]]></line><line t="D"><![CDATA[-            0 SYSOUT PUNCH RECORDS]]></line><line t="D"><![CDATA[-           47 SYSOUT SPOOL KBYTES]]></line><line t="D"><![CDATA[-         0.02 MINUTES EXECUTION TIME]]></line></spoolfile><spoolfromcnt>00001</spoolfromcnt><spoollinecnt>00030</spoollinecnt></responsedata></xatz_response></XATZRESP>
+20:29:09.909 LOG       HCIClient        Response received from Host. Message:Complete SPOOL data returned JobId:
+20:29:09.916 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>SPOOLGET</operation><runat>DAY</runat><spooldsn>HDDRXM0.HDDRXM0C.J0797557.D0000003.JESJCL</spooldsn><spoollrecl>136</spoollrecl><spoollinecnt>183</spoollinecnt><spoolfromcnt>1</spoolfromcnt></xatz_request></XATZREQ>
+20:29:10.143 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP><xatz_response><resultcode>0000</resultcode><resultmessage>Complete SPOOL data returned</resultmessage><responsedata><spoolfile><line t="D"><![CDATA[        1 //HDDRXM0C JOB (TOPAZTST),                                              J0797557]]></line><line t="D"><![CDATA[          //         'TOPAZTST LGICUS01',]]></line><line t="D"><![CDATA[          //         REGION=0M,CLASS=A,MSGCLASS=X,MSGLEVEL=(1,1)]]></line><line t="D"><![CDATA[          //*]]></line><line t="D"><![CDATA[          //*      Cicsjcl version 2.1.0]]></line><line t="D"><![CDATA[          //*]]></line><line t="D"><![CDATA[        2 /*JOBPARM S=CWCC]]></line><line t="D"><![CDATA[          //*]]></line><line t="D"><![CDATA[        3 //       SET XAENV=SYS2.CW.&CWGACX.,]]></line><line t="D"><![CDATA[          //           XAHLQLE=CEE,]]></line><line t="D"><![CDATA[          //           XAHLQDFH=CTS530.CICS,]]></line><line t="D"><![CDATA[          //           XAHLQDB2=DSNB10,]]></line><line t="D"><![CDATA[          //           XAHLQCOB=IGY.V5R2M0,]]></line><line t="D"><![CDATA[          //           XAVOLSER=PCC003]]></line><line t="D"><![CDATA[          //*]]></line><line t="D"><![CDATA[          IEFC653I SUBSTITUTION JCL - XAENV=SYS2.CW.CXR17Y,XAHLQLE=CEE,XAHLQDFH=CTS530.CICS,XAHLQDB2=DSNB10,]]></line><line t="D"><![CDATA[          XAHLQCOB=IGY.V5R2M0,XAVOLSER=PCC003]]></line><line t="D"><![CDATA[        4 //PROCLIB JCLLIB ORDER=&XAENV..SLCXCNTL]]></line><line t="D"><![CDATA[          //*]]></line><line t="D"><![CDATA[          //*************************************************************]]></line><line t="D"><![CDATA[          //*              CHECK DATASETS                               *]]></line><line t="D"><![CDATA[          //*************************************************************]]></line><line t="D"><![CDATA[          IEFC653I SUBSTITUTION JCL - ORDER=SYS2.CW.CXR17Y.SLCXCNTL]]></line><line t="D"><![CDATA[        5 //XADCHK EXEC PGM=IKJEFT01,PARM='XADSNCHK']]></line><line t="D"><![CDATA[        6 //SYSPROC  DD DSN=&XAENV..SLCXEXEC,DISP=SHR]]></line><line t="D"><![CDATA[          IEFC653I SUBSTITUTION JCL - DSN=SYS2.CW.CXR17Y.SLCXEXEC,DISP=SHR]]></line><line t="D"><![CDATA[        7 //RUNPARMS DD *]]></line><line t="D"><![CDATA[        8 //MSGFILE  DD DSN=&&MSGFILE,DISP=(NEW,PASS),UNIT=SYSDA,]]></line><line t="D"><![CDATA[          //            DCB=(LRECL=256,RECFM=FB,BLKSIZE=25600),]]></line><line t="D"><![CDATA[          //            SPACE=(TRK,(1,1),RLSE)]]></line><line t="D"><![CDATA[        9 //SYSPRINT DD SYSOUT=*]]></line><line t="D"><![CDATA[       10 //SYSTSPRT DD DUMMY]]></line><line t="D"><![CDATA[       11 //SYSTSIN  DD DUMMY]]></line><line t="D"><![CDATA[       12 //XASYSIN  DD PATH='/u/xatester/hddrxm0/f072580166f64de08c2cbce8d81be43]]></line><line t="D"><![CDATA[          //             d/CicsLog.log',]]></line><line t="D"><![CDATA[          //         PATHOPTS=(ORDWR,OTRUNC,OCREAT),]]></line><line t="D"><![CDATA[          //         PATHMODE=(SIRWXU,SIRWXG,SIRWXO),]]></line><line t="D"><![CDATA[          //         PATHDISP=(KEEP,DELETE),FILEDATA=TEXT]]></line><line t="D"><![CDATA[          //*]]></line><line t="D"><![CDATA[       13 //      IF (XADCHK.RC EQ 0) THEN]]></line><line t="D"><![CDATA[          /*]]></line><line t="D"><![CDATA[          //*************************************************************]]></line><line t="D"><![CDATA[          //* COPY module from load libraries to temp. load library]]></line><line t="D"><![CDATA[          //*************************************************************]]></line><line t="D"><![CDATA[       14 //COPYLOAD EXEC PGM=IEBCOPY]]></line><line t="D"><![CDATA[       15 //SYSPRINT DD SYSOUT=*]]></line><line t="D"><![CDATA[       16 //INCF1    DD DISP=SHR,DSN=GENAPP.ISPW.PROD.LOAD]]></line><line t="D"><![CDATA[       17 //OUTFILE  DD DISP=(NEW,PASS),DSN=&&XCOPLOAD,UNIT=SYSDA,]]></line><line t="D"><![CDATA[          //            DCB=(LRECL=0,RECFM=U,BLKSIZE=19069),VOL=SER=&XAVOLSER.,]]></line><line t="D"><![CDATA[          //            SPACE=(TRK,(15,10,10)),DSNTYPE=LIBRARY]]></line><line t="D"><![CDATA[          IEFC653I SUBSTITUTION JCL - DISP=(NEW,PASS),DSN=&&XCOPLOAD,UNIT=SYSDA,DCB=(LRECL=0,RECFM=U,BLKSIZE=19069),]]></line><line t="D"><![CDATA[          VOL=SER=PCC003,SPACE=(TRK,(15,10,10)),DSNTYPE=LIBRARY]]></line><line t="D"><![CDATA[       18 //SYSIN    DD *]]></line><line t="D"><![CDATA[       19 //      IF (COPYLOAD.RC EQ 0) THEN]]></line><line t="D"><![CDATA[          //*************************************************************]]></line><line t="D"><![CDATA[          //* Activate AMBLIST to analyze load module if using DLL's]]></line><line t="D"><![CDATA[          //*************************************************************]]></line><line t="D"><![CDATA[          //*AMBLST EXEC PGM=AMBLIST,REGION=16M]]></line><line t="D"><![CDATA[       20 //AMBLST EXEC PGM=IEFBR14,REGION=16M]]></line><line t="D"><![CDATA[       21 //SYSPRINT DD DSN=&&AMBLST,DISP=(NEW,PASS),UNIT=SYSDA,]]></line><line t="D"><![CDATA[          //            DCB=(LRECL=121,RECFM=FBA,BLKSIZE=24200),]]></line><line t="D"><![CDATA[          //            SPACE=(TRK,(50,5),RLSE)]]></line><line t="D"><![CDATA[       22 //LOADLIB  DD DSN=&&XCOPLOAD,DISP=(OLD,PASS)]]></line><line t="D"><![CDATA[       23 //SYSIN    DD *]]></line><line t="D"><![CDATA[          //*]]></line><line t="D"><![CDATA[       24 //      ENDIF]]></line><line t="D"><![CDATA[       25 //      IF (COPYLOAD.RC GT 0) THEN]]></line><line t="D"><![CDATA[       26 //PUTMSG EXEC PROC=XAPUTMSG]]></line><line t="D"><![CDATA[          XX*********************************************************************]]></line><line t="D"><![CDATA[          XX* THESE MATERIALS CONTAIN CONFIDENTIAL INFORMATION AND              *]]></line><line t="D"><![CDATA[          XX* TRADE SECRETS OF COMPUWARE CORPORATION.  USING, DISCLOSING,       *]]></line><line t="D"><![CDATA[          XX* OR REPRODUCING THESE MATERIALS IS STRICTLY PROHIBITED UNLESS      *]]></line><line t="D"><![CDATA[          XX* REQUIRED BY OR AUTHORIZED BY LAW OR ADVANCE WRITTEN PERMISSION    *]]></line><line t="D"><![CDATA[          XX* HAS BEEN GIVEN BY COMPUWARE CORPORATION.                          *]]></line><line t="D"><![CDATA[          XX*                                                                   *]]></line><line t="D"><![CDATA[          XX* COPYRIGHT (C) 2018 COMPUWARE CORPORATION.                         *]]></line><line t="D"><![CDATA[          XX* ALL RIGHTS RESERVED.                                              *]]></line><line t="D"><![CDATA[          XX*********************************************************************]]></line><line t="D"><![CDATA[          XX*]]></line><line t="D"><![CDATA[       27 XXXAPUTMSG PROC]]></line><line t="D"><![CDATA[       28 XXXAMSG    EXEC PGM=IKJEFT01,PARM='XAPUTMSR']]></line><line t="D"><![CDATA[       29 XXSYSPROC  DD DSN=&XAENV..SLCXEXEC,DISP=SHR]]></line><line t="D"><![CDATA[          IEFC653I SUBSTITUTION JCL - DSN=SYS2.CW.CXR17Y.SLCXEXEC,DISP=SHR]]></line><line t="D"><![CDATA[       30 XXSYSPRINT DD SYSOUT=*]]></line><line t="D"><![CDATA[       31 XXSYSTSIN  DD DUMMY]]></line><line t="D"><![CDATA[       32 XXSYSTSPRT DD DUMMY]]></line><line t="D"><![CDATA[       33 XXSYSIN    DD DUMMY]]></line><line t="D"><![CDATA[          XX*]]></line><line t="D"><![CDATA[       34 //XAMSG.SYSUT2 DD DSN=&&MSGFILE,DISP=(MOD,PASS)]]></line><line t="D"><![CDATA[       35 //XAMSG.SYSUT1 DD *]]></line><line t="D"><![CDATA[       36 XX         PEND]]></line><line t="D"><![CDATA[       37 //      ENDIF]]></line><line t="D"><![CDATA[          //*]]></line><line t="D"><![CDATA[       38 //      IF (COPYLOAD.RC EQ 0) THEN]]></line><line t="D"><![CDATA[          //*]]></line><line t="D"><![CDATA[          //*************************************************************]]></line><line t="D"><![CDATA[          //* JCL to execute an external CICS interface client program *]]></line><line t="D"><![CDATA[          //*************************************************************]]></line><line t="D"><![CDATA[       39 //EXCIEXEC EXEC PGM=XATZCICX,PARM='4']]></line><line t="D"><![CDATA[       40 //STEPLIB  DD DSN=&XAENV..SLCXLOAD,DISP=SHR]]></line><line t="D"><![CDATA[          IEFC653I SUBSTITUTION JCL - DSN=SYS2.CW.CXR17Y.SLCXLOAD,DISP=SHR]]></line><line t="D"><![CDATA[       41 //         DD DSN=&XAHLQDFH..SDFHEXCI,DISP=SHR]]></line><line t="D"><![CDATA[          IEFC653I SUBSTITUTION JCL - DSN=CTS530.CICS.SDFHEXCI,DISP=SHR]]></line><line t="D"><![CDATA[       42 //AMBLIST  DD DSN=*.AMBLST.SYSPRINT,DISP=(OLD,PASS)]]></line><line t="D"><![CDATA[       43 //MSGFILE  DD DSN=&&MSGFILE,DISP=(MOD,PASS)]]></line><line t="D"><![CDATA[       44 //SYSPRINT DD SYSOUT=*]]></line><line t="D"><![CDATA[       45 //SYSOUT   DD SYSOUT=*]]></line><line t="D"><![CDATA[       46 //TTOUT    DD SYSOUT=*]]></line><line t="D"><![CDATA[       47 //SYSMDUMP DD DUMMY]]></line><line t="D"><![CDATA[       48 //SYSIN    DD *]]></line><line t="D"><![CDATA[          //*]]></line><line t="D"><![CDATA[       49 //COPYLOG  EXEC PGM=BPXBATCH,COND=EVEN]]></line><line t="D"><![CDATA[       50 //STEPLIB  DD DSN=&XAENV..SLCXLOAD,DISP=SHR]]></line><line t="D"><![CDATA[          IEFC653I SUBSTITUTION JCL - DSN=SYS2.CW.CXR17Y.SLCXLOAD,DISP=SHR]]></line><line t="D"><![CDATA[       51 //STDPARM  DD *]]></line><line t="D"><![CDATA[       52 //STDOUT   DD SYSOUT=*]]></line><line t="D"><![CDATA[       53 //STDERR   DD SYSOUT=*]]></line><line t="D"><![CDATA[          //*]]></line><line t="D"><![CDATA[       54 //      ENDIF]]></line><line t="D"><![CDATA[       55 //      ENDIF]]></line><line t="D"><![CDATA[          //*]]></line><line t="D"><![CDATA[       56 //      IF (XADCHK.RC GT 0 | EXCIEXEC.RC GT 0) THEN]]></line><line t="D"><![CDATA[          //*************************************************************]]></line><line t="D"><![CDATA[          //*        IF ABEND, Catch ABENDCODE]]></line><line t="D"><![CDATA[          //*************************************************************]]></line><line t="D"><![CDATA[       57 //XACDMP EXEC PGM=IKJEFT01,]]></line><line t="D"><![CDATA[          //       PARM='ABCCHECK LGICUS01',COND=ONLY]]></line><line t="D"><![CDATA[       58 //SYSPROC  DD DSN=&XAENV..SLCXEXEC,DISP=SHR]]></line><line t="D"><![CDATA[          IEFC653I SUBSTITUTION JCL - DSN=SYS2.CW.CXR17Y.SLCXEXEC,DISP=SHR]]></line><line t="D"><![CDATA[       59 //MSGFILE  DD DSN=&&MSGFILE,DISP=(MOD,PASS)]]></line><line t="D"><![CDATA[       60 //SYSTSPRT DD SYSOUT=*]]></line><line t="D"><![CDATA[       61 //SYSPRINT DD SYSOUT=*]]></line><line t="D"><![CDATA[       62 //SYSTSIN  DD DUMMY]]></line><line t="D"><![CDATA[          //*]]></line><line t="D"><![CDATA[          //*************************************************************]]></line><line t="D"><![CDATA[          //* Send Notify]]></line><line t="D"><![CDATA[          //*************************************************************]]></line><line t="D"><![CDATA[       63 //NOTIFY   EXEC PGM=XATZNOTF,COND=EVEN]]></line><line t="D"><![CDATA[       64 //STEPLIB  DD DISP=SHR,DSN=&XAENV..SLCXLOAD]]></line><line t="D"><![CDATA[          IEFC653I SUBSTITUTION JCL - DISP=SHR,DSN=SYS2.CW.CXR17Y.SLCXLOAD]]></line><line t="D"><![CDATA[       65 //SYSIN    DD DSN=&&MSGFILE,DISP=(OLD,PASS)]]></line><line t="D"><![CDATA[       66 //NOTIFY   DD PATH='/u/xatester/hddrxm0/f072580166f64de08c2cbce8d81be43]]></line><line t="D"><![CDATA[          //             d/XAT_Module.o.xml.ntfy',]]></line><line t="D"><![CDATA[          //         PATHOPTS=(ORDWR,OTRUNC,OCREAT),]]></line><line t="D"><![CDATA[          //         PATHMODE=(SIRWXU,SIRWXG,SIRWXO),]]></line><line t="D"><![CDATA[          //         PATHDISP=(KEEP,DELETE),FILEDATA=TEXT]]></line><line t="D"><![CDATA[       67 //TTOUT    DD SYSOUT=*]]></line><line t="D"><![CDATA[       68 //XASYSIN  DD *]]></line><line t="D"><![CDATA[          //*]]></line><line t="D"><![CDATA[          //*************************************************************]]></line><line t="D"><![CDATA[          //* Rename notify]]></line><line t="D"><![CDATA[          //*************************************************************]]></line><line t="D"><![CDATA[       69 //RENAME   EXEC PGM=BPXBATCH,COND=EVEN]]></line><line t="D"><![CDATA[       70 //STEPLIB  DD DSN=&XAENV..SLCXLOAD,DISP=SHR]]></line><line t="D"><![CDATA[          IEFC653I SUBSTITUTION JCL - DSN=SYS2.CW.CXR17Y.SLCXLOAD,DISP=SHR]]></line><line t="D"><![CDATA[       71 //STDPARM  DD *]]></line><line t="D"><![CDATA[       72 //STDOUT   DD SYSOUT=*]]></line><line t="D"><![CDATA[       73 //STDERR   DD SYSOUT=*]]></line><line t="D"><![CDATA[          //*]]></line><line t="D"><![CDATA[          //*************************************************************]]></line><line t="D"><![CDATA[          //* List msgfile]]></line><line t="D"><![CDATA[          //*************************************************************]]></line><line t="D"><![CDATA[       74 //MSGFIL EXEC PGM=IEBGENER,COND=EVEN]]></line><line t="D"><![CDATA[       75 //SYSPRINT DD DUMMY]]></line><line t="D"><![CDATA[       76 //SYSIN    DD DUMMY]]></line><line t="D"><![CDATA[       77 //SYSUT1   DD DSN=&&MSGFILE,DISP=(OLD,PASS)]]></line><line t="D"><![CDATA[       78 //SYSUT2   DD SYSOUT=*]]></line><line t="D"><![CDATA[          //*]]></line><line t="D"><![CDATA[       79 //         ENDIF]]></line><line t="D"><![CDATA[          //*************************************************************]]></line><line t="D"><![CDATA[          //* List CICSLOG]]></line><line t="D"><![CDATA[          //*************************************************************]]></line><line t="D"><![CDATA[       80 //CICSLOG  EXEC PGM=IKJEFT01,PARM='XAUSSRDR']]></line><line t="D"><![CDATA[       81 //SYSPROC  DD DSN=&XAENV..SLCXEXEC,DISP=SHR]]></line><line t="D"><![CDATA[          IEFC653I SUBSTITUTION JCL - DSN=SYS2.CW.CXR17Y.SLCXEXEC,DISP=SHR]]></line><line t="D"><![CDATA[       82 //XASYSUT  DD SYSOUT=*,DCB=(RECFM=FB,LRECL=132)]]></line><line t="D"><![CDATA[       83 //XASYSIN  DD PATH='/u/xatester/hddrxm0/f072580166f64de08c2cbce8d81be43]]></line><line t="D"><![CDATA[          //             d/CicsLog.ttout',]]></line><line t="D"><![CDATA[          //            PATHOPTS=(ORDONLY)]]></line><line t="D"><![CDATA[       84 //SYSTSPRT DD DUMMY]]></line><line t="D"><![CDATA[       85 //SYSTSIN  DD DUMMY]]></line><line t="D"><![CDATA[          //*]]></line><line t="D"><![CDATA[       86 //]]></line></spoolfile><spoolfromcnt>00001</spoolfromcnt><spoollinecnt>00183</spoollinecnt></responsedata></xatz_response></XATZRESP>
+20:29:10.153 LOG       HCIClient        Response received from Host. Message:Complete SPOOL data returned JobId:
+20:29:10.157 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>SPOOLGET</operation><runat>DAY</runat><spooldsn>HDDRXM0.HDDRXM0C.J0797557.D0000004.JESYSMSG</spooldsn><spoollrecl>137</spoollrecl><spoollinecnt>181</spoollinecnt><spoolfromcnt>1</spoolfromcnt></xatz_request></XATZREQ>
+20:29:10.388 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP><xatz_response><resultcode>0000</resultcode><resultmessage>Complete SPOOL data returned</resultmessage><responsedata><spoolfile><line t="D"><![CDATA[  STMT NO. MESSAGE]]></line><line t="D"><![CDATA[        26 IEFC001I PROCEDURE XAPUTMSG WAS EXPANDED USING PRIVATE LIBRARY SYS2.CW.CXR17Y.SLCXCNTL]]></line><line t="D"><![CDATA[ ICH70001I HDDRXM0  LAST ACCESS AT 14:28:58 ON TUESDAY, OCTOBER 22, 2019]]></line><line t="D"><![CDATA[ IEFA111I HDDRXM0C IS USING THE FOLLOWING JOB RELATED SETTINGS:]]></line><line t="D"><![CDATA[          SWA=BELOW,TIOT SIZE=48K,DSENQSHR=DISALLOW,GDGBIAS=JOB]]></line><line t="D"><![CDATA[ IEF236I ALLOC. FOR HDDRXM0C XADCHK]]></line><line t="D"><![CDATA[ IEF237I 2021 ALLOCATED TO SYSPROC]]></line><line t="D"><![CDATA[ IEF237I JES2 ALLOCATED TO RUNPARMS]]></line><line t="D"><![CDATA[ IGD101I SMS ALLOCATED TO DDNAME (MSGFILE )]]></line><line t="D"><![CDATA[         DSN (SYS19295.T142905.RA000.HDDRXM0C.MSGFILE.H01 )]]></line><line t="D"><![CDATA[         STORCLAS (TMPVIO) MGMTCLAS (        ) DATACLAS (        )]]></line><line t="D"><![CDATA[         VOL SER NOS= VIO]]></line><line t="D"><![CDATA[ IEF237I JES2 ALLOCATED TO SYSPRINT]]></line><line t="D"><![CDATA[ IEF237I DMY  ALLOCATED TO SYSTSPRT]]></line><line t="D"><![CDATA[ IEF237I DMY  ALLOCATED TO SYSTSIN]]></line><line t="D"><![CDATA[ IGD103I SMS HFS FILE ALLOCATED TO DDNAME XASYSIN]]></line><line t="D"><![CDATA[ IGD103I SMS ALLOCATED TO DDNAME SYS00001]]></line><line t="D"><![CDATA[ IGD104I GENAPP.ISPW.PROD.LOAD                        RETAINED,  DDNAME=SYS00001]]></line><line t="D"><![CDATA[ IEF142I HDDRXM0C XADCHK - STEP WAS EXECUTED - COND CODE 0000]]></line><line t="D"><![CDATA[ IEF285I   SYS2.CW.CXR17Y.SLCXEXEC                      KEPT]]></line><line t="D"><![CDATA[ IEF285I   VOL SER NOS= SCCRT0.]]></line><line t="D"><![CDATA[ IEF285I   HDDRXM0.HDDRXM0C.J0797557.D0000101.?         SYSIN]]></line><line t="D"><![CDATA[ IGD106I SYS19295.T142905.RA000.HDDRXM0C.MSGFILE.H01  PASSED,    DDNAME=MSGFILE]]></line><line t="D"><![CDATA[ IEF285I   HDDRXM0.HDDRXM0C.J0797557.D0000109.?         SYSOUT]]></line><line t="D"><![CDATA[ IGD104I HFS FILE WAS RETAINED, DDNAME IS (XASYSIN )]]></line><line t="D"><![CDATA[ FILENAME IS (/u/xatester/hddrxm0/f072580166f64de08c2cbce8d81be43d/CicsLog.log)]]></line><line t="D"><![CDATA[ IEF373I STEP/XADCHK  /START 2019295.1429]]></line><line t="D"><![CDATA[ IEF032I STEP/XADCHK  /STOP  2019295.1429]]></line><line t="D"><![CDATA[         CPU:     0 HR  00 MIN  00.02 SEC    SRB:     0 HR  00 MIN  00.00 SEC]]></line><line t="D"><![CDATA[         VIRT:    72K  SYS:   464K  EXT:      468K  SYS:    10012K]]></line><line t="D"><![CDATA[         ATB- REAL:                  1072K  SLOTS:                     0K]]></line><line t="D"><![CDATA[              VIRT- ALLOC:      13M SHRD:       0M]]></line><line t="D"><![CDATA[ IEF236I ALLOC. FOR HDDRXM0C COPYLOAD]]></line><line t="D"><![CDATA[ IEF237I JES2 ALLOCATED TO SYSPRINT]]></line><line t="D"><![CDATA[ IGD103I SMS ALLOCATED TO DDNAME INCF1]]></line><line t="D"><![CDATA[ IGD101I SMS ALLOCATED TO DDNAME (OUTFILE )]]></line><line t="D"><![CDATA[         DSN (SYS19295.T142905.RA000.HDDRXM0C.XCOPLOAD.H01)]]></line><line t="D"><![CDATA[         STORCLAS (TMPVIO) MGMTCLAS (        ) DATACLAS (        )]]></line><line t="D"><![CDATA[         VOL SER NOS= PCC005]]></line><line t="D"><![CDATA[ IEF237I JES2 ALLOCATED TO SYSIN]]></line><line t="D"><![CDATA[ IEF142I HDDRXM0C COPYLOAD - STEP WAS EXECUTED - COND CODE 0000]]></line><line t="D"><![CDATA[ IEF285I   HDDRXM0.HDDRXM0C.J0797557.D0000110.?         SYSOUT]]></line><line t="D"><![CDATA[ IGD104I GENAPP.ISPW.PROD.LOAD                        RETAINED,  DDNAME=INCF1]]></line><line t="D"><![CDATA[ IGD106I SYS19295.T142905.RA000.HDDRXM0C.XCOPLOAD.H01 PASSED,    DDNAME=OUTFILE]]></line><line t="D"><![CDATA[ IEF285I   HDDRXM0.HDDRXM0C.J0797557.D0000102.?         SYSIN]]></line><line t="D"><![CDATA[ IEF373I STEP/COPYLOAD/START 2019295.1429]]></line><line t="D"><![CDATA[ IEF032I STEP/COPYLOAD/STOP  2019295.1429]]></line><line t="D"><![CDATA[         CPU:     0 HR  00 MIN  00.03 SEC    SRB:     0 HR  00 MIN  00.00 SEC]]></line><line t="D"><![CDATA[         VIRT:  1184K  SYS:   348K  EXT:       32K  SYS:    11632K]]></line><line t="D"><![CDATA[         ATB- REAL:                  1084K  SLOTS:                     0K]]></line><line t="D"><![CDATA[              VIRT- ALLOC:      15M SHRD:       0M]]></line><line t="D"><![CDATA[ IEF236I ALLOC. FOR HDDRXM0C AMBLST]]></line><line t="D"><![CDATA[ IGD101I SMS ALLOCATED TO DDNAME (SYSPRINT)]]></line><line t="D"><![CDATA[         DSN (SYS19295.T142905.RA000.HDDRXM0C.AMBLST.H01  )]]></line><line t="D"><![CDATA[         STORCLAS (TMPVIO) MGMTCLAS (        ) DATACLAS (        )]]></line><line t="D"><![CDATA[         VOL SER NOS= PCC006]]></line><line t="D"><![CDATA[ IGD103I SMS ALLOCATED TO DDNAME LOADLIB]]></line><line t="D"><![CDATA[ IEF237I JES2 ALLOCATED TO SYSIN]]></line><line t="D"><![CDATA[ IEF142I HDDRXM0C AMBLST - STEP WAS EXECUTED - COND CODE 0000]]></line><line t="D"><![CDATA[ IGD106I SYS19295.T142905.RA000.HDDRXM0C.AMBLST.H01   PASSED,    DDNAME=SYSPRINT]]></line><line t="D"><![CDATA[ IGD106I SYS19295.T142905.RA000.HDDRXM0C.XCOPLOAD.H01 PASSED,    DDNAME=LOADLIB]]></line><line t="D"><![CDATA[ IEF285I   HDDRXM0.HDDRXM0C.J0797557.D0000103.?         SYSIN]]></line><line t="D"><![CDATA[ IEF373I STEP/AMBLST  /START 2019295.1429]]></line><line t="D"><![CDATA[ IEF032I STEP/AMBLST  /STOP  2019295.1429]]></line><line t="D"><![CDATA[         CPU:     0 HR  00 MIN  00.00 SEC    SRB:     0 HR  00 MIN  00.00 SEC]]></line><line t="D"><![CDATA[         VIRT:     4K  SYS:   296K  EXT:        8K  SYS:     9764K]]></line><line t="D"><![CDATA[         ATB- REAL:                  1084K  SLOTS:                     0K]]></line><line t="D"><![CDATA[              VIRT- ALLOC:      15M SHRD:       0M]]></line><line t="D"><![CDATA[ IEF206I HDDRXM0C XAMSG PUTMSG - STEP WAS NOT RUN BECAUSE OF CONDITIONAL EXPRESSION ON STATEMENT 25]]></line><line t="D"><![CDATA[ IEF272I HDDRXM0C XAMSG PUTMSG - STEP WAS NOT EXECUTED.]]></line><line t="D"><![CDATA[ IEF373I STEP/XAMSG   /START 2019295.1429]]></line><line t="D"><![CDATA[ IEF032I STEP/XAMSG   /STOP  2019295.1429]]></line><line t="D"><![CDATA[         CPU:     0 HR  00 MIN  00.00 SEC    SRB:     0 HR  00 MIN  00.00 SEC]]></line><line t="D"><![CDATA[         VIRT:     0K  SYS:     0K  EXT:        0K  SYS:        0K]]></line><line t="D"><![CDATA[         ATB- REAL:                  1084K  SLOTS:                     0K]]></line><line t="D"><![CDATA[              VIRT- ALLOC:      15M SHRD:       0M]]></line><line t="D"><![CDATA[ IEFA108I HDDRXM0C EXCIEXEC MSGFILE - PASSED DATA SET INFORMATION FOUND. MOD IS TREATED AS OLD]]></line><line t="D"><![CDATA[ IEF236I ALLOC. FOR HDDRXM0C EXCIEXEC]]></line><line t="D"><![CDATA[ IEF237I 2021 ALLOCATED TO STEPLIB]]></line><line t="D"><![CDATA[ IEF237I 2315 ALLOCATED TO]]></line><line t="D"><![CDATA[ IGD103I SMS ALLOCATED TO DDNAME AMBLIST]]></line><line t="D"><![CDATA[ IGD103I SMS ALLOCATED TO DDNAME MSGFILE]]></line><line t="D"><![CDATA[ IEF237I JES2 ALLOCATED TO SYSPRINT]]></line><line t="D"><![CDATA[ IEF237I JES2 ALLOCATED TO SYSOUT]]></line><line t="D"><![CDATA[ IEF237I JES2 ALLOCATED TO TTOUT]]></line><line t="D"><![CDATA[ IEF237I DMY  ALLOCATED TO SYSMDUMP]]></line><line t="D"><![CDATA[ IEF237I JES2 ALLOCATED TO SYSIN]]></line><line t="D"><![CDATA[ IEF142I HDDRXM0C EXCIEXEC - STEP WAS EXECUTED - COND CODE 0000]]></line><line t="D"><![CDATA[ IEF285I   SYS2.CW.CXR17Y.SLCXLOAD                      KEPT]]></line><line t="D"><![CDATA[ IEF285I   VOL SER NOS= SCCRT0.]]></line><line t="D"><![CDATA[ IEF285I   CTS530.CICS.SDFHEXCI                         KEPT]]></line><line t="D"><![CDATA[ IEF285I   VOL SER NOS= SYSSHA.]]></line><line t="D"><![CDATA[ IGD106I SYS19295.T142905.RA000.HDDRXM0C.AMBLST.H01   PASSED,    DDNAME=AMBLIST]]></line><line t="D"><![CDATA[ IGD106I SYS19295.T142905.RA000.HDDRXM0C.MSGFILE.H01  PASSED,    DDNAME=MSGFILE]]></line><line t="D"><![CDATA[ IEF285I   HDDRXM0.HDDRXM0C.J0797557.D0000112.?         SYSOUT]]></line><line t="D"><![CDATA[ IEF285I   HDDRXM0.HDDRXM0C.J0797557.D0000113.?         SYSOUT]]></line><line t="D"><![CDATA[ IEF285I   HDDRXM0.HDDRXM0C.J0797557.D0000114.?         SYSOUT]]></line><line t="D"><![CDATA[ IEF285I   HDDRXM0.HDDRXM0C.J0797557.D0000105.?         SYSIN]]></line><line t="D"><![CDATA[ IEF373I STEP/EXCIEXEC/START 2019295.1429]]></line><line t="D"><![CDATA[ IEF032I STEP/EXCIEXEC/STOP  2019295.1429]]></line><line t="D"><![CDATA[         CPU:     0 HR  00 MIN  00.02 SEC    SRB:     0 HR  00 MIN  00.00 SEC]]></line><line t="D"><![CDATA[         VIRT:   164K  SYS:   316K  EXT:      908K  SYS:    10100K]]></line><line t="D"><![CDATA[         ATB- REAL:                  1096K  SLOTS:                     0K]]></line><line t="D"><![CDATA[              VIRT- ALLOC:      17M SHRD:       0M]]></line><line t="D"><![CDATA[ IEF236I ALLOC. FOR HDDRXM0C COPYLOG]]></line><line t="D"><![CDATA[ IEF237I 2021 ALLOCATED TO STEPLIB]]></line><line t="D"><![CDATA[ IEF237I JES2 ALLOCATED TO STDPARM]]></line><line t="D"><![CDATA[ IEF237I JES2 ALLOCATED TO STDOUT]]></line><line t="D"><![CDATA[ IEF237I JES2 ALLOCATED TO STDERR]]></line><line t="D"><![CDATA[ IEF142I HDDRXM0C COPYLOG - STEP WAS EXECUTED - COND CODE 0000]]></line><line t="D"><![CDATA[ IEF285I   SYS2.CW.CXR17Y.SLCXLOAD                      KEPT]]></line><line t="D"><![CDATA[ IEF285I   VOL SER NOS= SCCRT0.]]></line><line t="D"><![CDATA[ IEF285I   HDDRXM0.HDDRXM0C.J0797557.D0000106.?         SYSIN]]></line><line t="D"><![CDATA[ IEF285I   HDDRXM0.HDDRXM0C.J0797557.D0000115.?         SYSOUT]]></line><line t="D"><![CDATA[ IEF285I   HDDRXM0.HDDRXM0C.J0797557.D0000116.?         SYSOUT]]></line><line t="D"><![CDATA[ IEF373I STEP/COPYLOG /START 2019295.1429]]></line><line t="D"><![CDATA[ IEF032I STEP/COPYLOG /STOP  2019295.1429]]></line><line t="D"><![CDATA[         CPU:     0 HR  00 MIN  00.01 SEC    SRB:     0 HR  00 MIN  00.00 SEC]]></line><line t="D"><![CDATA[         VIRT:   168K  SYS:   316K  EXT:      140K  SYS:    10096K]]></line><line t="D"><![CDATA[         ATB- REAL:                  1096K  SLOTS:                     0K]]></line><line t="D"><![CDATA[              VIRT- ALLOC:      17M SHRD:       0M]]></line><line t="D"><![CDATA[ IEF202I HDDRXM0C XACDMP - STEP WAS NOT RUN BECAUSE OF COND = ONLY]]></line><line t="D"><![CDATA[ IEF272I HDDRXM0C XACDMP - STEP WAS NOT EXECUTED.]]></line><line t="D"><![CDATA[ IEF373I STEP/XACDMP  /START 2019295.1429]]></line><line t="D"><![CDATA[ IEF032I STEP/XACDMP  /STOP  2019295.1429]]></line><line t="D"><![CDATA[         CPU:     0 HR  00 MIN  00.00 SEC    SRB:     0 HR  00 MIN  00.00 SEC]]></line><line t="D"><![CDATA[         VIRT:     0K  SYS:     0K  EXT:        0K  SYS:        0K]]></line><line t="D"><![CDATA[         ATB- REAL:                  1096K  SLOTS:                     0K]]></line><line t="D"><![CDATA[              VIRT- ALLOC:      17M SHRD:       0M]]></line><line t="D"><![CDATA[ IEF206I HDDRXM0C NOTIFY - STEP WAS NOT RUN BECAUSE OF CONDITIONAL EXPRESSION ON STATEMENT 56]]></line><line t="D"><![CDATA[ IEF272I HDDRXM0C NOTIFY - STEP WAS NOT EXECUTED.]]></line><line t="D"><![CDATA[ IEF373I STEP/NOTIFY  /START 2019295.1429]]></line><line t="D"><![CDATA[ IEF032I STEP/NOTIFY  /STOP  2019295.1429]]></line><line t="D"><![CDATA[         CPU:     0 HR  00 MIN  00.00 SEC    SRB:     0 HR  00 MIN  00.00 SEC]]></line><line t="D"><![CDATA[         VIRT:     0K  SYS:     0K  EXT:        0K  SYS:        0K]]></line><line t="D"><![CDATA[         ATB- REAL:                  1096K  SLOTS:                     0K]]></line><line t="D"><![CDATA[              VIRT- ALLOC:      17M SHRD:       0M]]></line><line t="D"><![CDATA[ IEF206I HDDRXM0C RENAME - STEP WAS NOT RUN BECAUSE OF CONDITIONAL EXPRESSION ON STATEMENT 56]]></line><line t="D"><![CDATA[ IEF272I HDDRXM0C RENAME - STEP WAS NOT EXECUTED.]]></line><line t="D"><![CDATA[ IEF373I STEP/RENAME  /START 2019295.1429]]></line><line t="D"><![CDATA[ IEF032I STEP/RENAME  /STOP  2019295.1429]]></line><line t="D"><![CDATA[         CPU:     0 HR  00 MIN  00.00 SEC    SRB:     0 HR  00 MIN  00.00 SEC]]></line><line t="D"><![CDATA[         VIRT:     0K  SYS:     0K  EXT:        0K  SYS:        0K]]></line><line t="D"><![CDATA[         ATB- REAL:                  1096K  SLOTS:                     0K]]></line><line t="D"><![CDATA[              VIRT- ALLOC:      17M SHRD:       0M]]></line><line t="D"><![CDATA[ IEF206I HDDRXM0C MSGFIL - STEP WAS NOT RUN BECAUSE OF CONDITIONAL EXPRESSION ON STATEMENT 56]]></line><line t="D"><![CDATA[ IEF272I HDDRXM0C MSGFIL - STEP WAS NOT EXECUTED.]]></line><line t="D"><![CDATA[ IEF373I STEP/MSGFIL  /START 2019295.1429]]></line><line t="D"><![CDATA[ IEF032I STEP/MSGFIL  /STOP  2019295.1429]]></line><line t="D"><![CDATA[         CPU:     0 HR  00 MIN  00.00 SEC    SRB:     0 HR  00 MIN  00.00 SEC]]></line><line t="D"><![CDATA[         VIRT:     0K  SYS:     0K  EXT:        0K  SYS:        0K]]></line><line t="D"><![CDATA[         ATB- REAL:                  1096K  SLOTS:                     0K]]></line><line t="D"><![CDATA[              VIRT- ALLOC:      17M SHRD:       0M]]></line><line t="D"><![CDATA[ IEF236I ALLOC. FOR HDDRXM0C CICSLOG]]></line><line t="D"><![CDATA[ IEF237I 2021 ALLOCATED TO SYSPROC]]></line><line t="D"><![CDATA[ IEF237I JES2 ALLOCATED TO XASYSUT]]></line><line t="D"><![CDATA[ IGD103I SMS HFS FILE ALLOCATED TO DDNAME XASYSIN]]></line><line t="D"><![CDATA[ IEF237I DMY  ALLOCATED TO SYSTSPRT]]></line><line t="D"><![CDATA[ IEF237I DMY  ALLOCATED TO SYSTSIN]]></line><line t="D"><![CDATA[ IEF142I HDDRXM0C CICSLOG - STEP WAS EXECUTED - COND CODE 0000]]></line><line t="D"><![CDATA[ IEF285I   SYS2.CW.CXR17Y.SLCXEXEC                      KEPT]]></line><line t="D"><![CDATA[ IEF285I   VOL SER NOS= SCCRT0.]]></line><line t="D"><![CDATA[ IEF285I   HDDRXM0.HDDRXM0C.J0797557.D0000123.?         SYSOUT]]></line><line t="D"><![CDATA[ IGD104I HFS FILE WAS RETAINED, DDNAME IS (XASYSIN )]]></line><line t="D"><![CDATA[ FILENAME IS (/u/xatester/hddrxm0/f072580166f64de08c2cbce8d81be43d/CicsLog.ttout)]]></line><line t="D"><![CDATA[ IEF373I STEP/CICSLOG /START 2019295.1429]]></line><line t="D"><![CDATA[ IEF032I STEP/CICSLOG /STOP  2019295.1429]]></line><line t="D"><![CDATA[         CPU:     0 HR  00 MIN  00.02 SEC    SRB:     0 HR  00 MIN  00.00 SEC]]></line><line t="D"><![CDATA[         VIRT:    72K  SYS:   476K  EXT:      532K  SYS:    10280K]]></line><line t="D"><![CDATA[         ATB- REAL:                  1096K  SLOTS:                     0K]]></line><line t="D"><![CDATA[              VIRT- ALLOC:      17M SHRD:       0M]]></line><line t="D"><![CDATA[ IGD105I SYS19295.T142905.RA000.HDDRXM0C.MSGFILE.H01  DELETED,   DDNAME=MSGFILE]]></line><line t="D"><![CDATA[ IGD103I SMS ALLOCATED TO DDNAME SYS00002]]></line><line t="D"><![CDATA[ IGD104I SYS19295.T142906.RA000.HDDRXM0C.R0195036     RETAINED,  DDNAME=SYS00002]]></line><line t="D"><![CDATA[ IGD105I SYS19295.T142905.RA000.HDDRXM0C.XCOPLOAD.H01 DELETED,   DDNAME=LOADLIB]]></line><line t="D"><![CDATA[ IGD103I SMS ALLOCATED TO DDNAME SYS00003]]></line><line t="D"><![CDATA[ IGD104I SYS19295.T142906.RA000.HDDRXM0C.R0195037     RETAINED,  DDNAME=SYS00003]]></line><line t="D"><![CDATA[ IGD105I SYS19295.T142905.RA000.HDDRXM0C.AMBLST.H01   DELETED,   DDNAME=AMBLIST]]></line><line t="D"><![CDATA[ IEF375I  JOB/HDDRXM0C/START 2019295.1429]]></line><line t="D"><![CDATA[ IEF033I  JOB/HDDRXM0C/STOP  2019295.1429]]></line><line t="D"><![CDATA[         CPU:     0 HR  00 MIN  00.10 SEC    SRB:     0 HR  00 MIN  00.00 SEC]]></line></spoolfile><spoolfromcnt>00001</spoolfromcnt><spoollinecnt>00181</spoollinecnt></responsedata></xatz_response></XATZRESP>
+20:29:10.395 LOG       HCIClient        Response received from Host. Message:Complete SPOOL data returned JobId:
+20:29:10.398 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>SPOOLGET</operation><runat>DAY</runat><spooldsn>HDDRXM0.HDDRXM0C.J0797557.D0000110.?</spooldsn><spoollrecl>121</spoollrecl><spoollinecnt>13</spoollinecnt><spoolfromcnt>1</spoolfromcnt></xatz_request></XATZREQ>
+20:29:10.609 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP><xatz_response><resultcode>0000</resultcode><resultmessage>Complete SPOOL data returned</resultmessage><responsedata><spoolfile><line t="D"><![CDATA[1                                         IEBCOPY MESSAGES AND CONTROL STATEMENTS                              PAGE     1]]></line><line t="D"><![CDATA[-IEB1135I IEBCOPY  FMID HDZ2230  SERVICE LEVEL UA92265  DATED 20170618 DFSMS 02.03.00 z/OS    02.03.00 HBB77B0  CPU 3907]]></line><line t="D"><![CDATA[ IEB1035I HDDRXM0C  COPYLOAD 14:29:05 TUE 22 OCT 2019 PARM='']]></line><line t="D"><![CDATA[- COPY INDD=(,                                                          X]]></line><line t="D"><![CDATA[  INCF1,                                                                X]]></line><line t="D"><![CDATA[  ),                                                                    X]]></line><line t="D"><![CDATA[  OUTDD=OUTFILE]]></line><line t="D"><![CDATA[  SELECT MEMBER=LGICUS01]]></line><line t="D"><![CDATA[0IEB1013I COPYING FROM PDSE  INDD=INCF1    VOL=PCC006 DSN=GENAPP.ISPW.PROD.LOAD]]></line><line t="D"><![CDATA[ IEB1014I           TO PDSE OUTDD=OUTFILE  VOL=PCC005 DSN=SYS19295.T142905.RA000.HDDRXM0C.XCOPLOAD.H01]]></line><line t="D"><![CDATA[ IGW01551I MEMBER LGICUS01 HAS BEEN COPIED]]></line><line t="D"><![CDATA[ IGW01550I 1 OF 1 SPECIFIED  MEMBERS WERE COPIED]]></line><line t="D"><![CDATA[ IEB147I END OF JOB - 0 WAS HIGHEST SEVERITY CODE]]></line></spoolfile><spoolfromcnt>00001</spoolfromcnt><spoollinecnt>00013</spoollinecnt></responsedata></xatz_response></XATZRESP>
+20:29:10.612 LOG       HCIClient        Response received from Host. Message:Complete SPOOL data returned JobId:
+20:29:10.616 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>SPOOLGET</operation><runat>DAY</runat><spooldsn>HDDRXM0.HDDRXM0C.J0797557.D0000114.?</spooldsn><spoollrecl>121</spoollrecl><spoollinecnt>34</spoollinecnt><spoolfromcnt>1</spoolfromcnt></xatz_request></XATZREQ>
+20:29:10.856 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP><xatz_response><resultcode>0000</resultcode><resultmessage>Complete SPOOL data returned</resultmessage><responsedata><spoolfile><line t="D"><![CDATA[ XATZCICX Starting 22/10/2019 14:29:05.81]]></line><line t="D"><![CDATA[                                                                                                                         ]]></line><line t="D"><![CDATA[ XATZCICX Reading parameters from sysin.....]]></line><line t="D"><![CDATA[                                                                                                                         ]]></line><line t="D"><![CDATA[ XATZCICX Name             Value]]></line><line t="D"><![CDATA[ XATZCICX -----------------------------------------------]]></line><line t="D"><![CDATA[ XATZCICX LOGLEVEL         4]]></line><line t="D"><![CDATA[ XATZCICX LOGQUEUE         CSMT]]></line><line t="D"><![CDATA[ XATZCICX PGMNAME          LGICUS01]]></line><line t="D"><![CDATA[ XATZCICX TRWAIT           T]]></line><line t="D"><![CDATA[ XATZCICX TRANSID]]></line><line t="D"><![CDATA[ XATZCICX TIMEOUT]]></line><line t="D"><![CDATA[ XATZCICX CODEPAGE         1047]]></line><line t="D"><![CDATA[ XATZCICX ENCODING]]></line><line t="D"><![CDATA[ XATZCICX USSOWNER         USER]]></line><line t="D"><![CDATA[ XATZCICX SYSID]]></line><line t="D"><![CDATA[ XATZCICX LANGUAGE         COBOL]]></line><line t="D"><![CDATA[ XATZCICX USERID           HDDRXM0]]></line><line t="D"><![CDATA[ XATZCICX APPLID           HCCAC013]]></line><line t="D"><![CDATA[ XATZCICX CALLTYPE         CICSLINK]]></line><line t="D"><![CDATA[ XATZCICX ROLLBACK         FALSE]]></line><line t="D"><![CDATA[ XATZCICX JOBDIR           f072580166f64de08c2cbce8d81be43d]]></line><line t="D"><![CDATA[ XATZCICX DB2PLAN          GENAONE]]></line><line t="D"><![CDATA[ XATZCICX HOMEDIR          u/xatester]]></line><line t="D"><![CDATA[ XATZCICX AMODE24          F]]></line><line t="D"><![CDATA[ XATZCICX CHANNEL          TTTRUNNR]]></line><line t="D"><![CDATA[ XATZCICX SQLRUN]]></line><line t="D"><![CDATA[ XATZCICX SQLID]]></line><line t="D"><![CDATA[ XATZCICX INPUTFILE        XAT_Module.i.xml]]></line><line t="D"><![CDATA[ XATZCICX OUTPUTFILE       XAT_Module.o.xml]]></line><line t="D"><![CDATA[ XATZCICX -----------------------------------------------]]></line><line t="D"><![CDATA[                                                                                                                         ]]></line><line t="D"><![CDATA[ XATZCICX 22/10/2019 14:29:05.83 XATZCICX Executing LGICUS01 on HCCAC013]]></line><line t="D"><![CDATA[ XATZCICX 22/10/2019 14:29:06.27 XATZCICX Succesfully executed EXCI call to LGICUS01]]></line></spoolfile><spoolfromcnt>00001</spoolfromcnt><spoollinecnt>00034</spoollinecnt></responsedata></xatz_response></XATZRESP>
+20:29:10.857 LOG       HCIClient        Response received from Host. Message:Complete SPOOL data returned JobId:
+20:29:10.861 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>SPOOLGET</operation><runat>DAY</runat><spooldsn>HDDRXM0.HDDRXM0C.J0797557.D0000115.?</spooldsn><spoollrecl>16383</spoollrecl><spoollinecnt>26</spoollinecnt><spoolfromcnt>1</spoolfromcnt></xatz_request></XATZREQ>
+20:29:11.072 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP><xatz_response><resultcode>0004</resultcode><resultmessage> Partial SPOOL data returned</resultmessage><responsedata><spoolfile><line t="D"><![CDATA[]]></line><line t="D"><![CDATA[***********************************************************************]]></line><line t="D"><![CDATA[* THIS SYSTEM IS FOR AUTHORIZED USE ONLY.  ACTIVITIES ARE LOGGED AND  *]]></line></spoolfile><spoolfromcnt>00001</spoolfromcnt><spoollinecnt>00003</spoollinecnt></responsedata></xatz_response></XATZRESP>
+20:29:11.075 LOG       HCIClient        Response received from Host. Message:Partial SPOOL data returned JobId:
+20:29:11.078 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>SPOOLGET</operation><runat>DAY</runat><spooldsn>HDDRXM0.HDDRXM0C.J0797557.D0000115.?</spooldsn><spoollrecl>16383</spoollrecl><spoollinecnt>26</spoollinecnt><spoolfromcnt>4</spoolfromcnt></xatz_request></XATZREQ>
+20:29:11.298 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP><xatz_response><resultcode>0004</resultcode><resultmessage> Partial SPOOL data returned</resultmessage><responsedata><spoolfile><line t="D"><![CDATA[* EXPECTATION OF PRIVACY.  ANY UNAUTHORIZED ACCESS OR UNAUTHORIZED    *]]></line><line t="D"><![CDATA[* USE OF THIS SYSTEM IS PROHIBITED AND COULD BE SUBJECT TO CIVIL AND  *]]></line><line t="D"><![CDATA[* CRIMINAL PENALTIES.  BY CONTINUING TO USE THIS SYSTEM YOU INDICATE  *]]></line></spoolfile><spoolfromcnt>00004</spoolfromcnt><spoollinecnt>00003</spoollinecnt></responsedata></xatz_response></XATZRESP>
+20:29:11.299 LOG       HCIClient        Response received from Host. Message:Partial SPOOL data returned JobId:
+20:29:11.301 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>SPOOLGET</operation><runat>DAY</runat><spooldsn>HDDRXM0.HDDRXM0C.J0797557.D0000115.?</spooldsn><spoollrecl>16383</spoollrecl><spoollinecnt>26</spoollinecnt><spoolfromcnt>7</spoolfromcnt></xatz_request></XATZREQ>
+20:29:12.062 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP><xatz_response><resultcode>0004</resultcode><resultmessage> Partial SPOOL data returned</resultmessage><responsedata><spoolfile><line t="D"><![CDATA[* YOUR AWARENESS OF AND CONSENT TO THESE TERMS AND CONDITIONS OF USE. *]]></line><line t="D"><![CDATA[***********************************************************************]]></line><line t="D"><![CDATA[]]></line></spoolfile><spoolfromcnt>00007</spoolfromcnt><spoollinecnt>00003</spoollinecnt></responsedata></xatz_response></XATZRESP>
+20:29:12.064 LOG       HCIClient        Response received from Host. Message:Partial SPOOL data returned JobId:
+20:29:12.066 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>SPOOLGET</operation><runat>DAY</runat><spooldsn>HDDRXM0.HDDRXM0C.J0797557.D0000115.?</spooldsn><spoollrecl>16383</spoollrecl><spoollinecnt>26</spoollinecnt><spoolfromcnt>10</spoolfromcnt></xatz_request></XATZREQ>
+20:29:12.300 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP><xatz_response><resultcode>0004</resultcode><resultmessage> Partial SPOOL data returned</resultmessage><responsedata><spoolfile><line t="D"><![CDATA[ CCCC.   OOOO    MM   MM   PPPPP.    UU UU  WW     WW    AA     .RRRRR.  EEEEEEE]]></line><line t="D"><![CDATA[CC   C  OO  OO   MM   MM   PP   PP  UU  UU  WW  W  WW   A  A     RR   RR EE]]></line><line t="D"><![CDATA[CC     OO    OO MM MMM MM  PP   PP UU   UU  WWW   WWW  AAAAAA    RRRRR.  EEEEE]]></line></spoolfile><spoolfromcnt>00010</spoolfromcnt><spoollinecnt>00003</spoollinecnt></responsedata></xatz_response></XATZRESP>
+20:29:12.301 LOG       HCIClient        Response received from Host. Message:Partial SPOOL data returned JobId:
+20:29:12.303 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>SPOOLGET</operation><runat>DAY</runat><spooldsn>HDDRXM0.HDDRXM0C.J0797557.D0000115.?</spooldsn><spoollrecl>16383</spoollrecl><spoollinecnt>26</spoollinecnt><spoolfromcnt>13</spoolfromcnt></xatz_request></XATZREQ>
+20:29:12.546 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP><xatz_response><resultcode>0004</resultcode><resultmessage> Partial SPOOL data returned</resultmessage><responsedata><spoolfile><line t="D"><![CDATA[CC     OO    OO MM  M  MM  PP PP  UU    UU   WWW WWW  AAAAAAAA   RRRR    EEEEE]]></line><line t="D"><![CDATA[CC   C  OO  OO MM       MM PP      UU   UU   WW   WW  AA    AA   RR  RR  EE]]></line><line t="D"><![CDATA[ CCCC.   OOOO  MM       MM PP.       UUUUU   WW   WW AA      AA  RR   RR EEEEEEE]]></line></spoolfile><spoolfromcnt>00013</spoolfromcnt><spoollinecnt>00003</spoollinecnt></responsedata></xatz_response></XATZRESP>
+20:29:12.548 LOG       HCIClient        Response received from Host. Message:Partial SPOOL data returned JobId:
+20:29:12.550 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>SPOOLGET</operation><runat>DAY</runat><spooldsn>HDDRXM0.HDDRXM0C.J0797557.D0000115.?</spooldsn><spoollrecl>16383</spoollrecl><spoollinecnt>26</spoollinecnt><spoolfromcnt>16</spoolfromcnt></xatz_request></XATZREQ>
+20:29:12.806 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP><xatz_response><resultcode>0004</resultcode><resultmessage> Partial SPOOL data returned</resultmessage><responsedata><spoolfile><line t="D"><![CDATA[]]></line><line t="D"><![CDATA[ - Welcome to Unix System Services for z/OS v2r3 (CWCC) -]]></line><line t="D"><![CDATA[]]></line></spoolfile><spoolfromcnt>00016</spoolfromcnt><spoollinecnt>00003</spoollinecnt></responsedata></xatz_response></XATZRESP>
+20:29:12.808 LOG       HCIClient        Response received from Host. Message:Partial SPOOL data returned JobId:
+20:29:12.810 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>SPOOLGET</operation><runat>DAY</runat><spooldsn>HDDRXM0.HDDRXM0C.J0797557.D0000115.?</spooldsn><spoollrecl>16383</spoollrecl><spoollinecnt>26</spoollinecnt><spoolfromcnt>19</spoolfromcnt></xatz_request></XATZREQ>
+20:29:13.094 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP><xatz_response><resultcode>0004</resultcode><resultmessage> Partial SPOOL data returned</resultmessage><responsedata><spoolfile><line t="D"><![CDATA[ - Telnet is available on port 1023 -]]></line><line t="D"><![CDATA[]]></line><line t="D"><![CDATA[total 16]]></line></spoolfile><spoolfromcnt>00019</spoolfromcnt><spoollinecnt>00003</spoollinecnt></responsedata></xatz_response></XATZRESP>
+20:29:13.096 LOG       HCIClient        Response received from Host. Message:Partial SPOOL data returned JobId:
+20:29:13.098 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>SPOOLGET</operation><runat>DAY</runat><spooldsn>HDDRXM0.HDDRXM0C.J0797557.D0000115.?</spooldsn><spoollrecl>16383</spoollrecl><spoollinecnt>26</spoollinecnt><spoolfromcnt>22</spoolfromcnt></xatz_request></XATZREQ>
+20:29:13.330 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP><xatz_response><resultcode>0004</resultcode><resultmessage> Partial SPOOL data returned</resultmessage><responsedata><spoolfile><line t="D"><![CDATA[-rwxrwxrwx   1 HDDRXM0  STCGRP         0 Oct 22 14:29 CicsLog.log]]></line><line t="D"><![CDATA[-rwxr-xr-x   1 HDDRXM0  STCGRP         0 Oct 22 14:29 CicsLog.ttout]]></line><line t="D"><![CDATA[-rwxrwxrwx   1 HDDRXM0  STCGRP      2088 Oct 22 14:29 XAT_Module.i.xml]]></line></spoolfile><spoolfromcnt>00022</spoolfromcnt><spoollinecnt>00003</spoollinecnt></responsedata></xatz_response></XATZRESP>
+20:29:13.331 LOG       HCIClient        Response received from Host. Message:Partial SPOOL data returned JobId:
+20:29:13.334 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>SPOOLGET</operation><runat>DAY</runat><spooldsn>HDDRXM0.HDDRXM0C.J0797557.D0000115.?</spooldsn><spoollrecl>16383</spoollrecl><spoollinecnt>26</spoollinecnt><spoolfromcnt>25</spoolfromcnt></xatz_request></XATZREQ>
+20:29:13.526 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP><xatz_response><resultcode>0000</resultcode><resultmessage>Complete SPOOL data returned</resultmessage><responsedata><spoolfile><line t="D"><![CDATA[]]></line></spoolfile><spoolfromcnt>00025</spoolfromcnt><spoollinecnt>00001</spoollinecnt></responsedata></xatz_response></XATZRESP>
+20:29:13.526 LOG       HCIClient        Response received from Host. Message:Complete SPOOL data returned JobId:
+20:29:13.528 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>SPOOLGET</operation><runat>DAY</runat><spooldsn>HDDRXM0.HDDRXM0C.J0797557.D0000116.?</spooldsn><spoollrecl>16383</spoollrecl><spoollinecnt>1</spoollinecnt><spoolfromcnt>1</spoolfromcnt></xatz_request></XATZREQ>
+20:29:13.736 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP><xatz_response><resultcode>0000</resultcode><resultmessage>Complete SPOOL data returned</resultmessage><responsedata><spoolfile><line t="D"><![CDATA[FSUM1006 A shell was not specified. Processing continues using the default shell name.]]></line></spoolfile><spoolfromcnt>00001</spoolfromcnt><spoollinecnt>00001</spoollinecnt></responsedata></xatz_response></XATZRESP>
+20:29:13.737 LOG       HCIClient        Response received from Host. Message:Complete SPOOL data returned JobId:
+20:29:13.737 INFO      CWCC CICS        Content of Spool files:
+20:29:13.737 INFO      CWCC CICS        ***** Spool file for step: JES2 ddName: JESMSGLG *****
+1                       J E S 2  J O B  L O G  --  S Y S T E M  C W C C  --  N O D E  C W C C
+0
+ 14.29.05 J0797557 ---- TUESDAY,   22 OCT 2019 ----
+ 14.29.05 J0797557  IRR010I  USERID HDDRXM0  IS ASSIGNED TO THIS JOB.
+ 14.29.05 J0797557  ICH70001I HDDRXM0  LAST ACCESS AT 14:28:58 ON TUESDAY, OCTOBER 22, 2019
+ 14.29.05 J0797557  $HASP373 HDDRXM0C STARTED - INIT 1    - CLASS A        - SYS CWCC
+ 14.29.05 J0797557  IEF403I HDDRXM0C - STARTED - TIME=14.29.05
+ 14.29.05 J0797557  -                                      ----TIMINGS (MINUTES)-----                          -----PAGING COUNTS----
+ 14.29.05 J0797557  -STEPNAME PROCSTEP    RC   EXCP   CONN       TCB       SRB  CLOCK          SERV  WORKLOAD  PAGE  SWAP   VIO SWAPS
+ 14.29.05 J0797557  -XADCHK               00     52      7  0.000413  0.000009    0.0          5590  BATCH        0     0     0     0
+ 14.29.05 J0797557  -COPYLOAD             00    118      8  0.000423  0.000016    0.0          6112  BATCH        0     0     0     0
+ 14.29.05 J0797557  -AMBLST               00      9      1  0.000038  0.000000    0.0           491  BATCH        0     0     0     0
+ 14.29.05 J0797557  -PUTMSG   XAMSG    FLUSH      0      0  0.000000  0.000000    0.0                BATCH        0     0     0     0
+ 14.29.06 J0797557  -EXCIEXEC             00    166     40  0.000347  0.000019    0.0          5402  BATCH        0     0     0     0
+ 14.29.06 J0797557  -COPYLOG              00     76      5  0.000205  0.000006    0.0          3003  BATCH        0     0     0     0
+ 14.29.06 J0797557  -XACDMP            FLUSH      0      0  0.000000  0.000000    0.0                BATCH        0     0     0     0
+ 14.29.06 J0797557  -NOTIFY            FLUSH      0      0  0.000000  0.000000    0.0                BATCH        0     0     0     0
+ 14.29.06 J0797557  -RENAME            FLUSH      0      0  0.000000  0.000000    0.0                BATCH        0     0     0     0
+ 14.29.06 J0797557  -MSGFIL            FLUSH      0      0  0.000000  0.000000    0.0                BATCH        0     0     0     0
+ 14.29.06 J0797557  -CICSLOG              00     76      5  0.000359  0.000006    0.0          4978  BATCH        0     0     0     0
+ 14.29.06 J0797557  IEF404I HDDRXM0C - ENDED - TIME=14.29.06
+ 14.29.06 J0797557  -HDDRXM0C ENDED.  NAME-TOPAZTST LGICUS01    TOTAL TCB CPU TIME= 0.001787 TOTAL ELAPSED TIME=   0.0 SUBSYS=JES2
+ 14.29.06 J0797557  $HASP395 HDDRXM0C ENDED - RC=0000
+0------ JES2 JOB STATISTICS ------
+-  22 OCT 2019 JOB EXECUTION DATE
+-          197 CARDS READ
+-          492 SYSOUT PRINT RECORDS
+-            0 SYSOUT PUNCH RECORDS
+-           47 SYSOUT SPOOL KBYTES
+-         0.02 MINUTES EXECUTION TIME
+***** Spool file for step: JES2 ddName: JESJCL *****
+        1 //HDDRXM0C JOB (TOPAZTST),                                              J0797557
+          //         'TOPAZTST LGICUS01',
+          //         REGION=0M,CLASS=A,MSGCLASS=X,MSGLEVEL=(1,1)
+          //*
+          //*      Cicsjcl version 2.1.0
+          //*
+        2 /*JOBPARM S=CWCC
+          //*
+        3 //       SET XAENV=SYS2.CW.&CWGACX.,
+          //           XAHLQLE=CEE,
+          //           XAHLQDFH=CTS530.CICS,
+          //           XAHLQDB2=DSNB10,
+          //           XAHLQCOB=IGY.V5R2M0,
+          //           XAVOLSER=PCC003
+          //*
+          IEFC653I SUBSTITUTION JCL - XAENV=SYS2.CW.CXR17Y,XAHLQLE=CEE,XAHLQDFH=CTS530.CICS,XAHLQDB2=DSNB10,
+          XAHLQCOB=IGY.V5R2M0,XAVOLSER=PCC003
+        4 //PROCLIB JCLLIB ORDER=&XAENV..SLCXCNTL
+          //*
+          //*************************************************************
+          //*              CHECK DATASETS                               *
+          //*************************************************************
+          IEFC653I SUBSTITUTION JCL - ORDER=SYS2.CW.CXR17Y.SLCXCNTL
+        5 //XADCHK EXEC PGM=IKJEFT01,PARM='XADSNCHK'
+        6 //SYSPROC  DD DSN=&XAENV..SLCXEXEC,DISP=SHR
+          IEFC653I SUBSTITUTION JCL - DSN=SYS2.CW.CXR17Y.SLCXEXEC,DISP=SHR
+        7 //RUNPARMS DD *
+        8 //MSGFILE  DD DSN=&&MSGFILE,DISP=(NEW,PASS),UNIT=SYSDA,
+          //            DCB=(LRECL=256,RECFM=FB,BLKSIZE=25600),
+          //            SPACE=(TRK,(1,1),RLSE)
+        9 //SYSPRINT DD SYSOUT=*
+       10 //SYSTSPRT DD DUMMY
+       11 //SYSTSIN  DD DUMMY
+       12 //XASYSIN  DD PATH='/u/xatester/hddrxm0/f072580166f64de08c2cbce8d81be43
+          //             d/CicsLog.log',
+          //         PATHOPTS=(ORDWR,OTRUNC,OCREAT),
+          //         PATHMODE=(SIRWXU,SIRWXG,SIRWXO),
+          //         PATHDISP=(KEEP,DELETE),FILEDATA=TEXT
+          //*
+       13 //      IF (XADCHK.RC EQ 0) THEN
+          /*
+          //*************************************************************
+          //* COPY module from load libraries to temp. load library
+          //*************************************************************
+       14 //COPYLOAD EXEC PGM=IEBCOPY
+       15 //SYSPRINT DD SYSOUT=*
+       16 //INCF1    DD DISP=SHR,DSN=GENAPP.ISPW.PROD.LOAD
+       17 //OUTFILE  DD DISP=(NEW,PASS),DSN=&&XCOPLOAD,UNIT=SYSDA,
+          //            DCB=(LRECL=0,RECFM=U,BLKSIZE=19069),VOL=SER=&XAVOLSER.,
+          //            SPACE=(TRK,(15,10,10)),DSNTYPE=LIBRARY
+          IEFC653I SUBSTITUTION JCL - DISP=(NEW,PASS),DSN=&&XCOPLOAD,UNIT=SYSDA,DCB=(LRECL=0,RECFM=U,BLKSIZE=19069),
+          VOL=SER=PCC003,SPACE=(TRK,(15,10,10)),DSNTYPE=LIBRARY
+       18 //SYSIN    DD *
+       19 //      IF (COPYLOAD.RC EQ 0) THEN
+          //*************************************************************
+          //* Activate AMBLIST to analyze load module if using DLL's
+          //*************************************************************
+          //*AMBLST EXEC PGM=AMBLIST,REGION=16M
+       20 //AMBLST EXEC PGM=IEFBR14,REGION=16M
+       21 //SYSPRINT DD DSN=&&AMBLST,DISP=(NEW,PASS),UNIT=SYSDA,
+          //            DCB=(LRECL=121,RECFM=FBA,BLKSIZE=24200),
+          //            SPACE=(TRK,(50,5),RLSE)
+       22 //LOADLIB  DD DSN=&&XCOPLOAD,DISP=(OLD,PASS)
+       23 //SYSIN    DD *
+          //*
+       24 //      ENDIF
+       25 //      IF (COPYLOAD.RC GT 0) THEN
+       26 //PUTMSG EXEC PROC=XAPUTMSG
+          XX*********************************************************************
+          XX* THESE MATERIALS CONTAIN CONFIDENTIAL INFORMATION AND              *
+          XX* TRADE SECRETS OF COMPUWARE CORPORATION.  USING, DISCLOSING,       *
+          XX* OR REPRODUCING THESE MATERIALS IS STRICTLY PROHIBITED UNLESS      *
+          XX* REQUIRED BY OR AUTHORIZED BY LAW OR ADVANCE WRITTEN PERMISSION    *
+          XX* HAS BEEN GIVEN BY COMPUWARE CORPORATION.                          *
+          XX*                                                                   *
+          XX* COPYRIGHT (C) 2018 COMPUWARE CORPORATION.                         *
+          XX* ALL RIGHTS RESERVED.                                              *
+          XX*********************************************************************
+          XX*
+       27 XXXAPUTMSG PROC
+       28 XXXAMSG    EXEC PGM=IKJEFT01,PARM='XAPUTMSR'
+       29 XXSYSPROC  DD DSN=&XAENV..SLCXEXEC,DISP=SHR
+          IEFC653I SUBSTITUTION JCL - DSN=SYS2.CW.CXR17Y.SLCXEXEC,DISP=SHR
+       30 XXSYSPRINT DD SYSOUT=*
+       31 XXSYSTSIN  DD DUMMY
+       32 XXSYSTSPRT DD DUMMY
+       33 XXSYSIN    DD DUMMY
+          XX*
+       34 //XAMSG.SYSUT2 DD DSN=&&MSGFILE,DISP=(MOD,PASS)
+       35 //XAMSG.SYSUT1 DD *
+       36 XX         PEND
+       37 //      ENDIF
+          //*
+       38 //      IF (COPYLOAD.RC EQ 0) THEN
+          //*
+          //*************************************************************
+          //* JCL to execute an external CICS interface client program *
+          //*************************************************************
+       39 //EXCIEXEC EXEC PGM=XATZCICX,PARM='4'
+       40 //STEPLIB  DD DSN=&XAENV..SLCXLOAD,DISP=SHR
+          IEFC653I SUBSTITUTION JCL - DSN=SYS2.CW.CXR17Y.SLCXLOAD,DISP=SHR
+       41 //         DD DSN=&XAHLQDFH..SDFHEXCI,DISP=SHR
+          IEFC653I SUBSTITUTION JCL - DSN=CTS530.CICS.SDFHEXCI,DISP=SHR
+       42 //AMBLIST  DD DSN=*.AMBLST.SYSPRINT,DISP=(OLD,PASS)
+       43 //MSGFILE  DD DSN=&&MSGFILE,DISP=(MOD,PASS)
+       44 //SYSPRINT DD SYSOUT=*
+       45 //SYSOUT   DD SYSOUT=*
+       46 //TTOUT    DD SYSOUT=*
+       47 //SYSMDUMP DD DUMMY
+       48 //SYSIN    DD *
+          //*
+       49 //COPYLOG  EXEC PGM=BPXBATCH,COND=EVEN
+       50 //STEPLIB  DD DSN=&XAENV..SLCXLOAD,DISP=SHR
+          IEFC653I SUBSTITUTION JCL - DSN=SYS2.CW.CXR17Y.SLCXLOAD,DISP=SHR
+       51 //STDPARM  DD *
+       52 //STDOUT   DD SYSOUT=*
+       53 //STDERR   DD SYSOUT=*
+          //*
+       54 //      ENDIF
+       55 //      ENDIF
+          //*
+       56 //      IF (XADCHK.RC GT 0 | EXCIEXEC.RC GT 0) THEN
+          //*************************************************************
+          //*        IF ABEND, Catch ABENDCODE
+          //*************************************************************
+       57 //XACDMP EXEC PGM=IKJEFT01,
+          //       PARM='ABCCHECK LGICUS01',COND=ONLY
+       58 //SYSPROC  DD DSN=&XAENV..SLCXEXEC,DISP=SHR
+          IEFC653I SUBSTITUTION JCL - DSN=SYS2.CW.CXR17Y.SLCXEXEC,DISP=SHR
+       59 //MSGFILE  DD DSN=&&MSGFILE,DISP=(MOD,PASS)
+       60 //SYSTSPRT DD SYSOUT=*
+       61 //SYSPRINT DD SYSOUT=*
+       62 //SYSTSIN  DD DUMMY
+          //*
+          //*************************************************************
+          //* Send Notify
+          //*************************************************************
+       63 //NOTIFY   EXEC PGM=XATZNOTF,COND=EVEN
+       64 //STEPLIB  DD DISP=SHR,DSN=&XAENV..SLCXLOAD
+          IEFC653I SUBSTITUTION JCL - DISP=SHR,DSN=SYS2.CW.CXR17Y.SLCXLOAD
+       65 //SYSIN    DD DSN=&&MSGFILE,DISP=(OLD,PASS)
+       66 //NOTIFY   DD PATH='/u/xatester/hddrxm0/f072580166f64de08c2cbce8d81be43
+          //             d/XAT_Module.o.xml.ntfy',
+          //         PATHOPTS=(ORDWR,OTRUNC,OCREAT),
+          //         PATHMODE=(SIRWXU,SIRWXG,SIRWXO),
+          //         PATHDISP=(KEEP,DELETE),FILEDATA=TEXT
+       67 //TTOUT    DD SYSOUT=*
+       68 //XASYSIN  DD *
+          //*
+          //*************************************************************
+          //* Rename notify
+          //*************************************************************
+       69 //RENAME   EXEC PGM=BPXBATCH,COND=EVEN
+       70 //STEPLIB  DD DSN=&XAENV..SLCXLOAD,DISP=SHR
+          IEFC653I SUBSTITUTION JCL - DSN=SYS2.CW.CXR17Y.SLCXLOAD,DISP=SHR
+       71 //STDPARM  DD *
+       72 //STDOUT   DD SYSOUT=*
+       73 //STDERR   DD SYSOUT=*
+          //*
+          //*************************************************************
+          //* List msgfile
+          //*************************************************************
+       74 //MSGFIL EXEC PGM=IEBGENER,COND=EVEN
+       75 //SYSPRINT DD DUMMY
+       76 //SYSIN    DD DUMMY
+       77 //SYSUT1   DD DSN=&&MSGFILE,DISP=(OLD,PASS)
+       78 //SYSUT2   DD SYSOUT=*
+          //*
+       79 //         ENDIF
+          //*************************************************************
+          //* List CICSLOG
+          //*************************************************************
+       80 //CICSLOG  EXEC PGM=IKJEFT01,PARM='XAUSSRDR'
+       81 //SYSPROC  DD DSN=&XAENV..SLCXEXEC,DISP=SHR
+          IEFC653I SUBSTITUTION JCL - DSN=SYS2.CW.CXR17Y.SLCXEXEC,DISP=SHR
+       82 //XASYSUT  DD SYSOUT=*,DCB=(RECFM=FB,LRECL=132)
+       83 //XASYSIN  DD PATH='/u/xatester/hddrxm0/f072580166f64de08c2cbce8d81be43
+          //             d/CicsLog.ttout',
+          //            PATHOPTS=(ORDONLY)
+       84 //SYSTSPRT DD DUMMY
+       85 //SYSTSIN  DD DUMMY
+          //*
+       86 //
+***** Spool file for step: JES2 ddName: JESYSMSG *****
+  STMT NO. MESSAGE
+        26 IEFC001I PROCEDURE XAPUTMSG WAS EXPANDED USING PRIVATE LIBRARY SYS2.CW.CXR17Y.SLCXCNTL
+ ICH70001I HDDRXM0  LAST ACCESS AT 14:28:58 ON TUESDAY, OCTOBER 22, 2019
+ IEFA111I HDDRXM0C IS USING THE FOLLOWING JOB RELATED SETTINGS:
+          SWA=BELOW,TIOT SIZE=48K,DSENQSHR=DISALLOW,GDGBIAS=JOB
+ IEF236I ALLOC. FOR HDDRXM0C XADCHK
+ IEF237I 2021 ALLOCATED TO SYSPROC
+ IEF237I JES2 ALLOCATED TO RUNPARMS
+ IGD101I SMS ALLOCATED TO DDNAME (MSGFILE )
+         DSN (SYS19295.T142905.RA000.HDDRXM0C.MSGFILE.H01 )
+         STORCLAS (TMPVIO) MGMTCLAS (        ) DATACLAS (        )
+         VOL SER NOS= VIO
+ IEF237I JES2 ALLOCATED TO SYSPRINT
+ IEF237I DMY  ALLOCATED TO SYSTSPRT
+ IEF237I DMY  ALLOCATED TO SYSTSIN
+ IGD103I SMS HFS FILE ALLOCATED TO DDNAME XASYSIN
+ IGD103I SMS ALLOCATED TO DDNAME SYS00001
+ IGD104I GENAPP.ISPW.PROD.LOAD                        RETAINED,  DDNAME=SYS00001
+ IEF142I HDDRXM0C XADCHK - STEP WAS EXECUTED - COND CODE 0000
+ IEF285I   SYS2.CW.CXR17Y.SLCXEXEC                      KEPT
+ IEF285I   VOL SER NOS= SCCRT0.
+ IEF285I   HDDRXM0.HDDRXM0C.J0797557.D0000101.?         SYSIN
+ IGD106I SYS19295.T142905.RA000.HDDRXM0C.MSGFILE.H01  PASSED,    DDNAME=MSGFILE
+ IEF285I   HDDRXM0.HDDRXM0C.J0797557.D0000109.?         SYSOUT
+ IGD104I HFS FILE WAS RETAINED, DDNAME IS (XASYSIN )
+ FILENAME IS (/u/xatester/hddrxm0/f072580166f64de08c2cbce8d81be43d/CicsLog.log)
+ IEF373I STEP/XADCHK  /START 2019295.1429
+ IEF032I STEP/XADCHK  /STOP  2019295.1429
+         CPU:     0 HR  00 MIN  00.02 SEC    SRB:     0 HR  00 MIN  00.00 SEC
+         VIRT:    72K  SYS:   464K  EXT:      468K  SYS:    10012K
+         ATB- REAL:                  1072K  SLOTS:                     0K
+              VIRT- ALLOC:      13M SHRD:       0M
+ IEF236I ALLOC. FOR HDDRXM0C COPYLOAD
+ IEF237I JES2 ALLOCATED TO SYSPRINT
+ IGD103I SMS ALLOCATED TO DDNAME INCF1
+ IGD101I SMS ALLOCATED TO DDNAME (OUTFILE )
+         DSN (SYS19295.T142905.RA000.HDDRXM0C.XCOPLOAD.H01)
+         STORCLAS (TMPVIO) MGMTCLAS (        ) DATACLAS (        )
+         VOL SER NOS= PCC005
+ IEF237I JES2 ALLOCATED TO SYSIN
+ IEF142I HDDRXM0C COPYLOAD - STEP WAS EXECUTED - COND CODE 0000
+ IEF285I   HDDRXM0.HDDRXM0C.J0797557.D0000110.?         SYSOUT
+ IGD104I GENAPP.ISPW.PROD.LOAD                        RETAINED,  DDNAME=INCF1
+ IGD106I SYS19295.T142905.RA000.HDDRXM0C.XCOPLOAD.H01 PASSED,    DDNAME=OUTFILE
+ IEF285I   HDDRXM0.HDDRXM0C.J0797557.D0000102.?         SYSIN
+ IEF373I STEP/COPYLOAD/START 2019295.1429
+ IEF032I STEP/COPYLOAD/STOP  2019295.1429
+         CPU:     0 HR  00 MIN  00.03 SEC    SRB:     0 HR  00 MIN  00.00 SEC
+         VIRT:  1184K  SYS:   348K  EXT:       32K  SYS:    11632K
+         ATB- REAL:                  1084K  SLOTS:                     0K
+              VIRT- ALLOC:      15M SHRD:       0M
+ IEF236I ALLOC. FOR HDDRXM0C AMBLST
+ IGD101I SMS ALLOCATED TO DDNAME (SYSPRINT)
+         DSN (SYS19295.T142905.RA000.HDDRXM0C.AMBLST.H01  )
+         STORCLAS (TMPVIO) MGMTCLAS (        ) DATACLAS (        )
+         VOL SER NOS= PCC006
+ IGD103I SMS ALLOCATED TO DDNAME LOADLIB
+ IEF237I JES2 ALLOCATED TO SYSIN
+ IEF142I HDDRXM0C AMBLST - STEP WAS EXECUTED - COND CODE 0000
+ IGD106I SYS19295.T142905.RA000.HDDRXM0C.AMBLST.H01   PASSED,    DDNAME=SYSPRINT
+ IGD106I SYS19295.T142905.RA000.HDDRXM0C.XCOPLOAD.H01 PASSED,    DDNAME=LOADLIB
+ IEF285I   HDDRXM0.HDDRXM0C.J0797557.D0000103.?         SYSIN
+ IEF373I STEP/AMBLST  /START 2019295.1429
+ IEF032I STEP/AMBLST  /STOP  2019295.1429
+         CPU:     0 HR  00 MIN  00.00 SEC    SRB:     0 HR  00 MIN  00.00 SEC
+         VIRT:     4K  SYS:   296K  EXT:        8K  SYS:     9764K
+         ATB- REAL:                  1084K  SLOTS:                     0K
+              VIRT- ALLOC:      15M SHRD:       0M
+ IEF206I HDDRXM0C XAMSG PUTMSG - STEP WAS NOT RUN BECAUSE OF CONDITIONAL EXPRESSION ON STATEMENT 25
+ IEF272I HDDRXM0C XAMSG PUTMSG - STEP WAS NOT EXECUTED.
+ IEF373I STEP/XAMSG   /START 2019295.1429
+ IEF032I STEP/XAMSG   /STOP  2019295.1429
+         CPU:     0 HR  00 MIN  00.00 SEC    SRB:     0 HR  00 MIN  00.00 SEC
+         VIRT:     0K  SYS:     0K  EXT:        0K  SYS:        0K
+         ATB- REAL:                  1084K  SLOTS:                     0K
+              VIRT- ALLOC:      15M SHRD:       0M
+ IEFA108I HDDRXM0C EXCIEXEC MSGFILE - PASSED DATA SET INFORMATION FOUND. MOD IS TREATED AS OLD
+ IEF236I ALLOC. FOR HDDRXM0C EXCIEXEC
+ IEF237I 2021 ALLOCATED TO STEPLIB
+ IEF237I 2315 ALLOCATED TO
+ IGD103I SMS ALLOCATED TO DDNAME AMBLIST
+ IGD103I SMS ALLOCATED TO DDNAME MSGFILE
+ IEF237I JES2 ALLOCATED TO SYSPRINT
+ IEF237I JES2 ALLOCATED TO SYSOUT
+ IEF237I JES2 ALLOCATED TO TTOUT
+ IEF237I DMY  ALLOCATED TO SYSMDUMP
+ IEF237I JES2 ALLOCATED TO SYSIN
+ IEF142I HDDRXM0C EXCIEXEC - STEP WAS EXECUTED - COND CODE 0000
+ IEF285I   SYS2.CW.CXR17Y.SLCXLOAD                      KEPT
+ IEF285I   VOL SER NOS= SCCRT0.
+ IEF285I   CTS530.CICS.SDFHEXCI                         KEPT
+ IEF285I   VOL SER NOS= SYSSHA.
+ IGD106I SYS19295.T142905.RA000.HDDRXM0C.AMBLST.H01   PASSED,    DDNAME=AMBLIST
+ IGD106I SYS19295.T142905.RA000.HDDRXM0C.MSGFILE.H01  PASSED,    DDNAME=MSGFILE
+ IEF285I   HDDRXM0.HDDRXM0C.J0797557.D0000112.?         SYSOUT
+ IEF285I   HDDRXM0.HDDRXM0C.J0797557.D0000113.?         SYSOUT
+ IEF285I   HDDRXM0.HDDRXM0C.J0797557.D0000114.?         SYSOUT
+ IEF285I   HDDRXM0.HDDRXM0C.J0797557.D0000105.?         SYSIN
+ IEF373I STEP/EXCIEXEC/START 2019295.1429
+ IEF032I STEP/EXCIEXEC/STOP  2019295.1429
+         CPU:     0 HR  00 MIN  00.02 SEC    SRB:     0 HR  00 MIN  00.00 SEC
+         VIRT:   164K  SYS:   316K  EXT:      908K  SYS:    10100K
+         ATB- REAL:                  1096K  SLOTS:                     0K
+              VIRT- ALLOC:      17M SHRD:       0M
+ IEF236I ALLOC. FOR HDDRXM0C COPYLOG
+ IEF237I 2021 ALLOCATED TO STEPLIB
+ IEF237I JES2 ALLOCATED TO STDPARM
+ IEF237I JES2 ALLOCATED TO STDOUT
+ IEF237I JES2 ALLOCATED TO STDERR
+ IEF142I HDDRXM0C COPYLOG - STEP WAS EXECUTED - COND CODE 0000
+ IEF285I   SYS2.CW.CXR17Y.SLCXLOAD                      KEPT
+ IEF285I   VOL SER NOS= SCCRT0.
+ IEF285I   HDDRXM0.HDDRXM0C.J0797557.D0000106.?         SYSIN
+ IEF285I   HDDRXM0.HDDRXM0C.J0797557.D0000115.?         SYSOUT
+ IEF285I   HDDRXM0.HDDRXM0C.J0797557.D0000116.?         SYSOUT
+ IEF373I STEP/COPYLOG /START 2019295.1429
+ IEF032I STEP/COPYLOG /STOP  2019295.1429
+         CPU:     0 HR  00 MIN  00.01 SEC    SRB:     0 HR  00 MIN  00.00 SEC
+         VIRT:   168K  SYS:   316K  EXT:      140K  SYS:    10096K
+         ATB- REAL:                  1096K  SLOTS:                     0K
+              VIRT- ALLOC:      17M SHRD:       0M
+ IEF202I HDDRXM0C XACDMP - STEP WAS NOT RUN BECAUSE OF COND = ONLY
+ IEF272I HDDRXM0C XACDMP - STEP WAS NOT EXECUTED.
+ IEF373I STEP/XACDMP  /START 2019295.1429
+ IEF032I STEP/XACDMP  /STOP  2019295.1429
+         CPU:     0 HR  00 MIN  00.00 SEC    SRB:     0 HR  00 MIN  00.00 SEC
+         VIRT:     0K  SYS:     0K  EXT:        0K  SYS:        0K
+         ATB- REAL:                  1096K  SLOTS:                     0K
+              VIRT- ALLOC:      17M SHRD:       0M
+ IEF206I HDDRXM0C NOTIFY - STEP WAS NOT RUN BECAUSE OF CONDITIONAL EXPRESSION ON STATEMENT 56
+ IEF272I HDDRXM0C NOTIFY - STEP WAS NOT EXECUTED.
+ IEF373I STEP/NOTIFY  /START 2019295.1429
+ IEF032I STEP/NOTIFY  /STOP  2019295.1429
+         CPU:     0 HR  00 MIN  00.00 SEC    SRB:     0 HR  00 MIN  00.00 SEC
+         VIRT:     0K  SYS:     0K  EXT:        0K  SYS:        0K
+         ATB- REAL:                  1096K  SLOTS:                     0K
+              VIRT- ALLOC:      17M SHRD:       0M
+ IEF206I HDDRXM0C RENAME - STEP WAS NOT RUN BECAUSE OF CONDITIONAL EXPRESSION ON STATEMENT 56
+ IEF272I HDDRXM0C RENAME - STEP WAS NOT EXECUTED.
+ IEF373I STEP/RENAME  /START 2019295.1429
+ IEF032I STEP/RENAME  /STOP  2019295.1429
+         CPU:     0 HR  00 MIN  00.00 SEC    SRB:     0 HR  00 MIN  00.00 SEC
+         VIRT:     0K  SYS:     0K  EXT:        0K  SYS:        0K
+         ATB- REAL:                  1096K  SLOTS:                     0K
+              VIRT- ALLOC:      17M SHRD:       0M
+ IEF206I HDDRXM0C MSGFIL - STEP WAS NOT RUN BECAUSE OF CONDITIONAL EXPRESSION ON STATEMENT 56
+ IEF272I HDDRXM0C MSGFIL - STEP WAS NOT EXECUTED.
+ IEF373I STEP/MSGFIL  /START 2019295.1429
+ IEF032I STEP/MSGFIL  /STOP  2019295.1429
+         CPU:     0 HR  00 MIN  00.00 SEC    SRB:     0 HR  00 MIN  00.00 SEC
+         VIRT:     0K  SYS:     0K  EXT:        0K  SYS:        0K
+         ATB- REAL:                  1096K  SLOTS:                     0K
+              VIRT- ALLOC:      17M SHRD:       0M
+ IEF236I ALLOC. FOR HDDRXM0C CICSLOG
+ IEF237I 2021 ALLOCATED TO SYSPROC
+ IEF237I JES2 ALLOCATED TO XASYSUT
+ IGD103I SMS HFS FILE ALLOCATED TO DDNAME XASYSIN
+ IEF237I DMY  ALLOCATED TO SYSTSPRT
+ IEF237I DMY  ALLOCATED TO SYSTSIN
+ IEF142I HDDRXM0C CICSLOG - STEP WAS EXECUTED - COND CODE 0000
+ IEF285I   SYS2.CW.CXR17Y.SLCXEXEC                      KEPT
+ IEF285I   VOL SER NOS= SCCRT0.
+ IEF285I   HDDRXM0.HDDRXM0C.J0797557.D0000123.?         SYSOUT
+ IGD104I HFS FILE WAS RETAINED, DDNAME IS (XASYSIN )
+ FILENAME IS (/u/xatester/hddrxm0/f072580166f64de08c2cbce8d81be43d/CicsLog.ttout)
+ IEF373I STEP/CICSLOG /START 2019295.1429
+ IEF032I STEP/CICSLOG /STOP  2019295.1429
+         CPU:     0 HR  00 MIN  00.02 SEC    SRB:     0 HR  00 MIN  00.00 SEC
+         VIRT:    72K  SYS:   476K  EXT:      532K  SYS:    10280K
+         ATB- REAL:                  1096K  SLOTS:                     0K
+              VIRT- ALLOC:      17M SHRD:       0M
+ IGD105I SYS19295.T142905.RA000.HDDRXM0C.MSGFILE.H01  DELETED,   DDNAME=MSGFILE
+ IGD103I SMS ALLOCATED TO DDNAME SYS00002
+ IGD104I SYS19295.T142906.RA000.HDDRXM0C.R0195036     RETAINED,  DDNAME=SYS00002
+ IGD105I SYS19295.T142905.RA000.HDDRXM0C.XCOPLOAD.H01 DELETED,   DDNAME=LOADLIB
+ IGD103I SMS ALLOCATED TO DDNAME SYS00003
+ IGD104I SYS19295.T142906.RA000.HDDRXM0C.R0195037     RETAINED,  DDNAME=SYS00003
+ IGD105I SYS19295.T142905.RA000.HDDRXM0C.AMBLST.H01   DELETED,   DDNAME=AMBLIST
+ IEF375I  JOB/HDDRXM0C/START 2019295.1429
+ IEF033I  JOB/HDDRXM0C/STOP  2019295.1429
+         CPU:     0 HR  00 MIN  00.10 SEC    SRB:     0 HR  00 MIN  00.00 SEC
+***** Spool file for step: COPYLOAD ddName: SYSPRINT *****
+1                                         IEBCOPY MESSAGES AND CONTROL STATEMENTS                              PAGE     1
+-IEB1135I IEBCOPY  FMID HDZ2230  SERVICE LEVEL UA92265  DATED 20170618 DFSMS 02.03.00 z/OS    02.03.00 HBB77B0  CPU 3907
+ IEB1035I HDDRXM0C  COPYLOAD 14:29:05 TUE 22 OCT 2019 PARM=''
+- COPY INDD=(,                                                          X
+  INCF1,                                                                X
+  ),                                                                    X
+  OUTDD=OUTFILE
+  SELECT MEMBER=LGICUS01
+0IEB1013I COPYING FROM PDSE  INDD=INCF1    VOL=PCC006 DSN=GENAPP.ISPW.PROD.LOAD
+ IEB1014I           TO PDSE OUTDD=OUTFILE  VOL=PCC005 DSN=SYS19295.T142905.RA000.HDDRXM0C.XCOPLOAD.H01
+ IGW01551I MEMBER LGICUS01 HAS BEEN COPIED
+ IGW01550I 1 OF 1 SPECIFIED  MEMBERS WERE COPIED
+ IEB147I END OF JOB - 0 WAS HIGHEST SEVERITY CODE
+***** Spool file for step: EXCIEXEC ddName: TTOUT *****
+ XATZCICX Starting 22/10/2019 14:29:05.81
+                                                                                                                         
+ XATZCICX Reading parameters from sysin.....
+                                                                                                                         
+ XATZCICX Name             Value
+ XATZCICX -----------------------------------------------
+ XATZCICX LOGLEVEL         4
+ XATZCICX LOGQUEUE         CSMT
+ XATZCICX PGMNAME          LGICUS01
+ XATZCICX TRWAIT           T
+ XATZCICX TRANSID
+ XATZCICX TIMEOUT
+ XATZCICX CODEPAGE         1047
+ XATZCICX ENCODING
+ XATZCICX USSOWNER         USER
+ XATZCICX SYSID
+ XATZCICX LANGUAGE         COBOL
+ XATZCICX USERID           HDDRXM0
+ XATZCICX APPLID           HCCAC013
+ XATZCICX CALLTYPE         CICSLINK
+ XATZCICX ROLLBACK         FALSE
+ XATZCICX JOBDIR           f072580166f64de08c2cbce8d81be43d
+ XATZCICX DB2PLAN          GENAONE
+ XATZCICX HOMEDIR          u/xatester
+ XATZCICX AMODE24          F
+ XATZCICX CHANNEL          TTTRUNNR
+ XATZCICX SQLRUN
+ XATZCICX SQLID
+ XATZCICX INPUTFILE        XAT_Module.i.xml
+ XATZCICX OUTPUTFILE       XAT_Module.o.xml
+ XATZCICX -----------------------------------------------
+                                                                                                                         
+ XATZCICX 22/10/2019 14:29:05.83 XATZCICX Executing LGICUS01 on HCCAC013
+ XATZCICX 22/10/2019 14:29:06.27 XATZCICX Succesfully executed EXCI call to LGICUS01
+***** Spool file for step: COPYLOG ddName: STDOUT *****
+
+***********************************************************************
+* THIS SYSTEM IS FOR AUTHORIZED USE ONLY.  ACTIVITIES ARE LOGGED AND  *
+* EXPECTATION OF PRIVACY.  ANY UNAUTHORIZED ACCESS OR UNAUTHORIZED    *
+* USE OF THIS SYSTEM IS PROHIBITED AND COULD BE SUBJECT TO CIVIL AND  *
+* CRIMINAL PENALTIES.  BY CONTINUING TO USE THIS SYSTEM YOU INDICATE  *
+* YOUR AWARENESS OF AND CONSENT TO THESE TERMS AND CONDITIONS OF USE. *
+***********************************************************************
+
+ CCCC.   OOOO    MM   MM   PPPPP.    UU UU  WW     WW    AA     .RRRRR.  EEEEEEE
+CC   C  OO  OO   MM   MM   PP   PP  UU  UU  WW  W  WW   A  A     RR   RR EE
+CC     OO    OO MM MMM MM  PP   PP UU   UU  WWW   WWW  AAAAAA    RRRRR.  EEEEE
+CC     OO    OO MM  M  MM  PP PP  UU    UU   WWW WWW  AAAAAAAA   RRRR    EEEEE
+CC   C  OO  OO MM       MM PP      UU   UU   WW   WW  AA    AA   RR  RR  EE
+ CCCC.   OOOO  MM       MM PP.       UUUUU   WW   WW AA      AA  RR   RR EEEEEEE
+
+ - Welcome to Unix System Services for z/OS v2r3 (CWCC) -
+
+ - Telnet is available on port 1023 -
+
+total 16
+-rwxrwxrwx   1 HDDRXM0  STCGRP         0 Oct 22 14:29 CicsLog.log
+-rwxr-xr-x   1 HDDRXM0  STCGRP         0 Oct 22 14:29 CicsLog.ttout
+-rwxrwxrwx   1 HDDRXM0  STCGRP      2088 Oct 22 14:29 XAT_Module.i.xml
+
+***** Spool file for step: COPYLOG ddName: STDERR *****
+FSUM1006 A shell was not specified. Processing continues using the default shell name.
+
+20:29:13.823 ERROR     Engine           Unable to execute the module:LGICUS01 at the host. Unable to execute at server. java.io.IOException: Job with JobId:J0797557 has finished without a notify file present: /u/xatester/hddrxm0/f072580166f64de08c2cbce8d81be43d/XAT_Module.o.xml.notify. This means that something went wrong when running the job at the server. There might be a JCL error in the submitted job. Please take a look at the job info at the host.
+20:29:13.823 ERROR     Engine           An error occurred. Now stopping the execution.
+20:29:13.823 ERROR     IterateData      Iteration unexpectedly stopped. Child component failed.
+20:29:13.823 INFO      IterateData      IterateData completed
+20:29:13.823 ERROR     Scope            Scope completed unexpectedly. A child component failed.
+20:29:13.823 COMMENT   Engine           Test Scenario execution ended

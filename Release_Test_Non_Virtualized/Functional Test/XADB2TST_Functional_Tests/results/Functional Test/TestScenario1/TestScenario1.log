@@ -1,0 +1,45 @@
+12:46:48.432 COMMENT   Engine           Test Scenario execution started
+12:46:48.434 INFO      Engine           Using context settings:
+  Engine Version       : 19.5.1
+  Environment id                : 5b508b8a787be73b59238d38
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : CWCC.COMPUWARE.COM
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+12:46:48.434 INFO      Engine           Setting variables from context and context data extensions
+12:46:48.434 INFO      Engine             id: environmentId      value: 5b508b8a787be73b59238d38
+12:46:48.434 INFO      Engine             id: environmentType    value: BATCH
+12:46:48.434 INFO      Engine             id: userId             value: HDDRXM0
+12:46:48.435 INFO      Component        Interpreting Component: XADB2TST program:XADB2TST
+12:46:48.492 LOG       CWCC Batch       Component Runtime Settings:
+12:46:48.492 LOG       CWCC Batch         Load library              :SYS2.CW.XATESTER.SXATLOAD
+12:46:48.492 LOG       CWCC Batch         Additional load libraries :
+12:46:48.492 LOG       CWCC Batch         Listing libraries         :
+12:46:48.492 LOG       CWCC Batch         SysDebug libraries        :
+12:46:48.492 LOG       CWCC Batch         DB2 Subsystem ID          :DBCC
+12:46:48.492 LOG       CWCC Batch         DB2 plan                  :TOPAZTST
+12:46:48.492 LOG       CWCC Batch         Call interface            :NONE
+12:46:48.492 LOG       CWCC Batch         Debugger type             :NONE
+12:46:48.492 LOG       CWCC Batch         Component type            :COBOL
+12:46:48.505 INFO      CWCC Batch       Sending Module execution request to Host for module:XADB2TST rollback:false
+12:46:50.122 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/49ec8f4205db45a7b3656c24a98e5db2
+12:46:50.417 LOG       CWCC Batch       Uploading input data for module XADB2TST
+12:46:54.767 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan>TOPAZTST</db2plan><db2id>DBCC</db2id><rollback>false</rollback><jobdirectory>49ec8f4205db45a7b3656c24a98e5db2</jobdirectory><amode24>false</amode24><members><membername>XADB2TST</membername></members><loads><mainload>SYS2.CW.XATESTER.SXATLOAD</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:46:55.167 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0776544</jobid><jobname>HDDRXM0E</jobname><starttime>20190823064655154</starttime></xatz_response></XATZRESP>
+12:46:55.172 LOG       HCIClient        Response received from Host. Message: JobId:J0776544
+12:46:55.172 INFO      HCIClient        Job has been started at host with JobId:J0776544
+12:46:55.173 INFO      CWCC Batch       Waiting for Execution Result from Host
+12:46:58.493 INFO      CWCC Batch       Component completed with program exit: +4
+12:46:58.710 LOG       CWCC Batch       Setting execution variable 'jobid' to J0776544
+12:46:58.710 LOG       CWCC Batch       Setting execution variable 'programexit' to 4
+12:46:58.943 INFO      Component        Verifying program exit code: 4 against verify expression: value < 8
+12:46:59.463 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:46:59.466 INFO      Component        Finished interpreting Component: XADB2TST program:XADB2TST
+12:46:59.468 COMMENT   Engine           Test Scenario execution ended

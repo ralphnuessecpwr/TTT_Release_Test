@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnitResult resultType="VERIFICATION_ERROR" containsSimulation="false">
+  <ExecutionId>2b69c8d6-0b3a-466c-8bff-2820e8c5349e</ExecutionId>
+  <Message />
+  <AST>
+    <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1">
+      <Test>
+        <Component label="XARISCAL" moduleName="XARISCAL" programExitVerify="value &lt; 8" programExit="0" rollback="false" description="Lower Boundary - First Range">
+          <Data>
+            <import>
+              <customer>
+                <age>0</age>
+              </customer>
+            </import>
+            <export>
+              <risc expected="0">0</risc>
+            </export>
+          </Data>
+        </Component>
+        <Component label="XARISCAL" moduleName="XARISCAL" programExitVerify="value &lt; 8" programExit="0" rollback="false" description="Lower Boundary - First Range">
+          <Data>
+            <import>
+              <customer>
+                <age>1</age>
+              </customer>
+            </import>
+            <export>
+              <risc expected="2">2</risc>
+            </export>
+          </Data>
+        </Component>
+        <Component id="xariscal" label="XARISCAL" moduleName="XARISCAL" programExitVerify="value &lt; 8" programExit="0" rollback="false" description="Mid - First Range">
+          <Data>
+            <import>
+              <customer>
+                <age>10</age>
+              </customer>
+            </import>
+            <export>
+              <risc expected="20">20</risc>
+            </export>
+          </Data>
+        </Component>
+        <Component label="XARISCAL" moduleName="XARISCAL" programExitVerify="value &lt; 8" programExit="0" rollback="false" description="Upper Boundary - First Range">
+          <Data>
+            <import>
+              <customer>
+                <age>17</age>
+              </customer>
+            </import>
+            <export>
+              <risc expected="35" verifiedFalse="DataItem: /export/risc. Actual value is different from expected. Actual value: 34.0 Expected: 35.0">34</risc>
+            </export>
+          </Data>
+        </Component>
+      </Test>
+      <MetaData>
+        <Component name="XARISCAL" type="COBOL">
+          <INOUT>
+            <import>
+              <customer>
+                <age type="NumericDisplay" length="3" bytes="3" signed="false" decimals="0" />
+              </customer>
+            </import>
+            <export>
+              <risc type="NumericDisplay" length="3" bytes="3" signed="false" decimals="0" />
+            </export>
+          </INOUT>
+        </Component>
+      </MetaData>
+    </XaUnit>
+  </AST>
+  <Context>
+    <ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5cee98c2d3142c1f90a4976d" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" userid="HDDRXM0">
+      <platformruntime database="DBCCCWCC" driver="com.ibm.db2.jcc.DB2Driver" uri="jdbc:db2://cwcc.compuware.com:546/${database}" environmenttype="BATCH" callinterface="NONE" />
+      <ExtensionData />
+      <ExtensionData componentName="xariscal" componentId="5cee9889d3142c1f90a4976c">
+        <Parameter key="sourcelibrary">
+          <Value>SYS2.CW.CXR17Y.SLCXCNTL</Value>
+        </Parameter>
+        <Parameter key="loadlibrary">
+          <Value>SYS2.CW.CXR17Y.SLCXLOAD</Value>
+        </Parameter>
+        <Parameter key="callinterface">
+          <Value>NONE</Value>
+        </Parameter>
+      </ExtensionData>
+      <References componentName="xariscal" />
+      <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="xariscal" path="XARISCAL_Basic.xaunit">
+        <Description>Program receives an age value via linkage section and returns a risk factor&#xD;
+- Execute program several times with different input ages and expected risk factors</Description>
+        <Test>
+          <Component label="XARISCAL" moduleName="XARISCAL" programExitVerify="value &lt; 8" rollback="false" description="Lower Boundary - First Range">
+            <Data>
+              <import>
+                <customer>
+                  <age>0</age>
+                </customer>
+              </import>
+              <export>
+                <risc expected="0" />
+              </export>
+            </Data>
+          </Component>
+          <Component label="XARISCAL" moduleName="XARISCAL" programExitVerify="value &lt; 8" rollback="false" description="Lower Boundary - First Range">
+            <Data>
+              <import>
+                <customer>
+                  <age>1</age>
+                </customer>
+              </import>
+              <export>
+                <risc expected="2" />
+              </export>
+            </Data>
+          </Component>
+          <Component id="xariscal" label="XARISCAL" moduleName="XARISCAL" programExitVerify="value &lt; 8" rollback="false" description="Mid - First Range">
+            <Data>
+              <import>
+                <customer>
+                  <age>10</age>
+                </customer>
+              </import>
+              <export>
+                <risc expected="20" />
+              </export>
+            </Data>
+          </Component>
+          <Component label="XARISCAL" moduleName="XARISCAL" programExitVerify="value &lt; 8" rollback="false" description="Upper Boundary - First Range">
+            <Data>
+              <import>
+                <customer>
+                  <age>17</age>
+                </customer>
+              </import>
+              <export>
+                <risc expected="35" />
+              </export>
+            </Data>
+          </Component>
+        </Test>
+        <MetaData>
+          <Component name="XARISCAL" type="COBOL">
+            <INOUT>
+              <import>
+                <customer>
+                  <age type="NumericDisplay" length="3" bytes="3" signed="false" decimals="0" />
+                </customer>
+              </import>
+              <export>
+                <risc type="NumericDisplay" length="3" bytes="3" signed="false" decimals="0" />
+              </export>
+            </INOUT>
+          </Component>
+        </MetaData>
+      </XaUnit>
+      <ExternalResources />
+    </ExecutionContext>
+  </Context>
+  <Started>20190902-16-20-10</Started>
+  <Ended>20190902-16-20-34</Ended>
+</XaUnitResult>

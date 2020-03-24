@@ -1,0 +1,20 @@
+<SerializedData xmlns="http://www.xact.dk/xatester/v/1">
+  <Row>
+    <RIDENT>800010002</RIDENT>
+    <FIRSTNAME>Hans</FIRSTNAME>
+    <LASTNAME>Hansen</LASTNAME>
+    <CPRNR>1313890001</CPRNR>
+    <TSTMP>2019-02-05-09.12.44.000416</TSTMP>
+    <USERID>MIC</USERID>
+    <STATUSCODE>O</STATUSCODE>
+  </Row>
+  <Row>
+    <RIDENT>10</RIDENT>
+    <FIRSTNAME>Peter</FIRSTNAME>
+    <LASTNAME>Hansen</LASTNAME>
+    <CPRNR>12345678</CPRNR>
+    <TSTMP>2019-09-18-08.23.37.000496</TSTMP>
+    <USERID>XATESTER</USERID>
+    <STATUSCODE>D</STATUSCODE>
+  </Row>
+</SerializedData>

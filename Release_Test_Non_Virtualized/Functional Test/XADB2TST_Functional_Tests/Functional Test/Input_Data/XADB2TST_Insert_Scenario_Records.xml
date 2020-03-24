@@ -1,0 +1,13 @@
+<Data xmlns="http://www.xact.dk/xatester/v/1">
+  <record>
+    <dclxaemployee>
+      <rident>0</rident>
+      <firstname>Ralph</firstname>
+      <lastname>Nuesse</lastname>
+      <cprnr>12345678</cprnr>
+      <tstmp>2019-02-05-09.12.44.000416</tstmp>
+      <userid>XATESTER</userid>
+      <statuscode>O</statuscode>
+    </dclxaemployee>
+  </record>
+</Data>

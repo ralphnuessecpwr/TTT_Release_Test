@@ -1,0 +1,77 @@
+<Data xmlns="http://www.xact.dk/xatester/v/1">
+  <record>
+    <employee-work-area>
+      <wa-emp-num>3431</wa-emp-num>
+      <wa-emp-type>H</wa-emp-type>
+      <wa-emp-region>2</wa-emp-region>
+      <wa-emp-name>Ralph Nuesse</wa-emp-name>
+      <wa-emp-address>
+        <wa-emp-street>123 NORTH AVE</wa-emp-street>
+        <wa-emp-city>PLANO</wa-emp-city>
+        <wa-emp-state>TX</wa-emp-state>
+        <wa-emp-zip>57010</wa-emp-zip>
+      </wa-emp-address>
+      <wa-hourly-employee-data>
+        <wa-emp-hours>40</wa-emp-hours>
+        <wa-emp-rate>28.5</wa-emp-rate>
+        <filler1></filler1>
+      </wa-hourly-employee-data>
+      <wa-emp-hire-date>
+        <wa-emp-hire-yy>84</wa-emp-hire-yy>
+        <wa-emp-hire-mm>6</wa-emp-hire-mm>
+        <wa-emp-hire-dd>25</wa-emp-hire-dd>
+      </wa-emp-hire-date>
+      <filler1></filler1>
+    </employee-work-area>
+  </record>
+  <record>
+    <employee-work-area>
+      <wa-emp-num>2523</wa-emp-num>
+      <wa-emp-type>H</wa-emp-type>
+      <wa-emp-region>1</wa-emp-region>
+      <wa-emp-name>JOHN SMITH</wa-emp-name>
+      <wa-emp-address>
+        <wa-emp-street>5456 ELM STREET</wa-emp-street>
+        <wa-emp-city>WAYNE</wa-emp-city>
+        <wa-emp-state>IL</wa-emp-state>
+        <wa-emp-zip>77902</wa-emp-zip>
+      </wa-emp-address>
+      <wa-hourly-employee-data>
+        <wa-emp-hours>38</wa-emp-hours>
+        <wa-emp-rate>28.5</wa-emp-rate>
+        <filler1>' 1'</filler1>
+      </wa-hourly-employee-data>
+      <wa-emp-hire-date>
+        <wa-emp-hire-yy>81</wa-emp-hire-yy>
+        <wa-emp-hire-mm>10</wa-emp-hire-mm>
+        <wa-emp-hire-dd>15</wa-emp-hire-dd>
+      </wa-emp-hire-date>
+      <filler1></filler1>
+    </employee-work-area>
+  </record>
+  <record>
+    <employee-work-area>
+      <wa-emp-num>1568</wa-emp-num>
+      <wa-emp-type>H</wa-emp-type>
+      <wa-emp-region>4</wa-emp-region>
+      <wa-emp-name>THOMAS LONG</wa-emp-name>
+      <wa-emp-address>
+        <wa-emp-street>12 RACE STREET</wa-emp-street>
+        <wa-emp-city>SAN JOSE</wa-emp-city>
+        <wa-emp-state>CA</wa-emp-state>
+        <wa-emp-zip>95126</wa-emp-zip>
+      </wa-emp-address>
+      <wa-hourly-employee-data>
+        <wa-emp-hours>45</wa-emp-hours>
+        <wa-emp-rate>25</wa-emp-rate>
+        <filler1></filler1>
+      </wa-hourly-employee-data>
+      <wa-emp-hire-date>
+        <wa-emp-hire-yy>87</wa-emp-hire-yy>
+        <wa-emp-hire-mm>3</wa-emp-hire-mm>
+        <wa-emp-hire-dd>31</wa-emp-hire-dd>
+      </wa-emp-hire-date>
+      <filler1></filler1>
+    </employee-work-area>
+  </record>
+</Data>

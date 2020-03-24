@@ -1,0 +1,122 @@
+<Data xmlns="http://www.xact.dk/xatester/v/1">
+  <record>
+    <unformatted>
+      <filler>'1                                                                                '</filler>
+    </unformatted>
+  </record>
+  <record>
+    <unformatted>
+      <filler>'2                                                                                '</filler>
+    </unformatted>
+  </record>
+  <record>
+    <unformatted>
+      <filler>'2a                                                                               '</filler>
+    </unformatted>
+  </record>  
+  <record>
+    <unformatted>
+      <filler>'3XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'</filler>
+    </unformatted>
+  </record>
+  <record>
+    <unformatted>
+      <filler>'4 RUN DATE  08/19/19       EMPLOYEE COMPENSATION REPORT                  PAGE   1'</filler>
+    </unformatted>
+  </record>
+  <record>
+    <unformatted>
+      <filler>'5                                                                                '</filler>
+    </unformatted>
+  </record>
+  <record>
+    <unformatted>
+      <filler>'6                                                                                '</filler>
+    </unformatted>
+  </record>
+  <record>
+    <unformatted>
+      <filler>'7                               HIRE  YRS OF                                     '</filler>
+    </unformatted>
+  </record>
+  <record>
+    <unformatted>
+      <filler>'8 EMPLOYEE NAME   REGION TYPE   DATE  SERVICE  SALARY   O/T   COMMISSION    TOTAL'</filler>
+    </unformatted>
+  </record>
+  <record>
+    <unformatted>
+      <filler>'9                                                                                '</filler>
+    </unformatted>
+  </record>
+  <record>
+    <unformatted>
+      <filler>'10JOHN SMITH      NORTH   H   10/15/81   37   1083.00     0.00      0.00  1083.00'</filler>
+    </unformatted>
+  </record>
+  <record>
+    <unformatted>
+      <filler>'11TED NESSMAN     NORTH   S   01/30/79   40   1000.00     0.00      0.00  1000.00'</filler>
+    </unformatted>
+  </record>
+  <record>
+    <unformatted>
+      <filler>'12ROY GARDNER     NORTH   S   12/31/92   26    750.00     0.00   3300.00  4050.00'</filler>
+    </unformatted>
+  </record>
+  <record>
+    <unformatted>
+      <filler>'13GAIL LAWRENCE   SOUTH   H   06/25/84   35   1140.00     0.00      0.00  1140.00'</filler>
+    </unformatted>
+  </record>
+  <record>
+    <unformatted>
+      <filler>'14VALERIE OLSEN   SOUTH   S   05/01/94   25    900.00     0.00   5600.00  6500.00'</filler>
+    </unformatted>
+  </record>
+  <record>
+    <unformatted>
+      <filler>'15MICHAEL DAYTON  SOUTH   S   08/30/82   36    825.00     0.00   6000.00  6825.00'</filler>
+    </unformatted>
+  </record>
+  <record>
+    <unformatted>
+      <filler>'16DENNIS WHITE    SOUTH   S   02/29/88   31   1050.00     0.00   1120.00  2170.00'</filler>
+    </unformatted>
+  </record>
+  <record>
+    <unformatted>
+      <filler>'17DAN PEARSON     EAST    S   07/20/89   30    850.00     0.00   1000.00  1850.00'</filler>
+    </unformatted>
+  </record>
+  <record>
+    <unformatted>
+      <filler>'18THOMAS LONG     WEST    H   03/31/87   32   1000.00   187.50      0.00  1187.50'</filler>
+    </unformatted>
+  </record>
+  <record>
+    <unformatted>
+      <filler>'19LAURA MARTIN    WEST    S   06/14/83   36   1225.00     0.00   6000.00  7225.00'</filler>
+    </unformatted>
+  </record>
+  <record>
+    <unformatted>
+      <filler>'20DONNA BROWN     WEST    S   11/11/81   37   1000.00     0.00   3333.00  4333.00'</filler>
+    </unformatted>
+  </record>
+  <record>
+    <unformatted>
+      <filler>'21MARK JOHNSON    WEST    S   09/30/82   36    750.00     0.00   6000.00  6750.00'</filler>
+    </unformatted>
+  </record>
+  <record>
+    <unformatted>
+      <filler>'22                                                                               '</filler>
+    </unformatted>
+  </record>
+  <record>
+    <unformatted>
+      <filler>'23   TOTAL                                                               44113.50'</filler>
+    </unformatted>
+  </record>
+</Data>

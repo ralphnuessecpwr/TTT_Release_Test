@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnitResult resultType="FAILURE" containsSimulation="false">
+  <ExecutionId>adda3da1-f7e9-482c-8541-aa5e28dcc85b</ExecutionId>
+  <Message>An error occurred and the execution has been stopped. Unable to execute the module:LGICUS01 at the host. Unable to execute at server. java.io.IOException: Job with JobId:J0797557 has finished without a notify file present: /u/xatester/hddrxm0/f072580166f64de08c2cbce8d81be43d/XAT_Module.o.xml.notify. This means that something went wrong when running the job at the server. There might be a JCL error in the submitted job. Please take a look at the job info at the host.</Message>
+  <AST>
+    <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1">
+      <Test>
+        <Scope name="Positive Tests" disabled="false">
+          <SQLSelect id="select" maxRows="3">
+            <Statement>SELECT CITY,  CUSTOMERNUMBER,  EMAILADDRESS,  FIRSTNAME,  LASTNAME,  STATE FROM GENAPPDB.CUSTOMER</Statement>
+            <Output name="CITY" />
+            <Output name="CUSTOMERNUMBER" />
+            <Output name="EMAILADDRESS" />
+            <Output name="FIRSTNAME" />
+            <Output name="LASTNAME" />
+            <Output name="STATE" />
+            <Row>
+              <CITY />
+              <CUSTOMERNUMBER>1</CUSTOMERNUMBER>
+              <EMAILADDRESS>A.Pandy@beebhouse.com</EMAILADDRESS>
+              <FIRSTNAME>Andrew</FIRSTNAME>
+              <LASTNAME>Pandy</LASTNAME>
+              <STATE />
+            </Row>
+            <Row>
+              <CITY>Detroit</CITY>
+              <CUSTOMERNUMBER>2</CUSTOMERNUMBER>
+              <EMAILADDRESS>XEFROOM@TBHOLDINGS.COM</EMAILADDRESS>
+              <FIRSTNAME>Scott</FIRSTNAME>
+              <LASTNAME>Tracey</LASTNAME>
+              <STATE>MI</STATE>
+            </Row>
+            <Row>
+              <CITY>FAILURE</CITY>
+              <CUSTOMERNUMBER>1000163</CUSTOMERNUMBER>
+              <EMAILADDRESS />
+              <FIRSTNAME>ERIC</FIRSTNAME>
+              <LASTNAME>NOTEST</LASTNAME>
+              <STATE>AZ</STATE>
+            </Row>
+          </SQLSelect>
+          <IterateData id="loopThroughDb2Records" referencedId="select" dataPath="" />
+        </Scope>
+      </Test>
+      <MetaData>
+        <Component name="LGICUS01" type="COBOL">
+          <INOUT>
+            <dfhcommarea>
+              <ca-request-id type="Character" length="6" bytes="6" />
+              <ca-return-code type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0" />
+              <ca-customer-num type="NumericDisplay" length="10" bytes="10" signed="false" decimals="0" />
+              <ca-customer-request redefines="ca-request-specific">
+                <ca-first-name type="Character" length="10" bytes="10" />
+                <ca-last-name type="Character" length="20" bytes="20" />
+                <ca-dob type="Character" length="10" bytes="10" />
+                <ca-house-name type="Character" length="20" bytes="20" />
+                <ca-house-num type="Character" length="4" bytes="4" />
+                <ca-postcode type="Character" length="8" bytes="8" />
+                <ca-num-policies type="NumericDisplay" length="3" bytes="3" signed="false" decimals="0" />
+                <ca-phone-mobile type="Character" length="20" bytes="20" />
+                <ca-phone-home type="Character" length="20" bytes="20" />
+                <ca-email-address type="Character" length="100" bytes="100" />
+                <ca-national-id-nbr type="Character" length="20" bytes="20" />
+                <ca-nin-type type="Character" length="2" bytes="2" />
+                <ca-street-address type="Character" length="30" bytes="30" />
+                <ca-city type="Character" length="20" bytes="20" />
+                <ca-state type="Character" length="2" bytes="2" />
+                <ca-country-code type="Character" length="3" bytes="3" />
+                <ca-sales-territory type="Character" length="5" bytes="5" />
+                <ca-customer-pfkey type="Character" length="2" bytes="2" />
+                <ca-customer-begin type="NumericDisplay" length="10" bytes="10" signed="false" decimals="0" />
+                <ca-customer-end type="NumericDisplay" length="10" bytes="10" signed="false" decimals="0" />
+                <ca-policy-data type="Character" length="32163" bytes="32163" />
+              </ca-customer-request>
+            </dfhcommarea>
+          </INOUT>
+        </Component>
+      </MetaData>
+    </XaUnit>
+  </AST>
+  <Context>
+    <ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5cee990bd3142c1f90a4976f" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" userid="hddrxm0">
+      <platformruntime database="DBCCCWCC" driver="com.ibm.db2.jcc.DB2Driver" uri="jdbc:db2://cwcc.compuware.com:546/${database}" environmenttype="CICS" applid="HCCAC013" callinterface="CICSCALL" />
+      <ExtensionData />
+      <ExtensionData componentName="lgicus01" componentId="5d4d46d6423da3164cab5cb4">
+        <Parameter key="db2id">
+          <Value>DBCC</Value>
+        </Parameter>
+        <Parameter key="db2plan">
+          <Value>GENAONE</Value>
+        </Parameter>
+        <Parameter key="applid">
+          <Value>HCCAC013</Value>
+        </Parameter>
+        <Parameter key="sourcelibrary">
+          <Value>GENAPP.ISPW.PROD.COB</Value>
+        </Parameter>
+        <Parameter key="loadlibrary">
+          <Value>GENAPP.ISPW.PROD.LOAD</Value>
+        </Parameter>
+        <Parameter key="copybooknames">
+          <Value>LGCMAREA</Value>
+          <Value>LGPOLICY</Value>
+        </Parameter>
+        <Parameter key="sourcelibraries">
+          <Value>GENAPP.ISPW.PROD.COPY</Value>
+        </Parameter>
+        <Parameter key="callinterface">
+          <Value>CICSLINK</Value>
+        </Parameter>
+      </ExtensionData>
+      <References componentName="lgicus01" />
+      <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="lgicus01" path="LGICUS01.xaunit">
+        <Description>Program receives customer number via linkage section and retrieves data from DB2 table GENAPPDB.CUSTOMER for the corresponding customer&#xD;
+Two test cases&#xD;
+&#xD;
+Existing customer(s)&#xD;
+- Read up to first three rows from table natively&#xD;
+- For each retrieved row&#xD;
+- Execute program, using the customer number retrieved natively&#xD;
+- verify that values returned by program match values retrieved natively&#xD;
+&#xD;
+Non existing customer&#xD;
+- To make sure a certain (fixed) customer number does not exist delete row from table&#xD;
+- Execute program using customer number&#xD;
+- Verify that the return code indicates an error situation</Description>
+        <Test>
+          <Scope name="Positive Tests" disabled="false">
+            <SQLSelect id="select" maxRows="3">
+              <Statement>SELECT CITY,  CUSTOMERNUMBER,  EMAILADDRESS,  FIRSTNAME,  LASTNAME,  STATE FROM GENAPPDB.CUSTOMER</Statement>
+              <Output name="CITY" />
+              <Output name="CUSTOMERNUMBER" />
+              <Output name="EMAILADDRESS" />
+              <Output name="FIRSTNAME" />
+              <Output name="LASTNAME" />
+              <Output name="STATE" />
+            </SQLSelect>
+            <IterateData id="loopThroughDb2Records" referencedId="select" dataPath="">
+              <Component label="LGICUS01" moduleName="LGICUS01" programExitVerify="value &lt; 8" rollback="false">
+                <Data>
+                  <dfhcommarea>
+                    <ca-request-id />
+                    <ca-return-code />
+                    <ca-customer-num>=loopThroughDb2Records.Row.CUSTOMERNUMBER</ca-customer-num>
+                    <ca-customer-request>
+                      <ca-first-name expected="=loopThroughDb2Records.Row.FIRSTNAME" />
+                      <ca-last-name expected="=loopThroughDb2Records.Row.LASTNAME" />
+                      <ca-dob />
+                      <ca-house-name />
+                      <ca-house-num />
+                      <ca-postcode />
+                      <ca-num-policies />
+                      <ca-phone-mobile />
+                      <ca-phone-home />
+                      <ca-email-address expected="=loopThroughDb2Records.Row.EMAILADDRESS" />
+                      <ca-national-id-nbr />
+                      <ca-nin-type />
+                      <ca-street-address />
+                      <ca-city expected="=loopThroughDb2Records.Row.CITY" />
+                      <ca-state expected="=loopThroughDb2Records.Row.STATE" />
+                      <ca-country-code />
+                      <ca-sales-territory />
+                      <ca-customer-pfkey />
+                      <ca-customer-begin />
+                      <ca-customer-end />
+                      <ca-policy-data />
+                    </ca-customer-request>
+                  </dfhcommarea>
+                </Data>
+              </Component>
+            </IterateData>
+          </Scope>
+          <Scope name="Negative Tests" disabled="false">
+            <SQLUpdate description="Delete record that might exist in the database, &#xD;&#xA;i.e. make sure the record does not exist when executing LGICUS01" name="delete">
+              <Statement><![CDATA[DELETE FROM GENAPPDB.CUSTOMER WHERE CUSTOMERNUMBER = 999]]></Statement>
+            </SQLUpdate>
+            <Component label="LGICUS01" moduleName="LGICUS01" programExitVerify="value &lt; 8" rollback="true">
+              <Data>
+                <dfhcommarea>
+                  <ca-request-id />
+                  <ca-return-code expected="1" />
+                  <ca-customer-num>999</ca-customer-num>
+                  <ca-customer-request>
+                    <ca-first-name />
+                    <ca-last-name />
+                    <ca-dob />
+                    <ca-house-name />
+                    <ca-house-num />
+                    <ca-postcode />
+                    <ca-num-policies />
+                    <ca-phone-mobile />
+                    <ca-phone-home />
+                    <ca-email-address />
+                    <ca-national-id-nbr />
+                    <ca-nin-type />
+                    <ca-street-address />
+                    <ca-city />
+                    <ca-state />
+                    <ca-country-code />
+                    <ca-sales-territory />
+                    <ca-customer-pfkey />
+                    <ca-customer-begin />
+                    <ca-customer-end />
+                    <ca-policy-data />
+                  </ca-customer-request>
+                </dfhcommarea>
+              </Data>
+            </Component>
+          </Scope>
+        </Test>
+        <MetaData>
+          <Component name="LGICUS01" type="COBOL">
+            <INOUT>
+              <dfhcommarea>
+                <ca-request-id type="Character" length="6" bytes="6" />
+                <ca-return-code type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0" />
+                <ca-customer-num type="NumericDisplay" length="10" bytes="10" signed="false" decimals="0" />
+                <ca-customer-request redefines="ca-request-specific">
+                  <ca-first-name type="Character" length="10" bytes="10" />
+                  <ca-last-name type="Character" length="20" bytes="20" />
+                  <ca-dob type="Character" length="10" bytes="10" />
+                  <ca-house-name type="Character" length="20" bytes="20" />
+                  <ca-house-num type="Character" length="4" bytes="4" />
+                  <ca-postcode type="Character" length="8" bytes="8" />
+                  <ca-num-policies type="NumericDisplay" length="3" bytes="3" signed="false" decimals="0" />
+                  <ca-phone-mobile type="Character" length="20" bytes="20" />
+                  <ca-phone-home type="Character" length="20" bytes="20" />
+                  <ca-email-address type="Character" length="100" bytes="100" />
+                  <ca-national-id-nbr type="Character" length="20" bytes="20" />
+                  <ca-nin-type type="Character" length="2" bytes="2" />
+                  <ca-street-address type="Character" length="30" bytes="30" />
+                  <ca-city type="Character" length="20" bytes="20" />
+                  <ca-state type="Character" length="2" bytes="2" />
+                  <ca-country-code type="Character" length="3" bytes="3" />
+                  <ca-sales-territory type="Character" length="5" bytes="5" />
+                  <ca-customer-pfkey type="Character" length="2" bytes="2" />
+                  <ca-customer-begin type="NumericDisplay" length="10" bytes="10" signed="false" decimals="0" />
+                  <ca-customer-end type="NumericDisplay" length="10" bytes="10" signed="false" decimals="0" />
+                  <ca-policy-data type="Character" length="32163" bytes="32163" />
+                </ca-customer-request>
+              </dfhcommarea>
+            </INOUT>
+          </Component>
+        </MetaData>
+      </XaUnit>
+      <ExternalResources />
+    </ExecutionContext>
+  </Context>
+  <Started>20191022-20-28-56</Started>
+  <Ended>20191022-20-29-13</Ended>
+</XaUnitResult>

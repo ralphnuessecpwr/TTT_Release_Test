@@ -1,0 +1,23 @@
+14:59:56.525 COMMENT   Engine           Test Scenario execution started
+14:59:56.525 INFO      Engine           Using context settings:
+  Engine Version       : 19.5.1
+  Environment id                : 5b508b8a787be73b59238d38
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : CWCC.COMPUWARE.COM
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+14:59:56.525 INFO      Engine           Setting variables from context and context data extensions
+14:59:56.525 INFO      Engine             id: environmentId      value: 5b508b8a787be73b59238d38
+14:59:56.525 INFO      Engine             id: environmentType    value: BATCH
+14:59:56.525 INFO      Engine             id: userId             value: HDDRXM0
+14:59:56.525 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+14:59:56.526 ERROR     Engine           Unable to execute the module:CWXTSUBC at the host. Required Execution data not available. Required value is missing for Main load library with key:loadlibrary
+14:59:56.526 ERROR     Engine           An error occurred. Now stopping the execution.
+14:59:56.526 COMMENT   Engine           Test Scenario execution ended
