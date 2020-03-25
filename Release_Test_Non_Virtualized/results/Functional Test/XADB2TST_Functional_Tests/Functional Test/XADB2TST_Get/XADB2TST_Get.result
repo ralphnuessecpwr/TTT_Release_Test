@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <XaUnitResult resultType="FAILURE" containsSimulation="false">
-  <ExecutionId>b033180c-688e-4610-9c30-a0065f8d5e18</ExecutionId>
+  <ExecutionId>8e154134-3997-44ce-abe0-e37dd6ad27a4</ExecutionId>
   <Message>An error occurred and the execution has been stopped. Unable to get a database connection. [jcc][t4][2057][11264][3.68.61] The application server rejected establishment of the connection.&#xD;
 An attempt was made to access a database, DSCCCWCC, which was either not found or does not support transactions. ERRORCODE=-4499, SQLSTATE=08004</Message>
   <AST>
@@ -355,6 +355,6 @@ tempRowId.toString();]]></Statement>
       <ExternalResources />
     </ExecutionContext>
   </Context>
-  <Started>20200324-16-39-38</Started>
-  <Ended>20200324-16-39-43</Ended>
+  <Started>20200325-09-37-21</Started>
+  <Ended>20200325-09-37-22</Ended>
 </XaUnitResult>

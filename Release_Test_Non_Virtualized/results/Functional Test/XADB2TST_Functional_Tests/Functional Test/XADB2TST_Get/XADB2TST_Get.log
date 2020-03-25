@@ -1,5 +1,5 @@
-16:39:38.687 COMMENT   Engine           Test Scenario execution started
-16:39:38.687 INFO      Engine           Using context settings:
+09:37:21.961 COMMENT   Engine           Test Scenario execution started
+09:37:21.962 INFO      Engine           Using context settings:
   Engine Version       : 20.2
   Environment id                : 5e7a190fcf655a12a4d4df4d
   Environment type              : Batch
@@ -14,28 +14,28 @@
   Codepage                      : IBM-1047
   Host user Id                  : hddrxm0
   Use Repository Server         : true
-16:39:38.687 INFO      Engine           Setting variables from context and context data extensions
-16:39:38.687 INFO      Engine             id: environmentId      value: 5e7a190fcf655a12a4d4df4d
-16:39:38.687 INFO      Engine             id: environmentType    value: BATCH
-16:39:38.687 INFO      Engine             id: userId             value: HDDRXM0
-16:39:38.687 INFO      Engine             id: accountingInfo     value: 
-16:39:38.698 INFO      Scope            Interpreting Scope name:Initialization
-16:39:38.698 INFO      Variable         Interpreting Variable id:db2CreatorName
-16:39:38.698 LOG       Variable         Resolved data:
+09:37:21.962 INFO      Engine           Setting variables from context and context data extensions
+09:37:21.962 INFO      Engine             id: environmentId      value: 5e7a190fcf655a12a4d4df4d
+09:37:21.962 INFO      Engine             id: environmentType    value: BATCH
+09:37:21.962 INFO      Engine             id: userId             value: HDDRXM0
+09:37:21.962 INFO      Engine             id: accountingInfo     value: 
+09:37:21.975 INFO      Scope            Interpreting Scope name:Initialization
+09:37:21.975 INFO      Variable         Interpreting Variable id:db2CreatorName
+09:37:21.975 LOG       Variable         Resolved data:
 HDDRXM0
-16:39:38.698 INFO      Variable         Interpreting Variable id:db2TableName
-16:39:38.698 LOG       Variable         Resolved data:
+09:37:21.976 INFO      Variable         Interpreting Variable id:db2TableName
+09:37:21.976 LOG       Variable         Resolved data:
 XAEMPLOYEE
-16:39:38.698 INFO      Scope            Scope completed
-16:39:38.698 INFO      Scope            Interpreting Scope name:Determine DB2 Row Ids
-16:39:38.698 INFO      SQLSelect        Interpreting SQLSelect id:selectMaxRowId statement: SELECT MAX(RIDENT) FROM ${db2CreatorName}.${db2TableName}
-16:39:38.698 INFO      SQLSelect        Using database from Environment:DSCCCWCC
-16:39:38.698 LOG       SQLSelect        SQL statement contained variable, now it has been substuted and the SQL is: SELECT MAX(RIDENT) FROM HDDRXM0.XAEMPLOYEE
-16:39:38.698 LOG       SQLSelect        Establishing connection to database DSCCCWCC
-16:39:43.147 ERROR     SQLSelect        Unable to get a database connection. [jcc][t4][2057][11264][3.68.61] The application server rejected establishment of the connection.
+09:37:21.976 INFO      Scope            Scope completed
+09:37:21.976 INFO      Scope            Interpreting Scope name:Determine DB2 Row Ids
+09:37:21.976 INFO      SQLSelect        Interpreting SQLSelect id:selectMaxRowId statement: SELECT MAX(RIDENT) FROM ${db2CreatorName}.${db2TableName}
+09:37:21.976 INFO      SQLSelect        Using database from Environment:DSCCCWCC
+09:37:21.976 LOG       SQLSelect        SQL statement contained variable, now it has been substuted and the SQL is: SELECT MAX(RIDENT) FROM HDDRXM0.XAEMPLOYEE
+09:37:21.976 LOG       SQLSelect        Establishing connection to database DSCCCWCC
+09:37:22.924 ERROR     SQLSelect        Unable to get a database connection. [jcc][t4][2057][11264][3.68.61] The application server rejected establishment of the connection.
 An attempt was made to access a database, DSCCCWCC, which was either not found or does not support transactions. ERRORCODE=-4499, SQLSTATE=08004
-16:39:43.147 ERROR     Engine           Unable to get a database connection. [jcc][t4][2057][11264][3.68.61] The application server rejected establishment of the connection.
+09:37:22.924 ERROR     Engine           Unable to get a database connection. [jcc][t4][2057][11264][3.68.61] The application server rejected establishment of the connection.
 An attempt was made to access a database, DSCCCWCC, which was either not found or does not support transactions. ERRORCODE=-4499, SQLSTATE=08004
-16:39:43.147 ERROR     Engine           An error occurred. Now stopping the execution.
-16:39:43.147 ERROR     Scope            Scope completed unexpectedly. A child component failed.
-16:39:43.147 COMMENT   Engine           Test Scenario execution ended
+09:37:22.925 ERROR     Engine           An error occurred. Now stopping the execution.
+09:37:22.925 ERROR     Scope            Scope completed unexpectedly. A child component failed.
+09:37:22.925 COMMENT   Engine           Test Scenario execution ended
