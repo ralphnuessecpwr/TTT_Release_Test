@@ -65,7 +65,7 @@ var tmpOt    = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-ot'])
 var tmpComm  = Number(loopThroughOutput.record['employee-dtl']['emp-dtl-comm'])
 var tmpTotal = tmpWages + tmpOt + tmpComm
 
-tmpTotal.toFixed(2)]]></Statement>
+tmpTotal.toFixed(0)]]></Statement>
             </Expression>
           </data:Replaceable>
         </Variable>

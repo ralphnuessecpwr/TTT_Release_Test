@@ -29,7 +29,7 @@ Sub Scope "Execute Negative Tests and Verify"&#xD;
 - Verify that return code indicates an error</Description>
   <Test>
     <Scope name="Initialization" disabled="false">
-      <Variable id="db2CreatorName">ADKKXC0</Variable>
+      <Variable id="db2CreatorName">HDDRXM0</Variable>
       <Variable id="db2TableName">XAEMPLOYEE</Variable>
     </Scope>
     <Scope name="Determine DB2 Row Ids" disabled="false">

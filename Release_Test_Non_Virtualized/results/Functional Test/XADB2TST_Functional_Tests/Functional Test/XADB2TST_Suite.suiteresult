@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaSuiteResult resultType="FAILURE" containsSimulation="false">
+  <Message>Total 5 tests failed out of 5 tests.</Message>
+  <Started>20200324-15-45-28</Started>
+  <Ended>20200324-15-45-28</Ended>
+  <XaUnitResults>
+    <XaUnitResult path="../../../../Functional Test/XADB2TST_Functional_Tests/Functional Test/XADB2TST_Insert.xactx" xaUnitPath="../../../../Functional Test/XADB2TST_Functional_Tests/Functional Test/XADB2TST_Insert.xaunit" resultPath="XADB2TST_Insert.result" containsSimulation="false" resultType="FAILURE" duration="0" componentUnderTest="xadb2tst">
+      <CC />
+      <Message>The ExecutionContext file C:/Users/cwde-rnuesse.EMEA/git/TTT_Release_Test/Release_Test_Non_Virtualized/Functional Test/XADB2TST_Functional_Tests/Functional Test/XADB2TST_Insert.xactx refers to environementId: 5cee98c2d3142c1f90a4976d but only test scenario for the test suite environment with id: 5e7a190fcf655a12a4d4df4d is allowed</Message>
+      <DetailedMessage>No log information</DetailedMessage>
+    </XaUnitResult>
+    <XaUnitResult path="../../../../Functional Test/XADB2TST_Functional_Tests/Functional Test/XADB2TST_Get.xactx" xaUnitPath="../../../../Functional Test/XADB2TST_Functional_Tests/Functional Test/XADB2TST_Get.xaunit" resultPath="XADB2TST_Get.result" containsSimulation="false" resultType="FAILURE" duration="0" componentUnderTest="xadb2tst">
+      <CC />
+      <Message>The ExecutionContext file C:/Users/cwde-rnuesse.EMEA/git/TTT_Release_Test/Release_Test_Non_Virtualized/Functional Test/XADB2TST_Functional_Tests/Functional Test/XADB2TST_Get.xactx refers to environementId: 5cee98c2d3142c1f90a4976d but only test scenario for the test suite environment with id: 5e7a190fcf655a12a4d4df4d is allowed</Message>
+      <DetailedMessage>No log information</DetailedMessage>
+    </XaUnitResult>
+    <XaUnitResult path="../../../../Functional Test/XADB2TST_Functional_Tests/Functional Test/XADB2TST_Modify.xactx" xaUnitPath="../../../../Functional Test/XADB2TST_Functional_Tests/Functional Test/XADB2TST_Modify.xaunit" resultPath="XADB2TST_Modify.result" containsSimulation="false" resultType="FAILURE" duration="0" componentUnderTest="xadb2tst">
+      <CC />
+      <Message>The ExecutionContext file C:/Users/cwde-rnuesse.EMEA/git/TTT_Release_Test/Release_Test_Non_Virtualized/Functional Test/XADB2TST_Functional_Tests/Functional Test/XADB2TST_Modify.xactx refers to environementId: 5cee98c2d3142c1f90a4976d but only test scenario for the test suite environment with id: 5e7a190fcf655a12a4d4df4d is allowed</Message>
+      <DetailedMessage>No log information</DetailedMessage>
+    </XaUnitResult>
+    <XaUnitResult path="../../../../Functional Test/XADB2TST_Functional_Tests/Functional Test/XADB2TST_Delete.xactx" xaUnitPath="../../../../Functional Test/XADB2TST_Functional_Tests/Functional Test/XADB2TST_Delete.xaunit" resultPath="XADB2TST_Delete.result" containsSimulation="false" resultType="FAILURE" duration="0" componentUnderTest="xadb2tst">
+      <CC />
+      <Message>The ExecutionContext file C:/Users/cwde-rnuesse.EMEA/git/TTT_Release_Test/Release_Test_Non_Virtualized/Functional Test/XADB2TST_Functional_Tests/Functional Test/XADB2TST_Delete.xactx refers to environementId: 5cee98c2d3142c1f90a4976d but only test scenario for the test suite environment with id: 5e7a190fcf655a12a4d4df4d is allowed</Message>
+      <DetailedMessage>No log information</DetailedMessage>
+    </XaUnitResult>
+    <XaUnitResult path="../../../../Functional Test/XADB2TST_Functional_Tests/Functional Test/XADB2TST_CRUD.xactx" xaUnitPath="../../../../Functional Test/XADB2TST_Functional_Tests/Functional Test/XADB2TST_CRUD.xaunit" resultPath="XADB2TST_CRUD.result" containsSimulation="false" resultType="FAILURE" duration="0" componentUnderTest="xadb2tst">
+      <CC />
+      <Message>The ExecutionContext file C:/Users/cwde-rnuesse.EMEA/git/TTT_Release_Test/Release_Test_Non_Virtualized/Functional Test/XADB2TST_Functional_Tests/Functional Test/XADB2TST_CRUD.xactx refers to environementId: 5cee98c2d3142c1f90a4976d but only test scenario for the test suite environment with id: 5e7a190fcf655a12a4d4df4d is allowed</Message>
+      <DetailedMessage>No log information</DetailedMessage>
+    </XaUnitResult>
+  </XaUnitResults>
+</XaSuiteResult>

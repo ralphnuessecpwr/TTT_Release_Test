@@ -1,0 +1,126 @@
+15:41:31.621 COMMENT   Engine           Test Scenario execution started
+15:41:31.621 INFO      Engine           Using context settings:
+  Engine Version       : 20.2
+  Environment id                : 5e7a190fcf655a12a4d4df4d
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwc2.nasa.cpwr.corp
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : hddrxm0
+  Use Repository Server         : true
+15:41:31.621 INFO      Engine           Setting variables from context and context data extensions
+15:41:31.621 INFO      Engine             id: environmentId      value: 5e7a190fcf655a12a4d4df4d
+15:41:31.621 INFO      Engine             id: environmentType    value: BATCH
+15:41:31.622 INFO      Engine             id: userId             value: HDDRXM0
+15:41:31.622 INFO      Engine             id: accountingInfo     value: 
+15:41:31.622 INFO      Component        Interpreting Component: XARISCAL program:XARISCAL
+15:41:31.623 LOG       CWC2 Batch       Component Runtime Settings:
+15:41:31.623 LOG       CWC2 Batch         Load libraries :
+15:41:31.623 LOG       CWC2 Batch         Optional main Load library:SYS2.CW.CXR17Z.SLCXLOAD
+15:41:31.623 LOG       CWC2 Batch         Listing libraries         :
+15:41:31.623 LOG       CWC2 Batch         SysDebug libraries        :
+15:41:31.623 LOG       CWC2 Batch         DB2 Subsystem ID          :
+15:41:31.623 LOG       CWC2 Batch         DB2 plan                  :
+15:41:31.623 LOG       CWC2 Batch         Call interface            :NONE
+15:41:31.623 LOG       CWC2 Batch         Debugger type             :NONE
+15:41:31.623 LOG       CWC2 Batch         Component type            :COBOL
+15:41:31.624 INFO      CWC2 Batch       Sending Module execution request to Host for module:XARISCAL rollback:false
+15:41:32.457 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/2cd61c5be8e44d659b6a657458361698
+15:41:33.777 LOG       CWC2 Batch       Uploading input data for module XARISCAL
+15:41:36.845 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>2cd61c5be8e44d659b6a657458361698</jobdirectory><amode24>false</amode24><members><membername>XARISCAL</membername></members><loads><mainload>SYS2.CW.CXR17Z.SLCXLOAD</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+15:41:37.304 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0848369</jobid><jobname>HDDRXM0E</jobname><starttime>20200324104137122</starttime></xatz_response></XATZRESP>
+15:41:37.305 LOG       HCIClient        Response received from Host. Message: JobId:J0848369
+15:41:37.305 INFO      HCIClient        Job has been started at host with JobId:J0848369
+15:41:37.305 INFO      CWC2 Batch       Waiting for Execution Result from Host
+15:41:40.877 INFO      CWC2 Batch       Component completed with program exit: +0
+15:41:41.237 LOG       CWC2 Batch       Setting execution variable 'jobid' to J0848369
+15:41:41.237 LOG       CWC2 Batch       Setting execution variable 'jobname' to HDDRXM0E
+15:41:41.237 LOG       CWC2 Batch       Setting execution variable 'programexit' to 0
+15:41:41.396 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+15:41:41.727 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+15:41:41.728 INFO      Component        Finished interpreting Component: XARISCAL program:XARISCAL
+15:41:41.729 INFO      Component        Interpreting Component: XARISCAL program:XARISCAL
+15:41:41.729 LOG       CWC2 Batch       Component Runtime Settings:
+15:41:41.730 LOG       CWC2 Batch         Load libraries :
+15:41:41.730 LOG       CWC2 Batch         Optional main Load library:SYS2.CW.CXR17Z.SLCXLOAD
+15:41:41.730 LOG       CWC2 Batch         Listing libraries         :
+15:41:41.730 LOG       CWC2 Batch         SysDebug libraries        :
+15:41:41.730 LOG       CWC2 Batch         DB2 Subsystem ID          :
+15:41:41.730 LOG       CWC2 Batch         DB2 plan                  :
+15:41:41.730 LOG       CWC2 Batch         Call interface            :NONE
+15:41:41.730 LOG       CWC2 Batch         Debugger type             :NONE
+15:41:41.730 LOG       CWC2 Batch         Component type            :COBOL
+15:41:41.731 INFO      CWC2 Batch       Sending Module execution request to Host for module:XARISCAL rollback:false
+15:41:42.399 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/4622b0c992414828800c2187fa2c7deb
+15:41:42.878 LOG       CWC2 Batch       Uploading input data for module XARISCAL
+15:41:44.422 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>4622b0c992414828800c2187fa2c7deb</jobdirectory><amode24>false</amode24><members><membername>XARISCAL</membername></members><loads><mainload>SYS2.CW.CXR17Z.SLCXLOAD</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+15:41:44.911 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0848370</jobid><jobname>HDDRXM0E</jobname><starttime>20200324104144724</starttime></xatz_response></XATZRESP>
+15:41:44.912 LOG       HCIClient        Response received from Host. Message: JobId:J0848370
+15:41:44.912 INFO      HCIClient        Job has been started at host with JobId:J0848370
+15:41:44.913 INFO      CWC2 Batch       Waiting for Execution Result from Host
+15:41:48.486 INFO      CWC2 Batch       Component completed with program exit: +0
+15:41:48.846 LOG       CWC2 Batch       Setting execution variable 'jobid' to J0848370
+15:41:48.846 LOG       CWC2 Batch       Setting execution variable 'jobname' to HDDRXM0E
+15:41:48.846 LOG       CWC2 Batch       Setting execution variable 'programexit' to 0
+15:41:48.997 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+15:41:49.011 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+15:41:49.011 INFO      Component        Finished interpreting Component: XARISCAL program:XARISCAL
+15:41:49.011 INFO      Component        Interpreting Component: XARISCAL program:XARISCAL
+15:41:49.011 LOG       CWC2 Batch       Component Runtime Settings:
+15:41:49.012 LOG       CWC2 Batch         Load libraries :
+15:41:49.012 LOG       CWC2 Batch         Optional main Load library:SYS2.CW.CXR17Z.SLCXLOAD
+15:41:49.012 LOG       CWC2 Batch         Listing libraries         :
+15:41:49.012 LOG       CWC2 Batch         SysDebug libraries        :
+15:41:49.012 LOG       CWC2 Batch         DB2 Subsystem ID          :
+15:41:49.012 LOG       CWC2 Batch         DB2 plan                  :
+15:41:49.012 LOG       CWC2 Batch         Call interface            :NONE
+15:41:49.012 LOG       CWC2 Batch         Debugger type             :NONE
+15:41:49.012 LOG       CWC2 Batch         Component type            :COBOL
+15:41:49.013 INFO      CWC2 Batch       Sending Module execution request to Host for module:XARISCAL rollback:false
+15:41:50.007 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/8c7221ce25f84b8d9fe3fdda545c48b3
+15:41:50.503 LOG       CWC2 Batch       Uploading input data for module XARISCAL
+15:41:52.498 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>8c7221ce25f84b8d9fe3fdda545c48b3</jobdirectory><amode24>false</amode24><members><membername>XARISCAL</membername></members><loads><mainload>SYS2.CW.CXR17Z.SLCXLOAD</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+15:41:52.772 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0848371</jobid><jobname>HDDRXM0E</jobname><starttime>20200324104152585</starttime></xatz_response></XATZRESP>
+15:41:52.774 LOG       HCIClient        Response received from Host. Message: JobId:J0848371
+15:41:52.774 INFO      HCIClient        Job has been started at host with JobId:J0848371
+15:41:52.774 INFO      CWC2 Batch       Waiting for Execution Result from Host
+15:41:56.156 INFO      CWC2 Batch       Component completed with program exit: +0
+15:41:57.718 LOG       CWC2 Batch       Setting execution variable 'jobid' to J0848371
+15:41:57.719 LOG       CWC2 Batch       Setting execution variable 'jobname' to HDDRXM0E
+15:41:57.719 LOG       CWC2 Batch       Setting execution variable 'programexit' to 0
+15:41:58.143 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+15:41:58.152 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+15:41:58.152 INFO      Component        Finished interpreting Component: XARISCAL program:XARISCAL
+15:41:58.152 INFO      Component        Interpreting Component: XARISCAL program:XARISCAL
+15:41:58.152 LOG       CWC2 Batch       Component Runtime Settings:
+15:41:58.153 LOG       CWC2 Batch         Load libraries :
+15:41:58.153 LOG       CWC2 Batch         Optional main Load library:SYS2.CW.CXR17Z.SLCXLOAD
+15:41:58.153 LOG       CWC2 Batch         Listing libraries         :
+15:41:58.153 LOG       CWC2 Batch         SysDebug libraries        :
+15:41:58.153 LOG       CWC2 Batch         DB2 Subsystem ID          :
+15:41:58.153 LOG       CWC2 Batch         DB2 plan                  :
+15:41:58.153 LOG       CWC2 Batch         Call interface            :NONE
+15:41:58.153 LOG       CWC2 Batch         Debugger type             :NONE
+15:41:58.153 LOG       CWC2 Batch         Component type            :COBOL
+15:41:58.154 INFO      CWC2 Batch       Sending Module execution request to Host for module:XARISCAL rollback:false
+15:41:58.812 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/593cf93f62c44d369d51bf8dacef2dce
+15:41:59.283 LOG       CWC2 Batch       Uploading input data for module XARISCAL
+15:42:00.785 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>593cf93f62c44d369d51bf8dacef2dce</jobdirectory><amode24>false</amode24><members><membername>XARISCAL</membername></members><loads><mainload>SYS2.CW.CXR17Z.SLCXLOAD</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+15:42:01.290 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0848372</jobid><jobname>HDDRXM0E</jobname><starttime>20200324104201091</starttime></xatz_response></XATZRESP>
+15:42:01.291 LOG       HCIClient        Response received from Host. Message: JobId:J0848372
+15:42:01.291 INFO      HCIClient        Job has been started at host with JobId:J0848372
+15:42:01.291 INFO      CWC2 Batch       Waiting for Execution Result from Host
+15:42:04.714 INFO      CWC2 Batch       Component completed with program exit: +0
+15:42:04.864 LOG       CWC2 Batch       Setting execution variable 'jobid' to J0848372
+15:42:04.864 LOG       CWC2 Batch       Setting execution variable 'jobname' to HDDRXM0E
+15:42:04.864 LOG       CWC2 Batch       Setting execution variable 'programexit' to 0
+15:42:05.015 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+15:42:05.031 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+15:42:05.031 INFO      Component        Finished interpreting Component: XARISCAL program:XARISCAL
+15:42:05.031 COMMENT   Engine           Test Scenario execution ended

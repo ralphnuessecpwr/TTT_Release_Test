@@ -1,0 +1,81 @@
+15:45:56.251 COMMENT   Engine           Test Scenario execution started
+15:45:56.251 INFO      Engine           Using context settings:
+  Engine Version       : 20.2
+  Environment id                : 5e7a190fcf655a12a4d4df4d
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwc2.nasa.cpwr.corp
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : hddrxm0
+  Use Repository Server         : true
+15:45:56.251 INFO      Engine           Setting variables from context and context data extensions
+15:45:56.251 INFO      Engine             id: environmentId      value: 5e7a190fcf655a12a4d4df4d
+15:45:56.251 INFO      Engine             id: environmentType    value: BATCH
+15:45:56.252 INFO      Engine             id: userId             value: HDDRXM0
+15:45:56.252 INFO      Engine             id: accountingInfo     value: 
+15:45:56.253 INFO      Scope            Interpreting Scope name:Initialization
+15:45:56.253 INFO      Variable         Interpreting Variable id:inputRecords dataFile:Input_Data/XADB2TST_Modify_Scenario_Records.xml
+15:45:56.254 LOG       Variable         Resolved data items from file Input_Data/XADB2TST_Modify_Scenario_Records.xml
+<record>
+  <dclxaemployee>
+    <rident>0</rident>
+    <firstname>Ralph</firstname>
+    <lastname>Nuesse</lastname>
+    <cprnr>12345678</cprnr>
+    <tstmp>2019-02-05-09.12.44.000416</tstmp>
+    <userid>XATESTER</userid>
+    <statuscode>O</statuscode>
+  </dclxaemployee>
+</record>
+<record>
+  <dclxaemployee>
+    <rident>0</rident>
+    <firstname>Ralph</firstname>
+    <lastname>Murawski</lastname>
+    <cprnr>12345680</cprnr>
+    <tstmp>2019-02-05-09.12.44.000416</tstmp>
+    <userid>RMU</userid>
+    <statuscode>O</statuscode>
+  </dclxaemployee>
+</record>
+15:45:56.254 INFO      Variable         Interpreting Variable id:initialFirstname
+15:45:56.254 LOG       Variable         Resolved data:
+Ralph
+15:45:56.254 INFO      Variable         Interpreting Variable id:initialLastname
+15:45:56.254 LOG       Variable         Resolved data:
+Nuesse
+15:45:56.254 INFO      Variable         Interpreting Variable id:initialCprnr
+15:45:56.255 LOG       Variable         Resolved data:
+12345678
+15:45:56.255 INFO      Variable         Interpreting Variable id:db2CreatorName
+15:45:56.255 LOG       Variable         Resolved data:
+ADKKXC0
+15:45:56.255 INFO      Variable         Interpreting Variable id:db2TableName
+15:45:56.255 LOG       Variable         Resolved data:
+XAEMPLOYEE
+15:45:56.255 INFO      Variable         Interpreting Variable id:expectedEmployeeStatusInitial
+15:45:56.255 LOG       Variable         Resolved data:
+O
+15:45:56.255 INFO      Variable         Interpreting Variable id:expectedEmployeeStatusModify
+15:45:56.255 LOG       Variable         Resolved data:
+M
+15:45:56.255 INFO      Variable         Interpreting Variable id:expectedEmployeeStatusDelete
+15:45:56.255 LOG       Variable         Resolved data:
+D
+15:45:56.255 INFO      Variable         Interpreting Variable id:expectedUserid
+15:45:56.255 LOG       Variable         Resolved data:
+XATESTER
+15:45:56.255 INFO      Scope            Scope completed
+15:45:56.255 INFO      Scope            Interpreting Scope name:Determine DB2 Table Row Id
+15:45:56.255 INFO      SQLSelect        Interpreting SQLSelect id:selectMaxRowId statement: SELECT MAX(RIDENT) FROM ${db2CreatorName}.${db2TableName}
+15:45:56.256 INFO      SQLSelect        Using database from Environment:
+15:45:56.256 ERROR     Engine           Cannot execute SQL select statement. No database name has been defined. A database name must be defined at the Environment/Connection or at the Execution Context
+15:45:56.256 ERROR     Engine           An error occurred. Now stopping the execution.
+15:45:56.256 ERROR     Scope            Scope completed unexpectedly. A child component failed.
+15:45:56.256 COMMENT   Engine           Test Scenario execution ended

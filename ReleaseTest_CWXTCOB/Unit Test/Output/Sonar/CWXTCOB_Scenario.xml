@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?totaltestVersion 19.2.1.v20180920-0235_707?>
-<!--Topaz for Total Test 19.2.1.v20180920-0235_707 01.10.2018 22:49:47-->
+<?xml version="1.1" encoding="UTF-8"?>
+<?totaltestVersion 20.2.1.v20200313-1425_90?>
+<!--Topaz for Total Test 20.2.1.v20200313-1425_90 Mar 24, 2020 2:35:35 PM-->
 <testExecutions version="1">
-  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace - prod\ReleaseTest_CWXTCOB\Unit Test\Scenarios\CWXTCOB_Scenario.testscenario">
+  <file path="C:\Users\cwde-rnuesse.EMEA\git\TTT_Release_Test\ReleaseTest_CWXTCOB\Unit Test\Scenarios\CWXTCOB_Scenario.testscenario">
     <testCase duration="0" name="ReleaseTest_CWXTCOB.CWXTCOB_Scenario.00001: CWXTCOBCase1.00001: Check for PARM_LTH"/>
     <testCase duration="0" name="ReleaseTest_CWXTCOB.CWXTCOB_Scenario.00001: CWXTCOBCase1.00002: Check for PARM_DATA"/>
   </file>
-  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace - prod\ReleaseTest_CWXTCOB\Unit Test\Stubs\CWXTCOB_RPTFILE_WRITE_01.stub">
+  <file path="C:\Users\cwde-rnuesse.EMEA\git\TTT_Release_Test\ReleaseTest_CWXTCOB\Unit Test\Stubs\CWXTCOB_RPTFILE_WRITE_01.stub">
     <testCase duration="0" name="ReleaseTest_CWXTCOB.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00001: RPTFILE assertion.00001: Check for BLANK_LINE"/>
     <testCase duration="0" name="ReleaseTest_CWXTCOB.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00002: RPTFILE assertion.00001: Check for BLANK_LINE"/>
     <testCase duration="0" name="ReleaseTest_CWXTCOB.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00003: RPTFILE assertion.00001: Check for BLANK_LINE"/>

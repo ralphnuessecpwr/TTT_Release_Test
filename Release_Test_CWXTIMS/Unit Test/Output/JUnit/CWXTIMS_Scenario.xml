@@ -1,116 +1,128 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?totaltestVersion 19.2.1.v20180920-0235_707?>
-<!--Topaz for Total Test 19.2.1.v20180920-0235_707 02.10.2018 02:30:18-->
+<?xml version="1.1" encoding="UTF-8"?>
+<?totaltestVersion 20.2.1.v20200313-1425_90?>
+<!--Topaz for Total Test 20.2.1.v20200313-1425_90 Mar 24, 2020 3:20:52 PM-->
 <testsuites>
-  <testsuite errors="0" failures="10" name="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" tests="48">
+  <testsuite errors="0" failures="11" name="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" tests="54">
     <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00001: Check for PORDR_AP_DBD_NAME"/>
     <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00002: Check for PORDR_AP_SEGMENT_LEVEL"/>
     <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00003: Check for PORDR_AP_STATUS_CODE"/>
     <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00004: Check for PORDR_AP_PROC_OPTIONS"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00005: Check for PORDR_AP_SEGMENT_NAME"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00006: Check for PORDR_AP_KEY_LENGTH"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00007: Check for PORDR_AP_NUM_SENS_SEGS"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00008: Check for PORDR_AP_KEY"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00009: Check for PCUST_AP_DBD_NAME"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00010: Check for PCUST_AP_SEGMENT_LEVEL">
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00005: Check for FILLER0"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00006: Check for PORDR_AP_SEGMENT_NAME"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00007: Check for PORDR_AP_KEY_LENGTH"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00008: Check for PORDR_AP_NUM_SENS_SEGS"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00009: Check for PORDR_AP_KEY"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00010: Check for PCUST_AP_DBD_NAME"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00011: Check for PCUST_AP_SEGMENT_LEVEL">
       <failure>Check for PCUST_AP_SEGMENT_LEVEL failed
 
 Actual Value:    
 
-Expected Value:  00</failure>
+Expected Value:   00</failure>
     </testcase>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00011: Check for PCUST_AP_STATUS_CODE">
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00012: Check for PCUST_AP_STATUS_CODE">
       <failure>Check for PCUST_AP_STATUS_CODE failed
 
 Actual Value:    
 
-Expected Value:  GP</failure>
+Expected Value:   GP</failure>
     </testcase>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00012: Check for PCUST_AP_PROC_OPTIONS"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00013: Check for PCUST_AP_SEGMENT_NAME">
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00013: Check for PCUST_AP_PROC_OPTIONS"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00014: Check for FILLER0"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00015: Check for PCUST_AP_SEGMENT_NAME">
       <failure>Check for PCUST_AP_SEGMENT_NAME failed
 
 Actual Value:    HDAM
 
-Expected Value:  </failure>
+Expected Value:   </failure>
     </testcase>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00014: Check for PCUST_AP_KEY_LENGTH"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00015: Check for PCUST_AP_NUM_SENS_SEGS"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00016: Check for PCUST_AP_KEY">
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00016: Check for PCUST_AP_KEY_LENGTH"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00017: Check for PCUST_AP_NUM_SENS_SEGS"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00018: Check for PCUST_AP_KEY">
       <failure>Check for PCUST_AP_KEY failed
 
 Actual Value:    
 
-Expected Value:  CN019902</failure>
+Expected Value:   CN019902</failure>
     </testcase>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00017: Check for PPART_AP_DBD_NAME">
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00019: Check for PPART_AP_DBD_NAME">
       <failure>Check for PPART_AP_DBD_NAME failed
 
 Actual Value:    PCUST
 
-Expected Value:  PPART</failure>
+Expected Value:   PPART</failure>
     </testcase>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00018: Check for PPART_AP_SEGMENT_LEVEL">
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00020: Check for PPART_AP_SEGMENT_LEVEL">
       <failure>Check for PPART_AP_SEGMENT_LEVEL failed
 
 Actual Value:    00
 
-Expected Value:  </failure>
+Expected Value:   </failure>
     </testcase>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00019: Check for PPART_AP_STATUS_CODE">
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00021: Check for PPART_AP_STATUS_CODE">
       <failure>Check for PPART_AP_STATUS_CODE failed
 
 Actual Value:    GP
 
-Expected Value:  NA</failure>
+Expected Value:   NA</failure>
     </testcase>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00020: Check for PPART_AP_PROC_OPTIONS"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00021: Check for PPART_AP_SEGMENT_NAME">
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00022: Check for PPART_AP_PROC_OPTIONS"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00023: Check for FILLER0">
+      <failure>Check for FILLER0 failed
+
+Actual Value:    324200
+
+Expected Value:   867480</failure>
+    </testcase>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00024: Check for PPART_AP_SEGMENT_NAME">
       <failure>Check for PPART_AP_SEGMENT_NAME failed
 
 Actual Value:    
 
-Expected Value:  HDAM</failure>
+Expected Value:   HDAM</failure>
     </testcase>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00022: Check for PPART_AP_KEY_LENGTH"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00023: Check for PPART_AP_NUM_SENS_SEGS">
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00025: Check for PPART_AP_KEY_LENGTH"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00026: Check for PPART_AP_NUM_SENS_SEGS">
       <failure>Check for PPART_AP_NUM_SENS_SEGS failed
 
 Actual Value:    3
 
-Expected Value:  2</failure>
+Expected Value:   2</failure>
     </testcase>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00024: Check for PPART_AP_KEY">
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00027: Check for PPART_AP_KEY">
       <failure>Check for PPART_AP_KEY failed
 
 Actual Value:    CN019902
 
-Expected Value:  </failure>
+Expected Value:   </failure>
     </testcase>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00025: Check for PORDR_GO_DBD_NAME"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00026: Check for PORDR_GO_SEGMENT_LEVEL"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00027: Check for PORDR_GO_STATUS_CODE"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00028: Check for PORDR_GO_PROC_OPTIONS"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00029: Check for PORDR_GO_SEGMENT_NAME"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00030: Check for PORDR_GO_KEY_LENGTH"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00031: Check for PORDR_GO_NUM_SENS_SEGS"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00032: Check for PORDR_GO_KEY"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00033: Check for PCUST_GO_DBD_NAME"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00034: Check for PCUST_GO_SEGMENT_LEVEL"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00035: Check for PCUST_GO_STATUS_CODE"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00036: Check for PCUST_GO_PROC_OPTIONS"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00037: Check for PCUST_GO_SEGMENT_NAME"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00038: Check for PCUST_GO_KEY_LENGTH"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00039: Check for PCUST_GO_NUM_SENS_SEGS"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00040: Check for PCUST_GO_KEY"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00041: Check for PPART_GO_DBD_NAME"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00042: Check for PPART_GO_SEGMENT_LEVEL"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00043: Check for PPART_GO_STATUS_CODE"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00044: Check for PPART_GO_PROC_OPTIONS"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00045: Check for PPART_GO_SEGMENT_NAME"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00046: Check for PPART_GO_KEY_LENGTH"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00047: Check for PPART_GO_NUM_SENS_SEGS"/>
-    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00048: Check for PPART_GO_KEY"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00028: Check for PORDR_GO_DBD_NAME"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00029: Check for PORDR_GO_SEGMENT_LEVEL"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00030: Check for PORDR_GO_STATUS_CODE"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00031: Check for PORDR_GO_PROC_OPTIONS"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00032: Check for FILLER0"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00033: Check for PORDR_GO_SEGMENT_NAME"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00034: Check for PORDR_GO_KEY_LENGTH"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00035: Check for PORDR_GO_NUM_SENS_SEGS"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00036: Check for PORDR_GO_KEY"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00037: Check for PCUST_GO_DBD_NAME"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00038: Check for PCUST_GO_SEGMENT_LEVEL"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00039: Check for PCUST_GO_STATUS_CODE"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00040: Check for PCUST_GO_PROC_OPTIONS"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00041: Check for FILLER0"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00042: Check for PCUST_GO_SEGMENT_NAME"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00043: Check for PCUST_GO_KEY_LENGTH"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00044: Check for PCUST_GO_NUM_SENS_SEGS"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00045: Check for PCUST_GO_KEY"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00046: Check for PPART_GO_DBD_NAME"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00047: Check for PPART_GO_SEGMENT_LEVEL"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00048: Check for PPART_GO_STATUS_CODE"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00049: Check for PPART_GO_PROC_OPTIONS"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00050: Check for FILLER0"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00051: Check for PPART_GO_SEGMENT_NAME"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00052: Check for PPART_GO_KEY_LENGTH"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00053: Check for PPART_GO_NUM_SENS_SEGS"/>
+    <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1" name="00054: Check for PPART_GO_KEY"/>
   </testsuite>
   <testsuite errors="0" failures="0" name="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1.CWXTIMS_SALREPT_WRITE_01.00001: SALREPT assertion" tests="3">
     <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1.CWXTIMS_SALREPT_WRITE_01.00001: SALREPT assertion" name="00001: Check for FILLER0"/>
@@ -134,7 +146,7 @@ Expected Value:  </failure>
 
 Actual Value:    0
 
-Expected Value:  1092</failure>
+Expected Value:   1092</failure>
     </testcase>
     <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1.CWXTIMS_SALREPT_WRITE_01.00004: SALREPT assertion" name="00003: Check for FILLER1"/>
     <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1.CWXTIMS_SALREPT_WRITE_01.00004: SALREPT assertion" name="00004: Check for FILLER2"/>
@@ -182,7 +194,7 @@ Expected Value:  1092</failure>
 
 Actual Value:    0
 
-Expected Value:  738</failure>
+Expected Value:   738</failure>
     </testcase>
     <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1.CWXTIMS_SALREPT_WRITE_01.00011: SALREPT assertion" name="00003: Check for FILLER1"/>
     <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1.CWXTIMS_SALREPT_WRITE_01.00011: SALREPT assertion" name="00004: Check for FILLER2"/>
@@ -229,7 +241,7 @@ Expected Value:  738</failure>
 
 Actual Value:    0
 
-Expected Value:  1106</failure>
+Expected Value:   1106</failure>
     </testcase>
     <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1.CWXTIMS_SALREPT_WRITE_01.00019: SALREPT assertion" name="00003: Check for FILLER1"/>
     <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1.CWXTIMS_SALREPT_WRITE_01.00019: SALREPT assertion" name="00004: Check for FILLER2"/>
@@ -277,7 +289,7 @@ Expected Value:  1106</failure>
 
 Actual Value:    0
 
-Expected Value:  1092</failure>
+Expected Value:   1092</failure>
     </testcase>
     <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1.CWXTIMS_SALREPT_WRITE_01.00026: SALREPT assertion" name="00003: Check for FILLER1"/>
     <testcase classname="Release_Test_CWXTIMS.CWXTIMS_Scenario.00001: CWXTIMSCase1.CWXTIMS_SALREPT_WRITE_01.00026: SALREPT assertion" name="00004: Check for FILLER2"/>

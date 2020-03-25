@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<XaSuite xmlns="http://www.xact.dk/xatester/v/1" name="Folder: /XADB2TST_Functional_Tests/Functional Test for Environment: CWCC Batch" environmentId="5cee98c2d3142c1f90a4976d" haltAtFailure="false">
+<XaSuite xmlns="http://www.xact.dk/xatester/v/1" name="Folder: /XADB2TST_Functional_Tests/Functional Test for Environment: CWCC Batch" environmentId="5e7a190fcf655a12a4d4df4d" haltAtFailure="false">
   <Description>Generated test suite for environment: CWCC Batch for folder: /XADB2TST_Functional_Tests/Functional Test</Description>
   <XaUnits>
     <Path>XADB2TST_Insert.xactx</Path>

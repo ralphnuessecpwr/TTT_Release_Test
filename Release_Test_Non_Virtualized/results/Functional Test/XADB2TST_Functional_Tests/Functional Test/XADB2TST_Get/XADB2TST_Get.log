@@ -1,0 +1,41 @@
+16:39:38.687 COMMENT   Engine           Test Scenario execution started
+16:39:38.687 INFO      Engine           Using context settings:
+  Engine Version       : 20.2
+  Environment id                : 5e7a190fcf655a12a4d4df4d
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwc2.nasa.cpwr.corp
+  Server port                   : 16196
+  Job execution timeout seconds : 300
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : hddrxm0
+  Use Repository Server         : true
+16:39:38.687 INFO      Engine           Setting variables from context and context data extensions
+16:39:38.687 INFO      Engine             id: environmentId      value: 5e7a190fcf655a12a4d4df4d
+16:39:38.687 INFO      Engine             id: environmentType    value: BATCH
+16:39:38.687 INFO      Engine             id: userId             value: HDDRXM0
+16:39:38.687 INFO      Engine             id: accountingInfo     value: 
+16:39:38.698 INFO      Scope            Interpreting Scope name:Initialization
+16:39:38.698 INFO      Variable         Interpreting Variable id:db2CreatorName
+16:39:38.698 LOG       Variable         Resolved data:
+HDDRXM0
+16:39:38.698 INFO      Variable         Interpreting Variable id:db2TableName
+16:39:38.698 LOG       Variable         Resolved data:
+XAEMPLOYEE
+16:39:38.698 INFO      Scope            Scope completed
+16:39:38.698 INFO      Scope            Interpreting Scope name:Determine DB2 Row Ids
+16:39:38.698 INFO      SQLSelect        Interpreting SQLSelect id:selectMaxRowId statement: SELECT MAX(RIDENT) FROM ${db2CreatorName}.${db2TableName}
+16:39:38.698 INFO      SQLSelect        Using database from Environment:DSCCCWCC
+16:39:38.698 LOG       SQLSelect        SQL statement contained variable, now it has been substuted and the SQL is: SELECT MAX(RIDENT) FROM HDDRXM0.XAEMPLOYEE
+16:39:38.698 LOG       SQLSelect        Establishing connection to database DSCCCWCC
+16:39:43.147 ERROR     SQLSelect        Unable to get a database connection. [jcc][t4][2057][11264][3.68.61] The application server rejected establishment of the connection.
+An attempt was made to access a database, DSCCCWCC, which was either not found or does not support transactions. ERRORCODE=-4499, SQLSTATE=08004
+16:39:43.147 ERROR     Engine           Unable to get a database connection. [jcc][t4][2057][11264][3.68.61] The application server rejected establishment of the connection.
+An attempt was made to access a database, DSCCCWCC, which was either not found or does not support transactions. ERRORCODE=-4499, SQLSTATE=08004
+16:39:43.147 ERROR     Engine           An error occurred. Now stopping the execution.
+16:39:43.147 ERROR     Scope            Scope completed unexpectedly. A child component failed.
+16:39:43.147 COMMENT   Engine           Test Scenario execution ended
