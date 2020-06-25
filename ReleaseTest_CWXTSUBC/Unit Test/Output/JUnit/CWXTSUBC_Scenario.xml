@@ -1,60 +1,60 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<?totaltestVersion 20.2.1.v20200313-1425_90?>
-<!--Topaz for Total Test 20.2.1.v20200313-1425_90 Mar 24, 2020 1:33:48 PM-->
+<?totaltestVersion 20.2.2.v20200429-0333_140?>
+<!--Topaz for Total Test 20.2.2.v20200429-0333_140 May 5, 2020 10:35:32 AM-->
 <testsuites>
-  <testsuite errors="0" failures="0" name="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00001: CWXTSUBCCase1" tests="3">
-    <testcase classname="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00001: CWXTSUBCCase1" name="00001: Check for EMP_TYPE"/>
-    <testcase classname="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00001: CWXTSUBCCase1" name="00002: Check for SALES_AMOUNT"/>
-    <testcase classname="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00001: CWXTSUBCCase1" name="00003: Check for COMM_TOTAL"/>
+  <testsuite errors="0" failures="0" name="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00001: CWXTSUBCCase1" tests="3">
+    <testcase classname="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00001: CWXTSUBCCase1" name="00001: Check for EMP_TYPE"/>
+    <testcase classname="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00001: CWXTSUBCCase1" name="00002: Check for SALES_AMOUNT"/>
+    <testcase classname="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00001: CWXTSUBCCase1" name="00003: Check for COMM_TOTAL"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00002: CWXTSUBCCase2" tests="3">
-    <testcase classname="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00002: CWXTSUBCCase2" name="00001: Check for EMP_TYPE"/>
-    <testcase classname="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00002: CWXTSUBCCase2" name="00002: Check for SALES_AMOUNT"/>
-    <testcase classname="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00002: CWXTSUBCCase2" name="00003: Check for COMM_TOTAL"/>
+  <testsuite errors="0" failures="0" name="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00002: CWXTSUBCCase2" tests="3">
+    <testcase classname="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00002: CWXTSUBCCase2" name="00001: Check for EMP_TYPE"/>
+    <testcase classname="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00002: CWXTSUBCCase2" name="00002: Check for SALES_AMOUNT"/>
+    <testcase classname="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00002: CWXTSUBCCase2" name="00003: Check for COMM_TOTAL"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00003: CWXTSUBCCase3" tests="3">
-    <testcase classname="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00003: CWXTSUBCCase3" name="00001: Check for EMP_TYPE"/>
-    <testcase classname="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00003: CWXTSUBCCase3" name="00002: Check for SALES_AMOUNT"/>
-    <testcase classname="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00003: CWXTSUBCCase3" name="00003: Check for COMM_TOTAL"/>
+  <testsuite errors="0" failures="0" name="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00003: CWXTSUBCCase3" tests="3">
+    <testcase classname="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00003: CWXTSUBCCase3" name="00001: Check for EMP_TYPE"/>
+    <testcase classname="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00003: CWXTSUBCCase3" name="00002: Check for SALES_AMOUNT"/>
+    <testcase classname="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00003: CWXTSUBCCase3" name="00003: Check for COMM_TOTAL"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00004: CWXTSUBCCase4" tests="3">
-    <testcase classname="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00004: CWXTSUBCCase4" name="00001: Check for EMP_TYPE"/>
-    <testcase classname="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00004: CWXTSUBCCase4" name="00002: Check for SALES_AMOUNT"/>
-    <testcase classname="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00004: CWXTSUBCCase4" name="00003: Check for COMM_TOTAL"/>
+  <testsuite errors="0" failures="0" name="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00004: CWXTSUBCCase4" tests="3">
+    <testcase classname="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00004: CWXTSUBCCase4" name="00001: Check for EMP_TYPE"/>
+    <testcase classname="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00004: CWXTSUBCCase4" name="00002: Check for SALES_AMOUNT"/>
+    <testcase classname="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00004: CWXTSUBCCase4" name="00003: Check for COMM_TOTAL"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00005: CWXTSUBCCase5" tests="3">
-    <testcase classname="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00005: CWXTSUBCCase5" name="00001: Check for EMP_TYPE"/>
-    <testcase classname="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00005: CWXTSUBCCase5" name="00002: Check for SALES_AMOUNT"/>
-    <testcase classname="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00005: CWXTSUBCCase5" name="00003: Check for COMM_TOTAL"/>
+  <testsuite errors="0" failures="0" name="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00005: CWXTSUBCCase5" tests="3">
+    <testcase classname="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00005: CWXTSUBCCase5" name="00001: Check for EMP_TYPE"/>
+    <testcase classname="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00005: CWXTSUBCCase5" name="00002: Check for SALES_AMOUNT"/>
+    <testcase classname="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00005: CWXTSUBCCase5" name="00003: Check for COMM_TOTAL"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00006: CWXTSUBCCase6" tests="3">
-    <testcase classname="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00006: CWXTSUBCCase6" name="00001: Check for EMP_TYPE"/>
-    <testcase classname="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00006: CWXTSUBCCase6" name="00002: Check for SALES_AMOUNT"/>
-    <testcase classname="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00006: CWXTSUBCCase6" name="00003: Check for COMM_TOTAL"/>
+  <testsuite errors="0" failures="0" name="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00006: CWXTSUBCCase6" tests="3">
+    <testcase classname="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00006: CWXTSUBCCase6" name="00001: Check for EMP_TYPE"/>
+    <testcase classname="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00006: CWXTSUBCCase6" name="00002: Check for SALES_AMOUNT"/>
+    <testcase classname="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00006: CWXTSUBCCase6" name="00003: Check for COMM_TOTAL"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00007: CWXTSUBCCase7" tests="3">
-    <testcase classname="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00007: CWXTSUBCCase7" name="00001: Check for EMP_TYPE"/>
-    <testcase classname="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00007: CWXTSUBCCase7" name="00002: Check for SALES_AMOUNT"/>
-    <testcase classname="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00007: CWXTSUBCCase7" name="00003: Check for COMM_TOTAL"/>
+  <testsuite errors="0" failures="0" name="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00007: CWXTSUBCCase7" tests="3">
+    <testcase classname="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00007: CWXTSUBCCase7" name="00001: Check for EMP_TYPE"/>
+    <testcase classname="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00007: CWXTSUBCCase7" name="00002: Check for SALES_AMOUNT"/>
+    <testcase classname="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00007: CWXTSUBCCase7" name="00003: Check for COMM_TOTAL"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00008: CWXTSUBCCase8" tests="3">
-    <testcase classname="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00008: CWXTSUBCCase8" name="00001: Check for EMP_TYPE"/>
-    <testcase classname="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00008: CWXTSUBCCase8" name="00002: Check for SALES_AMOUNT"/>
-    <testcase classname="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00008: CWXTSUBCCase8" name="00003: Check for COMM_TOTAL"/>
+  <testsuite errors="0" failures="0" name="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00008: CWXTSUBCCase8" tests="3">
+    <testcase classname="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00008: CWXTSUBCCase8" name="00001: Check for EMP_TYPE"/>
+    <testcase classname="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00008: CWXTSUBCCase8" name="00002: Check for SALES_AMOUNT"/>
+    <testcase classname="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00008: CWXTSUBCCase8" name="00003: Check for COMM_TOTAL"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00009: CWXTSUBCCase9" tests="3">
-    <testcase classname="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00009: CWXTSUBCCase9" name="00001: Check for EMP_TYPE"/>
-    <testcase classname="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00009: CWXTSUBCCase9" name="00002: Check for SALES_AMOUNT"/>
-    <testcase classname="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00009: CWXTSUBCCase9" name="00003: Check for COMM_TOTAL"/>
+  <testsuite errors="0" failures="0" name="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00009: CWXTSUBCCase9" tests="3">
+    <testcase classname="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00009: CWXTSUBCCase9" name="00001: Check for EMP_TYPE"/>
+    <testcase classname="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00009: CWXTSUBCCase9" name="00002: Check for SALES_AMOUNT"/>
+    <testcase classname="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00009: CWXTSUBCCase9" name="00003: Check for COMM_TOTAL"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00010: CWXTSUBCCase10" tests="3">
-    <testcase classname="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00010: CWXTSUBCCase10" name="00001: Check for EMP_TYPE"/>
-    <testcase classname="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00010: CWXTSUBCCase10" name="00002: Check for SALES_AMOUNT"/>
-    <testcase classname="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00010: CWXTSUBCCase10" name="00003: Check for COMM_TOTAL"/>
+  <testsuite errors="0" failures="0" name="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00010: CWXTSUBCCase10" tests="3">
+    <testcase classname="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00010: CWXTSUBCCase10" name="00001: Check for EMP_TYPE"/>
+    <testcase classname="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00010: CWXTSUBCCase10" name="00002: Check for SALES_AMOUNT"/>
+    <testcase classname="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00010: CWXTSUBCCase10" name="00003: Check for COMM_TOTAL"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00011: CWXTSUBCCase11" tests="3">
-    <testcase classname="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00011: CWXTSUBCCase11" name="00001: Check for EMP_TYPE"/>
-    <testcase classname="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00011: CWXTSUBCCase11" name="00002: Check for SALES_AMOUNT"/>
-    <testcase classname="ReleaseTest_CWXTSUBC.CWXTSUBC_Scenario.00011: CWXTSUBCCase11" name="00003: Check for COMM_TOTAL"/>
+  <testsuite errors="0" failures="0" name="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00011: CWXTSUBCCase11" tests="3">
+    <testcase classname="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00011: CWXTSUBCCase11" name="00001: Check for EMP_TYPE"/>
+    <testcase classname="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00011: CWXTSUBCCase11" name="00002: Check for SALES_AMOUNT"/>
+    <testcase classname="ReleaseTest_CWXTSUBC_20.01.CWXTSUBC_Scenario.00011: CWXTSUBCCase11" name="00003: Check for COMM_TOTAL"/>
   </testsuite>
 </testsuites>

@@ -1,0 +1,76 @@
+19:18:03.769 COMMENT   Engine           Test Scenario execution started
+19:18:03.770 INFO      Engine           Using context settings:
+  Engine Version       : 20.2
+  Environment id                : 5cee98c2d3142c1f90a4976d
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwcc.compuware.com
+  Server port                   : 16196
+  Job execution timeout seconds : 300
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : hddrxm0
+  Use Repository Server         : true
+19:18:03.770 INFO      Engine           Setting variables from context and context data extensions
+19:18:03.770 INFO      Engine             id: environmentId      value: 5cee98c2d3142c1f90a4976d
+19:18:03.770 INFO      Engine             id: environmentType    value: BATCH
+19:18:03.770 INFO      Engine             id: userId             value: HDDRXM0
+19:18:03.770 INFO      Engine             id: accountingInfo     value: 
+19:18:03.771 INFO      Job              Interpreting JOB: Job
+19:18:03.771 LOG       Job              Job definition to be executed:
+//HDDRXM0X JOB ('EUDD,INTL'),'NUESSE',NOTIFY=&SYSUID,      
+//             MSGLEVEL=(1,1),MSGCLASS=X,CLASS=A,REGION=6M 
+/*JOBPARM S=CWCC                                           
+//STEP1  EXEC PGM=CWXTCOB,PARM=00003                       
+//STEPLIB DD DISP=SHR,DSN=SALESSUP.RXN3.DEV1.LOAD          
+//        DD DISP=SHR,DSN=SALESSUP.RXN3.QA1.LOAD           
+//        DD DISP=SHR,DSN=SALESSUP.RXN3.STG.LOAD           
+//        DD DISP=SHR,DSN=SALESSUP.RXN3.PRD.LOAD           
+//EMPFILE  DD  DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA
+//RPTFILE  DD  DISP=SHR,DSN=HDDRXM0.DEMO.CWXTRPT
+//SYSUDUMP DD  SYSOUT=*                                    
+//SYSOUT   DD  SYSOUT=*
+19:18:03.771 INFO      CWCC Batch       Sending Job execution request to Host 
+19:18:03.772 LOG       CWCC Batch       Executing Job through HCI
+19:18:03.951 LOG       CWCC Batch       Job submitted with jobId: J0865662 jobName:HDDRXM0X
+19:18:04.231 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0X(J0865662) ended with return code: 0000
+  Job name       : HDDRXM0X
+  Job id         : J0865662
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+19:18:04.231 LOG       CWCC Batch       Setting execution variable 'jobid' to J0865662
+19:18:04.232 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0X
+19:18:04.232 LOG       CWCC Batch       Setting execution variable 'returncode' to 0000
+19:18:04.232 INFO      Job              Successfully executed job: Job
+19:18:04.232 INFO      VerifyRemoteFile Interpreting VerifyRemoteFile in COMPARE mode. Dataset to verify: HDDRXM0.DEMO.CWXTRPT
+19:18:04.234 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 52 to 54
+19:18:04.235 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 69 to 71
+19:18:04.235 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 60 to 62
+19:18:04.235 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 37 to 39
+19:18:04.235 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 42 to 44
+19:18:04.235 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 31 to 31
+19:18:04.235 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 34 to 34
+19:18:04.235 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 24 to 24
+19:18:04.235 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 26 to 28
+19:18:04.235 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 0 to 0
+19:18:04.235 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 16 to 16
+19:18:04.235 INFO      CWCC Batch       Sending Job execution request to Host 
+19:18:04.374 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/1c0510e633d346488545b46e5326287b
+19:18:04.924 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>COMPARE</operation><runat>DAY</runat><jobdirectory>1c0510e633d346488545b46e5326287b</jobdirectory><outputfilepath>output.xml</outputfilepath><snapshot><compare><olddsn>HDDRXM0.DEMO.TTTFT.CWXTRPT.EXPECT</olddsn><newdsn>HDDRXM0.DEMO.CWXTRPT</newdsn><compareopts><compareopt>excflds=1,1,17,1,25,1,27,3,32,1,35,1,38,3,43,3,53,3,61,3,70,3</compareopt></compareopts></compare></snapshot></xatz_request></XATZREQ>
+19:18:05.165 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0865663</jobid><jobname>HDDRXM0S</jobname><starttime>20200505131805224</starttime></xatz_response></XATZRESP>
+19:18:05.166 LOG       HCIClient        Response received from Host. Message: JobId:J0865663
+19:18:05.166 INFO      HCIClient        Job has been started at host with JobId:J0865663
+19:18:05.166 INFO      CWCC Batch       Waiting for Execution Result from Host
+19:18:08.458 LOG       VerifyRemoteFile Notification message contained a Verification Error, now retrieving compare files with content
+19:18:08.460 ERROR     VerifyRemoteFile Comparison of DSN expected:HDDRXM0.DEMO.TTTFT.CWXTRPT.EXPECT actual:HDDRXM0.DEMO.CWXTRPT was FAIL
+19:18:08.460 LOG       VerifyRemoteFile Getting information about the comparison from file:output.xml.cmpr12
+19:18:08.461 LOG       VerifyRemoteFile Retrieving file:output.xml.cmpr12
+19:18:08.664 ERROR     VerifyRemoteFile Expected and Actual files/datasets are NOT equal
+19:18:08.673 ERROR     VerifyRemoteFile Actual and expected datasets are not equal. Differences found in one or more records between actual dataset: HDDRXM0.DEMO.CWXTRPT and expected dataset:HDDRXM0.DEMO.TTTFT.CWXTRPT.EXPECT
+19:18:08.673 COMMENT   Engine           Test Scenario execution ended

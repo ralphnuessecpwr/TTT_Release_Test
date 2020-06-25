@@ -1,5 +1,5 @@
-09:37:21.961 COMMENT   Engine           Test Scenario execution started
-09:37:21.962 INFO      Engine           Using context settings:
+17:02:19.167 COMMENT   Engine           Test Scenario execution started
+17:02:19.168 INFO      Engine           Using context settings:
   Engine Version       : 20.2
   Environment id                : 5e7a190fcf655a12a4d4df4d
   Environment type              : Batch
@@ -14,28 +14,155 @@
   Codepage                      : IBM-1047
   Host user Id                  : hddrxm0
   Use Repository Server         : true
-09:37:21.962 INFO      Engine           Setting variables from context and context data extensions
-09:37:21.962 INFO      Engine             id: environmentId      value: 5e7a190fcf655a12a4d4df4d
-09:37:21.962 INFO      Engine             id: environmentType    value: BATCH
-09:37:21.962 INFO      Engine             id: userId             value: HDDRXM0
-09:37:21.962 INFO      Engine             id: accountingInfo     value: 
-09:37:21.975 INFO      Scope            Interpreting Scope name:Initialization
-09:37:21.975 INFO      Variable         Interpreting Variable id:db2CreatorName
-09:37:21.975 LOG       Variable         Resolved data:
+17:02:19.168 INFO      Engine           Setting variables from context and context data extensions
+17:02:19.168 INFO      Engine             id: environmentId      value: 5e7a190fcf655a12a4d4df4d
+17:02:19.168 INFO      Engine             id: environmentType    value: BATCH
+17:02:19.168 INFO      Engine             id: userId             value: HDDRXM0
+17:02:19.168 INFO      Engine             id: accountingInfo     value: 
+17:02:19.169 INFO      Scope            Interpreting Scope name:Initialization
+17:02:19.169 INFO      Variable         Interpreting Variable id:db2CreatorName
+17:02:19.169 LOG       Variable         Resolved data:
 HDDRXM0
-09:37:21.976 INFO      Variable         Interpreting Variable id:db2TableName
-09:37:21.976 LOG       Variable         Resolved data:
+17:02:19.169 INFO      Variable         Interpreting Variable id:db2TableName
+17:02:19.169 LOG       Variable         Resolved data:
 XAEMPLOYEE
-09:37:21.976 INFO      Scope            Scope completed
-09:37:21.976 INFO      Scope            Interpreting Scope name:Determine DB2 Row Ids
-09:37:21.976 INFO      SQLSelect        Interpreting SQLSelect id:selectMaxRowId statement: SELECT MAX(RIDENT) FROM ${db2CreatorName}.${db2TableName}
-09:37:21.976 INFO      SQLSelect        Using database from Environment:DSCCCWCC
-09:37:21.976 LOG       SQLSelect        SQL statement contained variable, now it has been substuted and the SQL is: SELECT MAX(RIDENT) FROM HDDRXM0.XAEMPLOYEE
-09:37:21.976 LOG       SQLSelect        Establishing connection to database DSCCCWCC
-09:37:22.924 ERROR     SQLSelect        Unable to get a database connection. [jcc][t4][2057][11264][3.68.61] The application server rejected establishment of the connection.
-An attempt was made to access a database, DSCCCWCC, which was either not found or does not support transactions. ERRORCODE=-4499, SQLSTATE=08004
-09:37:22.924 ERROR     Engine           Unable to get a database connection. [jcc][t4][2057][11264][3.68.61] The application server rejected establishment of the connection.
-An attempt was made to access a database, DSCCCWCC, which was either not found or does not support transactions. ERRORCODE=-4499, SQLSTATE=08004
-09:37:22.925 ERROR     Engine           An error occurred. Now stopping the execution.
-09:37:22.925 ERROR     Scope            Scope completed unexpectedly. A child component failed.
-09:37:22.925 COMMENT   Engine           Test Scenario execution ended
+17:02:19.169 INFO      Scope            Scope completed
+17:02:19.169 INFO      Scope            Interpreting Scope name:Determine DB2 Row Ids
+17:02:19.169 INFO      SQLSelect        Interpreting SQLSelect id:selectMaxRowId statement: SELECT MAX(RIDENT) FROM ${db2CreatorName}.${db2TableName}
+17:02:19.169 INFO      SQLSelect        Using database from ExecutionContext:DBCCCWCC
+17:02:19.169 LOG       SQLSelect        SQL statement contained variable, now it has been substuted and the SQL is: SELECT MAX(RIDENT) FROM HDDRXM0.XAEMPLOYEE
+17:02:19.169 LOG       SQLSelect        Establishing connection to database DBCCCWCC
+17:02:20.244 LOG       SQLSelect        Preparing the SQL statement: SELECT MAX(RIDENT) FROM HDDRXM0.XAEMPLOYEE
+17:02:20.246 LOG       SQLSelect        Setting max rows to: 1
+17:02:20.246 LOG       SQLSelect        Setting up the SQL statement with parameters
+17:02:20.246 LOG       SQLSelect        Executing the SQL statement
+17:02:20.509 LOG       SQLSelect        Handling the SQL result
+17:02:20.510 INFO      SQLSelect        Finished SQLSelect. Number of rows selected:1
+17:02:20.510 INFO      Variable         Interpreting Variable id:maxRowId
+17:02:20.510 LOG       Variable         Resolved data:
+800010012
+17:02:20.510 INFO      Variable         Interpreting Variable id:newRowId
+17:02:20.510 INFO      Expression       Interpreting Expression:var tempRowId = Number(maxRowId) + 1;
+tempRowId.toString();
+17:02:20.939 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+var tempRowId = Number(maxRowId) + 1;
+tempRowId.toString();
+17:02:20.959 INFO      Expression       Comments from JavaScript execution:
+2020-03-27 17:02:20,939 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+var tempRowId = Number(maxRowId) + 1;
+tempRowId.toString(); 
+
+17:02:20.959 LOG       Expression       Expression evaluated to:800010013
+17:02:20.960 LOG       Variable         Resolved data:
+800010013
+17:02:20.960 INFO      Scope            Scope completed
+17:02:20.960 INFO      Scope            Interpreting Scope name:Check that row exists
+17:02:20.960 INFO      SQLSelect        Interpreting SQLSelect id:selectExisting statement: SELECT RIDENT,  FIRSTNAME,  LASTNAME,  CPRNR,  TSTMP,  USERID,  STATUSCODE FROM ${db2CreatorName}.${db2TableName} where RIDENT= ${maxRowId};
+17:02:20.960 INFO      SQLSelect        Using database from ExecutionContext:DBCCCWCC
+17:02:20.960 LOG       SQLSelect        SQL statement contained variable, now it has been substuted and the SQL is: SELECT RIDENT,  FIRSTNAME,  LASTNAME,  CPRNR,  TSTMP,  USERID,  STATUSCODE FROM HDDRXM0.XAEMPLOYEE where RIDENT= 800010012;
+17:02:20.960 LOG       SQLSelect        Establishing connection to database DBCCCWCC
+17:02:21.476 LOG       SQLSelect        Preparing the SQL statement: SELECT RIDENT,  FIRSTNAME,  LASTNAME,  CPRNR,  TSTMP,  USERID,  STATUSCODE FROM HDDRXM0.XAEMPLOYEE where RIDENT= 800010012;
+17:02:21.477 LOG       SQLSelect        Setting max rows to: 1
+17:02:21.477 LOG       SQLSelect        Setting up the SQL statement with parameters
+17:02:21.478 LOG       SQLSelect        Executing the SQL statement
+17:02:21.640 LOG       SQLSelect        Handling the SQL result
+17:02:21.644 INFO      SQLSelect        Finished SQLSelect. Number of rows selected:1
+17:02:21.644 INFO      Verify           Interpreting Verify component name:Row does exist
+17:02:21.644 INFO      Verify           Using verify expression:selectExisting.Row != null
+17:02:21.673 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+selectExisting.Row != null
+17:02:21.682 INFO      Verify           Comments from JavaScript execution:
+2020-03-27 17:02:21,673 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+selectExisting.Row != null 
+
+17:02:21.682 LOG       Verify           Expression returned:
+true
+17:02:21.682 INFO      Scope            Scope completed
+17:02:21.682 INFO      Scope            Interpreting Scope name:Positive Tests
+17:02:21.682 INFO      Scope            Interpreting Scope name:Execute Tests and Verify
+17:02:21.683 INFO      Component        Interpreting Component: XADB2TST program:XADB2TST
+17:02:21.716 LOG       CWC2 Batch       Component Runtime Settings:
+17:02:21.716 LOG       CWC2 Batch         Load libraries :
+17:02:21.716 LOG       CWC2 Batch         Optional main Load library:SYS2.CW.CXR17Z.SLCXLOAD
+17:02:21.716 LOG       CWC2 Batch         Listing libraries         :
+17:02:21.716 LOG       CWC2 Batch         SysDebug libraries        :
+17:02:21.716 LOG       CWC2 Batch         DB2 Subsystem ID          :DSC2
+17:02:21.716 LOG       CWC2 Batch         DB2 plan                  :TOPAZTST
+17:02:21.716 LOG       CWC2 Batch         Call interface            :NONE
+17:02:21.716 LOG       CWC2 Batch         Debugger type             :NONE
+17:02:21.716 LOG       CWC2 Batch         Component type            :COBOL
+17:02:21.723 INFO      CWC2 Batch       Sending Module execution request to Host for module:XADB2TST rollback:false
+17:02:21.968 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/1dfdff6584ee47fdad7d2372ed7e129a
+17:02:22.256 LOG       CWC2 Batch       Uploading input data for module XADB2TST
+17:02:23.066 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan>TOPAZTST</db2plan><db2id>DSC2</db2id><rollback>false</rollback><jobdirectory>1dfdff6584ee47fdad7d2372ed7e129a</jobdirectory><amode24>false</amode24><members><membername>XADB2TST</membername></members><loads><mainload>SYS2.CW.CXR17Z.SLCXLOAD</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+17:02:23.411 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0850053</jobid><jobname>HDDRXM0E</jobname><starttime>20200327120223380</starttime></xatz_response></XATZRESP>
+17:02:23.414 LOG       HCIClient        Response received from Host. Message: JobId:J0850053
+17:02:23.415 INFO      HCIClient        Job has been started at host with JobId:J0850053
+17:02:23.416 INFO      CWC2 Batch       Waiting for Execution Result from Host
+17:02:26.913 INFO      CWC2 Batch       Component completed with program exit: +12
+17:02:27.086 LOG       CWC2 Batch       Setting execution variable 'jobid' to J0850053
+17:02:27.086 LOG       CWC2 Batch       Setting execution variable 'jobname' to HDDRXM0E
+17:02:27.086 LOG       CWC2 Batch       Setting execution variable 'programexit' to 12
+17:02:27.244 INFO      Component        Verifying program exit code: 12 against verify expression: value < 8
+17:02:27.255 ERROR     Component        Program exit code 12 was NOT verified to be accepted by the expression: value < 8. The expression returned: false
+17:02:27.256 INFO      Component        Finished interpreting Component: XADB2TST program:XADB2TST
+17:02:27.257 VERIFY    ExpectedData     VerificationResult : DataItem: /xadb2tst-export/xadb2tst-exp-count. Actual value is different from expected. Actual value: 0.0 Expected: 1.0. Actual value:0. Expected value:1
+17:02:27.257 VERIFY    ExpectedData     VerificationResult : DataItem: /xadb2tst-export/xadb2tst-exp-errorcode. Actual value is different from expected. Actual value: -922.0 Expected: 0.0. Actual value:-922. Expected value:0
+17:02:27.257 VERIFY    ExpectedData     VerificationResult : DataItem: /xadb2tst-export/xadb2tst-exp-table[0]/xadb2tst-exp-id. Actual value is different from expected. Actual value: 0.0 Expected: 8.00010012E8. Actual value:0. Expected value:800010012
+17:02:27.257 VERIFY    ExpectedData     VerificationResult : DataItem: /xadb2tst-export/xadb2tst-exp-table[0]/xadb2tst-exp-firstname. Actual value is different from expected. Actual value:  Expected value: Mads. Actual value:. Expected value:Mads
+17:02:27.257 VERIFY    ExpectedData     VerificationResult : DataItem: /xadb2tst-export/xadb2tst-exp-table[0]/xadb2tst-exp-lastname. Actual value is different from expected. Actual value:  Expected value: Madsen. Actual value:. Expected value:Madsen
+17:02:27.257 VERIFY    ExpectedData     VerificationResult : DataItem: /xadb2tst-export/xadb2tst-exp-table[0]/xadb2tst-exp-cprnr. Actual value is different from expected. Actual value: 0.0 Expected: 2.323790001E9. Actual value:0. Expected value:2323790001
+17:02:27.258 VERIFY    ExpectedData     VerificationResult : DataItem: /xadb2tst-export/xadb2tst-exp-table[0]/xadb2tst-exp-statuscode. Actual value is different from expected. Actual value:  Expected value: O. Actual value:. Expected value:O
+17:02:27.258 VERIFY    ExpectedData     VerificationResult : DataItem: /xadb2tst-export/xadb2tst-exp-table[0]/xadb2tst-exp-userid. Actual value is different from expected. Actual value:  Expected value: TOR. Actual value:. Expected value:TOR
+17:02:27.258 VERIFY    Engine           Component name:XADB2TST contains data that where not verified correctly
+17:02:27.258 INFO      Scope            Scope completed
+17:02:27.258 INFO      Scope            Scope completed
+17:02:27.258 INFO      Scope            Interpreting Scope name:Negative Tests
+17:02:27.258 INFO      Scope            Interpreting Scope name:Check that row does not exist
+17:02:27.258 INFO      SQLSelect        Interpreting SQLSelect id:selectNonExisting statement: SELECT RIDENT,  FIRSTNAME,  LASTNAME,  CPRNR,  TSTMP,  USERID,  STATUSCODE FROM ${db2CreatorName}.${db2TableName} where RIDENT= ${newRowId};
+17:02:27.258 INFO      SQLSelect        Using database from ExecutionContext:DBCCCWCC
+17:02:27.258 LOG       SQLSelect        SQL statement contained variable, now it has been substuted and the SQL is: SELECT RIDENT,  FIRSTNAME,  LASTNAME,  CPRNR,  TSTMP,  USERID,  STATUSCODE FROM HDDRXM0.XAEMPLOYEE where RIDENT= 800010013;
+17:02:27.258 LOG       SQLSelect        Establishing connection to database DBCCCWCC
+17:02:27.762 LOG       SQLSelect        Preparing the SQL statement: SELECT RIDENT,  FIRSTNAME,  LASTNAME,  CPRNR,  TSTMP,  USERID,  STATUSCODE FROM HDDRXM0.XAEMPLOYEE where RIDENT= 800010013;
+17:02:27.762 LOG       SQLSelect        Setting max rows to: 1
+17:02:27.762 LOG       SQLSelect        Setting up the SQL statement with parameters
+17:02:27.763 LOG       SQLSelect        Executing the SQL statement
+17:02:27.920 LOG       SQLSelect        Handling the SQL result
+17:02:27.922 INFO      SQLSelect        Finished SQLSelect. Number of rows selected:0
+17:02:27.923 INFO      Verify           Interpreting Verify component name:Verify
+17:02:27.923 LOG       Verify           Expected resolved:
+17:02:27.924 LOG       Verify           Actual resolved:
+17:02:27.934 INFO      Verify           Expected and Actual data was found to be identical
+17:02:27.935 INFO      Scope            Scope completed
+17:02:27.935 INFO      Scope            Interpreting Scope name:Execute Negative Tests and Verify
+17:02:27.935 INFO      Component        Interpreting Component: XADB2TST program:XADB2TST
+17:02:27.939 LOG       CWC2 Batch       Component Runtime Settings:
+17:02:27.939 LOG       CWC2 Batch         Load libraries :
+17:02:27.939 LOG       CWC2 Batch         Optional main Load library:SYS2.CW.CXR17Z.SLCXLOAD
+17:02:27.940 LOG       CWC2 Batch         Listing libraries         :
+17:02:27.940 LOG       CWC2 Batch         SysDebug libraries        :
+17:02:27.941 LOG       CWC2 Batch         DB2 Subsystem ID          :DSC2
+17:02:27.941 LOG       CWC2 Batch         DB2 plan                  :TOPAZTST
+17:02:27.941 LOG       CWC2 Batch         Call interface            :NONE
+17:02:27.941 LOG       CWC2 Batch         Debugger type             :NONE
+17:02:27.941 LOG       CWC2 Batch         Component type            :COBOL
+17:02:27.942 INFO      CWC2 Batch       Sending Module execution request to Host for module:XADB2TST rollback:false
+17:02:28.745 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/46f54d2f70154eee967c846502bde201
+17:02:29.032 LOG       CWC2 Batch       Uploading input data for module XADB2TST
+17:02:32.640 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan>TOPAZTST</db2plan><db2id>DSC2</db2id><rollback>false</rollback><jobdirectory>46f54d2f70154eee967c846502bde201</jobdirectory><amode24>false</amode24><members><membername>XADB2TST</membername></members><loads><mainload>SYS2.CW.CXR17Z.SLCXLOAD</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+17:02:32.923 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0850056</jobid><jobname>HDDRXM0E</jobname><starttime>20200327120232893</starttime></xatz_response></XATZRESP>
+17:02:32.924 LOG       HCIClient        Response received from Host. Message: JobId:J0850056
+17:02:32.924 INFO      HCIClient        Job has been started at host with JobId:J0850056
+17:02:32.925 INFO      CWC2 Batch       Waiting for Execution Result from Host
+17:02:36.350 INFO      CWC2 Batch       Component completed with program exit: +12
+17:02:36.653 LOG       CWC2 Batch       Setting execution variable 'jobid' to J0850056
+17:02:36.653 LOG       CWC2 Batch       Setting execution variable 'jobname' to HDDRXM0E
+17:02:36.653 LOG       CWC2 Batch       Setting execution variable 'programexit' to 12
+17:02:36.856 INFO      Component        Verifying program exit code: 12 against verify expression: value == 12
+17:02:36.869 INFO      Component        Program exit code was verified to be accepted by the expression: value == 12
+17:02:36.869 INFO      Component        Finished interpreting Component: XADB2TST program:XADB2TST
+17:02:36.869 VERIFY    ExpectedData     VerificationResult : DataItem: /xadb2tst-export/xadb2tst-exp-errorcode. Actual value is different from expected. Actual value: -922.0 Expected: 100.0. Actual value:-922. Expected value:100
+17:02:36.870 VERIFY    Engine           Component name:XADB2TST contains data that where not verified correctly
+17:02:36.870 INFO      Scope            Scope completed
+17:02:36.870 INFO      Scope            Scope completed
+17:02:36.870 COMMENT   Engine           Test Scenario execution ended
