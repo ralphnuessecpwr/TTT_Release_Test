@@ -1,0 +1,36 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/LGTESTC1_HANDLE_04.stub" nextCalltoken="220002" stubtype="CICS" target="" token="220000">
+  <stub:description>Created: Apr 3, 2020 4:53:50 PM</stub:description>
+  <stub:stubdata callToken="220001" id="0" name="EXEC CICS HANDLE">
+    <stub:interface>../Interfaces/LGTESTC1_HANDLE.interface#Unit%20Test/Interfaces/LGTESTC1_HANDLE.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/LGTESTC1_HANDLE.interface#Unit%20Test/Interfaces/LGTESTC1_HANDLE.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_HANDLE/LGTESTC1_HANDLE_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGTESTC1_HANDLE/LGTESTC1_HANDLE_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_HANDLE/LGTESTC1_HANDLE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">02048000072400000000000000000000000000000000f0f0f2f0f3404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_HANDLE/LGTESTC1_HANDLE_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGTESTC1_HANDLE/LGTESTC1_HANDLE_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_HANDLE/LGTESTC1_HANDLE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">02048000072400000000000000000000000000000000f0f0f2f0f3404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:statement type="EXEC CICS HANDLE">
+      <stub:text>      *EXEC CICS HANDLE CONDITION
+      *          MAPFAIL(ENDIT)
+      *          END-EXEC.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/LGTESTC1_HANDLE/LGTESTC1_HANDLE_dfheiblk.listructure#Unit%20Test/Structures/CICS/LGTESTC1_HANDLE/LGTESTC1_HANDLE_dfheiblk.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_HANDLE/LGTESTC1_HANDLE_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+        <properties:properties>
+          <properties:property name="value" type="string">0105336C0120094FE2E2C3F10000846CC3F1F6F8000001BB7F0A7D02040000000000000000000000000000000000000000000040404040404040400000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+</stub:stub>

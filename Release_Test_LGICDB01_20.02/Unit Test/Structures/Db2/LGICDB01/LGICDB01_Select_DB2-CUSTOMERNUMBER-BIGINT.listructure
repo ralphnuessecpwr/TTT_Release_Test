@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.2.1.v20200322-0318_101?>
+<!--Topaz for Total Test 20.2.1.v20200322-0318_101 Apr 3, 2020 4:11:22 PM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Select_DB2-CUSTOMERNUMBER-BIGINT.listructure">
+  <listructure:struct id="DB2_CUSTOMERNUMBER_BIGINT" name="DB2_CUSTOMERNUMBER_BIGINT">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">8</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">8</properties:property>
+    </properties:properties>
+    <listructure:number id="DB2_CUSTOMERNUMBER_BIGINT.DB2_CUSTOMERNUMBER_BIGINT" length="18" name="DB2_CUSTOMERNUMBER_BIGINT">
+      <properties:properties>
+        <properties:property name="picture" type="string">S9(18)</properties:property>
+        <properties:property name="usage" type="string">computational</properties:property>
+        <properties:property name="signed" type="boolean">true</properties:property>
+        <properties:property name="displayLength" type="number">18</properties:property>
+        <properties:property name="integerDigits" type="number">18</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">binary</properties:property>
+        <properties:property name="storageLength" type="number">8</properties:property>
+        <properties:property name="sqltype" type="number">492</properties:property>
+      </properties:properties>
+    </listructure:number>
+  </listructure:struct>
+</listructure:listructure>

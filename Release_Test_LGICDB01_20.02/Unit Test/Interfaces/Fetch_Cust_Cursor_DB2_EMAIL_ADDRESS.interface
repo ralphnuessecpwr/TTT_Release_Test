@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.2.1.v20200322-0318_101?>
+<!--Topaz for Total Test 20.2.1.v20200322-0318_101 Apr 3, 2020 4:11:10 PM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Unit%20Test/Interfaces/Fetch_Cust_Cursor_DB2_EMAIL_ADDRESS.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-FIRSTNAME.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-FIRSTNAME.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-FIRSTNAME.listructure#DB2_FIRSTNAME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-FIRSTNAME.listructure#DB2_FIRSTNAME.DB2_FIRSTNAME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-LASTNAME.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-LASTNAME.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-LASTNAME.listructure#DB2_LASTNAME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-LASTNAME.listructure#DB2_LASTNAME.DB2_LASTNAME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-DATEOFBIRTH.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-DATEOFBIRTH.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-DATEOFBIRTH.listructure#DB2_DATEOFBIRTH">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-DATEOFBIRTH.listructure#DB2_DATEOFBIRTH.DB2_DATEOFBIRTH">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-HOUSENAME.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-HOUSENAME.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-HOUSENAME.listructure#DB2_HOUSENAME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-HOUSENAME.listructure#DB2_HOUSENAME.DB2_HOUSENAME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-HOUSENUMBER.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-HOUSENUMBER.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-HOUSENUMBER.listructure#DB2_HOUSENUMBER">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-HOUSENUMBER.listructure#DB2_HOUSENUMBER.DB2_HOUSENUMBER">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-POSTCODE.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-POSTCODE.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-POSTCODE.listructure#DB2_POSTCODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-POSTCODE.listructure#DB2_POSTCODE.DB2_POSTCODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-PHONE-MOBILE.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-PHONE-MOBILE.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-PHONE-MOBILE.listructure#DB2_PHONE_MOBILE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-PHONE-MOBILE.listructure#DB2_PHONE_MOBILE.DB2_PHONE_MOBILE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-PHONE-HOME.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-PHONE-HOME.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-PHONE-HOME.listructure#DB2_PHONE_HOME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-PHONE-HOME.listructure#DB2_PHONE_HOME.DB2_PHONE_HOME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-EMAIL-ADDRESS.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-EMAIL-ADDRESS.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-EMAIL-ADDRESS.listructure#DB2_EMAIL_ADDRESS">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Fetch_DB2-EMAIL-ADDRESS.listructure#DB2_EMAIL_ADDRESS.DB2_EMAIL_ADDRESS">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

@@ -1,0 +1,204 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?totaltestVersion 20.2.1.v20200322-0318_101?>
+<!--Topaz for Total Test 20.2.1.v20200322-0318_101 Apr 3, 2020 3:21:53 PM-->
+<testsuites>
+  <testsuite errors="0" failures="0" name="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" tests="158">
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00001: Check for eibtime"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00002: Check for eibdate"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00003: Check for eibtrnid"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00004: Check for eibtaskn"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00005: Check for eibtrmid"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00006: Check for dfheigdi"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00007: Check for eibcposn"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00008: Check for eibcalen"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00009: Check for eibaid"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00010: Check for eibfn"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00011: Check for eibrcode"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00012: Check for eibds"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00013: Check for eibreqid"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00014: Check for eibrsrce"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00015: Check for eibsync"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00016: Check for eibfree"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00017: Check for eibrecv"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00018: Check for eibfil01"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00019: Check for eibatt"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00020: Check for eibeoc"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00021: Check for eibfmh"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00022: Check for eibcompl"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00023: Check for eibsig"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00024: Check for eibconf"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00025: Check for eiberr"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00026: Check for eiberrcd"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00027: Check for eibsynrb"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00028: Check for eibnodat"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00029: Check for eibresp"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00030: Check for eibresp2"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00031: Check for eibrldbk"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00032: Check for CA_REQUEST_ID"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00033: Check for CA_RETURN_CODE"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00034: Check for CA_CUSTOMER_NUM"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00035: Check for CA_REQUEST_SPECIFIC"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00036: Check for CA_FIRST_NAME"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00037: Check for CA_LAST_NAME"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00038: Check for CA_DOB"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00039: Check for CA_HOUSE_NAME"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00040: Check for CA_HOUSE_NUM"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00041: Check for CA_POSTCODE"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00042: Check for CA_NUM_POLICIES"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00043: Check for CA_PHONE_MOBILE"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00044: Check for CA_PHONE_HOME"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00045: Check for CA_EMAIL_ADDRESS"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00046: Check for CA_NATIONAL_ID_NBR"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00047: Check for CA_NIN_TYPE"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00048: Check for CA_STREET_ADDRESS"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00049: Check for CA_CITY"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00050: Check for CA_STATE"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00051: Check for CA_COUNTRY_CODE"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00052: Check for CA_SALES_TERRITORY"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00053: Check for CA_CUSTOMER_PFKEY"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00054: Check for CA_CUSTOMER_BEGIN"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00055: Check for CA_CUSTOMER_END"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00056: Check for CA_POLICY_DATA"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00057: Check for CA_CUSTSECR_PASS"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00058: Check for CA_CUSTSECR_COUNT"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00059: Check for CA_CUSTSECR_STATE"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00060: Check for CA_CUSTSECR_DATA"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00061: Check for CA_POLICY_NUM"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00062: Check for CA_ISSUE_DATE"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00063: Check for CA_EXPIRY_DATE"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00064: Check for CA_LASTCHANGED"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00065: Check for CA_BROKERID"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00066: Check for CA_BROKERSREF"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00067: Check for CA_PAYMENT"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00068: Check for CA_POLICY_PFKEY"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00069: Check for CA_POLICY_BEGIN"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00070: Check for CA_POLICY_END"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00071: Check for CA_POLICY_SPECIFIC"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00072: Check for CA_E_WITH_PROFITS"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00073: Check for CA_E_EQUITIES"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00074: Check for CA_E_MANAGED_FUND"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00075: Check for CA_E_FUND_NAME"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00076: Check for CA_E_TERM"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00077: Check for CA_E_SUM_ASSURED"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00078: Check for CA_E_LIFE_ASSURED"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00079: Check for CA_E_AUTO_PAY"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00080: Check for CA_E_CHECK_ACCT_NBR"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00081: Check for CA_E_BANK_ROUTE_CODE"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00082: Check for CA_E_CREDIT_CARD_TYP"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00083: Check for CA_E_CREDIT_CARD_NBR"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00084: Check for CA_E_CREDIT_CARD_PIN"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00085: Check for CA_E_CREDIT_CARD_VAL"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00086: Check for CA_E_PADDING_DATA"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00087: Check for CA_H_PROPERTY_TYPE"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00088: Check for CA_H_BEDROOMS"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00089: Check for CA_H_VALUE"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00090: Check for CA_H_HOUSE_NAME"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00091: Check for CA_H_HOUSE_NUMBER"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00092: Check for CA_H_POSTCODE"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00093: Check for CA_H_STREET_ADDRESS"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00094: Check for CA_H_CITY"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00095: Check for CA_H_STATE"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00096: Check for CA_H_COUNTRY_CODE"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00097: Check for CA_H_AUTO_PAY"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00098: Check for CA_H_CHECK_ACCT_NBR"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00099: Check for CA_H_BANK_ROUTE_CODE"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00100: Check for CA_H_CREDIT_CARD_TYP"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00101: Check for CA_H_CREDIT_CARD_NBR"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00102: Check for CA_H_CREDIT_CARD_PIN"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00103: Check for CA_H_CREDIT_CARD_VAL"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00104: Check for CA_H_FILLER"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00105: Check for CA_M_MAKE"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00106: Check for CA_M_MODEL"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00107: Check for CA_M_VALUE"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00108: Check for CA_M_REGNUMBER"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00109: Check for CA_M_COLOUR"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00110: Check for CA_M_CC"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00111: Check for CA_M_MANUFACTURED"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00112: Check for CA_M_PREMIUM"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00113: Check for CA_M_ACCIDENTS"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00114: Check for CA_M_CAR_YEAR"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00115: Check for CA_M_CAR_VIN"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00116: Check for CA_M_AUTO_PAY"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00117: Check for CA_M_CHECK_ACCT_NBR"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00118: Check for CA_M_BANK_ROUTE_CODE"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00119: Check for CA_M_CREDIT_CARD_TYP"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00120: Check for CA_M_CREDIT_CARD_NBR"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00121: Check for CA_M_CREDIT_CARD_PIN"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00122: Check for CA_M_CREDIT_CARD_VAL"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00123: Check for CA_M_FILLER"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00124: Check for CA_B_Address"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00125: Check for CA_B_Postcode"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00126: Check for CA_B_Latitude"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00127: Check for CA_B_Longitude"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00128: Check for CA_B_Customer"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00129: Check for CA_B_PropType"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00130: Check for CA_B_FirePeril"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00131: Check for CA_B_FirePremium"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00132: Check for CA_B_CrimePeril"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00133: Check for CA_B_CrimePremium"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00134: Check for CA_B_FloodPeril"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00135: Check for CA_B_FloodPremium"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00136: Check for CA_B_WeatherPeril"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00137: Check for CA_B_WeatherPremium"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00138: Check for CA_B_Status"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00139: Check for CA_B_RejectReason"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00140: Check for CA_B_STREET_ADDRESS"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00141: Check for CA_B_CITY"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00142: Check for CA_B_STATE"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00143: Check for CA_B_COUNTRY_CODE"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00144: Check for CA_B_AUTO_PAY"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00145: Check for CA_B_CHECK_ACCT_NBR"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00146: Check for CA_B_BANK_ROUTE_CODE"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00147: Check for CA_B_CREDIT_CARD_TYP"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00148: Check for CA_B_CREDIT_CARD_NBR"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00149: Check for CA_B_CREDIT_CARD_PIN"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00150: Check for CA_B_CREDIT_CARD_VAL"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00151: Check for CA_B_FILLER"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00152: Check for CA_C_Num"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00153: Check for CA_C_Date"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00154: Check for CA_C_Paid"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00155: Check for CA_C_Value"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00156: Check for CA_C_Cause"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00157: Check for CA_C_Observations"/>
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1" name="00158: Check for CA_C_FILLER"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_Select_1_SQL_02.00001: Select assertion" tests="0">
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_Select_1_SQL_02.00001: Select assertion" name="Select"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_Cust_Cursor_SQL_02.00001: Open assertion" tests="0">
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_Cust_Cursor_SQL_02.00001: Open assertion" name="Open"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_Cust_Cursor_SQL_02.00002: Fetch assertion" tests="0">
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_Cust_Cursor_SQL_02.00002: Fetch assertion" name="Fetch"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_Cust_Cursor_SQL_02.00003: Fetch assertion" tests="0">
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_Cust_Cursor_SQL_02.00003: Fetch assertion" name="Fetch"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_Cust_Cursor_SQL_02.00004: Fetch assertion" tests="0">
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_Cust_Cursor_SQL_02.00004: Fetch assertion" name="Fetch"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_Cust_Cursor_SQL_02.00005: Fetch assertion" tests="0">
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_Cust_Cursor_SQL_02.00005: Fetch assertion" name="Fetch"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_Cust_Cursor_SQL_02.00006: Fetch assertion" tests="0">
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_Cust_Cursor_SQL_02.00006: Fetch assertion" name="Fetch"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_Cust_Cursor_SQL_02.00007: Fetch assertion" tests="0">
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_Cust_Cursor_SQL_02.00007: Fetch assertion" name="Fetch"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_Cust_Cursor_SQL_02.00008: Fetch assertion" tests="0">
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_Cust_Cursor_SQL_02.00008: Fetch assertion" name="Fetch"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_Cust_Cursor_SQL_02.00009: Fetch assertion" tests="0">
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_Cust_Cursor_SQL_02.00009: Fetch assertion" name="Fetch"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_Cust_Cursor_SQL_02.00010: Fetch assertion" tests="0">
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_Cust_Cursor_SQL_02.00010: Fetch assertion" name="Fetch"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_Cust_Cursor_SQL_02.00011: Close assertion" tests="0">
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_Cust_Cursor_SQL_02.00011: Close assertion" name="Close"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_RETURN_02.00001: EXEC CICS RETURN assertion" tests="0">
+    <testcase classname="Release_Test_LGICDB01.LGICDB01_Scenario2.00001: LGICDB01Case1.LGICDB01_RETURN_02.00001: EXEC CICS RETURN assertion" name="EXEC CICS RETURN"/>
+  </testsuite>
+</testsuites>

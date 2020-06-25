@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.2.1.v20200313-1425_90?>
+<!--Topaz for Total Test 20.2.1.v20200313-1425_90 Mar 25, 2020 12:56:58 PM-->
+<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Unit%20Test/Scenarios/CWDEMCB2_Scenario2.testscenario">
+  <testscenario:description></testscenario:description>
+  <testscenario:testcases>
+    <testscenario:testcase alias="" csect="CWDEMCB2" encoding="1047" entrypoint="CWDEMCB2" id="Unit%20Test/Scenarios/CWDEMCB2_Scenario2.testscenario%23CWDEMCB2Case1" target="CWDEMCB2">
+      <testcase:description></testcase:description>
+      <testcase:ddiotype>NONE</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1468831222000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWDEMCB2.interface#Unit%20Test/Interfaces/CWDEMCB2.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWDEMCB2_DFHEIBLK.listructure#Unit%20Test/Structures/CWDEMCB2_DFHEIBLK.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWDEMCB2_DFHEIBLK.listructure#DFHEIBLK" id="arg0.DFHEIBLK">
+          <properties:properties>
+            <properties:property name="value" type="string">0075627C0120085FE7C3C2F20001183CC3F6F0F20000000600507D00000000000000000000000000000000000000000000000040404040404040400000000000000000000000000000000000000000000000000000</properties:property>
+            <properties:property name="expectedValue" type="string">0075627C0120085FE7C3C2F20001183CC3F6F0F20000000600507D040400000000000000000000000000000000000000000000C3F6F0F2404040400000000000000000000000000000000000000000000000000000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWDEMCB2_DFHCOMMAREA.listructure#Unit%20Test/Structures/CWDEMCB2_DFHCOMMAREA.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWDEMCB2_DFHCOMMAREA.listructure#DFHCOMMAREA" id="arg1.DFHCOMMAREA">
+          <properties:properties>
+            <properties:property name="value" type="string">C3969494819985817A40E385A7A37AE3C5E2E340C38881997AE385A2A340C1A28389897A4C4D6E6F40C885A77A40E385A2A3404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="expectedValue" type="string">C3969494819985817A40E385A7A37AE3C5E2E340C38881997AE385A2A340C1A28389897A4C4D6E6F40C885A77A40E385A2A3404040404040404040404040404040404040404040404040404040404040</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWDEMCB2_HANDLE_01.stub#Unit%20Test/Stubs/CWDEMCB2_HANDLE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWDEMCB2_ASSIGN_02.stub#Unit%20Test/Stubs/CWDEMCB2_ASSIGN_02.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWDEMCB2_RETURN_02.stub#Unit%20Test/Stubs/CWDEMCB2_RETURN_02.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWDEMCB2_SEND_RECEIVE_02.stub#Unit%20Test/Stubs/CWDEMCB2_SEND_RECEIVE_02.stub</testcase:stub>
+      </testcase:stubs>
+    </testscenario:testcase>
+  </testscenario:testcases>
+</testscenario:testscenario>

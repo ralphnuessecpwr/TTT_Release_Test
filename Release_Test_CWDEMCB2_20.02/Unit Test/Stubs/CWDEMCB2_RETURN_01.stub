@@ -1,0 +1,79 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/CWDEMCB2_RETURN_01.stub" nextCalltoken="30002" stubtype="CICS" target="" token="30000">
+  <stub:description>Created: Mar 25, 2020 12:55:22 PM</stub:description>
+  <stub:stubdata callToken="30001" id="0" name="EXEC CICS RETURN">
+    <stub:interface>../Interfaces/CWDEMCB2_RETURN.interface#Unit%20Test/Interfaces/CWDEMCB2_RETURN.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWDEMCB2_RETURN.interface#Unit%20Test/Interfaces/CWDEMCB2_RETURN.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/CWDEMCB2_RETURN/CWDEMCB2_RETURN_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/CWDEMCB2_RETURN/CWDEMCB2_RETURN_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCB2_RETURN/CWDEMCB2_RETURN_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0E08E0000700001000F0F0F0F4F2F14040B197DC39B197E039B1ABE039B1</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCB2_RETURN/CWDEMCB2_RETURN_CICS-GENERATED-ARGUMENT-1.listructure#Unit%20Test/Structures/CICS/CWDEMCB2_RETURN/CWDEMCB2_RETURN_CICS-GENERATED-ARGUMENT-1.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCB2_RETURN/CWDEMCB2_RETURN_CICS-GENERATED-ARGUMENT-1.listructure#CICS_GENERATED_ARGUMENT_1" id="arg1.CICS_GENERATED_ARGUMENT_1">
+        <properties:properties>
+          <properties:property name="value" type="string">E7C3C2F2</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCB2_RETURN/CWDEMCB2_RETURN_DUMMY-COMMAREA.listructure#Unit%20Test/Structures/CICS/CWDEMCB2_RETURN/CWDEMCB2_RETURN_DUMMY-COMMAREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCB2_RETURN/CWDEMCB2_RETURN_DUMMY-COMMAREA.listructure#DUMMY_COMMAREA" id="arg2.DUMMY_COMMAREA">
+        <properties:properties>
+          <properties:property name="value" type="string">C3969494819985817A40E385A7A37AE3C5E2E340C38881997AE385A2A340C1A28389897A4C4D6E6F40C885A77A40E385A2A3404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCB2_RETURN/CWDEMCB2_RETURN_CICS-GENERATED-ARGUMENT-3.listructure#Unit%20Test/Structures/CICS/CWDEMCB2_RETURN/CWDEMCB2_RETURN_CICS-GENERATED-ARGUMENT-3.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCB2_RETURN/CWDEMCB2_RETURN_CICS-GENERATED-ARGUMENT-3.listructure#CICS_GENERATED_ARGUMENT_3" id="arg3.CICS_GENERATED_ARGUMENT_3">
+        <properties:properties>
+          <properties:property name="value" type="string">00500000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/CWDEMCB2_RETURN/CWDEMCB2_RETURN_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/CWDEMCB2_RETURN/CWDEMCB2_RETURN_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCB2_RETURN/CWDEMCB2_RETURN_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0E08E0000700001000F0F0F0F4F2F14040B197DC39B197E039B1ABE039B1</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCB2_RETURN/CWDEMCB2_RETURN_CICS-GENERATED-ARGUMENT-1.listructure#Unit%20Test/Structures/CICS/CWDEMCB2_RETURN/CWDEMCB2_RETURN_CICS-GENERATED-ARGUMENT-1.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCB2_RETURN/CWDEMCB2_RETURN_CICS-GENERATED-ARGUMENT-1.listructure#CICS_GENERATED_ARGUMENT_1" id="arg1.CICS_GENERATED_ARGUMENT_1">
+        <properties:properties>
+          <properties:property name="value" type="string">E7C3C2F2</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCB2_RETURN/CWDEMCB2_RETURN_DUMMY-COMMAREA.listructure#Unit%20Test/Structures/CICS/CWDEMCB2_RETURN/CWDEMCB2_RETURN_DUMMY-COMMAREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCB2_RETURN/CWDEMCB2_RETURN_DUMMY-COMMAREA.listructure#DUMMY_COMMAREA" id="arg2.DUMMY_COMMAREA">
+        <properties:properties>
+          <properties:property name="value" type="string">C3969494819985817A40E385A7A37AE3C5E2E340C38881997AE385A2A340C1A28389897A4C4D6E6F40C885A77A40E385A2A3404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCB2_RETURN/CWDEMCB2_RETURN_CICS-GENERATED-ARGUMENT-3.listructure#Unit%20Test/Structures/CICS/CWDEMCB2_RETURN/CWDEMCB2_RETURN_CICS-GENERATED-ARGUMENT-3.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCB2_RETURN/CWDEMCB2_RETURN_CICS-GENERATED-ARGUMENT-3.listructure#CICS_GENERATED_ARGUMENT_3" id="arg3.CICS_GENERATED_ARGUMENT_3">
+        <properties:properties>
+          <properties:property name="value" type="string">00500000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:statement type="EXEC CICS RETURN">
+      <stub:text>           EXEC CICS RETURN
+                     TRANSID  (EIBTRNID)
+                     COMMAREA (DUMMY-COMMAREA)
+                     LENGTH   (80)
+           END-EXEC.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/CWDEMCB2_RETURN/CWDEMCB2_RETURN_DFHEIBLK.listructure#Unit%20Test/Structures/CICS/CWDEMCB2_RETURN/CWDEMCB2_RETURN_DFHEIBLK.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCB2_RETURN/CWDEMCB2_RETURN_DFHEIBLK.listructure#DFHEIBLK" id="arg0.DFHEIBLK">
+        <properties:properties>
+          <properties:property name="value" type="string">0075453C0120085FE7C3C2F20001177CC3F6F0F20000000400007D040400000000000000000000000000000000000000000000C3F6F0F2404040400000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+</stub:stub>

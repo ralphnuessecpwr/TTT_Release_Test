@@ -1,0 +1,157 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" fileStatus="00" id="Unit%20Test/Stubs/CWXTIMS_SALCUST_FILE_01.stub" stubtype="QSAM" target="SALCUST" token="30000">
+  <stub:description>Created: Mar 25, 2020 12:25:51 PM</stub:description>
+  <stub:stubdata id="0" name="SALCUST">
+    <stub:inputinterface>../Interfaces/CWXTIMS_SALCUST_SALCUST_AREA.interface#Unit%20Test/Interfaces/CWXTIMS_SALCUST_SALCUST_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure#Unit%20Test/Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure#SALCUST_AREA" id="arg0.SALCUST_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F7F6F50001C3D5F0F0F0F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:arrayType ../Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure#SALCUST_AREA.WS_CUST_NUM_TABLE" id="input0.arg0.SALCUST_AREA.WS_CUST_NUM_TABLE">
+        <properties:properties>
+          <properties:property name="occurs" type="number">1</properties:property>
+          <properties:property name="dependingOn" type="string">WS_NUM_OF_CUST</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="1" name="SALCUST">
+    <stub:inputinterface>../Interfaces/CWXTIMS_SALCUST_SALCUST_AREA.interface#Unit%20Test/Interfaces/CWXTIMS_SALCUST_SALCUST_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure#Unit%20Test/Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure#SALCUST_AREA" id="arg0.SALCUST_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F9F5F90002C3D5F0F0F0F2C3D5F0F0F8F8</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:arrayType ../Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure#SALCUST_AREA.WS_CUST_NUM_TABLE" id="input1.arg0.SALCUST_AREA.WS_CUST_NUM_TABLE">
+        <properties:properties>
+          <properties:property name="occurs" type="number">2</properties:property>
+          <properties:property name="dependingOn" type="string">WS_NUM_OF_CUST</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="2" name="SALCUST">
+    <stub:inputinterface>../Interfaces/CWXTIMS_SALCUST_SALCUST_AREA.interface#Unit%20Test/Interfaces/CWXTIMS_SALCUST_SALCUST_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure#Unit%20Test/Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure#SALCUST_AREA" id="arg0.SALCUST_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F1F4F3F10001C3D5F0F0F3F3</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:arrayType ../Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure#SALCUST_AREA.WS_CUST_NUM_TABLE" id="input2.arg0.SALCUST_AREA.WS_CUST_NUM_TABLE">
+        <properties:properties>
+          <properties:property name="occurs" type="number">1</properties:property>
+          <properties:property name="dependingOn" type="string">WS_NUM_OF_CUST</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="3" name="SALCUST">
+    <stub:inputinterface>../Interfaces/CWXTIMS_SALCUST_SALCUST_AREA.interface#Unit%20Test/Interfaces/CWXTIMS_SALCUST_SALCUST_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure#Unit%20Test/Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure#SALCUST_AREA" id="arg0.SALCUST_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F0F1F00003C3D5F0F0F0F1C3D5F0F0F5F5C3D5F0F0F9F9</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:arrayType ../Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure#SALCUST_AREA.WS_CUST_NUM_TABLE" id="input3.arg0.SALCUST_AREA.WS_CUST_NUM_TABLE">
+        <properties:properties>
+          <properties:property name="occurs" type="number">3</properties:property>
+          <properties:property name="dependingOn" type="string">WS_NUM_OF_CUST</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="4" name="SALCUST">
+    <stub:inputinterface>../Interfaces/CWXTIMS_SALCUST_SALCUST_AREA.interface#Unit%20Test/Interfaces/CWXTIMS_SALCUST_SALCUST_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure#Unit%20Test/Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure#SALCUST_AREA" id="arg0.SALCUST_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F3F3F40001C3D5F0F1F9F9</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:arrayType ../Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure#SALCUST_AREA.WS_CUST_NUM_TABLE" id="input4.arg0.SALCUST_AREA.WS_CUST_NUM_TABLE">
+        <properties:properties>
+          <properties:property name="occurs" type="number">1</properties:property>
+          <properties:property name="dependingOn" type="string">WS_NUM_OF_CUST</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="5" name="SALCUST">
+    <stub:inputinterface>../Interfaces/CWXTIMS_SALCUST_SALCUST_AREA.interface#Unit%20Test/Interfaces/CWXTIMS_SALCUST_SALCUST_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure#Unit%20Test/Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure#SALCUST_AREA" id="arg0.SALCUST_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F3F2F1F50000</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:arrayType ../Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure#SALCUST_AREA.WS_CUST_NUM_TABLE" id="input5.arg0.SALCUST_AREA.WS_CUST_NUM_TABLE">
+        <properties:properties>
+          <properties:property name="occurs" type="number">0</properties:property>
+          <properties:property name="dependingOn" type="string">WS_NUM_OF_CUST</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="6" name="SALCUST">
+    <stub:inputinterface>../Interfaces/CWXTIMS_SALCUST_SALCUST_AREA.interface#Unit%20Test/Interfaces/CWXTIMS_SALCUST_SALCUST_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure#Unit%20Test/Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure#SALCUST_AREA" id="arg0.SALCUST_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F4F1F4F70000</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:arrayType ../Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure#SALCUST_AREA.WS_CUST_NUM_TABLE" id="input6.arg0.SALCUST_AREA.WS_CUST_NUM_TABLE">
+        <properties:properties>
+          <properties:property name="occurs" type="number">0</properties:property>
+          <properties:property name="dependingOn" type="string">WS_NUM_OF_CUST</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="7" name="SALCUST">
+    <stub:inputinterface>../Interfaces/CWXTIMS_SALCUST_SALCUST_AREA.interface#Unit%20Test/Interfaces/CWXTIMS_SALCUST_SALCUST_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure#Unit%20Test/Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure#SALCUST_AREA" id="arg0.SALCUST_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F5F2F1F30000</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:arrayType ../Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure#SALCUST_AREA.WS_CUST_NUM_TABLE" id="input7.arg0.SALCUST_AREA.WS_CUST_NUM_TABLE">
+        <properties:properties>
+          <properties:property name="occurs" type="number">0</properties:property>
+          <properties:property name="dependingOn" type="string">WS_NUM_OF_CUST</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="8" name="SALCUST">
+    <stub:inputinterface>../Interfaces/CWXTIMS_SALCUST_SALCUST_AREA.interface#Unit%20Test/Interfaces/CWXTIMS_SALCUST_SALCUST_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure#Unit%20Test/Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure#SALCUST_AREA" id="arg0.SALCUST_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F6F7F4F50000</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:arrayType ../Structures/CWXTIMS_SALCUST_SALCUST-AREA.listructure#SALCUST_AREA.WS_CUST_NUM_TABLE" id="input8.arg0.SALCUST_AREA.WS_CUST_NUM_TABLE">
+        <properties:properties>
+          <properties:property name="occurs" type="number">0</properties:property>
+          <properties:property name="dependingOn" type="string">WS_NUM_OF_CUST</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+</stub:stub>
