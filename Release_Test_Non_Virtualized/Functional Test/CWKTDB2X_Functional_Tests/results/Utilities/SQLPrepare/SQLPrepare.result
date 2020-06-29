@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnitResult resultType="SUCCESS" containsSimulation="false">
+  <ExecutionId>bb324d77-6670-480f-8b0d-8d50d6068e30</ExecutionId>
+  <Message />
+  <AST>
+    <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1">
+      <Test>
+        <SQLSelect id="id" maxRows="20">
+          <Statement>SELECT EMP_NUM,  WAGE_TYPE,  REGION,  FIRST_LAST_NAME,  STREET_ADDR,  CITY,  STATE,  ZIP,  HIREDATE,  HOURS,  RATE,  WAGES,  OVERTIME,  COMM&#xD;
+ FROM HDDRXM0.KT_DEMOTAB</Statement>
+          <Output name="EMP_NUM" />
+          <Output name="WAGE_TYPE" />
+          <Output name="REGION" />
+          <Output name="FIRST_LAST_NAME" />
+          <Output name="STREET_ADDR" />
+          <Output name="CITY" />
+          <Output name="STATE" />
+          <Output name="ZIP" />
+          <Output name="HIREDATE" />
+          <Output name="HOURS" />
+          <Output name="RATE" />
+          <Output name="WAGES" />
+          <Output name="OVERTIME" />
+          <Output name="COMM" />
+          <Row>
+            <EMP_NUM>03431</EMP_NUM>
+            <WAGE_TYPE>H</WAGE_TYPE>
+            <REGION>2</REGION>
+            <FIRST_LAST_NAME>GAIL LAWRENCE</FIRST_LAST_NAME>
+            <STREET_ADDR>123 NORTH AVE</STREET_ADDR>
+            <CITY>PLANO</CITY>
+            <STATE>TX</STATE>
+            <ZIP>57010</ZIP>
+            <HIREDATE>840625</HIREDATE>
+            <HOURS>38</HOURS>
+            <RATE>25.00</RATE>
+            <WAGES>950.00</WAGES>
+            <OVERTIME>0.00</OVERTIME>
+            <COMM>950.00</COMM>
+          </Row>
+          <Row>
+            <EMP_NUM>02523</EMP_NUM>
+            <WAGE_TYPE>H</WAGE_TYPE>
+            <REGION>1</REGION>
+            <FIRST_LAST_NAME>JOHN SMITH</FIRST_LAST_NAME>
+            <STREET_ADDR>5456 ELM STREET</STREET_ADDR>
+            <CITY>WAYNE</CITY>
+            <STATE>IL</STATE>
+            <ZIP>77902</ZIP>
+            <HIREDATE>811015</HIREDATE>
+            <HOURS>30</HOURS>
+            <RATE>25.00</RATE>
+            <WAGES>750.00</WAGES>
+            <OVERTIME>0.00</OVERTIME>
+            <COMM>750.00</COMM>
+          </Row>
+          <Row>
+            <EMP_NUM>01568</EMP_NUM>
+            <WAGE_TYPE>H</WAGE_TYPE>
+            <REGION>4</REGION>
+            <FIRST_LAST_NAME>THOMAS LONG</FIRST_LAST_NAME>
+            <STREET_ADDR>12 RACE STREET</STREET_ADDR>
+            <CITY>SAN JOSE</CITY>
+            <STATE>CA</STATE>
+            <ZIP>95126</ZIP>
+            <HIREDATE>870331</HIREDATE>
+            <HOURS>40</HOURS>
+            <RATE>25.00</RATE>
+            <WAGES>1000.00</WAGES>
+            <OVERTIME>0.00</OVERTIME>
+            <COMM>1000.00</COMM>
+          </Row>
+          <Row>
+            <EMP_NUM>03241</EMP_NUM>
+            <WAGE_TYPE>H</WAGE_TYPE>
+            <REGION>3</REGION>
+            <FIRST_LAST_NAME>MARCIA SULLIVAN</FIRST_LAST_NAME>
+            <STREET_ADDR>55 SOUTH STREET</STREET_ADDR>
+            <CITY>NEW YORK</CITY>
+            <STATE>NY</STATE>
+            <ZIP>10017</ZIP>
+            <HIREDATE>930405</HIREDATE>
+            <HOURS>44</HOURS>
+            <RATE>30.00</RATE>
+            <WAGES>1200.00</WAGES>
+            <OVERTIME>0.00</OVERTIME>
+            <COMM>1380.00</COMM>
+          </Row>
+          <Row>
+            <EMP_NUM>01343</EMP_NUM>
+            <WAGE_TYPE>H</WAGE_TYPE>
+            <REGION>3</REGION>
+            <FIRST_LAST_NAME>JAMES MORRISON</FIRST_LAST_NAME>
+            <STREET_ADDR>11-A MAPLE AVE</STREET_ADDR>
+            <CITY>SYRACUSE</CITY>
+            <STATE>NY</STATE>
+            <ZIP>12123</ZIP>
+            <HIREDATE>910913</HIREDATE>
+            <HOURS>37</HOURS>
+            <RATE>27.50</RATE>
+            <WAGES>1017.50</WAGES>
+            <OVERTIME>0.00</OVERTIME>
+            <COMM>1017.50</COMM>
+          </Row>
+          <Row>
+            <EMP_NUM>02171</EMP_NUM>
+            <WAGE_TYPE>H</WAGE_TYPE>
+            <REGION>4</REGION>
+            <FIRST_LAST_NAME>SAMUEL ADDAMS</FIRST_LAST_NAME>
+            <STREET_ADDR>900 LINCOLN CT</STREET_ADDR>
+            <CITY>RENO</CITY>
+            <STATE>NV</STATE>
+            <ZIP>82433</ZIP>
+            <HIREDATE>860102</HIREDATE>
+            <HOURS>42</HOURS>
+            <RATE>27.50</RATE>
+            <WAGES>1100.00</WAGES>
+            <OVERTIME>0.00</OVERTIME>
+            <COMM>1182.50</COMM>
+          </Row>
+          <Row>
+            <EMP_NUM>59999</EMP_NUM>
+            <WAGE_TYPE>H</WAGE_TYPE>
+            <REGION>4</REGION>
+            <FIRST_LAST_NAME>MAX E MILLION</FIRST_LAST_NAME>
+            <STREET_ADDR>100 MAIN ST</STREET_ADDR>
+            <CITY>MAIN</CITY>
+            <STATE>OH</STATE>
+            <ZIP>34093</ZIP>
+            <HIREDATE>910203</HIREDATE>
+            <HOURS>88</HOURS>
+            <RATE>25.00</RATE>
+            <WAGES>1000.00</WAGES>
+            <OVERTIME>0.00</OVERTIME>
+            <COMM>2800.00</COMM>
+          </Row>
+        </SQLSelect>
+      </Test>
+    </XaUnit>
+  </AST>
+  <Context>
+    <ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5e7a190fcf655a12a4d4df4d" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" userid="hddrxm0">
+      <platformruntime database="DSCCCWCC" driver="com.ibm.db2.jcc.DB2Driver" uri="jdbc:db2://cwc2.nasa.cpwr.corp:2846/${database}" environmenttype="BATCH" callinterface="NONE" />
+      <ExtensionData />
+      <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" path="SQLPrepare.scenario">
+        <Test>
+          <SQLSelect id="id" maxRows="20">
+            <Statement>SELECT EMP_NUM,  WAGE_TYPE,  REGION,  FIRST_LAST_NAME,  STREET_ADDR,  CITY,  STATE,  ZIP,  HIREDATE,  HOURS,  RATE,  WAGES,  OVERTIME,  COMM&#xD;
+ FROM HDDRXM0.KT_DEMOTAB</Statement>
+            <Output name="EMP_NUM" />
+            <Output name="WAGE_TYPE" />
+            <Output name="REGION" />
+            <Output name="FIRST_LAST_NAME" />
+            <Output name="STREET_ADDR" />
+            <Output name="CITY" />
+            <Output name="STATE" />
+            <Output name="ZIP" />
+            <Output name="HIREDATE" />
+            <Output name="HOURS" />
+            <Output name="RATE" />
+            <Output name="WAGES" />
+            <Output name="OVERTIME" />
+            <Output name="COMM" />
+          </SQLSelect>
+        </Test>
+      </XaUnit>
+      <ExternalResources />
+    </ExecutionContext>
+  </Context>
+  <Started>20200331-10-49-26</Started>
+  <Ended>20200331-10-49-31</Ended>
+</XaUnitResult>

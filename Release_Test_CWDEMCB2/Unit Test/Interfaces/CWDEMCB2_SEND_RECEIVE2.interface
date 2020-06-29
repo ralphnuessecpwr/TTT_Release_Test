@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200620-0334_96?>
+<!--Topaz for Total Test 20.3.1.v20200620-0334_96 Jun 26, 2020 4:15:50 PM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Unit%20Test/Interfaces/CWDEMCB2_SEND_RECEIVE2.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_DUMMY-EMP.listructure#Unit%20Test/Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_DUMMY-EMP.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_DUMMY-EMP.listructure#DUMMY_EMP">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_DUMMY-EMP.listructure#DUMMY_EMP.FILLER0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_DUMMY-EMP.listructure#DUMMY_EMP.DUMMY_PAYEMP1">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_DUMMY-LEN.listructure#Unit%20Test/Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_DUMMY-LEN.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_DUMMY-LEN.listructure#DUMMY_LEN">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_DUMMY-LEN.listructure#DUMMY_LEN.DUMMY_LEN">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

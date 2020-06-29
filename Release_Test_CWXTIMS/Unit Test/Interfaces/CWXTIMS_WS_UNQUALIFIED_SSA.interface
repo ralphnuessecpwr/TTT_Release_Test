@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200620-0334_96?>
+<!--Topaz for Total Test 20.3.1.v20200620-0334_96 Jun 29, 2020 12:19:39 PM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Unit%20Test/Interfaces/CWXTIMS_WS_UNQUALIFIED_SSA.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/IMS/CWXTIMS/CWXTIMS_DLI-GNP.listructure#Unit%20Test/Structures/IMS/CWXTIMS/CWXTIMS_DLI-GNP.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/IMS/CWXTIMS/CWXTIMS_DLI-GNP.listructure#DLI_GNP">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/CWXTIMS/CWXTIMS_DLI-GNP.listructure#DLI_GNP.DLI_GNP">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/IMS/CWXTIMS/CWXTIMS_PCUST-AP-PCP-MASK.listructure#Unit%20Test/Structures/IMS/CWXTIMS/CWXTIMS_PCUST-AP-PCP-MASK.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/IMS/CWXTIMS/CWXTIMS_PCUST-AP-PCP-MASK.listructure#PCUST_AP_PCP_MASK">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/CWXTIMS/CWXTIMS_PCUST-AP-PCP-MASK.listructure#PCUST_AP_PCP_MASK.PCUST_AP_DBD_NAME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/CWXTIMS/CWXTIMS_PCUST-AP-PCP-MASK.listructure#PCUST_AP_PCP_MASK.PCUST_AP_SEGMENT_LEVEL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/CWXTIMS/CWXTIMS_PCUST-AP-PCP-MASK.listructure#PCUST_AP_PCP_MASK.PCUST_AP_STATUS_CODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/CWXTIMS/CWXTIMS_PCUST-AP-PCP-MASK.listructure#PCUST_AP_PCP_MASK.PCUST_AP_PROC_OPTIONS">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/IMS/CWXTIMS/CWXTIMS_PCUST-AP-PCP-MASK.listructure#PCUST_AP_PCP_MASK.FILLER0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/CWXTIMS/CWXTIMS_PCUST-AP-PCP-MASK.listructure#PCUST_AP_PCP_MASK.PCUST_AP_SEGMENT_NAME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/IMS/CWXTIMS/CWXTIMS_PCUST-AP-PCP-MASK.listructure#PCUST_AP_PCP_MASK.PCUST_AP_KEY_LENGTH">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/IMS/CWXTIMS/CWXTIMS_PCUST-AP-PCP-MASK.listructure#PCUST_AP_PCP_MASK.PCUST_AP_NUM_SENS_SEGS">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/CWXTIMS/CWXTIMS_PCUST-AP-PCP-MASK.listructure#PCUST_AP_PCP_MASK.PCUST_AP_KEY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/IMS/CWXTIMS/CWXTIMS_CUSTOMER-SHIPMENT-DATA.listructure#Unit%20Test/Structures/IMS/CWXTIMS/CWXTIMS_CUSTOMER-SHIPMENT-DATA.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/IMS/CWXTIMS/CWXTIMS_CUSTOMER-SHIPMENT-DATA.listructure#CUSTOMER_SHIPMENT_DATA">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/IMS/CWXTIMS/CWXTIMS_CUSTOMER-SHIPMENT-DATA.listructure#CUSTOMER_SHIPMENT_DATA.CUSTOMER_SHIPMENT_KEY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/IMS/CWXTIMS/CWXTIMS_CUSTOMER-SHIPMENT-DATA.listructure#CUSTOMER_SHIPMENT_DATA.CUSTOMER_SHIPMENT_KEY.LOCATION_NUMBER">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/IMS/CWXTIMS/CWXTIMS_CUSTOMER-SHIPMENT-DATA.listructure#CUSTOMER_SHIPMENT_DATA.SHIPPING_ADDRESS">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/CWXTIMS/CWXTIMS_CUSTOMER-SHIPMENT-DATA.listructure#CUSTOMER_SHIPMENT_DATA.SHIPPING_ADDRESS.SA_NAME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/CWXTIMS/CWXTIMS_CUSTOMER-SHIPMENT-DATA.listructure#CUSTOMER_SHIPMENT_DATA.SHIPPING_ADDRESS.SA_TITLE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/CWXTIMS/CWXTIMS_CUSTOMER-SHIPMENT-DATA.listructure#CUSTOMER_SHIPMENT_DATA.SHIPPING_ADDRESS.SA_ADDR_LINE_1">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/CWXTIMS/CWXTIMS_CUSTOMER-SHIPMENT-DATA.listructure#CUSTOMER_SHIPMENT_DATA.SHIPPING_ADDRESS.SA_ADDR_LINE_2">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/CWXTIMS/CWXTIMS_CUSTOMER-SHIPMENT-DATA.listructure#CUSTOMER_SHIPMENT_DATA.SHIPPING_ADDRESS.SA_CITY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/CWXTIMS/CWXTIMS_CUSTOMER-SHIPMENT-DATA.listructure#CUSTOMER_SHIPMENT_DATA.SHIPPING_ADDRESS.SA_STATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/CWXTIMS/CWXTIMS_CUSTOMER-SHIPMENT-DATA.listructure#CUSTOMER_SHIPMENT_DATA.SHIPPING_ADDRESS.SA_ZIP_CODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/CWXTIMS/CWXTIMS_CUSTOMER-SHIPMENT-DATA.listructure#CUSTOMER_SHIPMENT_DATA.SHIPPING_ADDRESS.SA_COUNTRY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/CWXTIMS/CWXTIMS_CUSTOMER-SHIPMENT-DATA.listructure#CUSTOMER_SHIPMENT_DATA.SHIPPING_ADDRESS.SA_AREA_CODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/CWXTIMS/CWXTIMS_CUSTOMER-SHIPMENT-DATA.listructure#CUSTOMER_SHIPMENT_DATA.SHIPPING_ADDRESS.SA_TEL_NO">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/CWXTIMS/CWXTIMS_CUSTOMER-SHIPMENT-DATA.listructure#CUSTOMER_SHIPMENT_DATA.FIRST_ACTIVITY_DATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/CWXTIMS/CWXTIMS_CUSTOMER-SHIPMENT-DATA.listructure#CUSTOMER_SHIPMENT_DATA.LAST_ACTIVITY_DATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/CWXTIMS/CWXTIMS_CUSTOMER-SHIPMENT-DATA.listructure#CUSTOMER_SHIPMENT_DATA.FILLER0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/IMS/CWXTIMS/CWXTIMS_WS-UNQUALIFIED-SSA.listructure#Unit%20Test/Structures/IMS/CWXTIMS/CWXTIMS_WS-UNQUALIFIED-SSA.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/IMS/CWXTIMS/CWXTIMS_WS-UNQUALIFIED-SSA.listructure#WS_UNQUALIFIED_SSA">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/CWXTIMS/CWXTIMS_WS-UNQUALIFIED-SSA.listructure#WS_UNQUALIFIED_SSA.WS_UNQ_SEGMENT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/CWXTIMS/CWXTIMS_WS-UNQUALIFIED-SSA.listructure#WS_UNQUALIFIED_SSA.FILLER0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

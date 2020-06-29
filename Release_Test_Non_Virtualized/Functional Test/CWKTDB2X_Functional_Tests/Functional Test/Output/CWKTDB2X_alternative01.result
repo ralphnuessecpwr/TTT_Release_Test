@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnitResult resultType="VERIFICATION_ERROR" containsSimulation="false">
+  <ExecutionId>77d26b7e-3924-4ff6-938a-5fec5e50d375</ExecutionId>
+  <Message />
+  <AST>
+    <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1">
+      <Test>
+        <Job name="Load DB2" datasetName="HDDRXM0.DEMO.CWC2.UTIL.JCL(LODKTBEF)" jobLocation="DATASET">
+          <Content><![CDATA[//XXX DD DSN=]]></Content>
+        </Job>
+        <Component label="CWKTDB2X" moduleName="CWKTDB2X" programExitVerify="value &lt; 8" programExit="0" rollback="false">
+          <Data>
+            <parminfo>
+              <parm-lth>5</parm-lth>
+              <parm-data>00001</parm-data>
+              <grand-total expected="7160" verifiedFalse="DataItem: /parminfo/grand-total. Actual value is different from expected. Actual value: 9080.0 Expected: 7160.0">9080</grand-total>
+              <total-record expected="8">8</total-record>
+            </parminfo>
+          </Data>
+          <Setup>
+            <Content><![CDATA[//EMPFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.CWKTDATA
+//RPTFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE
+//*RPTFILE  DD SYSOUT=*]]></Content>
+          </Setup>
+        </Component>
+        <Job name="Extract DB2" datasetName="HDDRXM0.DEMO.CWC2.UTIL.JCL(EXTKTAFT)" jobLocation="DATASET">
+          <Content><![CDATA[//XXX DD DSN=]]></Content>
+        </Job>
+        <FileAIDCompare label="Compare Report File" result="VERIFICATION_ERROR" checkChanged="true" checkInserted="true" checkDeleted="true">
+          <JCL><![CDATA[//FASTEP   EXEC PGM=FILEAID,REGION=08M
+//STEPLIB  DD DISP=SHR,DSN=SYS2.CW.VJR17Y.CXVJLOAD
+//         DD DISP=SHR,DSN=SYS2.CW.VJR17Y.SXVJLOAD
+//SYSPRINT DD  SYSOUT=*
+//SYSLIST  DD  SYSOUT=*
+//DD01     DD  DSN=HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE.EXPECT,
+//             DISP=SHR
+//DD01C    DD  DSN=HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE,
+//             DISP=SHR
+//DD01CP   DD  DSN=HDDRXM0.DEMO.FA.COMPCRIT(CWXTCOB),
+//             DISP=SHR                              
+//DD01RL   DD  DSN=HDDRXM0.DEMO.COPY,
+//             DISP=SHR
+//DD01XR   DD  DSN=HDDRXM0.DEMO.XREF(RPTFILE),
+//             DISP=SHR
+//SYSIN    DD  *
+$$DD01 COMPARE
+/*]]></JCL>
+          <ResultReport><![CDATA[Â»
+ï¿½FILE-AID 17.2   COMPARE DETAIL REPORT              USERID-FILEAIDC       DATE 26/06/2020        TIME 08:58:38        PAGE         1
+ï¿½"OLD" DSN: HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE.EXPECT                "NEW" DSN: HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE
+ï¿½===================================================================================================================================
+ï¿½CHANGED RECORD       "OLD" FILE RECORD:        12                |                     "NEW" FILE RECORD:        12
+ï¿½ NUM DATA-FIELD-NAME               FORMAT   FIELD VALUES         | NUM DATA-FIELD-NAME               FORMAT   FIELD VALUES
+ï¿½---- ---------------------------- -------- --------------------  |---- ---------------------------- -------- --------------------
+ï¿½   1 EMPLOYEE-DTL                                                |   1 EMPLOYEE-DTL
+ï¿½                                                                 |
+ï¿½>>> COMPARED FIELDS -    -    -    -    -    -    -    -    -    |    -    -    -    -    -    -    -    -    - COMPARED FIELDS <<<
+ï¿½                                                                 |
+ï¿½   3 EMP-DTL-NAME                 C     15 GAIL LAWRENCE         |   3 EMP-DTL-NAME                 C     15
+ï¿½  15 EMP-DTL-YRS-OF-SERVICE       Z   2    35                    |  15 EMP-DTL-YRS-OF-SERVICE       Z   2    36
+ï¿½===================================================================================================================================
+ï¿½
+ï¿½CHANGED RECORD       "OLD" FILE RECORD:        13                |                     "NEW" FILE RECORD:        13
+ï¿½ NUM DATA-FIELD-NAME               FORMAT   FIELD VALUES         | NUM DATA-FIELD-NAME               FORMAT   FIELD VALUES
+ï¿½---- ---------------------------- -------- --------------------  |---- ---------------------------- -------- --------------------
+ï¿½   1 EMPLOYEE-DTL                                                |   1 EMPLOYEE-DTL
+ï¿½                                                                 |
+ï¿½>>> COMPARED FIELDS -    -    -    -    -    -    -    -    -    |    -    -    -    -    -    -    -    -    - COMPARED FIELDS <<<
+ï¿½                                                                 |
+ï¿½   3 EMP-DTL-NAME                 C     15 MARCIA SULLIVAN       |   3 EMP-DTL-NAME                 C     15
+ï¿½  15 EMP-DTL-YRS-OF-SERVICE       Z   2    26                    |  15 EMP-DTL-YRS-OF-SERVICE       Z   2    27
+ï¿½===================================================================================================================================
+ï¿½
+ï¿½INSERTED RECORD                                                  |                     "NEW" FILE RECORD:        17
+ï¿½ NUM DATA-FIELD-NAME               FORMAT   FIELD VALUES         | NUM DATA-FIELD-NAME               FORMAT   FIELD VALUES
+ï¿½---- ---------------------------- -------- --------------------  |---- ---------------------------- -------- --------------------
+ï¿½                                                                 |   1 EMPLOYEE-DTL
+ï¿½                                                                 |
+ï¿½>>> COMPARED FIELDS -    -    -    -    -    -    -    -    -    |    -    -    -    -    -    -    -    -    - COMPARED FIELDS <<<
+ï¿½                                                                 |
+ï¿½                                                                 |   2 FILLER                       C      1
+ï¿½                                                                 |   3 EMP-DTL-NAME                 C     15 MAX E MILLION
+ï¿½                                                                 |   4 FILLER                       C      1
+ï¿½                                                                 |   5 EMP-DTL-REGION               C      5 WEST
+ï¿½                                                                 |   6 FILLER                       C      3
+ï¿½                                                                 |   7 EMP-DTL-TYPE                 C      1 H
+ï¿½                                                                 |   8 FILLER                       C      3
+ï¿½                                                                 |   9 EMP-DTL-HIRE-MM              Z   2    02
+ï¿½                                                                 |  10 EMP-DTL-SLASH1               C      1 /
+ï¿½                                                                 |  11 EMP-DTL-HIRE-DD              Z   2    03
+ï¿½                                                                 |  12 EMP-DTL-SLASH2               C      1 /
+ï¿½                                                                 |  13 EMP-DTL-HIRE-YY              Z   2    91
+ï¿½                                                                 |  14 FILLER                       C      3
+ï¿½                                                                 |  15 EMP-DTL-YRS-OF-SERVICE       Z   2    29
+ï¿½                                                                 |  16 FILLER                       C      2
+ï¿½                                                                 |  17 EMP-DTL-WAGES                C      8  1000.00
+ï¿½                                                                 |  18 FILLER                       C      1
+ï¿½                                                                 |  19 EMP-DTL-OT                   C      8 800.00
+ï¿½                                                                 |  20 FILLER                       C      2
+ï¿½                                                                 |  21 EMP-DTL-COMM                 C      8     0.00
+ï¿½                                                                 |  22 FILLER                       C      1
+ï¿½                                                                 |  23 EMP-DTL-TOTAL                C      8  2800.00
+ï¿½===================================================================================================================================
+ï¿½
+ï¿½
+ï¿½                                                **** E N D   O F   R E P O R T ****
+Â»
+ï¿½FILE-AID 17.2   COMPARE CRITERIA CONTENTS REPORT   USERID-FILEAIDC       DATE 26/06/2020        TIME 08:58:38        PAGE         1
+ï¿½ COMPARE CRITERIA DSN: HDDRXM0.DEMO.FA.COMPCRIT(CWXTCOB)
+ï¿½===================================================================================================================================
+ï¿½    COMPARE CRITERIA CONTENTS:
+ï¿½    RECORD COMPARE CRITERIA:
+ï¿½            COMPARE TYPE:                                 READ-AHEAD
+ï¿½            MAX NUMBER OF RECORDS TO READ-AHEAD:      100
+ï¿½            READ-AHEAD SEQUENCE:                          ENFORCE
+ï¿½            MAX NUMBER OF RECORDS TO COMPARE:           0  (0 = NO LIMIT)
+ï¿½            MAX NUMBER OF DIFFERENCES TO COMPARE:       0  (0 = NO LIMIT)
+ï¿½
+ï¿½===================================================================================================================================
+ï¿½     OLD LAYOUT MEMBER: RPTFILE                              NEW |     NEW LAYOUT MEMBER: RPTFILE                              OLD
+ï¿½ NUM OLD-RECORD-LAYOUT              START  FORMAT   STATUS  FIELD| NUM NEW-RECORD-LAYOUT              START  FORMAT   STATUS  FIELD
+ï¿½---- ------------------------------ ------ -------- ------- -----|---- ------------------------------ ------ -------- ------- -----
+ï¿½   1 EMPLOYEE-DTL                        1 GRP   80              |   1 EMPLOYEE-DTL                        1 GRP   80
+ï¿½   2 FILLER                              1 C      1 COMPARE     2|   2 FILLER                              1 C      1 COMPARE     2
+ï¿½   3 EMP-DTL-NAME                        2 C     15 SYNCKEY     3|   3 EMP-DTL-NAME                        2 C     15 SYNCKEY     3
+ï¿½   4 FILLER                             17 C      1 COMPARE     4|   4 FILLER                             17 C      1 COMPARE     4
+ï¿½   5 EMP-DTL-REGION                     18 C      5 COMPARE     5|   5 EMP-DTL-REGION                     18 C      5 COMPARE     5
+ï¿½   6 FILLER                             23 C      3 COMPARE     6|   6 FILLER                             23 C      3 COMPARE     6
+ï¿½   7 EMP-DTL-TYPE                       26 C      1 COMPARE     7|   7 EMP-DTL-TYPE                       26 C      1 COMPARE     7
+ï¿½   8 FILLER                             27 C      3 COMPARE     8|   8 FILLER                             27 C      3 COMPARE     8
+ï¿½   9 EMP-DTL-HIRE-MM                    30 Z   2    COMPARE     9|   9 EMP-DTL-HIRE-MM                    30 Z   2    COMPARE     9
+ï¿½  10 EMP-DTL-SLASH1                     32 C      1 COMPARE    10|  10 EMP-DTL-SLASH1                     32 C      1 COMPARE    10
+ï¿½  11 EMP-DTL-HIRE-DD                    33 Z   2    COMPARE    11|  11 EMP-DTL-HIRE-DD                    33 Z   2    COMPARE    11
+ï¿½  12 EMP-DTL-SLASH2                     35 C      1 COMPARE    12|  12 EMP-DTL-SLASH2                     35 C      1 COMPARE    12
+ï¿½  13 EMP-DTL-HIRE-YY                    36 Z   2    COMPARE    13|  13 EMP-DTL-HIRE-YY                    36 Z   2    COMPARE    13
+ï¿½  14 FILLER                             38 C      3 COMPARE    14|  14 FILLER                             38 C      3 COMPARE    14
+ï¿½  15 EMP-DTL-YRS-OF-SERVICE             41 Z   2    COMPARE    15|  15 EMP-DTL-YRS-OF-SERVICE             41 Z   2    COMPARE    15
+ï¿½  16 FILLER                             43 C      2 COMPARE    16|  16 FILLER                             43 C      2 COMPARE    16
+ï¿½  17 EMP-DTL-WAGES                      45 C      8 COMPARE    17|  17 EMP-DTL-WAGES                      45 C      8 COMPARE    17
+ï¿½  18 FILLER                             53 C      1 COMPARE    18|  18 FILLER                             53 C      1 COMPARE    18
+ï¿½  19 EMP-DTL-OT                         54 C      8 COMPARE    19|  19 EMP-DTL-OT                         54 C      8 COMPARE    19
+ï¿½  20 FILLER                             62 C      2 COMPARE    20|  20 FILLER                             62 C      2 COMPARE    20
+ï¿½  21 EMP-DTL-COMM                       64 C      8 COMPARE    21|  21 EMP-DTL-COMM                       64 C      8 COMPARE    21
+ï¿½  22 FILLER                             72 C      1 COMPARE    22|  22 FILLER                             72 C      1 COMPARE    22
+ï¿½  23 EMP-DTL-TOTAL                      73 C      8 COMPARE    23|  23 EMP-DTL-TOTAL                      73 C      8 COMPARE    23
+ï¿½     END OF LAYOUT. LENGTH = 80                                  |     END OF LAYOUT. LENGTH = 80
+ï¿½
+ï¿½===================================================================================================================================
+ï¿½     OLD LAYOUT MEMBER: RPTFILE                              NEW |     NEW LAYOUT MEMBER: RPTFILE                              OLD
+ï¿½ NUM OLD-RECORD-LAYOUT              START  FORMAT   STATUS  FIELD| NUM NEW-RECORD-LAYOUT              START  FORMAT   STATUS  FIELD
+ï¿½---- ------------------------------ ------ -------- ------- -----|---- ------------------------------ ------ -------- ------- -----
+ï¿½   1 REGION-DETAIL                       1 GRP   78              |   1 REGION-DETAIL                       1 GRP   78
+ï¿½   2 FILLER                              1 C      1 COMPARE     2|   2 FILLER                              1 C      1 COMPARE     2
+ï¿½   3 REG-DTL-MANAGER                     2 C     15 SYNCKEY     3|   3 REG-DTL-MANAGER                     2 C     15 SYNCKEY     3
+ï¿½   4 FILLER                             17 C      1 COMPARE     4|   4 FILLER                             17 C      1 COMPARE     4
+ï¿½   5 REG-DTL-REGION                     18 C      5 COMPARE     5|   5 REG-DTL-REGION                     18 C      5 COMPARE     5
+ï¿½   6 FILLER                             23 C      5 COMPARE     6|   6 FILLER                             23 C      5 COMPARE     6
+ï¿½   7 REG-DTL-SALES                      28 C      9 COMPARE     7|   7 REG-DTL-SALES                      28 C      9 COMPARE     7
+ï¿½   8 FILLER                             37 C      5 COMPARE     8|   8 FILLER                             37 C      5 COMPARE     8
+ï¿½   9 REG-DTL-SALARY                     42 C      7 COMPARE     9|   9 REG-DTL-SALARY                     42 C      7 COMPARE     9
+ï¿½  10 FILLER                             49 C      5 COMPARE    10|  10 FILLER                             49 C      5 COMPARE    10
+ï¿½  11 REG-DTL-COMM                       54 C      8 COMPARE    11|  11 REG-DTL-COMM                       54 C      8 COMPARE    11
+Â»
+ï¿½FILE-AID 17.2   COMPARE CRITERIA CONTENTS REPORT   USERID-FILEAIDC       DATE 26/06/2020        TIME 08:58:38        PAGE         2
+ï¿½ COMPARE CRITERIA DSN: HDDRXM0.DEMO.FA.COMPCRIT(CWXTCOB)
+ï¿½===================================================================================================================================
+ï¿½===================================================================================================================================
+ï¿½     OLD LAYOUT MEMBER: RPTFILE                              NEW |     NEW LAYOUT MEMBER: RPTFILE                              OLD
+ï¿½ NUM OLD-RECORD-LAYOUT              START  FORMAT   STATUS  FIELD| NUM NEW-RECORD-LAYOUT              START  FORMAT   STATUS  FIELD
+ï¿½---- ------------------------------ ------ -------- ------- -----|---- ------------------------------ ------ -------- ------- -----
+ï¿½  12 FILLER                             62 C      3 COMPARE    12|  12 FILLER                             62 C      3 COMPARE    12
+ï¿½  13 REG-DTL-TOTAL                      65 C      8 COMPARE    13|  13 REG-DTL-TOTAL                      65 C      8 COMPARE    13
+ï¿½  14 FILLER                             73 C      1 COMPARE    14|  14 FILLER                             73 C      1 COMPARE    14
+ï¿½  15 REG-DTL-COMMENT                    74 C      5 COMPARE    15|  15 REG-DTL-COMMENT                    74 C      5 COMPARE    15
+ï¿½     END OF LAYOUT. LENGTH = 78                                  |     END OF LAYOUT. LENGTH = 78
+ï¿½
+ï¿½                                                ****  E N D  O F  R E P O R T  ****
+Â»
+ï¿½FILE-AID 17.2   COMPARE SUMMARY REPORT             USERID-FILEAIDC       DATE 26/06/2020        TIME 08:58:38        PAGE         1
+ï¿½"OLD" DSN: HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE.EXPECT                "NEW" DSN: HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE
+ï¿½===================================================================================================================================
+ï¿½    COMPARE CRITERIA:
+ï¿½            COMPARE MODE:                               FORMATTED
+ï¿½            COBOL LAYOUT USAGE:                         XREF
+ï¿½            COBOL DATASET NAME:                         HDDRXM0.DEMO.COPY
+ï¿½            XREF DATASET NAME:                          HDDRXM0.DEMO.XREF(RPTFILE)
+ï¿½
+ï¿½    REPORT FORMAT PARAMETERS:
+ï¿½            PRINT FORMAT:                               FORMATTED
+ï¿½            MAX NUMBER OF DIFFERENCES TO REPORT:        0  (0 = NO LIMIT)
+ï¿½            PRINT RECORDS SELECTED:                     CHANGED, INSERTED, DELETED
+ï¿½            FORMATTED REPORT OPTION:                    COMPARED FIELDS ONLY
+ï¿½            COMPARED FIELDS OPTION:                     CHANGED ONLY
+ï¿½            FIELD STATISTICS REPORT:                    NO
+ï¿½
+ï¿½    COMPARE STATISTICS:
+ï¿½            "OLD" DATASET RECORDS READ:                18
+ï¿½            "NEW" DATASET RECORDS READ:                19
+ï¿½            "OLD" DATASET RECORDS COMPARED:             7
+ï¿½            "NEW" DATASET RECORDS COMPARED:             8
+ï¿½            NUMBER OF RECORDS MATCHED:                  5
+ï¿½            NUMBER OF RECORDS CHANGED:                  2
+ï¿½            NUMBER OF RECORDS INSERTED:                 1
+ï¿½            NUMBER OF RECORDS DELETED:                  0
+ï¿½
+ï¿½                                                ****  E N D  O F  R E P O R T  ****]]></ResultReport>
+        </FileAIDCompare>
+        <FileAIDCompare label="Table Compare" result="VERIFICATION_ERROR" checkChanged="true" checkInserted="true" checkDeleted="true">
+          <JCL><![CDATA[//FASTEP   EXEC PGM=FILEAID,REGION=08M
+//STEPLIB  DD DISP=SHR,DSN=SYS2.CW.VJR17Z.CXVJLOAD
+//         DD DISP=SHR,DSN=SYS2.CW.VJR17Z.SXVJLOAD
+//SYSPRINT DD  SYSOUT=*
+//SYSLIST  DD  SYSOUT=*,DCB=(LRECL=183,BLKSIZE=1830)
+//DD01     DD  DSN=HDDRXM0.DEMO.CWC2.KTDEMO.EXTRACT.EXPECT,
+//             DISP=SHR
+//DD01C    DD  DSN=HDDRXM0.DEMO.CWC2.KTDEMO.EXTRACT.ACT,
+//             DISP=SHR
+//DD01CP   DD  DSN=HDDRXM0.DEMO.FA.COMPCRIT(KTDEMOTB),
+//             DISP=SHR
+//DD01RL   DD  DSN=HDDRXM0.DEMO.COPY,
+//             DISP=SHR
+//DD01XR   DD  DSN=HDDRXM0.DEMO.XREF(KTDEMTB),
+//             DISP=SHR
+//SYSIN    DD  *
+$$DD01 COMPARE
+/*
+//]]></JCL>
+          <ResultReport><![CDATA[Â»
+ï¿½FILE-AID 17.2   COMPARE DETAIL REPORT              USERID-FILEAIDC       DATE 26/06/2020        TIME 08:58:43        PAGE         1
+ï¿½"OLD" DSN: HDDRXM0.DEMO.CWC2.KTDEMO.EXTRACT.EXPECT                "NEW" DSN: HDDRXM0.DEMO.CWC2.KTDEMO.EXTRACT.ACT
+ï¿½===================================================================================================================================
+ï¿½INSERTED RECORD                                                  |                     "NEW" FILE RECORD:        10
+ï¿½ NUM DATA-FIELD-NAME               FORMAT   FIELD VALUES         | NUM DATA-FIELD-NAME               FORMAT   FIELD VALUES
+ï¿½---- ---------------------------- -------- --------------------  |---- ---------------------------- -------- --------------------
+ï¿½                                                                 |   1 KTDCL-DEMOTAB-TABLE-DATA
+ï¿½                                                                 |
+ï¿½>>> COMPARED FIELDS -    -    -    -    -    -    -    -    -    |    -    -    -    -    -    -    -    -    - COMPARED FIELDS <<<
+ï¿½                                                                 |
+ï¿½                                                                 |   4 EMP-NUM                      C      5 59999
+ï¿½                                                                 |   5 WAGE-TYPE                    C      1 H
+ï¿½                                                                 |   6 REGION                       BS  4    4
+ï¿½                                                                 |   8 FIRST-LAST-NAME-LEN          BS  4    14
+ï¿½                                                                 |   9 FIRST-LAST-NAME-TEXT         C     15 MAX E MILLION
+ï¿½                                                                 |  11 STREET-ADDR-LEN              BS  4    14
+ï¿½                                                                 |  12 STREET-ADDR-TEXT             C     15 100 MAIN ST
+ï¿½                                                                 |  14 CITY-LEN                     BS  4    4
+ï¿½                                                                 |  15 CITY-TEXT                    C      8 MAIN
+ï¿½                                                                 |  16 STATE                        C      2 OH
+ï¿½                                                                 |  17 ZIP                          C      6 34093
+ï¿½                                                                 |  18 HIREDATE                     C      6 910203
+ï¿½                                                                 |  19 HOURS                        PS  2    88
+ï¿½                                                                 |  20 RATE                         PS  4  2 25.00
+ï¿½                                                                 |  21 WAGES                        PS  4  2 1000.00
+ï¿½                                                                 |  22 OVERTIME                     PS  4  2 0.00
+ï¿½                                                                 |  23 COMM                         PS  4  2 2800.00
+ï¿½===================================================================================================================================
+ï¿½
+ï¿½DELETED RECORD       "OLD" FILE RECORD:        10                |
+ï¿½ NUM DATA-FIELD-NAME               FORMAT   FIELD VALUES         | NUM DATA-FIELD-NAME               FORMAT   FIELD VALUES
+ï¿½---- ---------------------------- -------- --------------------  |---- ---------------------------- -------- --------------------
+ï¿½   1 KTDCL-DEMOTAB-TABLE-DATA                                    |
+ï¿½                                                                 |
+ï¿½>>> COMPARED FIELDS -    -    -    -    -    -    -    -    -    |    -    -    -    -    -    -    -    -    - COMPARED FIELDS <<<
+ï¿½                                                                 |
+ï¿½   4 EMP-NUM                      C      5 02175                 |
+ï¿½   5 WAGE-TYPE                    C      1 H                     |
+ï¿½   6 REGION                       BS  4    2                     |
+ï¿½   8 FIRST-LAST-NAME-LEN          BS  4    14                    |
+ï¿½   9 FIRST-LAST-NAME-TEXT         C     15 KATIE WILLIAMS        |
+ï¿½  11 STREET-ADDR-LEN              BS  4    11                    |
+ï¿½  12 STREET-ADDR-TEXT             C     15 123 MAIN ST           |
+ï¿½  14 CITY-LEN                     BS  4    8                     |
+ï¿½  15 CITY-TEXT                    C      8 COMUMBUS              |
+ï¿½  16 STATE                        C      2 OH                    |
+ï¿½  17 ZIP                          C      6 43082                 |
+ï¿½  18 HIREDATE                     C      6 961002                |
+ï¿½  19 HOURS                        PS  2    32                    |
+ï¿½  20 RATE                         PS  4  2 27.50                 |
+ï¿½  21 WAGES                        PS  4  2 880.00                |
+ï¿½  22 OVERTIME                     PS  4  2 0.00                  |
+ï¿½  23 COMM                         PS  4  2 880.00                |
+ï¿½===================================================================================================================================
+ï¿½
+ï¿½
+ï¿½                                                **** E N D   O F   R E P O R T ****
+Â»
+ï¿½FILE-AID 17.2   COMPARE CRITERIA CONTENTS REPORT   USERID-FILEAIDC       DATE 26/06/2020        TIME 08:58:43        PAGE         1
+ï¿½ COMPARE CRITERIA DSN: HDDRXM0.DEMO.FA.COMPCRIT(KTDEMOTB)
+ï¿½===================================================================================================================================
+ï¿½    COMPARE CRITERIA CONTENTS:
+ï¿½    RECORD COMPARE CRITERIA:
+ï¿½            COMPARE TYPE:                                 READ-AHEAD
+ï¿½            MAX NUMBER OF RECORDS TO READ-AHEAD:      100
+ï¿½            READ-AHEAD SEQUENCE:                          ENFORCE
+ï¿½            MAX NUMBER OF RECORDS TO COMPARE:           0  (0 = NO LIMIT)
+ï¿½            MAX NUMBER OF DIFFERENCES TO COMPARE:       0  (0 = NO LIMIT)
+ï¿½
+ï¿½===================================================================================================================================
+ï¿½     OLD LAYOUT MEMBER: KTDEMTBF                             NEW |     NEW LAYOUT MEMBER: KTDEMTBF                             OLD
+ï¿½ NUM OLD-RECORD-LAYOUT              START  FORMAT   STATUS  FIELD| NUM NEW-RECORD-LAYOUT              START  FORMAT   STATUS  FIELD
+ï¿½---- ------------------------------ ------ -------- ------- -----|---- ------------------------------ ------ -------- ------- -----
+ï¿½   1 KTDCL-DEMOTAB-TABLE-DATA            1 GRP  114              |   1 KTDCL-DEMOTAB-TABLE-DATA            1 GRP  114
+ï¿½   2 INDICATOR                           1 C      4              |   2 INDICATOR                           1 C      4
+ï¿½   3 FILLER                              5 C     26              |   3 FILLER                              5 C     26
+ï¿½   4 EMP-NUM                            31 C      5 SYNCKEY     4|   4 EMP-NUM                            31 C      5 SYNCKEY     4
+ï¿½   5 WAGE-TYPE                          36 C      1 COMPARE     5|   5 WAGE-TYPE                          36 C      1 COMPARE     5
+ï¿½   6 REGION                             37 BS  4    COMPARE     6|   6 REGION                             37 BS  4    COMPARE     6
+ï¿½   7 FIRST-LAST-NAME                    39 GRP   17              |   7 FIRST-LAST-NAME                    39 GRP   17
+ï¿½   8 FIRST-LAST-NAME-LEN                39 BS  4    COMPARE     8|   8 FIRST-LAST-NAME-LEN                39 BS  4    COMPARE     8
+ï¿½   9 FIRST-LAST-NAME-TEXT               41 C     15 COMPARE     9|   9 FIRST-LAST-NAME-TEXT               41 C     15 COMPARE     9
+ï¿½  10 STREET-ADDR                        56 GRP   17              |  10 STREET-ADDR                        56 GRP   17
+ï¿½  11 STREET-ADDR-LEN                    56 BS  4    COMPARE    11|  11 STREET-ADDR-LEN                    56 BS  4    COMPARE    11
+ï¿½  12 STREET-ADDR-TEXT                   58 C     15 COMPARE    12|  12 STREET-ADDR-TEXT                   58 C     15 COMPARE    12
+ï¿½  13 CITY                               73 GRP   10              |  13 CITY                               73 GRP   10
+ï¿½  14 CITY-LEN                           73 BS  4    COMPARE    14|  14 CITY-LEN                           73 BS  4    COMPARE    14
+ï¿½  15 CITY-TEXT                          75 C      8 COMPARE    15|  15 CITY-TEXT                          75 C      8 COMPARE    15
+ï¿½  16 STATE                              83 C      2 COMPARE    16|  16 STATE                              83 C      2 COMPARE    16
+ï¿½  17 ZIP                                85 C      6 COMPARE    17|  17 ZIP                                85 C      6 COMPARE    17
+ï¿½  18 HIREDATE                           91 C      6 COMPARE    18|  18 HIREDATE                           91 C      6 COMPARE    18
+ï¿½  19 HOURS                              97 PS  2    COMPARE    19|  19 HOURS                              97 PS  2    COMPARE    19
+ï¿½  20 RATE                               99 PS  4  2 COMPARE    20|  20 RATE                               99 PS  4  2 COMPARE    20
+ï¿½  21 WAGES                             103 PS  4  2 COMPARE    21|  21 WAGES                             103 PS  4  2 COMPARE    21
+ï¿½  22 OVERTIME                          107 PS  4  2 COMPARE    22|  22 OVERTIME                          107 PS  4  2 COMPARE    22
+ï¿½  23 COMM                              111 PS  4  2 COMPARE    23|  23 COMM                              111 PS  4  2 COMPARE    23
+ï¿½     END OF LAYOUT. LENGTH = 114                                 |     END OF LAYOUT. LENGTH = 114
+ï¿½
+ï¿½                                                ****  E N D  O F  R E P O R T  ****
+Â»
+ï¿½FILE-AID 17.2   COMPARE SUMMARY REPORT             USERID-FILEAIDC       DATE 26/06/2020        TIME 08:58:43        PAGE         1
+ï¿½"OLD" DSN: HDDRXM0.DEMO.CWC2.KTDEMO.EXTRACT.EXPECT                "NEW" DSN: HDDRXM0.DEMO.CWC2.KTDEMO.EXTRACT.ACT
+ï¿½===================================================================================================================================
+ï¿½    COMPARE CRITERIA:
+ï¿½            COMPARE MODE:                               FORMATTED
+ï¿½            COBOL LAYOUT USAGE:                         XREF
+ï¿½            COBOL DATASET NAME:                         HDDRXM0.DEMO.COPY
+ï¿½            XREF DATASET NAME:                          HDDRXM0.DEMO.XREF(KTDEMTB)
+ï¿½
+ï¿½    REPORT FORMAT PARAMETERS:
+ï¿½            PRINT FORMAT:                               FORMATTED
+ï¿½            MAX NUMBER OF DIFFERENCES TO REPORT:        0  (0 = NO LIMIT)
+ï¿½            PRINT RECORDS SELECTED:                     CHANGED, INSERTED, DELETED
+ï¿½            FORMATTED REPORT OPTION:                    COMPARED FIELDS ONLY
+ï¿½            COMPARED FIELDS OPTION:                     CHANGED ONLY
+ï¿½            FIELD STATISTICS REPORT:                    NO
+ï¿½
+ï¿½    COMPARE STATISTICS:
+ï¿½            "OLD" DATASET RECORDS READ:                12
+ï¿½            "NEW" DATASET RECORDS READ:                12
+ï¿½            "OLD" DATASET RECORDS COMPARED:             7
+ï¿½            "NEW" DATASET RECORDS COMPARED:             7
+ï¿½            NUMBER OF RECORDS MATCHED:                  6
+ï¿½            NUMBER OF RECORDS CHANGED:                  0
+ï¿½            NUMBER OF RECORDS INSERTED:                 1
+ï¿½            NUMBER OF RECORDS DELETED:                  1
+ï¿½
+ï¿½                                                ****  E N D  O F  R E P O R T  ****]]></ResultReport>
+        </FileAIDCompare>
+      </Test>
+      <MetaData>
+        <Component name="CWKTDB2X" type="COBOL">
+          <INOUT>
+            <parminfo>
+              <parm-lth type="NumericBinary" length="4" bytes="2" signed="true" decimals="0" />
+              <parm-data type="Character" length="5" bytes="5" />
+              <grand-total type="NumericBinary" length="7" bytes="4" signed="true" decimals="0" />
+              <total-record type="NumericDisplay" length="3" bytes="3" signed="false" decimals="0" />
+            </parminfo>
+          </INOUT>
+        </Component>
+      </MetaData>
+    </XaUnit>
+  </AST>
+  <Context>
+    <ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5e7a190fcf655a12a4d4df4d" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="CCEXPEDITER" jobInfoInterval="3" userid="HDDRXM0" ccrepository="HDDRXM0.DEMO.COCO.REPOS" ccsystem="2020JULY_TTT_FT" cctestid="CWKTDB2X_1" ccreset="true">
+      <platformruntime database="DSCCCWCC" driver="com.ibm.db2.jcc.DB2Driver" uri="jdbc:db2://cwc2.nasa.cpwr.corp:2846/${database}" environmenttype="BATCH" callinterface="NONE" />
+      <ExtensionData />
+      <ExtensionData componentName="cwktdb2x" componentId="5e81aeb99aa1e25064976898">
+        <Parameter key="db2id">
+          <Value>DSC2</Value>
+        </Parameter>
+        <Parameter key="db2plan">
+          <Value>RXNKTDB2</Value>
+        </Parameter>
+        <Parameter key="sourcelibrary">
+          <Value>HDDRXM0.DEMO.COB.BATCH</Value>
+        </Parameter>
+        <Parameter key="loadlibraries">
+          <Value>HDDRXM0.DEMO.CWC2.LOAD.PDSE</Value>
+          <Value>HDDRXM0.DEMO.LOAD.PDSE</Value>
+        </Parameter>
+        <Parameter key="sourcelibraries">
+          <Value>hddrxm0.demo.copy</Value>
+        </Parameter>
+        <Parameter key="callinterface">
+          <Value>NONE</Value>
+        </Parameter>
+      </ExtensionData>
+      <References componentName="cwktdb2x" />
+      <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="cwktdb2x" path="CWKTDB2X_alternative01.scenario">
+        <Test>
+          <Job name="Load DB2" datasetName="hddrxm0.demo.cwc2.util.jcl(lodktbef)" jobLocation="DATASET">
+            <Content><![CDATA[//XXX DD DSN=]]></Content>
+          </Job>
+          <Component label="CWKTDB2X" moduleName="CWKTDB2X" programExitVerify="value &lt; 8" rollback="false">
+            <Data>
+              <parminfo>
+                <parm-lth>5</parm-lth>
+                <parm-data>00001</parm-data>
+                <grand-total expected="7160" />
+                <total-record expected="8" />
+              </parminfo>
+            </Data>
+            <Setup>
+              <Content><![CDATA[//EMPFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.CWKTDATA
+//RPTFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE
+//*RPTFILE  DD SYSOUT=*]]></Content>
+            </Setup>
+          </Component>
+          <Job name="Extract DB2" datasetName="hddrxm0.demo.cwc2.util.jcl(extktaft)" jobLocation="DATASET">
+            <Content><![CDATA[//XXX DD DSN=]]></Content>
+          </Job>
+          <FileAIDCompare label="Compare Report File" checkChanged="true" checkInserted="true" checkDeleted="true">
+            <JCL><![CDATA[//FASTEP   EXEC PGM=FILEAID,REGION=08M
+//STEPLIB  DD DISP=SHR,DSN=SYS2.CW.VJR17Y.CXVJLOAD
+//         DD DISP=SHR,DSN=SYS2.CW.VJR17Y.SXVJLOAD
+//SYSPRINT DD  SYSOUT=*
+//SYSLIST  DD  SYSOUT=*
+//DD01     DD  DSN=HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE.EXPECT,
+//             DISP=SHR
+//DD01C    DD  DSN=HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE,
+//             DISP=SHR
+//DD01CP   DD  DSN=HDDRXM0.DEMO.FA.COMPCRIT(CWXTCOB),
+//             DISP=SHR                              
+//DD01RL   DD  DSN=HDDRXM0.DEMO.COPY,
+//             DISP=SHR
+//DD01XR   DD  DSN=HDDRXM0.DEMO.XREF(RPTFILE),
+//             DISP=SHR
+//SYSIN    DD  *
+$$DD01 COMPARE
+/*]]></JCL>
+          </FileAIDCompare>
+          <FileAIDCompare label="Table Compare" checkChanged="true" checkInserted="true" checkDeleted="true">
+            <JCL><![CDATA[//FASTEP   EXEC PGM=FILEAID,REGION=08M
+//STEPLIB  DD DISP=SHR,DSN=SYS2.CW.VJR17Z.CXVJLOAD
+//         DD DISP=SHR,DSN=SYS2.CW.VJR17Z.SXVJLOAD
+//SYSPRINT DD  SYSOUT=*
+//SYSLIST  DD  SYSOUT=*,DCB=(LRECL=183,BLKSIZE=1830)
+//DD01     DD  DSN=HDDRXM0.DEMO.CWC2.KTDEMO.EXTRACT.EXPECT,
+//             DISP=SHR
+//DD01C    DD  DSN=HDDRXM0.DEMO.CWC2.KTDEMO.EXTRACT.ACT,
+//             DISP=SHR
+//DD01CP   DD  DSN=HDDRXM0.DEMO.FA.COMPCRIT(KTDEMOTB),
+//             DISP=SHR
+//DD01RL   DD  DSN=HDDRXM0.DEMO.COPY,
+//             DISP=SHR
+//DD01XR   DD  DSN=HDDRXM0.DEMO.XREF(KTDEMTB),
+//             DISP=SHR
+//SYSIN    DD  *
+$$DD01 COMPARE
+/*
+//]]></JCL>
+          </FileAIDCompare>
+        </Test>
+        <MetaData>
+          <Component name="CWKTDB2X" type="COBOL">
+            <INOUT>
+              <parminfo>
+                <parm-lth type="NumericBinary" length="4" bytes="2" signed="true" decimals="0" />
+                <parm-data type="Character" length="5" bytes="5" />
+                <grand-total type="NumericBinary" length="7" bytes="4" signed="true" decimals="0" />
+                <total-record type="NumericDisplay" length="3" bytes="3" signed="false" decimals="0" />
+              </parminfo>
+            </INOUT>
+          </Component>
+        </MetaData>
+      </XaUnit>
+      <ExternalResources />
+    </ExecutionContext>
+  </Context>
+  <Started>20200626-14-58-16</Started>
+  <Ended>20200626-14-58-47</Ended>
+</XaUnitResult>

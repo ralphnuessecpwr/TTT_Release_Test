@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5e7a190fcf655a12a4d4df4d" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3">
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5e7a190fcf655a12a4d4df4d" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="CCEXPEDITER" jobInfoInterval="3" ccrepository="HDDRXM0.DEMO.COCO.REPOS" ccsystem="2020JULY_TTT_FT" cctestid="CWXTCOB" ccreset="false">
   <ExtensionData />
   <ExtensionData componentName="cwxtcob" componentId="5d4d3a62423da3164cab5cae" />
   <XaUnit path="CWXTCOB_Standard.xaunit" />

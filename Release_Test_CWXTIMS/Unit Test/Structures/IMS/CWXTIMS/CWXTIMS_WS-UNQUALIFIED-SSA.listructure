@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200620-0334_96?>
+<!--Topaz for Total Test 20.3.1.v20200620-0334_96 Jun 29, 2020 12:19:39 PM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/IMS/CWXTIMS/CWXTIMS_WS-UNQUALIFIED-SSA.listructure">
+  <listructure:struct id="WS_UNQUALIFIED_SSA" name="WS_UNQUALIFIED_SSA">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">9</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">9</properties:property>
+    </properties:properties>
+    <listructure:string id="WS_UNQUALIFIED_SSA.WS_UNQ_SEGMENT" length="8" name="WS_UNQ_SEGMENT">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(08)</properties:property>
+        <properties:property name="displayLength" type="number">8</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(08)</properties:property>
+        <properties:property name="storageLength" type="number">8</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="WS_UNQUALIFIED_SSA.FILLER0" initial=" " length="1" name="FILLER0">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="picture" type="string">X(01)</properties:property>
+        <properties:property name="value">spaces</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(01)</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>

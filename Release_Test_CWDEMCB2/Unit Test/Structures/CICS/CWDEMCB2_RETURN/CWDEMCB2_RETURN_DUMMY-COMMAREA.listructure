@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200620-0334_96?>
+<!--Topaz for Total Test 20.3.1.v20200620-0334_96 Jun 26, 2020 4:14:24 PM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/CICS/CWDEMCB2_RETURN/CWDEMCB2_RETURN_DUMMY-COMMAREA.listructure">
+  <listructure:struct id="DUMMY_COMMAREA" name="DUMMY_COMMAREA">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">80</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">80</properties:property>
+    </properties:properties>
+    <listructure:string id="DUMMY_COMMAREA.DUMMY_COMMAREA" initial="&quot;Commarea: Text:TEST Char:Test Ascii:&lt;(>? Hex: Test&quot;" length="80" name="DUMMY_COMMAREA">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(80)</properties:property>
+        <properties:property name="value">&quot;Commarea: Text:TEST Char:Test Ascii:&lt;(>? Hex: Test&quot;</properties:property>
+        <properties:property name="displayLength" type="number">80</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(80)</properties:property>
+        <properties:property name="storageLength" type="number">80</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>

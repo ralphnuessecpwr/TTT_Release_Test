@@ -1,0 +1,67 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="Unit%20Test/Stubs/CWXTSDB2_Select_1_SQL_05.stub" nextCalltoken="50003" stubtype="SQL" target="Select" token="50000">
+  <stub:description>Created: Jun 29, 2020 12:05:39 PM</stub:description>
+  <stub:stubdata id="0" name="Select">
+    <stub:interface>../Interfaces/CWXTSDB2_Select_1_in_WS_FIELDS.interface#Unit%20Test/Interfaces/CWXTSDB2_Select_1_in_WS_FIELDS.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWXTSDB2/CWXTSDB2_Select_WS-FIELDS.listructure#Unit%20Test/Structures/Db2/CWXTSDB2/CWXTSDB2_Select_WS-FIELDS.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTSDB2/CWXTSDB2_Select_WS-FIELDS.listructure#WS_FIELDS" id="arg0.WS_FIELDS">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F4F1F4F7</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlResults>
+      <stub:result id="1" name="Select">
+        <stub:interface>../Interfaces/CWXTSDB2_Select_1_out_EMP_TOTAL_WAGE.interface#Unit%20Test/Interfaces/CWXTSDB2_Select_1_out_EMP_TOTAL_WAGE.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/CWXTSDB2/CWXTSDB2_Select_EMP-TOTAL-WAGE.listructure#Unit%20Test/Structures/Db2/CWXTSDB2/CWXTSDB2_Select_EMP-TOTAL-WAGE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWXTSDB2/CWXTSDB2_Select_EMP-TOTAL-WAGE.listructure#EMP_TOTAL_WAGE" id="arg0.EMP_TOTAL_WAGE">
+            <properties:properties>
+              <properties:property name="value" type="string">40404800090C</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="Select">
+            <stub:text>           EXEC SQL
+                SELECT YTDSAL
+                INTO :EMP-TOTAL-WAGE
+                FROM HDDRXM0.RVIIEMP
+                WHERE EMPNO = :WS-EMP-NUMBER
+           END-EXEC.
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00404400001EC3E6E7E3E2C4C2F21B03EAC5049C9350000137E01C1037E008F037E008B0047400E7000000600000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C14040080000003C0001000101E40B0237E0001D000000000000000000000000000000000000000000000000000000000000000000000000</stub:varRawData>
+            <stub:varRawData>E2D8D3C4C14E40080000003C0001000101C4000537E01CC8000000000008000004740000000040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="50002">
+            <stub:rawData>E2D8D3C3C14040400000008800000064000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D5E7D9C6C6D3FFFFFF920000000000000000FFFFFFFF00000000000000004040404040404040404040F0F2F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+    </stub:sqlResults>
+    <stub:sqlStatus>
+      <stub:statement type="Select">
+        <stub:text>           EXEC SQL
+                SELECT YTDSAL
+                INTO :EMP-TOTAL-WAGE
+                FROM HDDRXM0.RVIIEMP
+                WHERE EMPNO = :WS-EMP-NUMBER
+           END-EXEC.
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404400001EC3E6E7E3E2C4C2F21B03EAC5049C9350000137E01C1037E008F037E008B0047400E7000000600000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C14040080000003C0001000101E40B0237E0001D000000000000000000000000000000000000000000000000000000000000000000000000</stub:varRawData>
+        <stub:varRawData>E2D8D3C4C14E40080000003C0001000101C4000537E01CC8000000000008000004740000000040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="50001">
+        <stub:rawData>E2D8D3C3C14040400000008800000064000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D5E7D9C6C6D3FFFFFF920000000000000000FFFFFFFF00000000000000004040404040404040404040F0F2F0F0F0</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:database version="1215"/>
+</stub:stub>

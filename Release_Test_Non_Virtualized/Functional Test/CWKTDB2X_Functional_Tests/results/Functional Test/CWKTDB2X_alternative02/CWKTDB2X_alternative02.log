@@ -1,0 +1,121 @@
+12:52:28.873 COMMENT   Engine           Test Scenario execution started
+12:52:28.873 INFO      Engine           Using context settings:
+  Engine Version       : 20.2
+  Environment id                : 5e7a190fcf655a12a4d4df4d
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwc2.nasa.cpwr.corp
+  Server port                   : 16196
+  Job execution timeout seconds : 300
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : hddrxm0
+  Use Repository Server         : true
+12:52:28.873 INFO      Engine           Setting variables from context and context data extensions
+12:52:28.873 INFO      Engine             id: environmentId      value: 5e7a190fcf655a12a4d4df4d
+12:52:28.873 INFO      Engine             id: environmentType    value: BATCH
+12:52:28.873 INFO      Engine             id: userId             value: HDDRXM0
+12:52:28.873 INFO      Engine             id: accountingInfo     value: 
+12:52:28.874 INFO      Job              Interpreting JOB: Load DB2
+12:52:28.874 INFO      Job              The Job in File/Dataset HDDRXM0.DEMO.CWC2.UTIL.JCL(LODKTBEF) will be executed
+12:52:28.874 INFO      CWC2 Batch       Sending Job execution request to Host 
+12:52:28.875 LOG       CWC2 Batch       Executing Job through HCI
+12:52:28.875 LOG       CWC2 Batch       Submitting job from dataset: HDDRXM0.DEMO.CWC2.UTIL.JCL member:LODKTBEF
+12:52:29.851 LOG       CWC2 Batch       Job submitted with jobId: J0855089 jobName:HDDRXM0L
+12:52:35.536 INFO      CWC2 Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0L(J0855089) ended with return code: 0000
+  Job name       : HDDRXM0L
+  Job id         : J0855089
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:52:35.536 LOG       CWC2 Batch       Setting execution variable 'jobid' to J0855089
+12:52:35.536 LOG       CWC2 Batch       Setting execution variable 'jobname' to HDDRXM0L
+12:52:35.536 LOG       CWC2 Batch       Setting execution variable 'returncode' to 0000
+12:52:35.536 INFO      Job              Successfully executed job: Load DB2
+12:52:35.536 INFO      Component        Interpreting Component: CWKTDB2X program:CWKTDB2X
+12:52:35.536 INFO      Component        Using setup JCL for execution
+12:52:35.536 INFO      Component          JCL for setup:
+//EMPFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.CWKTDATA
+//RPTFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE
+//*RPTFILE  DD SYSOUT=*
+12:52:35.537 LOG       CWC2 Batch       Final JCL setup for the component:
+//EMPFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.CWKTDATA
+//RPTFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE
+//*RPTFILE  DD SYSOUT=*
+
+12:52:35.537 LOG       CWC2 Batch       Component Runtime Settings:
+12:52:35.537 LOG       CWC2 Batch         Load libraries :HDDRXM0.DEMO.CWC2.LOAD.PDSE,HDDRXM0.DEMO.LOAD.PDSE
+12:52:35.537 LOG       CWC2 Batch         Optional main Load library:
+12:52:35.537 LOG       CWC2 Batch         Listing libraries         :
+12:52:35.537 LOG       CWC2 Batch         SysDebug libraries        :
+12:52:35.537 LOG       CWC2 Batch         DB2 Subsystem ID          :DSC2
+12:52:35.537 LOG       CWC2 Batch         DB2 plan                  :RXNKTDB2
+12:52:35.537 LOG       CWC2 Batch         Call interface            :NONE
+12:52:35.537 LOG       CWC2 Batch         Debugger type             :NONE
+12:52:35.537 LOG       CWC2 Batch         Component type            :COBOL
+12:52:35.537 INFO      CWC2 Batch       Sending Module execution request to Host for module:CWKTDB2X rollback:true
+12:52:35.996 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/21d2f482901d4d9bb1ceb1b0dbb594b9
+12:52:36.617 LOG       CWC2 Batch       Uploading input data for module CWKTDB2X
+12:52:39.480 INFO      CWC2 Batch       Component has post SQLSelect statement that is: SELECT EMP_NUM,  WAGE_TYPE,  REGION,  FIRST_LAST_NAME,  STREET_ADDR,  CITY,  STATE,  ZIP,  HIREDATE,  HOURS,  RATE,  WAGES,  OVERTIME,  COMM
+ FROM HDDRXM0.KT_DEMOTAB
+12:52:39.480 LOG       CWC2 Batch       Uploading SQLSelect data into file XAT_Module.i.xmlsql
+12:52:41.635 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan>RXNKTDB2</db2plan><db2id>DSC2</db2id><rollback>true</rollback><jobdirectory>21d2f482901d4d9bb1ceb1b0dbb594b9</jobdirectory><amode24>false</amode24><members><membername>CWKTDB2X</membername></members><loads><mainload>HDDRXM0.DEMO.CWC2.LOAD.PDSE</mainload><load>HDDRXM0.DEMO.LOAD.PDSE</load></loads><codepage>1047</codepage><lang>COBOL</lang><refs><ref>//EMPFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.CWKTDATA</ref><ref>//RPTFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE</ref><ref>//*RPTFILE  DD SYSOUT=*</ref></refs><sql>true</sql></xatz_request></XATZREQ>
+12:52:42.194 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0855090</jobid><jobname>HDDRXM0E</jobname><starttime>20200407065242164</starttime></xatz_response></XATZRESP>
+12:52:42.195 LOG       HCIClient        Response received from Host. Message: JobId:J0855090
+12:52:42.195 INFO      HCIClient        Job has been started at host with JobId:J0855090
+12:52:42.195 INFO      CWC2 Batch       Waiting for Execution Result from Host
+12:52:45.918 INFO      CWC2 Batch       Component completed with program exit: +0
+12:52:46.338 LOG       CWC2 Batch       Setting execution variable 'jobid' to J0855090
+12:52:46.339 LOG       CWC2 Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:52:46.339 LOG       CWC2 Batch       Setting execution variable 'programexit' to 0
+12:52:46.339 LOG       CWC2 Batch       Post SQLSelect has been executed, now getting result from file XAT_Module.o.xmlsql
+12:52:46.781 LOG       CWC2 Batch       Setting SQLSelect result at id:selectAfter
+12:52:47.238 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:52:47.246 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:52:47.246 INFO      Component        Finished interpreting Component: CWKTDB2X program:CWKTDB2X
+12:52:47.247 VERIFY    ExpectedData     VerificationResult : DataItem: /parminfo/grand-total. Actual value is different from expected. Actual value: 9080.0 Expected: 7160.0. Actual value:9080. Expected value:7160
+12:52:47.247 VERIFY    Engine           Component name:CWKTDB2X contains data that where not verified correctly
+12:52:47.247 INFO      ReadRemoteFile   Interpreting ReadRemoteFile for fileName: HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE first record:10 number of records to read: 8
+12:52:47.247 INFO      ReadRemoteFile   Sending Read dataset request to Host 
+12:52:49.421 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/731644d9cbde41739484be18a6312881
+12:53:55.190 ERROR     Read report file Unable to read dataset:HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE at the host. com.compuware.totaltest.common.hci.api.exceptions.HciServicesFileIOException: Unable to write file /u/xatester/hddrxm0/731644d9cbde41739484be18a6312881/XAT_template.xml. Reason An exception occurred while trying to write the ZFS file at path /u/xatester/hddrxm0/731644d9cbde41739484be18a6312881/XAT_template.xml on cwc2.nasa.cpwr.corp:16196.
+
+Exception: EOF encountered during unsecure read for host "cwc2.nasa.cpwr.corp" on port "16196"
+12:53:55.190 ERROR     Read report file java.io.IOException: com.compuware.totaltest.common.hci.api.exceptions.HciServicesFileIOException: Unable to write file /u/xatester/hddrxm0/731644d9cbde41739484be18a6312881/XAT_template.xml. Reason An exception occurred while trying to write the ZFS file at path /u/xatester/hddrxm0/731644d9cbde41739484be18a6312881/XAT_template.xml on cwc2.nasa.cpwr.corp:16196.
+
+Exception: EOF encountered during unsecure read for host "cwc2.nasa.cpwr.corp" on port "16196"
+	at com.compuware.xatester.xaunit.platforms.strategies.HCIHostCommunicator.uploadFile(HCIHostCommunicator.java:455)
+	at com.compuware.xatester.xaunit.platforms.strategies.ReadRemoteFileStrategy.submit(ReadRemoteFileStrategy.java:78)
+	at com.compuware.xatester.xaunit.platforms.HostProcess.execute(HostProcess.java:245)
+	at com.compuware.xatester.xaunit.extensions.ReadRemoteFileComponent.interprete(ReadRemoteFileComponent.java:165)
+	at com.compuware.xatester.xaunit.extensions.ReadRemoteFileComponent.interprete(ReadRemoteFileComponent.java:1)
+	at com.compuware.xatester.xaunit.execution.XaUnitInterpreter.interpretChildComponents(XaUnitInterpreter.java:93)
+	at com.compuware.xatester.xaunit.execution.XaUnitInterpreter.interpret(XaUnitInterpreter.java:242)
+	at com.compuware.xatester.ui.execution.XaUnitExecutor.execute(XaUnitExecutor.java:219)
+	at com.compuware.xatester.ui.execution.XaUnitExecutor.access$0(XaUnitExecutor.java:215)
+	at com.compuware.xatester.ui.execution.XaUnitExecutor$XaUnitExecutorJob.run(XaUnitExecutor.java:327)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+Caused by: com.compuware.totaltest.common.hci.api.exceptions.HciServicesFileIOException: Unable to write file /u/xatester/hddrxm0/731644d9cbde41739484be18a6312881/XAT_template.xml. Reason An exception occurred while trying to write the ZFS file at path /u/xatester/hddrxm0/731644d9cbde41739484be18a6312881/XAT_template.xml on cwc2.nasa.cpwr.corp:16196.
+
+Exception: EOF encountered during unsecure read for host "cwc2.nasa.cpwr.corp" on port "16196"
+	at com.compuware.totaltest.common.hci.resource.HciResourceServicesUSSFiles.writeFile(HciResourceServicesUSSFiles.java:1202)
+	at com.compuware.totaltest.common.hci.resource.HciResourceServicesUSSFiles.writeFile(HciResourceServicesUSSFiles.java:1097)
+	at com.compuware.totaltest.common.hci.resource.HciResourceServicesUSSFiles.createFile(HciResourceServicesUSSFiles.java:245)
+	at com.compuware.xatester.xaunit.platforms.strategies.HCIClient.createFile(HCIClient.java:240)
+	at com.compuware.xatester.xaunit.platforms.strategies.HCIHostCommunicator.uploadFile(HCIHostCommunicator.java:453)
+	... 10 more
+Caused by: com.compuware.ecc.core.exceptions.EccException: An exception occurred while trying to write the ZFS file at path /u/xatester/hddrxm0/731644d9cbde41739484be18a6312881/XAT_template.xml on cwc2.nasa.cpwr.corp:16196.
+
+Exception: EOF encountered during unsecure read for host "cwc2.nasa.cpwr.corp" on port "16196"
+	at com.compuware.ecc.css.api.commandsets.ZFSCommandSet.writeFile(ZFSCommandSet.java:733)
+	at com.compuware.totaltest.common.hci.resource.HciResourceServicesUSSFiles.writeFile(HciResourceServicesUSSFiles.java:1144)
+	... 14 more
+
+12:53:55.190 ERROR     Engine           Unable to read dataset:HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE at the host. 
+12:53:55.190 ERROR     Engine           An error occurred. Now stopping the execution.
+12:53:55.190 COMMENT   Engine           Test Scenario execution ended

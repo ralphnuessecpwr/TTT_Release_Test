@@ -1,0 +1,2150 @@
+11:41:02.788 COMMENT   Engine           Test Scenario execution started
+11:41:02.788 INFO      Engine           Using context settings:
+  Engine Version       : 20.2
+  Environment id                : 5e7a190fcf655a12a4d4df4d
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwc2.nasa.cpwr.corp
+  Server port                   : 16196
+  Job execution timeout seconds : 300
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : hddrxm0
+  Use Repository Server         : true
+11:41:02.789 INFO      Engine           Setting variables from context and context data extensions
+11:41:02.790 INFO      Engine             id: environmentId      value: 5e7a190fcf655a12a4d4df4d
+11:41:02.790 INFO      Engine             id: environmentType    value: BATCH
+11:41:02.790 INFO      Engine             id: userId             value: HDDRXM0
+11:41:02.790 INFO      Engine             id: accountingInfo     value: 
+11:41:02.792 INFO      Scope            Interpreting Scope name:Settings
+11:41:02.792 INFO      Variable         Interpreting Variable id:employeeFileName
+11:41:02.792 LOG       Variable         Resolved data:
+HDDRXM0.DEMO.CWC2.CWKTDATA.TEST
+11:41:02.792 INFO      Variable         Interpreting Variable id:reportFileNameActual
+11:41:02.792 LOG       Variable         Resolved data:
+HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE
+11:41:02.792 INFO      Scope            Scope completed
+11:41:02.793 INFO      Scope            Interpreting Scope name:Initialization
+11:41:02.793 INFO      SQLUpdate        Interpreting SQL Updating statement
+11:41:02.793 INFO      SQLUpdate        Using database from Environment:DSCCCWCC
+11:41:02.793 LOG       SQLUpdate        SQL statement: 
+DELETE FROM HDDRXM0.KT_DEMOTAB 
+;
+11:41:02.793 LOG       SQLUpdate        Establishing connection to database DSCCCWCC
+11:41:03.371 LOG       SQLUpdate        Executing the SQL: DELETE FROM HDDRXM0.KT_DEMOTAB 
+;
+11:41:03.660 LOG       SQLUpdate        Number of updated rows 0
+11:41:03.660 INFO      Variable         Interpreting Variable id:employeeRecords dataFile:Data/employee_records.xml
+11:41:03.664 LOG       Variable         Resolved data items from file Data/employee_records.xml
+<record>
+  <employee-work-area>
+    <wa-emp-num>03431</wa-emp-num>
+    <wa-emp-type>H</wa-emp-type>
+    <wa-emp-region>2</wa-emp-region>
+    <wa-emp-name>GAIL LAWRENCE</wa-emp-name>
+    <wa-emp-address>
+      <wa-emp-street>123 NORTH AVE</wa-emp-street>
+      <wa-emp-city>PLANO</wa-emp-city>
+      <wa-emp-state>TX</wa-emp-state>
+      <wa-emp-zip>57010</wa-emp-zip>
+    </wa-emp-address>
+    <wa-hourly-employee-data>
+      <wa-emp-hours>38</wa-emp-hours>
+      <wa-emp-rate>25</wa-emp-rate>
+      <filler1></filler1>
+    </wa-hourly-employee-data>
+    <wa-emp-hire-date>
+      <wa-emp-hire-yy>84</wa-emp-hire-yy>
+      <wa-emp-hire-mm>6</wa-emp-hire-mm>
+      <wa-emp-hire-dd>25</wa-emp-hire-dd>
+    </wa-emp-hire-date>
+    <filler1></filler1>
+  </employee-work-area>
+</record>
+<record>
+  <employee-work-area>
+    <wa-emp-num>02523</wa-emp-num>
+    <wa-emp-type>H</wa-emp-type>
+    <wa-emp-region>1</wa-emp-region>
+    <wa-emp-name>JOHN SMITH</wa-emp-name>
+    <wa-emp-address>
+      <wa-emp-street>5456 ELM STREET</wa-emp-street>
+      <wa-emp-city>WAYNE</wa-emp-city>
+      <wa-emp-state>IL</wa-emp-state>
+      <wa-emp-zip>77902</wa-emp-zip>
+    </wa-emp-address>
+    <wa-hourly-employee-data>
+      <wa-emp-hours>30</wa-emp-hours>
+      <wa-emp-rate>25</wa-emp-rate>
+      <filler1></filler1>
+    </wa-hourly-employee-data>
+    <wa-emp-hire-date>
+      <wa-emp-hire-yy>81</wa-emp-hire-yy>
+      <wa-emp-hire-mm>10</wa-emp-hire-mm>
+      <wa-emp-hire-dd>15</wa-emp-hire-dd>
+    </wa-emp-hire-date>
+    <filler1></filler1>
+  </employee-work-area>
+</record>
+<record>
+  <employee-work-area>
+    <wa-emp-num>01568</wa-emp-num>
+    <wa-emp-type>H</wa-emp-type>
+    <wa-emp-region>4</wa-emp-region>
+    <wa-emp-name>THOMAS LONG</wa-emp-name>
+    <wa-emp-address>
+      <wa-emp-street>12 RACE STREET</wa-emp-street>
+      <wa-emp-city>SAN JOSE</wa-emp-city>
+      <wa-emp-state>CA</wa-emp-state>
+      <wa-emp-zip>95126</wa-emp-zip>
+    </wa-emp-address>
+    <wa-hourly-employee-data>
+      <wa-emp-hours>40</wa-emp-hours>
+      <wa-emp-rate>25</wa-emp-rate>
+      <filler1></filler1>
+    </wa-hourly-employee-data>
+    <wa-emp-hire-date>
+      <wa-emp-hire-yy>87</wa-emp-hire-yy>
+      <wa-emp-hire-mm>3</wa-emp-hire-mm>
+      <wa-emp-hire-dd>31</wa-emp-hire-dd>
+    </wa-emp-hire-date>
+    <filler1></filler1>
+  </employee-work-area>
+</record>
+<record>
+  <employee-work-area>
+    <wa-emp-num>03241</wa-emp-num>
+    <wa-emp-type>H</wa-emp-type>
+    <wa-emp-region>3</wa-emp-region>
+    <wa-emp-name>MARCIA SULLIVAN</wa-emp-name>
+    <wa-emp-address>
+      <wa-emp-street>55 SOUTH STREET</wa-emp-street>
+      <wa-emp-city>NEW YORK</wa-emp-city>
+      <wa-emp-state>NY</wa-emp-state>
+      <wa-emp-zip>10017</wa-emp-zip>
+    </wa-emp-address>
+    <wa-hourly-employee-data>
+      <wa-emp-hours>44</wa-emp-hours>
+      <wa-emp-rate>30</wa-emp-rate>
+      <filler1></filler1>
+    </wa-hourly-employee-data>
+    <wa-emp-hire-date>
+      <wa-emp-hire-yy>93</wa-emp-hire-yy>
+      <wa-emp-hire-mm>4</wa-emp-hire-mm>
+      <wa-emp-hire-dd>5</wa-emp-hire-dd>
+    </wa-emp-hire-date>
+    <filler1></filler1>
+  </employee-work-area>
+</record>
+<record>
+  <employee-work-area>
+    <wa-emp-num>01343</wa-emp-num>
+    <wa-emp-type>H</wa-emp-type>
+    <wa-emp-region>3</wa-emp-region>
+    <wa-emp-name>JAMES MORRISON</wa-emp-name>
+    <wa-emp-address>
+      <wa-emp-street>11-A MAPLE AVE</wa-emp-street>
+      <wa-emp-city>SYRACUSE</wa-emp-city>
+      <wa-emp-state>NY</wa-emp-state>
+      <wa-emp-zip>12123</wa-emp-zip>
+    </wa-emp-address>
+    <wa-hourly-employee-data>
+      <wa-emp-hours>37</wa-emp-hours>
+      <wa-emp-rate>27.5</wa-emp-rate>
+      <filler1></filler1>
+    </wa-hourly-employee-data>
+    <wa-emp-hire-date>
+      <wa-emp-hire-yy>91</wa-emp-hire-yy>
+      <wa-emp-hire-mm>9</wa-emp-hire-mm>
+      <wa-emp-hire-dd>13</wa-emp-hire-dd>
+    </wa-emp-hire-date>
+    <filler1></filler1>
+  </employee-work-area>
+</record>
+<record>
+  <employee-work-area>
+    <wa-emp-num>02171</wa-emp-num>
+    <wa-emp-type>H</wa-emp-type>
+    <wa-emp-region>4</wa-emp-region>
+    <wa-emp-name>SAMUEL ADDAMS</wa-emp-name>
+    <wa-emp-address>
+      <wa-emp-street>900 LINCOLN CT</wa-emp-street>
+      <wa-emp-city>RENO</wa-emp-city>
+      <wa-emp-state>NV</wa-emp-state>
+      <wa-emp-zip>82433</wa-emp-zip>
+    </wa-emp-address>
+    <wa-hourly-employee-data>
+      <wa-emp-hours>42</wa-emp-hours>
+      <wa-emp-rate>27.5</wa-emp-rate>
+      <filler1></filler1>
+    </wa-hourly-employee-data>
+    <wa-emp-hire-date>
+      <wa-emp-hire-yy>86</wa-emp-hire-yy>
+      <wa-emp-hire-mm>1</wa-emp-hire-mm>
+      <wa-emp-hire-dd>2</wa-emp-hire-dd>
+    </wa-emp-hire-date>
+    <filler1></filler1>
+  </employee-work-area>
+</record>
+<record>
+  <employee-work-area>
+    <wa-emp-num>02175</wa-emp-num>
+    <wa-emp-type>H</wa-emp-type>
+    <wa-emp-region>2</wa-emp-region>
+    <wa-emp-name>KATIE WILLIAMS</wa-emp-name>
+    <wa-emp-address>
+      <wa-emp-street>123 MAIN ST</wa-emp-street>
+      <wa-emp-city>COLUMBUS</wa-emp-city>
+      <wa-emp-state>OH</wa-emp-state>
+      <wa-emp-zip>43082</wa-emp-zip>
+    </wa-emp-address>
+    <wa-hourly-employee-data>
+      <wa-emp-hours>32</wa-emp-hours>
+      <wa-emp-rate>27.5</wa-emp-rate>
+      <filler1></filler1>
+    </wa-hourly-employee-data>
+    <wa-emp-hire-date>
+      <wa-emp-hire-yy>96</wa-emp-hire-yy>
+      <wa-emp-hire-mm>10</wa-emp-hire-mm>
+      <wa-emp-hire-dd>2</wa-emp-hire-dd>
+    </wa-emp-hire-date>
+    <filler1></filler1>
+  </employee-work-area>
+</record>
+<record>
+  <employee-work-area>
+    <wa-emp-num>59999</wa-emp-num>
+    <wa-emp-type>D</wa-emp-type>
+    <wa-emp-region>3</wa-emp-region>
+    <wa-emp-name>MAX E MILLION</wa-emp-name>
+    <wa-emp-address>
+      <wa-emp-street>100 MAIN STREET</wa-emp-street>
+      <wa-emp-city>MAIN</wa-emp-city>
+      <wa-emp-state>OH</wa-emp-state>
+      <wa-emp-zip>34093</wa-emp-zip>
+    </wa-emp-address>
+    <wa-hourly-employee-data>
+      <wa-emp-hours>88</wa-emp-hours>
+      <wa-emp-rate>25</wa-emp-rate>
+      <filler1></filler1>
+    </wa-hourly-employee-data>
+    <wa-emp-hire-date>
+      <wa-emp-hire-yy>91</wa-emp-hire-yy>
+      <wa-emp-hire-mm>3</wa-emp-hire-mm>
+      <wa-emp-hire-dd>23</wa-emp-hire-dd>
+    </wa-emp-hire-date>
+    <filler1></filler1>
+  </employee-work-area>
+</record>
+11:41:03.665 INFO      WriteRemoteFile  Interpreting WriteRemoteFile
+11:41:03.665 INFO      WriteRemoteFile  Variable substitution found in fileName name
+11:41:03.665 INFO      WriteRemoteFile  Actual fileName name is now:HDDRXM0.DEMO.CWC2.CWKTDATA.TEST
+11:41:03.665 INFO      WriteRemoteFile  Finding referenced records from the id: employeeRecords
+11:41:03.665 LOG       WriteRemoteFile  Verifies that records conform to the MDataDefinition
+11:41:03.667 INFO      WriteRemoteFile  Number of records to write:8
+11:41:03.668 INFO      WriteRemoteFile    File name             : HDDRXM0.DEMO.CWC2.CWKTDATA.TEST
+11:41:03.668 INFO      WriteRemoteFile    Record length         : 80
+11:41:03.668 INFO      WriteRemoteFile    Record format         : FB
+11:41:03.668 INFO      WriteRemoteFile    Block size            : 27920
+11:41:03.668 INFO      WriteRemoteFile    Volume name           : PCC006
+11:41:03.669 INFO      WriteRemoteFile    Unit name             : 
+11:41:03.669 INFO      WriteRemoteFile    Unit type             : TRK
+11:41:03.669 INFO      WriteRemoteFile    Primary allocation    : 15
+11:41:03.669 INFO      WriteRemoteFile    Secondary allocation  : 5
+11:41:03.670 INFO      WriteRemoteFile    Directory block count : 0
+11:41:03.670 INFO      WriteRemoteFile    Dataset type          : BASIC
+11:41:03.670 INFO      WriteRemoteFile    Disposition           : Old
+11:41:03.670 INFO      WriteRemoteFile  Sending Write dataset request to Host 
+11:41:03.815 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/4bda15af437845eb9349d91af3690cb2
+11:41:07.838 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXPFILE</operation><runat>DAY</runat><loglevel>log</loglevel><encoding>EBCDIC</encoding><codepage>1047</codepage><jobdirectory>4bda15af437845eb9349d91af3690cb2</jobdirectory><outputfilepath>XAT_records.xml</outputfilepath><expfiles><expfile><expdsn>HDDRXM0.DEMO.CWC2.CWKTDATA.TEST</expdsn><expxml>XAT_records.xml</expxml><explrl>80</explrl><expblk>27920</expblk><expvol>PCC006</expvol><expsun>TRK</expsun><expprm>15</expprm><expsec>5</expsec><expmem /><expdis>Old</expdis><exprfm>FB</exprfm></expfile></expfiles></xatz_request></XATZREQ>
+11:41:08.084 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0855517</jobid><jobname>HDDRXM0X</jobname><starttime>20200408054108029</starttime></xatz_response></XATZRESP>
+11:41:08.085 LOG       HCIClient        Response received from Host. Message: JobId:J0855517
+11:41:08.086 INFO      HCIClient        Job has been started at host with JobId:J0855517
+11:41:08.086 INFO      CWC2 Batch       Waiting for Execution Result from Host
+11:41:11.527 INFO      WriteRemoteFile  Write dataset request completed
+11:41:11.527 INFO      IterateData      Interpreting IterateData id: loopThroughEmployeeRecords. Number of data iterations: 8. Variable loopThroughEmployeeRecordsIndex contains iteration number
+11:41:11.527 INFO      IterateData      Iteration number 0 started.
+11:41:11.528 LOG       IterateData      Iteration Data:
+<record xmlns="http://www.xact.dk/xatester/v/1">
+  <employee-work-area>
+    <wa-emp-num>03431</wa-emp-num>
+    <wa-emp-type>H</wa-emp-type>
+    <wa-emp-region>2</wa-emp-region>
+    <wa-emp-name>GAIL LAWRENCE</wa-emp-name>
+    <wa-emp-address>
+      <wa-emp-street>123 NORTH AVE</wa-emp-street>
+      <wa-emp-city>PLANO</wa-emp-city>
+      <wa-emp-state>TX</wa-emp-state>
+      <wa-emp-zip>57010</wa-emp-zip>
+    </wa-emp-address>
+    <wa-hourly-employee-data>
+      <wa-emp-hours>38</wa-emp-hours>
+      <wa-emp-rate>25</wa-emp-rate>
+      <filler1></filler1>
+    </wa-hourly-employee-data>
+    <wa-emp-hire-date>
+      <wa-emp-hire-yy>84</wa-emp-hire-yy>
+      <wa-emp-hire-mm>6</wa-emp-hire-mm>
+      <wa-emp-hire-dd>25</wa-emp-hire-dd>
+    </wa-emp-hire-date>
+    <filler1></filler1>
+  </employee-work-area>
+</record>
+11:41:11.528 INFO      Variable         Interpreting Variable id:wa_emp_num
+11:41:11.528 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-num']
+11:41:11.540 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-num']
+11:41:11.541 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:11,540 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-num'] 
+
+11:41:11.542 LOG       Expression       Expression evaluated to:03431
+11:41:11.542 LOG       Variable         Resolved data:
+03431
+11:41:11.542 INFO      Variable         Interpreting Variable id:wa_emp_type
+11:41:11.542 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-type']
+11:41:11.553 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-type']
+11:41:11.556 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:11,554 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-type'] 
+
+11:41:11.556 LOG       Expression       Expression evaluated to:H
+11:41:11.556 LOG       Variable         Resolved data:
+H
+11:41:11.556 INFO      Variable         Interpreting Variable id:wa_emp_region
+11:41:11.556 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-region']
+11:41:11.566 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-region']
+11:41:11.568 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:11,566 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-region'] 
+
+11:41:11.568 LOG       Expression       Expression evaluated to:2
+11:41:11.568 LOG       Variable         Resolved data:
+2
+11:41:11.568 INFO      Variable         Interpreting Variable id:wa_emp_name
+11:41:11.568 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-name']
+11:41:11.583 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-name']
+11:41:11.584 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:11,583 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-name'] 
+
+11:41:11.584 LOG       Expression       Expression evaluated to:GAIL LAWRENCE
+11:41:11.584 LOG       Variable         Resolved data:
+GAIL LAWRENCE
+11:41:11.584 INFO      Variable         Interpreting Variable id:wa_emp_street
+11:41:11.584 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-street']
+11:41:11.599 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-street']
+11:41:11.601 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:11,599 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-street'] 
+
+11:41:11.601 LOG       Expression       Expression evaluated to:123 NORTH AVE
+11:41:11.601 LOG       Variable         Resolved data:
+123 NORTH AVE
+11:41:11.601 INFO      Variable         Interpreting Variable id:wa_emp_city
+11:41:11.601 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-city']
+11:41:11.660 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-city']
+11:41:11.662 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:11,660 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-city'] 
+
+11:41:11.662 LOG       Expression       Expression evaluated to:PLANO
+11:41:11.662 LOG       Variable         Resolved data:
+PLANO
+11:41:11.662 INFO      Variable         Interpreting Variable id:wa_emp_state
+11:41:11.662 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-state']
+11:41:11.683 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-state']
+11:41:11.685 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:11,683 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-state'] 
+
+11:41:11.685 LOG       Expression       Expression evaluated to:TX
+11:41:11.685 LOG       Variable         Resolved data:
+TX
+11:41:11.686 INFO      Variable         Interpreting Variable id:wa_emp_zip
+11:41:11.686 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-zip']
+11:41:11.705 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-zip']
+11:41:11.707 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:11,706 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-zip'] 
+
+11:41:11.707 LOG       Expression       Expression evaluated to:57010
+11:41:11.707 LOG       Variable         Resolved data:
+57010
+11:41:11.707 INFO      Variable         Interpreting Variable id:wa_emp_hire_date
+11:41:11.707 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-yy'].concat(
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-mm'],
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-dd']
+)
+11:41:11.724 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-yy'].concat(
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-mm'],
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-dd']
+)
+11:41:11.725 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:11,724 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-yy'].concat(
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-mm'],
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-dd']
+) 
+
+11:41:11.726 LOG       Expression       Expression evaluated to:84625
+11:41:11.726 LOG       Variable         Resolved data:
+84625
+11:41:11.726 INFO      Variable         Interpreting Variable id:wa_emp_hours
+11:41:11.726 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-hours']
+11:41:11.745 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-hours']
+11:41:11.747 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:11,745 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-hours'] 
+
+11:41:11.747 LOG       Expression       Expression evaluated to:38
+11:41:11.747 LOG       Variable         Resolved data:
+38
+11:41:11.747 INFO      Variable         Interpreting Variable id:wa_emp_rate
+11:41:11.747 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-rate']
+11:41:11.772 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-rate']
+11:41:11.773 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:11,772 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-rate'] 
+
+11:41:11.774 LOG       Expression       Expression evaluated to:25
+11:41:11.774 LOG       Variable         Resolved data:
+25
+11:41:11.774 INFO      SQLUpdate        Interpreting SQL Updating statement
+11:41:11.774 INFO      SQLUpdate        Using database from Environment:DSCCCWCC
+11:41:11.774 LOG       SQLUpdate        SQL statement contained variable, now it has been substituted and the SQL is: 
+INSERT INTO HDDRXM0.KT_DEMOTAB 
+  (
+	EMP_NUM,
+	WAGE_TYPE,
+	REGION,
+	FIRST_LAST_NAME,
+	STREET_ADDR,
+	CITY,
+	STATE,
+	ZIP,
+	HIREDATE,
+	HOURS,
+	RATE,
+	WAGES,
+	OVERTIME,
+	COMM
+  )
+VALUES 
+  (
+	'03431',
+	'H',
+	'2',
+	'GAIL LAWRENCE',
+	'123 NORTH AVE',
+	'PLANO',
+	'TX',
+	'57010',
+	'84625',
+	'38',
+	'25',
+	0,
+	0,
+	0
+  );
+11:41:11.774 LOG       SQLUpdate        Establishing connection to database DSCCCWCC
+11:41:12.285 LOG       SQLUpdate        Executing the SQL: INSERT INTO HDDRXM0.KT_DEMOTAB 
+  (
+	EMP_NUM,
+	WAGE_TYPE,
+	REGION,
+	FIRST_LAST_NAME,
+	STREET_ADDR,
+	CITY,
+	STATE,
+	ZIP,
+	HIREDATE,
+	HOURS,
+	RATE,
+	WAGES,
+	OVERTIME,
+	COMM
+  )
+VALUES 
+  (
+	'03431',
+	'H',
+	'2',
+	'GAIL LAWRENCE',
+	'123 NORTH AVE',
+	'PLANO',
+	'TX',
+	'57010',
+	'84625',
+	'38',
+	'25',
+	0,
+	0,
+	0
+  );
+11:41:12.566 LOG       SQLUpdate        Number of updated rows 1
+11:41:12.566 INFO      IterateData      Iteration number 1 started.
+11:41:12.566 LOG       IterateData      Iteration Data:
+<record xmlns="http://www.xact.dk/xatester/v/1">
+  <employee-work-area>
+    <wa-emp-num>02523</wa-emp-num>
+    <wa-emp-type>H</wa-emp-type>
+    <wa-emp-region>1</wa-emp-region>
+    <wa-emp-name>JOHN SMITH</wa-emp-name>
+    <wa-emp-address>
+      <wa-emp-street>5456 ELM STREET</wa-emp-street>
+      <wa-emp-city>WAYNE</wa-emp-city>
+      <wa-emp-state>IL</wa-emp-state>
+      <wa-emp-zip>77902</wa-emp-zip>
+    </wa-emp-address>
+    <wa-hourly-employee-data>
+      <wa-emp-hours>30</wa-emp-hours>
+      <wa-emp-rate>25</wa-emp-rate>
+      <filler1></filler1>
+    </wa-hourly-employee-data>
+    <wa-emp-hire-date>
+      <wa-emp-hire-yy>81</wa-emp-hire-yy>
+      <wa-emp-hire-mm>10</wa-emp-hire-mm>
+      <wa-emp-hire-dd>15</wa-emp-hire-dd>
+    </wa-emp-hire-date>
+    <filler1></filler1>
+  </employee-work-area>
+</record>
+11:41:12.566 INFO      Variable         Interpreting Variable id:wa_emp_num
+11:41:12.566 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-num']
+11:41:12.585 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-num']
+11:41:12.588 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:12,585 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-num'] 
+
+11:41:12.589 LOG       Expression       Expression evaluated to:02523
+11:41:12.589 LOG       Variable         Resolved data:
+02523
+11:41:12.589 INFO      Variable         Interpreting Variable id:wa_emp_type
+11:41:12.589 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-type']
+11:41:12.606 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-type']
+11:41:12.608 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:12,606 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-type'] 
+
+11:41:12.608 LOG       Expression       Expression evaluated to:H
+11:41:12.608 LOG       Variable         Resolved data:
+H
+11:41:12.608 INFO      Variable         Interpreting Variable id:wa_emp_region
+11:41:12.608 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-region']
+11:41:12.626 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-region']
+11:41:12.627 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:12,626 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-region'] 
+
+11:41:12.628 LOG       Expression       Expression evaluated to:1
+11:41:12.628 LOG       Variable         Resolved data:
+1
+11:41:12.628 INFO      Variable         Interpreting Variable id:wa_emp_name
+11:41:12.628 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-name']
+11:41:12.645 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-name']
+11:41:12.646 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:12,645 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-name'] 
+
+11:41:12.646 LOG       Expression       Expression evaluated to:JOHN SMITH
+11:41:12.646 LOG       Variable         Resolved data:
+JOHN SMITH
+11:41:12.646 INFO      Variable         Interpreting Variable id:wa_emp_street
+11:41:12.646 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-street']
+11:41:12.663 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-street']
+11:41:12.664 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:12,663 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-street'] 
+
+11:41:12.664 LOG       Expression       Expression evaluated to:5456 ELM STREET
+11:41:12.664 LOG       Variable         Resolved data:
+5456 ELM STREET
+11:41:12.664 INFO      Variable         Interpreting Variable id:wa_emp_city
+11:41:12.665 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-city']
+11:41:12.684 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-city']
+11:41:12.685 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:12,684 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-city'] 
+
+11:41:12.685 LOG       Expression       Expression evaluated to:WAYNE
+11:41:12.685 LOG       Variable         Resolved data:
+WAYNE
+11:41:12.685 INFO      Variable         Interpreting Variable id:wa_emp_state
+11:41:12.685 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-state']
+11:41:12.704 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-state']
+11:41:12.707 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:12,704 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-state'] 
+
+11:41:12.707 LOG       Expression       Expression evaluated to:IL
+11:41:12.707 LOG       Variable         Resolved data:
+IL
+11:41:12.707 INFO      Variable         Interpreting Variable id:wa_emp_zip
+11:41:12.707 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-zip']
+11:41:12.725 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-zip']
+11:41:12.727 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:12,725 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-zip'] 
+
+11:41:12.727 LOG       Expression       Expression evaluated to:77902
+11:41:12.727 LOG       Variable         Resolved data:
+77902
+11:41:12.727 INFO      Variable         Interpreting Variable id:wa_emp_hire_date
+11:41:12.727 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-yy'].concat(
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-mm'],
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-dd']
+)
+11:41:12.747 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-yy'].concat(
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-mm'],
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-dd']
+)
+11:41:12.749 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:12,747 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-yy'].concat(
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-mm'],
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-dd']
+) 
+
+11:41:12.749 LOG       Expression       Expression evaluated to:811015
+11:41:12.749 LOG       Variable         Resolved data:
+811015
+11:41:12.749 INFO      Variable         Interpreting Variable id:wa_emp_hours
+11:41:12.749 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-hours']
+11:41:12.766 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-hours']
+11:41:12.768 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:12,766 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-hours'] 
+
+11:41:12.768 LOG       Expression       Expression evaluated to:30
+11:41:12.768 LOG       Variable         Resolved data:
+30
+11:41:12.768 INFO      Variable         Interpreting Variable id:wa_emp_rate
+11:41:12.768 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-rate']
+11:41:12.785 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-rate']
+11:41:12.788 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:12,786 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-rate'] 
+
+11:41:12.788 LOG       Expression       Expression evaluated to:25
+11:41:12.789 LOG       Variable         Resolved data:
+25
+11:41:12.789 INFO      SQLUpdate        Interpreting SQL Updating statement
+11:41:12.789 INFO      SQLUpdate        Using database from Environment:DSCCCWCC
+11:41:12.789 LOG       SQLUpdate        SQL statement contained variable, now it has been substituted and the SQL is: 
+INSERT INTO HDDRXM0.KT_DEMOTAB 
+  (
+	EMP_NUM,
+	WAGE_TYPE,
+	REGION,
+	FIRST_LAST_NAME,
+	STREET_ADDR,
+	CITY,
+	STATE,
+	ZIP,
+	HIREDATE,
+	HOURS,
+	RATE,
+	WAGES,
+	OVERTIME,
+	COMM
+  )
+VALUES 
+  (
+	'02523',
+	'H',
+	'1',
+	'JOHN SMITH',
+	'5456 ELM STREET',
+	'WAYNE',
+	'IL',
+	'77902',
+	'811015',
+	'30',
+	'25',
+	0,
+	0,
+	0
+  );
+11:41:12.789 LOG       SQLUpdate        Establishing connection to database DSCCCWCC
+11:41:13.305 LOG       SQLUpdate        Executing the SQL: INSERT INTO HDDRXM0.KT_DEMOTAB 
+  (
+	EMP_NUM,
+	WAGE_TYPE,
+	REGION,
+	FIRST_LAST_NAME,
+	STREET_ADDR,
+	CITY,
+	STATE,
+	ZIP,
+	HIREDATE,
+	HOURS,
+	RATE,
+	WAGES,
+	OVERTIME,
+	COMM
+  )
+VALUES 
+  (
+	'02523',
+	'H',
+	'1',
+	'JOHN SMITH',
+	'5456 ELM STREET',
+	'WAYNE',
+	'IL',
+	'77902',
+	'811015',
+	'30',
+	'25',
+	0,
+	0,
+	0
+  );
+11:41:13.586 LOG       SQLUpdate        Number of updated rows 1
+11:41:13.586 INFO      IterateData      Iteration number 2 started.
+11:41:13.586 LOG       IterateData      Iteration Data:
+<record xmlns="http://www.xact.dk/xatester/v/1">
+  <employee-work-area>
+    <wa-emp-num>01568</wa-emp-num>
+    <wa-emp-type>H</wa-emp-type>
+    <wa-emp-region>4</wa-emp-region>
+    <wa-emp-name>THOMAS LONG</wa-emp-name>
+    <wa-emp-address>
+      <wa-emp-street>12 RACE STREET</wa-emp-street>
+      <wa-emp-city>SAN JOSE</wa-emp-city>
+      <wa-emp-state>CA</wa-emp-state>
+      <wa-emp-zip>95126</wa-emp-zip>
+    </wa-emp-address>
+    <wa-hourly-employee-data>
+      <wa-emp-hours>40</wa-emp-hours>
+      <wa-emp-rate>25</wa-emp-rate>
+      <filler1></filler1>
+    </wa-hourly-employee-data>
+    <wa-emp-hire-date>
+      <wa-emp-hire-yy>87</wa-emp-hire-yy>
+      <wa-emp-hire-mm>3</wa-emp-hire-mm>
+      <wa-emp-hire-dd>31</wa-emp-hire-dd>
+    </wa-emp-hire-date>
+    <filler1></filler1>
+  </employee-work-area>
+</record>
+11:41:13.586 INFO      Variable         Interpreting Variable id:wa_emp_num
+11:41:13.587 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-num']
+11:41:13.603 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-num']
+11:41:13.606 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:13,603 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-num'] 
+
+11:41:13.606 LOG       Expression       Expression evaluated to:01568
+11:41:13.606 LOG       Variable         Resolved data:
+01568
+11:41:13.606 INFO      Variable         Interpreting Variable id:wa_emp_type
+11:41:13.606 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-type']
+11:41:13.623 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-type']
+11:41:13.624 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:13,623 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-type'] 
+
+11:41:13.624 LOG       Expression       Expression evaluated to:H
+11:41:13.624 LOG       Variable         Resolved data:
+H
+11:41:13.624 INFO      Variable         Interpreting Variable id:wa_emp_region
+11:41:13.624 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-region']
+11:41:13.641 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-region']
+11:41:13.642 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:13,641 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-region'] 
+
+11:41:13.642 LOG       Expression       Expression evaluated to:4
+11:41:13.642 LOG       Variable         Resolved data:
+4
+11:41:13.642 INFO      Variable         Interpreting Variable id:wa_emp_name
+11:41:13.643 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-name']
+11:41:13.660 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-name']
+11:41:13.661 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:13,660 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-name'] 
+
+11:41:13.662 LOG       Expression       Expression evaluated to:THOMAS LONG
+11:41:13.662 LOG       Variable         Resolved data:
+THOMAS LONG
+11:41:13.662 INFO      Variable         Interpreting Variable id:wa_emp_street
+11:41:13.662 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-street']
+11:41:13.679 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-street']
+11:41:13.680 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:13,679 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-street'] 
+
+11:41:13.681 LOG       Expression       Expression evaluated to:12 RACE STREET
+11:41:13.681 LOG       Variable         Resolved data:
+12 RACE STREET
+11:41:13.681 INFO      Variable         Interpreting Variable id:wa_emp_city
+11:41:13.681 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-city']
+11:41:13.701 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-city']
+11:41:13.702 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:13,701 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-city'] 
+
+11:41:13.702 LOG       Expression       Expression evaluated to:SAN JOSE
+11:41:13.702 LOG       Variable         Resolved data:
+SAN JOSE
+11:41:13.702 INFO      Variable         Interpreting Variable id:wa_emp_state
+11:41:13.703 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-state']
+11:41:13.720 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-state']
+11:41:13.722 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:13,720 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-state'] 
+
+11:41:13.722 LOG       Expression       Expression evaluated to:CA
+11:41:13.722 LOG       Variable         Resolved data:
+CA
+11:41:13.722 INFO      Variable         Interpreting Variable id:wa_emp_zip
+11:41:13.723 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-zip']
+11:41:13.745 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-zip']
+11:41:13.747 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:13,745 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-zip'] 
+
+11:41:13.747 LOG       Expression       Expression evaluated to:95126
+11:41:13.747 LOG       Variable         Resolved data:
+95126
+11:41:13.747 INFO      Variable         Interpreting Variable id:wa_emp_hire_date
+11:41:13.747 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-yy'].concat(
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-mm'],
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-dd']
+)
+11:41:13.770 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-yy'].concat(
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-mm'],
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-dd']
+)
+11:41:13.773 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:13,770 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-yy'].concat(
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-mm'],
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-dd']
+) 
+
+11:41:13.773 LOG       Expression       Expression evaluated to:87331
+11:41:13.773 LOG       Variable         Resolved data:
+87331
+11:41:13.773 INFO      Variable         Interpreting Variable id:wa_emp_hours
+11:41:13.773 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-hours']
+11:41:13.799 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-hours']
+11:41:13.801 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:13,799 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-hours'] 
+
+11:41:13.801 LOG       Expression       Expression evaluated to:40
+11:41:13.801 LOG       Variable         Resolved data:
+40
+11:41:13.802 INFO      Variable         Interpreting Variable id:wa_emp_rate
+11:41:13.802 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-rate']
+11:41:13.828 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-rate']
+11:41:13.830 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:13,828 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-rate'] 
+
+11:41:13.830 LOG       Expression       Expression evaluated to:25
+11:41:13.830 LOG       Variable         Resolved data:
+25
+11:41:13.830 INFO      SQLUpdate        Interpreting SQL Updating statement
+11:41:13.830 INFO      SQLUpdate        Using database from Environment:DSCCCWCC
+11:41:13.830 LOG       SQLUpdate        SQL statement contained variable, now it has been substituted and the SQL is: 
+INSERT INTO HDDRXM0.KT_DEMOTAB 
+  (
+	EMP_NUM,
+	WAGE_TYPE,
+	REGION,
+	FIRST_LAST_NAME,
+	STREET_ADDR,
+	CITY,
+	STATE,
+	ZIP,
+	HIREDATE,
+	HOURS,
+	RATE,
+	WAGES,
+	OVERTIME,
+	COMM
+  )
+VALUES 
+  (
+	'01568',
+	'H',
+	'4',
+	'THOMAS LONG',
+	'12 RACE STREET',
+	'SAN JOSE',
+	'CA',
+	'95126',
+	'87331',
+	'40',
+	'25',
+	0,
+	0,
+	0
+  );
+11:41:13.830 LOG       SQLUpdate        Establishing connection to database DSCCCWCC
+11:41:14.434 LOG       SQLUpdate        Executing the SQL: INSERT INTO HDDRXM0.KT_DEMOTAB 
+  (
+	EMP_NUM,
+	WAGE_TYPE,
+	REGION,
+	FIRST_LAST_NAME,
+	STREET_ADDR,
+	CITY,
+	STATE,
+	ZIP,
+	HIREDATE,
+	HOURS,
+	RATE,
+	WAGES,
+	OVERTIME,
+	COMM
+  )
+VALUES 
+  (
+	'01568',
+	'H',
+	'4',
+	'THOMAS LONG',
+	'12 RACE STREET',
+	'SAN JOSE',
+	'CA',
+	'95126',
+	'87331',
+	'40',
+	'25',
+	0,
+	0,
+	0
+  );
+11:41:14.725 LOG       SQLUpdate        Number of updated rows 1
+11:41:14.725 INFO      IterateData      Iteration number 3 started.
+11:41:14.726 LOG       IterateData      Iteration Data:
+<record xmlns="http://www.xact.dk/xatester/v/1">
+  <employee-work-area>
+    <wa-emp-num>03241</wa-emp-num>
+    <wa-emp-type>H</wa-emp-type>
+    <wa-emp-region>3</wa-emp-region>
+    <wa-emp-name>MARCIA SULLIVAN</wa-emp-name>
+    <wa-emp-address>
+      <wa-emp-street>55 SOUTH STREET</wa-emp-street>
+      <wa-emp-city>NEW YORK</wa-emp-city>
+      <wa-emp-state>NY</wa-emp-state>
+      <wa-emp-zip>10017</wa-emp-zip>
+    </wa-emp-address>
+    <wa-hourly-employee-data>
+      <wa-emp-hours>44</wa-emp-hours>
+      <wa-emp-rate>30</wa-emp-rate>
+      <filler1></filler1>
+    </wa-hourly-employee-data>
+    <wa-emp-hire-date>
+      <wa-emp-hire-yy>93</wa-emp-hire-yy>
+      <wa-emp-hire-mm>4</wa-emp-hire-mm>
+      <wa-emp-hire-dd>5</wa-emp-hire-dd>
+    </wa-emp-hire-date>
+    <filler1></filler1>
+  </employee-work-area>
+</record>
+11:41:14.726 INFO      Variable         Interpreting Variable id:wa_emp_num
+11:41:14.726 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-num']
+11:41:14.747 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-num']
+11:41:14.748 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:14,747 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-num'] 
+
+11:41:14.748 LOG       Expression       Expression evaluated to:03241
+11:41:14.748 LOG       Variable         Resolved data:
+03241
+11:41:14.749 INFO      Variable         Interpreting Variable id:wa_emp_type
+11:41:14.749 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-type']
+11:41:14.772 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-type']
+11:41:14.773 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:14,772 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-type'] 
+
+11:41:14.773 LOG       Expression       Expression evaluated to:H
+11:41:14.773 LOG       Variable         Resolved data:
+H
+11:41:14.774 INFO      Variable         Interpreting Variable id:wa_emp_region
+11:41:14.774 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-region']
+11:41:14.794 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-region']
+11:41:14.796 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:14,794 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-region'] 
+
+11:41:14.796 LOG       Expression       Expression evaluated to:3
+11:41:14.796 LOG       Variable         Resolved data:
+3
+11:41:14.797 INFO      Variable         Interpreting Variable id:wa_emp_name
+11:41:14.797 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-name']
+11:41:14.817 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-name']
+11:41:14.818 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:14,817 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-name'] 
+
+11:41:14.818 LOG       Expression       Expression evaluated to:MARCIA SULLIVAN
+11:41:14.818 LOG       Variable         Resolved data:
+MARCIA SULLIVAN
+11:41:14.818 INFO      Variable         Interpreting Variable id:wa_emp_street
+11:41:14.818 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-street']
+11:41:14.836 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-street']
+11:41:14.838 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:14,836 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-street'] 
+
+11:41:14.838 LOG       Expression       Expression evaluated to:55 SOUTH STREET
+11:41:14.838 LOG       Variable         Resolved data:
+55 SOUTH STREET
+11:41:14.838 INFO      Variable         Interpreting Variable id:wa_emp_city
+11:41:14.839 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-city']
+11:41:14.860 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-city']
+11:41:14.862 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:14,861 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-city'] 
+
+11:41:14.862 LOG       Expression       Expression evaluated to:NEW YORK
+11:41:14.862 LOG       Variable         Resolved data:
+NEW YORK
+11:41:14.862 INFO      Variable         Interpreting Variable id:wa_emp_state
+11:41:14.862 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-state']
+11:41:14.881 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-state']
+11:41:14.882 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:14,881 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-state'] 
+
+11:41:14.883 LOG       Expression       Expression evaluated to:NY
+11:41:14.883 LOG       Variable         Resolved data:
+NY
+11:41:14.883 INFO      Variable         Interpreting Variable id:wa_emp_zip
+11:41:14.883 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-zip']
+11:41:14.902 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-zip']
+11:41:14.903 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:14,902 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-zip'] 
+
+11:41:14.903 LOG       Expression       Expression evaluated to:10017
+11:41:14.903 LOG       Variable         Resolved data:
+10017
+11:41:14.904 INFO      Variable         Interpreting Variable id:wa_emp_hire_date
+11:41:14.904 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-yy'].concat(
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-mm'],
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-dd']
+)
+11:41:14.924 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-yy'].concat(
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-mm'],
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-dd']
+)
+11:41:14.926 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:14,924 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-yy'].concat(
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-mm'],
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-dd']
+) 
+
+11:41:14.927 LOG       Expression       Expression evaluated to:9345
+11:41:14.927 LOG       Variable         Resolved data:
+9345
+11:41:14.927 INFO      Variable         Interpreting Variable id:wa_emp_hours
+11:41:14.927 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-hours']
+11:41:14.945 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-hours']
+11:41:14.947 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:14,945 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-hours'] 
+
+11:41:14.947 LOG       Expression       Expression evaluated to:44
+11:41:14.947 LOG       Variable         Resolved data:
+44
+11:41:14.947 INFO      Variable         Interpreting Variable id:wa_emp_rate
+11:41:14.947 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-rate']
+11:41:14.964 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-rate']
+11:41:14.966 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:14,964 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-rate'] 
+
+11:41:14.966 LOG       Expression       Expression evaluated to:30
+11:41:14.966 LOG       Variable         Resolved data:
+30
+11:41:14.966 INFO      SQLUpdate        Interpreting SQL Updating statement
+11:41:14.966 INFO      SQLUpdate        Using database from Environment:DSCCCWCC
+11:41:14.967 LOG       SQLUpdate        SQL statement contained variable, now it has been substituted and the SQL is: 
+INSERT INTO HDDRXM0.KT_DEMOTAB 
+  (
+	EMP_NUM,
+	WAGE_TYPE,
+	REGION,
+	FIRST_LAST_NAME,
+	STREET_ADDR,
+	CITY,
+	STATE,
+	ZIP,
+	HIREDATE,
+	HOURS,
+	RATE,
+	WAGES,
+	OVERTIME,
+	COMM
+  )
+VALUES 
+  (
+	'03241',
+	'H',
+	'3',
+	'MARCIA SULLIVAN',
+	'55 SOUTH STREET',
+	'NEW YORK',
+	'NY',
+	'10017',
+	'9345',
+	'44',
+	'30',
+	0,
+	0,
+	0
+  );
+11:41:14.967 LOG       SQLUpdate        Establishing connection to database DSCCCWCC
+11:41:15.479 LOG       SQLUpdate        Executing the SQL: INSERT INTO HDDRXM0.KT_DEMOTAB 
+  (
+	EMP_NUM,
+	WAGE_TYPE,
+	REGION,
+	FIRST_LAST_NAME,
+	STREET_ADDR,
+	CITY,
+	STATE,
+	ZIP,
+	HIREDATE,
+	HOURS,
+	RATE,
+	WAGES,
+	OVERTIME,
+	COMM
+  )
+VALUES 
+  (
+	'03241',
+	'H',
+	'3',
+	'MARCIA SULLIVAN',
+	'55 SOUTH STREET',
+	'NEW YORK',
+	'NY',
+	'10017',
+	'9345',
+	'44',
+	'30',
+	0,
+	0,
+	0
+  );
+11:41:15.764 LOG       SQLUpdate        Number of updated rows 1
+11:41:15.765 INFO      IterateData      Iteration number 4 started.
+11:41:15.765 LOG       IterateData      Iteration Data:
+<record xmlns="http://www.xact.dk/xatester/v/1">
+  <employee-work-area>
+    <wa-emp-num>01343</wa-emp-num>
+    <wa-emp-type>H</wa-emp-type>
+    <wa-emp-region>3</wa-emp-region>
+    <wa-emp-name>JAMES MORRISON</wa-emp-name>
+    <wa-emp-address>
+      <wa-emp-street>11-A MAPLE AVE</wa-emp-street>
+      <wa-emp-city>SYRACUSE</wa-emp-city>
+      <wa-emp-state>NY</wa-emp-state>
+      <wa-emp-zip>12123</wa-emp-zip>
+    </wa-emp-address>
+    <wa-hourly-employee-data>
+      <wa-emp-hours>37</wa-emp-hours>
+      <wa-emp-rate>27.5</wa-emp-rate>
+      <filler1></filler1>
+    </wa-hourly-employee-data>
+    <wa-emp-hire-date>
+      <wa-emp-hire-yy>91</wa-emp-hire-yy>
+      <wa-emp-hire-mm>9</wa-emp-hire-mm>
+      <wa-emp-hire-dd>13</wa-emp-hire-dd>
+    </wa-emp-hire-date>
+    <filler1></filler1>
+  </employee-work-area>
+</record>
+11:41:15.765 INFO      Variable         Interpreting Variable id:wa_emp_num
+11:41:15.765 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-num']
+11:41:15.791 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-num']
+11:41:15.793 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:15,791 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-num'] 
+
+11:41:15.793 LOG       Expression       Expression evaluated to:01343
+11:41:15.793 LOG       Variable         Resolved data:
+01343
+11:41:15.793 INFO      Variable         Interpreting Variable id:wa_emp_type
+11:41:15.793 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-type']
+11:41:15.819 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-type']
+11:41:15.822 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:15,819 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-type'] 
+
+11:41:15.822 LOG       Expression       Expression evaluated to:H
+11:41:15.822 LOG       Variable         Resolved data:
+H
+11:41:15.823 INFO      Variable         Interpreting Variable id:wa_emp_region
+11:41:15.823 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-region']
+11:41:15.846 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-region']
+11:41:15.848 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:15,846 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-region'] 
+
+11:41:15.848 LOG       Expression       Expression evaluated to:3
+11:41:15.848 LOG       Variable         Resolved data:
+3
+11:41:15.848 INFO      Variable         Interpreting Variable id:wa_emp_name
+11:41:15.848 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-name']
+11:41:15.871 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-name']
+11:41:15.873 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:15,871 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-name'] 
+
+11:41:15.873 LOG       Expression       Expression evaluated to:JAMES MORRISON
+11:41:15.873 LOG       Variable         Resolved data:
+JAMES MORRISON
+11:41:15.873 INFO      Variable         Interpreting Variable id:wa_emp_street
+11:41:15.873 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-street']
+11:41:15.899 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-street']
+11:41:15.900 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:15,899 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-street'] 
+
+11:41:15.901 LOG       Expression       Expression evaluated to:11-A MAPLE AVE
+11:41:15.901 LOG       Variable         Resolved data:
+11-A MAPLE AVE
+11:41:15.901 INFO      Variable         Interpreting Variable id:wa_emp_city
+11:41:15.901 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-city']
+11:41:15.923 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-city']
+11:41:15.925 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:15,923 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-city'] 
+
+11:41:15.925 LOG       Expression       Expression evaluated to:SYRACUSE
+11:41:15.925 LOG       Variable         Resolved data:
+SYRACUSE
+11:41:15.925 INFO      Variable         Interpreting Variable id:wa_emp_state
+11:41:15.925 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-state']
+11:41:15.947 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-state']
+11:41:15.949 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:15,947 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-state'] 
+
+11:41:15.949 LOG       Expression       Expression evaluated to:NY
+11:41:15.949 LOG       Variable         Resolved data:
+NY
+11:41:15.949 INFO      Variable         Interpreting Variable id:wa_emp_zip
+11:41:15.949 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-zip']
+11:41:15.968 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-zip']
+11:41:15.970 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:15,968 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-zip'] 
+
+11:41:15.970 LOG       Expression       Expression evaluated to:12123
+11:41:15.971 LOG       Variable         Resolved data:
+12123
+11:41:15.971 INFO      Variable         Interpreting Variable id:wa_emp_hire_date
+11:41:15.971 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-yy'].concat(
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-mm'],
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-dd']
+)
+11:41:15.994 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-yy'].concat(
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-mm'],
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-dd']
+)
+11:41:15.996 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:15,994 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-yy'].concat(
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-mm'],
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-dd']
+) 
+
+11:41:15.996 LOG       Expression       Expression evaluated to:91913
+11:41:15.997 LOG       Variable         Resolved data:
+91913
+11:41:15.997 INFO      Variable         Interpreting Variable id:wa_emp_hours
+11:41:15.997 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-hours']
+11:41:16.024 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-hours']
+11:41:16.026 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:16,024 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-hours'] 
+
+11:41:16.026 LOG       Expression       Expression evaluated to:37
+11:41:16.026 LOG       Variable         Resolved data:
+37
+11:41:16.026 INFO      Variable         Interpreting Variable id:wa_emp_rate
+11:41:16.026 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-rate']
+11:41:16.049 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-rate']
+11:41:16.051 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:16,049 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-rate'] 
+
+11:41:16.051 LOG       Expression       Expression evaluated to:27.5
+11:41:16.051 LOG       Variable         Resolved data:
+27.5
+11:41:16.051 INFO      SQLUpdate        Interpreting SQL Updating statement
+11:41:16.051 INFO      SQLUpdate        Using database from Environment:DSCCCWCC
+11:41:16.051 LOG       SQLUpdate        SQL statement contained variable, now it has been substituted and the SQL is: 
+INSERT INTO HDDRXM0.KT_DEMOTAB 
+  (
+	EMP_NUM,
+	WAGE_TYPE,
+	REGION,
+	FIRST_LAST_NAME,
+	STREET_ADDR,
+	CITY,
+	STATE,
+	ZIP,
+	HIREDATE,
+	HOURS,
+	RATE,
+	WAGES,
+	OVERTIME,
+	COMM
+  )
+VALUES 
+  (
+	'01343',
+	'H',
+	'3',
+	'JAMES MORRISON',
+	'11-A MAPLE AVE',
+	'SYRACUSE',
+	'NY',
+	'12123',
+	'91913',
+	'37',
+	'27.5',
+	0,
+	0,
+	0
+  );
+11:41:16.051 LOG       SQLUpdate        Establishing connection to database DSCCCWCC
+11:41:16.566 LOG       SQLUpdate        Executing the SQL: INSERT INTO HDDRXM0.KT_DEMOTAB 
+  (
+	EMP_NUM,
+	WAGE_TYPE,
+	REGION,
+	FIRST_LAST_NAME,
+	STREET_ADDR,
+	CITY,
+	STATE,
+	ZIP,
+	HIREDATE,
+	HOURS,
+	RATE,
+	WAGES,
+	OVERTIME,
+	COMM
+  )
+VALUES 
+  (
+	'01343',
+	'H',
+	'3',
+	'JAMES MORRISON',
+	'11-A MAPLE AVE',
+	'SYRACUSE',
+	'NY',
+	'12123',
+	'91913',
+	'37',
+	'27.5',
+	0,
+	0,
+	0
+  );
+11:41:16.850 LOG       SQLUpdate        Number of updated rows 1
+11:41:16.850 INFO      IterateData      Iteration number 5 started.
+11:41:16.850 LOG       IterateData      Iteration Data:
+<record xmlns="http://www.xact.dk/xatester/v/1">
+  <employee-work-area>
+    <wa-emp-num>02171</wa-emp-num>
+    <wa-emp-type>H</wa-emp-type>
+    <wa-emp-region>4</wa-emp-region>
+    <wa-emp-name>SAMUEL ADDAMS</wa-emp-name>
+    <wa-emp-address>
+      <wa-emp-street>900 LINCOLN CT</wa-emp-street>
+      <wa-emp-city>RENO</wa-emp-city>
+      <wa-emp-state>NV</wa-emp-state>
+      <wa-emp-zip>82433</wa-emp-zip>
+    </wa-emp-address>
+    <wa-hourly-employee-data>
+      <wa-emp-hours>42</wa-emp-hours>
+      <wa-emp-rate>27.5</wa-emp-rate>
+      <filler1></filler1>
+    </wa-hourly-employee-data>
+    <wa-emp-hire-date>
+      <wa-emp-hire-yy>86</wa-emp-hire-yy>
+      <wa-emp-hire-mm>1</wa-emp-hire-mm>
+      <wa-emp-hire-dd>2</wa-emp-hire-dd>
+    </wa-emp-hire-date>
+    <filler1></filler1>
+  </employee-work-area>
+</record>
+11:41:16.850 INFO      Variable         Interpreting Variable id:wa_emp_num
+11:41:16.850 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-num']
+11:41:16.874 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-num']
+11:41:16.876 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:16,874 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-num'] 
+
+11:41:16.876 LOG       Expression       Expression evaluated to:02171
+11:41:16.876 LOG       Variable         Resolved data:
+02171
+11:41:16.876 INFO      Variable         Interpreting Variable id:wa_emp_type
+11:41:16.876 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-type']
+11:41:16.898 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-type']
+11:41:16.900 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:16,898 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-type'] 
+
+11:41:16.900 LOG       Expression       Expression evaluated to:H
+11:41:16.900 LOG       Variable         Resolved data:
+H
+11:41:16.900 INFO      Variable         Interpreting Variable id:wa_emp_region
+11:41:16.900 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-region']
+11:41:16.924 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-region']
+11:41:16.926 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:16,924 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-region'] 
+
+11:41:16.926 LOG       Expression       Expression evaluated to:4
+11:41:16.926 LOG       Variable         Resolved data:
+4
+11:41:16.926 INFO      Variable         Interpreting Variable id:wa_emp_name
+11:41:16.926 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-name']
+11:41:16.946 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-name']
+11:41:16.947 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:16,946 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-name'] 
+
+11:41:16.948 LOG       Expression       Expression evaluated to:SAMUEL ADDAMS
+11:41:16.948 LOG       Variable         Resolved data:
+SAMUEL ADDAMS
+11:41:16.948 INFO      Variable         Interpreting Variable id:wa_emp_street
+11:41:16.948 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-street']
+11:41:16.968 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-street']
+11:41:16.970 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:16,968 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-street'] 
+
+11:41:16.970 LOG       Expression       Expression evaluated to:900 LINCOLN CT
+11:41:16.970 LOG       Variable         Resolved data:
+900 LINCOLN CT
+11:41:16.970 INFO      Variable         Interpreting Variable id:wa_emp_city
+11:41:16.970 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-city']
+11:41:16.990 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-city']
+11:41:16.992 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:16,990 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-city'] 
+
+11:41:16.992 LOG       Expression       Expression evaluated to:RENO
+11:41:16.992 LOG       Variable         Resolved data:
+RENO
+11:41:16.992 INFO      Variable         Interpreting Variable id:wa_emp_state
+11:41:16.993 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-state']
+11:41:17.012 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-state']
+11:41:17.014 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:17,013 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-state'] 
+
+11:41:17.014 LOG       Expression       Expression evaluated to:NV
+11:41:17.014 LOG       Variable         Resolved data:
+NV
+11:41:17.014 INFO      Variable         Interpreting Variable id:wa_emp_zip
+11:41:17.014 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-zip']
+11:41:17.035 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-zip']
+11:41:17.036 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:17,035 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-zip'] 
+
+11:41:17.036 LOG       Expression       Expression evaluated to:82433
+11:41:17.036 LOG       Variable         Resolved data:
+82433
+11:41:17.037 INFO      Variable         Interpreting Variable id:wa_emp_hire_date
+11:41:17.037 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-yy'].concat(
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-mm'],
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-dd']
+)
+11:41:17.058 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-yy'].concat(
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-mm'],
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-dd']
+)
+11:41:17.060 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:17,058 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-yy'].concat(
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-mm'],
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-dd']
+) 
+
+11:41:17.060 LOG       Expression       Expression evaluated to:8612
+11:41:17.060 LOG       Variable         Resolved data:
+8612
+11:41:17.060 INFO      Variable         Interpreting Variable id:wa_emp_hours
+11:41:17.060 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-hours']
+11:41:17.079 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-hours']
+11:41:17.080 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:17,079 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-hours'] 
+
+11:41:17.080 LOG       Expression       Expression evaluated to:42
+11:41:17.080 LOG       Variable         Resolved data:
+42
+11:41:17.080 INFO      Variable         Interpreting Variable id:wa_emp_rate
+11:41:17.080 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-rate']
+11:41:17.099 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-rate']
+11:41:17.100 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:17,099 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-rate'] 
+
+11:41:17.100 LOG       Expression       Expression evaluated to:27.5
+11:41:17.100 LOG       Variable         Resolved data:
+27.5
+11:41:17.100 INFO      SQLUpdate        Interpreting SQL Updating statement
+11:41:17.101 INFO      SQLUpdate        Using database from Environment:DSCCCWCC
+11:41:17.101 LOG       SQLUpdate        SQL statement contained variable, now it has been substituted and the SQL is: 
+INSERT INTO HDDRXM0.KT_DEMOTAB 
+  (
+	EMP_NUM,
+	WAGE_TYPE,
+	REGION,
+	FIRST_LAST_NAME,
+	STREET_ADDR,
+	CITY,
+	STATE,
+	ZIP,
+	HIREDATE,
+	HOURS,
+	RATE,
+	WAGES,
+	OVERTIME,
+	COMM
+  )
+VALUES 
+  (
+	'02171',
+	'H',
+	'4',
+	'SAMUEL ADDAMS',
+	'900 LINCOLN CT',
+	'RENO',
+	'NV',
+	'82433',
+	'8612',
+	'42',
+	'27.5',
+	0,
+	0,
+	0
+  );
+11:41:17.101 LOG       SQLUpdate        Establishing connection to database DSCCCWCC
+11:41:17.648 LOG       SQLUpdate        Executing the SQL: INSERT INTO HDDRXM0.KT_DEMOTAB 
+  (
+	EMP_NUM,
+	WAGE_TYPE,
+	REGION,
+	FIRST_LAST_NAME,
+	STREET_ADDR,
+	CITY,
+	STATE,
+	ZIP,
+	HIREDATE,
+	HOURS,
+	RATE,
+	WAGES,
+	OVERTIME,
+	COMM
+  )
+VALUES 
+  (
+	'02171',
+	'H',
+	'4',
+	'SAMUEL ADDAMS',
+	'900 LINCOLN CT',
+	'RENO',
+	'NV',
+	'82433',
+	'8612',
+	'42',
+	'27.5',
+	0,
+	0,
+	0
+  );
+11:41:17.932 LOG       SQLUpdate        Number of updated rows 1
+11:41:17.933 INFO      IterateData      Iteration number 6 started.
+11:41:17.934 LOG       IterateData      Iteration Data:
+<record xmlns="http://www.xact.dk/xatester/v/1">
+  <employee-work-area>
+    <wa-emp-num>02175</wa-emp-num>
+    <wa-emp-type>H</wa-emp-type>
+    <wa-emp-region>2</wa-emp-region>
+    <wa-emp-name>KATIE WILLIAMS</wa-emp-name>
+    <wa-emp-address>
+      <wa-emp-street>123 MAIN ST</wa-emp-street>
+      <wa-emp-city>COLUMBUS</wa-emp-city>
+      <wa-emp-state>OH</wa-emp-state>
+      <wa-emp-zip>43082</wa-emp-zip>
+    </wa-emp-address>
+    <wa-hourly-employee-data>
+      <wa-emp-hours>32</wa-emp-hours>
+      <wa-emp-rate>27.5</wa-emp-rate>
+      <filler1></filler1>
+    </wa-hourly-employee-data>
+    <wa-emp-hire-date>
+      <wa-emp-hire-yy>96</wa-emp-hire-yy>
+      <wa-emp-hire-mm>10</wa-emp-hire-mm>
+      <wa-emp-hire-dd>2</wa-emp-hire-dd>
+    </wa-emp-hire-date>
+    <filler1></filler1>
+  </employee-work-area>
+</record>
+11:41:17.934 INFO      Variable         Interpreting Variable id:wa_emp_num
+11:41:17.934 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-num']
+11:41:17.954 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-num']
+11:41:17.955 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:17,954 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-num'] 
+
+11:41:17.955 LOG       Expression       Expression evaluated to:02175
+11:41:17.955 LOG       Variable         Resolved data:
+02175
+11:41:17.955 INFO      Variable         Interpreting Variable id:wa_emp_type
+11:41:17.956 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-type']
+11:41:18.232 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-type']
+11:41:18.234 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:18,232 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-type'] 
+
+11:41:18.235 LOG       Expression       Expression evaluated to:H
+11:41:18.235 LOG       Variable         Resolved data:
+H
+11:41:18.235 INFO      Variable         Interpreting Variable id:wa_emp_region
+11:41:18.235 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-region']
+11:41:18.251 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-region']
+11:41:18.251 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:18,251 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-region'] 
+
+11:41:18.252 LOG       Expression       Expression evaluated to:2
+11:41:18.252 LOG       Variable         Resolved data:
+2
+11:41:18.252 INFO      Variable         Interpreting Variable id:wa_emp_name
+11:41:18.252 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-name']
+11:41:18.266 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-name']
+11:41:18.267 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:18,266 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-name'] 
+
+11:41:18.267 LOG       Expression       Expression evaluated to:KATIE WILLIAMS
+11:41:18.267 LOG       Variable         Resolved data:
+KATIE WILLIAMS
+11:41:18.267 INFO      Variable         Interpreting Variable id:wa_emp_street
+11:41:18.267 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-street']
+11:41:18.283 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-street']
+11:41:18.285 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:18,283 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-street'] 
+
+11:41:18.285 LOG       Expression       Expression evaluated to:123 MAIN ST
+11:41:18.285 LOG       Variable         Resolved data:
+123 MAIN ST
+11:41:18.285 INFO      Variable         Interpreting Variable id:wa_emp_city
+11:41:18.285 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-city']
+11:41:18.300 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-city']
+11:41:18.301 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:18,300 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-city'] 
+
+11:41:18.301 LOG       Expression       Expression evaluated to:COLUMBUS
+11:41:18.301 LOG       Variable         Resolved data:
+COLUMBUS
+11:41:18.302 INFO      Variable         Interpreting Variable id:wa_emp_state
+11:41:18.302 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-state']
+11:41:18.317 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-state']
+11:41:18.318 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:18,317 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-state'] 
+
+11:41:18.318 LOG       Expression       Expression evaluated to:OH
+11:41:18.318 LOG       Variable         Resolved data:
+OH
+11:41:18.319 INFO      Variable         Interpreting Variable id:wa_emp_zip
+11:41:18.319 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-zip']
+11:41:18.334 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-zip']
+11:41:18.336 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:18,334 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-zip'] 
+
+11:41:18.336 LOG       Expression       Expression evaluated to:43082
+11:41:18.336 LOG       Variable         Resolved data:
+43082
+11:41:18.336 INFO      Variable         Interpreting Variable id:wa_emp_hire_date
+11:41:18.336 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-yy'].concat(
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-mm'],
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-dd']
+)
+11:41:18.351 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-yy'].concat(
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-mm'],
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-dd']
+)
+11:41:18.353 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:18,351 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-yy'].concat(
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-mm'],
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-dd']
+) 
+
+11:41:18.353 LOG       Expression       Expression evaluated to:96102
+11:41:18.353 LOG       Variable         Resolved data:
+96102
+11:41:18.353 INFO      Variable         Interpreting Variable id:wa_emp_hours
+11:41:18.353 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-hours']
+11:41:18.369 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-hours']
+11:41:18.370 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:18,369 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-hours'] 
+
+11:41:18.371 LOG       Expression       Expression evaluated to:32
+11:41:18.371 LOG       Variable         Resolved data:
+32
+11:41:18.371 INFO      Variable         Interpreting Variable id:wa_emp_rate
+11:41:18.371 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-rate']
+11:41:18.385 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-rate']
+11:41:18.387 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:18,385 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-rate'] 
+
+11:41:18.388 LOG       Expression       Expression evaluated to:27.5
+11:41:18.388 LOG       Variable         Resolved data:
+27.5
+11:41:18.388 INFO      SQLUpdate        Interpreting SQL Updating statement
+11:41:18.389 INFO      SQLUpdate        Using database from Environment:DSCCCWCC
+11:41:18.389 LOG       SQLUpdate        SQL statement contained variable, now it has been substituted and the SQL is: 
+INSERT INTO HDDRXM0.KT_DEMOTAB 
+  (
+	EMP_NUM,
+	WAGE_TYPE,
+	REGION,
+	FIRST_LAST_NAME,
+	STREET_ADDR,
+	CITY,
+	STATE,
+	ZIP,
+	HIREDATE,
+	HOURS,
+	RATE,
+	WAGES,
+	OVERTIME,
+	COMM
+  )
+VALUES 
+  (
+	'02175',
+	'H',
+	'2',
+	'KATIE WILLIAMS',
+	'123 MAIN ST',
+	'COLUMBUS',
+	'OH',
+	'43082',
+	'96102',
+	'32',
+	'27.5',
+	0,
+	0,
+	0
+  );
+11:41:18.389 LOG       SQLUpdate        Establishing connection to database DSCCCWCC
+11:41:18.986 LOG       SQLUpdate        Executing the SQL: INSERT INTO HDDRXM0.KT_DEMOTAB 
+  (
+	EMP_NUM,
+	WAGE_TYPE,
+	REGION,
+	FIRST_LAST_NAME,
+	STREET_ADDR,
+	CITY,
+	STATE,
+	ZIP,
+	HIREDATE,
+	HOURS,
+	RATE,
+	WAGES,
+	OVERTIME,
+	COMM
+  )
+VALUES 
+  (
+	'02175',
+	'H',
+	'2',
+	'KATIE WILLIAMS',
+	'123 MAIN ST',
+	'COLUMBUS',
+	'OH',
+	'43082',
+	'96102',
+	'32',
+	'27.5',
+	0,
+	0,
+	0
+  );
+11:41:19.268 LOG       SQLUpdate        Number of updated rows 1
+11:41:19.269 INFO      IterateData      Iteration number 7 started.
+11:41:19.269 LOG       IterateData      Iteration Data:
+<record xmlns="http://www.xact.dk/xatester/v/1">
+  <employee-work-area>
+    <wa-emp-num>59999</wa-emp-num>
+    <wa-emp-type>D</wa-emp-type>
+    <wa-emp-region>3</wa-emp-region>
+    <wa-emp-name>MAX E MILLION</wa-emp-name>
+    <wa-emp-address>
+      <wa-emp-street>100 MAIN STREET</wa-emp-street>
+      <wa-emp-city>MAIN</wa-emp-city>
+      <wa-emp-state>OH</wa-emp-state>
+      <wa-emp-zip>34093</wa-emp-zip>
+    </wa-emp-address>
+    <wa-hourly-employee-data>
+      <wa-emp-hours>88</wa-emp-hours>
+      <wa-emp-rate>25</wa-emp-rate>
+      <filler1></filler1>
+    </wa-hourly-employee-data>
+    <wa-emp-hire-date>
+      <wa-emp-hire-yy>91</wa-emp-hire-yy>
+      <wa-emp-hire-mm>3</wa-emp-hire-mm>
+      <wa-emp-hire-dd>23</wa-emp-hire-dd>
+    </wa-emp-hire-date>
+    <filler1></filler1>
+  </employee-work-area>
+</record>
+11:41:19.269 INFO      Variable         Interpreting Variable id:wa_emp_num
+11:41:19.269 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-num']
+11:41:19.287 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-num']
+11:41:19.289 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:19,287 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-num'] 
+
+11:41:19.289 LOG       Expression       Expression evaluated to:59999
+11:41:19.289 LOG       Variable         Resolved data:
+59999
+11:41:19.290 INFO      Variable         Interpreting Variable id:wa_emp_type
+11:41:19.290 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-type']
+11:41:19.309 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-type']
+11:41:19.311 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:19,309 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-type'] 
+
+11:41:19.311 LOG       Expression       Expression evaluated to:D
+11:41:19.311 LOG       Variable         Resolved data:
+D
+11:41:19.311 INFO      Variable         Interpreting Variable id:wa_emp_region
+11:41:19.311 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-region']
+11:41:19.331 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-region']
+11:41:19.333 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:19,331 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-region'] 
+
+11:41:19.333 LOG       Expression       Expression evaluated to:3
+11:41:19.333 LOG       Variable         Resolved data:
+3
+11:41:19.333 INFO      Variable         Interpreting Variable id:wa_emp_name
+11:41:19.333 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-name']
+11:41:19.351 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-name']
+11:41:19.353 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:19,352 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-name'] 
+
+11:41:19.353 LOG       Expression       Expression evaluated to:MAX E MILLION
+11:41:19.353 LOG       Variable         Resolved data:
+MAX E MILLION
+11:41:19.353 INFO      Variable         Interpreting Variable id:wa_emp_street
+11:41:19.353 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-street']
+11:41:19.368 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-street']
+11:41:19.369 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:19,368 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-street'] 
+
+11:41:19.369 LOG       Expression       Expression evaluated to:100 MAIN STREET
+11:41:19.369 LOG       Variable         Resolved data:
+100 MAIN STREET
+11:41:19.369 INFO      Variable         Interpreting Variable id:wa_emp_city
+11:41:19.369 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-city']
+11:41:19.386 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-city']
+11:41:19.388 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:19,386 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-city'] 
+
+11:41:19.388 LOG       Expression       Expression evaluated to:MAIN
+11:41:19.388 LOG       Variable         Resolved data:
+MAIN
+11:41:19.388 INFO      Variable         Interpreting Variable id:wa_emp_state
+11:41:19.388 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-state']
+11:41:19.403 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-state']
+11:41:19.405 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:19,403 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-state'] 
+
+11:41:19.405 LOG       Expression       Expression evaluated to:OH
+11:41:19.405 LOG       Variable         Resolved data:
+OH
+11:41:19.406 INFO      Variable         Interpreting Variable id:wa_emp_zip
+11:41:19.406 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-zip']
+11:41:19.425 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-zip']
+11:41:19.427 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:19,425 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-zip'] 
+
+11:41:19.427 LOG       Expression       Expression evaluated to:34093
+11:41:19.427 LOG       Variable         Resolved data:
+34093
+11:41:19.427 INFO      Variable         Interpreting Variable id:wa_emp_hire_date
+11:41:19.427 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-yy'].concat(
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-mm'],
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-dd']
+)
+11:41:19.442 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-yy'].concat(
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-mm'],
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-dd']
+)
+11:41:19.444 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:19,442 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-yy'].concat(
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-mm'],
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-dd']
+) 
+
+11:41:19.445 LOG       Expression       Expression evaluated to:91323
+11:41:19.445 LOG       Variable         Resolved data:
+91323
+11:41:19.445 INFO      Variable         Interpreting Variable id:wa_emp_hours
+11:41:19.445 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-hours']
+11:41:19.458 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-hours']
+11:41:19.459 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:19,458 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-hours'] 
+
+11:41:19.459 LOG       Expression       Expression evaluated to:88
+11:41:19.459 LOG       Variable         Resolved data:
+88
+11:41:19.459 INFO      Variable         Interpreting Variable id:wa_emp_rate
+11:41:19.460 INFO      Expression       Interpreting Expression:employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-rate']
+11:41:19.473 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-rate']
+11:41:19.474 INFO      Expression       Comments from JavaScript execution:
+2020-04-08 11:41:19,473 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-rate'] 
+
+11:41:19.474 LOG       Expression       Expression evaluated to:25
+11:41:19.474 LOG       Variable         Resolved data:
+25
+11:41:19.474 INFO      SQLUpdate        Interpreting SQL Updating statement
+11:41:19.474 INFO      SQLUpdate        Using database from Environment:DSCCCWCC
+11:41:19.474 LOG       SQLUpdate        SQL statement contained variable, now it has been substituted and the SQL is: 
+INSERT INTO HDDRXM0.KT_DEMOTAB 
+  (
+	EMP_NUM,
+	WAGE_TYPE,
+	REGION,
+	FIRST_LAST_NAME,
+	STREET_ADDR,
+	CITY,
+	STATE,
+	ZIP,
+	HIREDATE,
+	HOURS,
+	RATE,
+	WAGES,
+	OVERTIME,
+	COMM
+  )
+VALUES 
+  (
+	'59999',
+	'D',
+	'3',
+	'MAX E MILLION',
+	'100 MAIN STREET',
+	'MAIN',
+	'OH',
+	'34093',
+	'91323',
+	'88',
+	'25',
+	0,
+	0,
+	0
+  );
+11:41:19.474 LOG       SQLUpdate        Establishing connection to database DSCCCWCC
+11:41:19.981 LOG       SQLUpdate        Executing the SQL: INSERT INTO HDDRXM0.KT_DEMOTAB 
+  (
+	EMP_NUM,
+	WAGE_TYPE,
+	REGION,
+	FIRST_LAST_NAME,
+	STREET_ADDR,
+	CITY,
+	STATE,
+	ZIP,
+	HIREDATE,
+	HOURS,
+	RATE,
+	WAGES,
+	OVERTIME,
+	COMM
+  )
+VALUES 
+  (
+	'59999',
+	'D',
+	'3',
+	'MAX E MILLION',
+	'100 MAIN STREET',
+	'MAIN',
+	'OH',
+	'34093',
+	'91323',
+	'88',
+	'25',
+	0,
+	0,
+	0
+  );
+11:41:20.262 LOG       SQLUpdate        Number of updated rows 1
+11:41:20.263 INFO      IterateData      IterateData completed
+11:41:20.263 INFO      Scope            Scope completed
+11:41:20.263 INFO      Scope            Interpreting Scope name:Test Execution
+11:41:20.263 INFO      Component        Interpreting Component: CWKTDB2X program:CWKTDB2X
+11:41:20.263 INFO      Component        Using setup JCL for execution
+11:41:20.263 INFO      Component          Variable substitution found in setup JCL, now substituted
+11:41:20.263 INFO      Component          JCL for setup:
+//EMPFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.CWKTDATA.TEST
+//RPTFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE
+//*RPTFILE  DD SYSOUT=*
+11:41:20.263 LOG       CWC2 Batch       Final JCL setup for the component:
+//EMPFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.CWKTDATA.TEST
+//RPTFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE
+//*RPTFILE  DD SYSOUT=*
+
+11:41:20.263 LOG       CWC2 Batch       Component Runtime Settings:
+11:41:20.264 LOG       CWC2 Batch         Load libraries :HDDRXM0.DEMO.CWC2.LOAD.PDSE,HDDRXM0.DEMO.LOAD.PDSE
+11:41:20.264 LOG       CWC2 Batch         Optional main Load library:
+11:41:20.264 LOG       CWC2 Batch         Listing libraries         :
+11:41:20.264 LOG       CWC2 Batch         SysDebug libraries        :
+11:41:20.264 LOG       CWC2 Batch         DB2 Subsystem ID          :DSC2
+11:41:20.264 LOG       CWC2 Batch         DB2 plan                  :RXNKTDB2
+11:41:20.264 LOG       CWC2 Batch         Call interface            :NONE
+11:41:20.264 LOG       CWC2 Batch         Debugger type             :NONE
+11:41:20.264 LOG       CWC2 Batch         Component type            :COBOL
+11:41:20.264 INFO      CWC2 Batch       Sending Module execution request to Host for module:CWKTDB2X rollback:false
+11:41:20.909 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/be2ab34c66e849ff8581198373ea22b8
+11:41:21.194 LOG       CWC2 Batch       Uploading input data for module CWKTDB2X
+11:41:22.224 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan>RXNKTDB2</db2plan><db2id>DSC2</db2id><rollback>false</rollback><jobdirectory>be2ab34c66e849ff8581198373ea22b8</jobdirectory><amode24>false</amode24><members><membername>CWKTDB2X</membername></members><loads><mainload>HDDRXM0.DEMO.CWC2.LOAD.PDSE</mainload><load>HDDRXM0.DEMO.LOAD.PDSE</load></loads><codepage>1047</codepage><lang>COBOL</lang><refs><ref>//EMPFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.CWKTDATA.TEST</ref><ref>//RPTFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE</ref><ref>//*RPTFILE  DD SYSOUT=*</ref></refs></xatz_request></XATZREQ>
+11:41:22.481 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0855518</jobid><jobname>HDDRXM0E</jobname><starttime>20200408054122429</starttime></xatz_response></XATZRESP>
+11:41:22.482 LOG       HCIClient        Response received from Host. Message: JobId:J0855518
+11:41:22.482 INFO      HCIClient        Job has been started at host with JobId:J0855518
+11:41:22.483 INFO      CWC2 Batch       Waiting for Execution Result from Host
+11:41:25.887 INFO      CWC2 Batch       Component completed with program exit: +0
+11:41:26.032 LOG       CWC2 Batch       Setting execution variable 'jobid' to J0855518
+11:41:26.032 LOG       CWC2 Batch       Setting execution variable 'jobname' to HDDRXM0E
+11:41:26.032 LOG       CWC2 Batch       Setting execution variable 'programexit' to 0
+11:41:26.177 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+11:41:26.181 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+11:41:26.181 INFO      Component        Finished interpreting Component: CWKTDB2X program:CWKTDB2X
+11:41:26.181 INFO      Scope            Scope completed
+11:41:26.181 COMMENT   Engine           Test Scenario execution ended

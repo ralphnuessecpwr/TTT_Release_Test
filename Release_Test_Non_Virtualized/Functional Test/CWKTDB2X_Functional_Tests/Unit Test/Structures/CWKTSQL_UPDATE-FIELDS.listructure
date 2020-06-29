@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.2.1.v20200322-0318_101?>
+<!--Topaz for Total Test 20.2.1.v20200322-0318_101 Apr 2, 2020 1:01:18 PM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/CWKTSQL_UPDATE-FIELDS.listructure">
+  <listructure:struct id="UPDATE_FIELDS" name="UPDATE_FIELDS">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">12</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">12</properties:property>
+    </properties:properties>
+    <listructure:number id="UPDATE_FIELDS.EMP_WAGES" length="7" name="EMP_WAGES">
+      <properties:properties>
+        <properties:property name="picture" type="string">9(5)V99</properties:property>
+        <properties:property name="usage" type="string">computational-3</properties:property>
+        <properties:property name="scale" type="number">2</properties:property>
+        <properties:property name="displayLength" type="number">7</properties:property>
+        <properties:property name="integerDigits" type="number">5</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">packed</properties:property>
+        <properties:property name="storageLength" type="number">4</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:number id="UPDATE_FIELDS.EMP_COMMISSION" length="7" name="EMP_COMMISSION">
+      <properties:properties>
+        <properties:property name="picture" type="string">9(5)V99</properties:property>
+        <properties:property name="usage" type="string">computational-3</properties:property>
+        <properties:property name="scale" type="number">2</properties:property>
+        <properties:property name="displayLength" type="number">7</properties:property>
+        <properties:property name="integerDigits" type="number">5</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">packed</properties:property>
+        <properties:property name="storageLength" type="number">4</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:number id="UPDATE_FIELDS.OT_AMOUNT" length="7" name="OT_AMOUNT">
+      <properties:properties>
+        <properties:property name="picture" type="string">9(5)V99</properties:property>
+        <properties:property name="usage" type="string">computational-3</properties:property>
+        <properties:property name="scale" type="number">2</properties:property>
+        <properties:property name="displayLength" type="number">7</properties:property>
+        <properties:property name="integerDigits" type="number">5</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">packed</properties:property>
+        <properties:property name="storageLength" type="number">4</properties:property>
+      </properties:properties>
+    </listructure:number>
+  </listructure:struct>
+</listructure:listructure>

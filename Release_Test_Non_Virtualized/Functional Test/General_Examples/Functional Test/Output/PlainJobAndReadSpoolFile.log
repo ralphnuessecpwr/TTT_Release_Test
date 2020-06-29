@@ -1,0 +1,50 @@
+12:49:50.623 COMMENT   Engine           Test Scenario execution started
+12:49:50.623 INFO      Engine           Using context settings:
+  Engine Version       : 20.3
+  Environment id                : 5e7a190fcf655a12a4d4df4d
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwc2.nasa.cpwr.corp
+  Server port                   : 16196
+  Job execution timeout seconds : 300
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+  Use Repository Server         : false
+12:49:50.623 INFO      Engine           Setting variables from context and context data extensions
+12:49:50.623 INFO      Engine             id: environmentId      value: 5e7a190fcf655a12a4d4df4d
+12:49:50.623 INFO      Engine             id: environmentType    value: BATCH
+12:49:50.623 INFO      Engine             id: userId             value: HDDRXM0
+12:49:50.623 INFO      Engine             id: accountingInfo     value: 
+12:49:50.624 INFO      Job              Interpreting JOB: Job
+12:49:50.624 LOG       Job              Job definition to be executed:
+//HDDRXM0X JOB ('EUDD,INTL'),'NUESSE',NOTIFY=&SYSUID,      
+//             MSGLEVEL=(1,1),MSGCLASS=X,CLASS=A,REGION=6M 
+/*JOBPARM S=CWCC 
+// JCLLIB ORDER=('HDDRXM0.DEMO.JCL')                                           
+//STEP1  EXEC CWXTPROC
+//STEP2  EXEC CWXTPROC
+12:49:50.624 INFO      CWC2 Batch       Sending Job execution request to Host 
+12:49:50.624 LOG       CWC2 Batch       Executing Job through HCI
+12:49:51.783 LOG       CWC2 Batch       Job submitted with jobId: J0884819 jobName:HDDRXM0X
+12:50:14.678 INFO      CWC2 Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0X(J0884819) ended with return code: 0000
+  Job name       : HDDRXM0X
+  Job id         : J0884819
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:50:14.678 LOG       CWC2 Batch       Setting execution variable 'jobid' to J0884819
+12:50:14.679 LOG       CWC2 Batch       Setting execution variable 'jobname' to HDDRXM0X
+12:50:14.679 LOG       CWC2 Batch       Setting execution variable 'returncode' to 0000
+12:50:14.679 INFO      Job              Successfully executed job: Job
+12:50:14.679 INFO      SpoolFile        Interpreting SpoolFile element
+12:50:14.679 INFO      SpoolFile        Interpreting SpoolFile with jobId: J0884819 jobNameHDDRXM0X DD name: RPTFILE step name: STEP2
+12:50:14.680 LOG       CWC2 Batch       Looking for spool file with stepName:STEP2 dd:RPTFILE procStep:
+12:50:15.372 ERROR     Engine           Unable to extract the spool file with DD name:RPTFILE from step name:STEP2 for job J0884819 from the host. No spool file found
+12:50:15.372 ERROR     Engine           An error occurred. Now stopping the execution.
+12:50:15.372 COMMENT   Engine           Test Scenario execution ended

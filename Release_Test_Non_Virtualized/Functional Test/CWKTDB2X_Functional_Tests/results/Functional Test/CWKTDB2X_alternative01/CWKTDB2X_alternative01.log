@@ -1,0 +1,188 @@
+09:56:24.219 COMMENT   Engine           Test Scenario execution started
+09:56:24.219 INFO      Engine           Using context settings:
+  Engine Version       : 20.2
+  Environment id                : 5e7a190fcf655a12a4d4df4d
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwc2.nasa.cpwr.corp
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : hddrxm0
+  Use Repository Server         : true
+09:56:24.219 INFO      Engine           Setting variables from context and context data extensions
+09:56:24.219 INFO      Engine             id: environmentId      value: 5e7a190fcf655a12a4d4df4d
+09:56:24.219 INFO      Engine             id: environmentType    value: BATCH
+09:56:24.219 INFO      Engine             id: userId             value: HDDRXM0
+09:56:24.219 INFO      Engine             id: accountingInfo     value: 
+09:56:24.220 INFO      Job              Interpreting JOB: Load DB2
+09:56:24.221 INFO      Job              The Job in File/Dataset HDDRXM0.DEMO.CWC2.UTIL.JCL(LODKTBEF) will be executed
+09:56:24.221 INFO      CWC2 Batch       Sending Job execution request to Host 
+09:56:24.221 LOG       CWC2 Batch       Executing Job through HCI
+09:56:24.221 LOG       CWC2 Batch       Submitting job from dataset: HDDRXM0.DEMO.CWC2.UTIL.JCL member:LODKTBEF
+09:56:24.587 LOG       CWC2 Batch       Job submitted with jobId: J0870337 jobName:HDDRXM0L
+09:56:29.856 INFO      CWC2 Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0L(J0870337) ended with return code: 0000
+  Job name       : HDDRXM0L
+  Job id         : J0870337
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+09:56:29.856 LOG       CWC2 Batch       Setting execution variable 'jobid' to J0870337
+09:56:29.856 LOG       CWC2 Batch       Setting execution variable 'jobname' to HDDRXM0L
+09:56:29.856 LOG       CWC2 Batch       Setting execution variable 'returncode' to 0000
+09:56:29.856 INFO      Job              Successfully executed job: Load DB2
+09:56:29.856 INFO      Component        Interpreting Component: CWKTDB2X program:CWKTDB2X
+09:56:29.856 INFO      Component        Using setup JCL for execution
+09:56:29.856 INFO      Component          JCL for setup:
+//EMPFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.CWKTDATA
+//RPTFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE
+//*RPTFILE  DD SYSOUT=*
+09:56:33.288 LOG       Component        Created MBF record for DB2(IKJEFT01) as main program. JOB: HDDRXM0E STEP XATEST
+09:56:33.290 LOG       CWC2 Batch       Final JCL setup for the component:
+//EMPFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.CWKTDATA
+//RPTFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE
+//*RPTFILE  DD SYSOUT=*
+
+09:56:33.291 LOG       CWC2 Batch       Component Runtime Settings:
+09:56:33.291 LOG       CWC2 Batch         Load libraries :HDDRXM0.DEMO.CWC2.LOAD.PDSE,HDDRXM0.DEMO.LOAD.PDSE
+09:56:33.291 LOG       CWC2 Batch         Optional main Load library:
+09:56:33.291 LOG       CWC2 Batch         Listing libraries         :
+09:56:33.291 LOG       CWC2 Batch         SysDebug libraries        :
+09:56:33.292 LOG       CWC2 Batch         DB2 Subsystem ID          :DSC2
+09:56:33.292 LOG       CWC2 Batch         DB2 plan                  :RXNKTDB2
+09:56:33.292 LOG       CWC2 Batch         Call interface            :NONE
+09:56:33.292 LOG       CWC2 Batch         Debugger type             :CCEXPEDITER
+09:56:33.292 LOG       CWC2 Batch         Component type            :COBOL
+09:56:33.293 INFO      CWC2 Batch       Sending Module execution request to Host for module:CWKTDB2X rollback:false
+09:56:34.026 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/4bacf38620154b0681ce3365bbfa3834
+09:56:35.137 LOG       CWC2 Batch       Uploading input data for module CWKTDB2X
+09:56:38.105 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan>RXNKTDB2</db2plan><db2id>DSC2</db2id><rollback>false</rollback><jobdirectory>4bacf38620154b0681ce3365bbfa3834</jobdirectory><amode24>false</amode24><members><membername>CWKTDB2X</membername></members><loads><mainload>HDDRXM0.DEMO.CWC2.LOAD.PDSE</mainload><load>HDDRXM0.DEMO.LOAD.PDSE</load></loads><codepage>1047</codepage><lang>COBOL</lang><refs><ref>//EMPFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.CWKTDATA</ref><ref>//RPTFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE</ref><ref>//*RPTFILE  DD SYSOUT=*</ref></refs></xatz_request></XATZREQ>
+09:56:38.674 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0870338</jobid><jobname>HDDRXM0E</jobname><starttime>20200518035638628</starttime></xatz_response></XATZRESP>
+09:56:38.675 LOG       HCIClient        Response received from Host. Message: JobId:J0870338
+09:56:38.675 INFO      HCIClient        Job has been started at host with JobId:J0870338
+09:56:38.675 INFO      CWC2 Batch       Waiting for Execution Result from Host
+09:56:42.205 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0870338</jobid></xatz_request></XATZREQ>
+09:56:42.853 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>HDDRXM0E</name><status>ACTIVE</status><returncode>           </returncode><steps></steps></job></responsedata></xatz_response></XATZRESP>
+09:56:42.855 LOG       HCIClient        Response received from Host. Message:Job information successfully returned JobId:
+09:56:46.810 INFO      CWC2 Batch       Component completed with program exit: +0
+09:56:47.275 LOG       CWC2 Batch       Setting execution variable 'jobid' to J0870338
+09:56:47.276 LOG       CWC2 Batch       Setting execution variable 'jobname' to HDDRXM0E
+09:56:47.276 LOG       CWC2 Batch       Setting execution variable 'programexit' to 0
+09:56:47.709 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+09:56:47.750 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+09:56:47.751 INFO      Component        Finished interpreting Component: CWKTDB2X program:CWKTDB2X
+09:56:47.752 VERIFY    ExpectedData     VerificationResult : DataItem: /parminfo/grand-total. Actual value is different from expected. Actual value: 9080.0 Expected: 7160.0. Actual value:9080. Expected value:7160
+09:56:47.752 VERIFY    Engine           Component name:CWKTDB2X contains data that where not verified correctly
+09:56:47.752 INFO      Job              Interpreting JOB: Extract DB2
+09:56:47.752 INFO      Job              The Job in File/Dataset HDDRXM0.DEMO.CWC2.UTIL.JCL(EXTKTAFT) will be executed
+09:56:47.753 INFO      CWC2 Batch       Sending Job execution request to Host 
+09:56:48.683 LOG       CWC2 Batch       Executing Job through HCI
+09:56:48.683 LOG       CWC2 Batch       Submitting job from dataset: HDDRXM0.DEMO.CWC2.UTIL.JCL member:EXTKTAFT
+09:56:49.188 LOG       CWC2 Batch       Job submitted with jobId: J0870340 jobName:HDDRXM0E
+09:56:50.471 INFO      CWC2 Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0870340) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0870340
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+09:56:50.471 LOG       CWC2 Batch       Setting execution variable 'jobid' to J0870340
+09:56:50.471 LOG       CWC2 Batch       Setting execution variable 'jobname' to HDDRXM0E
+09:56:50.471 LOG       CWC2 Batch       Setting execution variable 'returncode' to 0000
+09:56:50.472 INFO      Job              Successfully executed job: Extract DB2
+09:56:50.472 INFO      FileAIDCompare   Executing File-AID Compare element with assertions:
+09:56:50.472 INFO      FileAIDCompare     Assert on changed records : true
+09:56:50.472 INFO      FileAIDCompare     Assert on inserted records: true
+09:56:50.472 INFO      FileAIDCompare     Assert on deleted records : true
+09:56:50.472 LOG       FileAIDCompare   Job definition to be executed:
+//FASTEP   EXEC PGM=FILEAID,REGION=08M
+//STEPLIB  DD DISP=SHR,DSN=SYS2.CW.VJR17Y.CXVJLOAD
+//         DD DISP=SHR,DSN=SYS2.CW.VJR17Y.SXVJLOAD
+//SYSPRINT DD  SYSOUT=*
+//SYSLIST  DD  SYSOUT=*
+//DD01     DD  DSN=HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE.EXPECT,
+//             DISP=SHR
+//DD01C    DD  DSN=HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE,
+//             DISP=SHR
+//DD01CP   DD  DSN=HDDRXM0.DEMO.FA.COMPCRIT(CWXTCOB),
+//             DISP=SHR                              
+//DD01RL   DD  DSN=HDDRXM0.DEMO.COPY,
+//             DISP=SHR
+//DD01XR   DD  DSN=HDDRXM0.DEMO.XREF(RPTFILE),
+//             DISP=SHR
+//SYSIN    DD  *
+$$DD01 COMPARE
+/*
+09:56:50.473 INFO      CWC2 Batch       Sending Job execution request to Host 
+09:56:51.114 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/2badfaf33e254cab90156f4029939e36
+09:56:53.640 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><jobname>FILEAIDC</jobname><runtime>JOB</runtime><refs file="HDDRXM0.XAJCL.A70DCABA.REFS" /></xatz_request></XATZREQ>
+09:56:53.838 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0870341</jobid><jobname>FILEAIDC</jobname><starttime>20200518035653791</starttime></xatz_response></XATZRESP>
+09:56:53.840 LOG       HCIClient        Response received from Host. Message: JobId:J0870341
+09:56:53.840 INFO      HCIClient        Job has been started at host with JobId:J0870341
+09:56:53.841 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0870341</jobid></xatz_request></XATZREQ>
+09:56:54.184 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0016</resultcode><resultmessage>XATZJINF error 1504: Job not found      </resultmessage><jobid /></xatz_response></XATZRESP>
+09:56:54.184 LOG       HCIClient        Response received from Host. Message:XATZJINF error 1504: Job not found JobId:
+09:56:54.185 WARNING   CWC2 Batch       Unable to get job information from host. Server responded with an error. Message: XATZJINF error 1504: Job not found ReturnCode:0016
+09:56:57.187 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0870341</jobid></xatz_request></XATZREQ>
+09:56:57.618 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>FILEAIDC</name><status>OUTPUT</status><returncode>CC=0000    </returncode><steps><step><id>J0870341</id><name>JES2    </name><procstep>        </procstep><ddname>JESMSGLG</ddname><linect>   21</linect><lrecl>  133</lrecl><dsname>HDDRXM0.FILEAIDC.J0870341.D0000002.JESMSGLG </dsname></step><step><id>J0870341</id><name>JES2    </name><procstep>        </procstep><ddname>JESJCL  </ddname><linect>   33</linect><lrecl>  136</lrecl><dsname>HDDRXM0.FILEAIDC.J0870341.D0000003.JESJCL   </dsname></step><step><id>J0870341</id><name>JES2    </name><procstep>        </procstep><ddname>JESYSMSG</ddname><linect>   48</linect><lrecl>  137</lrecl><dsname>HDDRXM0.FILEAIDC.J0870341.D0000004.JESYSMSG </dsname></step><step><id>J0870341</id><name>FASTEP  </name><procstep>        </procstep><ddname>SYSPRINT</ddname><linect>   88</linect><lrecl>  133</lrecl><dsname>HDDRXM0.FILEAIDC.J0870341.D0000103.?        </dsname></step><step><id>J0870341</id><name>FASTEP  </name><procstep>        </procstep><ddname>SYSLIST </ddname><linect>  144</linect><lrecl>  133</lrecl><dsname>HDDRXM0.FILEAIDC.J0870341.D0000104.?        </dsname></step></steps></job></responsedata></xatz_response></XATZRESP>
+09:56:57.619 LOG       HCIClient        Response received from Host. Message:Job information successfully returned JobId:
+09:56:57.620 INFO      CWC2 Batch       Job has completed, JobId:J0870341
+09:56:57.621 LOG       CWC2 Batch       Setting execution variable 'jobid' to J0870341
+09:56:57.622 LOG       CWC2 Batch       Setting execution variable 'jobname' to FILEAIDC
+09:56:57.624 LOG       FileAIDCompare   File-AID Job submitted with jobID: J0870341
+09:56:57.624 LOG       FileAIDCompare   Retrieving File-AID compare result from spool file DD:SYSLIST, STEP: FASTEP...
+09:56:58.228 LOG       CWC2 Batch       Looking for spool file with stepName:FASTEP dd:SYSLIST procStep:
+09:56:59.099 ERROR     FileAIDCompare   Number of records changed: 1. We now set the test scenario to failed
+09:56:59.099 INFO      FileAIDCompare   Executing File-AID Compare element with assertions:
+09:56:59.099 INFO      FileAIDCompare     Assert on changed records : true
+09:56:59.099 INFO      FileAIDCompare     Assert on inserted records: true
+09:56:59.099 INFO      FileAIDCompare     Assert on deleted records : true
+09:56:59.099 LOG       FileAIDCompare   Job definition to be executed:
+//FASTEP   EXEC PGM=FILEAID,REGION=08M
+//STEPLIB  DD DISP=SHR,DSN=SYS2.CW.VJR17Z.CXVJLOAD
+//         DD DISP=SHR,DSN=SYS2.CW.VJR17Z.SXVJLOAD
+//SYSPRINT DD  SYSOUT=*
+//SYSLIST  DD  SYSOUT=*,DCB=(LRECL=183,BLKSIZE=1830)
+//DD01     DD  DSN=HDDRXM0.DEMO.CWC2.KTDEMO.EXTRACT.EXPECT,
+//             DISP=SHR
+//DD01C    DD  DSN=HDDRXM0.DEMO.CWC2.KTDEMO.EXTRACT.ACT,
+//             DISP=SHR
+//DD01CP   DD  DSN=HDDRXM0.DEMO.FA.COMPCRIT(KTDEMOTB),
+//             DISP=SHR
+//DD01RL   DD  DSN=HDDRXM0.DEMO.COPY,
+//             DISP=SHR
+//DD01XR   DD  DSN=HDDRXM0.DEMO.XREF(KTDEMTB),
+//             DISP=SHR
+//SYSIN    DD  *
+$$DD01 COMPARE
+/*
+//
+09:56:59.099 INFO      CWC2 Batch       Sending Job execution request to Host 
+09:56:59.235 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/7548345976814ae0bc3f29558a77286d
+09:57:01.023 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><jobname>FILEAIDC</jobname><runtime>JOB</runtime><refs file="HDDRXM0.XAJCL.A43DB087.REFS" /></xatz_request></XATZREQ>
+09:57:01.439 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0870342</jobid><jobname>FILEAIDC</jobname><starttime>20200518035701391</starttime></xatz_response></XATZRESP>
+09:57:01.440 LOG       HCIClient        Response received from Host. Message: JobId:J0870342
+09:57:01.440 INFO      HCIClient        Job has been started at host with JobId:J0870342
+09:57:01.441 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0870342</jobid></xatz_request></XATZREQ>
+09:57:01.894 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0016</resultcode><resultmessage>XATZJINF error 1504: Job not found      </resultmessage><jobid /></xatz_response></XATZRESP>
+09:57:01.895 LOG       HCIClient        Response received from Host. Message:XATZJINF error 1504: Job not found JobId:
+09:57:01.895 WARNING   CWC2 Batch       Unable to get job information from host. Server responded with an error. Message: XATZJINF error 1504: Job not found ReturnCode:0016
+09:57:04.896 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0870342</jobid></xatz_request></XATZREQ>
+09:57:05.163 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>FILEAIDC</name><status>OUTPUT</status><returncode>CC=0000    </returncode><steps><step><id>J0870342</id><name>JES2    </name><procstep>        </procstep><ddname>JESMSGLG</ddname><linect>   20</linect><lrecl>  133</lrecl><dsname>HDDRXM0.FILEAIDC.J0870342.D0000002.JESMSGLG </dsname></step><step><id>J0870342</id><name>JES2    </name><procstep>        </procstep><ddname>JESJCL  </ddname><linect>   25</linect><lrecl>  136</lrecl><dsname>HDDRXM0.FILEAIDC.J0870342.D0000003.JESJCL   </dsname></step><step><id>J0870342</id><name>JES2    </name><procstep>        </procstep><ddname>JESYSMSG</ddname><linect>   36</linect><lrecl>  137</lrecl><dsname>HDDRXM0.FILEAIDC.J0870342.D0000004.JESYSMSG </dsname></step><step><id>J0870342</id><name>FASTEP  </name><procstep>        </procstep><ddname>SYSPRINT</ddname><linect>   64</linect><lrecl>  133</lrecl><dsname>HDDRXM0.FILEAIDC.J0870342.D0000103.?        </dsname></step><step><id>J0870342</id><name>FASTEP  </name><procstep>        </procstep><ddname>SYSLIST </ddname><linect>  126</linect><lrecl>  183</lrecl><dsname>HDDRXM0.FILEAIDC.J0870342.D0000104.?        </dsname></step></steps></job></responsedata></xatz_response></XATZRESP>
+09:57:05.163 LOG       HCIClient        Response received from Host. Message:Job information successfully returned JobId:
+09:57:05.164 INFO      CWC2 Batch       Job has completed, JobId:J0870342
+09:57:05.164 LOG       CWC2 Batch       Setting execution variable 'jobid' to J0870342
+09:57:05.164 LOG       CWC2 Batch       Setting execution variable 'jobname' to FILEAIDC
+09:57:05.165 LOG       FileAIDCompare   File-AID Job submitted with jobID: J0870342
+09:57:05.165 LOG       FileAIDCompare   Retrieving File-AID compare result from spool file DD:SYSLIST, STEP: FASTEP...
+09:57:05.775 LOG       CWC2 Batch       Looking for spool file with stepName:FASTEP dd:SYSLIST procStep:
+09:57:06.582 INFO      FileAIDCompare   Number of records changed: 0
+09:57:06.583 ERROR     FileAIDCompare   Number of records inserted: 1. We now set the test scenario to failed
+09:57:06.583 COMMENT   Engine           Test Scenario execution ended

@@ -1,0 +1,33 @@
+10:49:26.819 COMMENT   Engine           Test Scenario execution started
+10:49:26.820 INFO      Engine           Using context settings:
+  Engine Version       : 20.2
+  Environment id                : 5e7a190fcf655a12a4d4df4d
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwc2.nasa.cpwr.corp
+  Server port                   : 16196
+  Job execution timeout seconds : 300
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : hddrxm0
+  Use Repository Server         : true
+10:49:26.820 INFO      Engine           Setting variables from context and context data extensions
+10:49:26.820 INFO      Engine             id: environmentId      value: 5e7a190fcf655a12a4d4df4d
+10:49:26.820 INFO      Engine             id: environmentType    value: BATCH
+10:49:26.820 INFO      Engine             id: userId             value: HDDRXM0
+10:49:26.820 INFO      Engine             id: accountingInfo     value: 
+10:49:26.820 INFO      SQLSelect        Interpreting SQLSelect id:id statement: SELECT EMP_NUM,  WAGE_TYPE,  REGION,  FIRST_LAST_NAME,  STREET_ADDR,  CITY,  STATE,  ZIP,  HIREDATE,  HOURS,  RATE,  WAGES,  OVERTIME,  COMM
+ FROM HDDRXM0.KT_DEMOTAB
+10:49:26.820 INFO      SQLSelect        Using database from Environment:DSCCCWCC
+10:49:26.821 LOG       SQLSelect        Establishing connection to database DSCCCWCC
+10:49:30.133 LOG       SQLSelect        Preparing the SQL statement: SELECT EMP_NUM,  WAGE_TYPE,  REGION,  FIRST_LAST_NAME,  STREET_ADDR,  CITY,  STATE,  ZIP,  HIREDATE,  HOURS,  RATE,  WAGES,  OVERTIME,  COMM
+ FROM HDDRXM0.KT_DEMOTAB
+10:49:30.156 LOG       SQLSelect        Setting max rows to: 20
+10:49:30.156 LOG       SQLSelect        Setting up the SQL statement with parameters
+10:49:30.156 LOG       SQLSelect        Executing the SQL statement
+10:49:31.007 LOG       SQLSelect        Handling the SQL result
+10:49:31.009 INFO      SQLSelect        Finished SQLSelect. Number of rows selected:7
+10:49:31.009 COMMENT   Engine           Test Scenario execution ended

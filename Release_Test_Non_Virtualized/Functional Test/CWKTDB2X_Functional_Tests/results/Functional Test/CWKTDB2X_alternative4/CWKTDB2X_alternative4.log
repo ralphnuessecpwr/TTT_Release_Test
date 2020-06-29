@@ -1,0 +1,260 @@
+11:50:57.169 COMMENT   Engine           Test Scenario execution started
+11:50:57.169 INFO      Engine           Using context settings:
+  Engine Version       : 20.2
+  Environment id                : 5e7a190fcf655a12a4d4df4d
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwc2.nasa.cpwr.corp
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : hddrxm0
+  Use Repository Server         : true
+11:50:57.169 INFO      Engine           Setting variables from context and context data extensions
+11:50:57.169 INFO      Engine             id: environmentId      value: 5e7a190fcf655a12a4d4df4d
+11:50:57.169 INFO      Engine             id: environmentType    value: BATCH
+11:50:57.170 INFO      Engine             id: userId             value: HDDRXM0
+11:50:57.170 INFO      Engine             id: accountingInfo     value: 
+11:50:57.170 INFO      Variable         Interpreting Variable id:employeeRecords dataFile:Data/employee_records.xml
+11:50:57.171 LOG       Variable         Resolved data items from file Data/employee_records.xml
+<record>
+  <employee-work-area>
+    <wa-emp-num>3431</wa-emp-num>
+    <wa-emp-type>H</wa-emp-type>
+    <wa-emp-region>2</wa-emp-region>
+    <wa-emp-name>GAIL LAWRENCE</wa-emp-name>
+    <wa-emp-address>
+      <wa-emp-street>123 NORTH AVE</wa-emp-street>
+      <wa-emp-city>PLANO</wa-emp-city>
+      <wa-emp-state>TX</wa-emp-state>
+      <wa-emp-zip>57010</wa-emp-zip>
+    </wa-emp-address>
+    <wa-hourly-employee-data>
+      <wa-emp-hours>38</wa-emp-hours>
+      <wa-emp-rate>25</wa-emp-rate>
+      <filler1></filler1>
+    </wa-hourly-employee-data>
+    <wa-emp-hire-date>
+      <wa-emp-hire-yy>84</wa-emp-hire-yy>
+      <wa-emp-hire-mm>6</wa-emp-hire-mm>
+      <wa-emp-hire-dd>25</wa-emp-hire-dd>
+    </wa-emp-hire-date>
+    <filler1></filler1>
+  </employee-work-area>
+</record>
+<record>
+  <employee-work-area>
+    <wa-emp-num>2523</wa-emp-num>
+    <wa-emp-type>H</wa-emp-type>
+    <wa-emp-region>1</wa-emp-region>
+    <wa-emp-name>JOHN SMITH</wa-emp-name>
+    <wa-emp-address>
+      <wa-emp-street>5456 ELM STREET</wa-emp-street>
+      <wa-emp-city>WAYNE</wa-emp-city>
+      <wa-emp-state>IL</wa-emp-state>
+      <wa-emp-zip>77902</wa-emp-zip>
+    </wa-emp-address>
+    <wa-hourly-employee-data>
+      <wa-emp-hours>30</wa-emp-hours>
+      <wa-emp-rate>25</wa-emp-rate>
+      <filler1></filler1>
+    </wa-hourly-employee-data>
+    <wa-emp-hire-date>
+      <wa-emp-hire-yy>81</wa-emp-hire-yy>
+      <wa-emp-hire-mm>10</wa-emp-hire-mm>
+      <wa-emp-hire-dd>15</wa-emp-hire-dd>
+    </wa-emp-hire-date>
+    <filler1></filler1>
+  </employee-work-area>
+</record>
+<record>
+  <employee-work-area>
+    <wa-emp-num>1568</wa-emp-num>
+    <wa-emp-type>H</wa-emp-type>
+    <wa-emp-region>4</wa-emp-region>
+    <wa-emp-name>THOMAS LONG</wa-emp-name>
+    <wa-emp-address>
+      <wa-emp-street>12 RACE STREET</wa-emp-street>
+      <wa-emp-city>SAN JOSE</wa-emp-city>
+      <wa-emp-state>CA</wa-emp-state>
+      <wa-emp-zip>95126</wa-emp-zip>
+    </wa-emp-address>
+    <wa-hourly-employee-data>
+      <wa-emp-hours>40</wa-emp-hours>
+      <wa-emp-rate>25</wa-emp-rate>
+      <filler1></filler1>
+    </wa-hourly-employee-data>
+    <wa-emp-hire-date>
+      <wa-emp-hire-yy>87</wa-emp-hire-yy>
+      <wa-emp-hire-mm>3</wa-emp-hire-mm>
+      <wa-emp-hire-dd>31</wa-emp-hire-dd>
+    </wa-emp-hire-date>
+    <filler1></filler1>
+  </employee-work-area>
+</record>
+<record>
+  <employee-work-area>
+    <wa-emp-num>3241</wa-emp-num>
+    <wa-emp-type>H</wa-emp-type>
+    <wa-emp-region>3</wa-emp-region>
+    <wa-emp-name>MARCIA SULLIVAN</wa-emp-name>
+    <wa-emp-address>
+      <wa-emp-street>55 SOUTH STREET</wa-emp-street>
+      <wa-emp-city>NEW YORK</wa-emp-city>
+      <wa-emp-state>NY</wa-emp-state>
+      <wa-emp-zip>10017</wa-emp-zip>
+    </wa-emp-address>
+    <wa-hourly-employee-data>
+      <wa-emp-hours>44</wa-emp-hours>
+      <wa-emp-rate>30</wa-emp-rate>
+      <filler1></filler1>
+    </wa-hourly-employee-data>
+    <wa-emp-hire-date>
+      <wa-emp-hire-yy>93</wa-emp-hire-yy>
+      <wa-emp-hire-mm>4</wa-emp-hire-mm>
+      <wa-emp-hire-dd>5</wa-emp-hire-dd>
+    </wa-emp-hire-date>
+    <filler1></filler1>
+  </employee-work-area>
+</record>
+<record>
+  <employee-work-area>
+    <wa-emp-num>1343</wa-emp-num>
+    <wa-emp-type>H</wa-emp-type>
+    <wa-emp-region>3</wa-emp-region>
+    <wa-emp-name>JAMES MORRISON</wa-emp-name>
+    <wa-emp-address>
+      <wa-emp-street>11-A MAPLE AVE</wa-emp-street>
+      <wa-emp-city>SYRACUSE</wa-emp-city>
+      <wa-emp-state>NY</wa-emp-state>
+      <wa-emp-zip>12123</wa-emp-zip>
+    </wa-emp-address>
+    <wa-hourly-employee-data>
+      <wa-emp-hours>37</wa-emp-hours>
+      <wa-emp-rate>27.5</wa-emp-rate>
+      <filler1></filler1>
+    </wa-hourly-employee-data>
+    <wa-emp-hire-date>
+      <wa-emp-hire-yy>91</wa-emp-hire-yy>
+      <wa-emp-hire-mm>9</wa-emp-hire-mm>
+      <wa-emp-hire-dd>13</wa-emp-hire-dd>
+    </wa-emp-hire-date>
+    <filler1></filler1>
+  </employee-work-area>
+</record>
+<record>
+  <employee-work-area>
+    <wa-emp-num>2171</wa-emp-num>
+    <wa-emp-type>H</wa-emp-type>
+    <wa-emp-region>4</wa-emp-region>
+    <wa-emp-name>SAMUEL ADDAMS</wa-emp-name>
+    <wa-emp-address>
+      <wa-emp-street>900 LINCOLN CT</wa-emp-street>
+      <wa-emp-city>RENO</wa-emp-city>
+      <wa-emp-state>NV</wa-emp-state>
+      <wa-emp-zip>82433</wa-emp-zip>
+    </wa-emp-address>
+    <wa-hourly-employee-data>
+      <wa-emp-hours>42</wa-emp-hours>
+      <wa-emp-rate>27.5</wa-emp-rate>
+      <filler1></filler1>
+    </wa-hourly-employee-data>
+    <wa-emp-hire-date>
+      <wa-emp-hire-yy>86</wa-emp-hire-yy>
+      <wa-emp-hire-mm>1</wa-emp-hire-mm>
+      <wa-emp-hire-dd>2</wa-emp-hire-dd>
+    </wa-emp-hire-date>
+    <filler1></filler1>
+  </employee-work-area>
+</record>
+<record>
+  <employee-work-area>
+    <wa-emp-num>2175</wa-emp-num>
+    <wa-emp-type>H</wa-emp-type>
+    <wa-emp-region>2</wa-emp-region>
+    <wa-emp-name>KATIE WILLIAMS</wa-emp-name>
+    <wa-emp-address>
+      <wa-emp-street>123 MAIN ST</wa-emp-street>
+      <wa-emp-city>COLUMBUS</wa-emp-city>
+      <wa-emp-state>OH</wa-emp-state>
+      <wa-emp-zip>43082</wa-emp-zip>
+    </wa-emp-address>
+    <wa-hourly-employee-data>
+      <wa-emp-hours>32</wa-emp-hours>
+      <wa-emp-rate>27.5</wa-emp-rate>
+      <filler1></filler1>
+    </wa-hourly-employee-data>
+    <wa-emp-hire-date>
+      <wa-emp-hire-yy>96</wa-emp-hire-yy>
+      <wa-emp-hire-mm>10</wa-emp-hire-mm>
+      <wa-emp-hire-dd>2</wa-emp-hire-dd>
+    </wa-emp-hire-date>
+    <filler1></filler1>
+  </employee-work-area>
+</record>
+<record>
+  <employee-work-area>
+    <wa-emp-num>59999</wa-emp-num>
+    <wa-emp-type>D</wa-emp-type>
+    <wa-emp-region>3</wa-emp-region>
+    <wa-emp-name>MAX E MILLION</wa-emp-name>
+    <wa-emp-address>
+      <wa-emp-street>100 MAIN STREET</wa-emp-street>
+      <wa-emp-city>MAIN</wa-emp-city>
+      <wa-emp-state>OH</wa-emp-state>
+      <wa-emp-zip>34093</wa-emp-zip>
+    </wa-emp-address>
+    <wa-hourly-employee-data>
+      <wa-emp-hours>88</wa-emp-hours>
+      <wa-emp-rate>25</wa-emp-rate>
+      <filler1></filler1>
+    </wa-hourly-employee-data>
+    <wa-emp-hire-date>
+      <wa-emp-hire-yy>91</wa-emp-hire-yy>
+      <wa-emp-hire-mm>3</wa-emp-hire-mm>
+      <wa-emp-hire-dd>23</wa-emp-hire-dd>
+    </wa-emp-hire-date>
+    <filler1></filler1>
+  </employee-work-area>
+</record>
+11:50:57.171 INFO      Scope            Interpreting Scope name:Scope
+11:50:57.171 WARNING   Scope            Scope element is disabled
+11:50:57.171 INFO      IterateData      Interpreting IterateData id: loopThroughEmployeeRecords. Number of data iterations: 8. Variable loopThroughEmployeeRecordsIndex contains iteration number
+11:50:57.171 INFO      IterateData      Iteration number 0 started.
+11:50:57.171 LOG       IterateData      Iteration Data:
+<record xmlns="http://www.xact.dk/xatester/v/1">
+  <employee-work-area>
+    <wa-emp-num>3431</wa-emp-num>
+    <wa-emp-type>H</wa-emp-type>
+    <wa-emp-region>2</wa-emp-region>
+    <wa-emp-name>GAIL LAWRENCE</wa-emp-name>
+    <wa-emp-address>
+      <wa-emp-street>123 NORTH AVE</wa-emp-street>
+      <wa-emp-city>PLANO</wa-emp-city>
+      <wa-emp-state>TX</wa-emp-state>
+      <wa-emp-zip>57010</wa-emp-zip>
+    </wa-emp-address>
+    <wa-hourly-employee-data>
+      <wa-emp-hours>38</wa-emp-hours>
+      <wa-emp-rate>25</wa-emp-rate>
+      <filler1></filler1>
+    </wa-hourly-employee-data>
+    <wa-emp-hire-date>
+      <wa-emp-hire-yy>84</wa-emp-hire-yy>
+      <wa-emp-hire-mm>6</wa-emp-hire-mm>
+      <wa-emp-hire-dd>25</wa-emp-hire-dd>
+    </wa-emp-hire-date>
+    <filler1></filler1>
+  </employee-work-area>
+</record>
+11:50:57.171 INFO      SQLUpdate        Interpreting SQL Updating statement
+11:50:57.171 INFO      SQLUpdate        Using database from Environment:DSCCCWCC
+11:50:57.172 ERROR     Engine           SQL contains variable that cannot be substituted
+11:50:57.172 ERROR     Engine           An error occurred. Now stopping the execution.
+11:50:57.172 ERROR     IterateData      Iteration unexpectedly stopped. Child component failed.
+11:50:57.172 INFO      IterateData      IterateData completed
+11:50:57.172 COMMENT   Engine           Test Scenario execution ended

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200620-0334_96?>
+<!--Topaz for Total Test 20.3.1.v20200620-0334_96 Jun 29, 2020 12:39:10 PM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/TRISPT_TYPE-OF-TRIANGLE.listructure">
+  <listructure:struct id="TYPE_OF_TRIANGLE" name="TYPE_OF_TRIANGLE">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">1</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">1</properties:property>
+    </properties:properties>
+    <listructure:number id="TYPE_OF_TRIANGLE.TYPE_OF_TRIANGLE" length="1" name="TYPE_OF_TRIANGLE">
+      <properties:properties>
+        <properties:property name="picture" type="string">9</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="integerDigits" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">zoned</properties:property>
+        <properties:property name="mask" type="string">9</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+      </properties:properties>
+    </listructure:number>
+  </listructure:struct>
+</listructure:listructure>
