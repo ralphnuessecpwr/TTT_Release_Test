@@ -1,5 +1,5 @@
-12:51:40.782 COMMENT   Engine           Test Scenario execution started
-12:51:40.782 INFO      Engine           Using context settings:
+10:38:22.100 COMMENT   Engine           Test Scenario execution started
+10:38:22.100 INFO      Engine           Using context settings:
   Engine Version       : 20.3
   Environment id                : 5e7a190fcf655a12a4d4df4d
   Environment type              : Batch
@@ -14,36 +14,36 @@
   Codepage                      : IBM-1047
   Host user Id                  : HDDRXM0
   Use Repository Server         : false
-12:51:40.782 INFO      Engine           Setting variables from context and context data extensions
-12:51:40.782 INFO      Engine             id: environmentId      value: 5e7a190fcf655a12a4d4df4d
-12:51:40.782 INFO      Engine             id: environmentType    value: BATCH
-12:51:40.782 INFO      Engine             id: userId             value: HDDRXM0
-12:51:40.783 INFO      Engine             id: accountingInfo     value: 
-12:51:40.783 INFO      Job              Interpreting JOB: Job
-12:51:40.783 LOG       Job              Job definition to be executed:
-//HDDRXM0J JOB ('EUDD,INTL'),'NUESSE',NOTIFY=&SYSUID,      
-//             MSGLEVEL=(1,1),MSGCLASS=X,CLASS=A,REGION=6M 
-/*JOBPARM S=CWCC                                           
-//STEP1  EXEC PGM=CWXTCOB,PARM=00001                       
-//STEPLIB DD DISP=SHR,DSN=SALESSUP.RXN3.DEV1.LOAD          
-//        DD DISP=SHR,DSN=SALESSUP.RXN3.QA1.LOAD           
-//        DD DISP=SHR,DSN=SALESSUP.RXN3.STG.LOAD           
-//        DD DISP=SHR,DSN=SALESSUP.RXN3.PRD.LOAD           
+10:38:22.100 INFO      Engine           Setting variables from context and context data extensions
+10:38:22.100 INFO      Engine             id: environmentId      value: 5e7a190fcf655a12a4d4df4d
+10:38:22.100 INFO      Engine             id: environmentType    value: BATCH
+10:38:22.100 INFO      Engine             id: userId             value: HDDRXM0
+10:38:22.100 INFO      Engine             id: accountingInfo     value: 
+10:38:22.101 INFO      Job              Interpreting JOB: Job
+10:38:22.101 LOG       Job              Job definition to be executed:
+//HDDRXM0J JOB ('EUDD,INTL'),'NUESSE',NOTIFY=&SYSUID,
+//             MSGLEVEL=(1,1),MSGCLASS=X,CLASS=A,REGION=6M
+/*JOBPARM S=CWC2
+//STEP1  EXEC PGM=CWXTCOB,PARM=00001
+//STEPLIB DD DISP=SHR,DSN=SALESSUP.RXN3.DEV1.LOAD
+//        DD DISP=SHR,DSN=SALESSUP.RXN3.QA1.LOAD
+//        DD DISP=SHR,DSN=SALESSUP.RXN3.STG.LOAD
+//        DD DISP=SHR,DSN=SALESSUP.RXN3.PRD.LOAD
 //EMPFILE  DD  DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA
 //RPTFILE  DD  SYSOUT=*
-//SYSUDUMP DD  SYSOUT=*                                    
+//SYSUDUMP DD  SYSOUT=*
 //SYSOUT   DD  SYSOUT=*
-12:51:40.783 INFO      CWC2 Batch       Sending Job execution request to Host 
-12:51:40.784 LOG       CWC2 Batch       Executing Job through HCI
-12:51:41.286 LOG       CWC2 Batch       Job submitted with jobId: J0884820 jobName:HDDRXM0J
-12:51:55.565 INFO      CWC2 Batch       Job execution completed with status:
+10:38:22.103 INFO      CWC2 Batch       Sending Job execution request to Host 
+10:38:22.105 LOG       CWC2 Batch       Executing Job through HCI
+10:38:22.277 LOG       CWC2 Batch       Job submitted with jobId: J0889557 jobName:HDDRXM0J
+10:38:27.463 INFO      CWC2 Batch       Job execution completed with status:
   Job status     : ABEND
-  Job status msg : Job HDDRXM0J(J0884820) ended with ABEND code: S0C7
+  Job status msg : Job HDDRXM0J(J0889557) ended with ABEND code: S0C7
   Job name       : HDDRXM0J
-  Job id         : J0884820
+  Job id         : J0889557
   Return code    : 
   Abend code     : S0C7
   Abend reason   : U0000
-12:51:55.565 ERROR     Engine           It was not possible to start the Job with name Job. Unable to execute the job definition at the host. Job abended
-12:51:55.565 ERROR     Engine           An error occurred. Now stopping the execution.
-12:51:55.565 COMMENT   Engine           Test Scenario execution ended
+10:38:27.463 ERROR     Engine           It was not possible to start the Job with name Job. Unable to execute the job definition at the host. Job abended
+10:38:27.463 ERROR     Engine           An error occurred. Now stopping the execution.
+10:38:27.463 COMMENT   Engine           Test Scenario execution ended

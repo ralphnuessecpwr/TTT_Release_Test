@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1">
   <Test>
-    <Job name="Job">
-      <Content><![CDATA[//HDDRXM0X JOB ('EUDD,INTL'),'NUESSE',NOTIFY=&SYSUID,      
-//             MSGLEVEL=(1,1),MSGCLASS=X,CLASS=A,REGION=6M 
-/*JOBPARM S=CWCC 
-// JCLLIB ORDER=('HDDRXM0.DEMO.JCL')                                           
-//STEP1  EXEC CWXTPROC
-//STEP2  EXEC CWXTPROC]]></Content>
+    <Job name="Job" jobLocation="JOBDEFINITION">
+      <Content><![CDATA[//HDDRXM0J JOB ('EUDD,INTL'),'NUESSE',NOTIFY=&SYSUID,
+//             MSGLEVEL=(1,1),MSGCLASS=X,CLASS=A,REGION=6M
+/*JOBPARM S=CWC2
+//STEP1  EXEC PGM=CWXTCOB,PARM=00003
+//STEPLIB DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.LOAD.PDSE
+//EMPFILE  DD  DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA
+//RPTFILE  DD  SYSOUT=*
+//SYSUDUMP DD  SYSOUT=*
+//SYSOUT   DD  SYSOUT=*]]></Content>
     </Job>
-    <SpoolFile ddname="RPTFILE" stepname="STEP2" ashex="false" id="spoolId" />
+    <SpoolFile ddname="RPTFILE" stepname="STEP1" ashex="false" id="spoolId" />
     <Verify name="Verify" haltExecution="false">
       <Statement><![CDATA[spoolId.indexOf('EMPLOYEE COMPENSATION REPORT') != -1]]></Statement>
     </Verify>

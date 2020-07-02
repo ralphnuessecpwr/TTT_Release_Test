@@ -1,0 +1,46 @@
+12:43:35.799 COMMENT   Engine           Test Scenario execution started
+12:43:35.799 INFO      Engine           Using context settings:
+  Engine Version       : 20.3
+  Environment id                : 5e7a190fcf655a12a4d4df4d
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwc2.nasa.cpwr.corp
+  Server port                   : 16196
+  Job execution timeout seconds : 300
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+  Use Repository Server         : false
+12:43:35.799 INFO      Engine           Setting variables from context and context data extensions
+12:43:35.799 INFO      Engine             id: environmentId      value: 5e7a190fcf655a12a4d4df4d
+12:43:35.799 INFO      Engine             id: environmentType    value: BATCH
+12:43:35.799 INFO      Engine             id: userId             value: HDDRXM0
+12:43:35.800 INFO      Engine             id: accountingInfo     value: 
+12:43:35.800 INFO      Job              Interpreting JOB: TestJob
+12:43:35.800 LOG       Job              Job definition to be executed:
+//HDDRXM0J JOB ('EUDD,INTL'),'NUESSE',NOTIFY=&SYSUID,
+//             MSGLEVEL=(1,1),MSGCLASS=X,CLASS=A,REGION=6M
+/*JOBPARM S=CWC2
+//STEP1  EXEC PGM=CWXTCOB,PARM=00001
+//STEPLIB DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.LOAD.PDSE
+//EMPFILE  DD  DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA
+//RPTFILE  DD  SYSOUT=*
+//SYSUDUMP DD  SYSOUT=*
+//SYSOUT   DD  SYSOUT=*
+12:43:35.800 INFO      CWC2 Batch       Sending Job execution request to Host 
+12:43:35.801 LOG       CWC2 Batch       Executing Job through HCI
+12:43:36.126 LOG       CWC2 Batch       Job submitted with jobId: J0887774 jobName:HDDRXM0J
+12:43:41.279 INFO      CWC2 Batch       Job execution completed with status:
+  Job status     : ABEND
+  Job status msg : Job HDDRXM0J(J0887774) ended with ABEND code: S0C7
+  Job name       : HDDRXM0J
+  Job id         : J0887774
+  Return code    : 
+  Abend code     : S0C7
+  Abend reason   : U0000
+12:43:41.280 ERROR     Engine           It was not possible to start the Job with name TestJob. Unable to execute the job definition at the host. Job abended
+12:43:41.281 ERROR     Engine           An error occurred. Now stopping the execution.
+12:43:41.281 COMMENT   Engine           Test Scenario execution ended

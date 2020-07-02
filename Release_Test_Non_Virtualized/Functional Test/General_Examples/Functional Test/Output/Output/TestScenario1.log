@@ -1,0 +1,46 @@
+12:34:06.681 COMMENT   Engine           Test Scenario execution started
+12:34:06.681 INFO      Engine           Using context settings:
+  Engine Version       : 20.3
+  Environment id                : 5e7a190fcf655a12a4d4df4d
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwc2.nasa.cpwr.corp
+  Server port                   : 16196
+  Job execution timeout seconds : 300
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+  Use Repository Server         : false
+12:34:06.681 INFO      Engine           Setting variables from context and context data extensions
+12:34:06.681 INFO      Engine             id: environmentId      value: 5e7a190fcf655a12a4d4df4d
+12:34:06.682 INFO      Engine             id: environmentType    value: BATCH
+12:34:06.682 INFO      Engine             id: userId             value: HDDRXM0
+12:34:06.682 INFO      Engine             id: accountingInfo     value: 
+12:34:06.682 INFO      Job              Interpreting JOB: Job
+12:34:06.683 LOG       Job              Job definition to be executed:
+//HDDRXM0F JOB ('EUDD,INTL'),'NUESSE',NOTIFY=&SYSUID,      
+//             MSGLEVEL=(1,1),MSGCLASS=X,CLASS=A,REGION=6M 
+/*JOBPARM S=CWC2                                           
+//STEP1  EXEC PGM=CWXTCOB,PARM=00001                       
+//STEPLIB DD DISP=SHR,DSN=HDDRXM0.DEMO.LOAD.PDSE
+//EMPFILE  DD  DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA
+//RPTFILE  DD  SYSOUT=*
+//SYSUDUMP DD  SYSOUT=*                                    
+//SYSOUT   DD  SYSOUT=*
+12:34:06.683 INFO      CWC2 Batch       Sending Job execution request to Host 
+12:34:06.683 LOG       CWC2 Batch       Executing Job through HCI
+12:34:06.846 LOG       CWC2 Batch       Job submitted with jobId: J0887770 jobName:HDDRXM0F
+12:34:07.137 INFO      CWC2 Batch       Job execution completed with status:
+  Job status     : JCLERROR
+  Job status msg : Job HDDRXM0F(J0887770) ended with JCL error, check JES output.
+  Job name       : HDDRXM0F
+  Job id         : J0887770
+  Return code    : JCL ERROR
+  Abend code     : 
+  Abend reason   : 
+12:34:07.137 ERROR     Engine           It was not possible to start the Job with name Job. Unable to execute the job definition at the host. Job stopped with JCL error
+12:34:07.137 ERROR     Engine           An error occurred. Now stopping the execution.
+12:34:07.137 COMMENT   Engine           Test Scenario execution ended
