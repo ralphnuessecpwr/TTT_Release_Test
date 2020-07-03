@@ -1,0 +1,24 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?totaltestVersion 20.2.1.v20200322-0318_101?>
+<!--Topaz for Total Test 20.2.1.v20200322-0318_101 Mar 31, 2020 1:56:57 PM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/CWKTSQL_STRLEN_FIRST-LAST-NAME-LEN.listructure">
+  <listructure:struct id="FIRST_LAST_NAME_LEN" name="FIRST_LAST_NAME_LEN">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">2</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">2</properties:property>
+    </properties:properties>
+    <listructure:number id="FIRST_LAST_NAME_LEN.FIRST_LAST_NAME_LEN" length="4" name="FIRST_LAST_NAME_LEN">
+      <properties:properties>
+        <properties:property name="picture" type="string">S9(4)</properties:property>
+        <properties:property name="usage" type="string">computational</properties:property>
+        <properties:property name="signed" type="boolean">true</properties:property>
+        <properties:property name="displayLength" type="number">4</properties:property>
+        <properties:property name="integerDigits" type="number">4</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">binary</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+      </properties:properties>
+    </listructure:number>
+  </listructure:struct>
+</listructure:listructure>

@@ -1,0 +1,14 @@
+
+***************** Output from TTTRUNNR *****************
+
+ STTR043I Initializing simulation environment for: COBOL V4
+ STTR043I Initializing simulation environment for: COBOL V5
+ STTR011I totaltest zTargetRunner v170200 on 2020-07-03 08:34.53��������������������������������������
+ STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
+ STTR013I Processing test suite LGACDB01_Scenario1
+ STTR014I Processing test scenario LGACDB01_Scenario1
+ STTR028I Processing test case LGACDB01Case1
+ STTR006I Executing target LGACDB01����������������������������������������������������
+ CEE3250C The system or user abend U 901 R=NULL     was issued.
+          From compile unit LGACDB01 at entry point LGACDB01 at compile unit offset +0000133A at entry offset +0000133A
+           at address 3964135A.

@@ -1,0 +1,31 @@
+
+***************** Output from TTTRUNNR *****************
+
+ STTR043I Initializing simulation environment for: COBOL V4
+ STTR043I Initializing simulation environment for: COBOL V5
+ STTR011I totaltest zTargetRunner v170200 on 2020-07-03 08:34.01��������������������������������������
+ STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
+ STTR013I Processing test suite CWKTSQL
+ STTR014I Processing test scenario CWKTSQL_Delete_Scenario
+ STTR028I Processing test case CWKTSQLCase1
+ STTR006I Executing target CWKT~L������������������������������������������������������
+ STTR014I Processing test scenario CWKTSQL_Insert_Scenario
+ STTR028I Processing test case CWKTSQLCase2
+ STTR006I Executing target CWKT~L������������������������������������������������������
+ STTR028I Processing test case CWKTSQLCase1
+ STTR006I Executing target CWKTSQL#����������������������������������������������������
+ STTR014I Processing test scenario CWKTSQL_Select_Scenario
+ STTR028I Processing test case CWKTSQLCase2
+ STTR006I Executing target CWKTSQL#����������������������������������������������������
+ STTR028I Processing test case CWKTSQLCase1
+ STTR006I Executing target CWKTSQL#����������������������������������������������������
+ STTR028I Processing test case CWKTSQLCase2
+ STTR006I Executing target CWKTSQL#����������������������������������������������������
+ STTR014I Processing test scenario CWKTSQL_Update_Scenario
+ STTR028I Processing test case CWKTSQLCase3
+ STTR006I Executing target CWKTSQL#����������������������������������������������������
+ STTR028I Processing test case CWKTSQLCase1
+ STTR006I Executing target CWKT~L������������������������������������������������������
+ STTR028I Processing test case CWKTSQLCase2
+ STTR006I Executing target CWKT~L������������������������������������������������������
+ STTR008I All targets successfully executed

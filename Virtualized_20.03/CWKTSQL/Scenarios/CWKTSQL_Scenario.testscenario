@@ -4,7 +4,7 @@
   <testscenario:testcases>
     <testscenario:testcase alias="" csect="CWKTSQL" encoding="1047" entrypoint="CWKTSQL#C" id="Unit%20Test/Scenarios/CWKTSQL_Scenario.testscenario%23CWKTSQLCase1" target="CWKTSQL">
       <testcase:description></testcase:description>
-      <testcase:ddio>HDDRXM0.DEMO.CWC2.LOAD.PDSE</testcase:ddio>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
       <testcase:targetCaptureCompileTime>1593058177000</testcase:targetCaptureCompileTime>
       <testcase:interface>../Interfaces/CWKTSQL.interface#Unit%20Test/Interfaces/CWKTSQL.interface</testcase:interface>
@@ -70,7 +70,7 @@
     </testscenario:testcase>
     <testscenario:testcase alias="" csect="CWKTSQL" encoding="1047" entrypoint="CWKT~L" id="Unit%20Test/Scenarios/CWKTSQL_Scenario.testscenario%23CWKTSQLCase2" target="CWKTSQL">
       <testcase:description></testcase:description>
-      <testcase:ddio>HDDRXM0.DEMO.CWC2.LOAD.PDSE</testcase:ddio>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
       <testcase:targetCaptureCompileTime>1593058177000</testcase:targetCaptureCompileTime>
       <testcase:interface>../Interfaces/CWKTSQL.interface#Unit%20Test/Interfaces/CWKTSQL.interface</testcase:interface>
@@ -136,7 +136,7 @@
     </testscenario:testcase>
     <testscenario:testcase alias="" csect="CWKTSQL" encoding="1047" entrypoint="CWKT~L" id="Unit%20Test/Scenarios/CWKTSQL_Scenario.testscenario%23CWKTSQLCase3" target="CWKTSQL">
       <testcase:description></testcase:description>
-      <testcase:ddio>HDDRXM0.DEMO.CWC2.LOAD.PDSE</testcase:ddio>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
       <testcase:targetCaptureCompileTime>1593058177000</testcase:targetCaptureCompileTime>
       <testcase:interface>../Interfaces/CWKTSQL.interface#Unit%20Test/Interfaces/CWKTSQL.interface</testcase:interface>
@@ -202,7 +202,7 @@
     </testscenario:testcase>
     <testscenario:testcase alias="" csect="CWKTSQL" encoding="1047" entrypoint="CWKT~L" id="Unit%20Test/Scenarios/CWKTSQL_Scenario.testscenario%23CWKTSQLCase4" target="CWKTSQL">
       <testcase:description></testcase:description>
-      <testcase:ddio>HDDRXM0.DEMO.CWC2.LOAD.PDSE</testcase:ddio>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
       <testcase:targetCaptureCompileTime>1593058177000</testcase:targetCaptureCompileTime>
       <testcase:interface>../Interfaces/CWKTSQL.interface#Unit%20Test/Interfaces/CWKTSQL.interface</testcase:interface>
@@ -268,7 +268,7 @@
     </testscenario:testcase>
     <testscenario:testcase alias="" csect="CWKTSQL" encoding="1047" entrypoint="CWKT~L" id="Unit%20Test/Scenarios/CWKTSQL_Scenario.testscenario%23CWKTSQLCase5" target="CWKTSQL">
       <testcase:description></testcase:description>
-      <testcase:ddio>HDDRXM0.DEMO.CWC2.LOAD.PDSE</testcase:ddio>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
       <testcase:targetCaptureCompileTime>1593058177000</testcase:targetCaptureCompileTime>
       <testcase:interface>../Interfaces/CWKTSQL.interface#Unit%20Test/Interfaces/CWKTSQL.interface</testcase:interface>
@@ -334,7 +334,7 @@
     </testscenario:testcase>
     <testscenario:testcase alias="" csect="CWKTSQL" encoding="1047" entrypoint="CWKT~L" id="Unit%20Test/Scenarios/CWKTSQL_Scenario.testscenario%23CWKTSQLCase6" target="CWKTSQL">
       <testcase:description></testcase:description>
-      <testcase:ddio>HDDRXM0.DEMO.CWC2.LOAD.PDSE</testcase:ddio>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
       <testcase:targetCaptureCompileTime>1593058177000</testcase:targetCaptureCompileTime>
       <testcase:interface>../Interfaces/CWKTSQL.interface#Unit%20Test/Interfaces/CWKTSQL.interface</testcase:interface>
@@ -400,7 +400,7 @@
     </testscenario:testcase>
     <testscenario:testcase alias="" csect="CWKTSQL" encoding="1047" entrypoint="CWKT~L" id="Unit%20Test/Scenarios/CWKTSQL_Scenario.testscenario%23CWKTSQLCase7" target="CWKTSQL">
       <testcase:description></testcase:description>
-      <testcase:ddio>HDDRXM0.DEMO.CWC2.LOAD.PDSE</testcase:ddio>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
       <testcase:targetCaptureCompileTime>1593058177000</testcase:targetCaptureCompileTime>
       <testcase:interface>../Interfaces/CWKTSQL.interface#Unit%20Test/Interfaces/CWKTSQL.interface</testcase:interface>
@@ -466,7 +466,7 @@
     </testscenario:testcase>
     <testscenario:testcase alias="" csect="CWKTSQL" encoding="1047" entrypoint="CWKT~L" id="Unit%20Test/Scenarios/CWKTSQL_Scenario.testscenario%23CWKTSQLCase8" target="CWKTSQL">
       <testcase:description></testcase:description>
-      <testcase:ddio>HDDRXM0.DEMO.CWC2.LOAD.PDSE</testcase:ddio>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
       <testcase:targetCaptureCompileTime>1593058177000</testcase:targetCaptureCompileTime>
       <testcase:interface>../Interfaces/CWKTSQL.interface#Unit%20Test/Interfaces/CWKTSQL.interface</testcase:interface>
@@ -532,7 +532,7 @@
     </testscenario:testcase>
     <testscenario:testcase alias="" csect="CWKTSQL" encoding="1047" entrypoint="CWKT~L" id="Unit%20Test/Scenarios/CWKTSQL_Scenario.testscenario%23CWKTSQLCase9" target="CWKTSQL">
       <testcase:description></testcase:description>
-      <testcase:ddio>HDDRXM0.DEMO.CWC2.LOAD.PDSE</testcase:ddio>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
       <testcase:targetCaptureCompileTime>1593058177000</testcase:targetCaptureCompileTime>
       <testcase:interface>../Interfaces/CWKTSQL.interface#Unit%20Test/Interfaces/CWKTSQL.interface</testcase:interface>
@@ -598,7 +598,7 @@
     </testscenario:testcase>
     <testscenario:testcase alias="" csect="CWKTSQL" encoding="1047" entrypoint="CWKT~L" id="Unit%20Test/Scenarios/CWKTSQL_Scenario.testscenario%23CWKTSQLCase10" target="CWKTSQL">
       <testcase:description></testcase:description>
-      <testcase:ddio>HDDRXM0.DEMO.CWC2.LOAD.PDSE</testcase:ddio>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
       <testcase:targetCaptureCompileTime>1593058177000</testcase:targetCaptureCompileTime>
       <testcase:interface>../Interfaces/CWKTSQL.interface#Unit%20Test/Interfaces/CWKTSQL.interface</testcase:interface>
@@ -664,7 +664,7 @@
     </testscenario:testcase>
     <testscenario:testcase alias="" csect="CWKTSQL" encoding="1047" entrypoint="CWKT~L" id="Unit%20Test/Scenarios/CWKTSQL_Scenario.testscenario%23CWKTSQLCase11" target="CWKTSQL">
       <testcase:description></testcase:description>
-      <testcase:ddio>HDDRXM0.DEMO.CWC2.LOAD.PDSE</testcase:ddio>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
       <testcase:targetCaptureCompileTime>1593058177000</testcase:targetCaptureCompileTime>
       <testcase:interface>../Interfaces/CWKTSQL.interface#Unit%20Test/Interfaces/CWKTSQL.interface</testcase:interface>
@@ -730,7 +730,7 @@
     </testscenario:testcase>
     <testscenario:testcase alias="" csect="CWKTSQL" encoding="1047" entrypoint="CWKT~L" id="Unit%20Test/Scenarios/CWKTSQL_Scenario.testscenario%23CWKTSQLCase12" target="CWKTSQL">
       <testcase:description></testcase:description>
-      <testcase:ddio>HDDRXM0.DEMO.CWC2.LOAD.PDSE</testcase:ddio>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
       <testcase:targetCaptureCompileTime>1593058177000</testcase:targetCaptureCompileTime>
       <testcase:interface>../Interfaces/CWKTSQL.interface#Unit%20Test/Interfaces/CWKTSQL.interface</testcase:interface>
@@ -796,7 +796,7 @@
     </testscenario:testcase>
     <testscenario:testcase alias="" csect="CWKTSQL" encoding="1047" entrypoint="CWKT~L" id="Unit%20Test/Scenarios/CWKTSQL_Scenario.testscenario%23CWKTSQLCase13" target="CWKTSQL">
       <testcase:description></testcase:description>
-      <testcase:ddio>HDDRXM0.DEMO.CWC2.LOAD.PDSE</testcase:ddio>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
       <testcase:targetCaptureCompileTime>1593058177000</testcase:targetCaptureCompileTime>
       <testcase:interface>../Interfaces/CWKTSQL.interface#Unit%20Test/Interfaces/CWKTSQL.interface</testcase:interface>
@@ -862,7 +862,7 @@
     </testscenario:testcase>
     <testscenario:testcase alias="" csect="CWKTSQL" encoding="1047" entrypoint="CWKT~L" id="Unit%20Test/Scenarios/CWKTSQL_Scenario.testscenario%23CWKTSQLCase14" target="CWKTSQL">
       <testcase:description></testcase:description>
-      <testcase:ddio>HDDRXM0.DEMO.CWC2.LOAD.PDSE</testcase:ddio>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
       <testcase:targetCaptureCompileTime>1593058177000</testcase:targetCaptureCompileTime>
       <testcase:interface>../Interfaces/CWKTSQL.interface#Unit%20Test/Interfaces/CWKTSQL.interface</testcase:interface>
@@ -928,7 +928,7 @@
     </testscenario:testcase>
     <testscenario:testcase alias="" csect="CWKTSQL" encoding="1047" entrypoint="CWKT~L" id="Unit%20Test/Scenarios/CWKTSQL_Scenario.testscenario%23CWKTSQLCase15" target="CWKTSQL">
       <testcase:description></testcase:description>
-      <testcase:ddio>HDDRXM0.DEMO.CWC2.LOAD.PDSE</testcase:ddio>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
       <testcase:targetCaptureCompileTime>1593058177000</testcase:targetCaptureCompileTime>
       <testcase:interface>../Interfaces/CWKTSQL.interface#Unit%20Test/Interfaces/CWKTSQL.interface</testcase:interface>

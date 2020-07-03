@@ -1,0 +1,124 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/CWKTSQL_STRLEN_01.stub" stubtype="Program" target="STRLEN" token="30000">
+  <properties:properties>
+    <properties:property name="programtype" type="string">ProgramStubAssertion</properties:property>
+  </properties:properties>
+  <stub:description>Created: Mar 31, 2020 1:56:57 PM</stub:description>
+  <stub:stubdata id="0" name="STRLEN">
+    <stub:interface>../Interfaces/CWKTSQL_STRLEN.interface#Unit%20Test/Interfaces/CWKTSQL_STRLEN.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKTSQL_STRLEN.interface#Unit%20Test/Interfaces/CWKTSQL_STRLEN.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTSQL_STRLEN_FIRST-LAST-NAME-LEN.listructure#Unit%20Test/Structures/CWKTSQL_STRLEN_FIRST-LAST-NAME-LEN.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTSQL_STRLEN_FIRST-LAST-NAME-LEN.listructure#FIRST_LAST_NAME_LEN" id="arg0.FIRST_LAST_NAME_LEN">
+        <properties:properties>
+          <properties:property name="value" type="string">000F</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTSQL_STRLEN_WA-EMP-NAME.listructure#Unit%20Test/Structures/CWKTSQL_STRLEN_WA-EMP-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTSQL_STRLEN_WA-EMP-NAME.listructure#WA_EMP_NAME" id="arg1.WA_EMP_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">C7C1C9D340D3C1E6D9C5D5C3C54040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKTSQL_STRLEN_FIRST-LAST-NAME-LEN.listructure#Unit%20Test/Structures/CWKTSQL_STRLEN_FIRST-LAST-NAME-LEN.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTSQL_STRLEN_FIRST-LAST-NAME-LEN.listructure#FIRST_LAST_NAME_LEN" id="arg0.FIRST_LAST_NAME_LEN">
+        <properties:properties>
+          <properties:property name="value" type="string">000D</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTSQL_STRLEN_WA-EMP-NAME.listructure#Unit%20Test/Structures/CWKTSQL_STRLEN_WA-EMP-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTSQL_STRLEN_WA-EMP-NAME.listructure#WA_EMP_NAME" id="arg1.WA_EMP_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">C7C1C9D340D3C1E6D9C5D5C3C54040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/CWKTSQL_STRLEN_RETURN-CODE.listructure#Unit%20Test/Structures/CWKTSQL_STRLEN_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTSQL_STRLEN_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+  <stub:stubdata id="1" name="STRLEN">
+    <stub:interface>../Interfaces/CWKTSQL_STRLEN1.interface#Unit%20Test/Interfaces/CWKTSQL_STRLEN1.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKTSQL_STRLEN1.interface#Unit%20Test/Interfaces/CWKTSQL_STRLEN1.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTSQL_STRLEN_STREET-ADDR-LEN.listructure#Unit%20Test/Structures/CWKTSQL_STRLEN_STREET-ADDR-LEN.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTSQL_STRLEN_STREET-ADDR-LEN.listructure#STREET_ADDR_LEN" id="arg0.STREET_ADDR_LEN">
+        <properties:properties>
+          <properties:property name="value" type="string">000F</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTSQL_STRLEN_WA-EMP-STREET.listructure#Unit%20Test/Structures/CWKTSQL_STRLEN_WA-EMP-STREET.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTSQL_STRLEN_WA-EMP-STREET.listructure#WA_EMP_STREET" id="arg1.WA_EMP_STREET">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F2F340D5D6D9E3C840C1E5C54040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKTSQL_STRLEN_STREET-ADDR-LEN.listructure#Unit%20Test/Structures/CWKTSQL_STRLEN_STREET-ADDR-LEN.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTSQL_STRLEN_STREET-ADDR-LEN.listructure#STREET_ADDR_LEN" id="arg0.STREET_ADDR_LEN">
+        <properties:properties>
+          <properties:property name="value" type="string">000D</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTSQL_STRLEN_WA-EMP-STREET.listructure#Unit%20Test/Structures/CWKTSQL_STRLEN_WA-EMP-STREET.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTSQL_STRLEN_WA-EMP-STREET.listructure#WA_EMP_STREET" id="arg1.WA_EMP_STREET">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F2F340D5D6D9E3C840C1E5C54040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/CWKTSQL_STRLEN_RETURN-CODE.listructure#Unit%20Test/Structures/CWKTSQL_STRLEN_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTSQL_STRLEN_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+  <stub:stubdata id="2" name="STRLEN">
+    <stub:interface>../Interfaces/CWKTSQL_STRLEN2.interface#Unit%20Test/Interfaces/CWKTSQL_STRLEN2.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKTSQL_STRLEN2.interface#Unit%20Test/Interfaces/CWKTSQL_STRLEN2.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTSQL_STRLEN_CITY-LEN.listructure#Unit%20Test/Structures/CWKTSQL_STRLEN_CITY-LEN.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTSQL_STRLEN_CITY-LEN.listructure#CITY_LEN" id="arg0.CITY_LEN">
+        <properties:properties>
+          <properties:property name="value" type="string">0008</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTSQL_STRLEN_WA-EMP-CITY.listructure#Unit%20Test/Structures/CWKTSQL_STRLEN_WA-EMP-CITY.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTSQL_STRLEN_WA-EMP-CITY.listructure#WA_EMP_CITY" id="arg1.WA_EMP_CITY">
+        <properties:properties>
+          <properties:property name="value" type="string">D7D3C1D5D6404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKTSQL_STRLEN_CITY-LEN.listructure#Unit%20Test/Structures/CWKTSQL_STRLEN_CITY-LEN.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTSQL_STRLEN_CITY-LEN.listructure#CITY_LEN" id="arg0.CITY_LEN">
+        <properties:properties>
+          <properties:property name="value" type="string">0005</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTSQL_STRLEN_WA-EMP-CITY.listructure#Unit%20Test/Structures/CWKTSQL_STRLEN_WA-EMP-CITY.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTSQL_STRLEN_WA-EMP-CITY.listructure#WA_EMP_CITY" id="arg1.WA_EMP_CITY">
+        <properties:properties>
+          <properties:property name="value" type="string">D7D3C1D5D6404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/CWKTSQL_STRLEN_RETURN-CODE.listructure#Unit%20Test/Structures/CWKTSQL_STRLEN_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTSQL_STRLEN_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+</stub:stub>

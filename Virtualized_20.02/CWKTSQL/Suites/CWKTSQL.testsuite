@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.2.1.v20200322-0318_101?>
+<!--Topaz for Total Test 20.2.1.v20200322-0318_101 Mar 31, 2020 1:50:23 PM-->
+<testsuite:testsuite xmlns:testsuite="http://www.compuware.com/model/xml/testsuite" id="Unit%20Test/Suites/CWKTSQL.testsuite">
+  <testsuite:testscenario>../Scenarios/CWKTSQL_Delete_Scenario.testscenario#Unit%20Test/Scenarios/CWKTSQL_Delete_Scenario.testscenario</testsuite:testscenario>
+  <testsuite:testscenario>../Scenarios/CWKTSQL_Insert_Scenario.testscenario#Unit%20Test/Scenarios/CWKTSQL_Insert_Scenario.testscenario</testsuite:testscenario>
+  <testsuite:testscenario>../Scenarios/CWKTSQL_Select_Scenario.testscenario#Unit%20Test/Scenarios/CWKTSQL_Select_Scenario.testscenario</testsuite:testscenario>
+  <testsuite:testscenario>../Scenarios/CWKTSQL_Update_Scenario.testscenario#Unit%20Test/Scenarios/CWKTSQL_Update_Scenario.testscenario</testsuite:testscenario>
+</testsuite:testsuite>

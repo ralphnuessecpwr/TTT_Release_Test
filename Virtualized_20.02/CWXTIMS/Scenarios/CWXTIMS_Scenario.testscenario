@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?totaltestVersion 20.2.1.v20200313-1425_90?>
-<!--Topaz for Total Test 20.2.1.v20200313-1425_90 Mar 25, 2020 12:25:52 PM-->
-<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Unit%20Test/Scenarios/CWXTIMS_Scenario.testscenario">
+<?xml version="1.1" encoding="UTF-8"?>
+<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="CWXTIMS/Scenarios/CWXTIMS_Scenario.testscenario">
   <testscenario:description></testscenario:description>
   <testscenario:testcases>
     <testscenario:testcase alias="" csect="CWXTIMS" encoding="1047" entrypoint="CWXTIMS#C" id="Unit%20Test/Scenarios/CWXTIMS_Scenario.testscenario%23CWXTIMSCase1" target="CWXTIMS">
@@ -25,6 +23,10 @@
             <properties:property name="expectedValue" type="string">D7C3E4E2E3404040F0F0C7D7C1D740400005126840404040404040400000000000000003C3D5F0F1F9F9F0F2</properties:property>
           </properties:properties>
         </testcase:data>
+        <testcase:data baseType="listructure:stringType ../Structures/CWXTIMS_PCUST-AP-PCP-MASK.listructure#PCUST_AP_PCP_MASK.PCUST_AP_SEGMENT_LEVEL" id="input.arg1.PCUST_AP_PCP_MASK.PCUST_AP_SEGMENT_LEVEL"/>
+        <testcase:data baseType="listructure:stringType ../Structures/CWXTIMS_PCUST-AP-PCP-MASK.listructure#PCUST_AP_PCP_MASK.PCUST_AP_STATUS_CODE" id="input.arg1.PCUST_AP_PCP_MASK.PCUST_AP_STATUS_CODE"/>
+        <testcase:data baseType="listructure:stringType ../Structures/CWXTIMS_PCUST-AP-PCP-MASK.listructure#PCUST_AP_PCP_MASK.PCUST_AP_SEGMENT_NAME" id="input.arg1.PCUST_AP_PCP_MASK.PCUST_AP_SEGMENT_NAME"/>
+        <testcase:data baseType="listructure:stringType ../Structures/CWXTIMS_PCUST-AP-PCP-MASK.listructure#PCUST_AP_PCP_MASK.PCUST_AP_KEY" id="input.arg1.PCUST_AP_PCP_MASK.PCUST_AP_KEY"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTIMS_PPART-AP-PCP-MASK.listructure#Unit%20Test/Structures/CWXTIMS_PPART-AP-PCP-MASK.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTIMS_PPART-AP-PCP-MASK.listructure#PPART_AP_PCP_MASK" id="arg2.PPART_AP_PCP_MASK">
@@ -33,6 +35,13 @@
             <properties:property name="expectedValue" type="string">D7D7C1D9E34040404040D5C1C1D74040000D5C98C8C4C1D44040404000000000000000024040404040404040</properties:property>
           </properties:properties>
         </testcase:data>
+        <testcase:data baseType="listructure:stringType ../Structures/CWXTIMS_PPART-AP-PCP-MASK.listructure#PPART_AP_PCP_MASK.PPART_AP_DBD_NAME" id="input.arg2.PPART_AP_PCP_MASK.PPART_AP_DBD_NAME"/>
+        <testcase:data baseType="listructure:stringType ../Structures/CWXTIMS_PPART-AP-PCP-MASK.listructure#PPART_AP_PCP_MASK.PPART_AP_SEGMENT_LEVEL" id="input.arg2.PPART_AP_PCP_MASK.PPART_AP_SEGMENT_LEVEL"/>
+        <testcase:data baseType="listructure:stringType ../Structures/CWXTIMS_PPART-AP-PCP-MASK.listructure#PPART_AP_PCP_MASK.PPART_AP_STATUS_CODE" id="input.arg2.PPART_AP_PCP_MASK.PPART_AP_STATUS_CODE"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTIMS_PPART-AP-PCP-MASK.listructure#PPART_AP_PCP_MASK.FILLER0" id="input.arg2.PPART_AP_PCP_MASK.FILLER0"/>
+        <testcase:data baseType="listructure:stringType ../Structures/CWXTIMS_PPART-AP-PCP-MASK.listructure#PPART_AP_PCP_MASK.PPART_AP_SEGMENT_NAME" id="input.arg2.PPART_AP_PCP_MASK.PPART_AP_SEGMENT_NAME"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTIMS_PPART-AP-PCP-MASK.listructure#PPART_AP_PCP_MASK.PPART_AP_NUM_SENS_SEGS" id="input.arg2.PPART_AP_PCP_MASK.PPART_AP_NUM_SENS_SEGS"/>
+        <testcase:data baseType="listructure:stringType ../Structures/CWXTIMS_PPART-AP-PCP-MASK.listructure#PPART_AP_PCP_MASK.PPART_AP_KEY" id="input.arg2.PPART_AP_PCP_MASK.PPART_AP_KEY"/>
       </testcase:input>
       <testcase:input listructure="../Structures/CWXTIMS_PORDR-GO-PCP-MASK.listructure#Unit%20Test/Structures/CWXTIMS_PORDR-GO-PCP-MASK.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTIMS_PORDR-GO-PCP-MASK.listructure#PORDR_GO_PCP_MASK" id="arg3.PORDR_GO_PCP_MASK">
@@ -60,6 +69,50 @@
       </testcase:input>
       <testcase:checkconditions>
         <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+        <checkconditions:simpleCheckcondition refData="#input.arg1.PCUST_AP_PCP_MASK.PCUST_AP_SEGMENT_LEVEL">
+          <checkconditions:expression></checkconditions:expression>
+          <checkconditions:expectation assert="noassert"></checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+        <checkconditions:simpleCheckcondition refData="#input.arg1.PCUST_AP_PCP_MASK.PCUST_AP_STATUS_CODE">
+          <checkconditions:expression></checkconditions:expression>
+          <checkconditions:expectation assert="noassert"></checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+        <checkconditions:simpleCheckcondition refData="#input.arg1.PCUST_AP_PCP_MASK.PCUST_AP_SEGMENT_NAME">
+          <checkconditions:expression></checkconditions:expression>
+          <checkconditions:expectation assert="noassert"></checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+        <checkconditions:simpleCheckcondition refData="#input.arg1.PCUST_AP_PCP_MASK.PCUST_AP_KEY">
+          <checkconditions:expression></checkconditions:expression>
+          <checkconditions:expectation assert="noassert"></checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+        <checkconditions:simpleCheckcondition refData="#input.arg2.PPART_AP_PCP_MASK.PPART_AP_DBD_NAME">
+          <checkconditions:expression></checkconditions:expression>
+          <checkconditions:expectation assert="noassert"></checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+        <checkconditions:simpleCheckcondition refData="#input.arg2.PPART_AP_PCP_MASK.PPART_AP_SEGMENT_LEVEL">
+          <checkconditions:expression></checkconditions:expression>
+          <checkconditions:expectation assert="noassert"></checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+        <checkconditions:simpleCheckcondition refData="#input.arg2.PPART_AP_PCP_MASK.PPART_AP_STATUS_CODE">
+          <checkconditions:expression></checkconditions:expression>
+          <checkconditions:expectation assert="noassert"></checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+        <checkconditions:simpleCheckcondition refData="#input.arg2.PPART_AP_PCP_MASK.FILLER0">
+          <checkconditions:expression></checkconditions:expression>
+          <checkconditions:expectation assert="noassert" type="number"></checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+        <checkconditions:simpleCheckcondition refData="#input.arg2.PPART_AP_PCP_MASK.PPART_AP_SEGMENT_NAME">
+          <checkconditions:expression></checkconditions:expression>
+          <checkconditions:expectation assert="noassert"></checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+        <checkconditions:simpleCheckcondition refData="#input.arg2.PPART_AP_PCP_MASK.PPART_AP_NUM_SENS_SEGS">
+          <checkconditions:expression></checkconditions:expression>
+          <checkconditions:expectation assert="noassert" type="number"></checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+        <checkconditions:simpleCheckcondition refData="#input.arg2.PPART_AP_PCP_MASK.PPART_AP_KEY">
+          <checkconditions:expression></checkconditions:expression>
+          <checkconditions:expectation assert="noassert"/>
+        </checkconditions:simpleCheckcondition>
       </testcase:checkconditions>
       <testcase:stubs>
         <testcase:stub>../Stubs/CWXTIMS_SALCUST_FILE_01.stub#Unit%20Test/Stubs/CWXTIMS_SALCUST_FILE_01.stub</testcase:stub>

@@ -1,5 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Unit%20Test/Scenarios/CWXTSUBC_Scenario.testscenario">
+<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="CWXTSUBC/Scenarios/CWXTSUBC_Scenario.testscenario">
   <testscenario:description></testscenario:description>
   <testscenario:testcases>
     <testscenario:testcase alias="" csect="CWXTSUBC" encoding="1047" entrypoint="CWXTSUBC" id="Unit%20Test/Scenarios/CWXTSUBC_Scenario.testscenario%23CWXTSUBCCase1" target="CWXTSUBC">

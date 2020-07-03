@@ -1,0 +1,74 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?totaltestVersion 20.2.2.v20200429-0333_140?>
+<!--Topaz for Total Test 20.2.2.v20200429-0333_140 May 5, 2020 10:35:32 AM-->
+<testExecutions version="1">
+  <file path="C:\Users\cwde-rnuesse.EMEA\Compuware\Workbench\workspace_main\CWKTSQL_Unit_Tests_Final\Unit Test\Scenarios\CWKTSQL_Delete_Scenario.testscenario">
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00001: CWKTSQLCase1.00001: Check for RETURN_CODE"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00001: CWKTSQLCase1.00002: Check for LS_SQL_FUNCTION"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00001: CWKTSQLCase1.00003: Check for LS_SQL_CODE"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00001: CWKTSQLCase1.00004: Check for WA_EMP_NUM"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00001: CWKTSQLCase1.00005: Check for WA_EMP_TYPE"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00001: CWKTSQLCase1.00006: Check for WA_EMP_REGION"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00001: CWKTSQLCase1.00007: Check for WA_EMP_NAME"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00001: CWKTSQLCase1.00008: Check for WA_EMP_STREET"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00001: CWKTSQLCase1.00009: Check for WA_EMP_CITY"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00001: CWKTSQLCase1.00010: Check for WA_EMP_STATE"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00001: CWKTSQLCase1.00011: Check for WA_EMP_ZIP"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00001: CWKTSQLCase1.00012: Check for WA_EMP_HOURS"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00001: CWKTSQLCase1.00013: Check for WA_EMP_RATE"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00001: CWKTSQLCase1.00014: Check for FILLER0"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00001: CWKTSQLCase1.00015: Check for WA_SALES_SALARY"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00001: CWKTSQLCase1.00016: Check for WA_SALES_AMOUNT"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00001: CWKTSQLCase1.00017: Check for FILLER1"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00001: CWKTSQLCase1.00018: Check for WA_MGMT_SALARY"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00001: CWKTSQLCase1.00019: Check for FILLER2"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00001: CWKTSQLCase1.00020: Check for WA_EMP_HIRE_YY"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00001: CWKTSQLCase1.00021: Check for WA_EMP_HIRE_MM"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00001: CWKTSQLCase1.00022: Check for WA_EMP_HIRE_DD"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00001: CWKTSQLCase1.00023: Check for FILLER3"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00001: CWKTSQLCase1.00024: Check for EMP_WAGES"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00001: CWKTSQLCase1.00025: Check for EMP_COMMISSION"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00001: CWKTSQLCase1.00026: Check for OT_AMOUNT"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00001: CWKTSQLCase1.00027: Check for ERROR_MESSAGE"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse.EMEA\Compuware\Workbench\workspace_main\CWKTSQL_Unit_Tests_Final\Unit Test\Stubs\CWKTSQL_Delete_1_SQL_01.stub">
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00001: CWKTSQLCase1.Stub: 'CWKTSQL_Delete_1_SQL_01'.00001: 'Delete' assertion.Delete"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse.EMEA\Compuware\Workbench\workspace_main\CWKTSQL_Unit_Tests_Final\Unit Test\Scenarios\CWKTSQL_Delete_Scenario.testscenario">
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00002: CWKTSQLCase2.00001: Check for RETURN_CODE">
+      <failure message="Check for RETURN_CODE failed">Check for RETURN_CODE failed
+
+Actual Value:    0
+
+Expected Value:  16</failure>
+    </testCase>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00002: CWKTSQLCase2.00002: Check for LS_SQL_FUNCTION"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00002: CWKTSQLCase2.00003: Check for LS_SQL_CODE"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00002: CWKTSQLCase2.00004: Check for WA_EMP_NUM"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00002: CWKTSQLCase2.00005: Check for WA_EMP_TYPE"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00002: CWKTSQLCase2.00006: Check for WA_EMP_REGION"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00002: CWKTSQLCase2.00007: Check for WA_EMP_NAME"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00002: CWKTSQLCase2.00008: Check for WA_EMP_STREET"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00002: CWKTSQLCase2.00009: Check for WA_EMP_CITY"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00002: CWKTSQLCase2.00010: Check for WA_EMP_STATE"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00002: CWKTSQLCase2.00011: Check for WA_EMP_ZIP"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00002: CWKTSQLCase2.00012: Check for WA_EMP_HOURS"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00002: CWKTSQLCase2.00013: Check for WA_EMP_RATE"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00002: CWKTSQLCase2.00014: Check for FILLER0"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00002: CWKTSQLCase2.00015: Check for WA_SALES_SALARY"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00002: CWKTSQLCase2.00016: Check for WA_SALES_AMOUNT"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00002: CWKTSQLCase2.00017: Check for FILLER1"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00002: CWKTSQLCase2.00018: Check for WA_MGMT_SALARY"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00002: CWKTSQLCase2.00019: Check for FILLER2"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00002: CWKTSQLCase2.00020: Check for WA_EMP_HIRE_YY"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00002: CWKTSQLCase2.00021: Check for WA_EMP_HIRE_MM"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00002: CWKTSQLCase2.00022: Check for WA_EMP_HIRE_DD"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00002: CWKTSQLCase2.00023: Check for FILLER3"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00002: CWKTSQLCase2.00024: Check for EMP_WAGES"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00002: CWKTSQLCase2.00025: Check for EMP_COMMISSION"/>
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00002: CWKTSQLCase2.00026: Check for OT_AMOUNT"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse.EMEA\Compuware\Workbench\workspace_main\CWKTSQL_Unit_Tests_Final\Unit Test\Stubs\CWKTSQL_Delete_1_SQL_02.stub">
+    <testCase duration="0" name="CWKTSQL_Unit_Tests_Final.CWKTSQL_Delete_Scenario.00002: CWKTSQLCase2.Stub: 'CWKTSQL_Delete_1_SQL_02'.00001: 'Delete' assertion.Delete"/>
+  </file>
+</testExecutions>

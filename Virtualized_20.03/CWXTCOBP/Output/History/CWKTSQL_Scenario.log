@@ -1,0 +1,43 @@
+
+***************** Output from TTTRUNNR *****************
+
+ CEE3740I The following messages pertain to the system default run-time options.
+ CEE3768I The system default for the run-time option DEBUG could not be overridden.
+ CEE3768I The system default for the run-time option TEST could not be overridden.
+ STTR043I Initializing simulation environment for: COBOL V4
+ STTR043I Initializing simulation environment for: COBOL V5
+ STTR011I totaltest zTargetRunner v170200 on 2020-07-03 08:51.02��������������������������������������
+ STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
+ STTR013I Processing test suite CWKTSQL_Scenario
+ STTR014I Processing test scenario CWKTSQL_Scenario
+ STTR028I Processing test case CWKTSQLCase1
+ STTR006I Executing target CWKTSQL#����������������������������������������������������
+ STTR028I Processing test case CWKTSQLCase2
+ STTR006I Executing target CWKT~L������������������������������������������������������
+ STTR028I Processing test case CWKTSQLCase3
+ STTR006I Executing target CWKT~L������������������������������������������������������
+ STTR028I Processing test case CWKTSQLCase4
+ STTR006I Executing target CWKT~L������������������������������������������������������
+ STTR028I Processing test case CWKTSQLCase5
+ STTR006I Executing target CWKT~L������������������������������������������������������
+ STTR028I Processing test case CWKTSQLCase6
+ STTR006I Executing target CWKT~L������������������������������������������������������
+ STTR028I Processing test case CWKTSQLCase7
+ STTR006I Executing target CWKT~L������������������������������������������������������
+ STTR028I Processing test case CWKTSQLCase8
+ STTR006I Executing target CWKT~L������������������������������������������������������
+ STTR028I Processing test case CWKTSQLCase9
+ STTR006I Executing target CWKT~L������������������������������������������������������
+ STTR028I Processing test case CWKTSQLCase10
+ STTR006I Executing target CWKT~L������������������������������������������������������
+ STTR028I Processing test case CWKTSQLCase11
+ STTR006I Executing target CWKT~L������������������������������������������������������
+ STTR028I Processing test case CWKTSQLCase12
+ STTR006I Executing target CWKT~L������������������������������������������������������
+ STTR028I Processing test case CWKTSQLCase13
+ STTR006I Executing target CWKT~L������������������������������������������������������
+ STTR028I Processing test case CWKTSQLCase14
+ STTR006I Executing target CWKT~L������������������������������������������������������
+ STTR028I Processing test case CWKTSQLCase15
+ STTR006I Executing target CWKT~L������������������������������������������������������
+ STTR008I All targets successfully executed

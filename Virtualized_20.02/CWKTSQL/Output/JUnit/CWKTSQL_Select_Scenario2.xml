@@ -1,0 +1,33 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?totaltestVersion 20.2.1.v20200322-0318_101?>
+<!--Topaz for Total Test 20.2.1.v20200322-0318_101 May 4, 2020 11:04:20 AM-->
+<testsuites>
+  <testsuite errors="0" failures="0" name="CWKTSQL_Demo_VersionX.CWKTSQL_Select_Scenario2.00001: CWKTSQLCase1" tests="26">
+    <testcase classname="CWKTSQL_Demo_VersionX.CWKTSQL_Select_Scenario2.00001: CWKTSQLCase1" name="00001: Check for LS_SQL_FUNCTION"/>
+    <testcase classname="CWKTSQL_Demo_VersionX.CWKTSQL_Select_Scenario2.00001: CWKTSQLCase1" name="00002: Check for LS_SQL_CODE"/>
+    <testcase classname="CWKTSQL_Demo_VersionX.CWKTSQL_Select_Scenario2.00001: CWKTSQLCase1" name="00003: Check for WA_EMP_NUM"/>
+    <testcase classname="CWKTSQL_Demo_VersionX.CWKTSQL_Select_Scenario2.00001: CWKTSQLCase1" name="00004: Check for WA_EMP_TYPE"/>
+    <testcase classname="CWKTSQL_Demo_VersionX.CWKTSQL_Select_Scenario2.00001: CWKTSQLCase1" name="00005: Check for WA_EMP_REGION"/>
+    <testcase classname="CWKTSQL_Demo_VersionX.CWKTSQL_Select_Scenario2.00001: CWKTSQLCase1" name="00006: Check for WA_EMP_NAME"/>
+    <testcase classname="CWKTSQL_Demo_VersionX.CWKTSQL_Select_Scenario2.00001: CWKTSQLCase1" name="00007: Check for WA_EMP_STREET"/>
+    <testcase classname="CWKTSQL_Demo_VersionX.CWKTSQL_Select_Scenario2.00001: CWKTSQLCase1" name="00008: Check for WA_EMP_CITY"/>
+    <testcase classname="CWKTSQL_Demo_VersionX.CWKTSQL_Select_Scenario2.00001: CWKTSQLCase1" name="00009: Check for WA_EMP_STATE"/>
+    <testcase classname="CWKTSQL_Demo_VersionX.CWKTSQL_Select_Scenario2.00001: CWKTSQLCase1" name="00010: Check for WA_EMP_ZIP"/>
+    <testcase classname="CWKTSQL_Demo_VersionX.CWKTSQL_Select_Scenario2.00001: CWKTSQLCase1" name="00011: Check for WA_EMP_HOURS"/>
+    <testcase classname="CWKTSQL_Demo_VersionX.CWKTSQL_Select_Scenario2.00001: CWKTSQLCase1" name="00012: Check for WA_EMP_RATE"/>
+    <testcase classname="CWKTSQL_Demo_VersionX.CWKTSQL_Select_Scenario2.00001: CWKTSQLCase1" name="00013: Check for FILLER0"/>
+    <testcase classname="CWKTSQL_Demo_VersionX.CWKTSQL_Select_Scenario2.00001: CWKTSQLCase1" name="00014: Check for WA_SALES_SALARY"/>
+    <testcase classname="CWKTSQL_Demo_VersionX.CWKTSQL_Select_Scenario2.00001: CWKTSQLCase1" name="00015: Check for WA_SALES_AMOUNT"/>
+    <testcase classname="CWKTSQL_Demo_VersionX.CWKTSQL_Select_Scenario2.00001: CWKTSQLCase1" name="00016: Check for FILLER1"/>
+    <testcase classname="CWKTSQL_Demo_VersionX.CWKTSQL_Select_Scenario2.00001: CWKTSQLCase1" name="00017: Check for WA_MGMT_SALARY"/>
+    <testcase classname="CWKTSQL_Demo_VersionX.CWKTSQL_Select_Scenario2.00001: CWKTSQLCase1" name="00018: Check for FILLER2"/>
+    <testcase classname="CWKTSQL_Demo_VersionX.CWKTSQL_Select_Scenario2.00001: CWKTSQLCase1" name="00019: Check for WA_EMP_HIRE_YY"/>
+    <testcase classname="CWKTSQL_Demo_VersionX.CWKTSQL_Select_Scenario2.00001: CWKTSQLCase1" name="00020: Check for WA_EMP_HIRE_MM"/>
+    <testcase classname="CWKTSQL_Demo_VersionX.CWKTSQL_Select_Scenario2.00001: CWKTSQLCase1" name="00021: Check for WA_EMP_HIRE_DD"/>
+    <testcase classname="CWKTSQL_Demo_VersionX.CWKTSQL_Select_Scenario2.00001: CWKTSQLCase1" name="00022: Check for FILLER3"/>
+    <testcase classname="CWKTSQL_Demo_VersionX.CWKTSQL_Select_Scenario2.00001: CWKTSQLCase1" name="00023: Check for EMP_WAGES"/>
+    <testcase classname="CWKTSQL_Demo_VersionX.CWKTSQL_Select_Scenario2.00001: CWKTSQLCase1" name="00024: Check for EMP_COMMISSION"/>
+    <testcase classname="CWKTSQL_Demo_VersionX.CWKTSQL_Select_Scenario2.00001: CWKTSQLCase1" name="00025: Check for OT_AMOUNT"/>
+    <testcase classname="CWKTSQL_Demo_VersionX.CWKTSQL_Select_Scenario2.00001: CWKTSQLCase1" name="00026: Check for ERROR_MESSAGE"/>
+  </testsuite>
+</testsuites>

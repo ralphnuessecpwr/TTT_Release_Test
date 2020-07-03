@@ -1,0 +1,32 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/CWKTSQL_Delete_1_Negative_SQL_Code.stub" nextCalltoken="50002" stubtype="SQL" target="Delete" token="50000">
+  <stub:description>Created: Mar 31, 2020 1:57:58 PM</stub:description>
+  <stub:stubdata id="0" name="Delete">
+    <stub:interface>../Interfaces/CWKTSQL_Delete_1_EMP_NUM.interface#Unit%20Test/Interfaces/CWKTSQL_Delete_1_EMP_NUM.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWKTSQL/CWKTSQL_Delete_EMP-NUM.listructure#Unit%20Test/Structures/Db2/CWKTSQL/CWKTSQL_Delete_EMP-NUM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTSQL/CWKTSQL_Delete_EMP-NUM.listructure#EMP_NUM" id="arg0.EMP_NUM">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F5F2F3</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlStatus>
+      <stub:statement type="Delete">
+        <stub:text>           EXEC SQL
+              DELETE KT_DEMOTAB
+                 WHERE EMP_NUM = :EMP-NUM
+           END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404000001EC3E6D2E3E2D8D3401AF66ABF19166288000437D1552837D1405000000000047400E9000001700000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C14E40080000003C0001000101C4000537D155B0000000000008000004740000000040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="50001">
+        <stub:rawData>E2D8D3C3C140404000000088FFFFFD66000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000001FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:database version="1215"/>
+</stub:stub>

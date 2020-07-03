@@ -1,0 +1,134 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Unit%20Test/Scenarios/CWKTSQL_Update_Scenario.testscenario">
+  <testscenario:description></testscenario:description>
+  <testscenario:testcases>
+    <testscenario:testcase alias="" csect="CWKTSQL" encoding="1047" entrypoint="CWKT~L" id="Unit%20Test/Scenarios/CWKTSQL_Update_Scenario.testscenario%23CWKTSQLCase1" target="CWKTSQL">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.DEMO.CWC2.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1585633469000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWKTSQL.interface#Unit%20Test/Interfaces/CWKTSQL.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWKTSQL_LS-SQL-FUNCTION.listructure#Unit%20Test/Structures/CWKTSQL_LS-SQL-FUNCTION.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWKTSQL_LS-SQL-FUNCTION.listructure#LS_SQL_FUNCTION" id="arg0.LS_SQL_FUNCTION">
+          <properties:properties>
+            <properties:property name="value" type="string">E4</properties:property>
+            <properties:property name="expectedValue" type="string">E4</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWKTSQL_LS-SQL-CODE.listructure#Unit%20Test/Structures/CWKTSQL_LS-SQL-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWKTSQL_LS-SQL-CODE.listructure#LS_SQL_CODE" id="arg1.LS_SQL_CODE">
+          <properties:properties>
+            <properties:property name="value" type="string">00000000</properties:property>
+            <properties:property name="expectedValue" type="string">00000000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWKTSQL_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWKTSQL_EMPLOYEE-WORK-AREA.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWKTSQL_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg2.EMPLOYEE_WORK_AREA">
+          <properties:properties>
+            <properties:property name="value" type="string">F0F3F4F3F1C8F2C7C1C9D340D3C1E6D9C5D5C3C54040F1F2F340D5D6D9E3C840C1E5C54040D7D3C1D5D6404040E3E7F5F7F0F1F040404040F3F802500F4040404040404040F8F4F0F6F2F54040404040</properties:property>
+            <properties:property name="expectedValue" type="string">F0F3F4F3F1C8F2C7C1C9D340D3C1E6D9C5D5C3C54040F1F2F340D5D6D9E3C840C1E5C54040D7D3C1D5D6404040E3E7F5F7F0F1F040404040F3F802500F4040404040404040F8F4F0F6F2F54040404040</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWKTSQL_UPDATE-FIELDS.listructure#Unit%20Test/Structures/CWKTSQL_UPDATE-FIELDS.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWKTSQL_UPDATE-FIELDS.listructure#UPDATE_FIELDS" id="arg3.UPDATE_FIELDS">
+          <properties:properties>
+            <properties:property name="value" type="string">0095000F0095000F00000000</properties:property>
+            <properties:property name="expectedValue" type="string">0095000F0095000F00000000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWKTSQL_ERROR-MESSAGE.listructure#Unit%20Test/Structures/CWKTSQL_ERROR-MESSAGE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWKTSQL_ERROR-MESSAGE.listructure#ERROR_MESSAGE" id="arg4.ERROR_MESSAGE">
+          <properties:properties>
+            <properties:property name="value" type="string">0000000F0000000095000F0095000F0000000000000000000095000F000000000F0000000000000000000F000000000000000000000000000000000000000000000000000000000000000000000000C3</properties:property>
+            <properties:property name="expectedValue" type="string">0000000F0000000095000F0095000F0000000000000000000095000F000000000F0000000000000000000F000000000000000000000000000000000000000000000000000000000000000000000000C3</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+        <checkconditions:simpleCheckcondition>
+          <checkconditions:expectation></checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWKTSQL_Update_1_SQL_01.stub#Unit%20Test/Stubs/CWKTSQL_Update_1_SQL_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/CWKTSQL_RETURN-CODE.listructure#Unit%20Test/Structures/CWKTSQL_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWKTSQL_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWKTSQL" encoding="1047" entrypoint="CWKT~L" id="Unit%20Test/Scenarios/CWKTSQL_Update_Scenario.testscenario%23CWKTSQLCase2" target="CWKTSQL">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.DEMO.CWC2.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1585633469000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWKTSQL.interface#Unit%20Test/Interfaces/CWKTSQL.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWKTSQL_LS-SQL-FUNCTION.listructure#Unit%20Test/Structures/CWKTSQL_LS-SQL-FUNCTION.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWKTSQL_LS-SQL-FUNCTION.listructure#LS_SQL_FUNCTION" id="arg0.LS_SQL_FUNCTION">
+          <properties:properties>
+            <properties:property name="value" type="string">E4</properties:property>
+            <properties:property name="expectedValue" type="string">E4</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWKTSQL_LS-SQL-CODE.listructure#Unit%20Test/Structures/CWKTSQL_LS-SQL-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWKTSQL_LS-SQL-CODE.listructure#LS_SQL_CODE" id="arg1.LS_SQL_CODE">
+          <properties:properties>
+            <properties:property name="value" type="string">00000000</properties:property>
+            <properties:property name="expectedValue" type="string">FFFFFD66</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWKTSQL_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWKTSQL_EMPLOYEE-WORK-AREA.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWKTSQL_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg2.EMPLOYEE_WORK_AREA">
+          <properties:properties>
+            <properties:property name="value" type="string">F0F3F4F3F1C8F2C7C1C9D340D3C1E6D9C5D5C3C54040F1F2F340D5D6D9E3C840C1E5C54040D7D3C1D5D6404040E3E7F5F7F0F1F040404040F3F802500F4040404040404040F8F4F0F6F2F54040404040</properties:property>
+            <properties:property name="expectedValue" type="string">F0F3F4F3F1C8F2C7C1C9D340D3C1E6D9C5D5C3C54040F1F2F340D5D6D9E3C840C1E5C54040D7D3C1D5D6404040E3E7F5F7F0F1F040404040F3F802500F4040404040404040F8F4F0F6F2F54040404040</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWKTSQL_UPDATE-FIELDS.listructure#Unit%20Test/Structures/CWKTSQL_UPDATE-FIELDS.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWKTSQL_UPDATE-FIELDS.listructure#UPDATE_FIELDS" id="arg3.UPDATE_FIELDS">
+          <properties:properties>
+            <properties:property name="value" type="string">0095000F0095000F00000000</properties:property>
+            <properties:property name="expectedValue" type="string">0095000F0095000F00000000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWKTSQL_ERROR-MESSAGE.listructure#Unit%20Test/Structures/CWKTSQL_ERROR-MESSAGE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWKTSQL_ERROR-MESSAGE.listructure#ERROR_MESSAGE" id="arg4.ERROR_MESSAGE">
+          <properties:properties>
+            <properties:property name="value" type="string">0000000F0000000095000F0095000F0000000000000000000095000F000000000F0000000000000000000F000000000000000000000000000000000000000000000000000000000000000000000000C3</properties:property>
+            <properties:property name="expectedValue" type="string">C1D540C5D9D9D6D940C8C1E240D6C3C3E4D9C5C440C9D540E4D7C4C1E3C540C6E4D5C3E3C9D6D54B40E2D8D340C3D6C4C540E6C1E27A4060F6F6F6404040404040404040404040404040404040404040</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:output listructure="../Structures/CWKTSQL_LS-SQL-FUNCTION.listructure#Unit%20Test/Structures/CWKTSQL_LS-SQL-FUNCTION.listructure"/>
+      <testcase:output listructure="../Structures/CWKTSQL_LS-SQL-CODE.listructure#Unit%20Test/Structures/CWKTSQL_LS-SQL-CODE.listructure"/>
+      <testcase:output listructure="../Structures/CWKTSQL_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWKTSQL_EMPLOYEE-WORK-AREA.listructure"/>
+      <testcase:output listructure="../Structures/CWKTSQL_UPDATE-FIELDS.listructure#Unit%20Test/Structures/CWKTSQL_UPDATE-FIELDS.listructure"/>
+      <testcase:output listructure="../Structures/CWKTSQL_ERROR-MESSAGE.listructure#Unit%20Test/Structures/CWKTSQL_ERROR-MESSAGE.listructure"/>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWKTSQL_Update_1_Negative_SQL_Code.stub#Unit%20Test/Stubs/CWKTSQL_Update_1_Negative_SQL_Code.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/CWKTSQL_RETURN-CODE.listructure#Unit%20Test/Structures/CWKTSQL_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWKTSQL_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0010</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+    </testscenario:testcase>
+  </testscenario:testcases>
+</testscenario:testscenario>
