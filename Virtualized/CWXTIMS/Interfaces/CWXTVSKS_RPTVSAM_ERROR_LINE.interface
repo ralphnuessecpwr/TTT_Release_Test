@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200629-0403_106?>
+<!--Topaz for Total Test 20.3.1.v20200629-0403_106 Jul 7, 2020 10:05:24 AM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="CWXTIMS/Interfaces/CWXTVSKS_RPTVSAM_ERROR_LINE.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/CWXTVSKS_RPTVSAM_ERROR-LINE.listructure#CWXTIMS/Structures/CWXTVSKS_RPTVSAM_ERROR-LINE.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CWXTVSKS_RPTVSAM_ERROR-LINE.listructure#ERROR_LINE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWXTVSKS_RPTVSAM_ERROR-LINE.listructure#ERROR_LINE.ERROR_LINE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

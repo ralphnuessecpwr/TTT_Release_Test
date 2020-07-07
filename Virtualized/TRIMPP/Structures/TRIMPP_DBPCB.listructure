@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200629-0403_106?>
+<!--Topaz for Total Test 20.3.1.v20200629-0403_106 Jul 7, 2020 10:37:43 AM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="TRIMPP/Structures/TRIMPP_DBPCB.listructure">
+  <listructure:struct id="DBPCB" name="DBPCB">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">41</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">41</properties:property>
+    </properties:properties>
+    <listructure:string id="DBPCB.DBD_NAME" length="8" name="DBD_NAME">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(8)</properties:property>
+        <properties:property name="displayLength" type="number">8</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(8)</properties:property>
+        <properties:property name="storageLength" type="number">8</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="DBPCB.SEG_LEVEL" length="2" name="SEG_LEVEL">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(2)</properties:property>
+        <properties:property name="displayLength" type="number">2</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(2)</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="DBPCB.DB_STCODE" length="2" name="DB_STCODE">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(2)</properties:property>
+        <properties:property name="displayLength" type="number">2</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(2)</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="DBPCB.PROC_OPTIONS" length="4" name="PROC_OPTIONS">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(4)</properties:property>
+        <properties:property name="displayLength" type="number">4</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(4)</properties:property>
+        <properties:property name="storageLength" type="number">4</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:number id="DBPCB.RESERVE_DLI" length="5" name="RESERVE_DLI">
+      <properties:properties>
+        <properties:property name="picture" type="string">S9(5)</properties:property>
+        <properties:property name="usage" type="string">computational</properties:property>
+        <properties:property name="signed" type="boolean">true</properties:property>
+        <properties:property name="displayLength" type="number">5</properties:property>
+        <properties:property name="integerDigits" type="number">5</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">binary</properties:property>
+        <properties:property name="storageLength" type="number">4</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:string id="DBPCB.SEG_NAME_FB" length="8" name="SEG_NAME_FB">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(8)</properties:property>
+        <properties:property name="displayLength" type="number">8</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(8)</properties:property>
+        <properties:property name="storageLength" type="number">8</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:number id="DBPCB.LENGTH_FB_KEY" length="5" name="LENGTH_FB_KEY">
+      <properties:properties>
+        <properties:property name="picture" type="string">S9(5)</properties:property>
+        <properties:property name="usage" type="string">computational</properties:property>
+        <properties:property name="signed" type="boolean">true</properties:property>
+        <properties:property name="displayLength" type="number">5</properties:property>
+        <properties:property name="integerDigits" type="number">5</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">binary</properties:property>
+        <properties:property name="storageLength" type="number">4</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:number id="DBPCB.NUMB_SENS_SEGS" length="5" name="NUMB_SENS_SEGS">
+      <properties:properties>
+        <properties:property name="picture" type="string">S9(5)</properties:property>
+        <properties:property name="usage" type="string">computational</properties:property>
+        <properties:property name="signed" type="boolean">true</properties:property>
+        <properties:property name="displayLength" type="number">5</properties:property>
+        <properties:property name="integerDigits" type="number">5</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">binary</properties:property>
+        <properties:property name="storageLength" type="number">4</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:string id="DBPCB.KEY_FB_AREA" length="5" name="KEY_FB_AREA">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(5)</properties:property>
+        <properties:property name="displayLength" type="number">5</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(5)</properties:property>
+        <properties:property name="storageLength" type="number">5</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>

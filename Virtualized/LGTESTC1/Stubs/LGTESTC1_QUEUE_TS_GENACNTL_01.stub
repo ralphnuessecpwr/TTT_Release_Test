@@ -1,0 +1,335 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="LGTESTC1/Stubs/LGTESTC1_QUEUE_TS_GENACNTL_01.stub" nextCalltoken="1750005" stubtype="CICS" target="GENACNTL" token="1750000">
+  <stub:description>Created: Jul 7, 2020 12:34:25 PM</stub:description>
+  <stub:stubdata callToken="1750001" id="0" name="EXEC CICS READQ">
+    <stub:interface>../Interfaces/LGTESTC1_QUEUE_TS_GENACNTL.interface#LGTESTC1/Interfaces/LGTESTC1_QUEUE_TS_GENACNTL.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/LGTESTC1_QUEUE_TS_GENACNTL.interface#LGTESTC1/Interfaces/LGTESTC1_QUEUE_TS_GENACNTL.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_CICS-GENERATED-CONSTANT-0.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a04e8002700008900f0f0f7f5f4404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_STSQ-NAME.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_STSQ-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_STSQ-NAME.listructure#STSQ_NAME" id="arg1.STSQ_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">C7C5D5C1C3D5E3D3</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_READ-MSG.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_READ-MSG.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_READ-MSG.listructure#READ_MSG" id="arg2.READ_MSG">
+        <properties:properties>
+          <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfhb0020.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfhb0020.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfhb0020.listructure#dfhb0020" id="arg3.dfhb0020">
+        <properties:properties>
+          <properties:property name="value" type="string">0050</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_CICS-GENERATED-CONSTANT-4.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_CICS-GENERATED-CONSTANT-4.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_CICS-GENERATED-CONSTANT-4.listructure#CICS_GENERATED_CONSTANT_4" id="arg4.CICS_GENERATED_CONSTANT_4">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfhb0021.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfhb0021.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfhb0021.listructure#dfhb0021" id="arg5.dfhb0021">
+        <properties:properties>
+          <properties:property name="value" type="string">0001</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_CICS-GENERATED-CONSTANT-0.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a04e8002700008900f0f0f7f5f4404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_STSQ-NAME.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_STSQ-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_STSQ-NAME.listructure#STSQ_NAME" id="arg1.STSQ_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">C7C5D5C1C3D5E3D3</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_READ-MSG.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_READ-MSG.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_READ-MSG.listructure#READ_MSG" id="arg2.READ_MSG">
+        <properties:properties>
+          <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfhb0020.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfhb0020.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfhb0020.listructure#dfhb0020" id="arg3.dfhb0020">
+        <properties:properties>
+          <properties:property name="value" type="string">0050</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_CICS-GENERATED-CONSTANT-4.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_CICS-GENERATED-CONSTANT-4.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_CICS-GENERATED-CONSTANT-4.listructure#CICS_GENERATED_CONSTANT_4" id="arg4.CICS_GENERATED_CONSTANT_4">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfhb0021.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfhb0021.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfhb0021.listructure#dfhb0021" id="arg5.dfhb0021">
+        <properties:properties>
+          <properties:property name="value" type="string">0001</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:statement type="EXEC CICS READQ">
+      <stub:text>      *EXEC CICS ReadQ TS Queue(STSQ-NAME)
+      *          Into(READ-MSG)
+      *          Resp(WS-RESP)
+      *          Item(1)
+      *END-EXEC.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfheiblk.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfheiblk.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+        <properties:properties>
+          <properties:property name="value" type="string">0063404C0120189FE2E2C3F10001006CC3F0F8F9000006277F0A7D0A04020000000000D2E2C4E2C3E4E2E30000000000000000C7C5D5C1C3D5E3D300000000000000000000000000000000000000002C0000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+  <stub:stubdata callToken="1750002" id="1" name="EXEC CICS WRITEQ">
+    <stub:interface>../Interfaces/LGTESTC1_QUEUE_TS_GENACNTL1.interface#LGTESTC1/Interfaces/LGTESTC1_QUEUE_TS_GENACNTL1.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/LGTESTC1_QUEUE_TS_GENACNTL1.interface#LGTESTC1/Interfaces/LGTESTC1_QUEUE_TS_GENACNTL1.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_CICS-GENERATED-CONSTANT-0.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a02e0002700005100f0f0f7f8f5404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_STSQ-NAME.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_STSQ-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_STSQ-NAME.listructure#STSQ_NAME" id="arg1.STSQ_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">C7C5D5C1C3D5E3D3</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_WRITE-MSG-E.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_WRITE-MSG-E.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_WRITE-MSG-E.listructure#WRITE_MSG_E" id="arg2.WRITE_MSG_E">
+        <properties:properties>
+          <properties:property name="value" type="string">5C5C5C5C40C7C5D5C1D7D740C3D5E3D340404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfhb0020.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfhb0020.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfhb0020.listructure#dfhb0020" id="arg3.dfhb0020">
+        <properties:properties>
+          <properties:property name="value" type="string">0014</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_CICS-GENERATED-CONSTANT-0.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a02e0002700005100f0f0f7f8f5404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_STSQ-NAME.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_STSQ-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_STSQ-NAME.listructure#STSQ_NAME" id="arg1.STSQ_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">C7C5D5C1C3D5E3D3</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_WRITE-MSG-E.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_WRITE-MSG-E.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_WRITE-MSG-E.listructure#WRITE_MSG_E" id="arg2.WRITE_MSG_E">
+        <properties:properties>
+          <properties:property name="value" type="string">5C5C5C5C40C7C5D5C1D7D740C3D5E3D340404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfhb0020.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfhb0020.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfhb0020.listructure#dfhb0020" id="arg3.dfhb0020">
+        <properties:properties>
+          <properties:property name="value" type="string">0014</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:statement type="EXEC CICS WRITEQ">
+      <stub:text>      *EXEC CICS WRITEQ TS QUEUE(STSQ-NAME)
+      *          FROM(WRITE-MSG-E)
+      *          RESP(WS-RESP)
+      *          NOSUSPEND
+      *          LENGTH(20)
+      *END-EXEC
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfheiblk.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfheiblk.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+        <properties:properties>
+          <properties:property name="value" type="string">0063404C0120189FE2E2C3F10001006CC3F0F8F9000006277F0A7D0A02000000000000D2E2C4E2C3E4E2E30000000000000000C7C5D5C1C3D5E3D30000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+  <stub:stubdata callToken="1750003" id="2" name="EXEC CICS WRITEQ">
+    <stub:interface>../Interfaces/LGTESTC1_QUEUE_TS_GENACNTL2.interface#LGTESTC1/Interfaces/LGTESTC1_QUEUE_TS_GENACNTL2.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/LGTESTC1_QUEUE_TS_GENACNTL2.interface#LGTESTC1/Interfaces/LGTESTC1_QUEUE_TS_GENACNTL2.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_CICS-GENERATED-CONSTANT-0.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a02e0002700005100f0f0f7f9f3404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_STSQ-NAME.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_STSQ-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_STSQ-NAME.listructure#STSQ_NAME" id="arg1.STSQ_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">C7C5D5C1C3D5E3D3</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_WRITE-MSG-L.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_WRITE-MSG-L.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_WRITE-MSG-L.listructure#WRITE_MSG_L" id="arg2.WRITE_MSG_L">
+        <properties:properties>
+          <properties:property name="value" type="string">D3D6E640C3E4E2E3D6D4C5D97E</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfhb0020.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfhb0020.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfhb0020.listructure#dfhb0020" id="arg3.dfhb0020">
+        <properties:properties>
+          <properties:property name="value" type="string">0017</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_CICS-GENERATED-CONSTANT-0.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a02e0002700005100f0f0f7f9f3404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_STSQ-NAME.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_STSQ-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_STSQ-NAME.listructure#STSQ_NAME" id="arg1.STSQ_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">C7C5D5C1C3D5E3D3</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_WRITE-MSG-L.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_WRITE-MSG-L.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_WRITE-MSG-L.listructure#WRITE_MSG_L" id="arg2.WRITE_MSG_L">
+        <properties:properties>
+          <properties:property name="value" type="string">D3D6E640C3E4E2E3D6D4C5D97E</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfhb0020.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfhb0020.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfhb0020.listructure#dfhb0020" id="arg3.dfhb0020">
+        <properties:properties>
+          <properties:property name="value" type="string">0017</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:statement type="EXEC CICS WRITEQ">
+      <stub:text>      *EXEC CICS WRITEQ TS QUEUE(STSQ-NAME)
+      *          FROM(WRITE-MSG-L)
+      *          RESP(WS-RESP)
+      *          NOSUSPEND
+      *          LENGTH(23)
+      *END-EXEC
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfheiblk.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfheiblk.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+        <properties:properties>
+          <properties:property name="value" type="string">0063404C0120189FE2E2C3F10001006CC3F0F8F9000006277F0A7D0A02000000000000D2E2C4E2C3E4E2E30000000000000000C7C5D5C1C3D5E3D30000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+  <stub:stubdata callToken="1750004" id="3" name="EXEC CICS WRITEQ">
+    <stub:interface>../Interfaces/LGTESTC1_QUEUE_TS_GENACNTL3.interface#LGTESTC1/Interfaces/LGTESTC1_QUEUE_TS_GENACNTL3.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/LGTESTC1_QUEUE_TS_GENACNTL3.interface#LGTESTC1/Interfaces/LGTESTC1_QUEUE_TS_GENACNTL3.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_CICS-GENERATED-CONSTANT-0.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a02e0002700005100f0f0f7f9f9404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_STSQ-NAME.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_STSQ-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_STSQ-NAME.listructure#STSQ_NAME" id="arg1.STSQ_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">C7C5D5C1C3D5E3D3</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_WRITE-MSG-H.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_WRITE-MSG-H.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_WRITE-MSG-H.listructure#WRITE_MSG_H" id="arg2.WRITE_MSG_H">
+        <properties:properties>
+          <properties:property name="value" type="string">C8C9C7C840C3E4E2E3D6D4C5D97E</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfhb0020.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfhb0020.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfhb0020.listructure#dfhb0020" id="arg3.dfhb0020">
+        <properties:properties>
+          <properties:property name="value" type="string">0018</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_CICS-GENERATED-CONSTANT-0.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a02e0002700005100f0f0f7f9f9404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_STSQ-NAME.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_STSQ-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_STSQ-NAME.listructure#STSQ_NAME" id="arg1.STSQ_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">C7C5D5C1C3D5E3D3</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_WRITE-MSG-H.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_WRITE-MSG-H.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_WRITE-MSG-H.listructure#WRITE_MSG_H" id="arg2.WRITE_MSG_H">
+        <properties:properties>
+          <properties:property name="value" type="string">C8C9C7C840C3E4E2E3D6D4C5D97E</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfhb0020.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfhb0020.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfhb0020.listructure#dfhb0020" id="arg3.dfhb0020">
+        <properties:properties>
+          <properties:property name="value" type="string">0018</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:statement type="EXEC CICS WRITEQ">
+      <stub:text>      *EXEC CICS WRITEQ TS QUEUE(STSQ-NAME)
+      *          FROM(WRITE-MSG-H)
+      *          RESP(WS-RESP)
+      *          NOSUSPEND
+      *          LENGTH(24)
+      *END-EXEC
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfheiblk.listructure#LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfheiblk.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+        <properties:properties>
+          <properties:property name="value" type="string">0063404C0120189FE2E2C3F10001006CC3F0F8F9000006277F0A7D0A02000000000000D2E2C4E2C3E4E2E30000000000000000C7C5D5C1C3D5E3D30000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+</stub:stub>

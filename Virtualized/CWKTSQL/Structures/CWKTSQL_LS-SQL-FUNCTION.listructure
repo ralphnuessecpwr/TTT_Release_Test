@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200629-0403_106?>
+<!--Topaz for Total Test 20.3.1.v20200629-0403_106 Jul 3, 2020 3:06:50 PM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="CWKTSQL/Structures/CWKTSQL_LS-SQL-FUNCTION.listructure">
+  <listructure:struct id="LS_SQL_FUNCTION" name="LS_SQL_FUNCTION">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">1</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">1</properties:property>
+    </properties:properties>
+    <listructure:string id="LS_SQL_FUNCTION.LS_SQL_FUNCTION" length="1" name="LS_SQL_FUNCTION">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(01)</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(01)</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>

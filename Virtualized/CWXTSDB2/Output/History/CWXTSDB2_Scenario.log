@@ -1,0 +1,38 @@
+
+***************** Output from TTTRUNNR *****************
+
+ STTR043I Initializing simulation environment for: COBOL V4
+ STTR043I Initializing simulation environment for: COBOL V5
+ STTR011I totaltest zTargetRunner v170200 on 2020-07-07 03:29.44��������������������������������������
+ STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
+ STTR013I Processing test suite CWXTSDB2_Scenario
+ STTR014I Processing test scenario CWXTSDB2_Scenario
+ STTR028I Processing test case CWXTSDB2Case1
+ STTR006I Executing target CWXTSDB2����������������������������������������������������
+ STTR028I Processing test case CWXTSDB2Case2
+ STTR006I Executing target CWXTSD������������������������������������������������������
+ STTR028I Processing test case CWXTSDB2Case3
+ STTR006I Executing target CWXTSD������������������������������������������������������
+ STTR028I Processing test case CWXTSDB2Case4
+ STTR006I Executing target CWXTSD������������������������������������������������������
+ STTR028I Processing test case CWXTSDB2Case5
+ STTR006I Executing target CWXTSD������������������������������������������������������
+ STTR028I Processing test case CWXTSDB2Case6
+ STTR006I Executing target CWXTSD������������������������������������������������������
+ STTR028I Processing test case CWXTSDB2Case7
+ STTR006I Executing target CWXTSD������������������������������������������������������
+ STTR028I Processing test case CWXTSDB2Case8
+ STTR006I Executing target CWXTSD������������������������������������������������������
+ STTR028I Processing test case CWXTSDB2Case9
+ STTR006I Executing target CWXTSD������������������������������������������������������
+ STTR028I Processing test case CWXTSDB2Case10
+ STTR006I Executing target CWXTSD������������������������������������������������������
+ STTR028I Processing test case CWXTSDB2Case11
+ STTR006I Executing target CWXTSD������������������������������������������������������
+ STTR028I Processing test case CWXTSDB2Case12
+ STTR006I Executing target CWXTSD������������������������������������������������������
+ STTR028I Processing test case CWXTSDB2Case13
+ STTR006I Executing target CWXTSD������������������������������������������������������
+ STTR028I Processing test case CWXTSDB2Case14
+ STTR006I Executing target CWXTSD������������������������������������������������������
+ STTR008I All targets successfully executed

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200629-0403_106?>
+<!--Topaz for Total Test 20.3.1.v20200629-0403_106 Jul 7, 2020 1:25:22 PM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="LGACDB01/Structures/Db2/LGACDB01/LGACDB01_Insert_CA-CITY.listructure">
+  <listructure:struct id="CA_CITY" name="CA_CITY">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">20</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">20</properties:property>
+    </properties:properties>
+    <listructure:string id="CA_CITY.CA_CITY" length="20" name="CA_CITY">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(20)</properties:property>
+        <properties:property name="displayLength" type="number">20</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(20)</properties:property>
+        <properties:property name="storageLength" type="number">20</properties:property>
+        <properties:property name="sqltype" type="number">452</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>

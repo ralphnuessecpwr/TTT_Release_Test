@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200629-0403_106?>
+<!--Topaz for Total Test 20.3.1.v20200629-0403_106 Jul 7, 2020 1:25:27 PM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="LGACDB01/Interfaces/LGACDB01_SUBP_LGACDB02.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/CICS/LGACDB01_SUBP_LGACDB02/LGACDB01_SUBP_LGACDB02_CICS-GENERATED-CONSTANT-0.listructure#LGACDB01/Structures/CICS/LGACDB01_SUBP_LGACDB02/LGACDB01_SUBP_LGACDB02_CICS-GENERATED-CONSTANT-0.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGACDB01_SUBP_LGACDB02/LGACDB01_SUBP_LGACDB02_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACDB01_SUBP_LGACDB02/LGACDB01_SUBP_LGACDB02_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGACDB01_SUBP_LGACDB02/LGACDB01_SUBP_LGACDB02_LGACDB02.listructure#LGACDB01/Structures/CICS/LGACDB01_SUBP_LGACDB02/LGACDB01_SUBP_LGACDB02_LGACDB02.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGACDB01_SUBP_LGACDB02/LGACDB01_SUBP_LGACDB02_LGACDB02.listructure#LGACDB02">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACDB01_SUBP_LGACDB02/LGACDB01_SUBP_LGACDB02_LGACDB02.listructure#LGACDB02.LGACDB02">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGACDB01_SUBP_LGACDB02/LGACDB01_SUBP_LGACDB02_CDB2AREA.listructure#LGACDB01/Structures/CICS/LGACDB01_SUBP_LGACDB02/LGACDB01_SUBP_LGACDB02_CDB2AREA.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGACDB01_SUBP_LGACDB02/LGACDB01_SUBP_LGACDB02_CDB2AREA.listructure#CDB2AREA">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACDB01_SUBP_LGACDB02/LGACDB01_SUBP_LGACDB02_CDB2AREA.listructure#CDB2AREA.D2_REQUEST_ID">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACDB01_SUBP_LGACDB02/LGACDB01_SUBP_LGACDB02_CDB2AREA.listructure#CDB2AREA.D2_RETURN_CODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACDB01_SUBP_LGACDB02/LGACDB01_SUBP_LGACDB02_CDB2AREA.listructure#CDB2AREA.D2_CUSTOMER_NUM">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACDB01_SUBP_LGACDB02/LGACDB01_SUBP_LGACDB02_CDB2AREA.listructure#CDB2AREA.D2_CUSTSECR_PASS">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACDB01_SUBP_LGACDB02/LGACDB01_SUBP_LGACDB02_CDB2AREA.listructure#CDB2AREA.D2_CUSTSECR_COUNT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACDB01_SUBP_LGACDB02/LGACDB01_SUBP_LGACDB02_CDB2AREA.listructure#CDB2AREA.D2_CUSTSECR_STATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACDB01_SUBP_LGACDB02/LGACDB01_SUBP_LGACDB02_CDB2AREA.listructure#CDB2AREA.D2_CUSTSECR_DATA">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGACDB01_SUBP_LGACDB02/LGACDB01_SUBP_LGACDB02_dfhb0020.listructure#LGACDB01/Structures/CICS/LGACDB01_SUBP_LGACDB02/LGACDB01_SUBP_LGACDB02_dfhb0020.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGACDB01_SUBP_LGACDB02/LGACDB01_SUBP_LGACDB02_dfhb0020.listructure#dfhb0020">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACDB01_SUBP_LGACDB02/LGACDB01_SUBP_LGACDB02_dfhb0020.listructure#dfhb0020.dfhb0020">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

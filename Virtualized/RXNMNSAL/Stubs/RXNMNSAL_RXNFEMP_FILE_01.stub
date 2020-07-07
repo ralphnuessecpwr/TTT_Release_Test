@@ -1,0 +1,40 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="MOD" encoding="1047" fileStatus="00" id="RXNMNSAL/Stubs/RXNMNSAL_RXNFEMP_FILE_01.stub" stubtype="QSAM" target="RXNFEMP" token="1070000">
+  <properties:properties>
+    <properties:property name="bufferType" type="string">BA</properties:property>
+  </properties:properties>
+  <stub:description>Created: Jul 7, 2020 10:22:48 AM</stub:description>
+  <stub:stubdata id="0" name="RXNFEMP">
+    <stub:interface>../Interfaces/RXNMNSAL_RXNFEMP_EMPLOYEE_WORK_AREA.interface#RXNMNSAL/Interfaces/RXNMNSAL_RXNFEMP_EMPLOYEE_WORK_AREA.interface</stub:interface>
+    <stub:output listructure="../Structures/RXNMNSAL_RXNFEMP_EMPLOYEE-WORK-AREA.listructure#RXNMNSAL/Structures/RXNMNSAL_RXNFEMP_EMPLOYEE-WORK-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/RXNMNSAL_RXNFEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F0F0F1E2F4C6D5C1D4C5C1C140D3D5C1D4C5C140F140E2C5E2C1D4C540E2E3D9C5C5E3C4C5E3D9D6C9E340D4C9F1F1F1F1F1F1F1F1F10001801FF0F0F0F0F0F0F00000F9F7F1F2F1F90000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="1" name="RXNFEMP">
+    <stub:interface>../Interfaces/RXNMNSAL_RXNFEMP_EMPLOYEE_WORK_AREA.interface#RXNMNSAL/Interfaces/RXNMNSAL_RXNFEMP_EMPLOYEE_WORK_AREA.interface</stub:interface>
+    <stub:output listructure="../Structures/RXNMNSAL_RXNFEMP_EMPLOYEE-WORK-AREA.listructure#RXNMNSAL/Structures/RXNMNSAL_RXNFEMP_EMPLOYEE-WORK-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/RXNMNSAL_RXNFEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F0F0F2E2F4C6D5C1D4C5C1C240D3D5C1D4C5C140F140E2C5E2C1D4C540E2E3D9C5C5E3C4C5E3D9D6C9E340D4C9F1F1F1F1F1F1F1F1F10001801FF0F0F0F0F0F0F00000F9F7F1F2F1F90000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="2" name="RXNFEMP">
+    <stub:interface>../Interfaces/RXNMNSAL_RXNFEMP_EMPLOYEE_WORK_AREA.interface#RXNMNSAL/Interfaces/RXNMNSAL_RXNFEMP_EMPLOYEE_WORK_AREA.interface</stub:interface>
+    <stub:output listructure="../Structures/RXNMNSAL_RXNFEMP_EMPLOYEE-WORK-AREA.listructure#RXNMNSAL/Structures/RXNMNSAL_RXNFEMP_EMPLOYEE-WORK-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/RXNMNSAL_RXNFEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F0F1F1E2F1C6D5C1D4C5C1D240D3D5C1D4C5D240F140E2C5E2C1D4C540E2E3D9C5C5E3C4C5E3D9D6C9E340D4C9F1F1F1F1F1F1F1F1F10003000FF0F0F0F0F0F0F00000F9F2F0F3F0F90000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+</stub:stub>

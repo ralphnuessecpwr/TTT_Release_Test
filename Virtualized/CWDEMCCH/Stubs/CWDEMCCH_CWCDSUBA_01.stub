@@ -1,0 +1,43 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="CWDEMCCH/Stubs/CWDEMCCH_CWCDSUBA_01.stub" stubtype="Program" target="CWCDSUBA" token="1480000">
+  <properties:properties>
+    <properties:property name="programtype" type="string">ProgramStubAssertion</properties:property>
+  </properties:properties>
+  <stub:description>Created: Jul 7, 2020 11:49:39 AM</stub:description>
+  <stub:stubdata id="0" name="CWCDSUBA">
+    <stub:interface>../Interfaces/CWDEMCCH_CWCDSUBA.interface#CWDEMCCH/Interfaces/CWDEMCCH_CWCDSUBA.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWDEMCCH_CWCDSUBA.interface#CWDEMCCH/Interfaces/CWDEMCCH_CWCDSUBA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWDEMCCH_CWCDSUBA_EMP-RECORD-LIST.listructure#CWDEMCCH/Structures/CWDEMCCH_CWCDSUBA_EMP-RECORD-LIST.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWDEMCCH_CWCDSUBA_EMP-RECORD-LIST.listructure#EMP_RECORD_LIST" id="arg0.EMP_RECORD_LIST">
+        <properties:properties>
+          <properties:property name="address" type="string">39C2BCD0</properties:property>
+          <properties:property name="value" type="string">F0F0F0F5F0F0F4F0000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CWDEMCCH_CWCDSUBA_CWCDWRKA.listructure#CWDEMCCH/Structures/CWDEMCCH_CWCDSUBA_CWCDWRKA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWDEMCCH_CWCDSUBA_CWCDWRKA.listructure#CWCDWRKA" id="arg1.CWCDWRKA">
+        <properties:properties>
+          <properties:property name="address" type="string">39C2C788</properties:property>
+          <properties:property name="value" type="string">0000000000000000000000000000000000000000000000000000000039C29DD000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000200000C040F00F0F0F0F5F0F0F4F0F0F5F0F0F0F0F2F0F0F0F0F0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CWDEMCCH_CWCDSUBA_EMP-RECORD-LIST.listructure#CWDEMCCH/Structures/CWDEMCCH_CWCDSUBA_EMP-RECORD-LIST.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWDEMCCH_CWCDSUBA_EMP-RECORD-LIST.listructure#EMP_RECORD_LIST" id="arg0.EMP_RECORD_LIST">
+        <properties:properties>
+          <properties:property name="address" type="string">39C2BCD0</properties:property>
+          <properties:property name="value" type="string">F0F0F0F5F0F0F4F0F0F5F0F0F0F0F2F0F0F0F0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CWDEMCCH_CWCDSUBA_CWCDWRKA.listructure#CWDEMCCH/Structures/CWDEMCCH_CWCDSUBA_CWCDWRKA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWDEMCCH_CWCDSUBA_CWCDWRKA.listructure#CWCDWRKA" id="arg1.CWCDWRKA">
+        <properties:properties>
+          <properties:property name="address" type="string">39C2C788</properties:property>
+          <properties:property name="value" type="string">0000000000000000000000000000000000000000000000000000000039C29DD000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000200000C040F00F0F0F0F5F0F0F4F0F0F5F0F0F0F0F2F0F0F0F0F0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+  </stub:stubdata>
+</stub:stub>

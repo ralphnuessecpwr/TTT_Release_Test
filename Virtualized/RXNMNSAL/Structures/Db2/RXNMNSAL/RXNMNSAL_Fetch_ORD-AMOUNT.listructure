@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200629-0403_106?>
+<!--Topaz for Total Test 20.3.1.v20200629-0403_106 Jul 7, 2020 10:21:07 AM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="RXNMNSAL/Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_ORD-AMOUNT.listructure">
+  <listructure:struct id="ORD_AMOUNT" name="ORD_AMOUNT">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">5</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">5</properties:property>
+    </properties:properties>
+    <listructure:number id="ORD_AMOUNT.ORD_AMOUNT" length="9" name="ORD_AMOUNT">
+      <properties:properties>
+        <properties:property name="picture" type="string">S9(7)V9(2)</properties:property>
+        <properties:property name="usage" type="string">computational-3</properties:property>
+        <properties:property name="signed" type="boolean">true</properties:property>
+        <properties:property name="scale" type="number">2</properties:property>
+        <properties:property name="displayLength" type="number">9</properties:property>
+        <properties:property name="integerDigits" type="number">7</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">packed</properties:property>
+        <properties:property name="storageLength" type="number">5</properties:property>
+        <properties:property name="sqltype" type="number">484</properties:property>
+      </properties:properties>
+    </listructure:number>
+  </listructure:struct>
+</listructure:listructure>

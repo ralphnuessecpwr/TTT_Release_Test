@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200629-0403_106?>
+<!--Topaz for Total Test 20.3.1.v20200629-0403_106 Jul 7, 2020 1:26:44 PM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="LGACUS01/Interfaces/LGACUS01_SUBP_LGACDB01.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_CICS-GENERATED-CONSTANT-0.listructure#LGACUS01/Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_CICS-GENERATED-CONSTANT-0.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_LGACDB01.listructure#LGACUS01/Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_LGACDB01.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_LGACDB01.listructure#LGACDB01">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_LGACDB01.listructure#LGACDB01.LGACDB01">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#LGACUS01/Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_REQUEST_ID">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_RETURN_CODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_CUSTOMER_NUM">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_REQUEST_SPECIFIC">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_CUSTOMER_REQUEST">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_FIRST_NAME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_LAST_NAME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_DOB">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_HOUSE_NAME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_HOUSE_NUM">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_POSTCODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_NUM_POLICIES">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_PHONE_MOBILE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_PHONE_HOME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_EMAIL_ADDRESS">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_NATIONAL_ID_NBR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_NIN_TYPE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_STREET_ADDRESS">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_CITY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_STATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_COUNTRY_CODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_SALES_TERRITORY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_CUSTOMER_PFKEY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_CUSTOMER_BEGIN">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_CUSTOMER_END">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_POLICY_DATA">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_CUSTSECR_REQUEST">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_CUSTSECR_REQUEST.CA_CUSTSECR_PASS">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_CUSTSECR_REQUEST.CA_CUSTSECR_COUNT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_CUSTSECR_REQUEST.CA_CUSTSECR_STATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_CUSTSECR_REQUEST.CA_CUSTSECR_DATA">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_POLICY_NUM">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_POLICY_COMMON">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_POLICY_COMMON.CA_ISSUE_DATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_POLICY_COMMON.CA_EXPIRY_DATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_POLICY_COMMON.CA_LASTCHANGED">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_POLICY_COMMON.CA_BROKERID">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_POLICY_COMMON.CA_BROKERSREF">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_POLICY_COMMON.CA_PAYMENT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_POLICY_PFKEY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_POLICY_BEGIN">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_POLICY_END">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_POLICY_SPECIFIC">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_ENDOWMENT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_WITH_PROFITS">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_EQUITIES">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_MANAGED_FUND">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_FUND_NAME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_TERM">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_SUM_ASSURED">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_LIFE_ASSURED">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_AUTO_PAY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_CHECK_ACCT_NBR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_BANK_ROUTE_CODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_CREDIT_CARD_TYP">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_CREDIT_CARD_NBR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_CREDIT_CARD_PIN">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_CREDIT_CARD_VAL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_PADDING_DATA">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_PROPERTY_TYPE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_BEDROOMS">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_VALUE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_HOUSE_NAME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_HOUSE_NUMBER">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_POSTCODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_STREET_ADDRESS">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_CITY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_STATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_COUNTRY_CODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_AUTO_PAY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_CHECK_ACCT_NBR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_BANK_ROUTE_CODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_CREDIT_CARD_TYP">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_CREDIT_CARD_NBR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_CREDIT_CARD_PIN">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_CREDIT_CARD_VAL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_FILLER">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_MAKE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_MODEL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_VALUE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_REGNUMBER">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_COLOUR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_CC">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_MANUFACTURED">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_PREMIUM">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_ACCIDENTS">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_CAR_YEAR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_CAR_VIN">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_AUTO_PAY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_CHECK_ACCT_NBR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_BANK_ROUTE_CODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_CREDIT_CARD_TYP">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_CREDIT_CARD_NBR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_CREDIT_CARD_PIN">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_CREDIT_CARD_VAL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_FILLER">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_Address">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_Postcode">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_Latitude">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_Longitude">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_Customer">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_PropType">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_FirePeril">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_FirePremium">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_CrimePeril">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_CrimePremium">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_FloodPeril">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_FloodPremium">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_WeatherPeril">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_WeatherPremium">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_Status">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_RejectReason">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_STREET_ADDRESS">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_CITY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_STATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_COUNTRY_CODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_AUTO_PAY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_CHECK_ACCT_NBR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_BANK_ROUTE_CODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_CREDIT_CARD_TYP">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_CREDIT_CARD_NBR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_CREDIT_CARD_PIN">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_CREDIT_CARD_VAL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_FILLER">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_CLAIM">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_Num">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_Date">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_Paid">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_Value">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_Cause">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_Observations">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_DFHCOMMAREA.listructure#DFHCOMMAREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_FILLER">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_dfhb0020.listructure#LGACUS01/Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_dfhb0020.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_dfhb0020.listructure#dfhb0020">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_dfhb0020.listructure#dfhb0020.dfhb0020">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

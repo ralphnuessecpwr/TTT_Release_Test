@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200629-0403_106?>
+<!--Topaz for Total Test 20.3.1.v20200629-0403_106 Jul 7, 2020 10:22:48 AM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="RXNMNSAL/Interfaces/RXNMNSAL_RXNFSAL_SALES_RECORD_IN.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/RXNMNSAL_RXNFSAL_SALES-RECORD-IN.listructure#RXNMNSAL/Structures/RXNMNSAL_RXNFSAL_SALES-RECORD-IN.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/RXNMNSAL_RXNFSAL_SALES-RECORD-IN.listructure#SALES_RECORD_IN">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/RXNMNSAL_RXNFSAL_SALES-RECORD-IN.listructure#SALES_RECORD_IN.SA_EMP_NUM">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/RXNMNSAL_RXNFSAL_SALES-RECORD-IN.listructure#SALES_RECORD_IN.SA_REGION">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/RXNMNSAL_RXNFSAL_SALES-RECORD-IN.listructure#SALES_RECORD_IN.SA_EMP_NAME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/RXNMNSAL_RXNFSAL_SALES-RECORD-IN.listructure#SALES_RECORD_IN.SA_EMP_ADDRESS">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/RXNMNSAL_RXNFSAL_SALES-RECORD-IN.listructure#SALES_RECORD_IN.SA_EMP_ADDRESS.SA_EMP_STREET">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/RXNMNSAL_RXNFSAL_SALES-RECORD-IN.listructure#SALES_RECORD_IN.SA_EMP_ADDRESS.SA_EMP_CITY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/RXNMNSAL_RXNFSAL_SALES-RECORD-IN.listructure#SALES_RECORD_IN.SA_EMP_ADDRESS.SA_EMP_STATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/RXNMNSAL_RXNFSAL_SALES-RECORD-IN.listructure#SALES_RECORD_IN.SA_EMP_ADDRESS.SA_EMP_ZIP">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/RXNMNSAL_RXNFSAL_SALES-RECORD-IN.listructure#SALES_RECORD_IN.SA_SALES_DATA">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/RXNMNSAL_RXNFSAL_SALES-RECORD-IN.listructure#SALES_RECORD_IN.SA_SALES_DATA.SA_SALES_SALARY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/RXNMNSAL_RXNFSAL_SALES-RECORD-IN.listructure#SALES_RECORD_IN.SA_SALES_DATA.FILLER0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/RXNMNSAL_RXNFSAL_SALES-RECORD-IN.listructure#SALES_RECORD_IN.SA_HIRE_DATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/RXNMNSAL_RXNFSAL_SALES-RECORD-IN.listructure#SALES_RECORD_IN.SA_HIRE_DATE.WA_EMP_HIRE_YY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/RXNMNSAL_RXNFSAL_SALES-RECORD-IN.listructure#SALES_RECORD_IN.SA_HIRE_DATE.WA_EMP_HIRE_MM">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/RXNMNSAL_RXNFSAL_SALES-RECORD-IN.listructure#SALES_RECORD_IN.SA_HIRE_DATE.WA_EMP_HIRE_DD">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/RXNMNSAL_RXNFSAL_SALES-RECORD-IN.listructure#SALES_RECORD_IN.WA_MANAGER">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/RXNMNSAL_RXNFSAL_SALES-RECORD-IN.listructure#SALES_RECORD_IN.FILLER1">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

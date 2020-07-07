@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200629-0403_106?>
+<!--Topaz for Total Test 20.3.1.v20200629-0403_106 Jul 7, 2020 11:48:26 AM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-20.listructure">
+  <listructure:struct id="CICS_GENERATED_CONSTANT_20" name="CICS_GENERATED_CONSTANT_20">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">2</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">2</properties:property>
+    </properties:properties>
+    <listructure:string id="CICS_GENERATED_CONSTANT_20.CICS_GENERATED_CONSTANT_20" length="2" name="CICS_GENERATED_CONSTANT_20">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(2)</properties:property>
+        <properties:property name="displayLength" type="number">2</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(2)</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>

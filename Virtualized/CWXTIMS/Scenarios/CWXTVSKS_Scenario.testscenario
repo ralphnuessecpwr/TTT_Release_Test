@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200629-0403_106?>
+<!--Topaz for Total Test 20.3.1.v20200629-0403_106 Jul 7, 2020 10:05:25 AM-->
+<testscenario:testscenario xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="CWXTIMS/Scenarios/CWXTVSKS_Scenario.testscenario">
+  <testscenario:description></testscenario:description>
+  <testscenario:testcases>
+    <testscenario:testcase alias="" csect="CWXTVSKS" encoding="1047" entrypoint="CWXTVSKS" id="CWXTIMS/Scenarios/CWXTVSKS_Scenario.testscenario%23CWXTVSKSCase1" target="CWXTVSKS">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1593736078000</testcase:targetCaptureCompileTime>
+      <testcase:stubs>
+        <testcase:stub>../../CWXTVSKS/Stubs/CWXTVSKS_CWXTSUBC_01.stub#CWXTVSKS/Stubs/CWXTVSKS_CWXTSUBC_01.stub</testcase:stub>
+        <testcase:stub>../../CWXTVSKS/Stubs/CWXTVSKS_CWXTDATE_01.stub#CWXTVSKS/Stubs/CWXTVSKS_CWXTDATE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTVSKS_RPTVSAM_FILE_01.stub#CWXTIMS/Stubs/CWXTVSKS_RPTVSAM_FILE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTVSKS_EMPKEYS_FILE_01.stub#CWXTIMS/Stubs/CWXTVSKS_EMPKEYS_FILE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTVSKS_EMPVSAM_FILE_01.stub#CWXTIMS/Stubs/CWXTVSKS_EMPVSAM_FILE_01.stub</testcase:stub>
+        <testcase:stub>../../CWXTVSKS/Stubs/CWXTVSKS_DATETIME_01.stub#CWXTVSKS/Stubs/CWXTVSKS_DATETIME_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/CWXTVSKS_RETURN-CODE.listructure#CWXTIMS/Structures/CWXTVSKS_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTVSKS_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTVSKS</testcase:ddioMemberName>
+    </testscenario:testcase>
+  </testscenario:testcases>
+</testscenario:testscenario>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200629-0403_106?>
+<!--Topaz for Total Test 20.3.1.v20200629-0403_106 Jul 7, 2020 10:22:48 AM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="RXNMNSAL/Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_START.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-START.listructure#RXNMNSAL/Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-START.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-START.listructure#EMPLOYEE_DTL_START">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-START.listructure#EMPLOYEE_DTL_START.FILLER0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-START.listructure#EMPLOYEE_DTL_START.EMP_DTL_NUM">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-START.listructure#EMPLOYEE_DTL_START.FILLER1">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-START.listructure#EMPLOYEE_DTL_START.EMP_DTL_NAME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-START.listructure#EMPLOYEE_DTL_START.FILLER2">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

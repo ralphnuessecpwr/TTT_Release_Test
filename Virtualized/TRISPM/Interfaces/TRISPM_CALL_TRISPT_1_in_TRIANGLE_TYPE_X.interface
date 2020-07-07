@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200629-0403_106?>
+<!--Topaz for Total Test 20.3.1.v20200629-0403_106 Jul 7, 2020 10:28:25 AM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="TRISPM/Interfaces/TRISPM_CALL_TRISPT_1_in_TRIANGLE_TYPE_X.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/Db2/TRISPM/TRISPM_CALL_SIDES.listructure#TRISPM/Structures/Db2/TRISPM/TRISPM_CALL_SIDES.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/TRISPM/TRISPM_CALL_SIDES.listructure#SIDES">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/TRISPM/TRISPM_CALL_SIDES.listructure#SIDES.SIDES">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/TRISPM/TRISPM_CALL_TRIANGLE-TYPE-X.listructure#TRISPM/Structures/Db2/TRISPM/TRISPM_CALL_TRIANGLE-TYPE-X.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/TRISPM/TRISPM_CALL_TRIANGLE-TYPE-X.listructure#TRIANGLE_TYPE_X">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/TRISPM/TRISPM_CALL_TRIANGLE-TYPE-X.listructure#TRIANGLE_TYPE_X.TRIANGLE_TYPE_X">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

@@ -1,0 +1,527 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="RXNMNSAL/Stubs/RXNMNSAL_CUST_CURSOR_SQL_01.stub" nextCalltoken="1030021" stubtype="SQL CURSOR" target="Open" token="1030000">
+  <stub:description>Created: Jul 7, 2020 10:21:03 AM</stub:description>
+  <stub:stubdata id="0" name="Open">
+    <stub:interface>../Interfaces/RXNMNSAL_CUST_CURSOR_WS_SALREP_EMP_NUM.interface#RXNMNSAL/Interfaces/RXNMNSAL_CUST_CURSOR_WS_SALREP_EMP_NUM.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/RXNMNSAL/RXNMNSAL_Open_WS-SALREP-EMP-NUM.listructure#RXNMNSAL/Structures/Db2/RXNMNSAL/RXNMNSAL_Open_WS-SALREP-EMP-NUM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/RXNMNSAL/RXNMNSAL_Open_WS-SALREP-EMP-NUM.listructure#WS_SALREP_EMP_NUM" id="arg0.WS_SALREP_EMP_NUM">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F0F0F1</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlResults>
+      <stub:result id="1" name="Fetch">
+        <stub:interface>../Interfaces/Fetch_CUST_CURSOR_DB_CUSTOMER_NUMBER.interface#RXNMNSAL/Interfaces/Fetch_CUST_CURSOR_DB_CUSTOMER_NUMBER.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure#RXNMNSAL/Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure#DB_CUSTOMER_NUMBER" id="arg0.DB_CUSTOMER_NUMBER">
+            <properties:properties>
+              <properties:property name="value" type="string">C3E2F1F1F4F6</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="Fetch">
+            <stub:text>           EXEC SQL
+               FETCH CUST_CURSOR
+               INTO :DB-CUSTOMER-NUMBER
+           END-EXEC.
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400400001ED9E7D5D4D5E2C1D31B0527D405D34E68000137DFA0700000000037DF8808047400040000021A0000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C14E40080000003C0001000101C4000637DF9E88000000000008000004740000000040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="1030002">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="2" name="Fetch">
+        <stub:interface>../Interfaces/Fetch_CUST_CURSOR_DB_CUSTOMER_NUMBER.interface#RXNMNSAL/Interfaces/Fetch_CUST_CURSOR_DB_CUSTOMER_NUMBER.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure#RXNMNSAL/Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure#DB_CUSTOMER_NUMBER" id="arg0.DB_CUSTOMER_NUMBER">
+            <properties:properties>
+              <properties:property name="value" type="string">C3E6F3F3F7F9</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="Fetch">
+            <stub:text>           EXEC SQL
+               FETCH CUST_CURSOR
+               INTO :DB-CUSTOMER-NUMBER
+           END-EXEC.
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400400001ED9E7D5D4D5E2C1D31B0527D405D34E68000137DFA0700000000037DF8808047400040000021A0000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C14E40080000003C0001000101C4000637DF9E88000000000008000004740000000040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="1030003">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="3" name="Fetch">
+        <stub:interface>../Interfaces/Fetch_CUST_CURSOR_DB_CUSTOMER_NUMBER.interface#RXNMNSAL/Interfaces/Fetch_CUST_CURSOR_DB_CUSTOMER_NUMBER.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure#RXNMNSAL/Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure#DB_CUSTOMER_NUMBER" id="arg0.DB_CUSTOMER_NUMBER">
+            <properties:properties>
+              <properties:property name="value" type="string">C3E6F5F5F9F0</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="Fetch">
+            <stub:text>           EXEC SQL
+               FETCH CUST_CURSOR
+               INTO :DB-CUSTOMER-NUMBER
+           END-EXEC.
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400400001ED9E7D5D4D5E2C1D31B0527D405D34E68000137DFA0700000000037DF8808047400040000021A0000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C14E40080000003C0001000101C4000637DF9E88000000000008000004740000000040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="1030004">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="4" name="Fetch">
+        <stub:interface>../Interfaces/Fetch_CUST_CURSOR_DB_CUSTOMER_NUMBER.interface#RXNMNSAL/Interfaces/Fetch_CUST_CURSOR_DB_CUSTOMER_NUMBER.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure#RXNMNSAL/Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure#DB_CUSTOMER_NUMBER" id="arg0.DB_CUSTOMER_NUMBER">
+            <properties:properties>
+              <properties:property name="value" type="string">C3E6F8F8F4F4</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="Fetch">
+            <stub:text>           EXEC SQL
+               FETCH CUST_CURSOR
+               INTO :DB-CUSTOMER-NUMBER
+           END-EXEC.
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400400001ED9E7D5D4D5E2C1D31B0527D405D34E68000137DFA0700000000037DF8808047400040000021A0000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C14E40080000003C0001000101C4000637DF9E88000000000008000004740000000040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="1030005">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="5" name="Fetch">
+        <stub:interface>../Interfaces/Fetch_CUST_CURSOR_DB_CUSTOMER_NUMBER.interface#RXNMNSAL/Interfaces/Fetch_CUST_CURSOR_DB_CUSTOMER_NUMBER.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure#RXNMNSAL/Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure#DB_CUSTOMER_NUMBER" id="arg0.DB_CUSTOMER_NUMBER">
+            <properties:properties>
+              <properties:property name="value" type="string">C3C3F3F3F0F0</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="Fetch">
+            <stub:text>           EXEC SQL
+               FETCH CUST_CURSOR
+               INTO :DB-CUSTOMER-NUMBER
+           END-EXEC.
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400400001ED9E7D5D4D5E2C1D31B0527D405D34E68000137DFA0700000000037DF8808047400040000021A0000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C14E40080000003C0001000101C4000637DF9E88000000000008000004740000000040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="1030006">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="6" name="Fetch">
+        <stub:interface>../Interfaces/Fetch_CUST_CURSOR_DB_CUSTOMER_NUMBER.interface#RXNMNSAL/Interfaces/Fetch_CUST_CURSOR_DB_CUSTOMER_NUMBER.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure#RXNMNSAL/Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure#DB_CUSTOMER_NUMBER" id="arg0.DB_CUSTOMER_NUMBER">
+            <properties:properties>
+              <properties:property name="value" type="string">C3D5F0F0F2F2</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="Fetch">
+            <stub:text>           EXEC SQL
+               FETCH CUST_CURSOR
+               INTO :DB-CUSTOMER-NUMBER
+           END-EXEC.
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400400001ED9E7D5D4D5E2C1D31B0527D405D34E68000137DFA0700000000037DF8808047400040000021A0000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C14E40080000003C0001000101C4000637DF9E88000000000008000004740000000040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="1030007">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="7" name="Fetch">
+        <stub:interface>../Interfaces/Fetch_CUST_CURSOR_DB_CUSTOMER_NUMBER.interface#RXNMNSAL/Interfaces/Fetch_CUST_CURSOR_DB_CUSTOMER_NUMBER.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure#RXNMNSAL/Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure#DB_CUSTOMER_NUMBER" id="arg0.DB_CUSTOMER_NUMBER">
+            <properties:properties>
+              <properties:property name="value" type="string">C3E4F4F4F7F7</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="Fetch">
+            <stub:text>           EXEC SQL
+               FETCH CUST_CURSOR
+               INTO :DB-CUSTOMER-NUMBER
+           END-EXEC.
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400400001ED9E7D5D4D5E2C1D31B0527D405D34E68000137DFA0700000000037DF8808047400040000021A0000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C14E40080000003C0001000101C4000637DF9E88000000000008000004740000000040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="1030008">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="8" name="Fetch">
+        <stub:interface>../Interfaces/Fetch_CUST_CURSOR_DB_CUSTOMER_NUMBER.interface#RXNMNSAL/Interfaces/Fetch_CUST_CURSOR_DB_CUSTOMER_NUMBER.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure#RXNMNSAL/Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure#DB_CUSTOMER_NUMBER" id="arg0.DB_CUSTOMER_NUMBER">
+            <properties:properties>
+              <properties:property name="value" type="string">C3C5F0F0F2F5</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="Fetch">
+            <stub:text>           EXEC SQL
+               FETCH CUST_CURSOR
+               INTO :DB-CUSTOMER-NUMBER
+           END-EXEC.
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400400001ED9E7D5D4D5E2C1D31B0527D405D34E68000137DFA0700000000037DF8808047400040000021A0000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C14E40080000003C0001000101C4000637DF9E88000000000008000004740000000040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="1030009">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="9" name="Fetch">
+        <stub:interface>../Interfaces/Fetch_CUST_CURSOR_DB_CUSTOMER_NUMBER.interface#RXNMNSAL/Interfaces/Fetch_CUST_CURSOR_DB_CUSTOMER_NUMBER.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure#RXNMNSAL/Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure#DB_CUSTOMER_NUMBER" id="arg0.DB_CUSTOMER_NUMBER">
+            <properties:properties>
+              <properties:property name="value" type="string">C3C7F3F5F0F1</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="Fetch">
+            <stub:text>           EXEC SQL
+               FETCH CUST_CURSOR
+               INTO :DB-CUSTOMER-NUMBER
+           END-EXEC.
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400400001ED9E7D5D4D5E2C1D31B0527D405D34E68000137DFA0700000000037DF8808047400040000021A0000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C14E40080000003C0001000101C4000637DF9E88000000000008000004740000000040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="1030010">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="10" name="Fetch">
+        <stub:interface>../Interfaces/Fetch_CUST_CURSOR_DB_CUSTOMER_NUMBER.interface#RXNMNSAL/Interfaces/Fetch_CUST_CURSOR_DB_CUSTOMER_NUMBER.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure#RXNMNSAL/Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure#DB_CUSTOMER_NUMBER" id="arg0.DB_CUSTOMER_NUMBER">
+            <properties:properties>
+              <properties:property name="value" type="string">C3D5F0F1F1F8</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="Fetch">
+            <stub:text>           EXEC SQL
+               FETCH CUST_CURSOR
+               INTO :DB-CUSTOMER-NUMBER
+           END-EXEC.
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400400001ED9E7D5D4D5E2C1D31B0527D405D34E68000137DFA0700000000037DF8808047400040000021A0000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C14E40080000003C0001000101C4000637DF9E88000000000008000004740000000040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="1030011">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="11" name="Fetch">
+        <stub:interface>../Interfaces/Fetch_CUST_CURSOR_DB_CUSTOMER_NUMBER.interface#RXNMNSAL/Interfaces/Fetch_CUST_CURSOR_DB_CUSTOMER_NUMBER.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure#RXNMNSAL/Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure#DB_CUSTOMER_NUMBER" id="arg0.DB_CUSTOMER_NUMBER">
+            <properties:properties>
+              <properties:property name="value" type="string">C3D5F0F1F1F8</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="Fetch">
+            <stub:text>           EXEC SQL
+               FETCH CUST_CURSOR
+               INTO :DB-CUSTOMER-NUMBER
+           END-EXEC.
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400400001ED9E7D5D4D5E2C1D31B0527D405D34E68000137DFA0700000000037DF8808047400040000021A0000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C14E40080000003C0001000101C4000637DF9E88000000000008000004740000000040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="1030012">
+            <stub:rawData>E2D8D3C3C14040400000008800000064000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D5E7C5C2D940FFFFFF920000000000000000FFFFFFFF00000000000000004040404040404040404040F0F2F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="12" name="Close">
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="Close">
+            <stub:text>           EXEC SQL
+               CLOSE CUST_CURSOR
+           END-EXEC.
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400000002DD9E7D5D4D5E2C1D31B0527D405D34E68000137DFA0700000000000000000047400050000022E0000000000000000000000000000000000000000</stub:headerData>
+          </stub:plist>
+          <stub:sqlca callToken="1030013">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+    </stub:sqlResults>
+    <stub:sqlStatus>
+      <stub:statement type="Open">
+        <stub:text>           EXEC SQL
+               OPEN CUST_CURSOR
+           END-EXEC.
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>004040000032D9E7D5D4D5E2C1D31B0527D405D34E68000137DFA07037DF88480000000004740003000002080000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C14E40080000003C0001000101C4000537DF9B90000000000008000004740000000040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="1030001">
+        <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF000000000000000040D5404040F24040404040F0F0F0F0F0</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:stubdata id="13" name="Open">
+    <stub:interface>../Interfaces/Open_CUST_CURSOR_WS_SALREP_EMP_NUM.interface#RXNMNSAL/Interfaces/Open_CUST_CURSOR_WS_SALREP_EMP_NUM.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/RXNMNSAL/RXNMNSAL_Open_WS-SALREP-EMP-NUM.listructure#RXNMNSAL/Structures/Db2/RXNMNSAL/RXNMNSAL_Open_WS-SALREP-EMP-NUM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/RXNMNSAL/RXNMNSAL_Open_WS-SALREP-EMP-NUM.listructure#WS_SALREP_EMP_NUM" id="arg0.WS_SALREP_EMP_NUM">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F0F0F2</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlResults>
+      <stub:result id="14" name="Fetch">
+        <stub:interface>../Interfaces/Fetch_CUST_CURSOR_DB_CUSTOMER_NUMBER.interface#RXNMNSAL/Interfaces/Fetch_CUST_CURSOR_DB_CUSTOMER_NUMBER.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure#RXNMNSAL/Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure#DB_CUSTOMER_NUMBER" id="arg0.DB_CUSTOMER_NUMBER">
+            <properties:properties>
+              <properties:property name="value" type="string">C3E2F1F1F4F7</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="Fetch">
+            <stub:text>           EXEC SQL
+               FETCH CUST_CURSOR
+               INTO :DB-CUSTOMER-NUMBER
+           END-EXEC.
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400400001ED9E7D5D4D5E2C1D31B0527D405D34E68000137DFA0700000000037DF8808047400040000021A0000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C14E40080000003C0001000101C4000637DF9E88000000000008000004740000000040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="1030015">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="15" name="Fetch">
+        <stub:interface>../Interfaces/Fetch_CUST_CURSOR_DB_CUSTOMER_NUMBER.interface#RXNMNSAL/Interfaces/Fetch_CUST_CURSOR_DB_CUSTOMER_NUMBER.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure#RXNMNSAL/Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure#DB_CUSTOMER_NUMBER" id="arg0.DB_CUSTOMER_NUMBER">
+            <properties:properties>
+              <properties:property name="value" type="string">C3E2F1F1F4F7</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="Fetch">
+            <stub:text>           EXEC SQL
+               FETCH CUST_CURSOR
+               INTO :DB-CUSTOMER-NUMBER
+           END-EXEC.
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400400001ED9E7D5D4D5E2C1D31B0527D405D34E68000137DFA0700000000037DF8808047400040000021A0000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C14E40080000003C0001000101C4000637DF9E88000000000008000004740000000040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="1030016">
+            <stub:rawData>E2D8D3C3C14040400000008800000064000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D5E7C5C2D940FFFFFF920000000000000000FFFFFFFF00000000000000004040404040404040404040F0F2F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="16" name="Close">
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="Close">
+            <stub:text>           EXEC SQL
+               CLOSE CUST_CURSOR
+           END-EXEC.
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400000002DD9E7D5D4D5E2C1D31B0527D405D34E68000137DFA0700000000000000000047400050000022E0000000000000000000000000000000000000000</stub:headerData>
+          </stub:plist>
+          <stub:sqlca callToken="1030017">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+    </stub:sqlResults>
+    <stub:sqlStatus>
+      <stub:statement type="Open">
+        <stub:text>           EXEC SQL
+               OPEN CUST_CURSOR
+           END-EXEC.
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>004040000032D9E7D5D4D5E2C1D31B0527D405D34E68000137DFA07037DF88480000000004740003000002080000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C14E40080000003C0001000101C4000537DF9B90000000000008000004740000000040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="1030014">
+        <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF000000000000000040D5404040F24040404040F0F0F0F0F0</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:stubdata id="17" name="Open">
+    <stub:interface>../Interfaces/Open_CUST_CURSOR_WS_SALREP_EMP_NUM.interface#RXNMNSAL/Interfaces/Open_CUST_CURSOR_WS_SALREP_EMP_NUM.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/RXNMNSAL/RXNMNSAL_Open_WS-SALREP-EMP-NUM.listructure#RXNMNSAL/Structures/Db2/RXNMNSAL/RXNMNSAL_Open_WS-SALREP-EMP-NUM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/RXNMNSAL/RXNMNSAL_Open_WS-SALREP-EMP-NUM.listructure#WS_SALREP_EMP_NUM" id="arg0.WS_SALREP_EMP_NUM">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F0F1F1</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlResults>
+      <stub:result id="18" name="Fetch">
+        <stub:interface>../Interfaces/Fetch_CUST_CURSOR_DB_CUSTOMER_NUMBER.interface#RXNMNSAL/Interfaces/Fetch_CUST_CURSOR_DB_CUSTOMER_NUMBER.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure#RXNMNSAL/Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure#DB_CUSTOMER_NUMBER" id="arg0.DB_CUSTOMER_NUMBER">
+            <properties:properties>
+              <properties:property name="value" type="string">C3E2F1F1F4F7</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="Fetch">
+            <stub:text>           EXEC SQL
+               FETCH CUST_CURSOR
+               INTO :DB-CUSTOMER-NUMBER
+           END-EXEC.
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400400001ED9E7D5D4D5E2C1D31B0527D405D34E68000137DFA0700000000037DF8808047400040000021A0000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C14E40080000003C0001000101C4000637DF9E88000000000008000004740000000040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="1030019">
+            <stub:rawData>E2D8D3C3C14040400000008800000064000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D5E7D9C6C6D3FFFFFF920000000000000000FFFFFFFF00000000000000004040404040404040404040F0F2F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="19" name="Close">
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="Close">
+            <stub:text>           EXEC SQL
+               CLOSE CUST_CURSOR
+           END-EXEC.
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400000002DD9E7D5D4D5E2C1D31B0527D405D34E68000137DFA0700000000000000000047400050000022E0000000000000000000000000000000000000000</stub:headerData>
+          </stub:plist>
+          <stub:sqlca callToken="1030020">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+    </stub:sqlResults>
+    <stub:sqlStatus>
+      <stub:statement type="Open">
+        <stub:text>           EXEC SQL
+               OPEN CUST_CURSOR
+           END-EXEC.
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>004040000032D9E7D5D4D5E2C1D31B0527D405D34E68000137DFA07037DF88480000000004740003000002080000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C14E40080000003C0001000101C4000537DF9B90000000000008000004740000000040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="1030018">
+        <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF000000000000000040D5404040F24040404040F0F0F0F0F0</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:database version="1110"/>
+  <stub:query>
+    <stub:text>           EXEC SQL
+                DECLARE CUST_CURSOR CURSOR FOR
+                SELECT CUSTOMER_NUMBER
+                FROM CUSTOMER_TABLE_NEW
+                WHERE SALES_REP = :WS-SALREP-EMP-NUM
+           END-EXEC.
+</stub:text>
+  </stub:query>
+</stub:stub>

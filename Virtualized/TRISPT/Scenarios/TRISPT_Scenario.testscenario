@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200629-0403_106?>
+<!--Topaz for Total Test 20.3.1.v20200629-0403_106 Jul 7, 2020 10:31:14 AM-->
+<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="TRISPT/Scenarios/TRISPT_Scenario.testscenario">
+  <testscenario:description></testscenario:description>
+  <testscenario:testcases>
+    <testscenario:testcase alias="" csect="TRISPT" encoding="1047" entrypoint="TRISPT#C" id="TRISPT/Scenarios/TRISPT_Scenario.testscenario%23TRISPTCase1" target="TRISPT">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1593743857000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/TRISPT.interface#TRISPT/Interfaces/TRISPT.interface</testcase:interface>
+      <testcase:input listructure="../Structures/TRISPT_TST-REC.listructure#TRISPT/Structures/TRISPT_TST-REC.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRISPT_TST-REC.listructure#TST_REC" id="arg0.TST_REC">
+          <properties:properties>
+            <properties:property name="value" type="string">F3F4F5</properties:property>
+            <properties:property name="expectedValue" type="string">F3F4F5</properties:property>
+            <properties:property name="address" type="string">37A48FD4</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/TRISPT_TYPE-OF-TRIANGLE.listructure#TRISPT/Structures/TRISPT_TYPE-OF-TRIANGLE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRISPT_TYPE-OF-TRIANGLE.listructure#TYPE_OF_TRIANGLE" id="arg1.TYPE_OF_TRIANGLE">
+          <properties:properties>
+            <properties:property name="value" type="string">00</properties:property>
+            <properties:property name="expectedValue" type="string">F3</properties:property>
+            <properties:property name="address" type="string">37A48FE4</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:returncode listructure="../Structures/TRISPT_RETURN-CODE.listructure#TRISPT/Structures/TRISPT_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRISPT_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>TRISPT</testcase:ddioMemberName>
+    </testscenario:testcase>
+  </testscenario:testcases>
+</testscenario:testscenario>

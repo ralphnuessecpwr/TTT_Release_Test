@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200629-0403_106?>
+<!--Topaz for Total Test 20.3.1.v20200629-0403_106 Jul 7, 2020 12:32:12 PM-->
+<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="LGTESTC1/Scenarios/LGTESTC1_Scenario2.testscenario">
+  <testscenario:description></testscenario:description>
+  <testscenario:testcases>
+    <testscenario:testcase alias="" csect="LGTESTC1" encoding="1047" entrypoint="LGTESTC1" id="LGTESTC1/Scenarios/LGTESTC1_Scenario2.testscenario%23LGTESTC1Case1" target="LGTESTC1">
+      <testcase:description></testcase:description>
+      <testcase:ddiotype>NONE</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1550734564000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/LGTESTC1.interface#LGTESTC1/Interfaces/LGTESTC1.interface</testcase:interface>
+      <testcase:input listructure="../Structures/LGTESTC1_dfheiblk.listructure#LGTESTC1/Structures/LGTESTC1_dfheiblk.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/LGTESTC1_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+          <properties:properties>
+            <properties:property name="value" type="string">0063155C0120189FE2E2C3F10001004CC3F0F8F90000020B7F0A7D00000000000000000000000000000000000000000000000040404040404040400000000000000000000000000000000000000000000000000000</properties:property>
+            <properties:property name="expectedValue" type="string">0063155C0120189FE2E2C3F10001004CC3F0F8F90000020B7F0A7D1804000000000000D2E2C4E2C3E4E2E30000000000000000E2E2D4C1D7C3F1400000000000000000000000000000000000000000000000000000</properties:property>
+            <properties:property name="address" type="string">39C10100</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/LGTESTC1_DFHCOMMAREA.listructure#LGTESTC1/Structures/LGTESTC1_DFHCOMMAREA.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/LGTESTC1_DFHCOMMAREA.listructure#DFHCOMMAREA" id="arg1.DFHCOMMAREA">
+          <properties:properties>
+            <properties:property name="value" type="string">40</properties:property>
+            <properties:property name="expectedValue" type="string">40</properties:property>
+            <properties:property name="address" type="string">39C14578</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/LGTESTC1_FILE_KSDSCUST_01.stub#LGTESTC1/Stubs/LGTESTC1_FILE_KSDSCUST_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/LGTESTC1_BMS_SEND_RECEIVE_02.stub#LGTESTC1/Stubs/LGTESTC1_BMS_SEND_RECEIVE_02.stub</testcase:stub>
+        <testcase:stub>../Stubs/LGTESTC1_SEND_RECEIVE_01.stub#LGTESTC1/Stubs/LGTESTC1_SEND_RECEIVE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/LGTESTC1_HANDLE_01.stub#LGTESTC1/Stubs/LGTESTC1_HANDLE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/LGTESTC1_SUBP_LGICUS01_01.stub#LGTESTC1/Stubs/LGTESTC1_SUBP_LGICUS01_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/LGTESTC1_RETURN_02.stub#LGTESTC1/Stubs/LGTESTC1_RETURN_02.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:ddioMemberName>LGTESTC1</testcase:ddioMemberName>
+    </testscenario:testcase>
+  </testscenario:testcases>
+</testscenario:testscenario>

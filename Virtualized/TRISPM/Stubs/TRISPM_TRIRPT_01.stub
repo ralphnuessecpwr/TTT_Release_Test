@@ -1,0 +1,34 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="TRISPM/Stubs/TRISPM_TRIRPT_01.stub" stubtype="Program" target="TRIRPT" token="1090000">
+  <properties:properties>
+    <properties:property name="programtype" type="string">ProgramStubAssertion</properties:property>
+  </properties:properties>
+  <stub:description>Created: Jul 7, 2020 10:28:29 AM</stub:description>
+  <stub:stubdata id="0" name="TRIRPT">
+    <stub:interface>../Interfaces/TRISPM_TRIRPT.interface#TRISPM/Interfaces/TRISPM_TRIRPT.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/TRISPM_TRIRPT.interface#TRISPM/Interfaces/TRISPM_TRIRPT.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/TRISPM_TRIRPT_NAME-N-CNTR-TABLE.listructure#TRISPM/Structures/TRISPM_TRIRPT_NAME-N-CNTR-TABLE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRISPM_TRIRPT_NAME-N-CNTR-TABLE.listructure#NAME_N_CNTR_TABLE" id="arg0.NAME_N_CNTR_TABLE">
+        <properties:properties>
+          <properties:property name="address" type="string">37DE37D0</properties:property>
+          <properties:property name="value" type="string">C5D8E4C9D3C1E3C5D9C1D340E3D9C9C1D5C7D3C5E2F0F0F0F0C9E2D6E2C3C5D3C5E240E3D9C9C1D5C7D3C5E24040F0F0F0F0E2C3C1D3C5D5C540E3D9C9C1D5C7D3C5E240404040F0F0F0F1C9D5E5C1D3C9C440E3D9C9C1D5C7D3C5E240404040F0F0F0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/TRISPM_TRIRPT_NAME-N-CNTR-TABLE.listructure#TRISPM/Structures/TRISPM_TRIRPT_NAME-N-CNTR-TABLE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRISPM_TRIRPT_NAME-N-CNTR-TABLE.listructure#NAME_N_CNTR_TABLE" id="arg0.NAME_N_CNTR_TABLE">
+        <properties:properties>
+          <properties:property name="address" type="string">37DE37D0</properties:property>
+          <properties:property name="value" type="string">C5D8E4C9D3C1E3C5D9C1D340E3D9C9C1D5C7D3C5E2F0F0F0F0C9E2D6E2C3C5D3C5E240E3D9C9C1D5C7D3C5E24040F0F0F0F0E2C3C1D3C5D5C540E3D9C9C1D5C7D3C5E240404040F0F0F0F1C9D5E5C1D3C9C440E3D9C9C1D5C7D3C5E240404040F0F0F0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/TRISPM_TRIRPT_RETURN-CODE.listructure#TRISPM/Structures/TRISPM_TRIRPT_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRISPM_TRIRPT_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+</stub:stub>

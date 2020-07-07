@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200629-0403_106?>
+<!--Topaz for Total Test 20.3.1.v20200629-0403_106 Jul 7, 2020 12:34:28 PM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="LGTESTC1/Structures/CICS/LGTESTC1_QUEUE_TS_GENACNTL/LGTESTC1_QUEUE_TS_GENACNTL_WRITE-MSG-H.listructure">
+  <listructure:struct id="WRITE_MSG_H" name="WRITE_MSG_H">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">14</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">14</properties:property>
+    </properties:properties>
+    <listructure:string id="WRITE_MSG_H.WRITE_MSG_H" initial="&quot;HIGH CUSTOMER=&quot;" length="14" name="WRITE_MSG_H">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(14)</properties:property>
+        <properties:property name="value">&quot;HIGH CUSTOMER=&quot;</properties:property>
+        <properties:property name="displayLength" type="number">14</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(14)</properties:property>
+        <properties:property name="storageLength" type="number">14</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>

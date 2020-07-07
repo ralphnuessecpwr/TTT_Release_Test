@@ -1,0 +1,3305 @@
+
+***************** Output from TTTRUNNR *****************
+
+ STTR043I Initializing simulation environment for: COBOL V4
+ STTR043I Initializing simulation environment for: COBOL V5
+ STTR011I totaltest zTargetRunner v170200 2020060114130867-0400 on 2020-07-07 05:20.29����������������
+ STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������),DEBUG(ON)
+ STTR013I Processing test suite CWDEMCB2_Scenario1
+ STTR014I Processing test scenario CWDEMCB2_Scenario1
+ STTR028I Processing test case CWDEMCB2Case1
+ STTR006I Executing target CWDEMCB2����������������������������������������������������
+ STTR008I All targets successfully executed
+
+***************** Output from TTOUT *****************
+
+  2020-07-07 05:20:29 TT>> INITCOBL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 TT>> INITCOBL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 TT>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> TTT@INIT >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> TTTINF00 >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIMTINIT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> STG1INIT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> STG1INIT >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 ST>> OBJ0CRCL >>>TR>>>ENTRY --->
+ 
+  2020-07-07 05:20:29 ST>> OBJ0CRCL CREATE
+ +CREATE                              Length:00000100
+ 3765D0A0 000000  A7F4004E 53000000 3765D13C E3E3E340  *x4.+......J.TTT *
+03765D0B0 000010  404040C3 E2C5C3E3 40404040 4040E37C  *   CSECT      T@*
+03765D0C0 000020  E3C1D9C7 C5E340E5 60F0F040 D960F1F7  *TARGET V-00 R-17*
+03765D0D0 000030  F0F2F0F0 40F0F1D1 E4D5F2F0 40D7E3C6  *0200 01JUN20 PTF*
+03765D0E0 000040  40F1F2F8 F2F5F000 0040F1F4 4BF1F200  * 128250.. 14.12.*
+03765D0F0 000050  00000000 00000000 404DC35D 40C3D6D7  *........ (C) COP*
+03765D100 000060  E8D9C9C7 C8E340F2 F0F1F76B 40F2F0F2  *YRIGHT 2017, 202*
+03765D110 000070  F040C3D6 D4D7E4E6 C1D9C540 C3D6D9D7  *0 COMPUWARE CORP*
+03765D120 000080  D6D9C1E3 C9D6D540 40404040 40404040  *ORATION         *
+03765D130 000090  40404040 40404040 40400000 0000003C  *          ......*
+03765D140 0000A0  00000041 37663ED0 37663F38 00000000  *.......}........*
+03765D150 0000B0  90ECD00C 1821C0C0 0000036D 5800C030  *..}...{{..._..{.*
+03765D160 0000C0  58F0C034 58E00010 58EE0304 58EE00A0  *.0{..\..........*
+03765D170 0000D0  B218E000 12FFA774 033E1211 A784033B  *..\...x.....xd..*
+03765D180 0000E0  18E11BFF 18014110 00E80E0E 50E0D008  *.........Y..&\}.*
+03765D190 0000F0  50D0E004 18DE5810 D004D203 D0481048  *&}\.....}.K.}...*
+0 2020-07-07 05:20:29 ST>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 ST>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 ST>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 ST>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 ST>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 ST>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 ST>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 ST>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 ST>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 ST>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 ST>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 ST>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 ST>> CL_CREATOR >>>TC>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> CL_CREATOR >>>TC>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 ST>> OBJ0CRCL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 ST>> SIMTINIT >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM2INIT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S2>> STG1INIT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S2>> STG1INIT >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S2>> SIM2INIT >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> TTTRUN10 >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 TT>> TTTRUN10 @EP#1 -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 TT>> TTTRUN10 @EP#1 39646048: +0000  47F0F04E 00C3C5C5 00000000 00000014 47F0F001 14CEC000 39646080 00000000
+  2020-07-07 05:20:29 TT>> TTTRUN10 @EP#1 39646068: +0020  00000000 00000000 000E6D6D 86846D7C C3E6C4C5 D4C3C2F2 0F000001 39642DF8
+  2020-07-07 05:20:29 TT>> TTTRUN10 @EP#1 39646088: +0040  00000000 00000000 B9640000 00000DF0 180F58FF 002007FF B9640000 383D08D0
+  2020-07-07 05:20:29 TT>> TTTRUN10 @EP#1 396460A8: +0060  381D5588 FFFFFFFF 00000000 39646098 B80ED6C4 00110301 00104001 00000000
+  2020-07-07 05:20:29 TT>> TTTRUN10 @EP#1 396460C8: +0080  395F9280 00000000 00000000 395F92B4 00000000 00000000 C5D5C4D4 C2D3D260
+  2020-07-07 05:20:29 TT>> TTTRUN10 @EP#1 396460E8: +00A0  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+  2020-07-07 05:20:29 TT>> TTTRUN10 @EP#4 -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 TT>> TTTRUN10 @EP#4 39640000: +0000  47F0F014 01C3C5C5 00000300 000024C8 47F0F001 90ECD00C 41A0F024 98EFF034
+  2020-07-07 05:20:29 TT>> TTTRUN10 @EP#4 39640020: +0020  47F0F020 39640000 00000000 39642654 39642500 3964005C 396428D0 39640024
+  2020-07-07 05:20:29 TT>> TTTRUN10 @LP#temp -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 TT>> TTTRUN10 @LP#temp 39648000: +0000  47F0F014 01C3C5C5 00000300 000024C8 47F0F001 90ECD00C 41A0F024 98EFF034
+  2020-07-07 05:20:29 TT>> TTTRUN10 @LP#temp 39648020: +0020  47F0F020 39648000 00000000 3964A654 3964A500 3964805C 3964A8D0 39648024
+  2020-07-07 05:20:29 TT>> TTTRUN10 @LP#real -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 TT>> TTTRUN10 @LP#real 39640000: +0000  47F0F014 01C3C5C5 00000300 000024C8 47F0F001 90ECD00C 41A0F024 98EFF034
+  2020-07-07 05:20:29 TT>> TTTRUN10 @LP#real 39640020: +0020  47F0F020 39640000 00000000 39642654 39642500 3964005C 396428D0 39640024
+ ---BNDTARGT---entry
+ --->>>modName = CWDEMCB2, epName = CWDEMCB2
+ ---openW_includeName---entry
+ --->>>moduleName = CWDEMCB2
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getE: rc, count = 3, rs = <0X83000800>.
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDTARGT---exit
+  2020-07-07 05:20:29 TT>> TTTRUN10 BNDTARGT RC = X'00000000', OFFSET = X'00000000'
+  2020-07-07 05:20:29 TT>> TTTRUN10 @CSECT -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 TT>> TTTRUN10 @CSECT 39640000: +0000  47F0F014 01C3C5C5 00000300 000024C8 47F0F001 90ECD00C 41A0F024 98EFF034
+  2020-07-07 05:20:29 TT>> TTTRUN10 @CSECT 39640020: +0020  47F0F020 39640000 00000000 39642654 39642500 3964005C 396428D0 39640024
+  2020-07-07 05:20:29 TT>> TTTRUN10 RUN10>EP -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 TT>> TTTRUN10 RUN10>EP 39640000: +0000  47F0F014 01C3C5C5 00000300 000024C8 47F0F001 90ECD00C 41A0F024 98EFF034
+  2020-07-07 05:20:29 TT>> TTTRUN10 RUN10>EP 39640020: +0020  47F0F020 39640000 00000000 39642654 39642500 3964005C 396428D0 39640024
+  2020-07-07 05:20:29 TT>> TTTRUN10 RUN10>EP 39640040: +0040  0000266C 396419F8 00000000 58F0C31C 184E05EF 00000000 A7F40009 18EF4100
+  2020-07-07 05:20:29 TT>> TTTRUN10 RUN10>EP 39640060: +0060  E3005500 C314A724 FFF35000 E04CC001 00110301 5000E000 50D0E004 18DE4100
+  2020-07-07 05:20:29 TT>> TTTRUN10 RUN10>EP 39640080: +0080  D2205000 D0744100 00005000 D0705060 D0605070 D0686080 D0906090 D09860A0
+  2020-07-07 05:20:29 TT>> TTTRUN10 RUN10>EP 396400A0: +00A0  D0A060B0 D0A860C0 D0B060D0 D0B860E0 D0C060F0 D0C8EB1F D0D00026 5010D080
+  2020-07-07 05:20:29 TT>> TTTRUN10 RUN10>EP 396400C0: +00C0  50C0D084 C0300000 0D3E5850 C1F458E0 3014418E 50005080 D1605800 1000A506
+  2020-07-07 05:20:29 TT>> TTTRUN10 RUN10>EP 396400E0: +00E0  7FFF5000 800C5850 D0805800 5004A506 7FFF5000 80044150 D220
+  2020-07-07 05:20:29 TT>> TTTRUN10 RUN10XL TT_XLS_KEY_NAME: CWDEMCB2, DATE: 07/18/16, TIME: 10:40:22, CT_VER: 05, F0F5
+ ---ESSCHECK---entry
+ --->>>modName = CWDEMCB2, csectName = CWDEMCB2
+ ---openW_includeName---entry
+ --->>>moduleName = CWDEMCB2
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+ SLSIDRF2: 00
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---ESSCHECK---exit
+ ---IDRDDIO---entry
+ --->>>modName = CWDEMCB2, csectName = CWDEMCB2
+ ---openW_includeName---entry
+ --->>>moduleName = CWDEMCB2
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  IDRU: Creation Date = 2016200, Length = 40
+   data = c3e7c3e6c4c5d4c3c2f209517b481680365406d3b3b04c7b7e762bc40c8000000000000000000000
+   program = CWDEMCB2, ddio(27) = SYS2.CX.H01AC013.LISTING.DB
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---IDRDDIO---exit
+  2020-07-07 05:20:29 TT>> TTDALLO >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 TT>> TTDALLO >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> XLSINIT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 TT>> XLSINIT >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> TTTXLS02 >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 TT>> TTTXLS02 >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> XLSOPEN >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 TT>> XLSOPEN XO_PGM XLS_KEY_NAME: CWDEMCB2, DATE: 07/18/16, TIME: 10:40:22
+  2020-07-07 05:20:29 TT>> XLSOPEN >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> TTTRUN10 RUN10>TT -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 TT>> TTTRUN10 RUN10>TT 395E9D58: +0000  E3E36E6E 395E9D58 C3000000 395E9D60 395E9D60 00000000 395EA000 00000000
+  2020-07-07 05:20:29 TT>> TTTRUN10 RUN10>TT 395E9D78: +0020  F1000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+  2020-07-07 05:20:29 TT>> TTTRUN10 RUN10>TT 395E9D98: +0040  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+  2020-07-07 05:20:29 TT>> TTTRUN10 RUN10>TT 395E9DB8: +0060  00000000 00000000 00000000 395E9150 0000003C 395E92B8 00000020 00000000
+  2020-07-07 05:20:29 TT>> TTTRUN10 RUN10>TT 395E9DD8: +0080  00000000 B9694650 395E9050 396F00F8 39785688 00001950 C3C3E6C4 C5D4C3C2
+  2020-07-07 05:20:29 TT>> TTTRUN10 RUN10>TT 395E9DF8: +00A0  F2F0F761 F1F861F1 F6F1F07A F4F07AF2 F2D6C3E6 F9000000 378761D8 37872520
+  2020-07-07 05:20:29 TT>> TTTRUN10 RUN10>TT 395E9E18: +00C0  383D3298 37872520 383D3298 00000000 37874E80 00000000 00000000 39640000
+  2020-07-07 05:20:29 TT>> TTTRUN10 RUN10>TT 395E9E38: +00E0  383CBC80 39640000 383CB878 00000000 00000000 00000000 F0F5F0F2 F0F00000
+  2020-07-07 05:20:29 TT>> TTTRUN10 RUN10>TT 395E9E58: +0100  C3E6C4C5 D4C3C2F2 00004000 39640000 39640000 395EA010 395E9430 00000000
+  2020-07-07 05:20:29 TT>> TTTRUN10 RUN10>TT 395E9E78: +0120  00000000 00000000 00000000 00000000 00000000
+  2020-07-07 05:20:29 TT>> TTTRUN10 >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIMTTRGT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> GET_TARGET >>>TC>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> OBJ0CROB >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 ST>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 ST>> OB_CREATOR >>>TO>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> STG1INIT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> STG1INIT >>>TR>>>EXIT RC = 00000000
+ ---TARGET---entry
+ module: CWDEMCB2, csect: CWDEMCB2, entry: CWDEMCB2
+ ---TARGETcxx---entry
+ ---TARGETcxx---exit
+ ---TARGET---exit newTARGET: 39725028
+  2020-07-07 05:20:29 ST>> OB_CREATOR >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 ST>> OBJ0CROB >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 ST>> GET_TARGET >>>TC>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 ST>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 ST>> SIMTTRGT >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIMTCALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> TARGET_CALL >>>TO>>>ENTRY --->
+ ---TARGCALL---entry newTARGET: 39725028
+ ---T addTargetCall---entry
+ ---CC targetCall---entry
+ CC AV ptr: 0
+ CC AVb ptr: 0
+ ---CC targetCall---exit
+ ---CC targetCall---entry
+ CC AV ptr: 0
+ CC AVb ptr: 0
+ ---CC targetCall---exit
+ ---~targetCall---entry
+ ---~targetCall---exit
+ ---addTargetCall---entry
+ AV ptr: 0
+ AVb ptr: 0
+ ---addTargetCall---exit
+ ---T addTargetCall---exit
+ ---~targetCall---entry
+ ---~targetCall---exit
+ ---TARGCALL---exit
+  2020-07-07 05:20:29 ST>> TARGET_CALL >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 ST>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 ST>> SIMTCALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIMTSTOR >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> STORE_ARG >>>TO>>>ENTRY --->
+ ---TARGARG---entry
+ beforeLength: 85
+ afterLength: 85
+ maxLength: 85
+ ---T addTargetArg---entry
+ ---setData---entry
+ bL: 85, aL: 85, mL: 85
+ parmData:
+ ---setData---exit --- A(data): 39725088
+ ---CC TTArgVal---entry
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
+ ---addTargetArg---entry
+ AV ptr: 0
+ AV #: 0
+ ---CC TTArgVal---entry
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
+ ---CC TTArgVal---entry
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
+ ---~TTArgVal---entry
+ ---~TTArgVal---exit
+ AV ptr: 397250E8
+ ---addTargetArg---workingArea: 39725088
+ ---~TTArgVal---entry
+ ---~TTArgVal---exit
+ ---T addTargetArg---workingArea: 39725088
+ ---~TTArgVal---entry
+ ---~TTArgVal---exit
+ ---TARGARG--- workingArea: 39725088
+  2020-07-07 05:20:29 ST>> STORE_ARG >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 ST>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 ST>> SIMTSTOR >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM4INIT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> STG1INIT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> STG1INIT >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S4>> OBJ0CRCL >>>TR>>>ENTRY --->
+ 
+  2020-07-07 05:20:29 S4>> OBJ0CRCL CREATE
+ +CREATE                              Length:00000100
+ 37653F58 000000  A7F4004E 53000000 37653FF4 E3E3E340  *x4.+.......4TTT *
+037653F68 000010  404040C3 E2C5C3E3 40404040 4040E37C  *   CSECT      T@*
+037653F78 000020  E2E4C2D7 C7D440E5 60F0F040 D960F1F7  *SUBPGM V-00 R-17*
+037653F88 000030  F0F2F0F0 40F1F3D4 C1E8F2F0 40D7E3C6  *0200 13MAY20 PTF*
+037653F98 000040  40F1F6F1 F0F5F100 0040F1F0 4BF2F200  * 161051.. 10.22.*
+037653FA8 000050  00000000 00000000 404DC35D 40C3D6D7  *........ (C) COP*
+037653FB8 000060  E8D9C9C7 C8E340F2 F0F1F76B 40F2F0F2  *YRIGHT 2017, 202*
+037653FC8 000070  F040C3D6 D4D7E4E6 C1D9C540 C3D6D9D7  *0 COMPUWARE CORP*
+037653FD8 000080  D6D9C1E3 C9D6D540 40404040 40404040  *ORATION         *
+037653FE8 000090  40404040 40404040 40400000 00000040  *          ..... *
+037653FF8 0000A0  00000055 3765CEF8 3765CF90 00000000  *.......8........*
+037654008 0000B0  90ECD00C 1821C0C0 0000036D 5800C030  *..}...{{..._..{.*
+037654018 0000C0  58F0C034 58E00010 58EE0304 58EE00A0  *.0{..\..........*
+037654028 0000D0  B218E000 12FFA774 033E1211 A784033B  *..\...x.....xd..*
+037654038 0000E0  18E11BFF 18014110 00E80E0E 50E0D008  *.........Y..&\}.*
+037654048 0000F0  50D0E004 18DE5810 D004D203 D0481048  *&}\.....}.K.}...*
+0 2020-07-07 05:20:29 S4>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S4>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S4>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S4>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S4>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S4>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S4>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S4>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S4>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S4>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S4>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S4>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S4>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S4>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S4>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S4>> CL_CREATOR >>>TC>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> CL_CREATOR >>>TC>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S4>> OBJ0CRCL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S4>> SIM4INIT >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9INIT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1INIT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1INIT >>>TR>>>EXIT RC = 00000000
+ ---BNDHOOK---entry
+ --->>>modName = CWDEMCB2, csectName = CWDEMCB2, vName = DFHEI1, offset = 00000000
+ ---openW_includeName---entry
+ --->>>moduleName = CWDEMCB2
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getD: rc, count = 31, rs = <0X83000800>.
+ --->>>class_offset: 00001B80
+ --->>>element_offset: 00001B80
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDHOOK---exit
+  2020-07-07 05:20:29 S9>> SIM9INIT EI1HOOK RC = X'00000000', OFFSET = X'00001B80'
+  2020-07-07 05:20:29 S9>> STG1CHN >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> STG1CHN >>>TR>>>EXIT RC = 00000000
+ ---BNDHOOK---entry
+ --->>>modName = CWDEMCB2, csectName = CWDEMCB2, vName = DFHEI1, offset = 00001B80
+ ---openW_includeName---entry
+ --->>>moduleName = CWDEMCB2
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getD: rc, count = 31, rs = <0X83000800>.
+ --->>>class_offset: 00001B80
+ --->>>no additional elements found
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDHOOK---exit
+  2020-07-07 05:20:29 S9>> SIM9INIT EI1HOOK RC = X'00000000', OFFSET = X'00000000'
+ 
+  2020-07-07 05:20:29 S9>> SIM9INIT INIT_EIB
+ +INIT_EIB                            Length:00000055
+ 39725088 000000  0045336C 0120189F E7C3C2F2 0000946C  *...%....XCB2..m%*
+039725098 000010  C3F0F8F9 00000004 00007D00 00000000  *C089......'.....*
+0397250A8 000020  00000000 00000000 00000000 00000000  *................*
+0397250B8 000030  00000040 40404040 40404000 00000000  *...        .....*
+0397250C8 000040  00000000 00000000 00000000 00000000  *................*
+0397250D8 000050  00000000 00                          *.....           *
+0 2020-07-07 05:20:29 S9>> OBJ0CRCL >>>TR>>>ENTRY --->
+ 
+  2020-07-07 05:20:29 S9>> OBJ0CRCL CREATE
+ +CREATE                              Length:00000100
+ 376292F0 000000  A7F4004E 53000000 3762938C E3E3E340  *x4.+......l.TTT *
+037629300 000010  404040C3 E2C5C3E3 40404040 4040E37C  *   CSECT      T@*
+037629310 000020  C5E7C3C9 C3E240E5 60F0F040 D960F1F7  *EXCICS V-00 R-17*
+037629320 000030  F0F2F0F0 40F1F3D4 C1E8F2F0 40D7E3C6  *0200 13MAY20 PTF*
+037629330 000040  40F1F6F1 F0F5F100 0040F1F0 4BF2F300  * 161051.. 10.23.*
+037629340 000050  00000000 00000000 404DC35D 40C3D6D7  *........ (C) COP*
+037629350 000060  E8D9C9C7 C8E340F2 F0F1F76B 40F2F0F2  *YRIGHT 2017, 202*
+037629360 000070  F040C3D6 D4D7E4E6 C1D9C540 C3D6D9D7  *0 COMPUWARE CORP*
+037629370 000080  D6D9C1E3 C9D6D540 40404040 40404040  *ORATION         *
+037629380 000090  40404040 40404040 40400000 00000060  *          .....-*
+037629390 0000A0  00000054 37636940 37636A38 00000000  *....... ........*
+0376293A0 0000B0  90ECD00C 1821C0C0 0000042D 5800C030  *..}...{{......{.*
+0376293B0 0000C0  58F0C034 58E00010 58EE0304 58EE00A0  *.0{..\..........*
+0376293C0 0000D0  B218E000 12FFA774 03FE1211 A78403FB  *..\...x.....xd..*
+0376293D0 0000E0  18E11BFF 18014110 01080E0E 50E0D008  *............&\}.*
+0376293E0 0000F0  50D0E004 18DE5810 D004D203 D0481048  *&}\.....}.K.}...*
+0 2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> CL_CREATOR >>>TC>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> CL_CREATOR >>>TC>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CRCL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9INIT >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9STUB >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_EXCICS_BY_SIG >>>TC>>>ENTRY --->
+ 
+  2020-07-07 05:20:29 S9>> GET_EXCICS_BY_SIG ST_STMT
+ +ST_STMT                             Length:000000AC
+ 385BF9B8 000000  40404040 40404040 404040C5 E7C5C340  *           EXEC *
+0385BF9C8 000010  C3C9C3E2 40D9C5E3 E4D9D515 40404040  *CICS RETURN.    *
+0385BF9D8 000020  40404040 40404040 40404040 40404040  *                *
+0385BF9E8 000030  40E3D9C1 D5E2C9C4 40404DC5 C9C2E3D9  * TRANSID  (EIBTR*
+0385BF9F8 000040  D5C9C45D 15404040 40404040 40404040  *NID).           *
+0385BFA08 000050  40404040 40404040 4040C3D6 D4D4C1D9  *          COMMAR*
+0385BFA18 000060  C5C1404D C4E4D4D4 E860C3D6 D4D4C1D9  *EA (DUMMY-COMMAR*
+0385BFA28 000070  C5C15D15 40404040 40404040 40404040  *EA).            *
+0385BFA38 000080  40404040 40404040 40D3C5D5 C7E3C840  *         LENGTH *
+0385BFA48 000090  40404DF8 F05D1540 40404040 40404040  *  (80).         *
+0385BFA58 0000A0  4040C5D5 C460C5E7 C5C34B15           *  END-EXEC..    *
+0---TTEXRE---entry
+ |Input EXEC (172 bytes):
+            EXEC CICS RETURN
+                      TRANSID  (EIBTRNID)
+                      COMMAREA (DUMMY-COMMAREA)
+                      LENGTH   (80)
+            END-EXEC.
+ 
+ |Reduced EXEC (63 bytes):
+ RETURN TRANSID (EIBTRNID) COMMAREA (DUMMY-COMMAREA) LENGTH (80)
+ ---TTEXRE---exit  rc: 0
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CROB >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OB_CREATOR >>>TO>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1INIT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1INIT >>>TR>>>EXIT RC = 00000000
+ ---EXCICS---entry
+ release: 3979B2FA  stubToken: 00118C30
+ stubType:       signature: 397A531A  signatureLength: 0000003F
+ ---EXCICScxx---entry
+ release: 3979B2FA  token: 00118C30
+ signature: 397A531A  length: 0000003F
+ commandTable: 3769F998
+ ---EXCICScxx---exit
+ ---EXCICS---exit newEXCICS: 3986C028
+  2020-07-07 05:20:29 S9>> OB_CREATOR >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CROB >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> GET_EXCICS_BY_SIG >>>TC>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9STUB >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STORE_CALL >>>TO>>>ENTRY --->
+ ---TTEXRE---entry
+ |Input EXEC (172 bytes):
+            EXEC CICS RETURN
+                      TRANSID  (EIBTRNID)
+                      COMMAREA (DUMMY-COMMAREA)
+                      LENGTH   (80)
+            END-EXEC.
+ 
+ |Reduced EXEC (63 bytes):
+ RETURN TRANSID (EIBTRNID) COMMAREA (DUMMY-COMMAREA) LENGTH (80)
+ ---TTEXRE---exit  rc: 0
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>EXIT RC = 00000000
+ ---CICSCALL---entry
+ ---s00 addCall---entry
+ ---cicsCall---entry
+ ---cicsCall---exit
+ ---~cicsCall---entry
+ ---~cicsCall---exit
+ ---initCall---entry
+ token: 00118C31
+ ---initCall---exit
+ ---s00 addCall---exit
+ ---~cicsCall---entry
+ ---~cicsCall---exit
+ ---CICSCALL---exit
+  2020-07-07 05:20:29 S9>> STORE_CALL >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9ARG >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>ENTRY --->
+ 
+  2020-07-07 05:20:29 S9>> STORE_ARG SAR_ARG0
+ +SAR_ARG0                            Length:00000011
+ 385BF9B0 000000  0E08E000 07000010 00F0F0F0 F4F2F140  *..\......000421 *
+0385BF9C0 000010  40                                   *                *
+0
+  2020-07-07 05:20:29 S9>> STORE_ARG EE_SETUP
+ +EE_SETUP                            Length:00000032
+ 376A07F4 000000  C1D7C340 40404040 40F49090 90000000  *APC      4......*
+0376A0804 000010  00000090 00000000 0000C1D7 C34040D3  *..........APC  L*
+0376A0814 000020  D6C1C4F4 84000000 00000000 00000000  *OAD4d...........*
+0376A0824 000030  0000                                 *..              *
+0---CICSARGB---entry
+ ---s00 addArgBefore---entry
+ calls: 1
+ arg: 0
+ ---s00 buildMyCICSee---entry
+ ---resolveCICSee---entry
+ ---doARG0patternA---entry
+ ---doARG0patternA---exit
+ ---resolveCICSee---exit
+ *ee: X'C1D7C340'
+ ---iS---
+ ---s00 buildMyCICSee---exit
+ ---setData---entry
+ cL: 30
+ avData @3986C190
+ *parmData: X'0E08E000'
+ avData[0] @3986C1A8
+ *avData: X'0E08E000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Arg0 function: 0e08
+ Count: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---setData---entry
+ cL: 30
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---s00 addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---CICSARGB---exit
+ 
+  2020-07-07 05:20:29 S9>> STORE_ARG SAR_ARGB
+ +SAR_ARGB                            Length:0000001E
+ 385BF9B0 000000  0E08E000 07000010 00F0F0F0 F4F2F140  *..\......000421 *
+0385BF9C0 000010  40000000 00000000 00000000 0000      * .............  *
+0 2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9ARG >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9ARG >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>ENTRY --->
+ ---CICSARGA---entry
+ ---s00 addArgAfter---entry
+ arg: 0
+ ---setData---entry
+ cL: 30
+ avData @3986C240
+ *parmData: X'0E08E000'
+ avData[0] @3986C258
+ *avData: X'0E08E000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---s00 addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---CICSARGA---exit
+ 
+  2020-07-07 05:20:29 S9>> STORE_ARG SAR_ARGA
+ +SAR_ARGA                            Length:0000001E
+ 385BF9B0 000000  0E08E000 07000010 00F0F0F0 F4F2F140  *..\......000421 *
+0385BF9C0 000010  40000000 00000000 00000000 0000      * .............  *
+0 2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9ARG >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9ARG >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>ENTRY --->
+ ---CICSARGB---entry
+ ---s00 addArgBefore---entry
+ calls: 1
+ arg: 1
+ ---setData---entry
+ cL: 4
+ avData @3986C2B8
+ *parmData: X'E7C3C2F2'
+ avData[0] @3986C2D0
+ *avData: X'E7C3C2F2'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Count: 1
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 1
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---s00 addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---CICSARGB---exit
+ 
+  2020-07-07 05:20:29 S9>> STORE_ARG SAR_ARGB
+ +SAR_ARGB                            Length:00000004
+ 385BF9B0 000000  E7C3C2F2                             *XCB2            *
+0 2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9ARG >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9ARG >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>ENTRY --->
+ ---CICSARGA---entry
+ ---s00 addArgAfter---entry
+ arg: 1
+ ---setData---entry
+ cL: 4
+ avData @3986C1E8
+ *parmData: X'E7C3C2F2'
+ avData[0] @3986C220
+ *avData: X'E7C3C2F2'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 1
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---s00 addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---CICSARGA---exit
+ 
+  2020-07-07 05:20:29 S9>> STORE_ARG SAR_ARGA
+ +SAR_ARGA                            Length:00000004
+ 385BF9B0 000000  E7C3C2F2                             *XCB2            *
+0 2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9ARG >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9ARG >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>ENTRY --->
+ ---CICSARGB---entry
+ ---s00 addArgBefore---entry
+ calls: 1
+ arg: 2
+ ---setData---entry
+ cL: 80
+ avData @3986C298
+ *parmData: X'C3969494'
+ avData[0] @3986C388
+ *avData: X'C3969494'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Count: 2
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---setData---entry
+ cL: 80
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 2
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---s00 addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---CICSARGB---exit
+ 
+  2020-07-07 05:20:29 S9>> STORE_ARG SAR_ARGB
+ +SAR_ARGB                            Length:00000050
+ 385BF9B0 000000  C3969494 81998581 7A40E385 A7A37AE3  *Commarea: Text:T*
+0385BF9C0 000010  C5E2E340 C3888199 7AE385A2 A340C1A2  *EST Char:Test As*
+0385BF9D0 000020  8389897A 4C4D6E6F 40C885A7 7A40E385  *cii:<(>? Hex: Te*
+0385BF9E0 000030  A2A34040 40404040 40404040 40404040  *st              *
+0385BF9F0 000040  40404040 40404040 40404040 40404040  *                *
+0 2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9ARG >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9ARG >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>ENTRY --->
+ ---CICSARGA---entry
+ ---s00 addArgAfter---entry
+ arg: 2
+ ---setData---entry
+ cL: 80
+ avData @3986C2E0
+ *parmData: X'C3969494'
+ avData[0] @3986C2F8
+ *avData: X'C3969494'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 2
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---s00 addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---CICSARGA---exit
+ 
+  2020-07-07 05:20:29 S9>> STORE_ARG SAR_ARGA
+ +SAR_ARGA                            Length:00000050
+ 385BF9B0 000000  C3969494 81998581 7A40E385 A7A37AE3  *Commarea: Text:T*
+0385BF9C0 000010  C5E2E340 C3888199 7AE385A2 A340C1A2  *EST Char:Test As*
+0385BF9D0 000020  8389897A 4C4D6E6F 40C885A7 7A40E385  *cii:<(>? Hex: Te*
+0385BF9E0 000030  A2A34040 40404040 40404040 40404040  *st              *
+0385BF9F0 000040  40404040 40404040 40404040 40404040  *                *
+0 2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9ARG >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9ARG >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>ENTRY --->
+ ---CICSARGB---entry
+ ---s00 addArgBefore---entry
+ calls: 1
+ arg: 3
+ ---setData---entry
+ cL: 4
+ avData @3986C350
+ *parmData: X'00500000'
+ avData[0] @3986C230
+ *avData: X'00500000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Count: 3
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 3
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---s00 addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---CICSARGB---exit
+ 
+  2020-07-07 05:20:29 S9>> STORE_ARG SAR_ARGB
+ +SAR_ARGB                            Length:00000004
+ 385BF9B0 000000  00500000                             *.&..            *
+0 2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9ARG >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9ARG >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>ENTRY --->
+ ---CICSARGA---entry
+ ---s00 addArgAfter---entry
+ arg: 3
+ ---setData---entry
+ cL: 4
+ avData @3986C368
+ *parmData: X'00500000'
+ avData[0] @3986C3E0
+ *avData: X'00500000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 3
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---s00 addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---CICSARGA---exit
+ 
+  2020-07-07 05:20:29 S9>> STORE_ARG SAR_ARGA
+ +SAR_ARGA                            Length:00000004
+ 385BF9B0 000000  00500000                             *.&..            *
+0 2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9ARG >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9STUB >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_EXCICS_BY_SIG >>>TC>>>ENTRY --->
+ 
+  2020-07-07 05:20:29 S9>> GET_EXCICS_BY_SIG ST_STMT
+ +ST_STMT                             Length:0000006C
+ 385BF9B8 000000  40404040 40404040 404040C5 E7C5C340  *           EXEC *
+0385BF9C8 000010  C3C9C3E2 40C1E2E2 C9C7D515 40404040  *CICS ASSIGN.    *
+0385BF9D8 000020  40404040 40404040 40404040 40E2E8E2  *             SYS*
+0385BF9E8 000030  C9C44DE6 E260E2E8 E2C9C45D 15404040  *ID(WS-SYSID).   *
+0385BF9F8 000040  40404040 40404040 40404040 4040D5D6  *              NO*
+0385BFA08 000050  C8C1D5C4 D3C51540 40404040 40404040  *HANDLE.         *
+0385BFA18 000060  4040C5D5 C460C5E7 C5C34B15           *  END-EXEC..    *
+0---TTEXRE---entry
+ |Input EXEC (108 bytes):
+            EXEC CICS ASSIGN
+                  SYSID(WS-SYSID)
+                  NOHANDLE
+            END-EXEC.
+ 
+ |Reduced EXEC (31 bytes):
+ ASSIGN SYSID(WS-SYSID) NOHANDLE
+ ---TTEXRE---exit  rc: 0
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CROB >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OB_CREATOR >>>TO>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1INIT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1INIT >>>TR>>>EXIT RC = 00000000
+ ---EXCICS---entry
+ release: 3979B2FA  stubToken: 00116520
+ stubType:       signature: 397A5404  signatureLength: 0000001F
+ ---EXCICScxx---entry
+ release: 3979B2FA  token: 00116520
+ signature: 397A5404  length: 0000001F
+ commandTable: 3769F998
+ ---EXCICScxx---exit
+ ---EXCICS---exit newEXCICS: 3986C5A0
+  2020-07-07 05:20:29 S9>> OB_CREATOR >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CROB >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> GET_EXCICS_BY_SIG >>>TC>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9STUB >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STORE_CALL >>>TO>>>ENTRY --->
+ ---TTEXRE---entry
+ |Input EXEC (108 bytes):
+            EXEC CICS ASSIGN
+                  SYSID(WS-SYSID)
+                  NOHANDLE
+            END-EXEC.
+ 
+ |Reduced EXEC (31 bytes):
+ ASSIGN SYSID(WS-SYSID) NOHANDLE
+ ---TTEXRE---exit  rc: 0
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>EXIT RC = 00000000
+ ---CICSCALL---entry
+ ---s00 addCall---entry
+ ---cicsCall---entry
+ ---cicsCall---exit
+ ---~cicsCall---entry
+ ---~cicsCall---exit
+ ---initCall---entry
+ token: 00116521
+ ---initCall---exit
+ ---s00 addCall---exit
+ ---~cicsCall---entry
+ ---~cicsCall---exit
+ ---CICSCALL---exit
+  2020-07-07 05:20:29 S9>> STORE_CALL >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9ARG >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>ENTRY --->
+ 
+  2020-07-07 05:20:29 S9>> STORE_ARG SAR_ARG0
+ +SAR_ARG0                            Length:00000011
+ 385BF9B0 000000  02088000 27200000 00000000 00000000  *................*
+0385BF9C0 000010  00                                   *.               *
+0
+  2020-07-07 05:20:29 S9>> STORE_ARG EE_SETUP
+ +EE_SETUP                            Length:00000032
+ 376A0376 000000  C2C5E240 40404040 40F40101 01010101  *BES      4......*
+0376A0386 000010  01010101 01010101 0101C2E7 E24040C8  *..........BXS  H*
+0376A0396 000020  C1D5C4F4 00000000 00000000 00000000  *AND4............*
+0376A03A6 000030  0000                                 *..              *
+0---CICSARGB---entry
+ ---s00 addArgBefore---entry
+ calls: 1
+ arg: 0
+ ---s00 buildMyCICSee---entry
+ ---resolveCICSee---entry
+ ---doARG0patternB---entry
+ ---doARG0patternB---exit
+ ---resolveCICSee---exit
+ *ee: X'C2C5E240'
+ ---iS---
+ ---s00 buildMyCICSee---exit
+ ---setData---entry
+ cL: 30
+ avData @3986C458
+ *parmData: X'02088000'
+ avData[0] @3986C470
+ *avData: X'02088000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Arg0 function: 0208
+ Count: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---setData---entry
+ cL: 30
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---s00 addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---CICSARGB---exit
+ 
+  2020-07-07 05:20:29 S9>> STORE_ARG SAR_ARGB
+ +SAR_ARGB                            Length:0000001E
+ 385BF9B0 000000  02088000 27200000 00000000 00000000  *................*
+0385BF9C0 000010  00000000 0000F0F0 F0F3F0F5 4040      *......000305    *
+0 2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9ARG >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9ARG >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>ENTRY --->
+ ---CICSARGA---entry
+ ---s00 addArgAfter---entry
+ arg: 0
+ ---setData---entry
+ cL: 30
+ avData @3986C740
+ *parmData: X'02088000'
+ avData[0] @3986C758
+ *avData: X'02088000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---s00 addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---CICSARGA---exit
+ 
+  2020-07-07 05:20:29 S9>> STORE_ARG SAR_ARGA
+ +SAR_ARGA                            Length:0000001E
+ 385BF9B0 000000  02088000 27200000 00000000 00000000  *................*
+0385BF9C0 000010  00000000 0000F0F0 F0F3F0F5 4040      *......000305    *
+0 2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9ARG >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9ARG >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>ENTRY --->
+ ---CICSARGB---entry
+ ---s00 addArgBefore---entry
+ calls: 1
+ arg: 1
+ ---setData---entry
+ cL: 4
+ avData @3986C7B8
+ *parmData: X'00070000'
+ avData[0] @3986C7D0
+ *avData: X'00070000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Count: 1
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 1
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---s00 addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---CICSARGB---exit
+ 
+  2020-07-07 05:20:29 S9>> STORE_ARG SAR_ARGB
+ +SAR_ARGB                            Length:00000004
+ 385BF9B0 000000  00070000                             *....            *
+0 2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9ARG >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9ARG >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>ENTRY --->
+ ---CICSARGA---entry
+ ---s00 addArgAfter---entry
+ arg: 1
+ ---setData---entry
+ cL: 4
+ avData @3986C4B0
+ *parmData: X'C3F0F1F3'
+ avData[0] @3986C720
+ *avData: X'C3F0F1F3'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 1
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---s00 addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---CICSARGA---exit
+ 
+  2020-07-07 05:20:29 S9>> STORE_ARG SAR_ARGA
+ +SAR_ARGA                            Length:00000004
+ 385BF9B0 000000  C3F0F1F3                             *C013            *
+0 2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9ARG >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9STUB >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_EXCICS_BY_SIG >>>TC>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_EXCICS_BY_SIG sig_group1 GroupID: RESE
+  2020-07-07 05:20:29 S9>> GET_EXCICS_BY_SIG sig_group2 GroupID:
+  2020-07-07 05:20:29 S9>> GET_EXCICS_BY_SIG sig_group2 GroupID:
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CROB >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OB_CREATOR >>>TO>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1INIT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1INIT >>>TR>>>EXIT RC = 00000000
+ ---EXCICS---entry
+ release: 3979B2FA  stubToken: 00113E10
+ stubType: RESE  signature: 397A54AE  signatureLength: 00000004
+ ---EXCICScxx---entry
+ release: 3979B2FA  token: 00113E10
+ signature: 397A54AE  length: 00000004
+ commandTable: 3769F998
+ ---EXCICScxx---exit
+ ---EXCICS---exit newEXCICS: 3986C888
+  2020-07-07 05:20:29 S9>> OB_CREATOR >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CROB >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> GET_EXCICS_BY_SIG >>>TC>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9STUB >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STORE_CALL >>>TO>>>ENTRY --->
+ ---TTEXRE---entry
+ |Input EXEC (101 bytes):
+            EXEC CICS HANDLE AID
+                      CLEAR (800-RETURN-TO-CICS)
+            END-EXEC.
+ 
+ |Reduced EXEC (37 bytes):
+ HANDLE AID CLEAR (800-RETURN-TO-CICS)
+ ---TTEXRE---exit  rc: 0
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>EXIT RC = 00000000
+ ---CICSCALL---entry
+ ---g00 addCall---entry
+ new GRP
+ ---GRP constructor---entry
+ ---GRP constructor---exit
+ ---GRP copy---entry
+ ---GRP copy---exit
+ ---GRP copy---entry
+ ---GRP copy---exit
+ ---~GRP---entry
+ ---~GRP---exit
+ ---~GRP---entry
+ ---~GRP---exit
+ ---GRP addCall---entry
+ ---cicsCall---entry
+ ---cicsCall---exit
+ ---~cicsCall---entry
+ ---~cicsCall---exit
+ ---initCall---entry
+ token: 00113E11
+ ---initCall---exit
+ ---GRP addCall---exit
+ ---~cicsCall---entry
+ ---~cicsCall---exit
+ ---g00 addCall---exit
+ ---CICSCALL---exit
+  2020-07-07 05:20:29 S9>> STORE_CALL >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9ARG >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>ENTRY --->
+ 
+  2020-07-07 05:20:29 S9>> STORE_ARG SAR_ARG0
+ +SAR_ARG0                            Length:00000011
+ 385BF9B0 000000  02068000 07050000 00000000 00000000  *................*
+0385BF9C0 000010  00                                   *.               *
+0
+  2020-07-07 05:20:29 S9>> STORE_ARG EE_SETUP
+ +EE_SETUP                            Length:00000032
+ 376A035C 000000  C2E3C340 40D9C5E2 C5F40000 00000000  *BTC  RESE4......*
+0376A036C 000010  00000000 00000000 0000C2C5 E2404040  *..........BES   *
+0376A037C 000020  404040F4 01010101 01010101 01010101  *   4............*
+0376A038C 000030  0101                                 *..              *
+0---CICSARGB---entry
+ ---g00 addArgBefore---entry
+ ---GRP addArgBefore---entry
+ arg: 0
+ ---resolveCICSee---entry
+ ---doARG0patternB---entry
+ ---doARG0patternB---exit
+ ---resolveCICSee---exit
+ ---setData---entry
+ cL: 30
+ avData @3986C798
+ *parmData: X'02068000'
+ avData[0] @3986C9F8
+ *avData: X'02068000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Arg0 function: 0206
+ Count: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---setData---entry
+ cL: 30
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgBefore---exit
+ ---CICSARGB---exit
+ 
+  2020-07-07 05:20:29 S9>> STORE_ARG SAR_ARGB
+ +SAR_ARGB                            Length:0000001E
+ 385BF9B0 000000  02068000 07050000 00000000 00000000  *................*
+0385BF9C0 000010  00000000 0000F0F0 F0F3F0F2 4040      *......000302    *
+0 2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9ARG >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9ARG >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>ENTRY --->
+ ---CICSARGA---entry
+ ---g00 addArgAfter---entry
+ ---GRP addArgAfter---entry
+ arg: 0
+ ---setData---entry
+ cL: 30
+ avData @3986CA78
+ *parmData: X'02068000'
+ avData[0] @3986CA90
+ *avData: X'02068000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgAfter---exit
+ ---CICSARGA---exit
+ 
+  2020-07-07 05:20:29 S9>> STORE_ARG SAR_ARGA
+ +SAR_ARGA                            Length:0000001E
+ 385BF9B0 000000  02068000 07050000 00000000 00000000  *................*
+0385BF9C0 000010  00000000 0000F0F0 F0F3F0F2 4040      *......000302    *
+0 2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9ARG >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STORE_CALL >>>TO>>>ENTRY --->
+ ---TTEXRE---entry
+ |Input EXEC (155 bytes):
+            EXEC CICS SEND
+                      FROM   (PAYMAP1)
+                      LENGTH (PAYMAP1A-LEN)
+                      ERASE
+            END-EXEC.
+ 
+ |Reduced EXEC (47 bytes):
+ SEND FROM (PAYMAP1) LENGTH (PAYMAP1A-LEN) ERASE
+ ---TTEXRE---exit  rc: 0
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1GET >>>TR>>>EXIT RC = 00000000
+ ---CICSCALL---entry
+ ---g00 addCall---entry
+ ---GRP addCall---entry
+ ---cicsCall---entry
+ ---cicsCall---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~cicsCall---entry
+ deleting AVsBefore
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ deleting AVsAfter
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ deleting AVsBeforeLive
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~cicsCall---exit
+ ---~cicsCall---entry
+ ---~cicsCall---exit
+ ---initCall---entry
+ token: 00113E12
+ ---initCall---exit
+ ---GRP addCall---exit
+ ---~cicsCall---entry
+ ---~cicsCall---exit
+ ---g00 addCall---exit
+ ---CICSCALL---exit
+  2020-07-07 05:20:29 S9>> STORE_CALL >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9ARG >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>ENTRY --->
+ 
+  2020-07-07 05:20:29 S9>> STORE_ARG SAR_ARG0
+ +SAR_ARG0                            Length:00000011
+ 385BF9B0 000000  04043000 07000000 81000040 000000F0  *........a.. ...0*
+0385BF9C0 000010  F0                                   *0               *
+0
+  2020-07-07 05:20:29 S9>> STORE_ARG EE_SETUP
+ +EE_SETUP                            Length:00000032
+ 376A0402 000000  C1C1D7E3 C3D9C5E2 C5F40000 90C09000  *AAPTCRESE4...{..*
+0376A0412 000010  90900090 90010000 00006FC1 D7E3C3D9  *..........?APTCR*
+0376A0422 000020  C5E2C5F4 6FE3C340 40D9C5E2 C5F46FE3  *ESE4?TC  RESE4?T*
+0376A0432 000030  C340                                 *C               *
+0---CICSARGB---entry
+ ---g00 addArgBefore---entry
+ ---GRP addArgBefore---entry
+ arg: 0
+ ---resolveCICSee---entry
+ ---doARG0patternA---entry
+ ---doARG0patternA---exit
+ ---resolveCICSee---exit
+ ---setData---entry
+ cL: 30
+ avData @3986C8E0
+ *parmData: X'04043000'
+ avData[0] @3986C928
+ *avData: X'04043000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Arg0 function: 0404
+ Count: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---setData---entry
+ cL: 30
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgBefore---exit
+ ---CICSARGB---exit
+ 
+  2020-07-07 05:20:29 S9>> STORE_ARG SAR_ARGB
+ +SAR_ARGB                            Length:0000001E
+ 385BF9B0 000000  04043000 07000000 81000040 000000F0  *........a.. ...0*
+0385BF9C0 000010  F0F0F3F2 F2404000 02088000 2720      *00322  .......  *
+0 2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9ARG >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9ARG >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>ENTRY --->
+ ---CICSARGA---entry
+ ---g00 addArgAfter---entry
+ ---GRP addArgAfter---entry
+ arg: 0
+ ---setData---entry
+ cL: 30
+ avData @3986C9C0
+ *parmData: X'04043000'
+ avData[0] @3986CA20
+ *avData: X'04043000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgAfter---exit
+ ---CICSARGA---exit
+ 
+  2020-07-07 05:20:29 S9>> STORE_ARG SAR_ARGA
+ +SAR_ARGA                            Length:0000001E
+ 385BF9B0 000000  04043000 07000000 81000040 000000F0  *........a.. ...0*
+0385BF9C0 000010  F0F0F3F2 F2404000 02088000 2720      *00322  .......  *
+0 2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9ARG >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9ARG >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>ENTRY --->
+ ---CICSARGB---entry
+ ---g00 addArgBefore---entry
+ ---GRP addArgBefore---entry
+ arg: 1
+ ---setData---entry
+ cL: 2
+ avData @3986CAB8
+ *parmData: X'00003000'
+ avData[0] @3986C730
+ *avData: X'00000000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Count: 1
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 1
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgBefore---exit
+ ---CICSARGB---exit
+ 
+  2020-07-07 05:20:29 S9>> STORE_ARG SAR_ARGB
+ +SAR_ARGB                            Length:00000002
+ 385BF9B0 000000  0000                                 *..              *
+0 2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9ARG >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9ARG >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>ENTRY --->
+ ---CICSARGA---entry
+ ---g00 addArgAfter---entry
+ ---GRP addArgAfter---entry
+ arg: 1
+ ---setData---entry
+ cL: 2
+ avData @3986C968
+ *parmData: X'00003000'
+ avData[0] @3986C9A0
+ *avData: X'00000000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 1
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgAfter---exit
+ ---CICSARGA---exit
+ 
+  2020-07-07 05:20:29 S9>> STORE_ARG SAR_ARGA
+ +SAR_ARGA                            Length:00000002
+ 385BF9B0 000000  0000                                 *..              *
+0 2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9ARG >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9ARG >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>ENTRY --->
+ ---CICSARGB---entry
+ ---g00 addArgBefore---entry
+ ---GRP addArgBefore---entry
+ arg: 2
+ ---setData---entry
+ cL: 2
+ avData @3986CA48
+ *parmData: X'00003000'
+ avData[0] @3986C9B0
+ *avData: X'00000000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Count: 2
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 2
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgBefore---exit
+ ---CICSARGB---exit
+ 
+  2020-07-07 05:20:29 S9>> STORE_ARG SAR_ARGB
+ +SAR_ARGB                            Length:00000002
+ 385BF9B0 000000  0000                                 *..              *
+0 2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9ARG >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9ARG >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>ENTRY --->
+ ---CICSARGA---entry
+ ---g00 addArgAfter---entry
+ ---GRP addArgAfter---entry
+ arg: 2
+ ---setData---entry
+ cL: 2
+ avData @3986CA60
+ *parmData: X'00003000'
+ avData[0] @3986CAD0
+ *avData: X'00000000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 2
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgAfter---exit
+ ---CICSARGA---exit
+ 
+  2020-07-07 05:20:29 S9>> STORE_ARG SAR_ARGA
+ +SAR_ARGA                            Length:00000002
+ 385BF9B0 000000  0000                                 *..              *
+0 2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9ARG >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9ARG >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>ENTRY --->
+ ---CICSARGB---entry
+ ---g00 addArgBefore---entry
+ ---GRP addArgBefore---entry
+ arg: 3
+ ---setData---entry
+ cL: 1053
+ avData @3986CD80
+ *parmData: X'1140401D'
+ avData[0] @3986CE78
+ *avData: X'1140401D'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Count: 3
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---setData---entry
+ cL: 1053
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 3
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgBefore---exit
+ ---CICSARGB---exit
+ 
+  2020-07-07 05:20:29 S9>> STORE_ARG SAR_ARGB
+ +SAR_ARGB                            Length:0000041D
+ 385BF9B0 000000  1140401D F0E7C3C2 F21140C5 1DD1136D  *.  .0XCB2. E.J._*
+0385BF9C0 000010  6D6D6D6D 11404B1D F06040C5 D5E3C5D9  *____. ..0- ENTER*
+0385BF9D0 000020  40C5D4D7 D3D6E8C5 C540D5E4 D4C2C5D9  * EMPLOYEE NUMBER*
+0385BF9E0 000030  40404040 40404040 40404040 40404040  *                *
+0385BF9F0 000040  40404040 40404040 40404040 40404040  *                *
+0385BFA00 000050  40404040 40404040 40C3F0F1 F3404040  *         C013   *
+0385BFA10 000060  40404040 40404040 40404040 40404040  *                *
+0385BFA20 000070  40404040 40404040 40404040 40404040  *                *
+0385BFA30 000080  40404040 40404040 40404040 40404040  *                *
+0385BFA40 000090  40404040 40404040 40404040 40404040  *                *
+0385BFA50 0000A0  40404040 40404040 40404040 40404040  *                *
+0385BFA60 0000B0  5C5C5C40 C3D6D4D7 E4E6C1D9 C540C3D6  **** COMPUWARE CO*
+0385BFA70 0000C0  D9D7D6D9 C1E3C9D6 D5405C5C 5C404040  *RPORATION ***   *
+0385BFA80 0000D0  40404040 40404040 40404040 40404040  *                *
+0385BFA90 0000E0  40404040 40404040 40404040 40404040  *                *
+0385BFAA0 0000F0  40404040 40404040 40404040 40404040  *                *
+0385BFAB0 000100  4040C4C5 D4D6D5E2 E3D9C1E3 C9D6D540  *  DEMONSTRATION *
+0385BFAC0 000110  E3D9C1D5 E2C1C3E3 C9D6D540 40404040  *TRANSACTION     *
+0385BFAD0 000120  40404040 40404040 40404040 40404040  *                *
+0385BFAE0 000130  40404040 40404040 40404040 40404040  *                *
+0385BFAF0 000140  40404040 40404040 40404040 40404040  *                *
+0385BFB00 000150  40404040 40404040 40404040 40404040  *                *
+0385BFB10 000160  40404040 40404040 40404040 40404040  *                *
+0385BFB20 000170  40404040 40404040 40404040 40404040  *                *
+0385BFB30 000180  40404040 40404040 40404040 40404040  *                *
+0385BFB40 000190  40404040 40404040 40404040 40404040  *                *
+0385BFB50 0001A0  C5D5E3C5 D940C4C5 E2C9D9C5 C440C5D4  *ENTER DESIRED EM*
+0385BFB60 0001B0  D7D3D6E8 C5C540C1 C2D6E5C5 7A404040  *PLOYEE ABOVE:   *
+0385BFB70 0001C0  40404040 40404040 40404040 40404040  *                *
+0385BFB80 0001D0  40404040 40404040 40404040 40404040  *                *
+0385BFB90 0001E0  40404040 40404040 40404040 40404040  *                *
+0385BFBA0 0001F0  F0F0F0F0 F1406040 C3C1E4E2 C5E240C1  *00001 - CAUSES A*
+0385BFBB0 000200  E2D9C140 C1C2C5D5 C4404040 40404040  *SRA ABEND       *
+0385BFBC0 000210  40404040 40404040 40404040 40404040  *                *
+0385BFBD0 000220  40404040 40404040 40404040 40404040  *                *
+0385BFBE0 000230  40404040 40404040 40404040 40404040  *                *
+0385BFBF0 000240  F0F0F0F0 F2406040 C3C1E4E2 C5E240C1  *00002 - CAUSES A*
+0385BFC00 000250  C5C9D440 4DC1D5C4 40D6E3C8 C5D940C1  *EIM (AND OTHER A*
+0385BFC10 000260  C2C5D5C4 E25D4040 40404040 40404040  *BENDS)          *
+0385BFC20 000270  40404040 40404040 40404040 40404040  *                *
+0385BFC30 000280  40404040 40404040 40404040 40404040  *                *
+0385BFC40 000290  F0F0F0F0 F3406040 C3C1E4E2 C5E240C1  *00003 - CAUSES A*
+0385BFC50 0002A0  40E6D9C9 E3C540E3 D640E3C5 D4D7D6D9  * WRITE TO TEMPOR*
+0385BFC60 0002B0  C1D9E840 E2E3D6D9 C1C7C540 40404040  *ARY STORAGE     *
+0385BFC70 0002C0  40404040 40404040 40404040 40404040  *                *
+0385BFC80 0002D0  40404040 40404040 40404040 40404040  *                *
+0385BFC90 0002E0  F0F0F0F0 F4406040 E2E3C1D9 E3E240E4  *00004 - STARTS U*
+0385BFCA0 0002F0  D740E7C3 C2F240C1 E240C1D5 40C1E2E8  *P XCB2 AS AN ASY*
+0385BFCB0 000300  D5C3C8D9 D6D5D6E4 E240E3C1 E2D24040  *NCHRONOUS TASK  *
+0385BFCC0 000310  40404040 40404040 40404040 40404040  *                *
+0385BFCD0 000320  40404040 40404040 40404040 40404040  *                *
+0385BFCE0 000330  F0F0F0F0 F5406040 E4E2C5C4 40E3D640  *00005 - USED TO *
+0385BFCF0 000340  E2C8D6E6 40D4E4D3 E3C9D7D3 C540C3E2  *SHOW MULTIPLE CS*
+0385BFD00 000350  C5C3E340 E2E4D7D7 D6D9E340 40404040  *ECT SUPPORT     *
+0385BFD10 000360  40404040 40404040 40404040 40404040  *                *
+0385BFD20 000370  40404040 40404040 40404040 40404040  *                *
+0385BFD30 000380  F0F0F3F3 F3406040 C3C1E4E2 C5E240C1  *00333 - CAUSES A*
+0385BFD40 000390  40E2E3D6 D9C1C7C5 40E5C9D6 D3C1E3C9  * STORAGE VIOLATI*
+0385BFD50 0003A0  D6D540D6 C640C140 E2C1C140 40404040  *ON OF A SAA     *
+0385BFD60 0003B0  40404040 40404040 40404040 40404040  *                *
+0385BFD70 0003C0  40404040 40404040 40404040 40404040  *                *
+0385BFD80 0003D0  F0F0F9F9 F9406040 C5D5C4E2 40D5D6D9  *00999 - ENDS NOR*
+0385BFD90 0003E0  D4C1D3D3 E8404040 40404040 40404040  *MALLY           *
+0385BFDA0 0003F0  40404040 40404040 40404040 40404040  *                *
+0385BFDB0 000400  40404040 40404040 40404040 40404040  *                *
+0385BFDC0 000410  40404040 40404040 40404040 40        *                *
+0 2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9ARG >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9ARG >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>ENTRY --->
+ ---CICSARGA---entry
+ ---g00 addArgAfter---entry
+ ---GRP addArgAfter---entry
+ arg: 3
+ ---setData---entry
+ cL: 1053
+ avData @3986CE00
+ *parmData: X'1140401D'
+ avData[0] @3986D308
+ *avData: X'1140401D'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 3
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgAfter---exit
+ ---CICSARGA---exit
+ 
+  2020-07-07 05:20:29 S9>> STORE_ARG SAR_ARGA
+ +SAR_ARGA                            Length:0000041D
+ 385BF9B0 000000  1140401D F0E7C3C2 F21140C5 1DD1136D  *.  .0XCB2. E.J._*
+0385BF9C0 000010  6D6D6D6D 11404B1D F06040C5 D5E3C5D9  *____. ..0- ENTER*
+0385BF9D0 000020  40C5D4D7 D3D6E8C5 C540D5E4 D4C2C5D9  * EMPLOYEE NUMBER*
+0385BF9E0 000030  40404040 40404040 40404040 40404040  *                *
+0385BF9F0 000040  40404040 40404040 40404040 40404040  *                *
+0385BFA00 000050  40404040 40404040 40C3F0F1 F3404040  *         C013   *
+0385BFA10 000060  40404040 40404040 40404040 40404040  *                *
+0385BFA20 000070  40404040 40404040 40404040 40404040  *                *
+0385BFA30 000080  40404040 40404040 40404040 40404040  *                *
+0385BFA40 000090  40404040 40404040 40404040 40404040  *                *
+0385BFA50 0000A0  40404040 40404040 40404040 40404040  *                *
+0385BFA60 0000B0  5C5C5C40 C3D6D4D7 E4E6C1D9 C540C3D6  **** COMPUWARE CO*
+0385BFA70 0000C0  D9D7D6D9 C1E3C9D6 D5405C5C 5C404040  *RPORATION ***   *
+0385BFA80 0000D0  40404040 40404040 40404040 40404040  *                *
+0385BFA90 0000E0  40404040 40404040 40404040 40404040  *                *
+0385BFAA0 0000F0  40404040 40404040 40404040 40404040  *                *
+0385BFAB0 000100  4040C4C5 D4D6D5E2 E3D9C1E3 C9D6D540  *  DEMONSTRATION *
+0385BFAC0 000110  E3D9C1D5 E2C1C3E3 C9D6D540 40404040  *TRANSACTION     *
+0385BFAD0 000120  40404040 40404040 40404040 40404040  *                *
+0385BFAE0 000130  40404040 40404040 40404040 40404040  *                *
+0385BFAF0 000140  40404040 40404040 40404040 40404040  *                *
+0385BFB00 000150  40404040 40404040 40404040 40404040  *                *
+0385BFB10 000160  40404040 40404040 40404040 40404040  *                *
+0385BFB20 000170  40404040 40404040 40404040 40404040  *                *
+0385BFB30 000180  40404040 40404040 40404040 40404040  *                *
+0385BFB40 000190  40404040 40404040 40404040 40404040  *                *
+0385BFB50 0001A0  C5D5E3C5 D940C4C5 E2C9D9C5 C440C5D4  *ENTER DESIRED EM*
+0385BFB60 0001B0  D7D3D6E8 C5C540C1 C2D6E5C5 7A404040  *PLOYEE ABOVE:   *
+0385BFB70 0001C0  40404040 40404040 40404040 40404040  *                *
+0385BFB80 0001D0  40404040 40404040 40404040 40404040  *                *
+0385BFB90 0001E0  40404040 40404040 40404040 40404040  *                *
+0385BFBA0 0001F0  F0F0F0F0 F1406040 C3C1E4E2 C5E240C1  *00001 - CAUSES A*
+0385BFBB0 000200  E2D9C140 C1C2C5D5 C4404040 40404040  *SRA ABEND       *
+0385BFBC0 000210  40404040 40404040 40404040 40404040  *                *
+0385BFBD0 000220  40404040 40404040 40404040 40404040  *                *
+0385BFBE0 000230  40404040 40404040 40404040 40404040  *                *
+0385BFBF0 000240  F0F0F0F0 F2406040 C3C1E4E2 C5E240C1  *00002 - CAUSES A*
+0385BFC00 000250  C5C9D440 4DC1D5C4 40D6E3C8 C5D940C1  *EIM (AND OTHER A*
+0385BFC10 000260  C2C5D5C4 E25D4040 40404040 40404040  *BENDS)          *
+0385BFC20 000270  40404040 40404040 40404040 40404040  *                *
+0385BFC30 000280  40404040 40404040 40404040 40404040  *                *
+0385BFC40 000290  F0F0F0F0 F3406040 C3C1E4E2 C5E240C1  *00003 - CAUSES A*
+0385BFC50 0002A0  40E6D9C9 E3C540E3 D640E3C5 D4D7D6D9  * WRITE TO TEMPOR*
+0385BFC60 0002B0  C1D9E840 E2E3D6D9 C1C7C540 40404040  *ARY STORAGE     *
+0385BFC70 0002C0  40404040 40404040 40404040 40404040  *                *
+0385BFC80 0002D0  40404040 40404040 40404040 40404040  *                *
+0385BFC90 0002E0  F0F0F0F0 F4406040 E2E3C1D9 E3E240E4  *00004 - STARTS U*
+0385BFCA0 0002F0  D740E7C3 C2F240C1 E240C1D5 40C1E2E8  *P XCB2 AS AN ASY*
+0385BFCB0 000300  D5C3C8D9 D6D5D6E4 E240E3C1 E2D24040  *NCHRONOUS TASK  *
+0385BFCC0 000310  40404040 40404040 40404040 40404040  *                *
+0385BFCD0 000320  40404040 40404040 40404040 40404040  *                *
+0385BFCE0 000330  F0F0F0F0 F5406040 E4E2C5C4 40E3D640  *00005 - USED TO *
+0385BFCF0 000340  E2C8D6E6 40D4E4D3 E3C9D7D3 C540C3E2  *SHOW MULTIPLE CS*
+0385BFD00 000350  C5C3E340 E2E4D7D7 D6D9E340 40404040  *ECT SUPPORT     *
+0385BFD10 000360  40404040 40404040 40404040 40404040  *                *
+0385BFD20 000370  40404040 40404040 40404040 40404040  *                *
+0385BFD30 000380  F0F0F3F3 F3406040 C3C1E4E2 C5E240C1  *00333 - CAUSES A*
+0385BFD40 000390  40E2E3D6 D9C1C7C5 40E5C9D6 D3C1E3C9  * STORAGE VIOLATI*
+0385BFD50 0003A0  D6D540D6 C640C140 E2C1C140 40404040  *ON OF A SAA     *
+0385BFD60 0003B0  40404040 40404040 40404040 40404040  *                *
+0385BFD70 0003C0  40404040 40404040 40404040 40404040  *                *
+0385BFD80 0003D0  F0F0F9F9 F9406040 C5D5C4E2 40D5D6D9  *00999 - ENDS NOR*
+0385BFD90 0003E0  D4C1D3D3 E8404040 40404040 40404040  *MALLY           *
+0385BFDA0 0003F0  40404040 40404040 40404040 40404040  *                *
+0385BFDB0 000400  40404040 40404040 40404040 40404040  *                *
+0385BFDC0 000410  40404040 40404040 40404040 40        *                *
+0 2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9ARG >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9ARG >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>ENTRY --->
+ ---CICSARGB---entry
+ ---g00 addArgBefore---entry
+ ---GRP addArgBefore---entry
+ arg: 4
+ ---setData---entry
+ cL: 2
+ avData @3986CD30
+ *parmData: X'041D401D'
+ avData[0] @3986CAE0
+ *avData: X'041D0000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Count: 4
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 4
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgBefore---exit
+ ---CICSARGB---exit
+ 
+  2020-07-07 05:20:29 S9>> STORE_ARG SAR_ARGB
+ +SAR_ARGB                            Length:00000002
+ 385BF9B0 000000  041D                                 *..              *
+0 2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9ARG >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9ARG >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>ENTRY --->
+ ---CICSARGA---entry
+ ---g00 addArgAfter---entry
+ ---GRP addArgAfter---entry
+ arg: 4
+ ---setData---entry
+ cL: 2
+ avData @3986CD48
+ *parmData: X'041D401D'
+ avData[0] @3986CD60
+ *avData: X'041D0000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 4
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgAfter---exit
+ ---CICSARGA---exit
+ 
+  2020-07-07 05:20:29 S9>> STORE_ARG SAR_ARGA
+ +SAR_ARGA                            Length:00000002
+ 385BF9B0 000000  041D                                 *..              *
+0 2020-07-07 05:20:29 S9>> STORE_ARG >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9ARG >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM4DYV4 >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> SIM4DYV4 CEEDSAR1 contents:  X'385BE528'
+  2020-07-07 05:20:29 S4>> SIM4DYV4 DC_FLAGv flag:  X'A6'
+  2020-07-07 05:20:29 S4>> SIM4DYV4 DC_Nlnv flag:  X'08'
+  2020-07-07 05:20:29 S4>> SIM4DYV4 CALL4 name:  TTTMSG00
+  2020-07-07 05:20:29 S4>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> IS_SUBPGM_SIM_NAME >>>TC>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> IS_SUBPGM_SIM_NAME >>>TC>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S4>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S4>> SIM4DYV4 IGZCFCC R1 contents:  X'385BE518'
+  2020-07-07 05:20:29 S4>> SIM4DYV4 >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM4DYV4 >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> SIM4DYV4 CEEDSAR1 contents:  X'385BE528'
+  2020-07-07 05:20:29 S4>> SIM4DYV4 DC_FLAGv flag:  X'A6'
+  2020-07-07 05:20:29 S4>> SIM4DYV4 DC_Nlnv flag:  X'08'
+  2020-07-07 05:20:29 S4>> SIM4DYV4 CALL4 name:  TTTMSG00
+  2020-07-07 05:20:29 S4>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> IS_SUBPGM_SIM_NAME >>>TC>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> IS_SUBPGM_SIM_NAME >>>TC>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S4>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S4>> SIM4DYV4 IGZCFCC R1 contents:  X'385BE518'
+  2020-07-07 05:20:29 S4>> SIM4DYV4 >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM4DYV4 >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> SIM4DYV4 CEEDSAR1 contents:  X'385BE528'
+  2020-07-07 05:20:29 S4>> SIM4DYV4 DC_FLAGv flag:  X'A6'
+  2020-07-07 05:20:29 S4>> SIM4DYV4 DC_Nlnv flag:  X'08'
+  2020-07-07 05:20:29 S4>> SIM4DYV4 CALL4 name:  TTTMSG00
+  2020-07-07 05:20:29 S4>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> IS_SUBPGM_SIM_NAME >>>TC>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> IS_SUBPGM_SIM_NAME >>>TC>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S4>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S4>> SIM4DYV4 IGZCFCC R1 contents:  X'385BE518'
+  2020-07-07 05:20:29 S4>> SIM4DYV4 >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM4DYV4 >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> SIM4DYV4 CEEDSAR1 contents:  X'385BE528'
+  2020-07-07 05:20:29 S4>> SIM4DYV4 DC_FLAGv flag:  X'A6'
+  2020-07-07 05:20:29 S4>> SIM4DYV4 DC_Nlnv flag:  X'08'
+  2020-07-07 05:20:29 S4>> SIM4DYV4 CALL4 name:  TTTMSG00
+  2020-07-07 05:20:29 S4>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> IS_SUBPGM_SIM_NAME >>>TC>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> IS_SUBPGM_SIM_NAME >>>TC>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S4>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S4>> SIM4DYV4 IGZCFCC R1 contents:  X'385BE518'
+  2020-07-07 05:20:29 S4>> SIM4DYV4 >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9EI1 >>>TR>>>ENTRY --->
+ 
+  2020-07-07 05:20:29 TT>> SIM9EI1 EI1_SR14
+ +EI1_SR14                            Length:00000004
+ 3964020A 000000  B92700FF                             *....            *
+0
+  2020-07-07 05:20:29 S9>> SIM9EI1 EI1_ARG0
+ +EI1_ARG0                            Length:00000011
+ 395C0218 000000  02068000 07050000 00000000 00000000  *................*
+0395C0228 000010  00                                   *.               *
+0
+  2020-07-07 05:20:29 S9>> SIM9EI1 EE_RUN
+ +EE_RUN                              Length:00000032
+ 376A035C 000000  C2E3C340 40D9C5E2 C5F40000 00000000  *BTC  RESE4......*
+0376A036C 000010  00000000 00000000 0000C2C5 E2404040  *..........BES   *
+0376A037C 000020  404040F4 01010101 01010101 01010101  *   4............*
+0376A038C 000030  0101                                 *..              *
+0 2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_EXCICS_OBJ >>>TC>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_EXCICS_OBJ AT_ENTRY $GEO_OFFSET:  X'0000020A'
+  2020-07-07 05:20:29 S9>> XLSOSTMT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> XLSOSTMT >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> XLSEXEC >>>TR>>>ENTRY --->
+ 
+  2020-07-07 05:20:29 S9>> XLSEXEC XLS_STMT
+ +XLS_STMT                            Length:00000058
+ 3974851C 000000  A00A51C9 0000012E 000001E0 00010024  *...I.......\....*
+03974852C 000010  00000000 FFFFFFFF FFFFFFFF 0000012E  *................*
+03974853C 000020  00000131 000001A3 000001A6 008A0804  *.......t...w....*
+03974854C 000030  011B0000 4040F0F0 F0F3F0F2 40404040  *....  000302    *
+03974855C 000040  40404040 40404040 40404040 40404040  *                *
+03974856C 000050  C5E7C5C3 40C3C9C3                    *EXEC CIC        *
+0 2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474D0: +0000  0000000D 00000015 0000005D 0000005D 0000001C 00000059 00000018 00000017
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474F0: +0020  0000000A 0000000D 00000031 00000045 0000003C FFFFFFFF FFFFFFFF FFFFFFFF
+  2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474D0: +0000  0000000D 00000015 0000005D 0000005D 0000001C 00000059 00000018 00000017
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474F0: +0020  0000000A 0000000D 00000031 00000045 0000003C FFFFFFFF FFFFFFFF FFFFFFFF
+  2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474D0: +0000  0000000D 00000015 0000005D 0000005D 0000001C 00000059 00000018 00000017
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474F0: +0020  0000000A 0000000D 00000031 00000045 0000003C FFFFFFFF FFFFFFFF FFFFFFFF
+  2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> XLSEXEC >>>TR>>>EXIT RC = 00000000
+ 
+  2020-07-07 05:20:29 S9>> GET_EXCICS_OBJ GEO_STMT
+ +GEO_STMT                            Length:0000012F
+ 3974A3B0 000000  40404040 40404040 404040C5 E7C5C340  *           EXEC *
+03974A3C0 000010  C3C9C3E2 40C8C1D5 C4D3C540 C1C9C415  *CICS HANDLE AID.*
+03974A3D0 000020  40404040 40404040 40404040 40404040  *                *
+03974A3E0 000030  40404040 40C3D3C5 C1D9404D F8F0F060  *     CLEAR (800-*
+03974A3F0 000040  D9C5E3E4 D9D560E3 D660C3C9 C3E25D15  *RETURN-TO-CICS).*
+03974A400 000050  40404040 40404040 404040C5 D5C460C5  *           END-E*
+03974A410 000060  E7C5C34B 15150000 00000000 00000000  *XEC.............*
+03974A420 000070  00000000 00000000 00000000 00000000  *................*
+03974A430 000080  00000000 00000000 00000000 00000000  *................*
+03974A440 000090  00000000 00000000 00000000 00000000  *................*
+03974A450 0000A0  00000000 00000000 00000000 00000000  *................*
+03974A460 0000B0  00000000 00000000 00000000 00000000  *................*
+03974A470 0000C0  00000000 00000000 00000000 00000000  *................*
+03974A480 0000D0  00000000 00000000 00000000 00000000  *................*
+03974A490 0000E0  00000000 00000000 00000000 00000000  *................*
+03974A4A0 0000F0  00000000 00000000 00000000 00000000  *................*
+03974A4B0 000100  00000000 00000000 00000000 00000000  *................*
+03974A4C0 000110  00000000 00000000 00000000 00000000  *................*
+03974A4D0 000120  00000000 00000000 00000000 000000    *............... *
+0---TTEXRE---entry
+ |Input EXEC (303 bytes):
+            EXEC CICS HANDLE AID
+                      CLEAR (800-RETURN-TO-CICS)
+            END-EXEC.
+-|Reduced EXEC (37 bytes):
+ HANDLE AID CLEAR (800-RETURN-TO-CICS)
+ ---TTEXRE---exit  rc: 0
+  2020-07-07 05:20:29 S9>> GET_EXCICS_OBJ only_groupA GroupID: RESE
+  2020-07-07 05:20:29 S9>> GET_EXCICS_OBJ only_groupB GroupID: RESE
+  2020-07-07 05:20:29 S9>> GET_EXCICS_OBJ >>>TC>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> DO_GENERAL >>>TO>>>ENTRY --->
+ ---DOCICALL---entry
+ ---g00 doCallX---entry
+ ---compareDataArg0---entry
+ cL: 30
+ *parmData: X'02068000'
+ *avData: X'02068000'
+ ---compareDataArg0---exit: 0
+ ---validateAVs---entry
+ AVsBefore: 1, AVsBLive: 1
+ ---validateAVs---exit: 0
+ ---GRP incrCallCount---entry
+ curGRPCall: 0
+ ---GRP incrCallCount---exit
+ ---GRP setSequence---entry
+ curGRPCall: 0
+ ---GRP setSequence---exit
+ ---GRP setGSequence---entry
+ curGRPCall: 0
+ ---GRP setGSequence---exit
+ ---GRP copyEIB---entry
+ curGRPCall: 0
+ ---copyEIB---entry
+ ---copyEIB---exit
+ ---GRP copyEIB---exit
+ ---GRP storeAVsBeforeLive---entry
+ curGRPCall: 0
+ ---storeAVsBeforeLive---entry
+ ---storeAvBeforeLive---entry
+ Psz: 0, cL: 30
+ ---storeAvBeforeLive---exit
+ ---storeAVsBeforeLive---exit
+ ---GRP storeAVsBeforeLive---exit
+ ---GRP copyAVsAfter---entry
+ curGRPCall: 0
+ ---copyAVsAfter---entry
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAVsAfter---exit
+ ---GRP copyAVsAfter---exit
+ ---g00 doCallX---exit: 0
+ ---DOCICALL---exit: 0
+  2020-07-07 05:20:29 S9>> DO_GENERAL >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9EI1 >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9EI1 >>>TR>>>ENTRY --->
+ 
+  2020-07-07 05:20:29 TT>> SIM9EI1 EI1_SR14
+ +EI1_SR14                            Length:00000004
+ 3964026C 000000  40F0D154                             * 0J.            *
+0
+  2020-07-07 05:20:29 S9>> SIM9EI1 EI1_ARG0
+ +EI1_ARG0                            Length:00000011
+ 395C0218 000000  02088000 27200000 00000000 00000000  *................*
+0395C0228 000010  00                                   *.               *
+0
+  2020-07-07 05:20:29 S9>> SIM9EI1 EE_RUN
+ +EE_RUN                              Length:00000032
+ 376A0376 000000  C2C5E240 40404040 40F40101 01010101  *BES      4......*
+0376A0386 000010  01010101 01010101 0101C2E7 E24040C8  *..........BXS  H*
+0376A0396 000020  C1D5C4F4 00000000 00000000 00000000  *AND4............*
+0376A03A6 000030  0000                                 *..              *
+0 2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_EXCICS_OBJ >>>TC>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_EXCICS_OBJ AT_ENTRY $GEO_OFFSET:  X'0000026C'
+  2020-07-07 05:20:29 S9>> XLSOSTMT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> XLSOSTMT >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> XLSEXEC >>>TR>>>ENTRY --->
+ 
+  2020-07-07 05:20:29 S9>> XLSEXEC XLS_STMT
+ +XLS_STMT                            Length:00000058
+ 3974851C 000000  A00A51C9 00000131 0000023A 00010024  *...I............*
+03974852C 000010  00000000 FFFFFFFF FFFFFFFF 00000131  *................*
+03974853C 000020  00000136 000001A6 000001AB 008A0804  *.......w........*
+03974854C 000030  011B0000 4040F0F0 F0F3F0F5 40404040  *....  000305    *
+03974855C 000040  40404040 40404040 40404040 40404040  *                *
+03974856C 000050  C5E7C5C3 40C3C9C3                    *EXEC CIC        *
+0 2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474D0: +0000  0000000D 00000015 0000005D 0000005D 0000001C 00000059 00000018 00000017
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474F0: +0020  0000000A 0000000D 00000031 00000045 0000003C FFFFFFFF FFFFFFFF FFFFFFFF
+  2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474D0: +0000  0000000D 00000015 0000005D 0000005D 0000001C 00000059 00000018 00000017
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474F0: +0020  0000000A 0000000D 00000031 00000045 0000003C FFFFFFFF FFFFFFFF FFFFFFFF
+  2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474D0: +0000  0000000D 00000015 0000005D 0000005D 0000001C 00000059 00000018 00000017
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474F0: +0020  0000000A 0000000D 00000031 00000045 0000003C FFFFFFFF FFFFFFFF FFFFFFFF
+  2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474D0: +0000  0000000D 00000015 0000005D 0000005D 0000001C 00000059 00000018 00000017
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474F0: +0020  0000000A 0000000D 00000031 00000045 0000003C FFFFFFFF FFFFFFFF FFFFFFFF
+  2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> XLSEXEC >>>TR>>>EXIT RC = 00000000
+ 
+  2020-07-07 05:20:29 S9>> GET_EXCICS_OBJ GEO_STMT
+ +GEO_STMT                            Length:000001F9
+ 3974A1A0 000000  40404040 40404040 404040C5 E7C5C340  *           EXEC *
+03974A1B0 000010  C3C9C3E2 40C1E2E2 C9C7D515 40404040  *CICS ASSIGN.    *
+03974A1C0 000020  40404040 40404040 40404040 40E2E8E2  *             SYS*
+03974A1D0 000030  C9C44DE6 E260E2E8 E2C9C45D 15404040  *ID(WS-SYSID).   *
+03974A1E0 000040  40404040 40404040 40404040 4040D5D6  *              NO*
+03974A1F0 000050  C8C1D5C4 D3C51540 40404040 40404040  *HANDLE.         *
+03974A200 000060  4040C5D5 C460C5E7 C5C34B15 15000000  *  END-EXEC......*
+03974A210 000070  00000000 00000000 00000000 00000000  *................*
+03974A220 000080  00000000 00000000 00000000 00000000  *................*
+03974A230 000090  00000000 00000000 00000000 00000000  *................*
+03974A240 0000A0  00000000 00000000 00000000 00000000  *................*
+03974A250 0000B0  00000000 00000000 00000000 00000000  *................*
+03974A260 0000C0  00000000 00000000 00000000 00000000  *................*
+03974A270 0000D0  00000000 00000000 00000000 00000000  *................*
+03974A280 0000E0  00000000 00000000 00000000 00000000  *................*
+03974A290 0000F0  00000000 00000000 00000000 00000000  *................*
+03974A2A0 000100  00000000 00000000 00000000 00000000  *................*
+03974A2B0 000110  00000000 00000000 00000000 00000000  *................*
+03974A2C0 000120  00000000 00000000 00000000 00000000  *................*
+03974A2D0 000130  00000000 00000000 00000000 00000000  *................*
+03974A2E0 000140  00000000 00000000 00000000 00000000  *................*
+03974A2F0 000150  00000000 00000000 00000000 00000000  *................*
+03974A300 000160  00000000 00000000 00000000 00000000  *................*
+03974A310 000170  00000000 00000000 00000000 00000000  *................*
+03974A320 000180  00000000 00000000 00000000 00000000  *................*
+03974A330 000190  00000000 00000000 00000000 00000000  *................*
+03974A340 0001A0  00000000 00000000 00000000 00000000  *................*
+03974A350 0001B0  00000000 00000000 00000000 00000000  *................*
+03974A360 0001C0  00000000 00000000 00000000 00000000  *................*
+03974A370 0001D0  00000000 00000000 00000000 00000000  *................*
+03974A380 0001E0  00000000 00000000 00000000 00000000  *................*
+03974A390 0001F0  00000000 00000000 00                 *.........       *
+0---TTEXRE---entry
+ |Input EXEC (505 bytes):
+            EXEC CICS ASSIGN
+                  SYSID(WS-SYSID)
+                  NOHANDLE
+            END-EXEC.
+-|Reduced EXEC (31 bytes):
+ ASSIGN SYSID(WS-SYSID) NOHANDLE
+ ---TTEXRE---exit  rc: 0
+  2020-07-07 05:20:29 S9>> GET_EXCICS_OBJ >>>TC>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> DO_GENERAL >>>TO>>>ENTRY --->
+ ---DOCICALL---entry
+ ---s00 doCallX---entry
+ ---validateAVs---entry
+ AVsBefore: 2, AVsBLive: 2
+ ---validateAVs---exit: 0
+ ---storeAVsBeforeLive---entry
+ ---storeAvBeforeLive---entry
+ Psz: 0, cL: 30
+ ---storeAvBeforeLive---exit
+ ---storeAvBeforeLive---entry
+ Psz: 0, cL: 4
+ ---storeAvBeforeLive---exit
+ ---storeAVsBeforeLive---exit
+ ---copyEIB---entry
+ ---copyEIB---exit
+ ---copyAVsAfter---entry
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAvAfter---entry
+ sz: 0
+ LA: B83D0F18
+ ---copyAvAfter---exit
+ ---copyAVsAfter---exit
+ ---s00 doCallX---exit: 0
+ ---DOCICALL---exit: 0
+  2020-07-07 05:20:29 S9>> DO_GENERAL >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9EI1 >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9EI1 >>>TR>>>ENTRY --->
+ 
+  2020-07-07 05:20:29 TT>> SIM9EI1 EI1_SR14
+ +EI1_SR14                            Length:00000004
+ 39640396 000000  40F0D152                             * 0J.            *
+0
+  2020-07-07 05:20:29 S9>> SIM9EI1 EI1_ARG0
+ +EI1_ARG0                            Length:00000011
+ 395C0200 000000  04043000 07000000 81000040 000000F0  *........a.. ...0*
+0395C0210 000010  F0                                   *0               *
+0
+  2020-07-07 05:20:29 S9>> SIM9EI1 EE_RUN
+ +EE_RUN                              Length:00000032
+ 376A0402 000000  C1C1D7E3 C3D9C5E2 C5F40000 90C09000  *AAPTCRESE4...{..*
+0376A0412 000010  90900090 90010000 00006FC1 D7E3C3D9  *..........?APTCR*
+0376A0422 000020  C5E2C5F4 6FE3C340 40D9C5E2 C5F46FE3  *ESE4?TC  RESE4?T*
+0376A0432 000030  C340                                 *C               *
+0 2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_EXCICS_OBJ >>>TC>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_EXCICS_OBJ AT_ENTRY $GEO_OFFSET:  X'00000396'
+  2020-07-07 05:20:29 S9>> XLSOSTMT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> XLSOSTMT >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> XLSEXEC >>>TR>>>ENTRY --->
+ 
+  2020-07-07 05:20:29 S9>> XLSEXEC XLS_STMT
+ +XLS_STMT                            Length:00000058
+ 3974851C 000000  A00A51C9 00000142 00000340 00010024  *...I....... ....*
+03974852C 000010  00000000 FFFFFFFF FFFFFFFF 00000142  *................*
+03974853C 000020  00000147 000001B7 000001BC 008A0804  *................*
+03974854C 000030  011B0000 4040F0F0 F0F3F2F2 40404040  *....  000322    *
+03974855C 000040  40404040 40404040 40404040 40404040  *                *
+03974856C 000050  C5E7C5C3 40C3C9C3                    *EXEC CIC        *
+0 2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474D0: +0000  0000000D 00000015 0000005D 0000005D 0000001C 00000059 00000018 00000017
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474F0: +0020  0000000A 0000000D 00000031 00000045 0000003C FFFFFFFF FFFFFFFF FFFFFFFF
+  2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474D0: +0000  0000000D 00000015 0000005D 0000005D 0000001C 00000059 00000018 00000017
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474F0: +0020  0000000A 0000000D 00000031 00000045 0000003C FFFFFFFF FFFFFFFF FFFFFFFF
+  2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474D0: +0000  0000000D 00000015 0000005D 0000005D 0000001C 00000059 00000018 00000017
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474F0: +0020  0000000A 0000000D 00000031 00000045 0000003C FFFFFFFF FFFFFFFF FFFFFFFF
+  2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474D0: +0000  0000000D 00000015 0000005D 0000005D 0000001C 00000059 00000018 00000017
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474F0: +0020  0000000A 0000000D 00000031 00000045 0000003C FFFFFFFF FFFFFFFF FFFFFFFF
+  2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474D0: +0000  0000000D 00000015 0000005D 0000005D 0000001C 00000059 00000018 00000017
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474F0: +0020  0000000A 0000000D 00000031 00000045 0000003C FFFFFFFF FFFFFFFF FFFFFFFF
+  2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> XLSEXEC >>>TR>>>EXIT RC = 00000000
+ 
+  2020-07-07 05:20:29 S9>> GET_EXCICS_OBJ GEO_STMT
+ +GEO_STMT                            Length:000001F9
+ 3974A1A0 000000  40404040 40404040 404040C5 E7C5C340  *           EXEC *
+03974A1B0 000010  C3C9C3E2 40E2C5D5 C4154040 40404040  *CICS SEND.      *
+03974A1C0 000020  40404040 40404040 40404040 404040C6  *               F*
+03974A1D0 000030  D9D6D440 40404DD7 C1E8D4C1 D7F15D15  *ROM   (PAYMAP1).*
+03974A1E0 000040  40404040 40404040 40404040 40404040  *                *
+03974A1F0 000050  40404040 40D3C5D5 C7E3C840 4DD7C1E8  *     LENGTH (PAY*
+03974A200 000060  D4C1D7F1 C160D3C5 D55D1540 40404040  *MAP1A-LEN).     *
+03974A210 000070  40404040 40404040 40404040 40404040  *                *
+03974A220 000080  C5D9C1E2 C5154040 40404040 40404040  *ERASE.          *
+03974A230 000090  40C5D5C4 60C5E7C5 C34B1515 00000000  * END-EXEC.......*
+03974A240 0000A0  00000000 00000000 00000000 00000000  *................*
+03974A250 0000B0  00000000 00000000 00000000 00000000  *................*
+03974A260 0000C0  00000000 00000000 00000000 00000000  *................*
+03974A270 0000D0  00000000 00000000 00000000 00000000  *................*
+03974A280 0000E0  00000000 00000000 00000000 00000000  *................*
+03974A290 0000F0  00000000 00000000 00000000 00000000  *................*
+03974A2A0 000100  00000000 00000000 00000000 00000000  *................*
+03974A2B0 000110  00000000 00000000 00000000 00000000  *................*
+03974A2C0 000120  00000000 00000000 00000000 00000000  *................*
+03974A2D0 000130  00000000 00000000 00000000 00000000  *................*
+03974A2E0 000140  00000000 00000000 00000000 00000000  *................*
+03974A2F0 000150  00000000 00000000 00000000 00000000  *................*
+03974A300 000160  00000000 00000000 00000000 00000000  *................*
+03974A310 000170  00000000 00000000 00000000 00000000  *................*
+03974A320 000180  00000000 00000000 00000000 00000000  *................*
+03974A330 000190  00000000 00000000 00000000 00000000  *................*
+03974A340 0001A0  00000000 00000000 00000000 00000000  *................*
+03974A350 0001B0  00000000 00000000 00000000 00000000  *................*
+03974A360 0001C0  00000000 00000000 00000000 00000000  *................*
+03974A370 0001D0  00000000 00000000 00000000 00000000  *................*
+03974A380 0001E0  00000000 00000000 00000000 00000000  *................*
+03974A390 0001F0  00000000 00000000 00                 *.........       *
+0---TTEXRE---entry
+ |Input EXEC (505 bytes):
+            EXEC CICS SEND
+                      FROM   (PAYMAP1)
+                      LENGTH (PAYMAP1A-LEN)
+                      ERASE
+            END-EXEC.
+-|Reduced EXEC (47 bytes):
+ SEND FROM (PAYMAP1) LENGTH (PAYMAP1A-LEN) ERASE
+ ---TTEXRE---exit  rc: 0
+  2020-07-07 05:20:29 S9>> GET_EXCICS_OBJ only_groupA GroupID: RESE
+  2020-07-07 05:20:29 S9>> GET_EXCICS_OBJ only_groupB GroupID: RESE
+  2020-07-07 05:20:29 S9>> GET_EXCICS_OBJ >>>TC>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> DO_GENERAL >>>TO>>>ENTRY --->
+ ---DOCICALL---entry
+ ---g00 doCallX---entry
+ ---compareDataArg0---entry
+ cL: 30
+ *parmData: X'04043000'
+ *avData: X'04043000'
+ ---compareDataArg0---exit: 0
+ ---validateAVs---entry
+ AVsBefore: 5, AVsBLive: 5
+ ---compareData---entry
+ cL: 2
+ *parmData: X'041D0000'
+ *avData: X'041D0000'
+ IG ptr
+ ---compareData---exit: 0
+ ---validateAVs---exit: 0
+ ---GRP incrCallCount---entry
+ curGRPCall: 1
+ ---GRP incrCallCount---exit
+ ---GRP setSequence---entry
+ curGRPCall: 1
+ ---GRP setSequence---exit
+ ---GRP setGSequence---entry
+ curGRPCall: 1
+ ---GRP setGSequence---exit
+ ---GRP copyEIB---entry
+ curGRPCall: 1
+ ---copyEIB---entry
+ ---copyEIB---exit
+ ---GRP copyEIB---exit
+ ---GRP storeAVsBeforeLive---entry
+ curGRPCall: 1
+ ---storeAVsBeforeLive---entry
+ ---storeAvBeforeLive---entry
+ Psz: 0, cL: 30
+ ---storeAvBeforeLive---exit
+ ---storeAvBeforeLive---entry
+ Psz: 0, cL: 2
+ ---storeAvBeforeLive---exit
+ ---storeAvBeforeLive---entry
+ Psz: 0, cL: 2
+ ---storeAvBeforeLive---exit
+ ---storeAvBeforeLive---entry
+ Psz: 0, cL: 1053
+ ---storeAvBeforeLive---exit
+ ---storeAvBeforeLive---entry
+ Psz: 0, cL: 2
+ ---storeAvBeforeLive---exit
+ ---storeAVsBeforeLive---exit
+ ---GRP storeAVsBeforeLive---exit
+ ---GRP copyAVsAfter---entry
+ curGRPCall: 1
+ ---copyAVsAfter---entry
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAVsAfter---exit
+ ---GRP copyAVsAfter---exit
+ ---g00 doCallX---exit: 0
+ ---DOCICALL---exit: 0
+  2020-07-07 05:20:29 S9>> DO_GENERAL >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9EI1 >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9EI1 >>>TR>>>ENTRY --->
+ 
+  2020-07-07 05:20:29 TT>> SIM9EI1 EI1_SR14
+ +EI1_SR14                            Length:00000004
+ 39640908 000000  40F0D132                             * 0J.            *
+0
+  2020-07-07 05:20:29 S9>> SIM9EI1 EI1_ARG0
+ +EI1_ARG0                            Length:00000011
+ 395C01C0 000000  0E08E000 07000010 00F0F0F0 F4F2F140  *..\......000421 *
+0395C01D0 000010  40                                   *                *
+0
+  2020-07-07 05:20:29 S9>> SIM9EI1 EE_RUN
+ +EE_RUN                              Length:00000032
+ 376A07F4 000000  C1D7C340 40404040 40F49090 90000000  *APC      4......*
+0376A0804 000010  00000090 00000000 0000C1D7 C34040D3  *..........APC  L*
+0376A0814 000020  D6C1C4F4 84000000 00000000 00000000  *OAD4d...........*
+0376A0824 000030  0000                                 *..              *
+0 2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_EXCICS_OBJ >>>TC>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_EXCICS_OBJ AT_ENTRY $GEO_OFFSET:  X'00000908'
+  2020-07-07 05:20:29 S9>> XLSOSTMT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> XLSOSTMT >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> XLSEXEC >>>TR>>>ENTRY --->
+ 
+  2020-07-07 05:20:29 S9>> XLSEXEC XLS_STMT
+ +XLS_STMT                            Length:00000058
+ 3974851C 000000  A00A51C9 000001A5 000008B4 00010024  *...I...v........*
+03974852C 000010  00000000 FFFFFFFF FFFFFFFF 000001A5  *...............v*
+03974853C 000020  000001AB 0000021A 00000220 008A0804  *................*
+03974854C 000030  011B0000 4040F0F0 F0F4F2F1 40404040  *....  000421    *
+03974855C 000040  40404040 40404040 40404040 40404040  *                *
+03974856C 000050  C5E7C5C3 40C3C9C3                    *EXEC CIC        *
+0 2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474D0: +0000  0000000D 00000015 0000005D 0000005D 0000001C 00000059 00000018 00000017
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474F0: +0020  0000000A 0000000D 00000031 00000045 0000003C FFFFFFFF FFFFFFFF FFFFFFFF
+  2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474D0: +0000  0000000D 00000015 0000005D 0000005D 0000001C 00000059 00000018 00000017
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474F0: +0020  0000000A 0000000D 00000031 00000045 0000003C FFFFFFFF FFFFFFFF FFFFFFFF
+  2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474D0: +0000  0000000D 00000015 0000005D 0000005D 0000001C 00000059 00000018 00000017
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474F0: +0020  0000000A 0000000D 00000031 00000045 0000003C FFFFFFFF FFFFFFFF FFFFFFFF
+  2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474D0: +0000  0000000D 00000015 0000005D 0000005D 0000001C 00000059 00000018 00000017
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474F0: +0020  0000000A 0000000D 00000031 00000045 0000003C FFFFFFFF FFFFFFFF FFFFFFFF
+  2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474D0: +0000  0000000D 00000015 0000005D 0000005D 0000001C 00000059 00000018 00000017
+  2020-07-07 05:20:29 S9>> XLSXTRCT XX_COLD 396474F0: +0020  0000000A 0000000D 00000031 00000045 0000003C FFFFFFFF FFFFFFFF FFFFFFFF
+  2020-07-07 05:20:29 S9>> XLSXTRCT >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> XLSEXEC >>>TR>>>EXIT RC = 00000000
+ 
+  2020-07-07 05:20:29 S9>> GET_EXCICS_OBJ GEO_STMT
+ +GEO_STMT                            Length:0000025E
+ 3974A0A0 000000  40404040 40404040 404040C5 E7C5C340  *           EXEC *
+03974A0B0 000010  C3C9C3E2 40D9C5E3 E4D9D515 40404040  *CICS RETURN.    *
+03974A0C0 000020  40404040 40404040 40404040 40404040  *                *
+03974A0D0 000030  40E3D9C1 D5E2C9C4 40404DC5 C9C2E3D9  * TRANSID  (EIBTR*
+03974A0E0 000040  D5C9C45D 15404040 40404040 40404040  *NID).           *
+03974A0F0 000050  40404040 40404040 4040C3D6 D4D4C1D9  *          COMMAR*
+03974A100 000060  C5C1404D C4E4D4D4 E860C3D6 D4D4C1D9  *EA (DUMMY-COMMAR*
+03974A110 000070  C5C15D15 40404040 40404040 40404040  *EA).            *
+03974A120 000080  40404040 40404040 40D3C5D5 C7E3C840  *         LENGTH *
+03974A130 000090  40404DF8 F05D1540 40404040 40404040  *  (80).         *
+03974A140 0000A0  4040C5D5 C460C5E7 C5C34B15 15000000  *  END-EXEC......*
+03974A150 0000B0  00000000 00000000 00000000 00000000  *................*
+03974A160 0000C0  00000000 00000000 00000000 00000000  *................*
+03974A170 0000D0  00000000 00000000 00000000 00000000  *................*
+03974A180 0000E0  00000000 00000000 00000000 00000000  *................*
+03974A190 0000F0  00000000 00000000 00000000 00000000  *................*
+03974A1A0 000100  00000000 00000000 00000000 00000000  *................*
+03974A1B0 000110  00000000 00000000 00000000 00000000  *................*
+03974A1C0 000120  00000000 00000000 00000000 00000000  *................*
+03974A1D0 000130  00000000 00000000 00000000 00000000  *................*
+03974A1E0 000140  00000000 00000000 00000000 00000000  *................*
+03974A1F0 000150  00000000 00000000 00000000 00000000  *................*
+03974A200 000160  00000000 00000000 00000000 00000000  *................*
+03974A210 000170  00000000 00000000 00000000 00000000  *................*
+03974A220 000180  00000000 00000000 00000000 00000000  *................*
+03974A230 000190  00000000 00000000 00000000 00000000  *................*
+03974A240 0001A0  00000000 00000000 00000000 00000000  *................*
+03974A250 0001B0  00000000 00000000 00000000 00000000  *................*
+03974A260 0001C0  00000000 00000000 00000000 00000000  *................*
+03974A270 0001D0  00000000 00000000 00000000 00000000  *................*
+03974A280 0001E0  00000000 00000000 00000000 00000000  *................*
+03974A290 0001F0  00000000 00000000 00000000 00000000  *................*
+03974A2A0 000200  00000000 00000000 00000000 00000000  *................*
+03974A2B0 000210  00000000 00000000 00000000 00000000  *................*
+03974A2C0 000220  00000000 00000000 00000000 00000000  *................*
+03974A2D0 000230  00000000 00000000 00000000 00000000  *................*
+03974A2E0 000240  00000000 00000000 00000000 00000000  *................*
+03974A2F0 000250  00000000 00000000 00000000 0000      *..............  *
+0---TTEXRE---entry
+ |Input EXEC (606 bytes):
+            EXEC CICS RETURN
+                      TRANSID  (EIBTRNID)
+                      COMMAREA (DUMMY-COMMAREA)
+                      LENGTH   (80)
+            END-EXEC.
+-|Reduced EXEC (63 bytes):
+ RETURN TRANSID (EIBTRNID) COMMAREA (DUMMY-COMMAREA) LENGTH (80)
+ ---TTEXRE---exit  rc: 0
+  2020-07-07 05:20:29 S9>> GET_EXCICS_OBJ >>>TC>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> DO_GENERAL >>>TO>>>ENTRY --->
+ ---DOCICALL---entry
+ ---s00 doCallX---entry
+ ---validateAVs---entry
+ AVsBefore: 4, AVsBLive: 4
+ ---validateAVs---exit: 0
+ ---storeAVsBeforeLive---entry
+ ---storeAvBeforeLive---entry
+ Psz: 0, cL: 30
+ ---storeAvBeforeLive---exit
+ ---storeAvBeforeLive---entry
+ Psz: 0, cL: 4
+ ---storeAvBeforeLive---exit
+ ---storeAvBeforeLive---entry
+ Psz: 0, cL: 80
+ ---storeAvBeforeLive---exit
+ ---storeAvBeforeLive---entry
+ Psz: 0, cL: 4
+ ---storeAvBeforeLive---exit
+ ---storeAVsBeforeLive---exit
+ ---copyEIB---entry
+ ---copyEIB---exit
+ ---copyAVsAfter---entry
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAVsAfter---exit
+ ---s00 doCallX---exit: 0
+ ---DOCICALL---exit: 0
+  2020-07-07 05:20:29 S9>> DO_GENERAL >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM2TRV4 >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S2>> SIM2TRV4 TRV4SAVE -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 S2>> SIM2TRV4 TRV4SAVE 39647DE8: +0000  3974D5D0 395C0018 397485C8 B77193D6 B76BF930 397A5359 00000000 395C0180
+  2020-07-07 05:20:29 S2>> SIM2TRV4 TRV4SAVE 39647E08: +0020  395C0018 395BF9B8 376A07F4 00669280 383D3298 383D08E0 396428D0 395E9E90
+  2020-07-07 05:20:29 S2>> SIM2TRV4 TRV4SAVE 39647E28: +0040  385BE518 377197F8
+  2020-07-07 05:20:29 S2>> SIM2TRV4 TRV4COBP -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 S2>> SIM2TRV4 TRV4COBP 376BF930: +0000  A7F40004 E3E3E35C 90ECD00C 1821C0C0 000004E9 5800C058 58F0C05C 58E0
+  2020-07-07 05:20:29 S2>> SIM2TRV4 TRV4SAVE -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 S2>> SIM2TRV4 TRV4SAVE 395C0018: +0000  00110301 385BA018 39647DE8 B9640908 37714DF8 B83D0988 395C0180 385BE018
+  2020-07-07 05:20:29 S2>> SIM2TRV4 TRV4SAVE 395C0038: +0020  39641B40 395BF9B8 395C0018 00669280 383D3298 383D08E0 396428D0 39640024
+  2020-07-07 05:20:29 S2>> SIM2TRV4 TRV4SAVE 395C0058: +0040  385BE518 378761D8
+  2020-07-07 05:20:29 S2>> SIM2TRV4 TRV4COBP -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 S2>> SIM2TRV4 TRV4COBP 37714DF8: +0000  A7F40004 E3E3E35C 90ECD00C 1821C0C0 000024F9 5800C0B8 58F0C0BC 58E0
+  2020-07-07 05:20:29 S2>> SIM2TRV4 TRV4SAVE -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 S2>> SIM2TRV4 TRV4SAVE 385BA018: +0000  00104001 37876C80 39647E48 B7605F6A 39640000 385BE918 385BE518 385BE018
+  2020-07-07 05:20:29 S2>> SIM2TRV4 TRV4SAVE 385BA038: +0020  00000000 00016C4C 37601170 383CBD78 00000000 37600170 383DB038 383DF038
+  2020-07-07 05:20:29 S2>> SIM2TRV4 TRV4SAVE 385BA058: +0040  37601F44 378761D8
+  2020-07-07 05:20:29 S2>> SIM2TRV4 TRV4COBP -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 S2>> SIM2TRV4 TRV4COBP 39640000: +0000  47F0F014 01C3C5C5 00000300 000024C8 47F0F001 90ECD00C 41A0F024 98EF
+  2020-07-07 05:20:29 S2>> SIM2TRV4 TRV4_EPN -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 S2>> SIM2TRV4 TRV4_EPN 00000000: +0000  000A0000 000130E1 00000000 00000000
+  2020-07-07 05:20:29 S2>> SIM2TRV4 TRV4SAVE -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 S2>> SIM2TRV4 TRV4SAVE 37876C80: +0000  00000000 00006F60 00000000 B83A8BD0 37600000 00000000 37874E80 00000000
+  2020-07-07 05:20:29 S2>> SIM2TRV4 TRV4SAVE 37876CA0: +0020  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+  2020-07-07 05:20:29 S2>> SIM2TRV4 TRV4SAVE 37876CC0: +0040  00000000 378761D8
+  2020-07-07 05:20:29 S2>> SIM2TRV4 TRV4COBP -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 S2>> SIM2TRV4 TRV4COBP 37600000: +0000  47F0F028 00C3C5C5 010059A0 00000014 47F0F001 98CEAC00 376000B6 0000
+  2020-07-07 05:20:29 S2>> SIM2TRV4 TRV4_EPN -address- -off-  +00      +04      +08      +0C      +10      +14      +18      +1C
+  2020-07-07 05:20:29 S2>> SIM2TRV4 TRV4_EPN 376000AE: +0000  E3E3E3D9 E4D5D5D9 05000001 377300B0
+  2020-07-07 05:20:29 TT>> SIMTRTRV >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> GET_OBJ_FOR_RTRV >>>TC>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> GET_OBJ_FOR_RTRV >>>TC>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 ST>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 ST>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> DO_A_RETRIEVE >>>TO>>>ENTRY --->
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ sz: 1
+ curRtrvAV: 0
+ AV ptr: 397250E8
+ ---buildAvRec---entry
+ length: 85, ptrSz: 0
+ mlength: 85
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 10
+ ---cxx retrieveNextAV---exit: 10
+ ---TGTRTRV---exit
+  2020-07-07 05:20:29 ST>> DO_A_RETRIEVE >>>TO>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 ST>> OBJ0CALL >>>TR>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 ST>> SIMTRTRV >>>TR>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 TT>> SIMTRTRV >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> GET_OBJ_FOR_RTRV >>>TC>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> GET_OBJ_FOR_RTRV >>>TC>>>EXIT RC = FFFFFFF6
+  2020-07-07 05:20:29 ST>> OBJ0CALL >>>TR>>>EXIT RC = FFFFFFF6
+  2020-07-07 05:20:29 ST>> SIMTRTRV >>>TR>>>EXIT RC = FFFFFFF6
+  2020-07-07 05:20:29 TT>> SIM4RTRV >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> GET_OBJ_FOR_RTRV >>>TC>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> GET_OBJ_FOR_RTRV >>>TC>>>EXIT RC = FFFFFFF6
+  2020-07-07 05:20:29 S4>> OBJ0CALL >>>TR>>>EXIT RC = FFFFFFF6
+  2020-07-07 05:20:29 S4>> SIM4RTRV >>>TR>>>EXIT RC = FFFFFFF6
+  2020-07-07 05:20:29 TT>> SIM9RTRV >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_OBJ_FOR_RTRV >>>TC>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_OBJ_FOR_RTRV >>>TC>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> DO_A_RETRIEVE >>>TO>>>ENTRY --->
+ ---CICSRTRV---entry
+ ---g00 retrieveNext---entry
+ ---GRP retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 00113E11
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 30, ptrSz: 0, avD: 3986CDB0
+ ---buildAvRec---exit: 10
+ ---retrieveNextParm---exit: 10
+ ---GRP retrieveNext---exit: 1
+ ---g00 retrieveNext---exit: 1
+ ---CICSRTRV---exit
+  2020-07-07 05:20:29 S9>> DO_A_RETRIEVE >>>TO>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 S9>> SIM9RTRV >>>TR>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 TT>> SIM9RTRV >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_OBJ_FOR_RTRV >>>TC>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_OBJ_FOR_RTRV >>>TC>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> DO_A_RETRIEVE >>>TO>>>ENTRY --->
+ ---CICSRTRV---entry
+ ---g00 retrieveNext---entry
+ ---GRP retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 00113E12
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 30, ptrSz: 0, avD: 3986D2A0
+ ---buildAvRec---exit: 10
+ ---retrieveNextParm---exit: 1
+ ---GRP retrieveNext---exit: 1
+ ---g00 retrieveNext---exit: 1
+ ---CICSRTRV---exit
+  2020-07-07 05:20:29 S9>> DO_A_RETRIEVE >>>TO>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 S9>> SIM9RTRV >>>TR>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 TT>> SIM9RTRV >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_OBJ_FOR_RTRV >>>TC>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_OBJ_FOR_RTRV >>>TC>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> DO_A_RETRIEVE >>>TO>>>ENTRY --->
+ ---CICSRTRV---entry
+ ---g00 retrieveNext---entry
+ ---GRP retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 00113E12
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 2, ptrSz: 0, avD: 3986CDF0
+ ---buildAvRec---exit: 10
+ ---retrieveNextParm---exit: 1
+ ---GRP retrieveNext---exit: 1
+ ---g00 retrieveNext---exit: 1
+ ---CICSRTRV---exit
+  2020-07-07 05:20:29 S9>> DO_A_RETRIEVE >>>TO>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 S9>> SIM9RTRV >>>TR>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 TT>> SIM9RTRV >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_OBJ_FOR_RTRV >>>TC>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_OBJ_FOR_RTRV >>>TC>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> DO_A_RETRIEVE >>>TO>>>ENTRY --->
+ ---CICSRTRV---entry
+ ---g00 retrieveNext---entry
+ ---GRP retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 00113E12
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 2, ptrSz: 0, avD: 3986D2F8
+ ---buildAvRec---exit: 10
+ ---retrieveNextParm---exit: 1
+ ---GRP retrieveNext---exit: 1
+ ---g00 retrieveNext---exit: 1
+ ---CICSRTRV---exit
+  2020-07-07 05:20:29 S9>> DO_A_RETRIEVE >>>TO>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 S9>> SIM9RTRV >>>TR>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 TT>> SIM9RTRV >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_OBJ_FOR_RTRV >>>TC>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_OBJ_FOR_RTRV >>>TC>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> DO_A_RETRIEVE >>>TO>>>ENTRY --->
+ ---CICSRTRV---entry
+ ---g00 retrieveNext---entry
+ ---GRP retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 00113E12
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 1053, ptrSz: 0, avD: 3986D960
+ ---buildAvRec---exit: 10
+ ---retrieveNextParm---exit: 1
+ ---GRP retrieveNext---exit: 1
+ ---g00 retrieveNext---exit: 1
+ ---CICSRTRV---exit
+  2020-07-07 05:20:29 S9>> DO_A_RETRIEVE >>>TO>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 S9>> SIM9RTRV >>>TR>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 TT>> SIM9RTRV >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_OBJ_FOR_RTRV >>>TC>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_OBJ_FOR_RTRV >>>TC>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> DO_A_RETRIEVE >>>TO>>>ENTRY --->
+ ---CICSRTRV---entry
+ ---g00 retrieveNext---entry
+ ---GRP retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 00113E12
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 2, ptrSz: 0, avD: 3986D760
+ ---buildAvRec---exit: 10
+ ---retrieveNextParm---exit: 10
+ ---GRP retrieveNext---exit: 10
+ ---g00 retrieveNext---exit: 10
+ ---CICSRTRV---exit
+  2020-07-07 05:20:29 S9>> DO_A_RETRIEVE >>>TO>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 S9>> SIM9RTRV >>>TR>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 TT>> SIM9RTRV >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_OBJ_FOR_RTRV >>>TC>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_OBJ_FOR_RTRV >>>TC>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> DO_A_RETRIEVE >>>TO>>>ENTRY --->
+ ---CICSRTRV---entry
+ ---retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 00116521
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 30, ptrSz: 0, avD: 3986CE18
+ ---buildAvRec---exit: 10
+ ---retrieveNextParm---exit: 1
+ ---retrieveNext---exit: 1
+ ---CICSRTRV---exit
+  2020-07-07 05:20:29 S9>> DO_A_RETRIEVE >>>TO>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 S9>> SIM9RTRV >>>TR>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 TT>> SIM9RTRV >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_OBJ_FOR_RTRV >>>TC>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_OBJ_FOR_RTRV >>>TC>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> DO_A_RETRIEVE >>>TO>>>ENTRY --->
+ ---CICSRTRV---entry
+ ---retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 00116521
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 4, ptrSz: 0, avD: 3986CD70
+ ---buildAvRec---exit: 10
+ ---retrieveNextParm---exit: 10
+ ---retrieveNext---exit: 10
+ ---CICSRTRV---exit
+  2020-07-07 05:20:29 S9>> DO_A_RETRIEVE >>>TO>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 S9>> SIM9RTRV >>>TR>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 TT>> SIM9RTRV >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_OBJ_FOR_RTRV >>>TC>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_OBJ_FOR_RTRV >>>TC>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> DO_A_RETRIEVE >>>TO>>>ENTRY --->
+ ---CICSRTRV---entry
+ ---retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 00118C31
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 30, ptrSz: 0, avD: 3986DD88
+ ---buildAvRec---exit: 10
+ ---retrieveNextParm---exit: 1
+ ---retrieveNext---exit: 1
+ ---CICSRTRV---exit
+  2020-07-07 05:20:29 S9>> DO_A_RETRIEVE >>>TO>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 S9>> SIM9RTRV >>>TR>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 TT>> SIM9RTRV >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_OBJ_FOR_RTRV >>>TC>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_OBJ_FOR_RTRV >>>TC>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> DO_A_RETRIEVE >>>TO>>>ENTRY --->
+ ---CICSRTRV---entry
+ ---retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 00118C31
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 4, ptrSz: 0, avD: 3986D788
+ ---buildAvRec---exit: 10
+ ---retrieveNextParm---exit: 1
+ ---retrieveNext---exit: 1
+ ---CICSRTRV---exit
+  2020-07-07 05:20:29 S9>> DO_A_RETRIEVE >>>TO>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 S9>> SIM9RTRV >>>TR>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 TT>> SIM9RTRV >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_OBJ_FOR_RTRV >>>TC>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_OBJ_FOR_RTRV >>>TC>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> DO_A_RETRIEVE >>>TO>>>ENTRY --->
+ ---CICSRTRV---entry
+ ---retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 00118C31
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 80, ptrSz: 0, avD: 3986DDE0
+ ---buildAvRec---exit: 10
+ ---retrieveNextParm---exit: 1
+ ---retrieveNext---exit: 1
+ ---CICSRTRV---exit
+  2020-07-07 05:20:29 S9>> DO_A_RETRIEVE >>>TO>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 S9>> SIM9RTRV >>>TR>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 TT>> SIM9RTRV >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_OBJ_FOR_RTRV >>>TC>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_OBJ_FOR_RTRV >>>TC>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> DO_A_RETRIEVE >>>TO>>>ENTRY --->
+ ---CICSRTRV---entry
+ ---retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 00118C31
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 4, ptrSz: 0, avD: 3986DE50
+ ---buildAvRec---exit: 10
+ ---retrieveNextParm---exit: 10
+ ---retrieveNext---exit: 10
+ ---CICSRTRV---exit
+  2020-07-07 05:20:29 S9>> DO_A_RETRIEVE >>>TO>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 S9>> SIM9RTRV >>>TR>>>EXIT RC = 00000001
+  2020-07-07 05:20:29 TT>> SIM9RTRV >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_OBJ_FOR_RTRV >>>TC>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> GET_OBJ_FOR_RTRV >>>TC>>>EXIT RC = FFFFFFF6
+  2020-07-07 05:20:29 S9>> OBJ0CALL >>>TR>>>EXIT RC = FFFFFFF6
+  2020-07-07 05:20:29 S9>> SIM9RTRV >>>TR>>>EXIT RC = FFFFFFF6
+  2020-07-07 05:20:29 TT>> SIMTCAL$ >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> OBJ0CALL >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> TARGET_CALL_DELETE >>>TO>>>ENTRY --->
+ ---TARGCALX---entry TARGETcxx: 39725028
+ ---T deleteTargetCall---entry
+ ---~targetCall---entry
+ deleting AVsLive
+ ---~TTArgVal---entry
+ ---~TTArgVal---exit
+ ---~targetCall---exit
+ ---T deleteTargetCall---exit
+ ---TARGCALX---exit
+  2020-07-07 05:20:29 ST>> TARGET_CALL_DELETE >>>TO>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 ST>> OBJ0CALL >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 ST>> SIMTCAL$ >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIMTTERM >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> STG1TERM >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 ST>> STG1TERM >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIMTTERM >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> TTTRUN20 >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 TT>> XLSTERM >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 TT>> XLSTERM >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> TTDALLO >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 TT>> TTDALLO >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> TTTRUN20 >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM2TERM >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S2>> STG1TERM >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S2>> STG1TERM >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM2TERM >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM4TERM >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> STG1TERM >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S4>> STG1TERM >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM4TERM >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9TERM >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1NEXT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1NEXT >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 S9>> SIM9TERM EI1UNHK @DFHEI1 X'39642728', VCON X'39641B80'
+  2020-07-07 05:20:29 S9>> STG1NEXT >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1NEXT >>>TR>>>EXIT RC = 00001600
+  2020-07-07 05:20:29 S9>> STG1TERM >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 S9>> STG1TERM >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> SIM9TERM >>>TR>>>EXIT RC = 00000000
+  2020-07-07 05:20:29 TT>> TTT@TERM >>>TR>>>ENTRY --->
+ Topaz for Total Test component levels used during this unit test execution:
+ T@EXCICS   Compile Date: 13MAY20   Time: 10.23   Level: 161051
+ T@SUBPGM   Compile Date: 13MAY20   Time: 10.22   Level: 161051
+ T@TARGET   Compile Date: 01JUN20   Time: 14.12   Level: 128250
+ TT#CICS    Compile Date: 13MAY20   Time: 10.22   Level: 161051
+ TT#PAIRS   Compile Date: 13MAY20   Time: 10.22   Level: 161051
+ TTT@INIT   Compile Date: 01JUN20   Time: 14.12   Level: 128250
+ TTTINF00   Compile Date: 15APR20   Time: 11.41   Level: 158187
+ TTTOBJ00   Compile Date: 15APR20   Time: 11.41   Level: 158187
+ TTTRUN00   Compile Date: 13MAY20   Time: 10.23   Level: 161051
+ TTTSIMT0   Compile Date: 01JUN20   Time: 14.13   Level: 128250
+ TTTSIM20   Compile Date: 15APR20   Time: 11.43   Level: 158187
+ TTTSIM40   Compile Date: 15APR20   Time: 11.44   Level: 158187
+ TTTSIM90   Compile Date: 15APR20   Time: 11.42   Level: 158187
+ TTTSTG10   Compile Date: 15APR20   Time: 11.44   Level: 158187
+ TTTXLS01   Compile Date: 15APR20   Time: 11.44   Level: 158187
+ TTTXLS02   Compile Date: 15APR20   Time: 11.43   Level: 158187
+ TTBNDR01   Compile Date: 13May20   Time: 10.24   Level: XXXXXX
+ TTDEBUG    Compile Date: 13May20   Time: 10.13   Level: XXXXXX
+ TTEXCICS   Compile Date: 01Jun20   Time: 10.04   Level: XXXXXX
+ TTSQLRED   Compile Date: 13May20   Time: 10.24   Level: XXXXXX
+ TTSUBPGM   Compile Date: 01Jun20   Time: 10.04   Level: XXXXXX
+ TTTARGET   Compile Date: 01Jun20   Time: 14.12   Level: XXXXXX
+ TTTLCHCK   Compile Date: 13May20   Time: 10.23   Level: XXXXXX
+ TTTABNDI   Compile Date: 13May20   Time: 10.21   Level: 161051
+ TTTENVC4   Compile Date: 13May20   Time: 10.21   Level: 161051
+ TTTENVC5   Compile Date: 13May20   Time: 10.21   Level: 161051
+ TTTMSG00   Compile Date: 01Jun20   Time: 14.12   Level: 128250
+ TTTRUNNR   Compile Date: 01Jun20   Time: 14.12   Level: 128250
+  2020-07-07 05:20:29 TT>> STG1TERM >>>TR>>>ENTRY --->
+  2020-07-07 05:20:29 TT>> STG1TERM >>>TR>>>EXIT RC = 00000000

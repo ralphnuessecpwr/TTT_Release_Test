@@ -1,0 +1,78 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="TRISPM/Stubs/TRISPM_CALL_TRISPT_1_SQL_01.stub" nextCalltoken="1080003" stubtype="SQL" target="CALL" token="1080000">
+  <properties:properties>
+    <properties:property name="name" type="string">XT.TRISPT                           </properties:property>
+  </properties:properties>
+  <stub:description>Created: Jul 7, 2020 10:28:25 AM</stub:description>
+  <stub:stubdata id="0" name="CALL">
+    <stub:interface>../Interfaces/TRISPM_CALL_TRISPT_1_in_TRIANGLE_TYPE_X.interface#TRISPM/Interfaces/TRISPM_CALL_TRISPT_1_in_TRIANGLE_TYPE_X.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/TRISPM/TRISPM_CALL_SIDES.listructure#TRISPM/Structures/Db2/TRISPM/TRISPM_CALL_SIDES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/TRISPM/TRISPM_CALL_SIDES.listructure#SIDES" id="arg0.SIDES">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F4F5</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/TRISPM/TRISPM_CALL_TRIANGLE-TYPE-X.listructure#TRISPM/Structures/Db2/TRISPM/TRISPM_CALL_TRIANGLE-TYPE-X.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/TRISPM/TRISPM_CALL_TRIANGLE-TYPE-X.listructure#TRIANGLE_TYPE_X" id="arg1.TRIANGLE_TYPE_X">
+        <properties:properties>
+          <properties:property name="value" type="string">F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlResults>
+      <stub:result id="1" name="CALL">
+        <stub:interface>../Interfaces/TRISPM_CALL_TRISPT_1_out_2_PROG_NAME.interface#TRISPM/Interfaces/TRISPM_CALL_TRISPT_1_out_2_PROG_NAME.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/TRISPM/TRISPM_CALL_TRIANGLE-TYPE-X.listructure#TRISPM/Structures/Db2/TRISPM/TRISPM_CALL_TRIANGLE-TYPE-X.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/TRISPM/TRISPM_CALL_TRIANGLE-TYPE-X.listructure#TRIANGLE_TYPE_X" id="arg0.TRIANGLE_TYPE_X">
+            <properties:properties>
+              <properties:property name="value" type="string">F3</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/TRISPM/TRISPM_CALL_PROG-NAME.listructure#TRISPM/Structures/Db2/TRISPM/TRISPM_CALL_PROG-NAME.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/TRISPM/TRISPM_CALL_PROG-NAME.listructure#PROG_NAME" id="arg1.PROG_NAME">
+            <properties:properties>
+              <properties:property name="value" type="string">E7E34BE3D9C9E2D7E3404040404040404040404040404040404040404040404040404040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="CALL">
+            <stub:text>           EXEC SQL
+             CALL :PROG-NAME (:SIDES,:TRIANGLE-TYPE-X)
+           END-EXEC.
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00404400001EE3D9C9E2D7D440401B052B7110791310000137DE3C4837DE246037DE24200474030E0000006E0000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C14E40080000003C0001000101C4002437DE37A8000000000008000004740000000040404040404040404040404040404040404040404040</stub:varRawData>
+            <stub:varRawData>E2D8D3C4C14E4008000000680002000201C4000337DE384800000000000800000474000000004040404040404040404040404040404040404040404001C4000137DE3840000000000008000004740000000040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="1080002">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+    </stub:sqlResults>
+    <stub:sqlStatus>
+      <stub:statement type="CALL">
+        <stub:text>           EXEC SQL
+             CALL :PROG-NAME (:SIDES,:TRIANGLE-TYPE-X)
+           END-EXEC.
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404400001EE3D9C9E2D7D440401B052B7110791310000137DE3C4837DE246037DE24200474030E0000006E0000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C14E40080000003C0001000101C4002437DE37A8000000000008000004740000000040404040404040404040404040404040404040404040</stub:varRawData>
+        <stub:varRawData>E2D8D3C4C14E4008000000680002000201C4000337DE384800000000000800000474000000004040404040404040404040404040404040404040404001C4000137DE3840000000000008000004740000000040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="1080001">
+        <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:database version="1110"/>
+</stub:stub>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200629-0403_106?>
+<!--Topaz for Total Test 20.3.1.v20200629-0403_106 Jul 7, 2020 10:28:29 AM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="TRISPM/Interfaces/TRISPM_TRIRPT.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/TRISPM_TRIRPT_NAME-N-CNTR-TABLE.listructure#TRISPM/Structures/TRISPM_TRIRPT_NAME-N-CNTR-TABLE.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/TRISPM_TRIRPT_NAME-N-CNTR-TABLE.listructure#NAME_N_CNTR_TABLE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/TRISPM_TRIRPT_NAME-N-CNTR-TABLE.listructure#NAME_N_CNTR_TABLE.FILLER0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/TRISPM_TRIRPT_NAME-N-CNTR-TABLE.listructure#NAME_N_CNTR_TABLE.FILLER1">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/TRISPM_TRIRPT_NAME-N-CNTR-TABLE.listructure#NAME_N_CNTR_TABLE.FILLER2">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/TRISPM_TRIRPT_NAME-N-CNTR-TABLE.listructure#NAME_N_CNTR_TABLE.FILLER3">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/TRISPM_TRIRPT_NAME-N-CNTR-TABLE.listructure#NAME_N_CNTR_TABLE.FILLER4">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/TRISPM_TRIRPT_NAME-N-CNTR-TABLE.listructure#NAME_N_CNTR_TABLE.FILLER5">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/TRISPM_TRIRPT_NAME-N-CNTR-TABLE.listructure#NAME_N_CNTR_TABLE.FILLER6">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/TRISPM_TRIRPT_NAME-N-CNTR-TABLE.listructure#NAME_N_CNTR_TABLE.FILLER7">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

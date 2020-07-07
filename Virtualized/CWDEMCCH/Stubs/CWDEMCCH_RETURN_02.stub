@@ -1,0 +1,33 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="CWDEMCCH/Stubs/CWDEMCCH_RETURN_02.stub" nextCalltoken="1490002" stubtype="CICS" target="" token="1490000">
+  <stub:description>Created: Jul 7, 2020 11:49:41 AM</stub:description>
+  <stub:stubdata callToken="1490001" id="0" name="EXEC CICS RETURN">
+    <stub:interface>../Interfaces/CWDEMCCH_RETURN.interface#CWDEMCCH/Interfaces/CWDEMCCH_RETURN.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWDEMCCH_RETURN.interface#CWDEMCCH/Interfaces/CWDEMCCH_RETURN.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-0.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0E0800000700001000F0F0F0F5F5F240400000000000000040404040F2F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-0.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0E0800000700001000F0F0F0F5F5F240400000000000000040404040F2F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:statement type="EXEC CICS RETURN">
+      <stub:text>           EXEC CICS RETURN END-EXEC.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_DFHEIBLK.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_DFHEIBLK.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_DFHEIBLK.listructure#DFHEIBLK" id="arg0.DFHEIBLK">
+        <properties:properties>
+          <properties:property name="value" type="string">0054911C0120189FE7C3C3C80000993CC3F0F8F90000000600007D040400000000000000000000000000000000000000000000C3F0F8F9404040400000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+</stub:stub>

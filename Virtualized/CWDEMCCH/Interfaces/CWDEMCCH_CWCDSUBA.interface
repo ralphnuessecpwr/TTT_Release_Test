@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200629-0403_106?>
+<!--Topaz for Total Test 20.3.1.v20200629-0403_106 Jul 7, 2020 11:49:39 AM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="CWDEMCCH/Interfaces/CWDEMCCH_CWCDSUBA.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/CWDEMCCH_CWCDSUBA_EMP-RECORD-LIST.listructure#CWDEMCCH/Structures/CWDEMCCH_CWCDSUBA_EMP-RECORD-LIST.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CWDEMCCH_CWCDSUBA_EMP-RECORD-LIST.listructure#EMP_RECORD_LIST">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWDEMCCH_CWCDSUBA_EMP-RECORD-LIST.listructure#EMP_RECORD_LIST.EMP_NUM_LIST">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWDEMCCH_CWCDSUBA_EMP-RECORD-LIST.listructure#EMP_RECORD_LIST.EMP_HOURS_LIST">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWDEMCCH_CWCDSUBA_EMP-RECORD-LIST.listructure#EMP_RECORD_LIST.EMP_RATE_LIST">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWDEMCCH_CWCDSUBA_EMP-RECORD-LIST.listructure#EMP_RECORD_LIST.EMP_TOTPAY_LIST">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CWDEMCCH_CWCDSUBA_CWCDWRKA.listructure#CWDEMCCH/Structures/CWDEMCCH_CWCDSUBA_CWCDWRKA.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CWDEMCCH_CWCDSUBA_CWCDWRKA.listructure#CWCDWRKA">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWDEMCCH_CWCDSUBA_CWCDWRKA.listructure#CWCDWRKA.CWCDWRKA">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

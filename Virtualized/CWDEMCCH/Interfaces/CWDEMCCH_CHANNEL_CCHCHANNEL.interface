@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200629-0403_106?>
+<!--Topaz for Total Test 20.3.1.v20200629-0403_106 Jul 7, 2020 11:48:27 AM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="CWDEMCCH/Interfaces/CWDEMCCH_CHANNEL_CCHCHANNEL.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-0.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-0.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-1.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-1.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-1.listructure#CICS_GENERATED_CONSTANT_1">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-1.listructure#CICS_GENERATED_CONSTANT_1.CICS_GENERATED_CONSTANT_1">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_DUMMY-CONTAINER-INPUT.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_DUMMY-CONTAINER-INPUT.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_DUMMY-CONTAINER-INPUT.listructure#DUMMY_CONTAINER_INPUT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_DUMMY-CONTAINER-INPUT.listructure#DUMMY_CONTAINER_INPUT.DUMMY_CONTAINER_INPUT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-4.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-4.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-4.listructure#CICS_GENERATED_CONSTANT_4">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-4.listructure#CICS_GENERATED_CONSTANT_4.CICS_GENERATED_CONSTANT_4">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-41.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-41.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-41.listructure#CICS_GENERATED_CONSTANT_4">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-41.listructure#CICS_GENERATED_CONSTANT_4.CICS_GENERATED_CONSTANT_4">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-5.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-5.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-5.listructure#CICS_GENERATED_CONSTANT_5">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-5.listructure#CICS_GENERATED_CONSTANT_5.CICS_GENERATED_CONSTANT_5">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-6.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-6.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-6.listructure#CICS_GENERATED_CONSTANT_6">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-6.listructure#CICS_GENERATED_CONSTANT_6.CICS_GENERATED_CONSTANT_6">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-7.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-7.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-7.listructure#CICS_GENERATED_CONSTANT_7">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-7.listructure#CICS_GENERATED_CONSTANT_7.CICS_GENERATED_CONSTANT_7">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-8.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-8.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-8.listructure#CICS_GENERATED_CONSTANT_8">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-8.listructure#CICS_GENERATED_CONSTANT_8.CICS_GENERATED_CONSTANT_8">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-9.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-9.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-9.listructure#CICS_GENERATED_CONSTANT_9">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-9.listructure#CICS_GENERATED_CONSTANT_9.CICS_GENERATED_CONSTANT_9">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-10.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-10.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-10.listructure#CICS_GENERATED_CONSTANT_10">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-10.listructure#CICS_GENERATED_CONSTANT_10.CICS_GENERATED_CONSTANT_10">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-11.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-11.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-11.listructure#CICS_GENERATED_CONSTANT_11">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-11.listructure#CICS_GENERATED_CONSTANT_11.CICS_GENERATED_CONSTANT_11">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-12.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-12.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-12.listructure#CICS_GENERATED_CONSTANT_12">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-12.listructure#CICS_GENERATED_CONSTANT_12.CICS_GENERATED_CONSTANT_12">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-13.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-13.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-13.listructure#CICS_GENERATED_CONSTANT_13">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-13.listructure#CICS_GENERATED_CONSTANT_13.CICS_GENERATED_CONSTANT_13">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-14.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-14.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-14.listructure#CICS_GENERATED_CONSTANT_14">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-14.listructure#CICS_GENERATED_CONSTANT_14.CICS_GENERATED_CONSTANT_14">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-15.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-15.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-15.listructure#CICS_GENERATED_CONSTANT_15">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-15.listructure#CICS_GENERATED_CONSTANT_15.CICS_GENERATED_CONSTANT_15">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-16.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-16.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-16.listructure#CICS_GENERATED_CONSTANT_16">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-16.listructure#CICS_GENERATED_CONSTANT_16.CICS_GENERATED_CONSTANT_16">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-17.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-17.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-17.listructure#CICS_GENERATED_CONSTANT_17">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-17.listructure#CICS_GENERATED_CONSTANT_17.CICS_GENERATED_CONSTANT_17">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-18.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-18.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-18.listructure#CICS_GENERATED_CONSTANT_18">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-18.listructure#CICS_GENERATED_CONSTANT_18.CICS_GENERATED_CONSTANT_18">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-19.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-19.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-19.listructure#CICS_GENERATED_CONSTANT_19">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-19.listructure#CICS_GENERATED_CONSTANT_19.CICS_GENERATED_CONSTANT_19">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-20.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-20.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-20.listructure#CICS_GENERATED_CONSTANT_20">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-20.listructure#CICS_GENERATED_CONSTANT_20.CICS_GENERATED_CONSTANT_20">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-21.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-21.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-21.listructure#CICS_GENERATED_CONSTANT_21">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-21.listructure#CICS_GENERATED_CONSTANT_21.CICS_GENERATED_CONSTANT_21">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-22.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-22.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-22.listructure#CICS_GENERATED_CONSTANT_22">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-22.listructure#CICS_GENERATED_CONSTANT_22.CICS_GENERATED_CONSTANT_22">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-23.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-23.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-23.listructure#CICS_GENERATED_CONSTANT_23">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-23.listructure#CICS_GENERATED_CONSTANT_23.CICS_GENERATED_CONSTANT_23">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-24.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-24.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-24.listructure#CICS_GENERATED_CONSTANT_24">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-24.listructure#CICS_GENERATED_CONSTANT_24.CICS_GENERATED_CONSTANT_24">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-25.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-25.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-25.listructure#CICS_GENERATED_CONSTANT_25">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-25.listructure#CICS_GENERATED_CONSTANT_25.CICS_GENERATED_CONSTANT_25">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-26.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-26.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-26.listructure#CICS_GENERATED_CONSTANT_26">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-26.listructure#CICS_GENERATED_CONSTANT_26.CICS_GENERATED_CONSTANT_26">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-27.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-27.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-27.listructure#CICS_GENERATED_CONSTANT_27">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-27.listructure#CICS_GENERATED_CONSTANT_27.CICS_GENERATED_CONSTANT_27">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-28.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-28.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-28.listructure#CICS_GENERATED_CONSTANT_28">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-28.listructure#CICS_GENERATED_CONSTANT_28.CICS_GENERATED_CONSTANT_28">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-29.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-29.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-29.listructure#CICS_GENERATED_CONSTANT_29">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-29.listructure#CICS_GENERATED_CONSTANT_29.CICS_GENERATED_CONSTANT_29">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-30.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-30.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-30.listructure#CICS_GENERATED_CONSTANT_30">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-30.listructure#CICS_GENERATED_CONSTANT_30.CICS_GENERATED_CONSTANT_30">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-32.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-32.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-32.listructure#CICS_GENERATED_CONSTANT_32">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-32.listructure#CICS_GENERATED_CONSTANT_32.CICS_GENERATED_CONSTANT_32">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

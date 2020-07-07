@@ -1,0 +1,1385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200629-0403_106?>
+<!--Topaz for Total Test 20.3.1.v20200629-0403_106 Jul 7, 2020 1:25:34 PM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="LGACDB01/Structures/LGACDB01_DFHCOMMAREA.listructure">
+  <listructure:struct id="DFHCOMMAREA" name="DFHCOMMAREA">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">32522</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">32522</properties:property>
+    </properties:properties>
+    <listructure:string id="DFHCOMMAREA.CA_REQUEST_ID" length="6" name="CA_REQUEST_ID">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(6)</properties:property>
+        <properties:property name="displayLength" type="number">6</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(6)</properties:property>
+        <properties:property name="storageLength" type="number">6</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:number id="DFHCOMMAREA.CA_RETURN_CODE" length="2" name="CA_RETURN_CODE">
+      <properties:properties>
+        <properties:property name="picture" type="string">9(2)</properties:property>
+        <properties:property name="displayLength" type="number">2</properties:property>
+        <properties:property name="integerDigits" type="number">2</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">zoned</properties:property>
+        <properties:property name="mask" type="string">9(2)</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:number id="DFHCOMMAREA.CA_CUSTOMER_NUM" length="10" name="CA_CUSTOMER_NUM">
+      <properties:properties>
+        <properties:property name="picture" type="string">9(10)</properties:property>
+        <properties:property name="displayLength" type="number">10</properties:property>
+        <properties:property name="integerDigits" type="number">10</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">zoned</properties:property>
+        <properties:property name="mask" type="string">9(10)</properties:property>
+        <properties:property name="storageLength" type="number">10</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:string id="DFHCOMMAREA.CA_REQUEST_SPECIFIC" length="32482" name="CA_REQUEST_SPECIFIC">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(32482)</properties:property>
+        <properties:property name="redefined" type="boolean">true</properties:property>
+        <properties:property name="displayLength" type="number">32482</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(32482)</properties:property>
+        <properties:property name="storageLength" type="number">32482</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:struct id="DFHCOMMAREA.CA_CUSTOMER_REQUEST" name="CA_CUSTOMER_REQUEST">
+      <properties:properties>
+        <properties:property name="redefines" type="string">CA_REQUEST_SPECIFIC</properties:property>
+        <properties:property name="displayLength" type="number">32482</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">32482</properties:property>
+      </properties:properties>
+      <listructure:string id="DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_FIRST_NAME" length="10" name="CA_FIRST_NAME">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(10)</properties:property>
+          <properties:property name="displayLength" type="number">10</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(10)</properties:property>
+          <properties:property name="storageLength" type="number">10</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_LAST_NAME" length="20" name="CA_LAST_NAME">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(20)</properties:property>
+          <properties:property name="displayLength" type="number">20</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(20)</properties:property>
+          <properties:property name="storageLength" type="number">20</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_DOB" length="10" name="CA_DOB">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(10)</properties:property>
+          <properties:property name="displayLength" type="number">10</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(10)</properties:property>
+          <properties:property name="storageLength" type="number">10</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_HOUSE_NAME" length="20" name="CA_HOUSE_NAME">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(20)</properties:property>
+          <properties:property name="displayLength" type="number">20</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(20)</properties:property>
+          <properties:property name="storageLength" type="number">20</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_HOUSE_NUM" length="4" name="CA_HOUSE_NUM">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(4)</properties:property>
+          <properties:property name="displayLength" type="number">4</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(4)</properties:property>
+          <properties:property name="storageLength" type="number">4</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_POSTCODE" length="8" name="CA_POSTCODE">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(8)</properties:property>
+          <properties:property name="displayLength" type="number">8</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(8)</properties:property>
+          <properties:property name="storageLength" type="number">8</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:number id="DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_NUM_POLICIES" length="3" name="CA_NUM_POLICIES">
+        <properties:properties>
+          <properties:property name="picture" type="string">9(3)</properties:property>
+          <properties:property name="displayLength" type="number">3</properties:property>
+          <properties:property name="integerDigits" type="number">3</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">zoned</properties:property>
+          <properties:property name="mask" type="string">9(3)</properties:property>
+          <properties:property name="storageLength" type="number">3</properties:property>
+        </properties:properties>
+      </listructure:number>
+      <listructure:string id="DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_PHONE_MOBILE" length="20" name="CA_PHONE_MOBILE">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(20)</properties:property>
+          <properties:property name="displayLength" type="number">20</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(20)</properties:property>
+          <properties:property name="storageLength" type="number">20</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_PHONE_HOME" length="20" name="CA_PHONE_HOME">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(20)</properties:property>
+          <properties:property name="displayLength" type="number">20</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(20)</properties:property>
+          <properties:property name="storageLength" type="number">20</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_EMAIL_ADDRESS" length="100" name="CA_EMAIL_ADDRESS">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(100)</properties:property>
+          <properties:property name="displayLength" type="number">100</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(100)</properties:property>
+          <properties:property name="storageLength" type="number">100</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_NATIONAL_ID_NBR" length="20" name="CA_NATIONAL_ID_NBR">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(20)</properties:property>
+          <properties:property name="displayLength" type="number">20</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(20)</properties:property>
+          <properties:property name="storageLength" type="number">20</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_NIN_TYPE" length="2" name="CA_NIN_TYPE">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(2)</properties:property>
+          <properties:property name="displayLength" type="number">2</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(2)</properties:property>
+          <properties:property name="storageLength" type="number">2</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_STREET_ADDRESS" length="30" name="CA_STREET_ADDRESS">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(30)</properties:property>
+          <properties:property name="displayLength" type="number">30</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(30)</properties:property>
+          <properties:property name="storageLength" type="number">30</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_CITY" length="20" name="CA_CITY">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(20)</properties:property>
+          <properties:property name="displayLength" type="number">20</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(20)</properties:property>
+          <properties:property name="storageLength" type="number">20</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_STATE" length="2" name="CA_STATE">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(2)</properties:property>
+          <properties:property name="displayLength" type="number">2</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(2)</properties:property>
+          <properties:property name="storageLength" type="number">2</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_COUNTRY_CODE" length="3" name="CA_COUNTRY_CODE">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(3)</properties:property>
+          <properties:property name="displayLength" type="number">3</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(3)</properties:property>
+          <properties:property name="storageLength" type="number">3</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_SALES_TERRITORY" length="5" name="CA_SALES_TERRITORY">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(5)</properties:property>
+          <properties:property name="displayLength" type="number">5</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(5)</properties:property>
+          <properties:property name="storageLength" type="number">5</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_CUSTOMER_PFKEY" length="2" name="CA_CUSTOMER_PFKEY">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(2)</properties:property>
+          <properties:property name="displayLength" type="number">2</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(2)</properties:property>
+          <properties:property name="storageLength" type="number">2</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:number id="DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_CUSTOMER_BEGIN" length="10" name="CA_CUSTOMER_BEGIN">
+        <properties:properties>
+          <properties:property name="picture" type="string">9(10)</properties:property>
+          <properties:property name="displayLength" type="number">10</properties:property>
+          <properties:property name="integerDigits" type="number">10</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">zoned</properties:property>
+          <properties:property name="mask" type="string">9(10)</properties:property>
+          <properties:property name="storageLength" type="number">10</properties:property>
+        </properties:properties>
+      </listructure:number>
+      <listructure:number id="DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_CUSTOMER_END" length="10" name="CA_CUSTOMER_END">
+        <properties:properties>
+          <properties:property name="picture" type="string">9(10)</properties:property>
+          <properties:property name="displayLength" type="number">10</properties:property>
+          <properties:property name="integerDigits" type="number">10</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">zoned</properties:property>
+          <properties:property name="mask" type="string">9(10)</properties:property>
+          <properties:property name="storageLength" type="number">10</properties:property>
+        </properties:properties>
+      </listructure:number>
+      <listructure:string id="DFHCOMMAREA.CA_CUSTOMER_REQUEST.CA_POLICY_DATA" length="32163" name="CA_POLICY_DATA">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(32163)</properties:property>
+          <properties:property name="displayLength" type="number">32163</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(32163)</properties:property>
+          <properties:property name="storageLength" type="number">32163</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+    <listructure:struct id="DFHCOMMAREA.CA_CUSTSECR_REQUEST" name="CA_CUSTSECR_REQUEST">
+      <properties:properties>
+        <properties:property name="redefines" type="string">CA_REQUEST_SPECIFIC</properties:property>
+        <properties:property name="displayLength" type="number">32482</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">32482</properties:property>
+      </properties:properties>
+      <listructure:string id="DFHCOMMAREA.CA_CUSTSECR_REQUEST.CA_CUSTSECR_PASS" length="32" name="CA_CUSTSECR_PASS">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(32)</properties:property>
+          <properties:property name="displayLength" type="number">32</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(32)</properties:property>
+          <properties:property name="storageLength" type="number">32</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="DFHCOMMAREA.CA_CUSTSECR_REQUEST.CA_CUSTSECR_COUNT" length="4" name="CA_CUSTSECR_COUNT">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(4)</properties:property>
+          <properties:property name="displayLength" type="number">4</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(4)</properties:property>
+          <properties:property name="storageLength" type="number">4</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="DFHCOMMAREA.CA_CUSTSECR_REQUEST.CA_CUSTSECR_STATE" length="1" name="CA_CUSTSECR_STATE">
+        <properties:properties>
+          <properties:property name="picture" type="string">X</properties:property>
+          <properties:property name="displayLength" type="number">1</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X</properties:property>
+          <properties:property name="storageLength" type="number">1</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="DFHCOMMAREA.CA_CUSTSECR_REQUEST.CA_CUSTSECR_DATA" length="32445" name="CA_CUSTSECR_DATA">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(32445)</properties:property>
+          <properties:property name="displayLength" type="number">32445</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(32445)</properties:property>
+          <properties:property name="storageLength" type="number">32445</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+    <listructure:struct id="DFHCOMMAREA.CA_POLICY_REQUEST" name="CA_POLICY_REQUEST">
+      <properties:properties>
+        <properties:property name="redefines" type="string">CA_REQUEST_SPECIFIC</properties:property>
+        <properties:property name="displayLength" type="number">32504</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">32504</properties:property>
+      </properties:properties>
+      <listructure:number id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_POLICY_NUM" length="10" name="CA_POLICY_NUM">
+        <properties:properties>
+          <properties:property name="picture" type="string">9(10)</properties:property>
+          <properties:property name="displayLength" type="number">10</properties:property>
+          <properties:property name="integerDigits" type="number">10</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">zoned</properties:property>
+          <properties:property name="mask" type="string">9(10)</properties:property>
+          <properties:property name="storageLength" type="number">10</properties:property>
+        </properties:properties>
+      </listructure:number>
+      <listructure:struct id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_POLICY_COMMON" name="CA_POLICY_COMMON">
+        <properties:properties>
+          <properties:property name="displayLength" type="number">72</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="storageLength" type="number">72</properties:property>
+        </properties:properties>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_POLICY_COMMON.CA_ISSUE_DATE" length="10" name="CA_ISSUE_DATE">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(10)</properties:property>
+            <properties:property name="displayLength" type="number">10</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(10)</properties:property>
+            <properties:property name="storageLength" type="number">10</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_POLICY_COMMON.CA_EXPIRY_DATE" length="10" name="CA_EXPIRY_DATE">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(10)</properties:property>
+            <properties:property name="displayLength" type="number">10</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(10)</properties:property>
+            <properties:property name="storageLength" type="number">10</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_POLICY_COMMON.CA_LASTCHANGED" length="26" name="CA_LASTCHANGED">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(26)</properties:property>
+            <properties:property name="displayLength" type="number">26</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(26)</properties:property>
+            <properties:property name="storageLength" type="number">26</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:number id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_POLICY_COMMON.CA_BROKERID" length="10" name="CA_BROKERID">
+          <properties:properties>
+            <properties:property name="picture" type="string">9(10)</properties:property>
+            <properties:property name="displayLength" type="number">10</properties:property>
+            <properties:property name="integerDigits" type="number">10</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">zoned</properties:property>
+            <properties:property name="mask" type="string">9(10)</properties:property>
+            <properties:property name="storageLength" type="number">10</properties:property>
+          </properties:properties>
+        </listructure:number>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_POLICY_COMMON.CA_BROKERSREF" length="10" name="CA_BROKERSREF">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(10)</properties:property>
+            <properties:property name="displayLength" type="number">10</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(10)</properties:property>
+            <properties:property name="storageLength" type="number">10</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:number id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_POLICY_COMMON.CA_PAYMENT" length="6" name="CA_PAYMENT">
+          <properties:properties>
+            <properties:property name="picture" type="string">9(6)</properties:property>
+            <properties:property name="displayLength" type="number">6</properties:property>
+            <properties:property name="integerDigits" type="number">6</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">zoned</properties:property>
+            <properties:property name="mask" type="string">9(6)</properties:property>
+            <properties:property name="storageLength" type="number">6</properties:property>
+          </properties:properties>
+        </listructure:number>
+      </listructure:struct>
+      <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_POLICY_PFKEY" length="2" name="CA_POLICY_PFKEY">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(2)</properties:property>
+          <properties:property name="displayLength" type="number">2</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(2)</properties:property>
+          <properties:property name="storageLength" type="number">2</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:number id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_POLICY_BEGIN" length="10" name="CA_POLICY_BEGIN">
+        <properties:properties>
+          <properties:property name="picture" type="string">9(10)</properties:property>
+          <properties:property name="displayLength" type="number">10</properties:property>
+          <properties:property name="integerDigits" type="number">10</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">zoned</properties:property>
+          <properties:property name="mask" type="string">9(10)</properties:property>
+          <properties:property name="storageLength" type="number">10</properties:property>
+        </properties:properties>
+      </listructure:number>
+      <listructure:number id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_POLICY_END" length="10" name="CA_POLICY_END">
+        <properties:properties>
+          <properties:property name="picture" type="string">9(10)</properties:property>
+          <properties:property name="displayLength" type="number">10</properties:property>
+          <properties:property name="integerDigits" type="number">10</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">zoned</properties:property>
+          <properties:property name="mask" type="string">9(10)</properties:property>
+          <properties:property name="storageLength" type="number">10</properties:property>
+        </properties:properties>
+      </listructure:number>
+      <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_POLICY_SPECIFIC" length="32378" name="CA_POLICY_SPECIFIC">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(32378)</properties:property>
+          <properties:property name="redefined" type="boolean">true</properties:property>
+          <properties:property name="displayLength" type="number">32378</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(32378)</properties:property>
+          <properties:property name="storageLength" type="number">32378</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:struct id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_ENDOWMENT" name="CA_ENDOWMENT">
+        <properties:properties>
+          <properties:property name="redefines" type="string">CA_POLICY_SPECIFIC</properties:property>
+          <properties:property name="displayLength" type="number">32400</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="storageLength" type="number">32400</properties:property>
+        </properties:properties>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_WITH_PROFITS" length="1" name="CA_E_WITH_PROFITS">
+          <properties:properties>
+            <properties:property name="picture" type="string">X</properties:property>
+            <properties:property name="displayLength" type="number">1</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X</properties:property>
+            <properties:property name="storageLength" type="number">1</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_EQUITIES" length="1" name="CA_E_EQUITIES">
+          <properties:properties>
+            <properties:property name="picture" type="string">X</properties:property>
+            <properties:property name="displayLength" type="number">1</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X</properties:property>
+            <properties:property name="storageLength" type="number">1</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_MANAGED_FUND" length="1" name="CA_E_MANAGED_FUND">
+          <properties:properties>
+            <properties:property name="picture" type="string">X</properties:property>
+            <properties:property name="displayLength" type="number">1</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X</properties:property>
+            <properties:property name="storageLength" type="number">1</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_FUND_NAME" length="10" name="CA_E_FUND_NAME">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(10)</properties:property>
+            <properties:property name="displayLength" type="number">10</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(10)</properties:property>
+            <properties:property name="storageLength" type="number">10</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:number id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_TERM" length="2" name="CA_E_TERM">
+          <properties:properties>
+            <properties:property name="picture" type="string">99</properties:property>
+            <properties:property name="displayLength" type="number">2</properties:property>
+            <properties:property name="integerDigits" type="number">2</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">zoned</properties:property>
+            <properties:property name="mask" type="string">99</properties:property>
+            <properties:property name="storageLength" type="number">2</properties:property>
+          </properties:properties>
+        </listructure:number>
+        <listructure:number id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_SUM_ASSURED" length="6" name="CA_E_SUM_ASSURED">
+          <properties:properties>
+            <properties:property name="picture" type="string">9(6)</properties:property>
+            <properties:property name="displayLength" type="number">6</properties:property>
+            <properties:property name="integerDigits" type="number">6</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">zoned</properties:property>
+            <properties:property name="mask" type="string">9(6)</properties:property>
+            <properties:property name="storageLength" type="number">6</properties:property>
+          </properties:properties>
+        </listructure:number>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_LIFE_ASSURED" length="31" name="CA_E_LIFE_ASSURED">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(31)</properties:property>
+            <properties:property name="displayLength" type="number">31</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(31)</properties:property>
+            <properties:property name="storageLength" type="number">31</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_AUTO_PAY" length="1" name="CA_E_AUTO_PAY">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(1)</properties:property>
+            <properties:property name="displayLength" type="number">1</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(1)</properties:property>
+            <properties:property name="storageLength" type="number">1</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_CHECK_ACCT_NBR" length="12" name="CA_E_CHECK_ACCT_NBR">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(12)</properties:property>
+            <properties:property name="displayLength" type="number">12</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(12)</properties:property>
+            <properties:property name="storageLength" type="number">12</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_BANK_ROUTE_CODE" length="9" name="CA_E_BANK_ROUTE_CODE">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(9)</properties:property>
+            <properties:property name="displayLength" type="number">9</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(9)</properties:property>
+            <properties:property name="storageLength" type="number">9</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_CREDIT_CARD_TYP" length="8" name="CA_E_CREDIT_CARD_TYP">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(8)</properties:property>
+            <properties:property name="displayLength" type="number">8</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(8)</properties:property>
+            <properties:property name="storageLength" type="number">8</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_CREDIT_CARD_NBR" length="16" name="CA_E_CREDIT_CARD_NBR">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(16)</properties:property>
+            <properties:property name="displayLength" type="number">16</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(16)</properties:property>
+            <properties:property name="storageLength" type="number">16</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_CREDIT_CARD_PIN" length="4" name="CA_E_CREDIT_CARD_PIN">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(4)</properties:property>
+            <properties:property name="displayLength" type="number">4</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(4)</properties:property>
+            <properties:property name="storageLength" type="number">4</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_CREDIT_CARD_VAL" length="5" name="CA_E_CREDIT_CARD_VAL">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(5)</properties:property>
+            <properties:property name="displayLength" type="number">5</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(5)</properties:property>
+            <properties:property name="storageLength" type="number">5</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_ENDOWMENT.CA_E_PADDING_DATA" length="32293" name="CA_E_PADDING_DATA">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(32293)</properties:property>
+            <properties:property name="displayLength" type="number">32293</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(32293)</properties:property>
+            <properties:property name="storageLength" type="number">32293</properties:property>
+          </properties:properties>
+        </listructure:string>
+      </listructure:struct>
+      <listructure:struct id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE" name="CA_HOUSE">
+        <properties:properties>
+          <properties:property name="redefines" type="string">CA_POLICY_SPECIFIC</properties:property>
+          <properties:property name="displayLength" type="number">32400</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="storageLength" type="number">32400</properties:property>
+        </properties:properties>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_PROPERTY_TYPE" length="15" name="CA_H_PROPERTY_TYPE">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(15)</properties:property>
+            <properties:property name="displayLength" type="number">15</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(15)</properties:property>
+            <properties:property name="storageLength" type="number">15</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:number id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_BEDROOMS" length="3" name="CA_H_BEDROOMS">
+          <properties:properties>
+            <properties:property name="picture" type="string">9(3)</properties:property>
+            <properties:property name="displayLength" type="number">3</properties:property>
+            <properties:property name="integerDigits" type="number">3</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">zoned</properties:property>
+            <properties:property name="mask" type="string">9(3)</properties:property>
+            <properties:property name="storageLength" type="number">3</properties:property>
+          </properties:properties>
+        </listructure:number>
+        <listructure:number id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_VALUE" length="8" name="CA_H_VALUE">
+          <properties:properties>
+            <properties:property name="picture" type="string">9(8)</properties:property>
+            <properties:property name="displayLength" type="number">8</properties:property>
+            <properties:property name="integerDigits" type="number">8</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">zoned</properties:property>
+            <properties:property name="mask" type="string">9(8)</properties:property>
+            <properties:property name="storageLength" type="number">8</properties:property>
+          </properties:properties>
+        </listructure:number>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_HOUSE_NAME" length="20" name="CA_H_HOUSE_NAME">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(20)</properties:property>
+            <properties:property name="displayLength" type="number">20</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(20)</properties:property>
+            <properties:property name="storageLength" type="number">20</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_HOUSE_NUMBER" length="4" name="CA_H_HOUSE_NUMBER">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(4)</properties:property>
+            <properties:property name="displayLength" type="number">4</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(4)</properties:property>
+            <properties:property name="storageLength" type="number">4</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_POSTCODE" length="8" name="CA_H_POSTCODE">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(8)</properties:property>
+            <properties:property name="displayLength" type="number">8</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(8)</properties:property>
+            <properties:property name="storageLength" type="number">8</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_STREET_ADDRESS" length="30" name="CA_H_STREET_ADDRESS">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(30)</properties:property>
+            <properties:property name="displayLength" type="number">30</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(30)</properties:property>
+            <properties:property name="storageLength" type="number">30</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_CITY" length="20" name="CA_H_CITY">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(20)</properties:property>
+            <properties:property name="displayLength" type="number">20</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(20)</properties:property>
+            <properties:property name="storageLength" type="number">20</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_STATE" length="2" name="CA_H_STATE">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(2)</properties:property>
+            <properties:property name="displayLength" type="number">2</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(2)</properties:property>
+            <properties:property name="storageLength" type="number">2</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_COUNTRY_CODE" length="3" name="CA_H_COUNTRY_CODE">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(3)</properties:property>
+            <properties:property name="displayLength" type="number">3</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(3)</properties:property>
+            <properties:property name="storageLength" type="number">3</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_AUTO_PAY" length="1" name="CA_H_AUTO_PAY">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(1)</properties:property>
+            <properties:property name="displayLength" type="number">1</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(1)</properties:property>
+            <properties:property name="storageLength" type="number">1</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_CHECK_ACCT_NBR" length="12" name="CA_H_CHECK_ACCT_NBR">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(12)</properties:property>
+            <properties:property name="displayLength" type="number">12</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(12)</properties:property>
+            <properties:property name="storageLength" type="number">12</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_BANK_ROUTE_CODE" length="9" name="CA_H_BANK_ROUTE_CODE">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(9)</properties:property>
+            <properties:property name="displayLength" type="number">9</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(9)</properties:property>
+            <properties:property name="storageLength" type="number">9</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_CREDIT_CARD_TYP" length="8" name="CA_H_CREDIT_CARD_TYP">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(8)</properties:property>
+            <properties:property name="displayLength" type="number">8</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(8)</properties:property>
+            <properties:property name="storageLength" type="number">8</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_CREDIT_CARD_NBR" length="16" name="CA_H_CREDIT_CARD_NBR">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(16)</properties:property>
+            <properties:property name="displayLength" type="number">16</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(16)</properties:property>
+            <properties:property name="storageLength" type="number">16</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_CREDIT_CARD_PIN" length="4" name="CA_H_CREDIT_CARD_PIN">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(4)</properties:property>
+            <properties:property name="displayLength" type="number">4</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(4)</properties:property>
+            <properties:property name="storageLength" type="number">4</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_CREDIT_CARD_VAL" length="5" name="CA_H_CREDIT_CARD_VAL">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(5)</properties:property>
+            <properties:property name="displayLength" type="number">5</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(5)</properties:property>
+            <properties:property name="storageLength" type="number">5</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_HOUSE.CA_H_FILLER" length="32232" name="CA_H_FILLER">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(32232)</properties:property>
+            <properties:property name="displayLength" type="number">32232</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(32232)</properties:property>
+            <properties:property name="storageLength" type="number">32232</properties:property>
+          </properties:properties>
+        </listructure:string>
+      </listructure:struct>
+      <listructure:struct id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR" name="CA_MOTOR">
+        <properties:properties>
+          <properties:property name="redefines" type="string">CA_POLICY_SPECIFIC</properties:property>
+          <properties:property name="displayLength" type="number">32400</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="storageLength" type="number">32400</properties:property>
+        </properties:properties>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_MAKE" length="15" name="CA_M_MAKE">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(15)</properties:property>
+            <properties:property name="displayLength" type="number">15</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(15)</properties:property>
+            <properties:property name="storageLength" type="number">15</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_MODEL" length="15" name="CA_M_MODEL">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(15)</properties:property>
+            <properties:property name="displayLength" type="number">15</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(15)</properties:property>
+            <properties:property name="storageLength" type="number">15</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:number id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_VALUE" length="6" name="CA_M_VALUE">
+          <properties:properties>
+            <properties:property name="picture" type="string">9(6)</properties:property>
+            <properties:property name="displayLength" type="number">6</properties:property>
+            <properties:property name="integerDigits" type="number">6</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">zoned</properties:property>
+            <properties:property name="mask" type="string">9(6)</properties:property>
+            <properties:property name="storageLength" type="number">6</properties:property>
+          </properties:properties>
+        </listructure:number>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_REGNUMBER" length="7" name="CA_M_REGNUMBER">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(7)</properties:property>
+            <properties:property name="displayLength" type="number">7</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(7)</properties:property>
+            <properties:property name="storageLength" type="number">7</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_COLOUR" length="8" name="CA_M_COLOUR">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(8)</properties:property>
+            <properties:property name="displayLength" type="number">8</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(8)</properties:property>
+            <properties:property name="storageLength" type="number">8</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:number id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_CC" length="4" name="CA_M_CC">
+          <properties:properties>
+            <properties:property name="picture" type="string">9(4)</properties:property>
+            <properties:property name="displayLength" type="number">4</properties:property>
+            <properties:property name="integerDigits" type="number">4</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">zoned</properties:property>
+            <properties:property name="mask" type="string">9(4)</properties:property>
+            <properties:property name="storageLength" type="number">4</properties:property>
+          </properties:properties>
+        </listructure:number>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_MANUFACTURED" length="10" name="CA_M_MANUFACTURED">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(10)</properties:property>
+            <properties:property name="displayLength" type="number">10</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(10)</properties:property>
+            <properties:property name="storageLength" type="number">10</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:number id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_PREMIUM" length="6" name="CA_M_PREMIUM">
+          <properties:properties>
+            <properties:property name="picture" type="string">9(6)</properties:property>
+            <properties:property name="displayLength" type="number">6</properties:property>
+            <properties:property name="integerDigits" type="number">6</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">zoned</properties:property>
+            <properties:property name="mask" type="string">9(6)</properties:property>
+            <properties:property name="storageLength" type="number">6</properties:property>
+          </properties:properties>
+        </listructure:number>
+        <listructure:number id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_ACCIDENTS" length="6" name="CA_M_ACCIDENTS">
+          <properties:properties>
+            <properties:property name="picture" type="string">9(6)</properties:property>
+            <properties:property name="displayLength" type="number">6</properties:property>
+            <properties:property name="integerDigits" type="number">6</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">zoned</properties:property>
+            <properties:property name="mask" type="string">9(6)</properties:property>
+            <properties:property name="storageLength" type="number">6</properties:property>
+          </properties:properties>
+        </listructure:number>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_CAR_YEAR" length="4" name="CA_M_CAR_YEAR">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(4)</properties:property>
+            <properties:property name="displayLength" type="number">4</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(4)</properties:property>
+            <properties:property name="storageLength" type="number">4</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_CAR_VIN" length="20" name="CA_M_CAR_VIN">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(20)</properties:property>
+            <properties:property name="displayLength" type="number">20</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(20)</properties:property>
+            <properties:property name="storageLength" type="number">20</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_AUTO_PAY" length="1" name="CA_M_AUTO_PAY">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(1)</properties:property>
+            <properties:property name="displayLength" type="number">1</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(1)</properties:property>
+            <properties:property name="storageLength" type="number">1</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_CHECK_ACCT_NBR" length="12" name="CA_M_CHECK_ACCT_NBR">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(12)</properties:property>
+            <properties:property name="displayLength" type="number">12</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(12)</properties:property>
+            <properties:property name="storageLength" type="number">12</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_BANK_ROUTE_CODE" length="9" name="CA_M_BANK_ROUTE_CODE">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(9)</properties:property>
+            <properties:property name="displayLength" type="number">9</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(9)</properties:property>
+            <properties:property name="storageLength" type="number">9</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_CREDIT_CARD_TYP" length="8" name="CA_M_CREDIT_CARD_TYP">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(8)</properties:property>
+            <properties:property name="displayLength" type="number">8</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(8)</properties:property>
+            <properties:property name="storageLength" type="number">8</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_CREDIT_CARD_NBR" length="16" name="CA_M_CREDIT_CARD_NBR">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(16)</properties:property>
+            <properties:property name="displayLength" type="number">16</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(16)</properties:property>
+            <properties:property name="storageLength" type="number">16</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_CREDIT_CARD_PIN" length="4" name="CA_M_CREDIT_CARD_PIN">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(4)</properties:property>
+            <properties:property name="displayLength" type="number">4</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(4)</properties:property>
+            <properties:property name="storageLength" type="number">4</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_CREDIT_CARD_VAL" length="5" name="CA_M_CREDIT_CARD_VAL">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(5)</properties:property>
+            <properties:property name="displayLength" type="number">5</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(5)</properties:property>
+            <properties:property name="storageLength" type="number">5</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_MOTOR.CA_M_FILLER" length="32244" name="CA_M_FILLER">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(32244)</properties:property>
+            <properties:property name="displayLength" type="number">32244</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(32244)</properties:property>
+            <properties:property name="storageLength" type="number">32244</properties:property>
+          </properties:properties>
+        </listructure:string>
+      </listructure:struct>
+      <listructure:struct id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL" name="CA_COMMERCIAL">
+        <properties:properties>
+          <properties:property name="redefines" type="string">CA_POLICY_SPECIFIC</properties:property>
+          <properties:property name="displayLength" type="number">32400</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="storageLength" type="number">32400</properties:property>
+        </properties:properties>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_Address" length="255" name="CA_B_Address">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(255)</properties:property>
+            <properties:property name="displayLength" type="number">255</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(255)</properties:property>
+            <properties:property name="storageLength" type="number">255</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_Postcode" length="8" name="CA_B_Postcode">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(8)</properties:property>
+            <properties:property name="displayLength" type="number">8</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(8)</properties:property>
+            <properties:property name="storageLength" type="number">8</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_Latitude" length="11" name="CA_B_Latitude">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(11)</properties:property>
+            <properties:property name="displayLength" type="number">11</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(11)</properties:property>
+            <properties:property name="storageLength" type="number">11</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_Longitude" length="11" name="CA_B_Longitude">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(11)</properties:property>
+            <properties:property name="displayLength" type="number">11</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(11)</properties:property>
+            <properties:property name="storageLength" type="number">11</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_Customer" length="255" name="CA_B_Customer">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(255)</properties:property>
+            <properties:property name="displayLength" type="number">255</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(255)</properties:property>
+            <properties:property name="storageLength" type="number">255</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_PropType" length="255" name="CA_B_PropType">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(255)</properties:property>
+            <properties:property name="displayLength" type="number">255</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(255)</properties:property>
+            <properties:property name="storageLength" type="number">255</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:number id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_FirePeril" length="4" name="CA_B_FirePeril">
+          <properties:properties>
+            <properties:property name="picture" type="string">9(4)</properties:property>
+            <properties:property name="displayLength" type="number">4</properties:property>
+            <properties:property name="integerDigits" type="number">4</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">zoned</properties:property>
+            <properties:property name="mask" type="string">9(4)</properties:property>
+            <properties:property name="storageLength" type="number">4</properties:property>
+          </properties:properties>
+        </listructure:number>
+        <listructure:number id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_FirePremium" length="8" name="CA_B_FirePremium">
+          <properties:properties>
+            <properties:property name="picture" type="string">9(8)</properties:property>
+            <properties:property name="displayLength" type="number">8</properties:property>
+            <properties:property name="integerDigits" type="number">8</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">zoned</properties:property>
+            <properties:property name="mask" type="string">9(8)</properties:property>
+            <properties:property name="storageLength" type="number">8</properties:property>
+          </properties:properties>
+        </listructure:number>
+        <listructure:number id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_CrimePeril" length="4" name="CA_B_CrimePeril">
+          <properties:properties>
+            <properties:property name="picture" type="string">9(4)</properties:property>
+            <properties:property name="displayLength" type="number">4</properties:property>
+            <properties:property name="integerDigits" type="number">4</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">zoned</properties:property>
+            <properties:property name="mask" type="string">9(4)</properties:property>
+            <properties:property name="storageLength" type="number">4</properties:property>
+          </properties:properties>
+        </listructure:number>
+        <listructure:number id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_CrimePremium" length="8" name="CA_B_CrimePremium">
+          <properties:properties>
+            <properties:property name="picture" type="string">9(8)</properties:property>
+            <properties:property name="displayLength" type="number">8</properties:property>
+            <properties:property name="integerDigits" type="number">8</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">zoned</properties:property>
+            <properties:property name="mask" type="string">9(8)</properties:property>
+            <properties:property name="storageLength" type="number">8</properties:property>
+          </properties:properties>
+        </listructure:number>
+        <listructure:number id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_FloodPeril" length="4" name="CA_B_FloodPeril">
+          <properties:properties>
+            <properties:property name="picture" type="string">9(4)</properties:property>
+            <properties:property name="displayLength" type="number">4</properties:property>
+            <properties:property name="integerDigits" type="number">4</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">zoned</properties:property>
+            <properties:property name="mask" type="string">9(4)</properties:property>
+            <properties:property name="storageLength" type="number">4</properties:property>
+          </properties:properties>
+        </listructure:number>
+        <listructure:number id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_FloodPremium" length="8" name="CA_B_FloodPremium">
+          <properties:properties>
+            <properties:property name="picture" type="string">9(8)</properties:property>
+            <properties:property name="displayLength" type="number">8</properties:property>
+            <properties:property name="integerDigits" type="number">8</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">zoned</properties:property>
+            <properties:property name="mask" type="string">9(8)</properties:property>
+            <properties:property name="storageLength" type="number">8</properties:property>
+          </properties:properties>
+        </listructure:number>
+        <listructure:number id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_WeatherPeril" length="4" name="CA_B_WeatherPeril">
+          <properties:properties>
+            <properties:property name="picture" type="string">9(4)</properties:property>
+            <properties:property name="displayLength" type="number">4</properties:property>
+            <properties:property name="integerDigits" type="number">4</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">zoned</properties:property>
+            <properties:property name="mask" type="string">9(4)</properties:property>
+            <properties:property name="storageLength" type="number">4</properties:property>
+          </properties:properties>
+        </listructure:number>
+        <listructure:number id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_WeatherPremium" length="8" name="CA_B_WeatherPremium">
+          <properties:properties>
+            <properties:property name="picture" type="string">9(8)</properties:property>
+            <properties:property name="displayLength" type="number">8</properties:property>
+            <properties:property name="integerDigits" type="number">8</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">zoned</properties:property>
+            <properties:property name="mask" type="string">9(8)</properties:property>
+            <properties:property name="storageLength" type="number">8</properties:property>
+          </properties:properties>
+        </listructure:number>
+        <listructure:number id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_Status" length="4" name="CA_B_Status">
+          <properties:properties>
+            <properties:property name="picture" type="string">9(4)</properties:property>
+            <properties:property name="displayLength" type="number">4</properties:property>
+            <properties:property name="integerDigits" type="number">4</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">zoned</properties:property>
+            <properties:property name="mask" type="string">9(4)</properties:property>
+            <properties:property name="storageLength" type="number">4</properties:property>
+          </properties:properties>
+        </listructure:number>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_RejectReason" length="255" name="CA_B_RejectReason">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(255)</properties:property>
+            <properties:property name="displayLength" type="number">255</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(255)</properties:property>
+            <properties:property name="storageLength" type="number">255</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_STREET_ADDRESS" length="30" name="CA_B_STREET_ADDRESS">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(30)</properties:property>
+            <properties:property name="displayLength" type="number">30</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(30)</properties:property>
+            <properties:property name="storageLength" type="number">30</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_CITY" length="20" name="CA_B_CITY">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(20)</properties:property>
+            <properties:property name="displayLength" type="number">20</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(20)</properties:property>
+            <properties:property name="storageLength" type="number">20</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_STATE" length="2" name="CA_B_STATE">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(2)</properties:property>
+            <properties:property name="displayLength" type="number">2</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(2)</properties:property>
+            <properties:property name="storageLength" type="number">2</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_COUNTRY_CODE" length="3" name="CA_B_COUNTRY_CODE">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(3)</properties:property>
+            <properties:property name="displayLength" type="number">3</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(3)</properties:property>
+            <properties:property name="storageLength" type="number">3</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_AUTO_PAY" length="1" name="CA_B_AUTO_PAY">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(1)</properties:property>
+            <properties:property name="displayLength" type="number">1</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(1)</properties:property>
+            <properties:property name="storageLength" type="number">1</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_CHECK_ACCT_NBR" length="12" name="CA_B_CHECK_ACCT_NBR">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(12)</properties:property>
+            <properties:property name="displayLength" type="number">12</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(12)</properties:property>
+            <properties:property name="storageLength" type="number">12</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_BANK_ROUTE_CODE" length="9" name="CA_B_BANK_ROUTE_CODE">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(9)</properties:property>
+            <properties:property name="displayLength" type="number">9</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(9)</properties:property>
+            <properties:property name="storageLength" type="number">9</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_CREDIT_CARD_TYP" length="8" name="CA_B_CREDIT_CARD_TYP">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(8)</properties:property>
+            <properties:property name="displayLength" type="number">8</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(8)</properties:property>
+            <properties:property name="storageLength" type="number">8</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_CREDIT_CARD_NBR" length="16" name="CA_B_CREDIT_CARD_NBR">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(16)</properties:property>
+            <properties:property name="displayLength" type="number">16</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(16)</properties:property>
+            <properties:property name="storageLength" type="number">16</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_CREDIT_CARD_PIN" length="4" name="CA_B_CREDIT_CARD_PIN">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(4)</properties:property>
+            <properties:property name="displayLength" type="number">4</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(4)</properties:property>
+            <properties:property name="storageLength" type="number">4</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_CREDIT_CARD_VAL" length="5" name="CA_B_CREDIT_CARD_VAL">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(5)</properties:property>
+            <properties:property name="displayLength" type="number">5</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(5)</properties:property>
+            <properties:property name="storageLength" type="number">5</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_COMMERCIAL.CA_B_FILLER" length="31188" name="CA_B_FILLER">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(31188)</properties:property>
+            <properties:property name="displayLength" type="number">31188</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(31188)</properties:property>
+            <properties:property name="storageLength" type="number">31188</properties:property>
+          </properties:properties>
+        </listructure:string>
+      </listructure:struct>
+      <listructure:struct id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_CLAIM" name="CA_CLAIM">
+        <properties:properties>
+          <properties:property name="redefines" type="string">CA_POLICY_SPECIFIC</properties:property>
+          <properties:property name="displayLength" type="number">32400</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="storageLength" type="number">32400</properties:property>
+        </properties:properties>
+        <listructure:number id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_Num" length="10" name="CA_C_Num">
+          <properties:properties>
+            <properties:property name="picture" type="string">9(10)</properties:property>
+            <properties:property name="displayLength" type="number">10</properties:property>
+            <properties:property name="integerDigits" type="number">10</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">zoned</properties:property>
+            <properties:property name="mask" type="string">9(10)</properties:property>
+            <properties:property name="storageLength" type="number">10</properties:property>
+          </properties:properties>
+        </listructure:number>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_Date" length="10" name="CA_C_Date">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(10)</properties:property>
+            <properties:property name="displayLength" type="number">10</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(10)</properties:property>
+            <properties:property name="storageLength" type="number">10</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:number id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_Paid" length="8" name="CA_C_Paid">
+          <properties:properties>
+            <properties:property name="picture" type="string">9(8)</properties:property>
+            <properties:property name="displayLength" type="number">8</properties:property>
+            <properties:property name="integerDigits" type="number">8</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">zoned</properties:property>
+            <properties:property name="mask" type="string">9(8)</properties:property>
+            <properties:property name="storageLength" type="number">8</properties:property>
+          </properties:properties>
+        </listructure:number>
+        <listructure:number id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_Value" length="8" name="CA_C_Value">
+          <properties:properties>
+            <properties:property name="picture" type="string">9(8)</properties:property>
+            <properties:property name="displayLength" type="number">8</properties:property>
+            <properties:property name="integerDigits" type="number">8</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">zoned</properties:property>
+            <properties:property name="mask" type="string">9(8)</properties:property>
+            <properties:property name="storageLength" type="number">8</properties:property>
+          </properties:properties>
+        </listructure:number>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_Cause" length="255" name="CA_C_Cause">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(255)</properties:property>
+            <properties:property name="displayLength" type="number">255</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(255)</properties:property>
+            <properties:property name="storageLength" type="number">255</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_Observations" length="255" name="CA_C_Observations">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(255)</properties:property>
+            <properties:property name="displayLength" type="number">255</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(255)</properties:property>
+            <properties:property name="storageLength" type="number">255</properties:property>
+          </properties:properties>
+        </listructure:string>
+        <listructure:string id="DFHCOMMAREA.CA_POLICY_REQUEST.CA_CLAIM.CA_C_FILLER" length="31854" name="CA_C_FILLER">
+          <properties:properties>
+            <properties:property name="picture" type="string">X(31854)</properties:property>
+            <properties:property name="displayLength" type="number">31854</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="liType" type="string">char</properties:property>
+            <properties:property name="mask" type="string">X(31854)</properties:property>
+            <properties:property name="storageLength" type="number">31854</properties:property>
+          </properties:properties>
+        </listructure:string>
+      </listructure:struct>
+    </listructure:struct>
+  </listructure:struct>
+</listructure:listructure>

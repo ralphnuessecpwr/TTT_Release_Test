@@ -1,0 +1,24 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="CWKTVSKS/Stubs/CWKTVSKS_DATETIME_01.stub" nextCalltoken="220002" stubtype="DATETIME" target="" token="220000">
+  <stub:description>Created: Jul 3, 2020 3:13:04 PM</stub:description>
+  <stub:stubdata callToken="220001" dateTimeType="1" id="0" name="ACCEPT DATE">
+    <stub:interface>../Interfaces/CWKTVSKS_TODAYS_DATE.interface#CWKTVSKS/Interfaces/CWKTVSKS_TODAYS_DATE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWKTVSKS_TODAYS-DATE.listructure#CWKTVSKS/Structures/CWKTVSKS_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_TODAYS-DATE.listructure#TODAYS_DATE" id="arg0.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F0F0F7F0F3</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:dateTimeServiceList>
+      <stub:dateTimeService>
+        <stub:serviceName>IGZXLOCT</stub:serviceName>
+        <stub:serviceArg>00027082</stub:serviceArg>
+        <stub:serviceArg>4933753E4A020000</stub:serviceArg>
+        <stub:serviceArg>F2F0F2F0F0F7F0F3F0F9F1F3F0F4F1F2F5</stub:serviceArg>
+        <stub:serviceArg xsi:nil="true"/>
+      </stub:dateTimeService>
+    </stub:dateTimeServiceList>
+  </stub:stubdata>
+</stub:stub>

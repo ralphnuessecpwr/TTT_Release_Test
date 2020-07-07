@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200629-0403_106?>
+<!--Topaz for Total Test 20.3.1.v20200629-0403_106 Jul 7, 2020 12:49:42 PM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="LGICDB01/Structures/Db2/LGICDB01/LGICDB01_Select_CA-NATIONAL-ID-NBR.listructure">
+  <listructure:struct id="CA_NATIONAL_ID_NBR" name="CA_NATIONAL_ID_NBR">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">20</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">20</properties:property>
+    </properties:properties>
+    <listructure:string id="CA_NATIONAL_ID_NBR.CA_NATIONAL_ID_NBR" length="20" name="CA_NATIONAL_ID_NBR">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(20)</properties:property>
+        <properties:property name="displayLength" type="number">20</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(20)</properties:property>
+        <properties:property name="storageLength" type="number">20</properties:property>
+        <properties:property name="sqltype" type="number">452</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>

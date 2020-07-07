@@ -1,0 +1,37 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" fileStatus="00" id="RXNMNSAL/Stubs/RXNMNSAL_RXNFSAL_FILE_01.stub" stubtype="QSAM" target="RXNFSAL" token="1060000">
+  <stub:description>Created: Jul 7, 2020 10:22:48 AM</stub:description>
+  <stub:stubdata id="0" name="RXNFSAL">
+    <stub:inputinterface>../Interfaces/RXNMNSAL_RXNFSAL_SALES_RECORD_IN.interface#RXNMNSAL/Interfaces/RXNMNSAL_RXNFSAL_SALES_RECORD_IN.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/RXNMNSAL_RXNFSAL_SALES-RECORD-IN.listructure#RXNMNSAL/Structures/RXNMNSAL_RXNFSAL_SALES-RECORD-IN.listructure">
+      <stub:data baseType="listructure:structType ../Structures/RXNMNSAL_RXNFSAL_SALES-RECORD-IN.listructure#SALES_RECORD_IN" id="arg0.SALES_RECORD_IN">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F0F0F1F4C6D5C1D4C5C1C140D3D5C1D4C5C140F140E2C5E2C1D4C540E2E3D9C5C5E3C4C5E3D9D6C9E340D4C9F1F1F1F1F1F1F1F1F10001801F4040F9F7F1F2F1F9F0F2F1F3F64040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="1" name="RXNFSAL">
+    <stub:inputinterface>../Interfaces/RXNMNSAL_RXNFSAL_SALES_RECORD_IN.interface#RXNMNSAL/Interfaces/RXNMNSAL_RXNFSAL_SALES_RECORD_IN.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/RXNMNSAL_RXNFSAL_SALES-RECORD-IN.listructure#RXNMNSAL/Structures/RXNMNSAL_RXNFSAL_SALES-RECORD-IN.listructure">
+      <stub:data baseType="listructure:structType ../Structures/RXNMNSAL_RXNFSAL_SALES-RECORD-IN.listructure#SALES_RECORD_IN" id="arg0.SALES_RECORD_IN">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F0F0F2F4C6D5C1D4C5C1C240D3D5C1D4C5C140F140E2C5E2C1D4C540E2E3D9C5C5E3C4C5E3D9D6C9E340D4C9F1F1F1F1F1F1F1F1F10001801F4040F9F7F1F2F1F9F0F2F1F3F64040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="2" name="RXNFSAL">
+    <stub:inputinterface>../Interfaces/RXNMNSAL_RXNFSAL_SALES_RECORD_IN.interface#RXNMNSAL/Interfaces/RXNMNSAL_RXNFSAL_SALES_RECORD_IN.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/RXNMNSAL_RXNFSAL_SALES-RECORD-IN.listructure#RXNMNSAL/Structures/RXNMNSAL_RXNFSAL_SALES-RECORD-IN.listructure">
+      <stub:data baseType="listructure:structType ../Structures/RXNMNSAL_RXNFSAL_SALES-RECORD-IN.listructure#SALES_RECORD_IN" id="arg0.SALES_RECORD_IN">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F0F1F1F1C6D5C1D4C5C1D240D3D5C1D4C5D240F140E2C5E2C1D4C540E2E3D9C5C5E3C4C5E3D9D6C9E340D4C9F1F1F1F1F1F1F1F1F10003000F4040F9F2F0F3F0F9F0F0F8F8F74040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+</stub:stub>

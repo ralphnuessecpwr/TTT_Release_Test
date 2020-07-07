@@ -1,0 +1,15 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" fileStatus="00" id="TRISPM/Stubs/TRISPM_INFILE_FILE_01.stub" stubtype="QSAM" target="INFILE" token="1100000">
+  <stub:description>Created: Jul 7, 2020 10:28:31 AM</stub:description>
+  <stub:stubdata id="0" name="INFILE">
+    <stub:inputinterface>../Interfaces/TRISPM_INFILE_WORK_REC.interface#TRISPM/Interfaces/TRISPM_INFILE_WORK_REC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/TRISPM_INFILE_WORK-REC.listructure#TRISPM/Structures/TRISPM_INFILE_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRISPM_INFILE_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F4F54040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+</stub:stub>

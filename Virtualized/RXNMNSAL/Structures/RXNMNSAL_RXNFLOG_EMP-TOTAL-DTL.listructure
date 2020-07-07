@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200629-0403_106?>
+<!--Topaz for Total Test 20.3.1.v20200629-0403_106 Jul 7, 2020 10:22:48 AM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="RXNMNSAL/Structures/RXNMNSAL_RXNFLOG_EMP-TOTAL-DTL.listructure">
+  <listructure:struct id="EMP_TOTAL_DTL" name="EMP_TOTAL_DTL">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">80</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">80</properties:property>
+    </properties:properties>
+    <listructure:string id="EMP_TOTAL_DTL.FILLER0" initial="    " length="4" name="FILLER0">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="picture" type="string">X(4)</properties:property>
+        <properties:property name="value">spaces</properties:property>
+        <properties:property name="displayLength" type="number">4</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(4)</properties:property>
+        <properties:property name="storageLength" type="number">4</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="EMP_TOTAL_DTL.FILLER1" initial="&quot;EMPLOYEES&quot;" length="9" name="FILLER1">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="picture" type="string">X(9)</properties:property>
+        <properties:property name="value">&quot;EMPLOYEES&quot;</properties:property>
+        <properties:property name="displayLength" type="number">9</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(9)</properties:property>
+        <properties:property name="storageLength" type="number">9</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="EMP_TOTAL_DTL.FILLER2" initial="  " length="2" name="FILLER2">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="picture" type="string">X(2)</properties:property>
+        <properties:property name="value">spaces</properties:property>
+        <properties:property name="displayLength" type="number">2</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(2)</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:number id="EMP_TOTAL_DTL.EMP_EMP_COUNT" length="5" name="EMP_EMP_COUNT">
+      <properties:properties>
+        <properties:property name="picture" type="string">ZZZZ9</properties:property>
+        <properties:property name="displayLength" type="number">5</properties:property>
+        <properties:property name="edittedNumeric" type="boolean">true</properties:property>
+        <properties:property name="integerDigits" type="number">5</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">edited-numeric</properties:property>
+        <properties:property name="mask" type="string">ZZZZ9</properties:property>
+        <properties:property name="storageLength" type="number">5</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:string id="EMP_TOTAL_DTL.FILLER3" initial="  " length="2" name="FILLER3">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="picture" type="string">X(2)</properties:property>
+        <properties:property name="value">spaces</properties:property>
+        <properties:property name="displayLength" type="number">2</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(2)</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="EMP_TOTAL_DTL.FILLER4" initial="&quot;CUSTOMERS&quot;" length="9" name="FILLER4">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="picture" type="string">X(9)</properties:property>
+        <properties:property name="value">&quot;CUSTOMERS&quot;</properties:property>
+        <properties:property name="displayLength" type="number">9</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(9)</properties:property>
+        <properties:property name="storageLength" type="number">9</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="EMP_TOTAL_DTL.FILLER5" initial="  " length="2" name="FILLER5">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="picture" type="string">X(2)</properties:property>
+        <properties:property name="value">spaces</properties:property>
+        <properties:property name="displayLength" type="number">2</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(2)</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:number id="EMP_TOTAL_DTL.EMP_CUST_COUNT" length="7" name="EMP_CUST_COUNT">
+      <properties:properties>
+        <properties:property name="picture" type="string">ZZZZZZ9</properties:property>
+        <properties:property name="displayLength" type="number">7</properties:property>
+        <properties:property name="edittedNumeric" type="boolean">true</properties:property>
+        <properties:property name="integerDigits" type="number">7</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">edited-numeric</properties:property>
+        <properties:property name="mask" type="string">ZZZZZZ9</properties:property>
+        <properties:property name="storageLength" type="number">7</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:string id="EMP_TOTAL_DTL.FILLER6" initial="  " length="2" name="FILLER6">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="picture" type="string">X(2)</properties:property>
+        <properties:property name="value">spaces</properties:property>
+        <properties:property name="displayLength" type="number">2</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(2)</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="EMP_TOTAL_DTL.FILLER7" initial="&quot;TOTAL SALES&quot;" length="11" name="FILLER7">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="picture" type="string">X(11)</properties:property>
+        <properties:property name="value">&quot;TOTAL SALES&quot;</properties:property>
+        <properties:property name="displayLength" type="number">11</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(11)</properties:property>
+        <properties:property name="storageLength" type="number">11</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="EMP_TOTAL_DTL.FILLER8" initial=" " length="1" name="FILLER8">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="picture" type="string">X(1)</properties:property>
+        <properties:property name="value">spaces</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(1)</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:number id="EMP_TOTAL_DTL.EMP_GRAND_TOTAL" length="8" name="EMP_GRAND_TOTAL">
+      <properties:properties>
+        <properties:property name="picture" type="string">ZZZZZZZ9</properties:property>
+        <properties:property name="displayLength" type="number">8</properties:property>
+        <properties:property name="edittedNumeric" type="boolean">true</properties:property>
+        <properties:property name="integerDigits" type="number">8</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">edited-numeric</properties:property>
+        <properties:property name="mask" type="string">ZZZZZZZ9</properties:property>
+        <properties:property name="storageLength" type="number">8</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:string id="EMP_TOTAL_DTL.FILLER9" initial="                  " length="18" name="FILLER9">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="picture" type="string">X(18)</properties:property>
+        <properties:property name="value">spaces</properties:property>
+        <properties:property name="displayLength" type="number">18</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(18)</properties:property>
+        <properties:property name="storageLength" type="number">18</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>

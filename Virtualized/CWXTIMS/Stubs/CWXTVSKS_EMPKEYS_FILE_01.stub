@@ -1,0 +1,235 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" fileStatus="00" id="CWXTIMS/Stubs/CWXTVSKS_EMPKEYS_FILE_01.stub" stubtype="QSAM" target="EMPKEYS" token="940000">
+  <stub:description>Created: Jul 7, 2020 10:05:24 AM</stub:description>
+  <stub:stubdata id="0" name="EMPKEYS">
+    <stub:inputinterface>../Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface#CWXTIMS/Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#CWXTIMS/Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#EMP_SEQ_KEY_AREA" id="arg0.EMP_SEQ_KEY_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F3F4F3F1404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="1" name="EMPKEYS">
+    <stub:inputinterface>../Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface#CWXTIMS/Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#CWXTIMS/Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#EMP_SEQ_KEY_AREA" id="arg0.EMP_SEQ_KEY_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F1F4F3F1404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="2" name="EMPKEYS">
+    <stub:inputinterface>../Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface#CWXTIMS/Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#CWXTIMS/Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#EMP_SEQ_KEY_AREA" id="arg0.EMP_SEQ_KEY_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F5F2F3404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="3" name="EMPKEYS">
+    <stub:inputinterface>../Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface#CWXTIMS/Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#CWXTIMS/Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#EMP_SEQ_KEY_AREA" id="arg0.EMP_SEQ_KEY_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F3F3F4404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="4" name="EMPKEYS">
+    <stub:inputinterface>../Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface#CWXTIMS/Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#CWXTIMS/Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#EMP_SEQ_KEY_AREA" id="arg0.EMP_SEQ_KEY_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F6F7F4F5404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="5" name="EMPKEYS">
+    <stub:inputinterface>../Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface#CWXTIMS/Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#CWXTIMS/Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#EMP_SEQ_KEY_AREA" id="arg0.EMP_SEQ_KEY_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F7F6F5404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="6" name="EMPKEYS">
+    <stub:inputinterface>../Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface#CWXTIMS/Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#CWXTIMS/Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#EMP_SEQ_KEY_AREA" id="arg0.EMP_SEQ_KEY_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F4F1F4F7404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="7" name="EMPKEYS">
+    <stub:inputinterface>../Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface#CWXTIMS/Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#CWXTIMS/Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#EMP_SEQ_KEY_AREA" id="arg0.EMP_SEQ_KEY_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F1F5F6F8404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="8" name="EMPKEYS">
+    <stub:inputinterface>../Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface#CWXTIMS/Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#CWXTIMS/Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#EMP_SEQ_KEY_AREA" id="arg0.EMP_SEQ_KEY_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F9F5F9404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="9" name="EMPKEYS">
+    <stub:inputinterface>../Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface#CWXTIMS/Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#CWXTIMS/Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#EMP_SEQ_KEY_AREA" id="arg0.EMP_SEQ_KEY_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F0F1F0404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="10" name="EMPKEYS">
+    <stub:inputinterface>../Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface#CWXTIMS/Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#CWXTIMS/Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#EMP_SEQ_KEY_AREA" id="arg0.EMP_SEQ_KEY_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F0F1F1404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="11" name="EMPKEYS">
+    <stub:inputinterface>../Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface#CWXTIMS/Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#CWXTIMS/Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#EMP_SEQ_KEY_AREA" id="arg0.EMP_SEQ_KEY_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F3F2F4F1404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="12" name="EMPKEYS">
+    <stub:inputinterface>../Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface#CWXTIMS/Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#CWXTIMS/Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#EMP_SEQ_KEY_AREA" id="arg0.EMP_SEQ_KEY_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F1F3F4F3404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="13" name="EMPKEYS">
+    <stub:inputinterface>../Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface#CWXTIMS/Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#CWXTIMS/Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#EMP_SEQ_KEY_AREA" id="arg0.EMP_SEQ_KEY_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F5F2F1F3404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="14" name="EMPKEYS">
+    <stub:inputinterface>../Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface#CWXTIMS/Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#CWXTIMS/Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#EMP_SEQ_KEY_AREA" id="arg0.EMP_SEQ_KEY_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F1F7F1404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="15" name="EMPKEYS">
+    <stub:inputinterface>../Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface#CWXTIMS/Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#CWXTIMS/Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#EMP_SEQ_KEY_AREA" id="arg0.EMP_SEQ_KEY_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F1F7F5404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="16" name="EMPKEYS">
+    <stub:inputinterface>../Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface#CWXTIMS/Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#CWXTIMS/Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#EMP_SEQ_KEY_AREA" id="arg0.EMP_SEQ_KEY_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F3F2F1F5404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="17" name="EMPKEYS">
+    <stub:inputinterface>../Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface#CWXTIMS/Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#CWXTIMS/Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#EMP_SEQ_KEY_AREA" id="arg0.EMP_SEQ_KEY_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F1F3F6404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="18" name="EMPKEYS">
+    <stub:inputinterface>../Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface#CWXTIMS/Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#CWXTIMS/Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#EMP_SEQ_KEY_AREA" id="arg0.EMP_SEQ_KEY_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F8F8F7404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="19" name="EMPKEYS">
+    <stub:inputinterface>../Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface#CWXTIMS/Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#CWXTIMS/Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#EMP_SEQ_KEY_AREA" id="arg0.EMP_SEQ_KEY_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F1F3F1F8404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="20" name="EMPKEYS">
+    <stub:inputinterface>../Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface#CWXTIMS/Interfaces/CWXTVSKS_EMPKEYS_EMP_SEQ_KEY_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#CWXTIMS/Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTVSKS_EMPKEYS_EMP-SEQ-KEY-AREA.listructure#EMP_SEQ_KEY_AREA" id="arg0.EMP_SEQ_KEY_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F1F1F8F9404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+</stub:stub>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200629-0403_106?>
+<!--Topaz for Total Test 20.3.1.v20200629-0403_106 Jul 7, 2020 10:21:04 AM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="RXNMNSAL/Interfaces/Fetch_CUST_CURSOR_DB_CUSTOMER_NUMBER.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure#RXNMNSAL/Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure#DB_CUSTOMER_NUMBER">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/RXNMNSAL/RXNMNSAL_Fetch_DB-CUSTOMER-NUMBER.listructure#DB_CUSTOMER_NUMBER.DB_CUSTOMER_NUMBER">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

@@ -1,0 +1,205 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="MOD" encoding="1047" fileStatus="00" id="RXNMNSAL/Stubs/RXNMNSAL_RXNFLOG_FILE_01.stub" stubtype="QSAM" target="RXNFLOG" token="1050000">
+  <properties:properties>
+    <properties:property name="bufferType" type="string">BA</properties:property>
+  </properties:properties>
+  <stub:description>Created: Jul 7, 2020 10:22:48 AM</stub:description>
+  <stub:stubdata id="0" name="RXNFLOG">
+    <stub:interface>../Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_START.interface#RXNMNSAL/Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_START.interface</stub:interface>
+    <stub:output listructure="../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-START.listructure#RXNMNSAL/Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-START.listructure">
+      <stub:data baseType="listructure:structType ../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-START.listructure#EMPLOYEE_DTL_START" id="arg0.EMPLOYEE_DTL_START">
+        <properties:properties>
+          <properties:property name="value" type="string">40F0F0F0F0F140C6D5C1D4C5C1C140D3D5C1D4C5C14040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="1" name="RXNFLOG">
+    <stub:interface>../Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_CUST.interface#RXNMNSAL/Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_CUST.interface</stub:interface>
+    <stub:output listructure="../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-CUST.listructure#RXNMNSAL/Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-CUST.listructure">
+      <stub:data baseType="listructure:structType ../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-CUST.listructure#EMPLOYEE_DTL_CUST" id="arg0.EMPLOYEE_DTL_CUST">
+        <properties:properties>
+          <properties:property name="value" type="string">40404040404040404040404040404040404040404040C3E2F1F1F4F64040404040404040404040404040F04BF0F040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="2" name="RXNFLOG">
+    <stub:interface>../Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_CUST.interface#RXNMNSAL/Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_CUST.interface</stub:interface>
+    <stub:output listructure="../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-CUST.listructure#RXNMNSAL/Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-CUST.listructure">
+      <stub:data baseType="listructure:structType ../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-CUST.listructure#EMPLOYEE_DTL_CUST" id="arg0.EMPLOYEE_DTL_CUST">
+        <properties:properties>
+          <properties:property name="value" type="string">40404040404040404040404040404040404040404040C3E6F3F3F7F94040404040404040404040404040F04BF0F040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="3" name="RXNFLOG">
+    <stub:interface>../Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_CUST.interface#RXNMNSAL/Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_CUST.interface</stub:interface>
+    <stub:output listructure="../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-CUST.listructure#RXNMNSAL/Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-CUST.listructure">
+      <stub:data baseType="listructure:structType ../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-CUST.listructure#EMPLOYEE_DTL_CUST" id="arg0.EMPLOYEE_DTL_CUST">
+        <properties:properties>
+          <properties:property name="value" type="string">40404040404040404040404040404040404040404040C3E6F5F5F9F04040404040404040404040404040F04BF0F040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="4" name="RXNFLOG">
+    <stub:interface>../Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_CUST.interface#RXNMNSAL/Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_CUST.interface</stub:interface>
+    <stub:output listructure="../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-CUST.listructure#RXNMNSAL/Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-CUST.listructure">
+      <stub:data baseType="listructure:structType ../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-CUST.listructure#EMPLOYEE_DTL_CUST" id="arg0.EMPLOYEE_DTL_CUST">
+        <properties:properties>
+          <properties:property name="value" type="string">40404040404040404040404040404040404040404040C3E6F8F8F4F44040404040404040404040404040F04BF0F040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="5" name="RXNFLOG">
+    <stub:interface>../Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_CUST.interface#RXNMNSAL/Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_CUST.interface</stub:interface>
+    <stub:output listructure="../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-CUST.listructure#RXNMNSAL/Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-CUST.listructure">
+      <stub:data baseType="listructure:structType ../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-CUST.listructure#EMPLOYEE_DTL_CUST" id="arg0.EMPLOYEE_DTL_CUST">
+        <properties:properties>
+          <properties:property name="value" type="string">40404040404040404040404040404040404040404040C3C3F3F3F0F04040404040404040404040404040F04BF0F040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="6" name="RXNFLOG">
+    <stub:interface>../Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_CUST.interface#RXNMNSAL/Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_CUST.interface</stub:interface>
+    <stub:output listructure="../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-CUST.listructure#RXNMNSAL/Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-CUST.listructure">
+      <stub:data baseType="listructure:structType ../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-CUST.listructure#EMPLOYEE_DTL_CUST" id="arg0.EMPLOYEE_DTL_CUST">
+        <properties:properties>
+          <properties:property name="value" type="string">40404040404040404040404040404040404040404040C3D5F0F0F2F24040404040404040404040404040F04BF0F040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="7" name="RXNFLOG">
+    <stub:interface>../Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_CUST.interface#RXNMNSAL/Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_CUST.interface</stub:interface>
+    <stub:output listructure="../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-CUST.listructure#RXNMNSAL/Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-CUST.listructure">
+      <stub:data baseType="listructure:structType ../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-CUST.listructure#EMPLOYEE_DTL_CUST" id="arg0.EMPLOYEE_DTL_CUST">
+        <properties:properties>
+          <properties:property name="value" type="string">40404040404040404040404040404040404040404040C3E4F4F4F7F74040404040404040404040404040F04BF0F040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="8" name="RXNFLOG">
+    <stub:interface>../Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_CUST.interface#RXNMNSAL/Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_CUST.interface</stub:interface>
+    <stub:output listructure="../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-CUST.listructure#RXNMNSAL/Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-CUST.listructure">
+      <stub:data baseType="listructure:structType ../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-CUST.listructure#EMPLOYEE_DTL_CUST" id="arg0.EMPLOYEE_DTL_CUST">
+        <properties:properties>
+          <properties:property name="value" type="string">40404040404040404040404040404040404040404040C3C5F0F0F2F54040404040404040404040404040F04BF0F040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="9" name="RXNFLOG">
+    <stub:interface>../Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_CUST.interface#RXNMNSAL/Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_CUST.interface</stub:interface>
+    <stub:output listructure="../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-CUST.listructure#RXNMNSAL/Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-CUST.listructure">
+      <stub:data baseType="listructure:structType ../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-CUST.listructure#EMPLOYEE_DTL_CUST" id="arg0.EMPLOYEE_DTL_CUST">
+        <properties:properties>
+          <properties:property name="value" type="string">40404040404040404040404040404040404040404040C3C7F3F5F0F14040404040404040404040404040F04BF0F040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="10" name="RXNFLOG">
+    <stub:interface>../Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_CUST.interface#RXNMNSAL/Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_CUST.interface</stub:interface>
+    <stub:output listructure="../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-CUST.listructure#RXNMNSAL/Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-CUST.listructure">
+      <stub:data baseType="listructure:structType ../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-CUST.listructure#EMPLOYEE_DTL_CUST" id="arg0.EMPLOYEE_DTL_CUST">
+        <properties:properties>
+          <properties:property name="value" type="string">40404040404040404040404040404040404040404040C3D5F0F1F1F84040404040404040404040404040F04BF0F040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="11" name="RXNFLOG">
+    <stub:interface>../Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_SUM.interface#RXNMNSAL/Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_SUM.interface</stub:interface>
+    <stub:output listructure="../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-SUM.listructure#RXNMNSAL/Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-SUM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-SUM.listructure#EMPLOYEE_DTL_SUM" id="arg0.EMPLOYEE_DTL_SUM">
+        <properties:properties>
+          <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040F1F040404040404040F04BF0F04040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="12" name="RXNFLOG">
+    <stub:interface>../Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_START.interface#RXNMNSAL/Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_START.interface</stub:interface>
+    <stub:output listructure="../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-START.listructure#RXNMNSAL/Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-START.listructure">
+      <stub:data baseType="listructure:structType ../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-START.listructure#EMPLOYEE_DTL_START" id="arg0.EMPLOYEE_DTL_START">
+        <properties:properties>
+          <properties:property name="value" type="string">40F0F0F0F0F240C6D5C1D4C5C1C240D3D5C1D4C5C14040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="13" name="RXNFLOG">
+    <stub:interface>../Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_CUST.interface#RXNMNSAL/Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_CUST.interface</stub:interface>
+    <stub:output listructure="../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-CUST.listructure#RXNMNSAL/Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-CUST.listructure">
+      <stub:data baseType="listructure:structType ../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-CUST.listructure#EMPLOYEE_DTL_CUST" id="arg0.EMPLOYEE_DTL_CUST">
+        <properties:properties>
+          <properties:property name="value" type="string">40404040404040404040404040404040404040404040C3E2F1F1F4F74040404040404040404040404040F04BF0F040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="14" name="RXNFLOG">
+    <stub:interface>../Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_SUM.interface#RXNMNSAL/Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_SUM.interface</stub:interface>
+    <stub:output listructure="../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-SUM.listructure#RXNMNSAL/Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-SUM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-SUM.listructure#EMPLOYEE_DTL_SUM" id="arg0.EMPLOYEE_DTL_SUM">
+        <properties:properties>
+          <properties:property name="value" type="string">404040404040404040404040404040404040404040404040404040F140404040404040F04BF0F04040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="15" name="RXNFLOG">
+    <stub:interface>../Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_START.interface#RXNMNSAL/Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_START.interface</stub:interface>
+    <stub:output listructure="../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-START.listructure#RXNMNSAL/Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-START.listructure">
+      <stub:data baseType="listructure:structType ../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-START.listructure#EMPLOYEE_DTL_START" id="arg0.EMPLOYEE_DTL_START">
+        <properties:properties>
+          <properties:property name="value" type="string">40F0F0F0F1F140C6D5C1D4C5C1D240D3D5C1D4C5D24040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="16" name="RXNFLOG">
+    <stub:interface>../Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_SUM.interface#RXNMNSAL/Interfaces/RXNMNSAL_RXNFLOG_EMPLOYEE_DTL_SUM.interface</stub:interface>
+    <stub:output listructure="../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-SUM.listructure#RXNMNSAL/Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-SUM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/RXNMNSAL_RXNFLOG_EMPLOYEE-DTL-SUM.listructure#EMPLOYEE_DTL_SUM" id="arg0.EMPLOYEE_DTL_SUM">
+        <properties:properties>
+          <properties:property name="value" type="string">404040404040404040404040404040404040404040404040404040F040404040404040F04BF0F04040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="17" name="RXNFLOG">
+    <stub:interface>../Interfaces/RXNMNSAL_RXNFLOG_EMP_TOTAL_DTL.interface#RXNMNSAL/Interfaces/RXNMNSAL_RXNFLOG_EMP_TOTAL_DTL.interface</stub:interface>
+    <stub:output listructure="../Structures/RXNMNSAL_RXNFLOG_EMP-TOTAL-DTL.listructure#RXNMNSAL/Structures/RXNMNSAL_RXNFLOG_EMP-TOTAL-DTL.listructure">
+      <stub:data baseType="listructure:structType ../Structures/RXNMNSAL_RXNFLOG_EMP-TOTAL-DTL.listructure#EMP_TOTAL_DTL" id="arg0.EMP_TOTAL_DTL">
+        <properties:properties>
+          <properties:property name="value" type="string">40404040C5D4D7D3D6E8C5C5E2404040404040F34040C3E4E2E3D6D4C5D9E240404040404040F1F14040E3D6E3C1D340E2C1D3C5E240404040F7F5F4F3F6404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+</stub:stub>

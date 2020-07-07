@@ -1,0 +1,122 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="LGTESTC1/Stubs/LGTESTC1_ENQ_DEQ_01.stub" nextCalltoken="1740003" stubtype="CICS" target="" token="1740000">
+  <stub:description>Created: Jul 7, 2020 12:34:24 PM</stub:description>
+  <stub:stubdata callToken="1740001" id="0" name="EXEC CICS ENQ">
+    <stub:interface>../Interfaces/LGTESTC1_ENQ_DEQ.interface#LGTESTC1/Interfaces/LGTESTC1_ENQ_DEQ.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/LGTESTC1_ENQ_DEQ.interface#LGTESTC1/Interfaces/LGTESTC1_ENQ_DEQ.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_CICS-GENERATED-CONSTANT-0.listructure#LGTESTC1/Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">1204c0000700000001f0f0f7f4f9404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_STSQ-NAME.listructure#LGTESTC1/Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_STSQ-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_STSQ-NAME.listructure#STSQ_NAME" id="arg1.STSQ_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">C7C5D5C1C3D5E3D3</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_dfhb0020.listructure#LGTESTC1/Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_dfhb0020.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_dfhb0020.listructure#dfhb0020" id="arg2.dfhb0020">
+        <properties:properties>
+          <properties:property name="value" type="string">0008</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_CICS-GENERATED-CONSTANT-0.listructure#LGTESTC1/Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">1204c0000700000001f0f0f7f4f9404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_STSQ-NAME.listructure#LGTESTC1/Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_STSQ-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_STSQ-NAME.listructure#STSQ_NAME" id="arg1.STSQ_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">C7C5D5C1C3D5E3D3</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_dfhb0020.listructure#LGTESTC1/Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_dfhb0020.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_dfhb0020.listructure#dfhb0020" id="arg2.dfhb0020">
+        <properties:properties>
+          <properties:property name="value" type="string">0008</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:statement type="EXEC CICS ENQ">
+      <stub:text>      *EXEC CICS ENQ Resource(STSQ-NAME)
+      *              Length(Length Of STSQ-NAME)
+      *END-EXEC.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_dfheiblk.listructure#LGTESTC1/Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_dfheiblk.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+        <properties:properties>
+          <properties:property name="value" type="string">0063404C0120189FE2E2C3F10001006CC3F0F8F9000006277F0A7D1204000000000000D2E2C4E2C3E4E2E3000000000000000040404040404040400000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+  <stub:stubdata callToken="1740002" id="1" name="EXEC CICS DEQ">
+    <stub:interface>../Interfaces/LGTESTC1_ENQ_DEQ.interface#LGTESTC1/Interfaces/LGTESTC1_ENQ_DEQ.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/LGTESTC1_ENQ_DEQ.interface#LGTESTC1/Interfaces/LGTESTC1_ENQ_DEQ.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_CICS-GENERATED-CONSTANT-0.listructure#LGTESTC1/Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">1206c0000700000002f0f0f8f0f7404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_STSQ-NAME.listructure#LGTESTC1/Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_STSQ-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_STSQ-NAME.listructure#STSQ_NAME" id="arg1.STSQ_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">C7C5D5C1C3D5E3D3</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_dfhb0020.listructure#LGTESTC1/Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_dfhb0020.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_dfhb0020.listructure#dfhb0020" id="arg2.dfhb0020">
+        <properties:properties>
+          <properties:property name="value" type="string">0008</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_CICS-GENERATED-CONSTANT-0.listructure#LGTESTC1/Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">1206c0000700000002f0f0f8f0f7404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_STSQ-NAME.listructure#LGTESTC1/Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_STSQ-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_STSQ-NAME.listructure#STSQ_NAME" id="arg1.STSQ_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">C7C5D5C1C3D5E3D3</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_dfhb0020.listructure#LGTESTC1/Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_dfhb0020.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_dfhb0020.listructure#dfhb0020" id="arg2.dfhb0020">
+        <properties:properties>
+          <properties:property name="value" type="string">0008</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:statement type="EXEC CICS DEQ">
+      <stub:text>      *EXEC CICS DEQ Resource(STSQ-NAME)
+      *              Length(Length Of STSQ-NAME)
+      *END-EXEC.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_dfheiblk.listructure#LGTESTC1/Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_dfheiblk.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_ENQ_DEQ/LGTESTC1_ENQ_DEQ_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+        <properties:properties>
+          <properties:property name="value" type="string">0063404C0120189FE2E2C3F10001006CC3F0F8F9000006277F0A7D1206000000000000D2E2C4E2C3E4E2E3000000000000000040404040404040400000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+</stub:stub>

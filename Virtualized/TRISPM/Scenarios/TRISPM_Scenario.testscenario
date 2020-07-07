@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200629-0403_106?>
+<!--Topaz for Total Test 20.3.1.v20200629-0403_106 Jul 7, 2020 10:28:31 AM-->
+<testscenario:testscenario xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="TRISPM/Scenarios/TRISPM_Scenario.testscenario">
+  <testscenario:description></testscenario:description>
+  <testscenario:testcases>
+    <testscenario:testcase alias="" csect="TRISPM" encoding="1047" entrypoint="TRISPM#C" id="TRISPM/Scenarios/TRISPM_Scenario.testscenario%23TRISPMCase1" target="TRISPM">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1593743858000</testcase:targetCaptureCompileTime>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/TRISPM_TRIRPT_01.stub#TRISPM/Stubs/TRISPM_TRIRPT_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/TRISPM_INFILE_FILE_01.stub#TRISPM/Stubs/TRISPM_INFILE_FILE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/TRISPM_CALL_TRISPT_1_SQL_01.stub#TRISPM/Stubs/TRISPM_CALL_TRISPT_1_SQL_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/TRISPM_RETURN-CODE.listructure#TRISPM/Structures/TRISPM_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/TRISPM_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>TRISPM</testcase:ddioMemberName>
+    </testscenario:testcase>
+  </testscenario:testcases>
+</testscenario:testscenario>

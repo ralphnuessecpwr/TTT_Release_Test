@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200629-0403_106?>
+<!--Topaz for Total Test 20.3.1.v20200629-0403_106 Jul 7, 2020 9:23:26 AM-->
+<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="CWXTDB2/Scenarios/CWXTDB2_Scenario.testscenario">
+  <testscenario:description></testscenario:description>
+  <testscenario:testcases>
+    <testscenario:testcase alias="" csect="CWXTDB2" encoding="1047" entrypoint="CWXTDB2#" id="CWXTDB2/Scenarios/CWXTDB2_Scenario.testscenario%23CWXTDB2Case1" target="CWXTDB2">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1593735931000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTDB2.interface#CWXTDB2/Interfaces/CWXTDB2.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTDB2_PARMINFO.listructure#CWXTDB2/Structures/CWXTDB2_PARMINFO.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDB2_PARMINFO.listructure#PARMINFO" id="arg0.PARMINFO">
+          <properties:properties>
+            <properties:property name="value" type="string">0005F0F0F0F0F3</properties:property>
+            <properties:property name="expectedValue" type="string">0005F0F0F0F0F3</properties:property>
+            <properties:property name="address" type="string">37B7B568</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWXTDB2_CWXTSUBC_01.stub#CWXTDB2/Stubs/CWXTDB2_CWXTSUBC_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTDB2_CWXTDATE_01.stub#CWXTDB2/Stubs/CWXTDB2_CWXTDATE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTDB2_CWXTSDB2_01.stub#CWXTDB2/Stubs/CWXTDB2_CWXTSDB2_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTDB2_RPTFILE_FILE_01.stub#CWXTDB2/Stubs/CWXTDB2_RPTFILE_FILE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTDB2_EMPFILE_FILE_01.stub#CWXTDB2/Stubs/CWXTDB2_EMPFILE_FILE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTDB2_DATETIME_01.stub#CWXTDB2/Stubs/CWXTDB2_DATETIME_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/CWXTDB2_RETURN-CODE.listructure#CWXTDB2/Structures/CWXTDB2_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDB2_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTDB2</testcase:ddioMemberName>
+    </testscenario:testcase>
+  </testscenario:testcases>
+</testscenario:testscenario>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200629-0403_106?>
+<!--Topaz for Total Test 20.3.1.v20200629-0403_106 Jul 7, 2020 1:25:23 PM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="LGACDB01/Interfaces/LGACDB01_Set_1_DB2_CUSTOMERNUM_INT.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/Db2/LGACDB01/LGACDB01_Set_DB2-CUSTOMERNUM-INT.listructure#LGACDB01/Structures/Db2/LGACDB01/LGACDB01_Set_DB2-CUSTOMERNUM-INT.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGACDB01/LGACDB01_Set_DB2-CUSTOMERNUM-INT.listructure#DB2_CUSTOMERNUM_INT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/Db2/LGACDB01/LGACDB01_Set_DB2-CUSTOMERNUM-INT.listructure#DB2_CUSTOMERNUM_INT.DB2_CUSTOMERNUM_INT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

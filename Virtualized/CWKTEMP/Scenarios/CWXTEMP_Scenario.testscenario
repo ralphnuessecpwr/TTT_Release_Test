@@ -1,0 +1,1383 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="CWKTEMP/Scenarios/CWXTEMP_Scenario.testscenario">
+  <testscenario:description></testscenario:description>
+  <testscenario:testcases>
+    <testscenario:testcase alias="" csect="CWXTEMP" encoding="1047" entrypoint="CWXTEMP#" id="CWKTEMP/Scenarios/CWXTEMP_Scenario.testscenario%23CWXTEMPCase1" target="CWXTEMP">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1593735911000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTEMP.interface#CWKTEMP/Interfaces/CWXTEMP.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTEMP_TODAYS-DATE.listructure#CWKTEMP/Structures/CWXTEMP_TODAYS-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_TODAYS-DATE.listructure#TODAYS_DATE" id="arg0.TODAYS_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="expectedValue" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="address" type="string">37CE2608</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTEMP_REC-POINTERS.listructure#CWKTEMP/Structures/CWXTEMP_REC-POINTERS.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_REC-POINTERS.listructure#REC_POINTERS" id="arg1.REC_POINTERS">
+          <properties:properties>
+            <properties:property name="value" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="expectedValue" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="address" type="string">37CE37F8</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWXTEMP_CWXTDATE_01.stub#CWKTEMP/Stubs/CWXTEMP_CWXTDATE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:pointerList argumentIndex="1" offset="0">
+        <stub:pointerstubdata id="0" name="CWXTEMP:EMP-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F2F5F2F3C8F1D1D6C8D540E2D4C9E3C84040404040F5F4F5F640C5D3D440E2E3D9C5C5E3E6C1E8D5C5404040C9D3F7F7F9F0F240404040F3F802850F40F1404040404040F8F1F1F0F1F54040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F2F5F2F3C8F1D1D6C8D540E2D4C9E3C84040404040F5F4F5F640C5D3D440E2E3D9C5C5E3E6C1E8D5C5404040C9D3F7F7F9F0F240404040F3F802850F40F1404040404040F8F1F1F0F1F54040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:pointerList argumentIndex="1" offset="4">
+        <stub:pointerstubdata id="0" name="CWXTEMP:WORK-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">000000000000000000000000000000000000000000000F000000000FD5D5F0F0D5D6D9E3C8404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F04040404040E2D6E4E3C8404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F04040404040C5C1E2E340404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F04040404040E6C5E2E340404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F0404040404000F0F0F0F0F0F0F0F00000000F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">0000000F00000108300F0108300F00000000000108300F000000000FD5D5F3F8D5D6D9E3C8404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F04040404040E2D6E4E3C8404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F04040404040C5C1E2E340404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F04040404040E6C5E2E340404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F0404040404000F0F0F0F0F0F0F0F00000000F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:returncode listructure="../Structures/CWXTEMP_RETURN-CODE.listructure#CWKTEMP/Structures/CWXTEMP_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTEMP</testcase:ddioMemberName>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTEMP" encoding="1047" entrypoint="CWXTEMP#" id="CWKTEMP/Scenarios/CWXTEMP_Scenario.testscenario%23CWXTEMPCase2" target="CWXTEMP">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1593735911000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTEMP.interface#CWKTEMP/Interfaces/CWXTEMP.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTEMP_TODAYS-DATE.listructure#CWKTEMP/Structures/CWXTEMP_TODAYS-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_TODAYS-DATE.listructure#TODAYS_DATE" id="arg0.TODAYS_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="expectedValue" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="address" type="string">37CE2608</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTEMP_REC-POINTERS.listructure#CWKTEMP/Structures/CWXTEMP_REC-POINTERS.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_REC-POINTERS.listructure#REC_POINTERS" id="arg1.REC_POINTERS">
+          <properties:properties>
+            <properties:property name="value" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="expectedValue" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="address" type="string">37CE37F8</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWXTEMP_CWXTSUBC_01.stub#CWKTEMP/Stubs/CWXTEMP_CWXTSUBC_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTEMP_CWXTDATE_02.stub#CWKTEMP/Stubs/CWXTEMP_CWXTDATE_02.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:pointerList argumentIndex="1" offset="0">
+        <stub:pointerstubdata id="0" name="CWXTEMP:EMP-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F2F3F3F4E2F1D9D6E840C7C1D9C4D5C5D940404040F3F2F340D6C1D240E2E3D9C5C5E340C5C4C9D5C1404040D4D5F2F3F0F4F0404040400075000FF5F5F0F0F0F0F04040F9F2F1F2F3F14040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F2F3F3F4E2F1D9D6E840C7C1D9C4D5C5D940404040F3F2F340D6C1D240E2E3D9C5C5E340C5C4C9D5C1404040D4D5F2F3F0F4F0404040400075000FF5F5F0F0F0F0F04040F9F2F1F2F3F14040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:pointerList argumentIndex="1" offset="4">
+        <stub:pointerstubdata id="0" name="CWXTEMP:WORK-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">0000000F00000108300F0108300F00000000000108300F000000000FD5D5F3F8D5D6D9E3C8404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F04040404040E2D6E4E3C8404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F04040404040C5C1E2E340404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F04040404040E6C5E2E340404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F0404040404000F0F0F0F0F0F0F0F00000000F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">0000000F00000108300F0405000F00000000000513300F000000000FD5D5F2F7D5D6D9E3C8404040404040404040404040404040F0F0F0F0F0F0F0F5F5F0F0F0F0F04040404040E2D6E4E3C8404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F04040404040C5C1E2E340404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F04040404040E6C5E2E340404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F04040404040E2F0F5F5F0F0F0F0F00330000F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:returncode listructure="../Structures/CWXTEMP_RETURN-CODE.listructure#CWKTEMP/Structures/CWXTEMP_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTEMP</testcase:ddioMemberName>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTEMP" encoding="1047" entrypoint="CWXTEMP#" id="CWKTEMP/Scenarios/CWXTEMP_Scenario.testscenario%23CWXTEMPCase3" target="CWXTEMP">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1593735911000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTEMP.interface#CWKTEMP/Interfaces/CWXTEMP.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTEMP_TODAYS-DATE.listructure#CWKTEMP/Structures/CWXTEMP_TODAYS-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_TODAYS-DATE.listructure#TODAYS_DATE" id="arg0.TODAYS_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="expectedValue" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="address" type="string">37CE2608</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTEMP_REC-POINTERS.listructure#CWKTEMP/Structures/CWXTEMP_REC-POINTERS.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_REC-POINTERS.listructure#REC_POINTERS" id="arg1.REC_POINTERS">
+          <properties:properties>
+            <properties:property name="value" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="expectedValue" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="address" type="string">37CE37F8</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWXTEMP_CWXTSUBC_02.stub#CWKTEMP/Stubs/CWXTEMP_CWXTSUBC_02.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTEMP_CWXTDATE_03.stub#CWKTEMP/Stubs/CWXTEMP_CWXTDATE_03.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:pointerList argumentIndex="1" offset="0">
+        <stub:pointerstubdata id="0" name="CWXTEMP:EMP-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F6F7F4F5E2F3E5C1D3C5D9C9C540D6D3E2C5D54040F7F2F040D9C1E3E9C5D940D9D6C1C4E6C1E8D5C5404040D5D1F8F7F0F1F0404040400090000FF7F0F0F0F0F0F04040F9F4F0F5F0F14040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F6F7F4F5E2F3E5C1D3C5D9C9C540D6D3E2C5D54040F7F2F040D9C1E3E9C5D940D9D6C1C4E6C1E8D5C5404040D5D1F8F7F0F1F0404040400090000FF7F0F0F0F0F0F04040F9F4F0F5F0F14040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:pointerList argumentIndex="1" offset="4">
+        <stub:pointerstubdata id="0" name="CWXTEMP:WORK-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">0000000F00000108300F0405000F00000000000513300F000000000FD5D5F2F7D5D6D9E3C8404040404040404040404040404040F0F0F0F0F0F0F0F5F5F0F0F0F0F04040404040E2D6E4E3C8404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F04040404040C5C1E2E340404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F04040404040E6C5E2E340404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F04040404040E2F0F5F5F0F0F0F0F00330000F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">0000000F00000108300F0650000F00000000001163300F000000000FD5D5F2F6D5D6D9E3C8404040404040404040404040404040F0F0F0F0F0F0F0F5F5F0F0F0F0F04040404040E2D6E4E3C8404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F04040404040C5C1E2E340404040404040404040404040404040F0F0F0F0F0F0F0F7F0F0F0F0F0F04040404040E6C5E2E340404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F04040404040E2F0F7F0F0F0F0F0F00560000F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:returncode listructure="../Structures/CWXTEMP_RETURN-CODE.listructure#CWKTEMP/Structures/CWXTEMP_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTEMP</testcase:ddioMemberName>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTEMP" encoding="1047" entrypoint="CWXTEMP#" id="CWKTEMP/Scenarios/CWXTEMP_Scenario.testscenario%23CWXTEMPCase4" target="CWXTEMP">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1593735911000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTEMP.interface#CWKTEMP/Interfaces/CWXTEMP.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTEMP_TODAYS-DATE.listructure#CWKTEMP/Structures/CWXTEMP_TODAYS-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_TODAYS-DATE.listructure#TODAYS_DATE" id="arg0.TODAYS_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="expectedValue" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="address" type="string">37CE2608</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTEMP_REC-POINTERS.listructure#CWKTEMP/Structures/CWXTEMP_REC-POINTERS.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_REC-POINTERS.listructure#REC_POINTERS" id="arg1.REC_POINTERS">
+          <properties:properties>
+            <properties:property name="value" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="expectedValue" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="address" type="string">37CE37F8</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWXTEMP_CWXTSUBC_03.stub#CWKTEMP/Stubs/CWXTEMP_CWXTSUBC_03.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTEMP_CWXTDATE_04.stub#CWKTEMP/Stubs/CWXTEMP_CWXTDATE_04.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:pointerList argumentIndex="1" offset="0">
+        <stub:pointerstubdata id="0" name="CWXTEMP:EMP-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F0F7F6F5E2F1C4C1D540D7C5C1D9E2D6D540404040F9F0F940C8C9C7C8D3C1D5C4404040C3D6D3E4D4C2E4E2D6C8F3F4F1F1F1404040400085000FF2F5F0F0F0F0F04040F8F9F0F7F2F04040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F0F7F6F5E2F1C4C1D540D7C5C1D9E2D6D540404040F9F0F940C8C9C7C8D3C1D5C4404040C3D6D3E4D4C2E4E2D6C8F3F4F1F1F1404040400085000FF2F5F0F0F0F0F04040F8F9F0F7F2F04040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:pointerList argumentIndex="1" offset="4">
+        <stub:pointerstubdata id="0" name="CWXTEMP:WORK-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">0000000F00000108300F0650000F00000000001163300F000000000FD5D5F2F6D5D6D9E3C8404040404040404040404040404040F0F0F0F0F0F0F0F5F5F0F0F0F0F04040404040E2D6E4E3C8404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F04040404040C5C1E2E340404040404040404040404040404040F0F0F0F0F0F0F0F7F0F0F0F0F0F04040404040E6C5E2E340404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F04040404040E2F0F7F0F0F0F0F0F00560000F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">0000000F00000108300F0185000F00000000001348300F000000000FD5D5F3F0D5D6D9E3C8404040404040404040404040404040F0F0F0F0F0F0F0F8F0F0F0F0F0F04040404040E2D6E4E3C8404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F04040404040C5C1E2E340404040404040404040404040404040F0F0F0F0F0F0F0F7F0F0F0F0F0F04040404040E6C5E2E340404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F04040404040E2F0F2F5F0F0F0F0F00100000F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:returncode listructure="../Structures/CWXTEMP_RETURN-CODE.listructure#CWKTEMP/Structures/CWXTEMP_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTEMP</testcase:ddioMemberName>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTEMP" encoding="1047" entrypoint="CWXTEMP#" id="CWKTEMP/Scenarios/CWXTEMP_Scenario.testscenario%23CWXTEMPCase5" target="CWXTEMP">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1593735911000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTEMP.interface#CWKTEMP/Interfaces/CWXTEMP.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTEMP_TODAYS-DATE.listructure#CWKTEMP/Structures/CWXTEMP_TODAYS-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_TODAYS-DATE.listructure#TODAYS_DATE" id="arg0.TODAYS_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="expectedValue" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="address" type="string">37CE2608</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTEMP_REC-POINTERS.listructure#CWKTEMP/Structures/CWXTEMP_REC-POINTERS.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_REC-POINTERS.listructure#REC_POINTERS" id="arg1.REC_POINTERS">
+          <properties:properties>
+            <properties:property name="value" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="expectedValue" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="address" type="string">37CE37F8</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWXTEMP_CWXTSUBC_04.stub#CWKTEMP/Stubs/CWXTEMP_CWXTSUBC_04.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTEMP_CWXTDATE_05.stub#CWKTEMP/Stubs/CWXTEMP_CWXTDATE_05.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:pointerList argumentIndex="1" offset="0">
+        <stub:pointerstubdata id="0" name="CWXTEMP:EMP-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F4F1F4F7E2F3D3C1E4D9C140D4C1D9E3C9D5404040E3E6D640C5D5C4C5D9C2E840E2E340C2C5E3C8C5E2C4C1D4C4F6F2F0F4F5404040400122500FF7F5F0F0F0F0F04040F8F3F0F6F1F44040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F4F1F4F7E2F3D3C1E4D9C140D4C1D9E3C9D5404040E3E6D640C5D5C4C5D9C2E840E2E340C2C5E3C8C5E2C4C1D4C4F6F2F0F4F5404040400122500FF7F5F0F0F0F0F04040F8F3F0F6F1F44040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:pointerList argumentIndex="1" offset="4">
+        <stub:pointerstubdata id="0" name="CWXTEMP:WORK-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">0000000F00000108300F0185000F00000000001348300F000000000FD5D5F3F0D5D6D9E3C8404040404040404040404040404040F0F0F0F0F0F0F0F8F0F0F0F0F0F04040404040E2D6E4E3C8404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F04040404040C5C1E2E340404040404040404040404040404040F0F0F0F0F0F0F0F7F0F0F0F0F0F04040404040E6C5E2E340404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F04040404040E2F0F2F5F0F0F0F0F00100000F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">0000000F00000108300F0722500F00000000002070800F000000000FD5D5F3F7D5D6D9E3C8404040404040404040404040404040F0F0F0F0F0F0F0F8F0F0F0F0F0F04040404040E2D6E4E3C8404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F04040404040C5C1E2E340404040404040404040404040404040F0F0F0F0F0F0F1F4F5F0F0F0F0F04040404040E6C5E2E340404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F04040404040E2F0F7F5F0F0F0F0F00600000F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:returncode listructure="../Structures/CWXTEMP_RETURN-CODE.listructure#CWKTEMP/Structures/CWXTEMP_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTEMP</testcase:ddioMemberName>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTEMP" encoding="1047" entrypoint="CWXTEMP#" id="CWKTEMP/Scenarios/CWXTEMP_Scenario.testscenario%23CWXTEMPCase6" target="CWXTEMP">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1593735911000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTEMP.interface#CWKTEMP/Interfaces/CWXTEMP.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTEMP_TODAYS-DATE.listructure#CWKTEMP/Structures/CWXTEMP_TODAYS-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_TODAYS-DATE.listructure#TODAYS_DATE" id="arg0.TODAYS_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="expectedValue" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="address" type="string">37CE2608</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTEMP_REC-POINTERS.listructure#CWKTEMP/Structures/CWXTEMP_REC-POINTERS.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_REC-POINTERS.listructure#REC_POINTERS" id="arg1.REC_POINTERS">
+          <properties:properties>
+            <properties:property name="value" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="expectedValue" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="address" type="string">37CE37F8</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWXTEMP_CWXTDATE_06.stub#CWKTEMP/Stubs/CWXTEMP_CWXTDATE_06.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:pointerList argumentIndex="1" offset="0">
+        <stub:pointerstubdata id="0" name="CWXTEMP:EMP-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F1F5F6F8C8F4E3C8D6D4C1E240D3D6D5C740404040F1F240D9C1C3C540E2E3D9C5C5E340E2C1D540D1D6E2C5C3C1F9F5F1F2F640404040F4F002500F4040404040404040F8F7F0F3F3F14040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F1F5F6F8C8F4E3C8D6D4C1E240D3D6D5C740404040F1F240D9C1C3C540E2E3D9C5C5E340E2C1D540D1D6E2C5C3C1F9F5F1F2F640404040F4F002500F4040404040404040F8F7F0F3F3F14040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:pointerList argumentIndex="1" offset="4">
+        <stub:pointerstubdata id="0" name="CWXTEMP:WORK-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">0000000F00000108300F0722500F00000000002070800F000000000FD5D5F3F7D5D6D9E3C8404040404040404040404040404040F0F0F0F0F0F0F0F8F0F0F0F0F0F04040404040E2D6E4E3C8404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F04040404040C5C1E2E340404040404040404040404040404040F0F0F0F0F0F0F1F4F5F0F0F0F0F04040404040E6C5E2E340404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F04040404040E2F0F7F5F0F0F0F0F00600000F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">0000000F00000100000F0100000F00000000002170800F000000000FD5D5F3F3D5D6D9E3C8404040404040404040404040404040F0F0F0F0F0F0F0F8F0F0F0F0F0F04040404040E2D6E4E3C8404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F04040404040C5C1E2E340404040404040404040404040404040F0F0F0F0F0F0F1F4F5F0F0F0F0F04040404040E6C5E2E340404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F04040404040E2F0F7F5F0F0F0F0F00600000F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:returncode listructure="../Structures/CWXTEMP_RETURN-CODE.listructure#CWKTEMP/Structures/CWXTEMP_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTEMP</testcase:ddioMemberName>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTEMP" encoding="1047" entrypoint="CWXTEMP#" id="CWKTEMP/Scenarios/CWXTEMP_Scenario.testscenario%23CWXTEMPCase7" target="CWXTEMP">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1593735911000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTEMP.interface#CWKTEMP/Interfaces/CWXTEMP.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTEMP_TODAYS-DATE.listructure#CWKTEMP/Structures/CWXTEMP_TODAYS-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_TODAYS-DATE.listructure#TODAYS_DATE" id="arg0.TODAYS_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="expectedValue" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="address" type="string">37CE2608</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTEMP_REC-POINTERS.listructure#CWKTEMP/Structures/CWXTEMP_REC-POINTERS.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_REC-POINTERS.listructure#REC_POINTERS" id="arg1.REC_POINTERS">
+          <properties:properties>
+            <properties:property name="value" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="expectedValue" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="address" type="string">37CE37F8</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWXTEMP_CWXTDATE_07.stub#CWKTEMP/Stubs/CWXTEMP_CWXTDATE_07.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTEMP_CWXTSUBC_05.stub#CWKTEMP/Stubs/CWXTEMP_CWXTSUBC_05.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:pointerList argumentIndex="1" offset="0">
+        <stub:pointerstubdata id="0" name="CWXTEMP:EMP-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F0F9F5F9E2F4C4D6D5D5C140C2D9D6E6D540404040F340E2C1D540E3C8D6D4C1E2404040C3C1D4D7C2C5D3D3C3C1F9F5F1F3F3404040400100000FF5F5F5F5F0F0F04040F8F1F1F1F1F14040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F0F9F5F9E2F4C4D6D5D5C140C2D9D6E6D540404040F340E2C1D540E3C8D6D4C1E2404040C3C1D4D7C2C5D3D3C3C1F9F5F1F3F3404040400100000FF5F5F5F5F0F0F04040F8F1F1F1F1F14040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:pointerList argumentIndex="1" offset="4">
+        <stub:pointerstubdata id="0" name="CWXTEMP:WORK-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">0000000F00000100000F0100000F00000000002170800F000000000FD5D5F3F3D5D6D9E3C8404040404040404040404040404040F0F0F0F0F0F0F0F8F0F0F0F0F0F04040404040E2D6E4E3C8404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F04040404040C5C1E2E340404040404040404040404040404040F0F0F0F0F0F0F1F4F5F0F0F0F0F04040404040E6C5E2E340404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F04040404040E2F0F7F5F0F0F0F0F00600000F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">0000000F00000100000F0433300F00000000002604100F000000000FD5D5F3F8D5D6D9E3C8404040404040404040404040404040F0F0F0F0F0F0F0F8F0F0F0F0F0F04040404040E2D6E4E3C8404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F04040404040C5C1E2E340404040404040404040404040404040F0F0F0F0F0F0F1F4F5F0F0F0F0F04040404040E6C5E2E340404040404040404040404040404040F0F0F0F0F0F0F0F5F5F5F5F0F0F04040404040E2F0F5F5F5F5F0F0F00333300F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:returncode listructure="../Structures/CWXTEMP_RETURN-CODE.listructure#CWKTEMP/Structures/CWXTEMP_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTEMP</testcase:ddioMemberName>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTEMP" encoding="1047" entrypoint="CWXTEMP#" id="CWKTEMP/Scenarios/CWXTEMP_Scenario.testscenario%23CWXTEMPCase8" target="CWXTEMP">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1593735911000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTEMP.interface#CWKTEMP/Interfaces/CWXTEMP.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTEMP_TODAYS-DATE.listructure#CWKTEMP/Structures/CWXTEMP_TODAYS-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_TODAYS-DATE.listructure#TODAYS_DATE" id="arg0.TODAYS_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="expectedValue" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="address" type="string">37CE2608</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTEMP_REC-POINTERS.listructure#CWKTEMP/Structures/CWXTEMP_REC-POINTERS.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_REC-POINTERS.listructure#REC_POINTERS" id="arg1.REC_POINTERS">
+          <properties:properties>
+            <properties:property name="value" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="expectedValue" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="address" type="string">37CE37F8</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWXTEMP_CWXTDATE_08.stub#CWKTEMP/Stubs/CWXTEMP_CWXTDATE_08.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTEMP_CWXTSUBC_06.stub#CWKTEMP/Stubs/CWXTEMP_CWXTSUBC_06.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:pointerList argumentIndex="1" offset="0">
+        <stub:pointerstubdata id="0" name="CWXTEMP:EMP-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F2F0F1F0E2F2D4C9C3C8C1C5D340C4C1E8E3D6D540F1F140E4D5C9D6D540E2E3D9C5C5E3D6D9D3C1D5C4D640C6D3F1F8F2F2F2404040400082500FF7F5F0F0F0F0F04040F8F2F0F8F3F04040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F2F0F1F0E2F2D4C9C3C8C1C5D340C4C1E8E3D6D540F1F140E4D5C9D6D540E2E3D9C5C5E3D6D9D3C1D5C4D640C6D3F1F8F2F2F2404040400082500FF7F5F0F0F0F0F04040F8F2F0F8F3F04040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:pointerList argumentIndex="1" offset="4">
+        <stub:pointerstubdata id="0" name="CWXTEMP:WORK-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">0000000F00000100000F0433300F00000000002604100F000000000FD5D5F3F8D5D6D9E3C8404040404040404040404040404040F0F0F0F0F0F0F0F8F0F0F0F0F0F04040404040E2D6E4E3C8404040404040404040404040404040F0F0F0F0F0F0F0F0F0F0F0F0F0F04040404040C5C1E2E340404040404040404040404040404040F0F0F0F0F0F0F1F4F5F0F0F0F0F04040404040E6C5E2E340404040404040404040404040404040F0F0F0F0F0F0F0F5F5F5F5F0F0F04040404040E2F0F5F5F5F5F0F0F00333300F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">0000000F00000100000F0682500F00000000003286600F000000000FD5D5F3F7D5D6D9E3C8404040404040404040404040404040F0F0F0F0F0F0F0F8F0F0F0F0F0F04040404040E2D6E4E3C8404040404040404040404040404040F0F0F0F0F0F0F0F7F5F0F0F0F0F04040404040C5C1E2E340404040404040404040404040404040F0F0F0F0F0F0F1F4F5F0F0F0F0F04040404040E6C5E2E340404040404040404040404040404040F0F0F0F0F0F0F0F5F5F5F5F0F0F04040404040E2F0F7F5F0F0F0F0F00600000F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:returncode listructure="../Structures/CWXTEMP_RETURN-CODE.listructure#CWKTEMP/Structures/CWXTEMP_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTEMP</testcase:ddioMemberName>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTEMP" encoding="1047" entrypoint="CWXTEMP#" id="CWKTEMP/Scenarios/CWXTEMP_Scenario.testscenario%23CWXTEMPCase9" target="CWXTEMP">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1593735911000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTEMP.interface#CWKTEMP/Interfaces/CWXTEMP.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTEMP_TODAYS-DATE.listructure#CWKTEMP/Structures/CWXTEMP_TODAYS-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_TODAYS-DATE.listructure#TODAYS_DATE" id="arg0.TODAYS_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="expectedValue" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="address" type="string">37CE2608</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTEMP_REC-POINTERS.listructure#CWKTEMP/Structures/CWXTEMP_REC-POINTERS.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_REC-POINTERS.listructure#REC_POINTERS" id="arg1.REC_POINTERS">
+          <properties:properties>
+            <properties:property name="value" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="expectedValue" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="address" type="string">37CE37F8</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWXTEMP_CWXTDATE_09.stub#CWKTEMP/Stubs/CWXTEMP_CWXTDATE_09.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:pointerList argumentIndex="1" offset="0">
+        <stub:pointerstubdata id="0" name="CWXTEMP:EMP-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F3F2F4F1C8F3D4C1D9C3C9C140E2E4D3D3C9E5C1D5F5F540E2D6E4E3C840E2E3D9C5C5E3D5C5E640E8D6D9D2D5E8F1F0F0F1F740404040F4F403000F4040404040404040F9F3F0F4F0F54040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F3F2F4F1C8F3D4C1D9C3C9C140E2E4D3D3C9E5C1D5F5F540E2D6E4E3C840E2E3D9C5C5E3D5C5E640E8D6D9D2D5E8F1F0F0F1F740404040F4F403000F4040404040404040F9F3F0F4F0F54040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:pointerList argumentIndex="1" offset="4">
+        <stub:pointerstubdata id="0" name="CWXTEMP:WORK-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">0000000F00000100000F0682500F00000000003286600F000000000FD5D5F3F7D5D6D9E3C8404040404040404040404040404040F0F0F0F0F0F0F0F8F0F0F0F0F0F04040404040E2D6E4E3C8404040404040404040404040404040F0F0F0F0F0F0F0F7F5F0F0F0F0F04040404040C5C1E2E340404040404040404040404040404040F0F0F0F0F0F0F1F4F5F0F0F0F0F04040404040E6C5E2E340404040404040404040404040404040F0F0F0F0F0F0F0F5F5F5F5F0F0F04040404040E2F0F7F5F0F0F0F0F00600000F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">0018000FF0F40120000F0138000F00000000003424600F000000000FD5D5F2F7D5D6D9E3C8404040404040404040404040404040F0F0F0F0F0F0F0F8F0F0F0F0F0F04040404040E2D6E4E3C8404040404040404040404040404040F0F0F0F0F0F0F0F7F5F0F0F0F0F04040404040C5C1E2E340404040404040404040404040404040F0F0F0F0F0F0F1F4F5F0F0F0F0F04040404040E6C5E2E340404040404040404040404040404040F0F0F0F0F0F0F0F5F5F5F5F0F0F04040404040E2F0F7F5F0F0F0F0F00600000F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:returncode listructure="../Structures/CWXTEMP_RETURN-CODE.listructure#CWKTEMP/Structures/CWXTEMP_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTEMP</testcase:ddioMemberName>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTEMP" encoding="1047" entrypoint="CWXTEMP#" id="CWKTEMP/Scenarios/CWXTEMP_Scenario.testscenario%23CWXTEMPCase10" target="CWXTEMP">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1593735911000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTEMP.interface#CWKTEMP/Interfaces/CWXTEMP.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTEMP_TODAYS-DATE.listructure#CWKTEMP/Structures/CWXTEMP_TODAYS-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_TODAYS-DATE.listructure#TODAYS_DATE" id="arg0.TODAYS_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="expectedValue" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="address" type="string">37CE2608</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTEMP_REC-POINTERS.listructure#CWKTEMP/Structures/CWXTEMP_REC-POINTERS.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_REC-POINTERS.listructure#REC_POINTERS" id="arg1.REC_POINTERS">
+          <properties:properties>
+            <properties:property name="value" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="expectedValue" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="address" type="string">37CE37F8</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWXTEMP_CWXTDATE_10.stub#CWKTEMP/Stubs/CWXTEMP_CWXTDATE_10.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:pointerList argumentIndex="1" offset="0">
+        <stub:pointerstubdata id="0" name="CWXTEMP:EMP-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F1F3F4F3C8F3D1C1D4C5E240D4D6D9D9C9E2D6D540F1F160C140D4C1D7D3C540C1E5C540E2E8D9C1C3E4E2C5D5E8F1F2F1F2F340404040F3F702750F4040404040404040F9F1F0F9F1F34040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F1F3F4F3C8F3D1C1D4C5E240D4D6D9D9C9E2D6D540F1F160C140D4C1D7D3C540C1E5C540E2E8D9C1C3E4E2C5D5E8F1F2F1F2F340404040F3F702750F4040404040404040F9F1F0F9F1F34040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:pointerList argumentIndex="1" offset="4">
+        <stub:pointerstubdata id="0" name="CWXTEMP:WORK-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">0018000FF0F40120000F0138000F00000000003424600F000000000FD5D5F2F7D5D6D9E3C8404040404040404040404040404040F0F0F0F0F0F0F0F8F0F0F0F0F0F04040404040E2D6E4E3C8404040404040404040404040404040F0F0F0F0F0F0F0F7F5F0F0F0F0F04040404040C5C1E2E340404040404040404040404040404040F0F0F0F0F0F0F1F4F5F0F0F0F0F04040404040E6C5E2E340404040404040404040404040404040F0F0F0F0F0F0F0F5F5F5F5F0F0F04040404040E2F0F7F5F0F0F0F0F00600000F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">0000000FF0F40101750F0101750F00000000003526350F000000000FD5D5F2F8D5D6D9E3C8404040404040404040404040404040F0F0F0F0F0F0F0F8F0F0F0F0F0F04040404040E2D6E4E3C8404040404040404040404040404040F0F0F0F0F0F0F0F7F5F0F0F0F0F04040404040C5C1E2E340404040404040404040404040404040F0F0F0F0F0F0F1F4F5F0F0F0F0F04040404040E6C5E2E340404040404040404040404040404040F0F0F0F0F0F0F0F5F5F5F5F0F0F04040404040E2F0F7F5F0F0F0F0F00600000F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:returncode listructure="../Structures/CWXTEMP_RETURN-CODE.listructure#CWKTEMP/Structures/CWXTEMP_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTEMP</testcase:ddioMemberName>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTEMP" encoding="1047" entrypoint="CWXTEMP#" id="CWKTEMP/Scenarios/CWXTEMP_Scenario.testscenario%23CWXTEMPCase11" target="CWXTEMP">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1593735911000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTEMP.interface#CWKTEMP/Interfaces/CWXTEMP.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTEMP_TODAYS-DATE.listructure#CWKTEMP/Structures/CWXTEMP_TODAYS-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_TODAYS-DATE.listructure#TODAYS_DATE" id="arg0.TODAYS_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="expectedValue" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="address" type="string">37CE2608</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTEMP_REC-POINTERS.listructure#CWKTEMP/Structures/CWXTEMP_REC-POINTERS.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_REC-POINTERS.listructure#REC_POINTERS" id="arg1.REC_POINTERS">
+          <properties:properties>
+            <properties:property name="value" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="expectedValue" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="address" type="string">37CE37F8</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWXTEMP_CWXTSUBC_07.stub#CWKTEMP/Stubs/CWXTEMP_CWXTSUBC_07.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTEMP_CWXTDATE_11.stub#CWKTEMP/Stubs/CWXTEMP_CWXTDATE_11.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:pointerList argumentIndex="1" offset="0">
+        <stub:pointerstubdata id="0" name="CWXTEMP:EMP-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F5F2F1F3E2F2C4C5D5D5C9E240E6C8C9E3C5404040F4F740C3C1D9D9D6D3D340D7D34040D4C9C1D4C9404040C6D3F8F7F0F2F1404040400105000FF2F8F0F0F0F0F04040F8F8F0F2F2F94040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F5F2F1F3E2F2C4C5D5D5C9E240E6C8C9E3C5404040F4F740C3C1D9D9D6D3D340D7D34040D4C9C1D4C9404040C6D3F8F7F0F2F1404040400105000FF2F8F0F0F0F0F04040F8F8F0F2F2F94040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:pointerList argumentIndex="1" offset="4">
+        <stub:pointerstubdata id="0" name="CWXTEMP:WORK-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">0000000FF0F40101750F0101750F00000000003526350F000000000FD5D5F2F8D5D6D9E3C8404040404040404040404040404040F0F0F0F0F0F0F0F8F0F0F0F0F0F04040404040E2D6E4E3C8404040404040404040404040404040F0F0F0F0F0F0F0F7F5F0F0F0F0F04040404040C5C1E2E340404040404040404040404040404040F0F0F0F0F0F0F1F4F5F0F0F0F0F04040404040E6C5E2E340404040404040404040404040404040F0F0F0F0F0F0F0F5F5F5F5F0F0F04040404040E2F0F7F5F0F0F0F0F00600000F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">0000000FF0F40101750F0217000F00000000003743350F000000000FD5D5F3F2D5D6D9E3C8404040404040404040404040404040F0F0F0F0F0F0F0F8F0F0F0F0F0F04040404040E2D6E4E3C8404040404040404040404040404040F0F0F0F0F0F0F1F0F3F0F0F0F0F04040404040C5C1E2E340404040404040404040404040404040F0F0F0F0F0F0F1F4F5F0F0F0F0F04040404040E6C5E2E340404040404040404040404040404040F0F0F0F0F0F0F0F5F5F5F5F0F0F04040404040E2F0F2F8F0F0F0F0F00112000F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:returncode listructure="../Structures/CWXTEMP_RETURN-CODE.listructure#CWKTEMP/Structures/CWXTEMP_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTEMP</testcase:ddioMemberName>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTEMP" encoding="1047" entrypoint="CWXTEMP#" id="CWKTEMP/Scenarios/CWXTEMP_Scenario.testscenario%23CWXTEMPCase12" target="CWXTEMP">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1593735911000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTEMP.interface#CWKTEMP/Interfaces/CWXTEMP.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTEMP_TODAYS-DATE.listructure#CWKTEMP/Structures/CWXTEMP_TODAYS-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_TODAYS-DATE.listructure#TODAYS_DATE" id="arg0.TODAYS_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="expectedValue" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="address" type="string">37CE2608</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTEMP_REC-POINTERS.listructure#CWKTEMP/Structures/CWXTEMP_REC-POINTERS.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_REC-POINTERS.listructure#REC_POINTERS" id="arg1.REC_POINTERS">
+          <properties:properties>
+            <properties:property name="value" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="expectedValue" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="address" type="string">37CE37F8</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWXTEMP_CWXTDATE_12.stub#CWKTEMP/Stubs/CWXTEMP_CWXTDATE_12.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:pointerList argumentIndex="1" offset="0">
+        <stub:pointerstubdata id="0" name="CWXTEMP:EMP-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F2F1F7F1C8F4E2C1D4E4C5D340C1C4C4C1D4E24040F9F0F040D3C9D5C3D6D3D540C3E340D9C5D5D640404040D5E5F8F2F4F3F340404040F4F202750F4040404040404040F8F6F0F1F0F24040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F2F1F7F1C8F4E2C1D4E4C5D340C1C4C4C1D4E24040F9F0F040D3C9D5C3D6D3D540C3E340D9C5D5D640404040D5E5F8F2F4F3F340404040F4F202750F4040404040404040F8F6F0F1F0F24040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:pointerList argumentIndex="1" offset="4">
+        <stub:pointerstubdata id="0" name="CWXTEMP:WORK-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">0000000FF0F40101750F0217000F00000000003743350F000000000FD5D5F3F2D5D6D9E3C8404040404040404040404040404040F0F0F0F0F0F0F0F8F0F0F0F0F0F04040404040E2D6E4E3C8404040404040404040404040404040F0F0F0F0F0F0F1F0F3F0F0F0F0F04040404040C5C1E2E340404040404040404040404040404040F0F0F0F0F0F0F1F4F5F0F0F0F0F04040404040E6C5E2E340404040404040404040404040404040F0F0F0F0F0F0F0F5F5F5F5F0F0F04040404040E2F0F2F8F0F0F0F0F00112000F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">0008250FF0F20110000F0118250F00000000003861600F000000000FD5D5F3F4D5D6D9E3C8404040404040404040404040404040F0F0F0F0F0F0F0F8F0F0F0F0F0F04040404040E2D6E4E3C8404040404040404040404040404040F0F0F0F0F0F0F1F0F3F0F0F0F0F04040404040C5C1E2E340404040404040404040404040404040F0F0F0F0F0F0F1F4F5F0F0F0F0F04040404040E6C5E2E340404040404040404040404040404040F0F0F0F0F0F0F0F5F5F5F5F0F0F04040404040E2F0F2F8F0F0F0F0F00112000F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:returncode listructure="../Structures/CWXTEMP_RETURN-CODE.listructure#CWKTEMP/Structures/CWXTEMP_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTEMP</testcase:ddioMemberName>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTEMP" encoding="1047" entrypoint="CWXTEMP#" id="CWKTEMP/Scenarios/CWXTEMP_Scenario.testscenario%23CWXTEMPCase13" target="CWXTEMP">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1593735911000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTEMP.interface#CWKTEMP/Interfaces/CWXTEMP.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTEMP_TODAYS-DATE.listructure#CWKTEMP/Structures/CWXTEMP_TODAYS-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_TODAYS-DATE.listructure#TODAYS_DATE" id="arg0.TODAYS_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="expectedValue" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="address" type="string">37CE2608</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTEMP_REC-POINTERS.listructure#CWKTEMP/Structures/CWXTEMP_REC-POINTERS.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_REC-POINTERS.listructure#REC_POINTERS" id="arg1.REC_POINTERS">
+          <properties:properties>
+            <properties:property name="value" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="expectedValue" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="address" type="string">37CE37F8</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWXTEMP_CWXTSUBC_08.stub#CWKTEMP/Stubs/CWXTEMP_CWXTSUBC_08.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTEMP_CWXTDATE_13.stub#CWKTEMP/Stubs/CWXTEMP_CWXTDATE_13.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:pointerList argumentIndex="1" offset="0">
+        <stub:pointerstubdata id="0" name="CWXTEMP:EMP-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F3F2F1F5E2F4D4C1D9D240D1D6C8D5E2D6D5404040F1F240C8D6C2C1D9E340D9D6C1C440D7C8D6C5D5C9E740C1E9F3F1F2F3F4404040400075000FF7F5F0F0F0F0F04040F8F2F0F9F3F04040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F3F2F1F5E2F4D4C1D9D240D1D6C8D5E2D6D5404040F1F240C8D6C2C1D9E340D9D6C1C440D7C8D6C5D5C9E740C1E9F3F1F2F3F4404040400075000FF7F5F0F0F0F0F04040F8F2F0F9F3F04040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:pointerList argumentIndex="1" offset="4">
+        <stub:pointerstubdata id="0" name="CWXTEMP:WORK-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">0008250FF0F20110000F0118250F00000000003861600F000000000FD5D5F3F4D5D6D9E3C8404040404040404040404040404040F0F0F0F0F0F0F0F8F0F0F0F0F0F04040404040E2D6E4E3C8404040404040404040404040404040F0F0F0F0F0F0F1F0F3F0F0F0F0F04040404040C5C1E2E340404040404040404040404040404040F0F0F0F0F0F0F1F4F5F0F0F0F0F04040404040E6C5E2E340404040404040404040404040404040F0F0F0F0F0F0F0F5F5F5F5F0F0F04040404040E2F0F2F8F0F0F0F0F00112000F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">0008250FF0F20110000F0675000F00000000004536600F000000000FD5D5F3F7D5D6D9E3C8404040404040404040404040404040F0F0F0F0F0F0F0F8F0F0F0F0F0F04040404040E2D6E4E3C8404040404040404040404040404040F0F0F0F0F0F0F1F0F3F0F0F0F0F04040404040C5C1E2E340404040404040404040404040404040F0F0F0F0F0F0F1F4F5F0F0F0F0F04040404040E6C5E2E340404040404040404040404040404040F0F0F0F0F0F0F1F3F0F5F5F0F0F04040404040E2F0F7F5F0F0F0F0F00600000F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:returncode listructure="../Structures/CWXTEMP_RETURN-CODE.listructure#CWKTEMP/Structures/CWXTEMP_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTEMP</testcase:ddioMemberName>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTEMP" encoding="1047" entrypoint="CWXTEMP#" id="CWKTEMP/Scenarios/CWXTEMP_Scenario.testscenario%23CWXTEMPCase14" target="CWXTEMP">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1593735911000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTEMP.interface#CWKTEMP/Interfaces/CWXTEMP.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTEMP_TODAYS-DATE.listructure#CWKTEMP/Structures/CWXTEMP_TODAYS-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_TODAYS-DATE.listructure#TODAYS_DATE" id="arg0.TODAYS_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="expectedValue" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="address" type="string">37CE2608</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTEMP_REC-POINTERS.listructure#CWKTEMP/Structures/CWXTEMP_REC-POINTERS.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_REC-POINTERS.listructure#REC_POINTERS" id="arg1.REC_POINTERS">
+          <properties:properties>
+            <properties:property name="value" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="expectedValue" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="address" type="string">37CE37F8</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:pointerList argumentIndex="1" offset="0">
+        <stub:pointerstubdata id="0" name="CWXTEMP:EMP-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F2F1F3F6D4F4E2C1D440D4C9D3D3E2404040404040F1F340E2E4E3E3D6D540C2D3E5C440E6C1D3D5E4E34040C3C1F9F0F0F6F6404040400125000F404040404040404040F9F0F0F3F1F74040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F2F1F3F6D4F4E2C1D440D4C9D3D3E2404040404040F1F340E2E4E3E3D6D540C2D3E5C440E6C1D3D5E4E34040C3C1F9F0F0F6F6404040400125000F404040404040404040F9F0F0F3F1F74040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:pointerList argumentIndex="1" offset="4">
+        <stub:pointerstubdata id="0" name="CWXTEMP:WORK-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">0008250FF0F20110000F0675000F00000000004536600F000000000FD5D5F3F7D5D6D9E3C8404040404040404040404040404040F0F0F0F0F0F0F0F8F0F0F0F0F0F04040404040E2D6E4E3C8404040404040404040404040404040F0F0F0F0F0F0F1F0F3F0F0F0F0F04040404040C5C1E2E340404040404040404040404040404040F0F0F0F0F0F0F1F4F5F0F0F0F0F04040404040E6C5E2E340404040404040404040404040404040F0F0F0F0F0F0F1F3F0F5F5F0F0F04040404040E2F0F7F5F0F0F0F0F00600000F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">0008250FF0F20110000F0675000F00000000004536600F000000000FD5D5F3F7D5D6D9E3C8404040404040404040404040404040F0F0F0F0F0F0F0F8F0F0F0F0F0F04040404040E2D6E4E3C8404040404040404040404040404040F0F0F0F0F0F0F1F0F3F0F0F0F0F04040404040C5C1E2E340404040404040404040404040404040F0F0F0F0F0F0F1F4F5F0F0F0F0F04040404040E6C5E2E340E2C1D440D4C9D3D3E2404040404040F1F2F5F0F0F0F1F3F0F5F5F0F0F04040404040E2F0F7F5F0F0F0F0F00600000F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:returncode listructure="../Structures/CWXTEMP_RETURN-CODE.listructure#CWKTEMP/Structures/CWXTEMP_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTEMP</testcase:ddioMemberName>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTEMP" encoding="1047" entrypoint="CWXTEMP#" id="CWKTEMP/Scenarios/CWXTEMP_Scenario.testscenario%23CWXTEMPCase15" target="CWXTEMP">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1593735911000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTEMP.interface#CWKTEMP/Interfaces/CWXTEMP.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTEMP_TODAYS-DATE.listructure#CWKTEMP/Structures/CWXTEMP_TODAYS-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_TODAYS-DATE.listructure#TODAYS_DATE" id="arg0.TODAYS_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="expectedValue" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="address" type="string">37CE2608</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTEMP_REC-POINTERS.listructure#CWKTEMP/Structures/CWXTEMP_REC-POINTERS.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_REC-POINTERS.listructure#REC_POINTERS" id="arg1.REC_POINTERS">
+          <properties:properties>
+            <properties:property name="value" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="expectedValue" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="address" type="string">37CE37F8</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:pointerList argumentIndex="1" offset="0">
+        <stub:pointerstubdata id="0" name="CWXTEMP:EMP-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F0F8F8F7D4F1D2C1E3C8E840C4C5E3E34040404040F8F8F840E2C8C1D9D6D540D3C1D5C5C4C5E3D9D6C9E340D4C9F4F8F0F4F5404040400150000F404040404040404040F8F5F0F6F2F14040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F0F8F8F7D4F1D2C1E3C8E840C4C5E3E34040404040F8F8F840E2C8C1D9D6D540D3C1D5C5C4C5E3D9D6C9E340D4C9F4F8F0F4F5404040400150000F404040404040404040F8F5F0F6F2F14040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:pointerList argumentIndex="1" offset="4">
+        <stub:pointerstubdata id="0" name="CWXTEMP:WORK-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">0008250FF0F20110000F0675000F00000000004536600F000000000FD5D5F3F7D5D6D9E3C8404040404040404040404040404040F0F0F0F0F0F0F0F8F0F0F0F0F0F04040404040E2D6E4E3C8404040404040404040404040404040F0F0F0F0F0F0F1F0F3F0F0F0F0F04040404040C5C1E2E340404040404040404040404040404040F0F0F0F0F0F0F1F4F5F0F0F0F0F04040404040E6C5E2E340E2C1D440D4C9D3D3E2404040404040F1F2F5F0F0F0F1F3F0F5F5F0F0F04040404040E2F0F7F5F0F0F0F0F00600000F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">0008250FF0F20110000F0675000F00000000004536600F000000000FD5D5F3F7D5D6D9E3C8D2C1E3C8E840C4C5E3E34040404040F1F5F0F0F0F0F0F8F0F0F0F0F0F04040404040E2D6E4E3C8404040404040404040404040404040F0F0F0F0F0F0F1F0F3F0F0F0F0F04040404040C5C1E2E340404040404040404040404040404040F0F0F0F0F0F0F1F4F5F0F0F0F0F04040404040E6C5E2E340E2C1D440D4C9D3D3E2404040404040F1F2F5F0F0F0F1F3F0F5F5F0F0F04040404040E2F0F7F5F0F0F0F0F00600000F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:returncode listructure="../Structures/CWXTEMP_RETURN-CODE.listructure#CWKTEMP/Structures/CWXTEMP_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTEMP</testcase:ddioMemberName>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTEMP" encoding="1047" entrypoint="CWXTEMP#" id="CWKTEMP/Scenarios/CWXTEMP_Scenario.testscenario%23CWXTEMPCase16" target="CWXTEMP">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1593735911000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTEMP.interface#CWKTEMP/Interfaces/CWXTEMP.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTEMP_TODAYS-DATE.listructure#CWKTEMP/Structures/CWXTEMP_TODAYS-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_TODAYS-DATE.listructure#TODAYS_DATE" id="arg0.TODAYS_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="expectedValue" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="address" type="string">37CE2608</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTEMP_REC-POINTERS.listructure#CWKTEMP/Structures/CWXTEMP_REC-POINTERS.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_REC-POINTERS.listructure#REC_POINTERS" id="arg1.REC_POINTERS">
+          <properties:properties>
+            <properties:property name="value" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="expectedValue" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="address" type="string">37CE37F8</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:pointerList argumentIndex="1" offset="0">
+        <stub:pointerstubdata id="0" name="CWXTEMP:EMP-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F1F3F1F8D4F2C1E4C4D9C5E840C3D3C1D9D2404040F1F040D3C1D2C540E2E3D9C5C5E340C8D6E4E2E3D6D540E3E7F8F7F0F1F0404040400112500F404040404040404040F8F0F1F0F0F74040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F1F3F1F8D4F2C1E4C4D9C5E840C3D3C1D9D2404040F1F040D3C1D2C540E2E3D9C5C5E340C8D6E4E2E3D6D540E3E7F8F7F0F1F0404040400112500F404040404040404040F8F0F1F0F0F74040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:pointerList argumentIndex="1" offset="4">
+        <stub:pointerstubdata id="0" name="CWXTEMP:WORK-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">0008250FF0F20110000F0675000F00000000004536600F000000000FD5D5F3F7D5D6D9E3C8D2C1E3C8E840C4C5E3E34040404040F1F5F0F0F0F0F0F8F0F0F0F0F0F04040404040E2D6E4E3C8404040404040404040404040404040F0F0F0F0F0F0F1F0F3F0F0F0F0F04040404040C5C1E2E340404040404040404040404040404040F0F0F0F0F0F0F1F4F5F0F0F0F0F04040404040E6C5E2E340E2C1D440D4C9D3D3E2404040404040F1F2F5F0F0F0F1F3F0F5F5F0F0F04040404040E2F0F7F5F0F0F0F0F00600000F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">0008250FF0F20110000F0675000F00000000004536600F000000000FD5D5F3F7D5D6D9E3C8D2C1E3C8E840C4C5E3E34040404040F1F5F0F0F0F0F0F8F0F0F0F0F0F04040404040E2D6E4E3C8C1E4C4D9C5E840C3D3C1D9D2404040F1F1F2F5F0F0F1F0F3F0F0F0F0F04040404040C5C1E2E340404040404040404040404040404040F0F0F0F0F0F0F1F4F5F0F0F0F0F04040404040E6C5E2E340E2C1D440D4C9D3D3E2404040404040F1F2F5F0F0F0F1F3F0F5F5F0F0F04040404040E2F0F7F5F0F0F0F0F00600000F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:returncode listructure="../Structures/CWXTEMP_RETURN-CODE.listructure#CWKTEMP/Structures/CWXTEMP_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTEMP</testcase:ddioMemberName>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTEMP" encoding="1047" entrypoint="CWXTEMP#" id="CWKTEMP/Scenarios/CWXTEMP_Scenario.testscenario%23CWXTEMPCase17" target="CWXTEMP">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1593735911000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTEMP.interface#CWKTEMP/Interfaces/CWXTEMP.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTEMP_TODAYS-DATE.listructure#CWKTEMP/Structures/CWXTEMP_TODAYS-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_TODAYS-DATE.listructure#TODAYS_DATE" id="arg0.TODAYS_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="expectedValue" type="string">F2F0F0F7F0F3</properties:property>
+            <properties:property name="address" type="string">37CE2608</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTEMP_REC-POINTERS.listructure#CWKTEMP/Structures/CWXTEMP_REC-POINTERS.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_REC-POINTERS.listructure#REC_POINTERS" id="arg1.REC_POINTERS">
+          <properties:properties>
+            <properties:property name="value" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="expectedValue" type="string">37CE38D037CE3800</properties:property>
+            <properties:property name="address" type="string">37CE37F8</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:pointerList argumentIndex="1" offset="0">
+        <stub:pointerstubdata id="0" name="CWXTEMP:EMP-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_EMPLOYEE_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F1F1F8F9D4F3D2C1D9C5D540D1D6C8D5E2D6D54040F5F5F0F040D7C1D9D240C1E5C54040D5C5E640E8D6D9D2D5E8F1F0F0F1F2404040400200000F404040404040404040F7F6F1F2F0F14040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">F0F1F1F8F9D4F3D2C1D9C5D540D1D6C8D5E2D6D54040F5F5F0F040D7C1D9D240C1E5C54040D5C5E640E8D6D9D2D5E8F1F0F0F1F2404040400200000F404040404040404040F7F6F1F2F0F14040404040</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:pointerList argumentIndex="1" offset="4">
+        <stub:pointerstubdata id="0" name="CWXTEMP:WORK-REC-POINTER OF REC-POINTERS">
+          <stub:interface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:interface>
+          <stub:inputinterface>../Interfaces/CWXTEMP_WORK_AREA.interface#CWKTEMP/Interfaces/CWXTEMP_WORK_AREA.interface</stub:inputinterface>
+          <stub:input listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">0008250FF0F20110000F0675000F00000000004536600F000000000FD5D5F3F7D5D6D9E3C8D2C1E3C8E840C4C5E3E34040404040F1F5F0F0F0F0F0F8F0F0F0F0F0F04040404040E2D6E4E3C8C1E4C4D9C5E840C3D3C1D9D2404040F1F1F2F5F0F0F1F0F3F0F0F0F0F04040404040C5C1E2E340404040404040404040404040404040F0F0F0F0F0F0F1F4F5F0F0F0F0F04040404040E6C5E2E340E2C1D440D4C9D3D3E2404040404040F1F2F5F0F0F0F1F3F0F5F5F0F0F04040404040E2F0F7F5F0F0F0F0F00600000F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:input>
+          <stub:output listructure="../Structures/CWXTEMP_WORK-AREA.listructure#CWKTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+            <stub:data baseType="listructure:structType ../Structures/CWXTEMP_WORK-AREA.listructure#WORK_AREA" id="arg0.WORK_AREA">
+              <properties:properties>
+                <properties:property name="value" type="string">0008250FF0F20110000F0675000F00000000004536600F000000000FD5D5F3F7D5D6D9E3C8D2C1E3C8E840C4C5E3E34040404040F1F5F0F0F0F0F0F8F0F0F0F0F0F04040404040E2D6E4E3C8C1E4C4D9C5E840C3D3C1D9D2404040F1F1F2F5F0F0F1F0F3F0F0F0F0F04040404040C5C1E2E340D2C1D9C5D540D1D6C8D5E2D6D54040F2F0F0F0F0F0F1F4F5F0F0F0F0F04040404040E6C5E2E340E2C1D440D4C9D3D3E2404040404040F1F2F5F0F0F0F1F3F0F5F5F0F0F04040404040E2F0F7F5F0F0F0F0F00600000F</properties:property>
+              </properties:properties>
+            </stub:data>
+          </stub:output>
+          <stub:checkconditions/>
+        </stub:pointerstubdata>
+      </testcase:pointerList>
+      <testcase:returncode listructure="../Structures/CWXTEMP_RETURN-CODE.listructure#CWKTEMP/Structures/CWXTEMP_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTEMP_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTEMP</testcase:ddioMemberName>
+    </testscenario:testcase>
+  </testscenario:testcases>
+</testscenario:testscenario>

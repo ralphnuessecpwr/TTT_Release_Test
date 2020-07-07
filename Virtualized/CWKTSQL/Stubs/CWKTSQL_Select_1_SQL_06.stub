@@ -1,0 +1,214 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="CWKTSQL/Stubs/CWKTSQL_Select_1_SQL_06.stub" nextCalltoken="160003" stubtype="SQL" target="Select" token="160000">
+  <stub:description>Created: Jul 3, 2020 3:09:22 PM</stub:description>
+  <stub:stubdata id="0" name="Select">
+    <stub:interface>../Interfaces/CWKTSQL_Select_1_in_EMP_NUM.interface#CWKTSQL/Interfaces/CWKTSQL_Select_1_in_EMP_NUM.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWKTSQL/CWKTSQL_Select_EMP-NUM.listructure#CWKTSQL/Structures/Db2/CWKTSQL/CWKTSQL_Select_EMP-NUM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTSQL/CWKTSQL_Select_EMP-NUM.listructure#EMP_NUM" id="arg0.EMP_NUM">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F1F7F1</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlResults>
+      <stub:result id="1" name="Select">
+        <stub:interface>../Interfaces/CWKTSQL_Select_1_out_COMM.interface#CWKTSQL/Interfaces/CWKTSQL_Select_1_out_COMM.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/CWKTSQL/CWKTSQL_Select_EMP-NUM.listructure#CWKTSQL/Structures/Db2/CWKTSQL/CWKTSQL_Select_EMP-NUM.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTSQL/CWKTSQL_Select_EMP-NUM.listructure#EMP_NUM" id="arg0.EMP_NUM">
+            <properties:properties>
+              <properties:property name="value" type="string">F0F2F1F7F1</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTSQL/CWKTSQL_Select_WAGE-TYPE.listructure#CWKTSQL/Structures/Db2/CWKTSQL/CWKTSQL_Select_WAGE-TYPE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTSQL/CWKTSQL_Select_WAGE-TYPE.listructure#WAGE_TYPE" id="arg1.WAGE_TYPE">
+            <properties:properties>
+              <properties:property name="value" type="string">C8</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTSQL/CWKTSQL_Select_REGION.listructure#CWKTSQL/Structures/Db2/CWKTSQL/CWKTSQL_Select_REGION.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTSQL/CWKTSQL_Select_REGION.listructure#REGION" id="arg2.REGION">
+            <properties:properties>
+              <properties:property name="value" type="string">0004</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTSQL/CWKTSQL_Select_FIRST-LAST-NAME.listructure#CWKTSQL/Structures/Db2/CWKTSQL/CWKTSQL_Select_FIRST-LAST-NAME.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTSQL/CWKTSQL_Select_FIRST-LAST-NAME.listructure#FIRST_LAST_NAME" id="arg3.FIRST_LAST_NAME">
+            <properties:properties>
+              <properties:property name="value" type="string">000EE2C1D4E4C5D340C1C4C4C1D4E24040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTSQL/CWKTSQL_Select_STREET-ADDR.listructure#CWKTSQL/Structures/Db2/CWKTSQL/CWKTSQL_Select_STREET-ADDR.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTSQL/CWKTSQL_Select_STREET-ADDR.listructure#STREET_ADDR" id="arg4.STREET_ADDR">
+            <properties:properties>
+              <properties:property name="value" type="string">000EF9F0F040D3C9D5C3D6D3D540C3E340</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTSQL/CWKTSQL_Select_CITY.listructure#CWKTSQL/Structures/Db2/CWKTSQL/CWKTSQL_Select_CITY.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTSQL/CWKTSQL_Select_CITY.listructure#CITY" id="arg5.CITY">
+            <properties:properties>
+              <properties:property name="value" type="string">0004D9C5D5D640404040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTSQL/CWKTSQL_Select_STATE.listructure#CWKTSQL/Structures/Db2/CWKTSQL/CWKTSQL_Select_STATE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTSQL/CWKTSQL_Select_STATE.listructure#STATE" id="arg6.STATE">
+            <properties:properties>
+              <properties:property name="value" type="string">D5E5</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTSQL/CWKTSQL_Select_ZIP.listructure#CWKTSQL/Structures/Db2/CWKTSQL/CWKTSQL_Select_ZIP.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTSQL/CWKTSQL_Select_ZIP.listructure#ZIP" id="arg7.ZIP">
+            <properties:properties>
+              <properties:property name="value" type="string">F8F2F4F3F340</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTSQL/CWKTSQL_Select_HIREDATE.listructure#CWKTSQL/Structures/Db2/CWKTSQL/CWKTSQL_Select_HIREDATE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTSQL/CWKTSQL_Select_HIREDATE.listructure#HIREDATE" id="arg8.HIREDATE">
+            <properties:properties>
+              <properties:property name="value" type="string">F8F6F0F1F0F2</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTSQL/CWKTSQL_Select_HOURS.listructure#CWKTSQL/Structures/Db2/CWKTSQL/CWKTSQL_Select_HOURS.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTSQL/CWKTSQL_Select_HOURS.listructure#HOURS" id="arg9.HOURS">
+            <properties:properties>
+              <properties:property name="value" type="string">042C</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTSQL/CWKTSQL_Select_RATE.listructure#CWKTSQL/Structures/Db2/CWKTSQL/CWKTSQL_Select_RATE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTSQL/CWKTSQL_Select_RATE.listructure#RATE" id="arg10.RATE">
+            <properties:properties>
+              <properties:property name="value" type="string">0002750C</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTSQL/CWKTSQL_Select_WAGES.listructure#CWKTSQL/Structures/Db2/CWKTSQL/CWKTSQL_Select_WAGES.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTSQL/CWKTSQL_Select_WAGES.listructure#WAGES" id="arg11.WAGES">
+            <properties:properties>
+              <properties:property name="value" type="string">0110000C</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTSQL/CWKTSQL_Select_OVERTIME.listructure#CWKTSQL/Structures/Db2/CWKTSQL/CWKTSQL_Select_OVERTIME.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTSQL/CWKTSQL_Select_OVERTIME.listructure#OVERTIME" id="arg12.OVERTIME">
+            <properties:properties>
+              <properties:property name="value" type="string">0000000C</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTSQL/CWKTSQL_Select_COMM.listructure#CWKTSQL/Structures/Db2/CWKTSQL/CWKTSQL_Select_COMM.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTSQL/CWKTSQL_Select_COMM.listructure#COMM" id="arg13.COMM">
+            <properties:properties>
+              <properties:property name="value" type="string">0118250C</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="Select">
+            <stub:text>           EXEC SQL
+              SELECT
+                    EMP_NUM,
+                    WAGE_TYPE,
+                    REGION,
+                    FIRST_LAST_NAME,
+                    STREET_ADDR,
+                    CITY,
+                    STATE,
+                    ZIP,
+                    HIREDATE,
+                    HOURS,
+                    RATE,
+                    WAGES,
+                    OVERTIME,
+                    COMM
+                 INTO
+                    :EMP-NUM,
+                    :WAGE-TYPE,
+                    :REGION,
+                    :FIRST-LAST-NAME,
+                    :STREET-ADDR,
+                    :CITY,
+                    :STATE,
+                    :ZIP,
+                    :HIREDATE,
+                    :HOURS,
+                    :RATE,
+                    :WAGES,
+                    :OVERTIME,
+                    :COMM
+                 FROM KT_DEMOTAB
+                 WHERE EMP_NUM = :EMP-NUM
+           END-EXEC.
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00404400001EC3E6D2E3E2D8D3401B0527BC14BC3650000137E9116837E8FC9037E8FA18047400E7000000B00000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C14E400800000278000E000E01C4000537E911F000000000000800000474000000004040404040404040404040404040404040404040404001C4000137E911F500000000000800000474000000004040404040404040404040404040404040404040404001F4000237E911F600000000000000000000000000000000000000000000000000000000000000000000000001C0000F37E911F800000000000800000474000000004040404040404040404040404040404040404040404001C0000F37E9120900000000000800000474000000004040404040404040404040404040404040404040404001C0000837E9121A00000000000800000474000000004040404040404040404040404040404040404040404001C4000237E9122400000000000800000474000000004040404040404040404040404040404040404040404001C4000637E9122600000000000800000474000000004040404040404040404040404040404040404040404001C4000637E9122C00000000000800000474000000004040404040404040404040404040404040404040404001E4020037E9123200000000000000000000000000000000000000000000000000000000000000000000000001E4060237E9123400000000000000000000000000000000000000000000000000000000000000000000000001E4060237E9123800000000000000000000000000000000000000000000000000000000000000000000000001E4060237E9123C00000000000000000000000000000000000000000000000000000000000000000000000001E4060237E91240000000000000000000000000000000000000000000000000000000000000000000000000</stub:varRawData>
+            <stub:varRawData>E2D8D3C4C14E40080000003C0001000101C4000537E911F0000000000008000004740000000040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="160002">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+    </stub:sqlResults>
+    <stub:sqlStatus>
+      <stub:statement type="Select">
+        <stub:text>           EXEC SQL
+              SELECT
+                    EMP_NUM,
+                    WAGE_TYPE,
+                    REGION,
+                    FIRST_LAST_NAME,
+                    STREET_ADDR,
+                    CITY,
+                    STATE,
+                    ZIP,
+                    HIREDATE,
+                    HOURS,
+                    RATE,
+                    WAGES,
+                    OVERTIME,
+                    COMM
+                 INTO
+                    :EMP-NUM,
+                    :WAGE-TYPE,
+                    :REGION,
+                    :FIRST-LAST-NAME,
+                    :STREET-ADDR,
+                    :CITY,
+                    :STATE,
+                    :ZIP,
+                    :HIREDATE,
+                    :HOURS,
+                    :RATE,
+                    :WAGES,
+                    :OVERTIME,
+                    :COMM
+                 FROM KT_DEMOTAB
+                 WHERE EMP_NUM = :EMP-NUM
+           END-EXEC.
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404400001EC3E6D2E3E2D8D3401B0527BC14BC3650000137E9116837E8FC9037E8FA18047400E7000000B00000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C14E400800000278000E000E01C4000537E911F000000000000800000474000000004040404040404040404040404040404040404040404001C4000137E911F500000000000800000474000000004040404040404040404040404040404040404040404001F4000237E911F600000000000000000000000000000000000000000000000000000000000000000000000001C0000F37E911F800000000000800000474000000004040404040404040404040404040404040404040404001C0000F37E9120900000000000800000474000000004040404040404040404040404040404040404040404001C0000837E9121A00000000000800000474000000004040404040404040404040404040404040404040404001C4000237E9122400000000000800000474000000004040404040404040404040404040404040404040404001C4000637E9122600000000000800000474000000004040404040404040404040404040404040404040404001C4000637E9122C00000000000800000474000000004040404040404040404040404040404040404040404001E4020037E9123200000000000000000000000000000000000000000000000000000000000000000000000001E4060237E9123400000000000000000000000000000000000000000000000000000000000000000000000001E4060237E9123800000000000000000000000000000000000000000000000000000000000000000000000001E4060237E9123C00000000000000000000000000000000000000000000000000000000000000000000000001E4060237E91240000000000000000000000000000000000000000000000000000000000000000000000000</stub:varRawData>
+        <stub:varRawData>E2D8D3C4C14E40080000003C0001000101C4000537E911F0000000000008000004740000000040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="160001">
+        <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:database version="1110"/>
+</stub:stub>

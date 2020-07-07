@@ -1,0 +1,185 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="CWDEMCCH/Stubs/CWDEMCCH_SEND_RECEIVE_02.stub" nextCalltoken="1440004" stubtype="CICS" target="" token="1440000">
+  <stub:description>Created: Jul 7, 2020 11:49:33 AM</stub:description>
+  <stub:stubdata callToken="1440001" id="0" name="EXEC CICS HANDLE">
+    <stub:interface>../Interfaces/CWDEMCCH_SEND_RECEIVE.interface#CWDEMCCH/Interfaces/CWDEMCCH_SEND_RECEIVE.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWDEMCCH_SEND_RECEIVE.interface#CWDEMCCH/Interfaces/CWDEMCCH_SEND_RECEIVE.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">02068000070500000000000000000000000000000000F0F0F0F3F0F64040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">02068000070500000000000000000000000000000000F0F0F0F3F0F64040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:statement type="EXEC CICS HANDLE">
+      <stub:text>           EXEC CICS HANDLE AID
+                     CLEAR (800-RETURN-TO-CICS)
+           END-EXEC.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_DFHEIBLK.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_DFHEIBLK.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_DFHEIBLK.listructure#DFHEIBLK" id="arg0.DFHEIBLK">
+        <properties:properties>
+          <properties:property name="value" type="string">0054911C0120189FE7C3C3C80000993CC3F0F8F90000000600007D02060000000000000000000000000000000000000000000040404040404040400000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+  <stub:stubdata callToken="1440002" id="1" name="EXEC CICS RECEIVE">
+    <stub:interface>../Interfaces/CWDEMCCH_SEND_RECEIVE1.interface#CWDEMCCH/Interfaces/CWDEMCCH_SEND_RECEIVE1.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWDEMCCH_SEND_RECEIVE1.interface#CWDEMCCH/Interfaces/CWDEMCCH_SEND_RECEIVE1.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0402C0000700000014000040000000F0F0F0F3F4F3404040020480000716</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_DUMMY-EMP.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_DUMMY-EMP.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_DUMMY-EMP.listructure#DUMMY_EMP" id="arg1.DUMMY_EMP">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_DUMMY-LEN.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_DUMMY-LEN.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_DUMMY-LEN.listructure#DUMMY_LEN" id="arg2.DUMMY_LEN">
+        <properties:properties>
+          <properties:property name="value" type="string">0008</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0402C0000700000014000040000000F0F0F0F3F4F3404040020480000716</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_DUMMY-EMP.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_DUMMY-EMP.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_DUMMY-EMP.listructure#DUMMY_EMP" id="arg1.DUMMY_EMP">
+        <properties:properties>
+          <properties:property name="value" type="string">1140C6F0F0F0F0F5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_DUMMY-LEN.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_DUMMY-LEN.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_DUMMY-LEN.listructure#DUMMY_LEN" id="arg2.DUMMY_LEN">
+        <properties:properties>
+          <properties:property name="value" type="string">0008</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:statement type="EXEC CICS RECEIVE">
+      <stub:text>           EXEC CICS RECEIVE
+                     INTO   (DUMMY-EMP)
+                     LENGTH (DUMMY-LEN)
+           END-EXEC.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_DFHEIBLK.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_DFHEIBLK.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_DFHEIBLK.listructure#DFHEIBLK" id="arg0.DFHEIBLK">
+        <properties:properties>
+          <properties:property name="value" type="string">0054911C0120189FE7C3C3C80000993CC3F0F8F90000000600007D040200200000000000000000000000000000000000000000C3F0F8F9404040400000000000FF00FF000000000000000000000000060000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+  <stub:stubdata callToken="1440003" id="2" name="EXEC CICS SEND">
+    <stub:interface>../Interfaces/CWDEMCCH_SEND_RECEIVE2.interface#CWDEMCCH/Interfaces/CWDEMCCH_SEND_RECEIVE2.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWDEMCCH_SEND_RECEIVE2.interface#CWDEMCCH/Interfaces/CWDEMCCH_SEND_RECEIVE2.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">040430000700000081000040000000F0F0F0F5F4F7404040020480000716</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_CICS-GENERATED-CONSTANT-1.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_CICS-GENERATED-CONSTANT-1.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_CICS-GENERATED-CONSTANT-1.listructure#CICS_GENERATED_CONSTANT_1" id="arg1.CICS_GENERATED_CONSTANT_1">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_CICS-GENERATED-CONSTANT-2.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_CICS-GENERATED-CONSTANT-2.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_CICS-GENERATED-CONSTANT-2.listructure#CICS_GENERATED_CONSTANT_2" id="arg2.CICS_GENERATED_CONSTANT_2">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_PAYMAP2.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_PAYMAP2.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2" id="arg3.PAYMAP2">
+        <properties:properties>
+          <properties:property name="value" type="string">5C5C5C40C3D6D4D7E4E6C1D9C540C3D6D9D7D6D9C1E3C9D6D5405C5C5C4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C3F0F1F34040C4C5D4D6D5E2E3D9C1E3C9D6D540E3D9C1D5E2C1C3E3C9D6D54040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C5D4D7D3D6E8C5C540D5E4D4C2C5D97A40F0F0F0F5F040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C5D4D7D3D6E8C5C540D5C1D4C57A404040D1D6C8D540E2D4C9E3C84040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C8D6E4D9E240E6D6D9D2C5C47A40404040F0F4F0404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C8D6E4D9D3E840D9C1E3C57A404040404040F5F04BF0F0404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C7D9D6E2E240D7C1E87A40404040404040404040F2F0F0F04BF0F04040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040405C5C5C40E3D9C1D5E2C1C3E3C9D6D540C3D6D4D7D3C5E3C5405C5C5C40404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_PAYMAP2-LEN.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_PAYMAP2-LEN.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_PAYMAP2-LEN.listructure#PAYMAP2_LEN" id="arg4.PAYMAP2_LEN">
+        <properties:properties>
+          <properties:property name="value" type="string">0320</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">040430000700000081000040000000F0F0F0F5F4F7404040020480000716</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_CICS-GENERATED-CONSTANT-1.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_CICS-GENERATED-CONSTANT-1.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_CICS-GENERATED-CONSTANT-1.listructure#CICS_GENERATED_CONSTANT_1" id="arg1.CICS_GENERATED_CONSTANT_1">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_CICS-GENERATED-CONSTANT-2.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_CICS-GENERATED-CONSTANT-2.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_CICS-GENERATED-CONSTANT-2.listructure#CICS_GENERATED_CONSTANT_2" id="arg2.CICS_GENERATED_CONSTANT_2">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_PAYMAP2.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_PAYMAP2.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2" id="arg3.PAYMAP2">
+        <properties:properties>
+          <properties:property name="value" type="string">5C5C5C40C3D6D4D7E4E6C1D9C540C3D6D9D7D6D9C1E3C9D6D5405C5C5C4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C3F0F1F34040C4C5D4D6D5E2E3D9C1E3C9D6D540E3D9C1D5E2C1C3E3C9D6D54040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C5D4D7D3D6E8C5C540D5E4D4C2C5D97A40F0F0F0F5F040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C5D4D7D3D6E8C5C540D5C1D4C57A404040D1D6C8D540E2D4C9E3C84040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C8D6E4D9E240E6D6D9D2C5C47A40404040F0F4F0404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C8D6E4D9D3E840D9C1E3C57A404040404040F5F04BF0F0404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C7D9D6E2E240D7C1E87A40404040404040404040F2F0F0F04BF0F04040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040405C5C5C40E3D9C1D5E2C1C3E3C9D6D540C3D6D4D7D3C5E3C5405C5C5C40404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_PAYMAP2-LEN.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_PAYMAP2-LEN.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_PAYMAP2-LEN.listructure#PAYMAP2_LEN" id="arg4.PAYMAP2_LEN">
+        <properties:properties>
+          <properties:property name="value" type="string">0320</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:statement type="EXEC CICS SEND">
+      <stub:text>           EXEC CICS SEND
+                     FROM   (PAYMAP2)
+                     LENGTH (PAYMAP2-LEN)
+                     ERASE
+           END-EXEC.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_DFHEIBLK.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_DFHEIBLK.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_DFHEIBLK.listructure#DFHEIBLK" id="arg0.DFHEIBLK">
+        <properties:properties>
+          <properties:property name="value" type="string">0054911C0120189FE7C3C3C80000993CC3F0F8F90000000600007D040400000000000000000000000000000000000000000000C3F0F8F9404040400000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+</stub:stub>
