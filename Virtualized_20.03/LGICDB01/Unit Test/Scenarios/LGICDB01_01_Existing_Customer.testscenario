@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.4.1.v20190319-1916_877?>
 <!--Topaz for Total Test 19.4.1.v20190319-1916_877 21.05.2019 10:34:33-->
-<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Unit%20Test/Scenarios/LGICDB01_01_Existing_Customer.testscenario">
+<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="LGICDB01/Unit%20Test/Scenarios/LGICDB01_01_Existing_Customer.testscenario">
   <testscenario:description>Customer inquiry DB2 program&#xD;
 Search for exeisting customer</testscenario:description>
   <testscenario:testcases>
