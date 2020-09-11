@@ -1,0 +1,265 @@
+
+***************** Output from TTTRUNNR *****************
+
+ STTR043I Initializing simulation environment for: COBOL V4
+ STTR043I Initializing simulation environment for: COBOL V5
+ STTR011I totaltest zTargetRunner v170200 on 2019-05-23 03:25.01��������������������������������������
+ STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
+ STTR013I Processing test suite LGICDB01
+ STTR014I Processing test scenario LGICDB01
+ STTR028I Processing test case LGICDB01
+ STTR006I Executing target LGICDB01
+ CEE3201S The system detected an operation exception (System Completion Code=0C1).
+          From compile unit LGICDB01 at entry point LGICDB01 at compile unit offset -38494020 at entry offset -38494020
+           at address 00000000.
+          Possible Bad Branch:  Statement:   Offset: +000031A2
+
+***************** Output from TTOUT *****************
+
+ ---BNDTARGT---entry
+ --->>>modName = LGICDB01, epName = LGICDB01
+ ---openW_includeName---entry
+ --->>>moduleName = LGICDB01
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getE: rc, count = 2, rs = <0X83000800>.
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDTARGT---exit
+ ---BNDTARGT---entry
+ --->>>modName = LGICDB01, epName = LGICDB01
+ ---openW_includeName---entry
+ --->>>moduleName = LGICDB01
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getE: rc, count = 2, rs = <0X83000800>.
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDTARGT---exit
+ ---IDRDDIO---entry
+ --->>>modName = LGICDB01, csectName = LGICDB01
+ ---openW_includeName---entry
+ --->>>moduleName = LGICDB01
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  IDRU: Creation Date = 2019052, Length = 40
+   data = c3e7d3c7c9c3c4c2f0f1075d57b8640e5ff9795702925e604c7b7e762bc40c800000000000000000
+   program = LGICDB01, ddio(30) = GENAPP.NONISPW.PROD.LISTING.DB
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---IDRDDIO---exit
+ ---TARGET---entry
+ module: LGICDB01, csect: LGICDB01, entry: LGICDB01
+ ---TARGETcxx---entry
+ ---TARGETcxx---exit
+ ---TARGET---exit newTARGET: 38575028
+ ---TARGCALL---entry newTARGET: 38575028
+ ---T addTargetCall---entry
+ ---CC targetCall---entry
+ CC AV ptr: 0
+ CC AVb ptr: 0
+ ---CC targetCall---exit
+ ---CC targetCall---entry
+ CC AV ptr: 0
+ CC AVb ptr: 0
+ ---CC targetCall---exit
+ ---~targetCall---entry
+ ---~targetCall---exit
+ ---addTargetCall---entry
+ AV ptr: 0
+ AVb ptr: 0
+ ---addTargetCall---exit
+ ---T addTargetCall---exit
+ ---~targetCall---entry
+ ---~targetCall---exit
+ ---TARGCALL---exit
+ ---TARGARG---entry
+ length: 85
+ ---T addTargetArg---entry
+ ---setData---entry
+ cL: 85
+ ---setData---exit
+ ---CC TTArgVal---entry
+ CC TTArgVal exit--- avP ptr: 0
+ ---addTargetArg---entry
+ AV ptr: 0
+ AV #: 0
+ ---CC TTArgVal---entry
+ CC TTArgVal exit--- avP ptr: 0
+ ---CC TTArgVal---entry
+ CC TTArgVal exit--- avP ptr: 0
+ ---~TTArgVal---entry
+ ---~TTArgVal---exit
+ gDA
+ AV ptr: 385750E8
+ ---addTargetArg---workingArea: 38575088
+ ---~TTArgVal---entry
+ ---~TTArgVal---exit
+ ---T addTargetArg---workingArea: 38575088
+ ---~TTArgVal---entry
+ ---~TTArgVal---exit
+ ---TARGARG--- workingArea: 38575088
+ ---TARGARG---entry
+ length: 32522
+ ---T addTargetArg---entry
+ ---setData---entry
+ cL: 32522
+ ---setData---exit
+ ---CC TTArgVal---entry
+ CC TTArgVal exit--- avP ptr: 0
+ ---addTargetArg---entry
+ AV ptr: 385750E8
+ AV #: 1
+ ---CC TTArgVal---entry
+ CC TTArgVal exit--- avP ptr: 0
+ ---CC TTArgVal---entry
+ CC TTArgVal exit--- avP ptr: 0
+ ---CC TTArgVal---entry
+ CC TTArgVal exit--- avP ptr: 0
+ ---~TTArgVal---entry
+ ---~TTArgVal---exit
+ ---~TTArgVal---entry
+ ---~TTArgVal---exit
+ gDA
+ AV ptr: 385750E8
+ ---addTargetArg---workingArea: 38575138
+ ---~TTArgVal---entry
+ ---~TTArgVal---exit
+ ---T addTargetArg---workingArea: 38575138
+ ---~TTArgVal---entry
+ ---~TTArgVal---exit
+ ---TARGARG--- workingArea: 38575138
+ ---BNDHOOK---entry
+ --->>>modName = LGICDB01, pgmName = LGICDB01, vName = DFHEI1   , offset = 00000000
+ ---openW_includeName---entry
+ --->>>moduleName = LGICDB01
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getD: rc, count = 41, rs = <0X83000800>.
+ --->>>class_offset: 00000174
+ --->>>element_offset: 00000154
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDHOOK---exit
+ ---BNDHOOK---entry
+ --->>>modName = LGICDB01, pgmName = LGICDB01, vName = DFHEI1   , offset = 00000154
+ ---openW_includeName---entry
+ --->>>moduleName = LGICDB01
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getD: rc, count = 41, rs = <0X83000800>.
+ --->>>class_offset: 00000174
+ --->>>no additional elements found
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDHOOK---exit
+ ---TTEXRE---entry
+ |Input EXEC (34 bytes):
+       *EXEC CICS RETURN END-EXEC.
+ 
+ |Reduced EXEC (6 bytes):
+ RETURN
+ ---TTEXRE---exit  rc: 0
+ ---EXCICS---entry
+ release: 386092FA  stubToken: 00002710
+ stubType:       signature: 3861331A  signatureLength: 00000006
+ ---EXCICScxx---entry
+ release: 386092FA  token: 00002710
+ signature: 3861331A  length: 00000006
+ commandTable: 37389140
+ ---EXCICScxx---exit
+ ---EXCICS---exit newEXCICS: 386DA028
+ ---TTEXRE---entry
+ |Input EXEC (34 bytes):
+       *EXEC CICS RETURN END-EXEC.
+ 
+ |Reduced EXEC (6 bytes):
+ RETURN
+ ---TTEXRE---exit  rc: 0
+ ---CICSCALL---entry
+ ---s00 addCall---entry
+ ---cicsCall---entry
+ ---cicsCall---exit
+ ---~cicsCall---entry
+ ---~cicsCall---exit
+ ---initCall---entry
+ token: 00002711
+ ---initCall---exit
+ ---s00 addCall---exit
+ ---~cicsCall---entry
+ ---~cicsCall---exit
+ ---CICSCALL---exit
+ ---CICSARGB---entry
+ ---s00 addArgBefore---entry
+ calls: 1
+ arg: 0
+ ---s00 buildMyCICSee---entry
+ ---resolveCICSee---entry
+ ---doARG0patternA---entry
+ ---doARG0patternA---exit
+ ---resolveCICSee---exit
+ *ee: X'C1D7C340'
+ ---iS---
+ ---s00 buildMyCICSee---exit
+ ---setData---entry
+ cL: 17
+ avData @386DA190
+ *parmData: X'0E080000'
+ avData[0] @386DA1A8
+ *avData: X'0E080000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Arg0 function: 0e08
+ Count: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---s00 addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---CICSARGB---exit
+ ---CICSARGA---entry
+ ---s00 addArgAfter---entry
+ arg: 0
+ ---setData---entry
+ cL: 17
+ avData @386DA200
+ *parmData: X'0E080000'
+ avData[0] @386DA218
+ *avData: X'0E080000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---s00 addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---CICSARGA---exit

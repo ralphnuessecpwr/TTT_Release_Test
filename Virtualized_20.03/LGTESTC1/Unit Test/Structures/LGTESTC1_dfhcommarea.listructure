@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.4.1.v20190319-1916_877?>
+<!--Topaz for Total Test 19.4.1.v20190319-1916_877 21.05.2019 10:31:04-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/LGTESTC1_dfhcommarea.listructure">
+  <listructure:struct id="dfhcommarea" name="dfhcommarea">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">1</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">1</properties:property>
+    </properties:properties>
+    <listructure:string id="dfhcommarea.dfhcommarea" length="1" name="dfhcommarea">
+      <properties:properties>
+        <properties:property name="picture" type="string">x(1)</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">x(1)</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.4.1.v20190319-1916_877?>
+<!--Topaz for Total Test 19.4.1.v20190319-1916_877 21.05.2019 10:34:20-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Unit%20Test/Interfaces/LGICDB01_Select_1_out_FIELD_0016.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0001.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0001.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0001.listructure#FIELD_0001">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0001.listructure#FIELD_0001.FIELD_0001">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0002.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0002.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0002.listructure#FIELD_0002">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0002.listructure#FIELD_0002.FIELD_0002">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0003.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0003.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0003.listructure#FIELD_0003">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0003.listructure#FIELD_0003.FIELD_0003">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0004.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0004.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0004.listructure#FIELD_0004">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0004.listructure#FIELD_0004.FIELD_0004">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0005.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0005.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0005.listructure#FIELD_0005">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0005.listructure#FIELD_0005.FIELD_0005">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0006.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0006.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0006.listructure#FIELD_0006">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0006.listructure#FIELD_0006.FIELD_0006">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0007.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0007.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0007.listructure#FIELD_0007">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0007.listructure#FIELD_0007.FIELD_0007">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0008.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0008.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0008.listructure#FIELD_0008">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0008.listructure#FIELD_0008.FIELD_0008">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0009.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0009.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0009.listructure#FIELD_0009">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0009.listructure#FIELD_0009.FIELD_0009">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0010.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0010.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0010.listructure#FIELD_0010">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0010.listructure#FIELD_0010.FIELD_0010">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0011.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0011.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0011.listructure#FIELD_0011">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0011.listructure#FIELD_0011.FIELD_0011">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0012.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0012.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0012.listructure#FIELD_0012">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0012.listructure#FIELD_0012.FIELD_0012">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0013.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0013.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0013.listructure#FIELD_0013">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0013.listructure#FIELD_0013.FIELD_0013">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0014.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0014.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0014.listructure#FIELD_0014">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0014.listructure#FIELD_0014.FIELD_0014">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0015.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0015.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0015.listructure#FIELD_0015">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0015.listructure#FIELD_0015.FIELD_0015">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0016.listructure#Unit%20Test/Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0016.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0016.listructure#FIELD_0016">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGICDB01/LGICDB01_Select_FIELD-0016.listructure#FIELD_0016.FIELD_0016">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

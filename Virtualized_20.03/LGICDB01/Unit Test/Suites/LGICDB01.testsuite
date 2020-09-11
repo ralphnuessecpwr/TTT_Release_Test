@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.2.1.v20200322-0318_101?>
+<!--Topaz for Total Test 20.2.1.v20200322-0318_101 Mar 31, 2020 1:50:23 PM-->
+<testsuite:testsuite xmlns:testsuite="http://www.compuware.com/model/xml/testsuite" id="Unit%20Test/Suites/LGICDB01.testsuite">
+  <testsuite:testscenario>../Scenarios/LGICDB01_01_Existing_Customer.testscenario#Unit%20Test/Scenarios/LGICDB01_01_Existing_Customer.testscenario</testsuite:testscenario>
+  <testsuite:testscenario>../Scenarios/LGICDB01_02_Non_Existing_Customer.testscenario#Unit%20Test/Scenarios/LGICDB01_02_Non_Existing_Customer.testscenario</testsuite:testscenario>
+  <testsuite:testscenario>../Scenarios/LGICDB01_03_SQL_-913.testscenario#Unit%20Test/Scenarios/LGICDB01_03_SQL_-913.testscenario</testsuite:testscenario>
+</testsuite:testsuite>

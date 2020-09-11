@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/LGTESTC1_SEND_RECEIVE_01.stub" nextCalltoken="30002" stubtype="CICS" target="" token="30000">
+  <stub:description>Created: 21.05.2019 10:31:27</stub:description>
+  <stub:stubdata callToken="30001" id="0" name="EXEC CICS HANDLE">
+    <stub:interface>../Interfaces/LGTESTC1_SEND_RECEIVE.interface#Unit%20Test/Interfaces/LGTESTC1_SEND_RECEIVE.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/LGTESTC1_SEND_RECEIVE.interface#Unit%20Test/Interfaces/LGTESTC1_SEND_RECEIVE.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_SEND_RECEIVE/LGTESTC1_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGTESTC1_SEND_RECEIVE/LGTESTC1_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_SEND_RECEIVE/LGTESTC1_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0206c00007050a000000000000000000000000000000f0f0f2f0f0404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_SEND_RECEIVE/LGTESTC1_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGTESTC1_SEND_RECEIVE/LGTESTC1_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_SEND_RECEIVE/LGTESTC1_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0206c00007050a000000000000000000000000000000f0f0f2f0f0404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:statement type="EXEC CICS HANDLE">
+      <stub:text>      *EXEC CICS HANDLE AID
+      *          CLEAR(CLEARIT)
+      *          PF3(ENDIT) END-EXEC.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/LGTESTC1_SEND_RECEIVE/LGTESTC1_SEND_RECEIVE_dfheiblk.listructure#Unit%20Test/Structures/CICS/LGTESTC1_SEND_RECEIVE/LGTESTC1_SEND_RECEIVE_dfheiblk.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_SEND_RECEIVE/LGTESTC1_SEND_RECEIVE_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+        <properties:properties>
+          <properties:property name="value" type="string">0043118C0119141FE2E2C3F10001911CC3F3F0F60000020B7F0A7D02060000000000000000000000000000000000000000000040404040404040400000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+</stub:stub>

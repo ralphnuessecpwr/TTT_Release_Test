@@ -1,0 +1,14 @@
+
+***************** Output from TTTRUNNR *****************
+
+ STTR043I Initializing simulation environment for: COBOL V4
+ STTR043I Initializing simulation environment for: COBOL V5
+ STTR011I totaltest zTargetRunner v170200 on 2020-09-07 09:02.07��������������������������������������
+ STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
+ STTR013I Processing test suite LGICDB01
+ STTR014I Processing test scenario LGICDB01_02_Non_Existing_Customer
+ STTR028I Processing test case LGICDB01Case1
+ STTR006I Executing target LGICDB01����������������������������������������������������
+ STTR014I Processing test scenario LGICDB01_03_SQL_-913
+ STTR028I Processing test case LGICDB01Case1
+ STTR006I Executing target LGICDB01����������������������������������������������������

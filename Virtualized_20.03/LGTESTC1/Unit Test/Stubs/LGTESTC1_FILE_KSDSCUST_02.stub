@@ -1,0 +1,229 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="Unit%20Test/Stubs/LGTESTC1_FILE_KSDSCUST_02.stub" nextCalltoken="50003" stubtype="CICS" target="KSDSCUST" token="50000">
+  <stub:description>Created: Sep 7, 2020 3:22:58 PM</stub:description>
+  <stub:stubdata callToken="50001" id="0" name="EXEC CICS READ">
+    <stub:interface>../Interfaces/LGTESTC1_FILE_KSDSCUST2.interface#Unit%20Test/Interfaces/LGTESTC1_FILE_KSDSCUST2.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/LGTESTC1_FILE_KSDSCUST2.interface#Unit%20Test/Interfaces/LGTESTC1_FILE_KSDSCUST2.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0602f8002700008000f0f0f8f3f5404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_dfhc0080.listructure#Unit%20Test/Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_dfhc0080.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_dfhc0080.listructure#dfhc0080" id="arg1.dfhc0080">
+        <properties:properties>
+          <properties:property name="value" type="string">D2E2C4E2C3E4E2E3</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_WS-AREA1.listructure#Unit%20Test/Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_WS-AREA1.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_WS-AREA1.listructure#WS_AREA" id="arg2.WS_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">00060000F5F6F9F6F2F3F4F0F0400106F4000000000019059F000000000000000000000000000000C9C7E9E7C3C4E340404040404040404000003968000000120000000000000000000000000000000000060000F5F6F9F6F2F3F4F0F0400106F4000000000019059F000000800000000000000000000000C9C7E9E7C3D4E2C7404040404040404000003980000000120000000000000000000000000000000000070000F5F6F9F6F2F3F4F0F0400106F4000000000019059F000000800000000000000000000000C9C7E9E7D7D9E2404040404040404040000039980000001200</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_F82.listructure#Unit%20Test/Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_F82.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_F82.listructure#F82" id="arg3.F82">
+        <properties:properties>
+          <properties:property name="value" type="string">00E1</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_WRITE-MSG-High.listructure#Unit%20Test/Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_WRITE-MSG-High.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_WRITE-MSG-High.listructure#WRITE_MSG_High" id="arg4.WRITE_MSG_High">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F1F9F9F9F9F0F0F1</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_F10.listructure#Unit%20Test/Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_F10.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_F10.listructure#F10" id="arg5.F10">
+        <properties:properties>
+          <properties:property name="value" type="string">000A</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0602f8002700008000f0f0f8f3f5404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_dfhc0080.listructure#Unit%20Test/Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_dfhc0080.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_dfhc0080.listructure#dfhc0080" id="arg1.dfhc0080">
+        <properties:properties>
+          <properties:property name="value" type="string">D2E2C4E2C3E4E2E3</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_WS-AREA1.listructure#Unit%20Test/Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_WS-AREA1.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_WS-AREA1.listructure#WS_AREA" id="arg2.WS_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">00060000F5F6F9F6F2F3F4F0F0400106F4000000000019059F000000000000000000000000000000C9C7E9E7C3C4E340404040404040404000003968000000120000000000000000000000000000000000060000F5F6F9F6F2F3F4F0F0400106F4000000000019059F000000800000000000000000000000C9C7E9E7C3D4E2C7404040404040404000003980000000120000000000000000000000000000000000070000F5F6F9F6F2F3F4F0F0400106F4000000000019059F000000800000000000000000000000C9C7E9E7D7D9E2404040404040404040000039980000001200</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_F82.listructure#Unit%20Test/Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_F82.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_F82.listructure#F82" id="arg3.F82">
+        <properties:properties>
+          <properties:property name="value" type="string">00E1</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_WRITE-MSG-High.listructure#Unit%20Test/Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_WRITE-MSG-High.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_WRITE-MSG-High.listructure#WRITE_MSG_High" id="arg4.WRITE_MSG_High">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F1F9F9F9F9F0F0F1</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_F10.listructure#Unit%20Test/Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_F10.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_F10.listructure#F10" id="arg5.F10">
+        <properties:properties>
+          <properties:property name="value" type="string">000A</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:statement type="EXEC CICS READ">
+      <stub:text>      *Exec CICS Read File('KSDSCUST')
+      *          Into(WS-AREA)
+      *          Length(F82)
+      *          Ridfld(WRITE-MSG-HIGH)
+      *          KeyLength(F10)
+      *          RESP(WS-RESP)
+      *          EQUAL
+      *End-Exec.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_dfheiblk.listructure#Unit%20Test/Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_dfheiblk.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+        <properties:properties>
+          <properties:property name="value" type="string">0092148C0120251FE2E2C3F10010547CC3F8F6F00000020B7F0A7D0602810000000000D2E2C4E2C3E4E2E30000000000000000D2E2C4E2C3E4E2E300000000000000000000000000000000000000000D0000005000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+  <stub:stubdata callToken="50002" id="1" name="EXEC CICS READNEXT">
+    <stub:interface>../Interfaces/LGTESTC1_FILE_KSDSCUST3.interface#Unit%20Test/Interfaces/LGTESTC1_FILE_KSDSCUST3.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/LGTESTC1_FILE_KSDSCUST3.interface#Unit%20Test/Interfaces/LGTESTC1_FILE_KSDSCUST3.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">060efc00270000b000f0f0f8f7f1404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_dfhc0080.listructure#Unit%20Test/Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_dfhc0080.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_dfhc0080.listructure#dfhc0080" id="arg1.dfhc0080">
+        <properties:properties>
+          <properties:property name="value" type="string">D2E2C4E2C3E4E2E3</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_WS-AREA1.listructure#Unit%20Test/Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_WS-AREA1.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_WS-AREA1.listructure#WS_AREA" id="arg2.WS_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">00060000F5F6F9F6F2F3F4F0F0400106F4000000000019059F000000000000000000000000000000C9C7E9E7C3C4E340404040404040404000003968000000120000000000000000000000000000000000060000F5F6F9F6F2F3F4F0F0400106F4000000000019059F000000800000000000000000000000C9C7E9E7C3D4E2C7404040404040404000003980000000120000000000000000000000000000000000070000F5F6F9F6F2F3F4F0F0400106F4000000000019059F000000800000000000000000000000C9C7E9E7D7D9E2404040404040404040000039980000001200</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_F82.listructure#Unit%20Test/Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_F82.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_F82.listructure#F82" id="arg3.F82">
+        <properties:properties>
+          <properties:property name="value" type="string">00E1</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_WRITE-MSG-High.listructure#Unit%20Test/Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_WRITE-MSG-High.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_WRITE-MSG-High.listructure#WRITE_MSG_High" id="arg4.WRITE_MSG_High">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F1F9F9F9F9F0F0F1</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_F10.listructure#Unit%20Test/Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_F10.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_F10.listructure#F10" id="arg5.F10">
+        <properties:properties>
+          <properties:property name="value" type="string">000A</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_CICS-GENERATED-CONSTANT-6.listructure#Unit%20Test/Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_CICS-GENERATED-CONSTANT-6.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_CICS-GENERATED-CONSTANT-6.listructure#CICS_GENERATED_CONSTANT_6" id="arg6.CICS_GENERATED_CONSTANT_6">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">060efc00270000b000f0f0f8f7f1404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_dfhc0080.listructure#Unit%20Test/Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_dfhc0080.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_dfhc0080.listructure#dfhc0080" id="arg1.dfhc0080">
+        <properties:properties>
+          <properties:property name="value" type="string">D2E2C4E2C3E4E2E3</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_WS-AREA1.listructure#Unit%20Test/Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_WS-AREA1.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_WS-AREA1.listructure#WS_AREA" id="arg2.WS_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">00060000F5F6F9F6F2F3F4F0F0400106F4000000000019059F000000000000000000000000000000C9C7E9E7C3C4E340404040404040404000003968000000120000000000000000000000000000000000060000F5F6F9F6F2F3F4F0F0400106F4000000000019059F000000800000000000000000000000C9C7E9E7C3D4E2C7404040404040404000003980000000120000000000000000000000000000000000070000F5F6F9F6F2F3F4F0F0400106F4000000000019059F000000800000000000000000000000C9C7E9E7D7D9E2404040404040404040000039980000001200</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_F82.listructure#Unit%20Test/Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_F82.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_F82.listructure#F82" id="arg3.F82">
+        <properties:properties>
+          <properties:property name="value" type="string">00E1</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_WRITE-MSG-High.listructure#Unit%20Test/Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_WRITE-MSG-High.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_WRITE-MSG-High.listructure#WRITE_MSG_High" id="arg4.WRITE_MSG_High">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F1F9F9F9F9F0F0F1</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_F10.listructure#Unit%20Test/Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_F10.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_F10.listructure#F10" id="arg5.F10">
+        <properties:properties>
+          <properties:property name="value" type="string">000A</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_CICS-GENERATED-CONSTANT-6.listructure#Unit%20Test/Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_CICS-GENERATED-CONSTANT-6.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_CICS-GENERATED-CONSTANT-6.listructure#CICS_GENERATED_CONSTANT_6" id="arg6.CICS_GENERATED_CONSTANT_6">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:statement type="EXEC CICS READNEXT">
+      <stub:text>      *Exec CICS READNEXT  File('KSDSCUST')
+      *          Into(WS-AREA)
+      *          Length(F82)
+      *          Ridfld(WRITE-MSG-HIGH)
+      *          KeyLength(F10)
+      *          RESP(WS-RESP)
+      *End-Exec.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_dfheiblk.listructure#Unit%20Test/Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_dfheiblk.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+        <properties:properties>
+          <properties:property name="value" type="string">0092148C0120251FE2E2C3F10010547CC3F8F6F00000020B7F0A7D060E080000000000D2E2C4E2C3E4E2E30000000000000000D2E2C4E2C3E4E2E30000000000000000000000000000000000000000100000002200</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+</stub:stub>

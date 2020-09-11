@@ -1,0 +1,12 @@
+
+***************** Output from TTTRUNNR *****************
+
+ STTR043I Initializing simulation environment for: COBOL V4
+ STTR043I Initializing simulation environment for: COBOL V5
+ STTR011I totaltest zTargetRunner v170200 on 2020-09-04 05:07.15��������������������������������������
+ STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
+ STTR013I Processing test suite LGICUS01_Scenario1
+ STTR014I Processing test scenario LGICUS01_Scenario1
+ STTR028I Processing test case LGICUS01Case1
+ STTR006I Executing target LGICUS01����������������������������������������������������
+ STTR008I All targets successfully executed

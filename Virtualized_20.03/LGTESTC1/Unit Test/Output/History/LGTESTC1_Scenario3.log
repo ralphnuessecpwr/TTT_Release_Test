@@ -1,0 +1,3536 @@
+
+***************** Output from TTTRUNNR *****************
+
+ CEE3740I The following messages pertain to the system default run-time options.
+ CEE3768I The system default for the run-time option DEBUG could not be overridden.
+ CEE3768I The system default for the run-time option TEST could not be overridden.
+ STTR043I Initializing simulation environment for: COBOL V4
+ STTR043I Initializing simulation environment for: COBOL V5
+ STTR011I totaltest zTargetRunner v170200 on 2019-05-21 05:21.04��������������������������������������
+ STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
+ STTR013I Processing test suite LGTESTC1
+ STTR014I Processing test scenario LGTESTC1
+ STTR028I Processing test case LGTESTC1
+ STTR006I Executing target LGTESTC1
+ STTR008I All targets successfully executed
+
+***************** Output from TTOUT *****************
+
+ ---BNDTARGT---entry
+ --->>>modName = LGTESTC1, epName = LGTESTC1
+ ---openW_includeName---entry
+ --->>>moduleName = LGTESTC1
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getE: rc, count = 2, rs = <0X83000800>.
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDTARGT---exit
+ ---BNDTARGT---entry
+ --->>>modName = LGTESTC1, epName = LGTESTC1
+ ---openW_includeName---entry
+ --->>>moduleName = LGTESTC1
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getE: rc, count = 2, rs = <0X83000800>.
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDTARGT---exit
+ ---IDRDDIO---entry
+ --->>>modName = LGTESTC1, csectName = LGTESTC1
+ ---openW_includeName---entry
+ --->>>moduleName = LGTESTC1
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  IDRU: Creation Date = 2019052, Length = 40
+   data = c3e7d3c7e3c5e2e3c3f1075d57b8640e5ff9795702925e604c7b7e762bc40c800000000000000000
+   program = LGTESTC1, ddio(30) = GENAPP.NONISPW.PROD.LISTING.DB
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---IDRDDIO---exit
+ ---TARGET---entry
+ module: LGTESTC1, csect: LGTESTC1, entry: LGTESTC1
+ ---TARGETcxx---entry
+ ---TARGETcxx---exit
+ ---TARGET---exit newTARGET: 38805028
+ ---TARGCALL---entry newTARGET: 38805028
+ ---T addTargetCall---entry
+ ---CC targetCall---entry
+ CC AV ptr: 0
+ CC AVb ptr: 0
+ ---CC targetCall---exit
+ ---CC targetCall---entry
+ CC AV ptr: 0
+ CC AVb ptr: 0
+ ---CC targetCall---exit
+ ---~targetCall---entry
+ ---~targetCall---exit
+ ---addTargetCall---entry
+ AV ptr: 0
+ AVb ptr: 0
+ ---addTargetCall---exit
+ ---T addTargetCall---exit
+ ---~targetCall---entry
+ ---~targetCall---exit
+ ---TARGCALL---exit
+ ---TARGARG---entry
+ length: 85
+ ---T addTargetArg---entry
+ ---setData---entry
+ cL: 85
+ ---setData---exit
+ ---CC TTArgVal---entry
+ CC TTArgVal exit--- avP ptr: 0
+ ---addTargetArg---entry
+ AV ptr: 0
+ AV #: 0
+ ---CC TTArgVal---entry
+ CC TTArgVal exit--- avP ptr: 0
+ ---CC TTArgVal---entry
+ CC TTArgVal exit--- avP ptr: 0
+ ---~TTArgVal---entry
+ ---~TTArgVal---exit
+ gDA
+ AV ptr: 388050E8
+ ---addTargetArg---workingArea: 38805088
+ ---~TTArgVal---entry
+ ---~TTArgVal---exit
+ ---T addTargetArg---workingArea: 38805088
+ ---~TTArgVal---entry
+ ---~TTArgVal---exit
+ ---TARGARG--- workingArea: 38805088
+ ---TARGARG---entry
+ length: 1
+ ---T addTargetArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---CC TTArgVal---entry
+ CC TTArgVal exit--- avP ptr: 0
+ ---addTargetArg---entry
+ AV ptr: 388050E8
+ AV #: 1
+ ---CC TTArgVal---entry
+ CC TTArgVal exit--- avP ptr: 0
+ ---CC TTArgVal---entry
+ CC TTArgVal exit--- avP ptr: 0
+ ---CC TTArgVal---entry
+ CC TTArgVal exit--- avP ptr: 0
+ ---~TTArgVal---entry
+ ---~TTArgVal---exit
+ ---~TTArgVal---entry
+ ---~TTArgVal---exit
+ gDA
+ AV ptr: 388050E8
+ ---addTargetArg---workingArea: 38805138
+ ---~TTArgVal---entry
+ ---~TTArgVal---exit
+ ---T addTargetArg---workingArea: 38805138
+ ---~TTArgVal---entry
+ ---~TTArgVal---exit
+ ---TARGARG--- workingArea: 38805138
+ ---BNDHOOK---entry
+ --->>>modName = LGTESTC1, pgmName = LGTESTC1, vName = DFHEI1   , offset = 00000000
+ ---openW_includeName---entry
+ --->>>moduleName = LGTESTC1
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getD: rc, count = 38, rs = <0X83000800>.
+ --->>>class_offset: 00000178
+ --->>>element_offset: 00000158
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDHOOK---exit
+ ---BNDHOOK---entry
+ --->>>modName = LGTESTC1, pgmName = LGTESTC1, vName = DFHEI1   , offset = 00000158
+ ---openW_includeName---entry
+ --->>>moduleName = LGTESTC1
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getD: rc, count = 38, rs = <0X83000800>.
+ --->>>class_offset: 00000178
+ --->>>no additional elements found
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDHOOK---exit
+ ---EXCICS---entry
+ release: 387B02FA  stubToken: 0001ADB0
+ stubType: RMSM  signature: 387BA31A  signatureLength: 00000004
+ ---EXCICScxx---entry
+ release: 387B02FA  token: 0001ADB0
+ signature: 387BA31A  length: 00000004
+ commandTable: 374F5048
+ ---EXCICScxx---exit
+ ---EXCICS---exit newEXCICS: 388E3028
+ ---TTEXRE---entry
+ |Input EXEC (120 bytes):
+       *EXEC CICS RECEIVE MAP('SSMAPC1')
+       *          INTO(SSMAPC1I) ASIS
+       *          MAPSET('SSMAP') END-EXEC.
+ 
+ |Reduced EXEC (58 bytes):
+ RECEIVE MAP('SSMAPC1') INTO(SSMAPC1I) ASIS MAPSET('SSMAP')
+ ---TTEXRE---exit  rc: 0
+ ---CICSCALL---entry
+ ---g00 addCall---entry
+ new GRP
+ ---GRP constructor---entry
+ ---GRP constructor---exit
+ ---GRP copy---entry
+ ---GRP copy---exit
+ ---GRP copy---entry
+ ---GRP copy---exit
+ ---~GRP---entry
+ ---~GRP---exit
+ ---~GRP---entry
+ ---~GRP---exit
+ ---GRP addCall---entry
+ ---cicsCall---entry
+ ---cicsCall---exit
+ ---~cicsCall---entry
+ ---~cicsCall---exit
+ ---initCall---entry
+ token: 0001ADB1
+ ---initCall---exit
+ ---GRP addCall---exit
+ ---~cicsCall---entry
+ ---~cicsCall---exit
+ ---g00 addCall---exit
+ ---CICSCALL---exit
+ ---CICSARGB---entry
+ ---g00 addArgBefore---entry
+ ---GRP addArgBefore---entry
+ arg: 0
+ ---resolveCICSee---entry
+ ---doARG0patternA---entry
+ ---doARG0patternA---exit
+ ---resolveCICSee---exit
+ ---setData---entry
+ cL: 23
+ avData @388E3080
+ *parmData: X'1802D000'
+ avData[0] @388E31B0
+ *avData: X'1802D000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Arg0 function: 1802
+ Count: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgBefore---exit
+ ---CICSARGB---exit
+ ---CICSARGA---entry
+ ---g00 addArgAfter---entry
+ ---GRP addArgAfter---entry
+ arg: 0
+ ---setData---entry
+ cL: 23
+ avData @388E31F0
+ *parmData: X'1802D000'
+ avData[0] @388E3208
+ *avData: X'1802D000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgAfter---exit
+ ---CICSARGA---exit
+ ---CICSARGB---entry
+ ---g00 addArgBefore---entry
+ ---GRP addArgBefore---entry
+ arg: 1
+ ---setData---entry
+ cL: 7
+ avData @388E3260
+ *parmData: X'E2E2D4C1'
+ avData[0] @388E3278
+ *avData: X'E2E2D4C1'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Count: 1
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgBefore---exit
+ ---CICSARGB---exit
+ ---CICSARGA---entry
+ ---g00 addArgAfter---entry
+ ---GRP addArgAfter---entry
+ arg: 1
+ ---setData---entry
+ cL: 7
+ avData @388E31D0
+ *parmData: X'E2E2D4C1'
+ avData[0] @388E32C0
+ *avData: X'E2E2D4C1'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 1
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgAfter---exit
+ ---CICSARGA---exit
+ ---CICSARGB---entry
+ ---g00 addArgBefore---entry
+ ---GRP addArgBefore---entry
+ arg: 2
+ ---setData---entry
+ cL: 318
+ avData @388E3240
+ *parmData: X'00000000'
+ avData[0] @388E3308
+ *avData: X'00000000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Count: 2
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgBefore---exit
+ ---CICSARGB---exit
+ ---CICSARGA---entry
+ ---g00 addArgAfter---entry
+ ---GRP addArgAfter---entry
+ arg: 2
+ ---setData---entry
+ cL: 318
+ avData @388E3288
+ *parmData: X'00000000'
+ avData[0] @388E34A0
+ *avData: X'00000000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 2
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgAfter---exit
+ ---CICSARGA---exit
+ ---CICSARGB---entry
+ ---g00 addArgBefore---entry
+ ---GRP addArgBefore---entry
+ arg: 3
+ ---setData---entry
+ cL: 2
+ avData @388E32A0
+ *parmData: X'00000000'
+ avData[0] @388E32D0
+ *avData: X'00000000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Count: 3
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgBefore---exit
+ ---CICSARGB---exit
+ ---CICSARGA---entry
+ ---g00 addArgAfter---entry
+ ---GRP addArgAfter---entry
+ arg: 3
+ ---setData---entry
+ cL: 2
+ avData @388E32E0
+ *parmData: X'00000000'
+ avData[0] @388E32F8
+ *avData: X'00000000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 3
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgAfter---exit
+ ---CICSARGA---exit
+ ---CICSARGB---entry
+ ---g00 addArgBefore---entry
+ ---GRP addArgBefore---entry
+ arg: 4
+ ---setData---entry
+ cL: 7
+ avData @388E3450
+ *parmData: X'E2E2D4C1'
+ avData[0] @388E3468
+ *avData: X'E2E2D4C1'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Count: 4
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgBefore---exit
+ ---CICSARGB---exit
+ ---CICSARGA---entry
+ ---g00 addArgAfter---entry
+ ---GRP addArgAfter---entry
+ arg: 4
+ ---setData---entry
+ cL: 7
+ avData @388E3478
+ *parmData: X'E2E2D4C1'
+ avData[0] @388E3490
+ *avData: X'E2E2D4C1'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 4
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgAfter---exit
+ ---CICSARGA---exit
+ ---TTEXRE---entry
+ |Input EXEC (145 bytes):
+       *EXEC CICS SEND MAP ('SSMAPC1')
+       *          FROM(SSMAPC1O)
+       *          MAPSET ('SSMAP')
+       *          CURSOR
+       *END-EXEC.
+ 
+ |Reduced EXEC (59 bytes):
+ SEND MAP ('SSMAPC1') FROM(SSMAPC1O) MAPSET ('SSMAP') CURSOR
+ ---TTEXRE---exit  rc: 0
+ ---CICSCALL---entry
+ ---g00 addCall---entry
+ ---GRP addCall---entry
+ ---cicsCall---entry
+ ---cicsCall---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~cicsCall---entry
+ deleting AVsBefore
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ deleting AVsAfter
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~cicsCall---exit
+ ---~cicsCall---entry
+ ---~cicsCall---exit
+ ---initCall---entry
+ token: 0001ADB2
+ ---initCall---exit
+ ---GRP addCall---exit
+ ---~cicsCall---entry
+ ---~cicsCall---exit
+ ---g00 addCall---exit
+ ---CICSCALL---exit
+ ---CICSARGB---entry
+ ---g00 addArgBefore---entry
+ ---GRP addArgBefore---entry
+ arg: 0
+ ---resolveCICSee---entry
+ ---doARG0patternA---entry
+ ---doARG0patternA---exit
+ ---resolveCICSee---exit
+ ---setData---entry
+ cL: 23
+ avData @388E3098
+ *parmData: X'1804F100'
+ avData[0] @388E30E0
+ *avData: X'1804F100'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Arg0 function: 1804
+ Count: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgBefore---exit
+ ---CICSARGB---exit
+ ---CICSARGA---entry
+ ---g00 addArgAfter---entry
+ ---GRP addArgAfter---entry
+ arg: 0
+ ---setData---entry
+ cL: 23
+ avData @388E3138
+ *parmData: X'1804F100'
+ avData[0] @388E3150
+ *avData: X'1804F100'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgAfter---exit
+ ---CICSARGA---exit
+ ---CICSARGB---entry
+ ---g00 addArgBefore---entry
+ ---GRP addArgBefore---entry
+ arg: 1
+ ---setData---entry
+ cL: 7
+ avData @388E3228
+ *parmData: X'E2E2D4C1'
+ avData[0] @388E35E8
+ *avData: X'E2E2D4C1'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Count: 1
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgBefore---exit
+ ---CICSARGB---exit
+ ---CICSARGA---entry
+ ---g00 addArgAfter---entry
+ ---GRP addArgAfter---entry
+ arg: 1
+ ---setData---entry
+ cL: 7
+ avData @388E3118
+ *parmData: X'E2E2D4C1'
+ avData[0] @388E3630
+ *avData: X'E2E2D4C1'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 1
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgAfter---exit
+ ---CICSARGA---exit
+ ---CICSARGB---entry
+ ---g00 addArgBefore---entry
+ ---GRP addArgBefore---entry
+ arg: 2
+ ---setData---entry
+ cL: 318
+ avData @388E3188
+ *parmData: X'00000000'
+ avData[0] @388E3A38
+ *avData: X'00000000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Count: 2
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgBefore---exit
+ ---CICSARGB---exit
+ ---CICSARGA---entry
+ ---g00 addArgAfter---entry
+ ---GRP addArgAfter---entry
+ arg: 2
+ ---setData---entry
+ cL: 318
+ avData @388E35F8
+ *parmData: X'00000000'
+ avData[0] @388E3B80
+ *avData: X'00000000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 2
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgAfter---exit
+ ---CICSARGA---exit
+ ---CICSARGB---entry
+ ---g00 addArgBefore---entry
+ ---GRP addArgBefore---entry
+ arg: 3
+ ---setData---entry
+ cL: 2
+ avData @388E3610
+ *parmData: X'013E0000'
+ avData[0] @388E31A0
+ *avData: X'013E0000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Count: 3
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgBefore---exit
+ ---CICSARGB---exit
+ ---CICSARGA---entry
+ ---g00 addArgAfter---entry
+ ---GRP addArgAfter---entry
+ arg: 3
+ ---setData---entry
+ cL: 2
+ avData @388E3640
+ *parmData: X'013E0000'
+ avData[0] @388E3658
+ *avData: X'013E0000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 3
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgAfter---exit
+ ---CICSARGA---exit
+ ---CICSARGB---entry
+ ---g00 addArgBefore---entry
+ ---GRP addArgBefore---entry
+ arg: 4
+ ---setData---entry
+ cL: 7
+ avData @388E3668
+ *parmData: X'E2E2D4C1'
+ avData[0] @388E36B0
+ *avData: X'E2E2D4C1'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Count: 4
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgBefore---exit
+ ---CICSARGB---exit
+ ---CICSARGA---entry
+ ---g00 addArgAfter---entry
+ ---GRP addArgAfter---entry
+ arg: 4
+ ---setData---entry
+ cL: 7
+ avData @388E3758
+ *parmData: X'E2E2D4C1'
+ avData[0] @388E3770
+ *avData: X'E2E2D4C1'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 4
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgAfter---exit
+ ---CICSARGA---exit
+ ---CICSARGB---entry
+ ---g00 addArgBefore---entry
+ ---GRP addArgBefore---entry
+ arg: 5
+ ---setData---entry
+ cL: 2
+ avData @388E3780
+ *parmData: X'0000D4C1'
+ avData[0] @388E3CC8
+ *avData: X'00000000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Count: 5
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgBefore---exit
+ ---CICSARGB---exit
+ ---CICSARGA---entry
+ ---g00 addArgAfter---entry
+ ---GRP addArgAfter---entry
+ arg: 5
+ ---setData---entry
+ cL: 2
+ avData @388E3CD8
+ *parmData: X'0000D4C1'
+ avData[0] @388E3CF0
+ *avData: X'00000000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 5
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgAfter---exit
+ ---CICSARGA---exit
+ ---CICSARGB---entry
+ ---g00 addArgBefore---entry
+ ---GRP addArgBefore---entry
+ arg: 6
+ ---setData---entry
+ cL: 2
+ avData @388E3D00
+ *parmData: X'0000D4C1'
+ avData[0] @388E3D18
+ *avData: X'00000000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Count: 6
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgBefore---exit
+ ---CICSARGB---exit
+ ---CICSARGA---entry
+ ---g00 addArgAfter---entry
+ ---GRP addArgAfter---entry
+ arg: 6
+ ---setData---entry
+ cL: 2
+ avData @388E36C0
+ *parmData: X'0000D4C1'
+ avData[0] @388E36D8
+ *avData: X'00000000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 6
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgAfter---exit
+ ---CICSARGA---exit
+ ---CICSARGB---entry
+ ---g00 addArgBefore---entry
+ ---GRP addArgBefore---entry
+ arg: 7
+ ---setData---entry
+ cL: 2
+ avData @388E36E8
+ *parmData: X'0000D4C1'
+ avData[0] @388E3700
+ *avData: X'00000000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Count: 7
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgBefore---exit
+ ---CICSARGB---exit
+ ---CICSARGA---entry
+ ---g00 addArgAfter---entry
+ ---GRP addArgAfter---entry
+ arg: 7
+ ---setData---entry
+ cL: 2
+ avData @388E3710
+ *parmData: X'0000D4C1'
+ avData[0] @388E3728
+ *avData: X'00000000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 7
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgAfter---exit
+ ---CICSARGA---exit
+ ---CICSARGB---entry
+ ---g00 addArgBefore---entry
+ ---GRP addArgBefore---entry
+ arg: 8
+ ---setData---entry
+ cL: 2
+ avData @388E3738
+ *parmData: X'FFFFD4C1'
+ avData[0] @388E3D28
+ *avData: X'FFFF0000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Count: 8
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgBefore---exit
+ ---CICSARGB---exit
+ ---CICSARGA---entry
+ ---g00 addArgAfter---entry
+ ---GRP addArgAfter---entry
+ arg: 8
+ ---setData---entry
+ cL: 2
+ avData @388E3D38
+ *parmData: X'FFFFD4C1'
+ avData[0] @388E3D50
+ *avData: X'FFFF0000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 8
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgAfter---exit
+ ---CICSARGA---exit
+ ---TTEXRE---entry
+ |Input EXEC (106 bytes):
+       *EXEC CICS RETURN
+       *     TRANSID('SSC1')
+       *     COMMAREA(COMM-AREA)
+       *     END-EXEC.
+ 
+ |Reduced EXEC (42 bytes):
+ RETURN TRANSID('SSC1') COMMAREA(COMM-AREA)
+ ---TTEXRE---exit  rc: 0
+ ---EXCICS---entry
+ release: 387B02FA  stubToken: 0001FBD0
+ stubType:       signature: 387BA3FF  signatureLength: 0000002A
+ ---EXCICScxx---entry
+ release: 387B02FA  token: 0001FBD0
+ signature: 387BA3FF  length: 0000002A
+ commandTable: 374F5048
+ ---EXCICScxx---exit
+ ---EXCICS---exit newEXCICS: 388E3D60
+ ---TTEXRE---entry
+ |Input EXEC (106 bytes):
+       *EXEC CICS RETURN
+       *     TRANSID('SSC1')
+       *     COMMAREA(COMM-AREA)
+       *     END-EXEC.
+ 
+ |Reduced EXEC (42 bytes):
+ RETURN TRANSID('SSC1') COMMAREA(COMM-AREA)
+ ---TTEXRE---exit  rc: 0
+ ---CICSCALL---entry
+ ---s00 addCall---entry
+ ---cicsCall---entry
+ ---cicsCall---exit
+ ---~cicsCall---entry
+ ---~cicsCall---exit
+ ---initCall---entry
+ token: 0001FBD1
+ ---initCall---exit
+ ---s00 addCall---exit
+ ---~cicsCall---entry
+ ---~cicsCall---exit
+ ---CICSCALL---exit
+ ---CICSARGB---entry
+ ---s00 addArgBefore---entry
+ calls: 1
+ arg: 0
+ ---s00 buildMyCICSee---entry
+ ---resolveCICSee---entry
+ ---doARG0patternA---entry
+ ---doARG0patternA---exit
+ ---resolveCICSee---exit
+ *ee: X'C1D7C340'
+ ---iS---
+ ---s00 buildMyCICSee---exit
+ ---setData---entry
+ cL: 17
+ avData @388E3DF8
+ *parmData: X'0E08E000'
+ avData[0] @388E3E10
+ *avData: X'0E08E000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Arg0 function: 0e08
+ Count: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---s00 addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---CICSARGB---exit
+ ---CICSARGA---entry
+ ---s00 addArgAfter---entry
+ arg: 0
+ ---setData---entry
+ cL: 17
+ avData @388E40F8
+ *parmData: X'0E08E000'
+ avData[0] @388E4110
+ *avData: X'0E08E000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---s00 addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---CICSARGA---exit
+ ---CICSARGB---entry
+ ---s00 addArgBefore---entry
+ calls: 1
+ arg: 1
+ ---setData---entry
+ cL: 4
+ avData @388E4168
+ *parmData: X'E2E2C3F1'
+ avData[0] @388E4180
+ *avData: X'E2E2C3F1'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Count: 1
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---s00 addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---CICSARGB---exit
+ ---CICSARGA---entry
+ ---s00 addArgAfter---entry
+ arg: 1
+ ---setData---entry
+ cL: 4
+ avData @388E40D8
+ *parmData: X'E2E2C3F1'
+ avData[0] @388E41C8
+ *avData: X'E2E2C3F1'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 1
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---s00 addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---CICSARGA---exit
+ ---CICSARGB---entry
+ ---s00 addArgBefore---entry
+ calls: 1
+ arg: 2
+ ---setData---entry
+ cL: 32522
+ avData @388E4148
+ *parmData: X'40404040'
+ avData[0] @388E4210
+ *avData: X'40404040'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Count: 2
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---s00 addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---CICSARGB---exit
+ ---CICSARGA---entry
+ ---s00 addArgAfter---entry
+ arg: 2
+ ---setData---entry
+ cL: 32522
+ avData @388E4190
+ *parmData: X'40404040'
+ avData[0] @388EC178
+ *avData: X'40404040'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 2
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---s00 addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---CICSARGA---exit
+ ---CICSARGB---entry
+ ---s00 addArgBefore---entry
+ calls: 1
+ arg: 3
+ ---setData---entry
+ cL: 2
+ avData @388E41A8
+ *parmData: X'7F0A4040'
+ avData[0] @388E41D8
+ *avData: X'7F0A0000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Count: 3
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---s00 addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---CICSARGB---exit
+ ---CICSARGA---entry
+ ---s00 addArgAfter---entry
+ arg: 3
+ ---setData---entry
+ cL: 2
+ avData @388E41E8
+ *parmData: X'7F0A4040'
+ avData[0] @388E4200
+ *avData: X'7F0A0000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 3
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---s00 addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---CICSARGA---exit
+ ---EXCICS---entry
+ release: 387B02FA  stubToken: 00015F90
+ stubType: RESE  signature: 387BA4BF  signatureLength: 00000004
+ ---EXCICScxx---entry
+ release: 387B02FA  token: 00015F90
+ signature: 387BA4BF  length: 00000004
+ commandTable: 374F5048
+ ---EXCICScxx---exit
+ ---EXCICS---exit newEXCICS: 388F41B0
+ ---TTEXRE---entry
+ |Input EXEC (98 bytes):
+       *EXEC CICS HANDLE AID
+       *          CLEAR(CLEARIT)
+       *          PF3(ENDIT) END-EXEC.
+ 
+ |Reduced EXEC (36 bytes):
+ HANDLE AID CLEAR(CLEARIT) PF3(ENDIT)
+ ---TTEXRE---exit  rc: 0
+ ---CICSCALL---entry
+ ---g00 addCall---entry
+ new GRP
+ ---GRP constructor---entry
+ ---GRP constructor---exit
+ ---GRP copy---entry
+ ---GRP copy---exit
+ ---GRP copy---entry
+ ---GRP copy---exit
+ ---~GRP---entry
+ ---~GRP---exit
+ ---~GRP---entry
+ ---~GRP---exit
+ ---GRP addCall---entry
+ ---cicsCall---entry
+ ---cicsCall---exit
+ ---~cicsCall---entry
+ ---~cicsCall---exit
+ ---initCall---entry
+ token: 00015F91
+ ---initCall---exit
+ ---GRP addCall---exit
+ ---~cicsCall---entry
+ ---~cicsCall---exit
+ ---g00 addCall---exit
+ ---CICSCALL---exit
+ ---CICSARGB---entry
+ ---g00 addArgBefore---entry
+ ---GRP addArgBefore---entry
+ arg: 0
+ ---resolveCICSee---entry
+ ---doARG0patternB---entry
+ ---doARG0patternB---exit
+ ---resolveCICSee---exit
+ ---setData---entry
+ cL: 30
+ avData @388EC128
+ *parmData: X'0206C000'
+ avData[0] @388F40A8
+ *avData: X'0206C000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Arg0 function: 0206
+ Count: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgBefore---exit
+ ---CICSARGB---exit
+ ---CICSARGA---entry
+ ---g00 addArgAfter---entry
+ ---GRP addArgAfter---entry
+ arg: 0
+ ---setData---entry
+ cL: 30
+ avData @388F42F8
+ *parmData: X'0206C000'
+ avData[0] @388F4310
+ *avData: X'0206C000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgAfter---exit
+ ---CICSARGA---exit
+ ---EXCICS---entry
+ release: 387B02FA  stubToken: 000186A0
+ stubType: HAND  signature: 387BA553  signatureLength: 00000004
+ ---EXCICScxx---entry
+ release: 387B02FA  token: 000186A0
+ signature: 387BA553  length: 00000004
+ commandTable: 374F5048
+ ---EXCICScxx---exit
+ ---EXCICS---exit newEXCICS: 388F4370
+ ---TTEXRE---entry
+ |Input EXEC (93 bytes):
+       *EXEC CICS HANDLE CONDITION
+       *          MAPFAIL(ENDIT)
+       *          END-EXEC.
+ 
+ |Reduced EXEC (31 bytes):
+ HANDLE CONDITION MAPFAIL(ENDIT)
+ ---TTEXRE---exit  rc: 0
+ ---CICSCALL---entry
+ ---g00 addCall---entry
+ new GRP
+ ---GRP constructor---entry
+ ---GRP constructor---exit
+ ---GRP copy---entry
+ ---GRP copy---exit
+ ---GRP copy---entry
+ ---GRP copy---exit
+ ---~GRP---entry
+ ---~GRP---exit
+ ---~GRP---entry
+ ---~GRP---exit
+ ---GRP addCall---entry
+ ---cicsCall---entry
+ ---cicsCall---exit
+ ---~cicsCall---entry
+ ---~cicsCall---exit
+ ---initCall---entry
+ token: 000186A1
+ ---initCall---exit
+ ---GRP addCall---exit
+ ---~cicsCall---entry
+ ---~cicsCall---exit
+ ---g00 addCall---exit
+ ---CICSCALL---exit
+ ---CICSARGB---entry
+ ---g00 addArgBefore---entry
+ ---GRP addArgBefore---entry
+ arg: 0
+ ---resolveCICSee---entry
+ ---doARG0patternB---entry
+ ---doARG0patternB---exit
+ ---resolveCICSee---exit
+ ---setData---entry
+ cL: 30
+ avData @388F43C8
+ *parmData: X'02048000'
+ avData[0] @388F44F8
+ *avData: X'02048000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Arg0 function: 0204
+ Count: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgBefore---exit
+ ---CICSARGB---exit
+ ---CICSARGA---entry
+ ---g00 addArgAfter---entry
+ ---GRP addArgAfter---entry
+ arg: 0
+ ---setData---entry
+ cL: 30
+ avData @388F4540
+ *parmData: X'02048000'
+ avData[0] @388F4558
+ *avData: X'02048000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgAfter---exit
+ ---CICSARGA---exit
+ ---EXCICS---entry
+ release: 387B02FA  stubToken: 0001D4C0
+ stubType: SUBP  signature: 387BA5E2  signatureLength: 00000008
+ ---EXCICScxx---entry
+ release: 387B02FA  token: 0001D4C0
+ signature: 387BA5E2  length: 00000008
+ commandTable: 374F5048
+ ---EXCICScxx---exit
+ ---EXCICS---exit newEXCICS: 388F45B8
+ ---TTEXRE---entry
+ |Input EXEC (126 bytes):
+       *EXEC CICS LINK PROGRAM('LGICUS01')
+       *          COMMAREA(COMM-AREA)
+       *          LENGTH(32500)
+       *END-EXEC
+ 
+ |Reduced EXEC (58 bytes):
+ LINK PROGRAM('LGICUS01') COMMAREA(COMM-AREA) LENGTH(32500)
+ ---TTEXRE---exit  rc: 0
+ ---CICSCALL---entry
+ ---g00 addCall---entry
+ new GRP
+ ---GRP constructor---entry
+ ---GRP constructor---exit
+ ---GRP copy---entry
+ ---GRP copy---exit
+ ---GRP copy---entry
+ ---GRP copy---exit
+ ---~GRP---entry
+ ---~GRP---exit
+ ---~GRP---entry
+ ---~GRP---exit
+ ---GRP addCall---entry
+ ---cicsCall---entry
+ ---cicsCall---exit
+ ---~cicsCall---entry
+ ---~cicsCall---exit
+ ---initCall---entry
+ token: 0001D4C1
+ ---initCall---exit
+ ---GRP addCall---exit
+ ---~cicsCall---entry
+ ---~cicsCall---exit
+ ---g00 addCall---exit
+ ---CICSCALL---exit
+ ---CICSARGB---entry
+ ---g00 addArgBefore---entry
+ ---GRP addArgBefore---entry
+ arg: 0
+ ---resolveCICSee---entry
+ ---doARG0patternA---entry
+ ---doARG0patternA---exit
+ ---resolveCICSee---exit
+ ---setData---entry
+ cL: 17
+ avData @388F4610
+ *parmData: X'0E02E000'
+ avData[0] @388F4740
+ *avData: X'0E02E000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Arg0 function: 0e02
+ Count: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgBefore---exit
+ ---CICSARGB---exit
+ ---CICSARGA---entry
+ ---g00 addArgAfter---entry
+ ---GRP addArgAfter---entry
+ arg: 0
+ ---setData---entry
+ cL: 17
+ avData @388F4780
+ *parmData: X'0E02E000'
+ avData[0] @388F4798
+ *avData: X'0E02E000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgAfter---exit
+ ---CICSARGA---exit
+ ---CICSARGB---entry
+ ---g00 addArgBefore---entry
+ ---GRP addArgBefore---entry
+ arg: 1
+ ---setData---entry
+ cL: 8
+ avData @388F47F0
+ *parmData: X'D3C7C9C3'
+ avData[0] @388F40D0
+ *avData: X'D3C7C9C3'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Count: 1
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgBefore---exit
+ ---CICSARGB---exit
+ ---CICSARGA---entry
+ ---g00 addArgAfter---entry
+ ---GRP addArgAfter---entry
+ arg: 1
+ ---setData---entry
+ cL: 8
+ avData @388F4760
+ *parmData: X'D3C7C9C3'
+ avData[0] @388F4840
+ *avData: X'D3C7C9C3'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 1
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgAfter---exit
+ ---CICSARGA---exit
+ ---CICSARGB---entry
+ ---g00 addArgBefore---entry
+ ---GRP addArgBefore---entry
+ arg: 2
+ ---setData---entry
+ cL: 32522
+ avData @388F47D0
+ *parmData: X'F0F1C9C3'
+ avData[0] @388F4888
+ *avData: X'F0F1C9C3'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Count: 2
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgBefore---exit
+ ---CICSARGB---exit
+ ---CICSARGA---entry
+ ---g00 addArgAfter---entry
+ ---GRP addArgAfter---entry
+ arg: 2
+ ---setData---entry
+ cL: 32522
+ avData @388F4808
+ *parmData: X'F0F1C9C3'
+ avData[0] @388FC7F0
+ *avData: X'F0F1C9C3'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 2
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgAfter---exit
+ ---CICSARGA---exit
+ ---CICSARGB---entry
+ ---g00 addArgBefore---entry
+ ---GRP addArgBefore---entry
+ arg: 3
+ ---setData---entry
+ cL: 2
+ avData @388F4820
+ *parmData: X'7EF4C9C3'
+ avData[0] @388F4850
+ *avData: X'7EF40000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBefore---entry
+ Count: 3
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgBefore---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgBefore---exit
+ ---CICSARGB---exit
+ ---CICSARGA---entry
+ ---g00 addArgAfter---entry
+ ---GRP addArgAfter---entry
+ arg: 3
+ ---setData---entry
+ cL: 2
+ avData @388F4860
+ *parmData: X'7EF4C9C3'
+ avData[0] @388F4878
+ *avData: X'7EF40000'
+ ---setData---exit
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgAfter---entry
+ Count #: 3
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP addArgAfter---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---g00 addArgAfter---exit
+ ---CICSARGA---exit
+ ---TTEXRE---entry
+ |Input EXEC (303 bytes):
+       *EXEC CICS HANDLE AID
+       *          CLEAR(CLEARIT)
+       *          PF3(ENDIT) END-EXEC.
+-|Reduced EXEC (36 bytes):
+ HANDLE AID CLEAR(CLEARIT) PF3(ENDIT)
+ ---TTEXRE---exit  rc: 0
+ ---DOCICALL---entry
+ ---g03 doCall---entry
+ ---compareData---entry
+ cL: 30
+ L: 9
+ *parmData: X'0206C000'
+ *avData: X'0206C000'
+ ---compareData---exit: 0
+ ---validateAVs---entry
+ AVsBefore: 1
+ parm 0: X'B865F180'
+ ---validateAVs---exit: 0
+ ---GRP incrCallCount---entry
+ curGRPCall: 0
+ ---GRP incrCallCount---exit
+ ---GRP setSequence---entry
+ curGRPCall: 0
+ ---GRP setSequence---exit
+ ---GRP setGSequence---entry
+ curGRPCall: 0
+ ---GRP setGSequence---exit
+ ---GRP copyEIB---entry
+ curGRPCall: 0
+ ---copyEIB---entry
+ ---copyEIB---exit
+ ---GRP copyEIB---exit
+ ---GRP storeAVsBeforeLive---entry
+ curGRPCall: 0
+ ---storeAVsBeforeLive---entry
+ sz: 1
+ ---setData---entry
+ cL: 30
+ avData @388FC7A0
+ *parmData: X'0206C000'
+ avData[0] @388FC7B8
+ *avData: X'0206C000'
+ ---setData---exit
+ lL: 30
+ *parmData: X'0206C000'
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---storeAVsBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP storeAVsBeforeLive---exit
+ ---GRP copyAVsAfter---entry
+ curGRPCall: 0
+ ---copyAVsAfter---entry
+ sz: 1
+ value
+ ---copyAVsAfter---exit
+ ---GRP copyAVsAfter---exit
+ ---g03 doCall---exit: 0
+ ---DOCICALL---exit: 0
+ ---TTEXRE---entry
+ |Input EXEC (303 bytes):
+       *EXEC CICS HANDLE CONDITION
+       *          MAPFAIL(ENDIT)
+       *          END-EXEC.
+-|Reduced EXEC (31 bytes):
+ HANDLE CONDITION MAPFAIL(ENDIT)
+ ---TTEXRE---exit  rc: 0
+ ---DOCICALL---entry
+ ---g09 doCall---entry
+ ---compareData---entry
+ cL: 30
+ L: 9
+ *parmData: X'02048000'
+ *avData: X'02048000'
+ ---compareData---exit: 0
+ ---validateAVs---entry
+ AVsBefore: 1
+ parm 0: X'B865F180'
+ ---validateAVs---exit: 0
+ ---GRP incrCallCount---entry
+ curGRPCall: 0
+ ---GRP incrCallCount---exit
+ ---GRP setSequence---entry
+ curGRPCall: 0
+ ---GRP setSequence---exit
+ ---GRP setGSequence---entry
+ curGRPCall: 0
+ ---GRP setGSequence---exit
+ ---GRP copyEIB---entry
+ curGRPCall: 0
+ ---copyEIB---entry
+ ---copyEIB---exit
+ ---GRP copyEIB---exit
+ ---GRP storeAVsBeforeLive---entry
+ curGRPCall: 0
+ ---storeAVsBeforeLive---entry
+ sz: 1
+ ---setData---entry
+ cL: 30
+ avData @38904740
+ *parmData: X'02048000'
+ avData[0] @3890D650
+ *avData: X'02048000'
+ ---setData---exit
+ lL: 30
+ *parmData: X'02048000'
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---storeAVsBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP storeAVsBeforeLive---exit
+ ---GRP copyAVsAfter---entry
+ curGRPCall: 0
+ ---copyAVsAfter---entry
+ sz: 1
+ value
+ ---copyAVsAfter---exit
+ ---GRP copyAVsAfter---exit
+ ---g09 doCall---exit: 0
+ ---DOCICALL---exit: 0
+ ---TTEXRE---entry
+ |Input EXEC (303 bytes):
+       *EXEC CICS RECEIVE MAP('SSMAPC1')
+       *          INTO(SSMAPC1I) ASIS
+       *          MAPSET('SSMAP') END-EXEC.
+-|Reduced EXEC (58 bytes):
+ RECEIVE MAP('SSMAPC1') INTO(SSMAPC1I) ASIS MAPSET('SSMAP')
+ ---TTEXRE---exit  rc: 0
+ ---DOCICALL---entry
+ ---g04 doCall---entry
+ ---compareData---entry
+ cL: 23
+ L: 9
+ *parmData: X'1802D000'
+ *avData: X'1802D000'
+ ---compareData---exit: 0
+ ---validateAVs---entry
+ AVsBefore: 5
+ parm 0: X'3865F190'
+ parm 1: X'3865F1A8'
+ parm 2: X'38904BA8'
+ parm 3: X'3865F1B0'
+ parm 4: X'B865F1B8'
+ ---validateAVs---exit: 0
+ ---GRP incrCallCount---entry
+ curGRPCall: 0
+ ---GRP incrCallCount---exit
+ ---GRP setSequence---entry
+ curGRPCall: 0
+ ---GRP setSequence---exit
+ ---GRP setGSequence---entry
+ curGRPCall: 0
+ ---GRP setGSequence---exit
+ ---GRP copyEIB---entry
+ curGRPCall: 0
+ ---copyEIB---entry
+ ---copyEIB---exit
+ ---GRP copyEIB---exit
+ ---GRP storeAVsBeforeLive---entry
+ curGRPCall: 0
+ ---storeAVsBeforeLive---entry
+ sz: 5
+ ---setData---entry
+ cL: 23
+ avData @3890D6B0
+ *parmData: X'1802D000'
+ avData[0] @3890D6C8
+ *avData: X'1802D000'
+ ---setData---exit
+ lL: 23
+ *parmData: X'1802D000'
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---setData---entry
+ cL: 7
+ avData @3890D720
+ *parmData: X'E2E2D4C1'
+ avData[0] @388FC7E0
+ *avData: X'E2E2D4C1'
+ ---setData---exit
+ lL: 7
+ *parmData: X'E2E2D4C1'
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 1
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---setData---entry
+ cL: 318
+ avData @3890D700
+ *parmData: X'00000000'
+ avData[0] @3890D770
+ *avData: X'00000000'
+ ---setData---exit
+ lL: 318
+ *parmData: X'00000000'
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 2
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---setData---entry
+ cL: 2
+ avData @3890D738
+ *parmData: X'00000000'
+ avData[0] @3890D750
+ *avData: X'00000000'
+ ---setData---exit
+ lL: 2
+ *parmData: X'00000000'
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 3
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---setData---entry
+ cL: 7
+ avData @3890D8B8
+ *parmData: X'E2E2D4C1'
+ avData[0] @3890D760
+ *avData: X'E2E2D4C1'
+ ---setData---exit
+ lL: 7
+ *parmData: X'E2E2D4C1'
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 4
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---storeAVsBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP storeAVsBeforeLive---exit
+ ---GRP copyAVsAfter---entry
+ curGRPCall: 0
+ ---copyAVsAfter---entry
+ sz: 5
+ value
+ value
+ data-area
+ cL: 318, avL: 318
+ avData @388E3288
+ avData[0] @388E34A0
+ avData@ 388E34A0
+ parmlist@ 38904BA8
+ value
+ value
+ ---copyAVsAfter---exit
+ ---GRP copyAVsAfter---exit
+ ---g04 doCall---exit: 0
+ ---DOCICALL---exit: 0
+ ---TTEXRE---entry
+ |Input EXEC (404 bytes):
+       *EXEC CICS LINK PROGRAM('LGICUS01')
+       *          COMMAREA(COMM-AREA)
+       *          LENGTH(32500)
+       *END-EXEC
+-|Reduced EXEC (58 bytes):
+ LINK PROGRAM('LGICUS01') COMMAREA(COMM-AREA) LENGTH(32500)
+ ---TTEXRE---exit  rc: 0
+ ---DOCICALL---entry
+ ---g02 doCall---entry
+ ---compareData---entry
+ cL: 17
+ L: 9
+ *parmData: X'0E02E000'
+ *avData: X'0E02E000'
+ ---compareData---exit: 0
+ ---validateAVs---entry
+ AVsBefore: 4
+ parm 0: X'3865F188'
+ parm 1: X'3865F1A0'
+ parm 2: X'38905200'
+ parm 3: X'B890D110'
+ ---compareData---entry
+ cL: 2
+ L: 2
+ *parmData: X'7EF40000'
+ *avData: X'7EF40000'
+ ---compareData---exit: 0
+ ---validateAVs---exit: 0
+ ---GRP incrCallCount---entry
+ curGRPCall: 0
+ ---GRP incrCallCount---exit
+ ---GRP setSequence---entry
+ curGRPCall: 0
+ ---GRP setSequence---exit
+ ---GRP setGSequence---entry
+ curGRPCall: 0
+ ---GRP setGSequence---exit
+ ---GRP copyEIB---entry
+ curGRPCall: 0
+ ---copyEIB---entry
+ ---copyEIB---exit
+ ---GRP copyEIB---exit
+ ---GRP storeAVsBeforeLive---entry
+ curGRPCall: 0
+ ---storeAVsBeforeLive---entry
+ sz: 4
+ ---setData---entry
+ cL: 17
+ avData @3890D8D0
+ *parmData: X'0E02E000'
+ avData[0] @3890D8E8
+ *avData: X'0E02E000'
+ ---setData---exit
+ lL: 17
+ *parmData: X'0E02E000'
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---setData---entry
+ cL: 8
+ avData @3890D940
+ *parmData: X'D3C7C9C3'
+ avData[0] @3890D958
+ *avData: X'D3C7C9C3'
+ ---setData---exit
+ lL: 8
+ *parmData: X'D3C7C9C3'
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 1
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---setData---entry
+ cL: 32522
+ avData @3890D920
+ *parmData: X'F0F1C9C3'
+ avData[0] @3890DA40
+ *avData: X'F0F1C9C3'
+ ---setData---exit
+ lL: 32522
+ *parmData: X'F0F1C9C3'
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 2
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---setData---entry
+ cL: 2
+ avData @3890DA08
+ *parmData: X'7EF40000'
+ avData[0] @3890DA20
+ *avData: X'7EF40000'
+ ---setData---exit
+ lL: 2
+ *parmData: X'7EF40000'
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 3
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---storeAVsBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP storeAVsBeforeLive---exit
+ ---GRP copyAVsAfter---entry
+ curGRPCall: 0
+ ---copyAVsAfter---entry
+ sz: 4
+ value
+ value
+ data-area
+ cL: 32522, avL: 32522
+ avData @388F4808
+ avData[0] @388FC7F0
+ avData@ 388FC7F0
+ parmlist@ 38905200
+ value
+ ---copyAVsAfter---exit
+ ---GRP copyAVsAfter---exit
+ ---g02 doCall---exit: 0
+ ---DOCICALL---exit: 0
+ ---TTEXRE---entry
+ |Input EXEC (505 bytes):
+       *EXEC CICS SEND MAP ('SSMAPC1')
+       *          FROM(SSMAPC1O)
+       *          MAPSET ('SSMAP')
+       *          CURSOR
+       *END-EXEC.
+-|Reduced EXEC (59 bytes):
+ SEND MAP ('SSMAPC1') FROM(SSMAPC1O) MAPSET ('SSMAP') CURSOR
+ ---TTEXRE---exit  rc: 0
+ ---DOCICALL---entry
+ ---g04 doCall---entry
+ ---compareData---entry
+ cL: 23
+ L: 9
+ *parmData: X'1804F100'
+ *avData: X'1804F100'
+ ---compareData---exit: 0
+ ---validateAVs---entry
+ AVsBefore: 9
+ parm 0: X'3865F1A0'
+ parm 1: X'3865F1B8'
+ parm 2: X'38904BA8'
+ parm 3: X'3890D110'
+ parm 4: X'3865F1C0'
+ parm 5: X'3865F1C8'
+ parm 6: X'3865F1D0'
+ parm 7: X'3865F1D8'
+ parm 8: X'B890D118'
+ ---compareData---entry
+ cL: 2
+ L: 2
+ *parmData: X'013E0000'
+ *avData: X'013E0000'
+ ---compareData---exit: 0
+ ---validateAVs---exit: 0
+ ---GRP incrCallCount---entry
+ curGRPCall: 1
+ ---GRP incrCallCount---exit
+ ---GRP setSequence---entry
+ curGRPCall: 1
+ ---GRP setSequence---exit
+ ---GRP setGSequence---entry
+ curGRPCall: 1
+ ---GRP setGSequence---exit
+ ---GRP copyEIB---entry
+ curGRPCall: 1
+ ---copyEIB---entry
+ ---copyEIB---exit
+ ---GRP copyEIB---exit
+ ---GRP storeAVsBeforeLive---entry
+ curGRPCall: 1
+ ---storeAVsBeforeLive---entry
+ sz: 9
+ ---setData---entry
+ cL: 23
+ avData @38915958
+ *parmData: X'1804F100'
+ avData[0] @38915970
+ *avData: X'1804F100'
+ ---setData---exit
+ lL: 23
+ *parmData: X'1804F100'
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---setData---entry
+ cL: 7
+ avData @38915A30
+ *parmData: X'E2E2D4C1'
+ avData[0] @3890DA30
+ *avData: X'E2E2D4C1'
+ ---setData---exit
+ lL: 7
+ *parmData: X'E2E2D4C1'
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 1
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---setData---entry
+ cL: 318
+ avData @38915A10
+ *parmData: X'00000000'
+ avData[0] @38915A80
+ *avData: X'00000000'
+ ---setData---exit
+ lL: 318
+ *parmData: X'00000000'
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 2
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---setData---entry
+ cL: 2
+ avData @38915A48
+ *parmData: X'013E0000'
+ avData[0] @38915A60
+ *avData: X'013E0000'
+ ---setData---exit
+ lL: 2
+ *parmData: X'013E0000'
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 3
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---setData---entry
+ cL: 7
+ avData @38915BC8
+ *parmData: X'E2E2D4C1'
+ avData[0] @38915A70
+ *avData: X'E2E2D4C1'
+ ---setData---exit
+ lL: 7
+ *parmData: X'E2E2D4C1'
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 4
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---setData---entry
+ cL: 2
+ avData @38915BE0
+ *parmData: X'00000000'
+ avData[0] @38915BF8
+ *avData: X'00000000'
+ ---setData---exit
+ lL: 2
+ *parmData: X'00000000'
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 5
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---setData---entry
+ cL: 2
+ avData @38915C08
+ *parmData: X'00000000'
+ avData[0] @38915C20
+ *avData: X'00000000'
+ ---setData---exit
+ lL: 2
+ *parmData: X'00000000'
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 6
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---setData---entry
+ cL: 2
+ avData @38915C30
+ *parmData: X'00000000'
+ avData[0] @38915C48
+ *avData: X'00000000'
+ ---setData---exit
+ lL: 2
+ *parmData: X'00000000'
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 7
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---setData---entry
+ cL: 2
+ avData @38915C58
+ *parmData: X'FFFF0000'
+ avData[0] @38915C70
+ *avData: X'FFFF0000'
+ ---setData---exit
+ lL: 2
+ *parmData: X'FFFF0000'
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 8
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---storeAVsBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---GRP storeAVsBeforeLive---exit
+ ---GRP copyAVsAfter---entry
+ curGRPCall: 1
+ ---copyAVsAfter---entry
+ sz: 9
+ value
+ value
+ value
+ value
+ value
+ value
+ value
+ value
+ value
+ ---copyAVsAfter---exit
+ ---GRP copyAVsAfter---exit
+ ---g04 doCall---exit: 0
+ ---DOCICALL---exit: 0
+ ---TTEXRE---entry
+ |Input EXEC (404 bytes):
+       *EXEC CICS RETURN
+       *     TRANSID('SSC1')
+       *     COMMAREA(COMM-AREA)
+       *     END-EXEC.
+-|Reduced EXEC (42 bytes):
+ RETURN TRANSID('SSC1') COMMAREA(COMM-AREA)
+ ---TTEXRE---exit  rc: 0
+ ---DOCICALL---entry
+ ---s00 doCall---entry
+ ---validateAVs---entry
+ AVsBefore: 4
+ parm 0: X'3865F188'
+ parm 1: X'3865F1A0'
+ parm 2: X'38905200'
+ parm 3: X'B890D110'
+ ---validateAVs---exit: 0
+ ---storeAVsBeforeLive---entry
+ sz: 4
+ ---setData---entry
+ cL: 17
+ avData @38915C80
+ *parmData: X'0E08E000'
+ avData[0] @38915C98
+ *avData: X'0E08E000'
+ ---setData---exit
+ lL: 17
+ *parmData: X'0E08E000'
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---setData---entry
+ cL: 4
+ avData @38915CF0
+ *parmData: X'E2E2C3F1'
+ avData[0] @38915D08
+ *avData: X'E2E2C3F1'
+ ---setData---exit
+ lL: 4
+ *parmData: X'E2E2C3F1'
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 1
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---setData---entry
+ cL: 32522
+ avData @38915CD0
+ *parmData: X'40404040'
+ avData[0] @388AE028
+ *avData: X'40404040'
+ ---setData---exit
+ lL: 32522
+ *parmData: X'40404040'
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 2
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---setData---entry
+ cL: 2
+ avData @38915DF8
+ *parmData: X'7F0A0000'
+ avData[0] @38915E10
+ *avData: X'7F0A0000'
+ ---setData---exit
+ lL: 2
+ *parmData: X'7F0A0000'
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---addArgBeforeLive---entry
+ count: 3
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---CC ciArgVal---entry
+ CC ciArgVal exit--- avP ptr: 0
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---addArgBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---storeAVsBeforeLive---exit
+ ---~ciArgVal---entry
+ ---~ciArgVal---exit
+ ---copyEIB---entry
+ ---copyEIB---exit
+ ---copyAVsAfter---entry
+ sz: 4
+ value
+ value
+ value
+ value
+ ---copyAVsAfter---exit
+ ---s00 doCall---exit: 0
+ ---DOCICALL---exit: 0
+ ---CICSRTRV---entry
+ ---g00 retrieveNext---entry
+ ---GRP retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 0001D4C1
+ ---buildAvRec---entry
+ cL: 17
+ avData @: 3890D8D0
+ *avData: X'0E02E000'
+ bL: 17
+ *bvData: X'0E02E000'
+ ---buildAvRec---exit: 17
+ ---retrieveNextParm---exit: 0
+ ---GRP retrieveNext---exit: 0
+ ---g00 retrieveNext---exit: 0
+ ---CICSRTRV---exit
+ ---CICSRTRV---entry
+ ---g00 retrieveNext---entry
+ ---GRP retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 0001D4C1
+ ---buildAvRec---entry
+ cL: 8
+ avData @: 3890D940
+ *avData: X'D3C7C9C3'
+ bL: 8
+ *bvData: X'D3C7C9C3'
+ ---buildAvRec---exit: 8
+ ---retrieveNextParm---exit: 0
+ ---GRP retrieveNext---exit: 0
+ ---g00 retrieveNext---exit: 0
+ ---CICSRTRV---exit
+ ---CICSRTRV---entry
+ ---g00 retrieveNext---entry
+ ---GRP retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 0001D4C1
+ ---buildAvRec---entry
+ cL: 32522
+ avData @: 3890D920
+ *avData: X'F0F1C9C3'
+ bL: 32522
+ *bvData: X'F0F1C9C3'
+ ---buildAvRec---exit: 32522
+ ---retrieveNextParm---exit: 0
+ ---GRP retrieveNext---exit: 0
+ ---g00 retrieveNext---exit: 0
+ ---CICSRTRV---exit
+ ---CICSRTRV---entry
+ ---g00 retrieveNext---entry
+ ---GRP retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 0001D4C1
+ ---buildAvRec---entry
+ cL: 2
+ avData @: 3890DA08
+ *avData: X'7EF40000'
+ bL: 2
+ *bvData: X'7EF40000'
+ ---buildAvRec---exit: 2
+ ---retrieveNextParm---exit: 1
+ ---GRP retrieveNext---exit: 10
+ ---g00 retrieveNext---exit: 10
+ ---CICSRTRV---exit
+ ---CICSRTRV---entry
+ ---g00 retrieveNext---entry
+ ---GRP retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 000186A1
+ ---buildAvRec---entry
+ cL: 30
+ avData @: 38904740
+ *avData: X'02048000'
+ bL: 30
+ *bvData: X'02048000'
+ ---buildAvRec---exit: 30
+ ---retrieveNextParm---exit: 1
+ ---GRP retrieveNext---exit: 10
+ ---g00 retrieveNext---exit: 10
+ ---CICSRTRV---exit
+ ---CICSRTRV---entry
+ ---g00 retrieveNext---entry
+ ---GRP retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 00015F91
+ ---buildAvRec---entry
+ cL: 30
+ avData @: 388FC7A0
+ *avData: X'0206C000'
+ bL: 30
+ *bvData: X'0206C000'
+ ---buildAvRec---exit: 30
+ ---retrieveNextParm---exit: 1
+ ---GRP retrieveNext---exit: 10
+ ---g00 retrieveNext---exit: 10
+ ---CICSRTRV---exit
+ ---CICSRTRV---entry
+ ---retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 0001FBD1
+ ---buildAvRec---entry
+ cL: 17
+ avData @: 38915C80
+ *avData: X'0E08E000'
+ bL: 17
+ *bvData: X'0E08E000'
+ ---buildAvRec---exit: 17
+ ---retrieveNextParm---exit: 0
+ ---retrieveNext---exit: 0
+ ---CICSRTRV---exit
+ ---CICSRTRV---entry
+ ---retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 0001FBD1
+ ---buildAvRec---entry
+ cL: 4
+ avData @: 38915CF0
+ *avData: X'E2E2C3F1'
+ bL: 4
+ *bvData: X'E2E2C3F1'
+ ---buildAvRec---exit: 4
+ ---retrieveNextParm---exit: 0
+ ---retrieveNext---exit: 0
+ ---CICSRTRV---exit
+ ---CICSRTRV---entry
+ ---retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 0001FBD1
+ ---buildAvRec---entry
+ cL: 32522
+ avData @: 38915CD0
+ *avData: X'40404040'
+ bL: 32522
+ *bvData: X'40404040'
+ ---buildAvRec---exit: 32522
+ ---retrieveNextParm---exit: 0
+ ---retrieveNext---exit: 0
+ ---CICSRTRV---exit
+ ---CICSRTRV---entry
+ ---retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 0001FBD1
+ ---buildAvRec---entry
+ cL: 2
+ avData @: 38915DF8
+ *avData: X'7F0A0000'
+ bL: 2
+ *bvData: X'7F0A0000'
+ ---buildAvRec---exit: 2
+ ---retrieveNextParm---exit: 1
+ ---retrieveNext---exit: 10
+ ---CICSRTRV---exit
+ ---CICSRTRV---entry
+ ---g00 retrieveNext---entry
+ ---GRP retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 0001ADB1
+ ---buildAvRec---entry
+ cL: 23
+ avData @: 3890D6B0
+ *avData: X'1802D000'
+ bL: 23
+ *bvData: X'1802D000'
+ ---buildAvRec---exit: 23
+ ---retrieveNextParm---exit: 0
+ ---GRP retrieveNext---exit: 0
+ ---g00 retrieveNext---exit: 0
+ ---CICSRTRV---exit
+ ---CICSRTRV---entry
+ ---g00 retrieveNext---entry
+ ---GRP retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 0001ADB1
+ ---buildAvRec---entry
+ cL: 7
+ avData @: 3890D720
+ *avData: X'E2E2D4C1'
+ bL: 7
+ *bvData: X'E2E2D4C1'
+ ---buildAvRec---exit: 7
+ ---retrieveNextParm---exit: 0
+ ---GRP retrieveNext---exit: 0
+ ---g00 retrieveNext---exit: 0
+ ---CICSRTRV---exit
+ ---CICSRTRV---entry
+ ---g00 retrieveNext---entry
+ ---GRP retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 0001ADB1
+ ---buildAvRec---entry
+ cL: 318
+ avData @: 3890D700
+ *avData: X'00000000'
+ bL: 318
+ *bvData: X'00000000'
+ ---buildAvRec---exit: 318
+ ---retrieveNextParm---exit: 0
+ ---GRP retrieveNext---exit: 0
+ ---g00 retrieveNext---exit: 0
+ ---CICSRTRV---exit
+ ---CICSRTRV---entry
+ ---g00 retrieveNext---entry
+ ---GRP retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 0001ADB1
+ ---buildAvRec---entry
+ cL: 2
+ avData @: 3890D738
+ *avData: X'00000000'
+ bL: 2
+ *bvData: X'00000000'
+ ---buildAvRec---exit: 2
+ ---retrieveNextParm---exit: 0
+ ---GRP retrieveNext---exit: 0
+ ---g00 retrieveNext---exit: 0
+ ---CICSRTRV---exit
+ ---CICSRTRV---entry
+ ---g00 retrieveNext---entry
+ ---GRP retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 0001ADB1
+ ---buildAvRec---entry
+ cL: 7
+ avData @: 3890D8B8
+ *avData: X'E2E2D4C1'
+ bL: 7
+ *bvData: X'E2E2D4C1'
+ ---buildAvRec---exit: 7
+ ---retrieveNextParm---exit: 1
+ ---GRP retrieveNext---exit: 0
+ ---g00 retrieveNext---exit: 0
+ ---CICSRTRV---exit
+ ---CICSRTRV---entry
+ ---g00 retrieveNext---entry
+ ---GRP retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 0001ADB2
+ ---buildAvRec---entry
+ cL: 23
+ avData @: 38915958
+ *avData: X'1804F100'
+ bL: 23
+ *bvData: X'1804F100'
+ ---buildAvRec---exit: 23
+ ---retrieveNextParm---exit: 0
+ ---GRP retrieveNext---exit: 0
+ ---g00 retrieveNext---exit: 0
+ ---CICSRTRV---exit
+ ---CICSRTRV---entry
+ ---g00 retrieveNext---entry
+ ---GRP retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 0001ADB2
+ ---buildAvRec---entry
+ cL: 7
+ avData @: 38915A30
+ *avData: X'E2E2D4C1'
+ bL: 7
+ *bvData: X'E2E2D4C1'
+ ---buildAvRec---exit: 7
+ ---retrieveNextParm---exit: 0
+ ---GRP retrieveNext---exit: 0
+ ---g00 retrieveNext---exit: 0
+ ---CICSRTRV---exit
+ ---CICSRTRV---entry
+ ---g00 retrieveNext---entry
+ ---GRP retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 0001ADB2
+ ---buildAvRec---entry
+ cL: 318
+ avData @: 38915A10
+ *avData: X'00000000'
+ bL: 318
+ *bvData: X'00000000'
+ ---buildAvRec---exit: 318
+ ---retrieveNextParm---exit: 0
+ ---GRP retrieveNext---exit: 0
+ ---g00 retrieveNext---exit: 0
+ ---CICSRTRV---exit
+ ---CICSRTRV---entry
+ ---g00 retrieveNext---entry
+ ---GRP retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 0001ADB2
+ ---buildAvRec---entry
+ cL: 2
+ avData @: 38915A48
+ *avData: X'013E0000'
+ bL: 2
+ *bvData: X'013E0000'
+ ---buildAvRec---exit: 2
+ ---retrieveNextParm---exit: 0
+ ---GRP retrieveNext---exit: 0
+ ---g00 retrieveNext---exit: 0
+ ---CICSRTRV---exit
+ ---CICSRTRV---entry
+ ---g00 retrieveNext---entry
+ ---GRP retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 0001ADB2
+ ---buildAvRec---entry
+ cL: 7
+ avData @: 38915BC8
+ *avData: X'E2E2D4C1'
+ bL: 7
+ *bvData: X'E2E2D4C1'
+ ---buildAvRec---exit: 7
+ ---retrieveNextParm---exit: 0
+ ---GRP retrieveNext---exit: 0
+ ---g00 retrieveNext---exit: 0
+ ---CICSRTRV---exit
+ ---CICSRTRV---entry
+ ---g00 retrieveNext---entry
+ ---GRP retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 0001ADB2
+ ---buildAvRec---entry
+ cL: 2
+ avData @: 38915BE0
+ *avData: X'00000000'
+ bL: 2
+ *bvData: X'00000000'
+ ---buildAvRec---exit: 2
+ ---retrieveNextParm---exit: 0
+ ---GRP retrieveNext---exit: 0
+ ---g00 retrieveNext---exit: 0
+ ---CICSRTRV---exit
+ ---CICSRTRV---entry
+ ---g00 retrieveNext---entry
+ ---GRP retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 0001ADB2
+ ---buildAvRec---entry
+ cL: 2
+ avData @: 38915C08
+ *avData: X'00000000'
+ bL: 2
+ *bvData: X'00000000'
+ ---buildAvRec---exit: 2
+ ---retrieveNextParm---exit: 0
+ ---GRP retrieveNext---exit: 0
+ ---g00 retrieveNext---exit: 0
+ ---CICSRTRV---exit
+ ---CICSRTRV---entry
+ ---g00 retrieveNext---entry
+ ---GRP retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 0001ADB2
+ ---buildAvRec---entry
+ cL: 2
+ avData @: 38915C30
+ *avData: X'00000000'
+ bL: 2
+ *bvData: X'00000000'
+ ---buildAvRec---exit: 2
+ ---retrieveNextParm---exit: 0
+ ---GRP retrieveNext---exit: 0
+ ---g00 retrieveNext---exit: 0
+ ---CICSRTRV---exit
+ ---CICSRTRV---entry
+ ---g00 retrieveNext---entry
+ ---GRP retrieveNext---entry
+ ---retrieveNextParm---entry
+ token: 0001ADB2
+ ---buildAvRec---entry
+ cL: 2
+ avData @: 38915C58
+ *avData: X'FFFF0000'
+ bL: 2
+ *bvData: X'FFFF0000'
+ ---buildAvRec---exit: 2
+ ---retrieveNextParm---exit: 1
+ ---GRP retrieveNext---exit: 10
+ ---g00 retrieveNext---exit: 10
+ ---CICSRTRV---exit

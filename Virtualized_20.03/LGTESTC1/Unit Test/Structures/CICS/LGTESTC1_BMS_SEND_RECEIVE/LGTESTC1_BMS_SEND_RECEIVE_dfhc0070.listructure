@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200629-0403_106?>
+<!--Topaz for Total Test 20.3.1.v20200629-0403_106 Sep 7, 2020 3:22:50 PM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/CICS/LGTESTC1_BMS_SEND_RECEIVE/LGTESTC1_BMS_SEND_RECEIVE_dfhc0070.listructure">
+  <listructure:struct id="dfhc0070" name="dfhc0070">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">7</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">7</properties:property>
+    </properties:properties>
+    <listructure:string id="dfhc0070.dfhc0070" length="7" name="dfhc0070">
+      <properties:properties>
+        <properties:property name="picture" type="string">x(7)</properties:property>
+        <properties:property name="displayLength" type="number">7</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">x(7)</properties:property>
+        <properties:property name="storageLength" type="number">7</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>

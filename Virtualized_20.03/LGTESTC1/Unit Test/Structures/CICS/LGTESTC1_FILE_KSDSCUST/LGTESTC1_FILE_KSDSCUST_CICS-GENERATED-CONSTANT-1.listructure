@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.4.1.v20190319-1916_877?>
+<!--Topaz for Total Test 19.4.1.v20190319-1916_877 21.05.2019 10:31:33-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_CICS-GENERATED-CONSTANT-1.listructure">
+  <listructure:struct id="CICS_GENERATED_CONSTANT_1" name="CICS_GENERATED_CONSTANT_1">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">8</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">8</properties:property>
+    </properties:properties>
+    <listructure:string id="CICS_GENERATED_CONSTANT_1.CICS_GENERATED_CONSTANT_1" length="8" name="CICS_GENERATED_CONSTANT_1">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(8)</properties:property>
+        <properties:property name="displayLength" type="number">8</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(8)</properties:property>
+        <properties:property name="storageLength" type="number">8</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>

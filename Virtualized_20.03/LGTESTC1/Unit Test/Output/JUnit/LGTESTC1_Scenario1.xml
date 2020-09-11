@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.4.1.v20190319-1916_877?>
+<!--Topaz for Total Test 19.4.1.v20190319-1916_877 21.05.2019 10:55:31-->
+<testsuites>
+  <testsuite errors="0" failures="0" name="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1" tests="32">
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1" name="00001: Check for eibtime"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1" name="00002: Check for eibdate"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1" name="00003: Check for eibtrnid"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1" name="00004: Check for eibtaskn"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1" name="00005: Check for eibtrmid"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1" name="00006: Check for dfheigdi"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1" name="00007: Check for eibcposn"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1" name="00008: Check for eibcalen"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1" name="00009: Check for eibaid"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1" name="00010: Check for eibfn"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1" name="00011: Check for eibrcode"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1" name="00012: Check for eibds"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1" name="00013: Check for eibreqid"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1" name="00014: Check for eibrsrce"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1" name="00015: Check for eibsync"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1" name="00016: Check for eibfree"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1" name="00017: Check for eibrecv"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1" name="00018: Check for eibfil01"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1" name="00019: Check for eibatt"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1" name="00020: Check for eibeoc"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1" name="00021: Check for eibfmh"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1" name="00022: Check for eibcompl"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1" name="00023: Check for eibsig"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1" name="00024: Check for eibconf"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1" name="00025: Check for eiberr"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1" name="00026: Check for eiberrcd"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1" name="00027: Check for eibsynrb"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1" name="00028: Check for eibnodat"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1" name="00029: Check for eibresp"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1" name="00030: Check for eibresp2"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1" name="00031: Check for eibrldbk"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1" name="00032: Check for dfhcommarea"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" tests="128">
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00001: Check for CA_REQUEST_ID"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00002: Check for CA_RETURN_CODE"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00003: Check for CA_CUSTOMER_NUM"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00004: Check for CA_REQUEST_SPECIFIC"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00005: Check for CA_FIRST_NAME"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00006: Check for CA_LAST_NAME"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00007: Check for CA_DOB"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00008: Check for CA_HOUSE_NAME"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00009: Check for CA_HOUSE_NUM"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00010: Check for CA_POSTCODE"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00011: Check for CA_NUM_POLICIES"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00012: Check for CA_PHONE_MOBILE"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00013: Check for CA_PHONE_HOME"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00014: Check for CA_EMAIL_ADDRESS"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00015: Check for CA_NATIONAL_ID_NBR"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00016: Check for CA_NIN_TYPE"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00017: Check for CA_STREET_ADDRESS"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00018: Check for CA_CITY"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00019: Check for CA_STATE"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00020: Check for CA_COUNTRY_CODE"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00021: Check for CA_SALES_TERRITORY"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00022: Check for CA_CUSTOMER_PFKEY"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00023: Check for CA_CUSTOMER_BEGIN"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00024: Check for CA_CUSTOMER_END"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00025: Check for CA_POLICY_DATA"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00026: Check for CA_CUSTSECR_PASS"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00027: Check for CA_CUSTSECR_COUNT"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00028: Check for CA_CUSTSECR_STATE"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00029: Check for CA_CUSTSECR_DATA"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00030: Check for CA_POLICY_NUM"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00031: Check for CA_ISSUE_DATE"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00032: Check for CA_EXPIRY_DATE"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00033: Check for CA_LASTCHANGED"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00034: Check for CA_BROKERID"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00035: Check for CA_BROKERSREF"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00036: Check for CA_PAYMENT"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00037: Check for CA_POLICY_PFKEY"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00038: Check for CA_POLICY_BEGIN"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00039: Check for CA_POLICY_END"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00040: Check for CA_POLICY_SPECIFIC"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00041: Check for CA_E_WITH_PROFITS"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00042: Check for CA_E_EQUITIES"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00043: Check for CA_E_MANAGED_FUND"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00044: Check for CA_E_FUND_NAME"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00045: Check for CA_E_TERM"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00046: Check for CA_E_SUM_ASSURED"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00047: Check for CA_E_LIFE_ASSURED"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00048: Check for CA_E_AUTO_PAY"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00049: Check for CA_E_CHECK_ACCT_NBR"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00050: Check for CA_E_BANK_ROUTE_CODE"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00051: Check for CA_E_CREDIT_CARD_TYP"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00052: Check for CA_E_CREDIT_CARD_NBR"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00053: Check for CA_E_CREDIT_CARD_PIN"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00054: Check for CA_E_CREDIT_CARD_VAL"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00055: Check for CA_E_PADDING_DATA"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00056: Check for CA_H_PROPERTY_TYPE"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00057: Check for CA_H_BEDROOMS"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00058: Check for CA_H_VALUE"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00059: Check for CA_H_HOUSE_NAME"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00060: Check for CA_H_HOUSE_NUMBER"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00061: Check for CA_H_POSTCODE"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00062: Check for CA_H_STREET_ADDRESS"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00063: Check for CA_H_CITY"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00064: Check for CA_H_STATE"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00065: Check for CA_H_COUNTRY_CODE"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00066: Check for CA_H_AUTO_PAY"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00067: Check for CA_H_CHECK_ACCT_NBR"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00068: Check for CA_H_BANK_ROUTE_CODE"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00069: Check for CA_H_CREDIT_CARD_TYP"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00070: Check for CA_H_CREDIT_CARD_NBR"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00071: Check for CA_H_CREDIT_CARD_PIN"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00072: Check for CA_H_CREDIT_CARD_VAL"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00073: Check for CA_H_FILLER"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00074: Check for CA_M_MAKE"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00075: Check for CA_M_MODEL"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00076: Check for CA_M_VALUE"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00077: Check for CA_M_REGNUMBER"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00078: Check for CA_M_COLOUR"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00079: Check for CA_M_CC"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00080: Check for CA_M_MANUFACTURED"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00081: Check for CA_M_PREMIUM"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00082: Check for CA_M_ACCIDENTS"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00083: Check for CA_M_CAR_YEAR"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00084: Check for CA_M_CAR_VIN"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00085: Check for CA_M_AUTO_PAY"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00086: Check for CA_M_CHECK_ACCT_NBR"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00087: Check for CA_M_BANK_ROUTE_CODE"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00088: Check for CA_M_CREDIT_CARD_TYP"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00089: Check for CA_M_CREDIT_CARD_NBR"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00090: Check for CA_M_CREDIT_CARD_PIN"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00091: Check for CA_M_CREDIT_CARD_VAL"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00092: Check for CA_M_FILLER"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00093: Check for CA_B_Address"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00094: Check for CA_B_Postcode"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00095: Check for CA_B_Latitude"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00096: Check for CA_B_Longitude"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00097: Check for CA_B_Customer"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00098: Check for CA_B_PropType"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00099: Check for CA_B_FirePeril"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00100: Check for CA_B_FirePremium"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00101: Check for CA_B_CrimePeril"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00102: Check for CA_B_CrimePremium"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00103: Check for CA_B_FloodPeril"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00104: Check for CA_B_FloodPremium"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00105: Check for CA_B_WeatherPeril"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00106: Check for CA_B_WeatherPremium"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00107: Check for CA_B_Status"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00108: Check for CA_B_RejectReason"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00109: Check for CA_B_STREET_ADDRESS"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00110: Check for CA_B_CITY"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00111: Check for CA_B_STATE"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00112: Check for CA_B_COUNTRY_CODE"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00113: Check for CA_B_AUTO_PAY"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00114: Check for CA_B_CHECK_ACCT_NBR"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00115: Check for CA_B_BANK_ROUTE_CODE"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00116: Check for CA_B_CREDIT_CARD_TYP"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00117: Check for CA_B_CREDIT_CARD_NBR"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00118: Check for CA_B_CREDIT_CARD_PIN"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00119: Check for CA_B_CREDIT_CARD_VAL"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00120: Check for CA_B_FILLER"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00121: Check for CA_C_Num"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00122: Check for CA_C_Date"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00123: Check for CA_C_Paid"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00124: Check for CA_C_Value"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00125: Check for CA_C_Cause"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00126: Check for CA_C_Observations"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00127: Check for CA_C_FILLER"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_EXEC_CICS_RETURN1_01.00001: EXEC CICS RETURN assertion" name="00128: Check for dfhb0020"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" tests="38">
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00001: Check for FILLER1"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00002: Check for ENT1CDTO"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00003: Check for FILLER2"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00004: Check for ENT1OPTO"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00005: Check for FILLER3"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00006: Check for ENT1CNOO"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00007: Check for FILLER4"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00008: Check for ENT1DATO"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00009: Check for FILLER5"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00010: Check for ENT1FNAO"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00011: Check for FILLER6"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00012: Check for ENT1LNAO"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00013: Check for FILLER7"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00014: Check for ENT1DOBO"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00015: Check for FILLER8"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00016: Check for ENT1NINO"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00017: Check for FILLER9"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00018: Check for ENT1TYPO"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00019: Check for FILLER10"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00020: Check for ENT1STRO"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00021: Check for FILLER11"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00022: Check for ENT1CITO"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00023: Check for FILLER12"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00024: Check for ENT1STAO"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00025: Check for FILLER13"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00026: Check for ENT1COUO"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00027: Check for FILLER14"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00028: Check for ENT1POSO"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00029: Check for FILLER15"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00030: Check for ENT1TERO"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00031: Check for FILLER16"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00032: Check for ENT1PH1O"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00033: Check for FILLER17"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00034: Check for ENT1PH2O"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00035: Check for FILLER18"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00036: Check for ENT1EMAO"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00037: Check for FILLER19"/>
+    <testcase classname="LGTESTC1_Test_Unit_Tests.LGTESTC1_Scenario1.00001: LGTESTC1Case1.LGTESTC1_BMS_SEND_RECEIVE_01.00001: EXEC CICS SEND assertion" name="00038: Check for ERRFLDO"/>
+  </testsuite>
+</testsuites>

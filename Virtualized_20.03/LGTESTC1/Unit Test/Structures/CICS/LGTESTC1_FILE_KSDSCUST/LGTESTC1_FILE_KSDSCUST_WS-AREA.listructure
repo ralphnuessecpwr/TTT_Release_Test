@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.4.1.v20190319-1916_877?>
+<!--Topaz for Total Test 19.4.1.v20190319-1916_877 21.05.2019 10:31:33-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/CICS/LGTESTC1_FILE_KSDSCUST/LGTESTC1_FILE_KSDSCUST_WS-AREA.listructure">
+  <listructure:struct id="WS_AREA" name="WS_AREA">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">225</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">225</properties:property>
+    </properties:properties>
+    <listructure:string id="WS_AREA.WS_CUSTOMER_NUM" length="10" name="WS_CUSTOMER_NUM">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(10)</properties:property>
+        <properties:property name="displayLength" type="number">10</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(10)</properties:property>
+        <properties:property name="storageLength" type="number">10</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:struct id="WS_AREA.Filler0" name="Filler0">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="picture" type="string">X(215)</properties:property>
+        <properties:property name="displayLength" type="number">215</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(215)</properties:property>
+        <properties:property name="storageLength" type="number">215</properties:property>
+      </properties:properties>
+      <listructure:number id="WS_AREA.Filler0.F82" initial="225" length="4" name="F82">
+        <properties:properties>
+          <properties:property name="picture" type="string">S9(4)</properties:property>
+          <properties:property name="usage" type="string">computational</properties:property>
+          <properties:property name="signed" type="boolean">true</properties:property>
+          <properties:property name="value">225</properties:property>
+          <properties:property name="displayLength" type="number">4</properties:property>
+          <properties:property name="integerDigits" type="number">4</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">binary</properties:property>
+          <properties:property name="storageLength" type="number">4</properties:property>
+        </properties:properties>
+      </listructure:number>
+      <listructure:number id="WS_AREA.Filler0.F10" initial="10" length="4" name="F10">
+        <properties:properties>
+          <properties:property name="picture" type="string">S9(4)</properties:property>
+          <properties:property name="usage" type="string">computational</properties:property>
+          <properties:property name="signed" type="boolean">true</properties:property>
+          <properties:property name="value">10</properties:property>
+          <properties:property name="displayLength" type="number">4</properties:property>
+          <properties:property name="integerDigits" type="number">4</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">binary</properties:property>
+          <properties:property name="storageLength" type="number">4</properties:property>
+        </properties:properties>
+      </listructure:number>
+      <listructure:number id="WS_AREA.Filler0.WS_SUB1" initial="+0" length="4" name="WS_SUB1">
+        <properties:properties>
+          <properties:property name="picture" type="string">S9(04)</properties:property>
+          <properties:property name="usage" type="string">computational</properties:property>
+          <properties:property name="signed" type="boolean">true</properties:property>
+          <properties:property name="value">+0</properties:property>
+          <properties:property name="displayLength" type="number">4</properties:property>
+          <properties:property name="integerDigits" type="number">4</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">binary</properties:property>
+          <properties:property name="storageLength" type="number">4</properties:property>
+        </properties:properties>
+      </listructure:number>
+      <listructure:number id="WS_AREA.Filler0.WS_SUB2" initial="+0" length="4" name="WS_SUB2">
+        <properties:properties>
+          <properties:property name="picture" type="string">S9(04)</properties:property>
+          <properties:property name="usage" type="string">computational</properties:property>
+          <properties:property name="signed" type="boolean">true</properties:property>
+          <properties:property name="value">+0</properties:property>
+          <properties:property name="displayLength" type="number">4</properties:property>
+          <properties:property name="integerDigits" type="number">4</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">binary</properties:property>
+          <properties:property name="storageLength" type="number">4</properties:property>
+        </properties:properties>
+      </listructure:number>
+    </listructure:struct>
+  </listructure:struct>
+</listructure:listructure>
