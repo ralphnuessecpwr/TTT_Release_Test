@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?totaltestVersion 20.3.1.v20200620-0334_96?>
-<!--Topaz for Total Test 20.3.1.v20200620-0334_96 Jun 26, 2020 4:21:06 PM-->
-<testsuite:testsuite xmlns:testsuite="http://www.compuware.com/model/xml/testsuite" id="Unit%20Test/Suites/CWDEMCB2.testsuite">
-  <testsuite:testscenario>../Scenarios/CWDEMCB2_Scenario1.testscenario#Unit%20Test/Scenarios/CWDEMCB2_Scenario1.testscenario</testsuite:testscenario>
-  <testsuite:testscenario>../Scenarios/CWDEMCB2_Scenario2.testscenario#Unit%20Test/Scenarios/CWDEMCB2_Scenario2.testscenario</testsuite:testscenario>
-</testsuite:testsuite>
