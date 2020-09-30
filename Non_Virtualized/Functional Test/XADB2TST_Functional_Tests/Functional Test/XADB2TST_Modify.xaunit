@@ -35,7 +35,7 @@ Clean up&#xD;
       <Variable id="oldLastname">=inputRecords.record[0].dclxaemployee.lastname</Variable>
       <Variable id="oldUserid">=inputRecords.record[0].dclxaemployee.userid</Variable>
       <Variable id="oldCprnr">=inputRecords.record[0].dclxaemployee.cprnr</Variable>
-      <Variable id="db2CreatorName">ADKKXC0</Variable>
+      <Variable id="db2CreatorName">HDDRXM0</Variable>
       <Variable id="db2TableName">XAEMPLOYEE</Variable>
       <Variable id="expectedEmployeeStatus">M</Variable>
       <Variable id="expectedUserId">XATESTER</Variable>

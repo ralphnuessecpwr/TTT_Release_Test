@@ -1,11 +1,11 @@
-12:45:16.822 COMMENT   Engine           Test Scenario execution started
-12:45:16.822 INFO      Engine           Using context settings:
+11:42:48.579 COMMENT   Engine           Test Scenario execution started
+11:42:48.579 INFO      Engine           Using context settings:
   Engine Version       : 20.3
-  Environment id                : 5e7a190fcf655a12a4d4df4d
+  Environment id                : 5f64570731d7ab4e8cb59b98
   Environment type              : Batch
   Operating system              : ZOS
   zOS agent version             : NEWEST
-  Server address                : cwc2.nasa.cpwr.corp
+  Server address                : cwcc.compuware.com
   Server port                   : 16196
   Job execution timeout seconds : 300
   Job info interval seconds     : 3
@@ -14,30 +14,30 @@
   Codepage                      : IBM-1047
   Host user Id                  : HDDRXM0
   Use Repository Server         : false
-12:45:16.823 INFO      Engine           Setting variables from context and context data extensions
-12:45:16.823 INFO      Engine             id: environmentId      value: 5e7a190fcf655a12a4d4df4d
-12:45:16.823 INFO      Engine             id: environmentType    value: BATCH
-12:45:16.823 INFO      Engine             id: userId             value: HDDRXM0
-12:45:16.823 INFO      Engine             id: accountingInfo     value: 
-12:45:16.824 INFO      ReadRemoteFile   Interpreting ReadRemoteFile for fileName: HDDRXM0.DEMO.TTTFT.CWXTRPT first record:10 number of records to read: 22
-12:45:16.827 INFO      ReadRemoteFile   Sending Read dataset request to Host 
-12:45:16.960 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/267de40ccaba46759a567483c7e8af6d
-12:45:20.575 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>IMPFILE</operation><runat>DAY</runat><loglevel>log</loglevel><encoding>EBCDIC</encoding><codepage>1047</codepage><jobdirectory>267de40ccaba46759a567483c7e8af6d</jobdirectory><outputfilepath>XAT_records.xml</outputfilepath><impfile><impdsn>HDDRXM0.DEMO.TTTFT.CWXTRPT</impdsn><imptpl>XAT_template.xml</imptpl><impxml>XAT_records.xml</impxml><impmax>22</impmax><impskip>9</impskip></impfile></xatz_request></XATZREQ>
-12:45:20.770 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0887775</jobid><jobname>HDDRXM0I</jobname><starttime>20200701064520737</starttime></xatz_response></XATZRESP>
-12:45:20.773 LOG       HCIClient        Response received from Host. Message: JobId:J0887775
-12:45:20.773 INFO      HCIClient        Job has been started at host with JobId:J0887775
-12:45:26.320 INFO      CWC2 Batch       Job execution completed with status:
+11:42:48.579 INFO      Engine           Setting variables from context and context data extensions
+11:42:48.579 INFO      Engine             id: environmentId      value: 5f64570731d7ab4e8cb59b98
+11:42:48.579 INFO      Engine             id: environmentType    value: BATCH
+11:42:48.579 INFO      Engine             id: userId             value: HDDRXM0
+11:42:48.579 INFO      Engine             id: accountingInfo     value: 
+11:42:48.580 INFO      ReadRemoteFile   Interpreting ReadRemoteFile for fileName: HDDRXM0.RT.TTTFT.CWXTRPT first record:10 number of records to read: 12
+11:42:48.581 INFO      ReadRemoteFile   Sending Read dataset request to Host 
+11:42:48.712 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/7bffe406d15c40af8c0b406d051ccc9e
+11:42:52.250 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>IMPFILE</operation><runat>DAY</runat><loglevel>log</loglevel><encoding>EBCDIC</encoding><codepage>1047</codepage><jobdirectory>7bffe406d15c40af8c0b406d051ccc9e</jobdirectory><outputfilepath>XAT_records.xml</outputfilepath><impfile><impdsn>HDDRXM0.RT.TTTFT.CWXTRPT</impdsn><imptpl>XAT_template.xml</imptpl><impxml>XAT_records.xml</impxml><impmax>12</impmax><impskip>9</impskip></impfile></xatz_request></XATZREQ>
+11:42:52.446 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0923930</jobid><jobname>HDDRXM0I</jobname><starttime>20200921054252404</starttime></xatz_response></XATZRESP>
+11:42:52.447 LOG       HCIClient        Response received from Host. Message: JobId:J0923930
+11:42:52.448 INFO      HCIClient        Job has been started at host with JobId:J0923930
+11:42:53.217 INFO      CWCC Batch       Job execution completed with status:
   Job status     : COMPLETED
-  Job status msg : Job HDDRXM0I(J0887775) ended with return code: 0000
+  Job status msg : Job HDDRXM0I(J0923930) ended with return code: 0000
   Job name       : HDDRXM0I
-  Job id         : J0887775
+  Job id         : J0923930
   Return code    : 0000
   Abend code     : 
   Abend reason   : 
-12:45:26.942 INFO      ReadRemoteFile   Records received, count= 14
-12:45:26.945 INFO      IterateData      Interpreting IterateData id: loop. Number of data iterations: 14. Variable loopIndex contains iteration number
-12:45:26.946 INFO      IterateData      Iteration number 0 started.
-12:45:26.952 LOG       IterateData      Iteration Data:
+11:42:53.781 INFO      ReadRemoteFile   Records received, count= 12
+11:42:53.781 INFO      IterateData      Interpreting IterateData id: loop. Number of data iterations: 12. Variable loopIndex contains iteration number
+11:42:53.782 INFO      IterateData      Iteration number 0 started.
+11:42:53.782 LOG       IterateData      Iteration Data:
 <record xmlns="http://www.xact.dk/xatester/v/1">
   <employee-dtl>
     <filler1></filler1>
@@ -64,19 +64,30 @@
     <emp-dtl-total>' 1083'</emp-dtl-total>
   </employee-dtl>
 </record>
-12:45:26.952 INFO      Verify           Interpreting Verify component name:Verify
-12:45:26.953 INFO      Verify           Using verify expression:loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision
-12:45:27.284 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
-loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision
-12:45:27.296 INFO      Verify           Comments from JavaScript execution:
-2020-07-01 12:45:27,284 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
-loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision 
+11:42:53.782 INFO      Verify           Interpreting Verify component name:Verify
+11:42:53.790 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-total'], 10)
+11:42:53.792 INFO      Verify           Comments from JavaScript execution:
+2020-09-21 11:42:53,790 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-total'], 10) 
 
-12:45:27.297 VERIFY    Verify           The Verify expression was evaluated to false
-12:45:27.297 LOG       Verify           Expression returned:
-false
-12:45:27.298 INFO      IterateData      Iteration number 1 started.
-12:45:27.298 LOG       IterateData      Iteration Data:
+11:42:53.792 LOG       Verify           Expected from expression:
+1083.0
+11:42:53.799 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-wages'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-ot'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-comm'])
+11:42:53.801 INFO      Verify           Comments from JavaScript execution:
+2020-09-21 11:42:53,799 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-wages'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-ot'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-comm']) 
+
+11:42:53.801 LOG       Verify           Actual from expression:
+1083.0
+11:42:53.801 INFO      Verify           Expected and Actual data was found to be identical
+11:42:53.802 INFO      IterateData      Iteration number 1 started.
+11:42:53.802 LOG       IterateData      Iteration Data:
 <record xmlns="http://www.xact.dk/xatester/v/1">
   <employee-dtl>
     <filler1></filler1>
@@ -103,19 +114,30 @@ false
     <emp-dtl-total>' 1000'</emp-dtl-total>
   </employee-dtl>
 </record>
-12:45:27.298 INFO      Verify           Interpreting Verify component name:Verify
-12:45:27.298 INFO      Verify           Using verify expression:loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision
-12:45:27.321 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
-loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision
-12:45:27.326 INFO      Verify           Comments from JavaScript execution:
-2020-07-01 12:45:27,321 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
-loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision 
+11:42:53.802 INFO      Verify           Interpreting Verify component name:Verify
+11:42:53.808 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-total'], 10)
+11:42:53.810 INFO      Verify           Comments from JavaScript execution:
+2020-09-21 11:42:53,808 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-total'], 10) 
 
-12:45:27.326 VERIFY    Verify           The Verify expression was evaluated to false
-12:45:27.327 LOG       Verify           Expression returned:
-false
-12:45:27.327 INFO      IterateData      Iteration number 2 started.
-12:45:27.327 LOG       IterateData      Iteration Data:
+11:42:53.810 LOG       Verify           Expected from expression:
+1000.0
+11:42:53.817 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-wages'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-ot'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-comm'])
+11:42:53.820 INFO      Verify           Comments from JavaScript execution:
+2020-09-21 11:42:53,817 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-wages'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-ot'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-comm']) 
+
+11:42:53.820 LOG       Verify           Actual from expression:
+1000.0
+11:42:53.820 INFO      Verify           Expected and Actual data was found to be identical
+11:42:53.820 INFO      IterateData      Iteration number 2 started.
+11:42:53.820 LOG       IterateData      Iteration Data:
 <record xmlns="http://www.xact.dk/xatester/v/1">
   <employee-dtl>
     <filler1></filler1>
@@ -142,19 +164,30 @@ false
     <emp-dtl-total>' 4050'</emp-dtl-total>
   </employee-dtl>
 </record>
-12:45:27.327 INFO      Verify           Interpreting Verify component name:Verify
-12:45:27.327 INFO      Verify           Using verify expression:loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision
-12:45:27.357 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
-loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision
-12:45:27.363 INFO      Verify           Comments from JavaScript execution:
-2020-07-01 12:45:27,357 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
-loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision 
+11:42:53.820 INFO      Verify           Interpreting Verify component name:Verify
+11:42:53.827 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-total'], 10)
+11:42:53.828 INFO      Verify           Comments from JavaScript execution:
+2020-09-21 11:42:53,827 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-total'], 10) 
 
-12:45:27.364 VERIFY    Verify           The Verify expression was evaluated to false
-12:45:27.364 LOG       Verify           Expression returned:
-false
-12:45:27.364 INFO      IterateData      Iteration number 3 started.
-12:45:27.364 LOG       IterateData      Iteration Data:
+11:42:53.828 LOG       Verify           Expected from expression:
+4050.0
+11:42:53.841 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-wages'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-ot'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-comm'])
+11:42:53.845 INFO      Verify           Comments from JavaScript execution:
+2020-09-21 11:42:53,841 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-wages'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-ot'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-comm']) 
+
+11:42:53.845 LOG       Verify           Actual from expression:
+4050.0
+11:42:53.845 INFO      Verify           Expected and Actual data was found to be identical
+11:42:53.845 INFO      IterateData      Iteration number 3 started.
+11:42:53.845 LOG       IterateData      Iteration Data:
 <record xmlns="http://www.xact.dk/xatester/v/1">
   <employee-dtl>
     <filler1></filler1>
@@ -181,19 +214,30 @@ false
     <emp-dtl-total>' 1140'</emp-dtl-total>
   </employee-dtl>
 </record>
-12:45:27.364 INFO      Verify           Interpreting Verify component name:Verify
-12:45:27.364 INFO      Verify           Using verify expression:loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision
-12:45:27.389 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
-loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision
-12:45:27.394 INFO      Verify           Comments from JavaScript execution:
-2020-07-01 12:45:27,389 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
-loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision 
+11:42:53.846 INFO      Verify           Interpreting Verify component name:Verify
+11:42:53.857 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-total'], 10)
+11:42:53.859 INFO      Verify           Comments from JavaScript execution:
+2020-09-21 11:42:53,857 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-total'], 10) 
 
-12:45:27.395 VERIFY    Verify           The Verify expression was evaluated to false
-12:45:27.395 LOG       Verify           Expression returned:
-false
-12:45:27.395 INFO      IterateData      Iteration number 4 started.
-12:45:27.395 LOG       IterateData      Iteration Data:
+11:42:53.859 LOG       Verify           Expected from expression:
+1140.0
+11:42:53.868 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-wages'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-ot'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-comm'])
+11:42:53.870 INFO      Verify           Comments from JavaScript execution:
+2020-09-21 11:42:53,868 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-wages'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-ot'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-comm']) 
+
+11:42:53.870 LOG       Verify           Actual from expression:
+1140.0
+11:42:53.870 INFO      Verify           Expected and Actual data was found to be identical
+11:42:53.871 INFO      IterateData      Iteration number 4 started.
+11:42:53.871 LOG       IterateData      Iteration Data:
 <record xmlns="http://www.xact.dk/xatester/v/1">
   <employee-dtl>
     <filler1></filler1>
@@ -220,19 +264,30 @@ false
     <emp-dtl-total>' 6500'</emp-dtl-total>
   </employee-dtl>
 </record>
-12:45:27.395 INFO      Verify           Interpreting Verify component name:Verify
-12:45:27.395 INFO      Verify           Using verify expression:loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision
-12:45:27.415 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
-loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision
-12:45:27.421 INFO      Verify           Comments from JavaScript execution:
-2020-07-01 12:45:27,416 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
-loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision 
+11:42:53.871 INFO      Verify           Interpreting Verify component name:Verify
+11:42:53.877 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-total'], 10)
+11:42:53.878 INFO      Verify           Comments from JavaScript execution:
+2020-09-21 11:42:53,877 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-total'], 10) 
 
-12:45:27.422 VERIFY    Verify           The Verify expression was evaluated to false
-12:45:27.422 LOG       Verify           Expression returned:
-false
-12:45:27.422 INFO      IterateData      Iteration number 5 started.
-12:45:27.422 LOG       IterateData      Iteration Data:
+11:42:53.878 LOG       Verify           Expected from expression:
+6500.0
+11:42:53.886 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-wages'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-ot'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-comm'])
+11:42:53.888 INFO      Verify           Comments from JavaScript execution:
+2020-09-21 11:42:53,886 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-wages'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-ot'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-comm']) 
+
+11:42:53.888 LOG       Verify           Actual from expression:
+6500.0
+11:42:53.889 INFO      Verify           Expected and Actual data was found to be identical
+11:42:53.889 INFO      IterateData      Iteration number 5 started.
+11:42:53.889 LOG       IterateData      Iteration Data:
 <record xmlns="http://www.xact.dk/xatester/v/1">
   <employee-dtl>
     <filler1></filler1>
@@ -248,7 +303,7 @@ false
     <emp-dtl-slash2>/</emp-dtl-slash2>
     <emp-dtl-hire-yy>82</emp-dtl-hire-yy>
     <filler5></filler5>
-    <emp-dtl-yrs-of-service>37</emp-dtl-yrs-of-service>
+    <emp-dtl-yrs-of-service>38</emp-dtl-yrs-of-service>
     <filler6></filler6>
     <emp-dtl-wages>'  825'</emp-dtl-wages>
     <filler7></filler7>
@@ -259,19 +314,30 @@ false
     <emp-dtl-total>' 6825'</emp-dtl-total>
   </employee-dtl>
 </record>
-12:45:27.422 INFO      Verify           Interpreting Verify component name:Verify
-12:45:27.423 INFO      Verify           Using verify expression:loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision
-12:45:27.446 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
-loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision
-12:45:27.450 INFO      Verify           Comments from JavaScript execution:
-2020-07-01 12:45:27,446 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
-loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision 
+11:42:53.889 INFO      Verify           Interpreting Verify component name:Verify
+11:42:53.899 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-total'], 10)
+11:42:53.901 INFO      Verify           Comments from JavaScript execution:
+2020-09-21 11:42:53,899 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-total'], 10) 
 
-12:45:27.451 VERIFY    Verify           The Verify expression was evaluated to false
-12:45:27.451 LOG       Verify           Expression returned:
-false
-12:45:27.451 INFO      IterateData      Iteration number 6 started.
-12:45:27.451 LOG       IterateData      Iteration Data:
+11:42:53.901 LOG       Verify           Expected from expression:
+6825.0
+11:42:53.908 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-wages'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-ot'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-comm'])
+11:42:53.910 INFO      Verify           Comments from JavaScript execution:
+2020-09-21 11:42:53,908 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-wages'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-ot'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-comm']) 
+
+11:42:53.910 LOG       Verify           Actual from expression:
+6825.0
+11:42:53.910 INFO      Verify           Expected and Actual data was found to be identical
+11:42:53.911 INFO      IterateData      Iteration number 6 started.
+11:42:53.911 LOG       IterateData      Iteration Data:
 <record xmlns="http://www.xact.dk/xatester/v/1">
   <employee-dtl>
     <filler1></filler1>
@@ -298,19 +364,30 @@ false
     <emp-dtl-total>' 2170'</emp-dtl-total>
   </employee-dtl>
 </record>
-12:45:27.451 INFO      Verify           Interpreting Verify component name:Verify
-12:45:27.451 INFO      Verify           Using verify expression:loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision
-12:45:27.468 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
-loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision
-12:45:27.472 INFO      Verify           Comments from JavaScript execution:
-2020-07-01 12:45:27,469 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
-loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision 
+11:42:53.911 INFO      Verify           Interpreting Verify component name:Verify
+11:42:53.919 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-total'], 10)
+11:42:53.921 INFO      Verify           Comments from JavaScript execution:
+2020-09-21 11:42:53,919 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-total'], 10) 
 
-12:45:27.473 VERIFY    Verify           The Verify expression was evaluated to false
-12:45:27.473 LOG       Verify           Expression returned:
-false
-12:45:27.473 INFO      IterateData      Iteration number 7 started.
-12:45:27.473 LOG       IterateData      Iteration Data:
+11:42:53.921 LOG       Verify           Expected from expression:
+2170.0
+11:42:53.929 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-wages'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-ot'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-comm'])
+11:42:53.931 INFO      Verify           Comments from JavaScript execution:
+2020-09-21 11:42:53,929 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-wages'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-ot'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-comm']) 
+
+11:42:53.931 LOG       Verify           Actual from expression:
+2170.0
+11:42:53.931 INFO      Verify           Expected and Actual data was found to be identical
+11:42:53.932 INFO      IterateData      Iteration number 7 started.
+11:42:53.932 LOG       IterateData      Iteration Data:
 <record xmlns="http://www.xact.dk/xatester/v/1">
   <employee-dtl>
     <filler1></filler1>
@@ -326,7 +403,7 @@ false
     <emp-dtl-slash2>/</emp-dtl-slash2>
     <emp-dtl-hire-yy>89</emp-dtl-hire-yy>
     <filler5></filler5>
-    <emp-dtl-yrs-of-service>30</emp-dtl-yrs-of-service>
+    <emp-dtl-yrs-of-service>31</emp-dtl-yrs-of-service>
     <filler6></filler6>
     <emp-dtl-wages>'  850'</emp-dtl-wages>
     <filler7></filler7>
@@ -337,19 +414,30 @@ false
     <emp-dtl-total>' 1850'</emp-dtl-total>
   </employee-dtl>
 </record>
-12:45:27.473 INFO      Verify           Interpreting Verify component name:Verify
-12:45:27.473 INFO      Verify           Using verify expression:loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision
-12:45:27.487 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
-loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision
-12:45:27.490 INFO      Verify           Comments from JavaScript execution:
-2020-07-01 12:45:27,487 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
-loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision 
+11:42:53.932 INFO      Verify           Interpreting Verify component name:Verify
+11:42:53.940 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-total'], 10)
+11:42:53.942 INFO      Verify           Comments from JavaScript execution:
+2020-09-21 11:42:53,940 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-total'], 10) 
 
-12:45:27.491 VERIFY    Verify           The Verify expression was evaluated to false
-12:45:27.491 LOG       Verify           Expression returned:
-false
-12:45:27.491 INFO      IterateData      Iteration number 8 started.
-12:45:27.491 LOG       IterateData      Iteration Data:
+11:42:53.942 LOG       Verify           Expected from expression:
+1850.0
+11:42:53.952 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-wages'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-ot'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-comm'])
+11:42:53.955 INFO      Verify           Comments from JavaScript execution:
+2020-09-21 11:42:53,953 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-wages'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-ot'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-comm']) 
+
+11:42:53.956 LOG       Verify           Actual from expression:
+1850.0
+11:42:53.956 INFO      Verify           Expected and Actual data was found to be identical
+11:42:53.956 INFO      IterateData      Iteration number 8 started.
+11:42:53.956 LOG       IterateData      Iteration Data:
 <record xmlns="http://www.xact.dk/xatester/v/1">
   <employee-dtl>
     <filler1></filler1>
@@ -376,19 +464,30 @@ false
     <emp-dtl-total>' 1187.5'</emp-dtl-total>
   </employee-dtl>
 </record>
-12:45:27.491 INFO      Verify           Interpreting Verify component name:Verify
-12:45:27.491 INFO      Verify           Using verify expression:loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision
-12:45:27.506 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
-loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision
-12:45:27.509 INFO      Verify           Comments from JavaScript execution:
-2020-07-01 12:45:27,506 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
-loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision 
+11:42:53.956 INFO      Verify           Interpreting Verify component name:Verify
+11:42:53.965 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-total'], 10)
+11:42:53.967 INFO      Verify           Comments from JavaScript execution:
+2020-09-21 11:42:53,965 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-total'], 10) 
 
-12:45:27.509 VERIFY    Verify           The Verify expression was evaluated to false
-12:45:27.509 LOG       Verify           Expression returned:
-false
-12:45:27.510 INFO      IterateData      Iteration number 9 started.
-12:45:27.510 LOG       IterateData      Iteration Data:
+11:42:53.967 LOG       Verify           Expected from expression:
+1187.0
+11:42:53.975 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-wages'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-ot'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-comm'])
+11:42:53.978 INFO      Verify           Comments from JavaScript execution:
+2020-09-21 11:42:53,975 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-wages'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-ot'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-comm']) 
+
+11:42:53.978 LOG       Verify           Actual from expression:
+1187.0
+11:42:53.978 INFO      Verify           Expected and Actual data was found to be identical
+11:42:53.978 INFO      IterateData      Iteration number 9 started.
+11:42:53.978 LOG       IterateData      Iteration Data:
 <record xmlns="http://www.xact.dk/xatester/v/1">
   <employee-dtl>
     <filler1></filler1>
@@ -415,19 +514,30 @@ false
     <emp-dtl-total>' 7225'</emp-dtl-total>
   </employee-dtl>
 </record>
-12:45:27.510 INFO      Verify           Interpreting Verify component name:Verify
-12:45:27.510 INFO      Verify           Using verify expression:loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision
-12:45:27.524 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
-loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision
-12:45:27.528 INFO      Verify           Comments from JavaScript execution:
-2020-07-01 12:45:27,524 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
-loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision 
+11:42:53.978 INFO      Verify           Interpreting Verify component name:Verify
+11:42:53.985 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-total'], 10)
+11:42:53.987 INFO      Verify           Comments from JavaScript execution:
+2020-09-21 11:42:53,985 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-total'], 10) 
 
-12:45:27.528 VERIFY    Verify           The Verify expression was evaluated to false
-12:45:27.528 LOG       Verify           Expression returned:
-false
-12:45:27.528 INFO      IterateData      Iteration number 10 started.
-12:45:27.528 LOG       IterateData      Iteration Data:
+11:42:53.987 LOG       Verify           Expected from expression:
+7225.0
+11:42:53.994 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-wages'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-ot'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-comm'])
+11:42:53.996 INFO      Verify           Comments from JavaScript execution:
+2020-09-21 11:42:53,995 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-wages'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-ot'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-comm']) 
+
+11:42:53.996 LOG       Verify           Actual from expression:
+7225.0
+11:42:53.996 INFO      Verify           Expected and Actual data was found to be identical
+11:42:53.997 INFO      IterateData      Iteration number 10 started.
+11:42:53.997 LOG       IterateData      Iteration Data:
 <record xmlns="http://www.xact.dk/xatester/v/1">
   <employee-dtl>
     <filler1></filler1>
@@ -454,19 +564,30 @@ false
     <emp-dtl-total>' 4333'</emp-dtl-total>
   </employee-dtl>
 </record>
-12:45:27.528 INFO      Verify           Interpreting Verify component name:Verify
-12:45:27.528 INFO      Verify           Using verify expression:loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision
-12:45:27.542 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
-loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision
-12:45:27.545 INFO      Verify           Comments from JavaScript execution:
-2020-07-01 12:45:27,542 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
-loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision 
+11:42:53.997 INFO      Verify           Interpreting Verify component name:Verify
+11:42:54.005 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-total'], 10)
+11:42:54.006 INFO      Verify           Comments from JavaScript execution:
+2020-09-21 11:42:54,005 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-total'], 10) 
 
-12:45:27.546 VERIFY    Verify           The Verify expression was evaluated to false
-12:45:27.546 LOG       Verify           Expression returned:
-false
-12:45:27.546 INFO      IterateData      Iteration number 11 started.
-12:45:27.546 LOG       IterateData      Iteration Data:
+11:42:54.007 LOG       Verify           Expected from expression:
+4333.0
+11:42:54.019 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-wages'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-ot'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-comm'])
+11:42:54.021 INFO      Verify           Comments from JavaScript execution:
+2020-09-21 11:42:54,019 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-wages'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-ot'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-comm']) 
+
+11:42:54.021 LOG       Verify           Actual from expression:
+4333.0
+11:42:54.021 INFO      Verify           Expected and Actual data was found to be identical
+11:42:54.022 INFO      IterateData      Iteration number 11 started.
+11:42:54.022 LOG       IterateData      Iteration Data:
 <record xmlns="http://www.xact.dk/xatester/v/1">
   <employee-dtl>
     <filler1></filler1>
@@ -493,94 +614,27 @@ false
     <emp-dtl-total>' 6750'</emp-dtl-total>
   </employee-dtl>
 </record>
-12:45:27.546 INFO      Verify           Interpreting Verify component name:Verify
-12:45:27.546 INFO      Verify           Using verify expression:loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision
-12:45:27.560 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
-loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision
-12:45:27.564 INFO      Verify           Comments from JavaScript execution:
-2020-07-01 12:45:27,560 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
-loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision 
+11:42:54.022 INFO      Verify           Interpreting Verify component name:Verify
+11:42:54.032 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-total'], 10)
+11:42:54.033 INFO      Verify           Comments from JavaScript execution:
+2020-09-21 11:42:54,032 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-total'], 10) 
 
-12:45:27.564 VERIFY    Verify           The Verify expression was evaluated to false
-12:45:27.564 LOG       Verify           Expression returned:
-false
-12:45:27.564 INFO      IterateData      Iteration number 12 started.
-12:45:27.564 LOG       IterateData      Iteration Data:
-<record xmlns="http://www.xact.dk/xatester/v/1">
-  <employee-dtl>
-    <filler1></filler1>
-    <emp-dtl-name></emp-dtl-name>
-    <filler2></filler2>
-    <emp-dtl-region></emp-dtl-region>
-    <filler3></filler3>
-    <emp-dtl-type></emp-dtl-type>
-    <filler4></filler4>
-    <emp-dtl-hire-mm></emp-dtl-hire-mm>
-    <emp-dtl-slash1></emp-dtl-slash1>
-    <emp-dtl-hire-dd></emp-dtl-hire-dd>
-    <emp-dtl-slash2></emp-dtl-slash2>
-    <emp-dtl-hire-yy></emp-dtl-hire-yy>
-    <filler5></filler5>
-    <emp-dtl-yrs-of-service></emp-dtl-yrs-of-service>
-    <filler6></filler6>
-    <emp-dtl-wages></emp-dtl-wages>
-    <filler7></filler7>
-    <emp-dtl-ot></emp-dtl-ot>
-    <filler8></filler8>
-    <emp-dtl-comm></emp-dtl-comm>
-    <filler9></filler9>
-    <emp-dtl-total></emp-dtl-total>
-  </employee-dtl>
-</record>
-12:45:27.564 INFO      Verify           Interpreting Verify component name:Verify
-12:45:27.564 INFO      Verify           Using verify expression:loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision
-12:45:27.576 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
-loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision
-12:45:27.579 INFO      Verify           Comments from JavaScript execution:
-2020-07-01 12:45:27,576 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
-loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision 
+11:42:54.033 LOG       Verify           Expected from expression:
+6750.0
+11:42:54.040 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-wages'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-ot'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-comm'])
+11:42:54.042 INFO      Verify           Comments from JavaScript execution:
+2020-09-21 11:42:54,040 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+parseInt(loop.record['employee-dtl']['emp-dtl-wages'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-ot'])
++ parseInt(loop.record['employee-dtl']['emp-dtl-comm']) 
 
-12:45:27.580 VERIFY    Verify           The Verify expression was evaluated to false
-12:45:27.580 LOG       Verify           Expression returned:
-false
-12:45:27.580 INFO      IterateData      Iteration number 13 started.
-12:45:27.580 LOG       IterateData      Iteration Data:
-<record xmlns="http://www.xact.dk/xatester/v/1">
-  <employee-dtl>
-    <filler1></filler1>
-    <emp-dtl-name>'   TOTAL'</emp-dtl-name>
-    <filler2></filler2>
-    <emp-dtl-region></emp-dtl-region>
-    <filler3></filler3>
-    <emp-dtl-type></emp-dtl-type>
-    <filler4></filler4>
-    <emp-dtl-hire-mm></emp-dtl-hire-mm>
-    <emp-dtl-slash1></emp-dtl-slash1>
-    <emp-dtl-hire-dd></emp-dtl-hire-dd>
-    <emp-dtl-slash2></emp-dtl-slash2>
-    <emp-dtl-hire-yy></emp-dtl-hire-yy>
-    <filler5></filler5>
-    <emp-dtl-yrs-of-service></emp-dtl-yrs-of-service>
-    <filler6></filler6>
-    <emp-dtl-wages></emp-dtl-wages>
-    <filler7></filler7>
-    <emp-dtl-ot></emp-dtl-ot>
-    <filler8></filler8>
-    <emp-dtl-comm></emp-dtl-comm>
-    <filler9></filler9>
-    <emp-dtl-total>44113.5</emp-dtl-total>
-  </employee-dtl>
-</record>
-12:45:27.580 INFO      Verify           Interpreting Verify component name:Verify
-12:45:27.580 INFO      Verify           Using verify expression:loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision
-12:45:27.590 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
-loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision
-12:45:27.594 INFO      Verify           Comments from JavaScript execution:
-2020-07-01 12:45:27,591 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
-loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision 
-
-12:45:27.594 VERIFY    Verify           The Verify expression was evaluated to false
-12:45:27.595 LOG       Verify           Expression returned:
-false
-12:45:27.595 INFO      IterateData      IterateData completed
-12:45:27.595 COMMENT   Engine           Test Scenario execution ended
+11:42:54.042 LOG       Verify           Actual from expression:
+6750.0
+11:42:54.042 INFO      Verify           Expected and Actual data was found to be identical
+11:42:54.042 INFO      IterateData      IterateData completed
+11:42:54.042 COMMENT   Engine           Test Scenario execution ended

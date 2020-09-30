@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnitResult resultType="FAILURE" containsSimulation="false">
+  <ExecutionId>7c4292c9-6ec7-4c2a-aea2-706349af2f9b</ExecutionId>
+  <Message>An error occurred and the execution has been stopped. Unable to execute the module:LGACUS01 at the host. Notification received from host with FAILURE status. Error: XATC002E CCEX Program LGACUS01 abended with LGV0</Message>
+  <AST>
+    <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1">
+      <Test>
+        <Scope name="Initialize" disabled="false">
+          <Variable id="customerInputData">
+            <record>
+              <dfhcommarea-customer>
+                <ca-request-id />
+                <ca-return-code />
+                <ca-customer-num>1</ca-customer-num>
+                <ca-customer-request>
+                  <ca-first-name>Ralph</ca-first-name>
+                  <ca-last-name>Nuesse</ca-last-name>
+                  <ca-dob>1970-02-01</ca-dob>
+                  <ca-house-name>My Home Street</ca-house-name>
+                  <ca-house-num>666</ca-house-num>
+                  <ca-postcode>12345</ca-postcode>
+                  <ca-num-policies />
+                  <ca-phone-mobile>0000012345</ca-phone-mobile>
+                  <ca-phone-home>0000012345</ca-phone-home>
+                  <ca-email-address>RN@ACME.COM</ca-email-address>
+                  <ca-national-id-nbr>12345678901234567890</ca-national-id-nbr>
+                  <ca-nin-type>SS</ca-nin-type>
+                  <ca-street-address>MY STREET 1</ca-street-address>
+                  <ca-city>CITY</ca-city>
+                  <ca-state>ST</ca-state>
+                  <ca-country-code />
+                  <ca-sales-territory>EMEA</ca-sales-territory>
+                  <ca-customer-pfkey />
+                  <ca-customer-begin />
+                  <ca-customer-end />
+                  <ca-policy-data />
+                </ca-customer-request>
+              </dfhcommarea-customer>
+            </record>
+          </Variable>
+        </Scope>
+        <Scope name="Execute" disabled="false" />
+      </Test>
+      <MetaData>
+        <Component name="LGACUS01" type="COBOL">
+          <INOUT>
+            <dfhcommarea>
+              <ca-request-id type="Character" length="6" bytes="6" />
+              <ca-return-code type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0" />
+              <ca-customer-num type="NumericDisplay" length="10" bytes="10" signed="false" decimals="0" />
+              <ca-customer-request redefines="ca-request-specific">
+                <ca-first-name type="Character" length="10" bytes="10" />
+                <ca-last-name type="Character" length="20" bytes="20" />
+                <ca-dob type="Character" length="10" bytes="10" />
+                <ca-house-name type="Character" length="20" bytes="20" />
+                <ca-house-num type="Character" length="4" bytes="4" />
+                <ca-postcode type="Character" length="8" bytes="8" />
+                <ca-num-policies type="NumericDisplay" length="3" bytes="3" signed="false" decimals="0" />
+                <ca-phone-mobile type="Character" length="20" bytes="20" />
+                <ca-phone-home type="Character" length="20" bytes="20" />
+                <ca-email-address type="Character" length="100" bytes="100" />
+                <ca-national-id-nbr type="Character" length="20" bytes="20" />
+                <ca-nin-type type="Character" length="2" bytes="2" />
+                <ca-street-address type="Character" length="30" bytes="30" />
+                <ca-city type="Character" length="20" bytes="20" />
+                <ca-state type="Character" length="2" bytes="2" />
+                <ca-country-code type="Character" length="3" bytes="3" />
+                <ca-sales-territory type="Character" length="5" bytes="5" />
+                <ca-customer-pfkey type="Character" length="2" bytes="2" />
+                <ca-customer-begin type="NumericDisplay" length="10" bytes="10" signed="false" decimals="0" />
+                <ca-customer-end type="NumericDisplay" length="10" bytes="10" signed="false" decimals="0" />
+                <ca-policy-data type="Character" length="32163" bytes="32163" />
+              </ca-customer-request>
+            </dfhcommarea>
+          </INOUT>
+        </Component>
+      </MetaData>
+    </XaUnit>
+  </AST>
+  <Context>
+    <ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5f64582531d7ab4e8cb59ba1" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" userid="HDDRXM0">
+      <platformruntime database="DBCCCWCC" driver="com.ibm.db2.jcc.DB2Driver" uri="jdbc:db2://cwcc.compuware.com:546/${database}" environmenttype="CICS" db2id="DSCC" applid="HCCAC013" callinterface="CICSLINK" />
+      <ExtensionData />
+      <ExtensionData componentName="lgacus01" componentId="5f68780231d7ab4e8cb59bd5">
+        <Parameter key="db2id">
+          <Value>DBCC</Value>
+        </Parameter>
+        <Parameter key="sourcelibrary">
+          <Value>GENAPP.IWGENAPP.GENA.PROD.COB</Value>
+        </Parameter>
+        <Parameter key="db2plan">
+          <Value>GENAONE</Value>
+        </Parameter>
+        <Parameter key="applid">
+          <Value>HCCAC013</Value>
+        </Parameter>
+        <Parameter key="loadlibraries">
+          <Value>GENAPP.IWGENAPP.GENA.PROD.CICSLOAD</Value>
+          <Value>CTS530.CICS.HCCAC013.LOADLIB.PDSE</Value>
+        </Parameter>
+        <Parameter key="arglength">
+          <Value>32500</Value>
+        </Parameter>
+        <Parameter key="sourcelibraries">
+          <Value>GENAPP.IWGENAPP.GENA.PROD.COPY</Value>
+        </Parameter>
+        <Parameter key="callinterface">
+          <Value>CICSLINK</Value>
+        </Parameter>
+      </ExtensionData>
+      <References componentName="lgacus01" />
+      <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="lgacus01" path="LGACUS01.xaunit">
+        <Description>Program receives data via linkage section and inserts into DB2 table GENAPPDB.CUSTOMER&#xD;
+- Read input data from local file&#xD;
+- Execute LGACUS01&#xD;
+- Program generates a new customer number for each record&#xD;
+- Retrieve new customer number&#xD;
+- Use customer number to retrieve native data from DB2 table&#xD;
+- Compare data from DB2 table with local data that is expected to be inserted</Description>
+        <Test>
+          <Scope name="Initialize" disabled="false">
+            <Variable id="customerInputData" filePath="Input_Data/customer_add_input.xml" />
+          </Scope>
+          <Scope name="Execute" disabled="false">
+            <Component id="lgacus01" label="LGACUS01" moduleName="LGACUS01" programExitVerify="value &lt; 8" rollback="false">
+              <Data>
+                <dfhcommarea>
+                  <ca-request-id />
+                  <ca-return-code expected="0" />
+                  <ca-customer-num>=customerInputData.record.dfhcommarea-customer.ca-customer-num</ca-customer-num>
+                  <ca-customer-request>
+                    <ca-first-name>=customerInputData.record.dfhcommarea-customer.ca-customer-request.ca-first-name</ca-first-name>
+                    <ca-last-name>=customerInputData.record.dfhcommarea-customer.ca-customer-request.ca-last-name</ca-last-name>
+                    <ca-dob>=customerInputData.record.dfhcommarea-customer.ca-customer-request.ca-dob</ca-dob>
+                    <ca-house-name>=customerInputData.record.dfhcommarea-customer.ca-customer-request.ca-house-name</ca-house-name>
+                    <ca-house-num>=customerInputData.record.dfhcommarea-customer.ca-customer-request.ca-house-num</ca-house-num>
+                    <ca-postcode>=customerInputData.record.dfhcommarea-customer.ca-customer-request.ca-postcode</ca-postcode>
+                    <ca-num-policies />
+                    <ca-phone-mobile>=customerInputData.record.dfhcommarea-customer.ca-customer-request.ca-phone-mobile</ca-phone-mobile>
+                    <ca-phone-home>=customerInputData.record.dfhcommarea-customer.ca-customer-request.ca-phone-home</ca-phone-home>
+                    <ca-email-address>=customerInputData.record.dfhcommarea-customer.ca-customer-request.ca-email-address</ca-email-address>
+                    <ca-national-id-nbr>=customerInputData.record.dfhcommarea-customer.ca-customer-request.ca-national-id-nbr</ca-national-id-nbr>
+                    <ca-nin-type>=customerInputData.record.dfhcommarea-customer.ca-customer-request.ca-nin-type</ca-nin-type>
+                    <ca-street-address>=customerInputData.record.dfhcommarea-customer.ca-customer-request.ca-street-address</ca-street-address>
+                    <ca-city>=customerInputData.record.dfhcommarea-customer.ca-customer-request.ca-city</ca-city>
+                    <ca-state>=customerInputData.record.dfhcommarea-customer.ca-customer-request.ca-state</ca-state>
+                    <ca-country-code />
+                    <ca-sales-territory>=customerInputData.record.dfhcommarea-customer.ca-customer-request.ca-sales-territory</ca-sales-territory>
+                    <ca-customer-pfkey />
+                    <ca-customer-begin />
+                    <ca-customer-end />
+                    <ca-policy-data />
+                  </ca-customer-request>
+                </dfhcommarea>
+              </Data>
+            </Component>
+          </Scope>
+          <Scope name="Verification" disabled="false">
+            <Variable id="newCustomerNumber">=lgacus01.dfhcommarea['ca-customer-num']</Variable>
+            <Log>
+              <data:String>New Customer Number:</data:String>
+              <data:Replaceable>
+                <Expression>
+                  <Statement><![CDATA[newCustomerNumber]]></Statement>
+                </Expression>
+              </data:Replaceable>
+            </Log>
+            <SQLSelect id="SQLSelect" maxRows="1">
+              <Statement>SELECT FIRSTNAME, LASTNAME, DATEOFBIRTH, POSTCODE, PHONEHOME, PHONEMOBILE, EMAILADDRESS, NATIONALIDNBR, NINTYPE, STREETADDRESS, CITY, STATE, COUNTRYCODE, SALESTERRITORY FROM GENAPPDB.CUSTOMER WHERE CUSTOMERNUMBER = ${newCustomerNumber}</Statement>
+              <Output name="FIRSTNAME" />
+              <Output name="LASTNAME" />
+              <Output name="DATEOFBIRTH" />
+              <Output name="POSTCODE" />
+              <Output name="PHONEHOME" />
+              <Output name="PHONEMOBILE" />
+              <Output name="EMAILADDRESS" />
+              <Output name="NATIONALIDNBR" />
+              <Output name="NINTYPE" />
+              <Output name="STREETADDRESS" />
+              <Output name="CITY" />
+              <Output name="STATE" />
+              <Output name="COUNTRYCODE" />
+              <Output name="SALESTERRITORY" />
+            </SQLSelect>
+            <Verify name="First Name" haltExecution="false">
+              <Expected expression="customerInputData.record['dfhcommarea-customer']['ca-customer-request']['ca-first-name']" />
+              <Actual expression="SQLSelect.Row.FIRSTNAME" />
+            </Verify>
+            <Verify name="Last Name" haltExecution="false">
+              <Expected expression="customerInputData.record['dfhcommarea-customer']['ca-customer-request']['ca-last-name']" />
+              <Actual expression="SQLSelect.Row.LASTNAME" />
+            </Verify>
+            <Verify name="Date of Birth" haltExecution="false">
+              <Expected expression="customerInputData.record['dfhcommarea-customer']['ca-customer-request']['ca-dob']" />
+              <Actual expression="SQLSelect.Row.DATEOFBIRTH" />
+            </Verify>
+            <Verify name="Post Code" haltExecution="false">
+              <Expected expression="customerInputData.record['dfhcommarea-customer']['ca-customer-request']['ca-postcode']" />
+              <Actual expression="SQLSelect.Row.POSTCODE" />
+            </Verify>
+            <Verify name="Phone Home" haltExecution="false">
+              <Expected expression="customerInputData.record['dfhcommarea-customer']['ca-customer-request']['ca-phone-home']" />
+              <Actual expression="SQLSelect.Row.PHONEHOME" />
+            </Verify>
+            <Verify name="Phone Mobile" haltExecution="false">
+              <Expected expression="customerInputData.record['dfhcommarea-customer']['ca-customer-request']['ca-phone-mobile']" />
+              <Actual expression="SQLSelect.Row.PHONEMOBILE" />
+            </Verify>
+            <Verify name="Email" haltExecution="false">
+              <Expected expression="customerInputData.record['dfhcommarea-customer']['ca-customer-request']['ca-email-address']" />
+              <Actual expression="SQLSelect.Row.EMAILADDRESS" />
+            </Verify>
+            <Verify name="National Id" haltExecution="false">
+              <Expected expression="customerInputData.record['dfhcommarea-customer']['ca-customer-request']['ca-national-id-nbr']" />
+              <Actual expression="SQLSelect.Row.NATIONALIDNBR" />
+            </Verify>
+            <Verify name="NIN Type" haltExecution="false">
+              <Expected expression="customerInputData.record['dfhcommarea-customer']['ca-customer-request']['ca-nin-type']" />
+              <Actual expression="SQLSelect.Row.NINTYPE" />
+            </Verify>
+            <Verify name="Street" haltExecution="false">
+              <Expected expression="customerInputData.record['dfhcommarea-customer']['ca-customer-request']['ca-street-address']" />
+              <Actual expression="SQLSelect.Row.STREETADDRESS" />
+            </Verify>
+            <Verify name="City" haltExecution="false">
+              <Expected expression="customerInputData.record['dfhcommarea-customer']['ca-customer-request']['ca-city']" />
+              <Actual expression="SQLSelect.Row.CITY" />
+            </Verify>
+            <Verify name="State" haltExecution="false">
+              <Expected expression="customerInputData.record['dfhcommarea-customer']['ca-customer-request']['ca-state']" />
+              <Actual expression="SQLSelect.Row.STATE" />
+            </Verify>
+            <Verify name="Country Code" haltExecution="false">
+              <Expected expression="customerInputData.record['dfhcommarea-customer']['ca-customer-request']['ca-country-code']" />
+              <Actual expression="SQLSelect.Row.COUNTRYCODE" />
+            </Verify>
+            <Verify name="Territory" haltExecution="false">
+              <Expected expression="customerInputData.record['dfhcommarea-customer']['ca-customer-request']['ca-sales-territory']" />
+              <Actual expression="SQLSelect.Row.SALESTERRITORY" />
+            </Verify>
+          </Scope>
+        </Test>
+        <MetaData>
+          <MDataDefinition name="customerdata">
+            <dfhcommarea-customer native="01 DFHCOMMAREA-CUSTOMER.">
+              <ca-request-id type="Character" length="6" bytes="6" native="03 CA-REQUEST-ID PIC X(6)." />
+              <ca-return-code type="NumericDisplay" length="2" bytes="2" native="03 CA-RETURN-CODE PIC 9(2)." signed="false" decimals="0" />
+              <ca-customer-num type="NumericDisplay" length="10" bytes="10" native="03 CA-CUSTOMER-NUM PIC 9(10)." signed="false" decimals="0" />
+              <ca-customer-request native="03 CA-CUSTOMER-REQUEST REDEFINES CA-REQUEST-SPECIFIC." redefines="ca-request-specific">
+                <ca-first-name type="Character" length="10" bytes="10" native="05 CA-FIRST-NAME PIC X(10)." />
+                <ca-last-name type="Character" length="20" bytes="20" native="05 CA-LAST-NAME PIC X(20)." />
+                <ca-dob type="Character" length="10" bytes="10" native="05 CA-DOB PIC X(10)." />
+                <ca-house-name type="Character" length="20" bytes="20" native="05 CA-HOUSE-NAME PIC X(20)." />
+                <ca-house-num type="Character" length="4" bytes="4" native="05 CA-HOUSE-NUM PIC X(4)." />
+                <ca-postcode type="Character" length="8" bytes="8" native="05 CA-POSTCODE PIC X(8)." />
+                <ca-num-policies type="NumericDisplay" length="3" bytes="3" native="05 CA-NUM-POLICIES PIC 9(3)." signed="false" decimals="0" />
+                <ca-phone-mobile type="Character" length="20" bytes="20" native="05 CA-PHONE-MOBILE PIC X(20)." />
+                <ca-phone-home type="Character" length="20" bytes="20" native="05 CA-PHONE-HOME PIC X(20)." />
+                <ca-email-address type="Character" length="100" bytes="100" native="05 CA-EMAIL-ADDRESS PIC X(100)." />
+                <ca-national-id-nbr type="Character" length="20" bytes="20" native="05 CA-NATIONAL-ID-NBR PIC X(20)." />
+                <ca-nin-type type="Character" length="2" bytes="2" native="05 CA-NIN-TYPE PIC X(2)." />
+                <ca-street-address type="Character" length="30" bytes="30" native="05 CA-STREET-ADDRESS PIC X(30)." />
+                <ca-city type="Character" length="20" bytes="20" native="05 CA-CITY PIC X(20)." />
+                <ca-state type="Character" length="2" bytes="2" native="05 CA-STATE PIC X(2)." />
+                <ca-country-code type="Character" length="3" bytes="3" native="05 CA-COUNTRY-CODE PIC X(3)." />
+                <ca-sales-territory type="Character" length="5" bytes="5" native="05 CA-SALES-TERRITORY PIC X(5)." />
+                <ca-customer-pfkey type="Character" length="2" bytes="2" native="05 CA-CUSTOMER-PFKEY PIC X(2)." />
+                <ca-customer-begin type="NumericDisplay" length="10" bytes="10" native="05 CA-CUSTOMER-BEGIN PIC 9(10)." signed="false" decimals="0" />
+                <ca-customer-end type="NumericDisplay" length="10" bytes="10" native="05 CA-CUSTOMER-END PIC 9(10)." signed="false" decimals="0" />
+              </ca-customer-request>
+            </dfhcommarea-customer>
+          </MDataDefinition>
+          <Component name="LGACUS01" type="COBOL">
+            <INOUT>
+              <dfhcommarea>
+                <ca-request-id type="Character" length="6" bytes="6" />
+                <ca-return-code type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0" />
+                <ca-customer-num type="NumericDisplay" length="10" bytes="10" signed="false" decimals="0" />
+                <ca-customer-request redefines="ca-request-specific">
+                  <ca-first-name type="Character" length="10" bytes="10" />
+                  <ca-last-name type="Character" length="20" bytes="20" />
+                  <ca-dob type="Character" length="10" bytes="10" />
+                  <ca-house-name type="Character" length="20" bytes="20" />
+                  <ca-house-num type="Character" length="4" bytes="4" />
+                  <ca-postcode type="Character" length="8" bytes="8" />
+                  <ca-num-policies type="NumericDisplay" length="3" bytes="3" signed="false" decimals="0" />
+                  <ca-phone-mobile type="Character" length="20" bytes="20" />
+                  <ca-phone-home type="Character" length="20" bytes="20" />
+                  <ca-email-address type="Character" length="100" bytes="100" />
+                  <ca-national-id-nbr type="Character" length="20" bytes="20" />
+                  <ca-nin-type type="Character" length="2" bytes="2" />
+                  <ca-street-address type="Character" length="30" bytes="30" />
+                  <ca-city type="Character" length="20" bytes="20" />
+                  <ca-state type="Character" length="2" bytes="2" />
+                  <ca-country-code type="Character" length="3" bytes="3" />
+                  <ca-sales-territory type="Character" length="5" bytes="5" />
+                  <ca-customer-pfkey type="Character" length="2" bytes="2" />
+                  <ca-customer-begin type="NumericDisplay" length="10" bytes="10" signed="false" decimals="0" />
+                  <ca-customer-end type="NumericDisplay" length="10" bytes="10" signed="false" decimals="0" />
+                  <ca-policy-data type="Character" length="32163" bytes="32163" />
+                </ca-customer-request>
+              </dfhcommarea>
+            </INOUT>
+          </Component>
+        </MetaData>
+      </XaUnit>
+      <ExternalResources>
+        <Resource path="Input_Data/customer_add_input.xml">
+          <Data>
+            <record>
+              <dfhcommarea-customer>
+                <ca-request-id />
+                <ca-return-code />
+                <ca-customer-num>1</ca-customer-num>
+                <ca-customer-request>
+                  <ca-first-name>Ralph</ca-first-name>
+                  <ca-last-name>Nuesse</ca-last-name>
+                  <ca-dob>1970-02-01</ca-dob>
+                  <ca-house-name>My Home Street</ca-house-name>
+                  <ca-house-num>666</ca-house-num>
+                  <ca-postcode>12345</ca-postcode>
+                  <ca-num-policies />
+                  <ca-phone-mobile>0000012345</ca-phone-mobile>
+                  <ca-phone-home>0000012345</ca-phone-home>
+                  <ca-email-address>RN@ACME.COM</ca-email-address>
+                  <ca-national-id-nbr>12345678901234567890</ca-national-id-nbr>
+                  <ca-nin-type>SS</ca-nin-type>
+                  <ca-street-address>MY STREET 1</ca-street-address>
+                  <ca-city>CITY</ca-city>
+                  <ca-state>ST</ca-state>
+                  <ca-country-code />
+                  <ca-sales-territory>EMEA</ca-sales-territory>
+                  <ca-customer-pfkey />
+                  <ca-customer-begin />
+                  <ca-customer-end />
+                  <ca-policy-data />
+                </ca-customer-request>
+              </dfhcommarea-customer>
+            </record>
+          </Data>
+        </Resource>
+      </ExternalResources>
+    </ExecutionContext>
+  </Context>
+  <Started>20200921-12-01-33</Started>
+  <Ended>20200921-12-01-43</Ended>
+</XaUnitResult>

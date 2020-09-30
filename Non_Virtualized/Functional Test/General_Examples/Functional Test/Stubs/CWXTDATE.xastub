@@ -1,0 +1,32 @@
+<Simulation xmlns="http://www.xact.dk/xatester/v/1" name="CWXTDATE" type="COBOL">
+  <Output>
+    <eom-sw>N</eom-sw>
+    <yrs-of-service>38</yrs-of-service>
+    <run-date>
+      <run-yy>19</run-yy>
+      <run-mm>11</run-mm>
+      <run-dd>20</run-dd>
+    </run-date>
+    <hire-date>
+      <hire-yy>81</hire-yy>
+      <hire-mm>10</hire-mm>
+      <hire-dd>15</hire-dd>
+    </hire-date>
+  </Output>
+  <Metadata>
+    <Container>
+      <eom-sw type="Character" length="1" bytes="1"></eom-sw>
+      <yrs-of-service type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0"></yrs-of-service>
+      <run-date>
+        <run-yy type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0"></run-yy>
+        <run-mm type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0"></run-mm>
+        <run-dd type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0"></run-dd>
+      </run-date>
+      <hire-date>
+        <hire-yy type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0"></hire-yy>
+        <hire-mm type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0"></hire-mm>
+        <hire-dd type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0"></hire-dd>
+      </hire-date>
+    </Container>
+  </Metadata>
+</Simulation>

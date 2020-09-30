@@ -1,0 +1,32 @@
+<Data xmlns="http://www.xact.dk/xatester/v/1">
+  <record>
+        <dfhcommarea-customer>
+          <ca-request-id />
+          <ca-return-code />
+          <ca-customer-num >1</ca-customer-num>
+          <ca-customer-request>
+            <ca-first-name>Ralph</ca-first-name>
+            <ca-last-name>Nuesse</ca-last-name>
+            <ca-dob>1970-02-01</ca-dob>
+            <ca-house-name>My Home Street</ca-house-name>
+            <ca-house-num>666</ca-house-num>
+            <ca-postcode>12345</ca-postcode>
+            <ca-num-policies />
+            <ca-phone-mobile>0000012345</ca-phone-mobile>
+            <ca-phone-home>0000012345</ca-phone-home>
+            <ca-email-address>RN@ACME.COM</ca-email-address>
+            <ca-national-id-nbr>12345678901234567890</ca-national-id-nbr>
+            <ca-nin-type>SS</ca-nin-type>
+            <ca-street-address>MY STREET 1</ca-street-address>
+            <ca-city>CITY</ca-city>
+            <ca-state>ST</ca-state>
+            <ca-country-code />
+            <ca-sales-territory>EMEA</ca-sales-territory>
+            <ca-customer-pfkey />
+            <ca-customer-begin />
+            <ca-customer-end />
+            <ca-policy-data />
+          </ca-customer-request>
+        </dfhcommarea-customer>
+  </record>
+</Data>

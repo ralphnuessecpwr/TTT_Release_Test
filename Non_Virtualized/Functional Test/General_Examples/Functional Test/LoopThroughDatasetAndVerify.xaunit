@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1">
   <Test>
-    <ReadRemoteFile fileName="HDDRXM0.DEMO.TTTFT.CWXTRPT" id="cwxtrpt" label="CWXTRPT" firstRecord="10" numberRecords="22" mDataDefinitionName="RPTEMPDT" />
+    <ReadRemoteFile fileName="HDDRXM0.RT.TTTFT.CWXTRPT" id="cwxtrpt" label="CWXTRPT" firstRecord="10" numberRecords="12" mDataDefinitionName="RPTEMPDT" />
     <IterateData id="loop" referencedId="cwxtrpt" dataPath="">
       <Verify name="Verify" haltExecution="false">
-        <Statement><![CDATA[loop.record.empTotal == loop.record.empSalary + loop.record.empempOvertime + loop.record.empempCommision]]></Statement>
+        <Expected expression="parseInt(loop.record['employee-dtl']['emp-dtl-total'], 10)" />
+        <Actual expression="parseInt(loop.record['employee-dtl']['emp-dtl-wages'])&#xD;&#xA;+ parseInt(loop.record['employee-dtl']['emp-dtl-ot'])&#xD;&#xA;+ parseInt(loop.record['employee-dtl']['emp-dtl-comm'])" />
       </Verify>
     </IterateData>
   </Test>

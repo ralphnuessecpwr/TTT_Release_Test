@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5e7a190fcf655a12a4d4df4d" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" database="DSCCCWCC">
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5f64570731d7ab4e8cb59b98" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" database="DBCCCWCC">
   <ExtensionData />
-  <ExtensionData componentName="xadb2tst" componentId="5d4d3c84423da3164cab5cb0" />
+  <ExtensionData componentName="xadb2tst" componentId="5f687c7c31d7ab4e8cb59be1" />
   <XaUnit path="XADB2TST_Get.xaunit" />
 </ExecutionContext>

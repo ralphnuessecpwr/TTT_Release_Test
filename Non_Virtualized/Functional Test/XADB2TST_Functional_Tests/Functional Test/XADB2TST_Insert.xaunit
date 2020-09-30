@@ -29,7 +29,7 @@ Scope "Clean Up Database"&#xD;
   <Test>
     <Scope name="Initialization" disabled="false">
       <Variable id="inputRecords" filePath="Input_Data/XADB2TST_Insert_Scenario_Records.xml" />
-      <Variable id="db2CreatorName">ADKKXC0</Variable>
+      <Variable id="db2CreatorName">HDDRXM0</Variable>
       <Variable id="db2TableName">XAEMPLOYEE</Variable>
       <Variable id="expectedEmployeeStatus">O</Variable>
       <Variable id="expectedUserId">XATESTER</Variable>

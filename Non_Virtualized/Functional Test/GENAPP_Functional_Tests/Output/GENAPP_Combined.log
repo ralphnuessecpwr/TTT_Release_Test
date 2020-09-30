@@ -1,0 +1,135 @@
+17:37:15.315 COMMENT   Engine           Test Scenario execution started
+17:37:15.316 INFO      Engine           Using context settings:
+  Engine Version       : 20.3
+  Environment id                : 5f64584131d7ab4e8cb59ba3
+  Environment type              : Cics
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwc2.nasa.cpwr.corp
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+  Use Repository Server         : true
+17:37:15.316 INFO      Engine           Setting variables from context and context data extensions
+17:37:15.316 INFO      Engine             id: environmentId      value: 5f64584131d7ab4e8cb59ba3
+17:37:15.316 INFO      Engine             id: environmentType    value: CICS
+17:37:15.316 INFO      Engine             id: userId             value: HDDRXM0
+17:37:15.316 INFO      Engine             id: accountingInfo     value: 
+17:37:15.317 INFO      Scope            Interpreting Scope name:Initialize
+17:37:15.317 INFO      Variable         Interpreting Variable id:customerInputData dataFile:Input_Data/customer_add_input.xml
+17:37:15.317 LOG       Variable         Resolved data items from file Input_Data/customer_add_input.xml
+<record>
+  <dfhcommarea-customer>
+    <ca-request-id></ca-request-id>
+    <ca-return-code></ca-return-code>
+    <ca-customer-num>1</ca-customer-num>
+    <ca-customer-request>
+      <ca-first-name>Ralph</ca-first-name>
+      <ca-last-name>Nuesse</ca-last-name>
+      <ca-dob>1970-02-01</ca-dob>
+      <ca-house-name>My Home Street</ca-house-name>
+      <ca-house-num>666</ca-house-num>
+      <ca-postcode>12345</ca-postcode>
+      <ca-num-policies></ca-num-policies>
+      <ca-phone-mobile>0000012345</ca-phone-mobile>
+      <ca-phone-home>0000012345</ca-phone-home>
+      <ca-email-address>RN@ACME.COM</ca-email-address>
+      <ca-national-id-nbr>12345678901234567890</ca-national-id-nbr>
+      <ca-nin-type>SS</ca-nin-type>
+      <ca-street-address>MY STREET 1</ca-street-address>
+      <ca-city>CITY</ca-city>
+      <ca-state>ST</ca-state>
+      <ca-country-code></ca-country-code>
+      <ca-sales-territory>EMEA</ca-sales-territory>
+      <ca-customer-pfkey></ca-customer-pfkey>
+      <ca-customer-begin></ca-customer-begin>
+      <ca-customer-end></ca-customer-end>
+      <ca-policy-data></ca-policy-data>
+    </ca-customer-request>
+  </dfhcommarea-customer>
+</record>
+17:37:15.317 INFO      Scope            Scope completed
+17:37:15.317 INFO      Scope            Interpreting Scope name:Execute customer add
+17:37:15.317 INFO      Component        Interpreting Component: LGACUS01 program:LGACUS01
+17:37:15.318 INFO      Component        Component will be executed in CICS and top level element definitions are:
+17:37:15.318 INFO      Component          Element: dfhcommarea Area type:DEFAULT
+17:37:15.319 LOG       CWC2 CICS        Component Runtime Settings:
+17:37:15.319 LOG       CWC2 CICS          Load libraries :GENAPP.IWGENAPP.GENA.PROD.CICSLOAD,CTS530.CICS.HCCAC013.LOADLIB.PDSE
+17:37:15.319 LOG       CWC2 CICS          Optional main Load library:
+17:37:15.319 LOG       CWC2 CICS          Listing libraries         :
+17:37:15.319 LOG       CWC2 CICS          SysDebug libraries        :
+17:37:15.319 LOG       CWC2 CICS          DB2 Subsystem ID          :DSC2
+17:37:15.319 LOG       CWC2 CICS          DB2 plan                  :GENAONE
+17:37:15.319 LOG       CWC2 CICS          APPLID                    :HC2AC013
+17:37:15.319 LOG       CWC2 CICS          Channel                   :
+17:37:15.319 LOG       CWC2 CICS          Call interface            :CICSLINK
+17:37:15.319 LOG       CWC2 CICS          Debugger type             :NONE
+17:37:15.319 LOG       CWC2 CICS          Component type            :COBOL
+17:37:15.320 INFO      CWC2 CICS        Sending Module execution request to Host for module:LGACUS01 rollback:false
+17:37:15.462 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/619cec8e3ccf42a2b8d5f123f6cb42c9
+17:37:15.740 LOG       CWC2 CICS        Uploading input data for module LGACUS01
+17:37:19.147 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>CICS</runtime><callinterface>CICSLINK</callinterface><applid>HC2AC013</applid><db2plan>GENAONE</db2plan><db2id>DSC2</db2id><rollback>false</rollback><jobdirectory>619cec8e3ccf42a2b8d5f123f6cb42c9</jobdirectory><amode24>false</amode24><members><membername>LGACUS01</membername></members><loads><mainload>GENAPP.IWGENAPP.GENA.PROD.CICSLOAD</mainload><load>CTS530.CICS.HCCAC013.LOADLIB.PDSE</load></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+17:37:19.370 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927764</jobid><jobname>HDDRXM0C</jobname><starttime>20200928113719307</starttime></xatz_response></XATZRESP>
+17:37:19.370 LOG       HCIClient        Response received from Host. Message: JobId:J0927764
+17:37:19.370 INFO      HCIClient        Job has been started at host with JobId:J0927764
+17:37:25.221 INFO      CWC2 CICS        Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0C(J0927764) ended with return code: 0000
+  Job name       : HDDRXM0C
+  Job id         : J0927764
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+17:37:25.504 INFO      CWC2 CICS        Component completed with program exit: +0
+17:37:25.667 LOG       CWC2 CICS        Setting execution variable 'jobid' to J0927764
+17:37:25.667 LOG       CWC2 CICS        Setting execution variable 'jobname' to HDDRXM0C
+17:37:25.668 LOG       CWC2 CICS        Setting execution variable 'programexit' to 0
+17:37:25.812 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+17:37:25.819 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+17:37:25.819 INFO      Component        Finished interpreting Component: LGACUS01 program:LGACUS01
+17:37:25.820 VERIFY    ExpectedData     VerificationResult : DataItem: /dfhcommarea/ca-return-code. Actual value is different from expected. Actual value: 90.0 Expected: 0.0. Actual value:90. Expected value:0
+17:37:25.820 VERIFY    Engine           Component name:LGACUS01 contains data that where not verified correctly
+17:37:25.820 INFO      Scope            Scope completed
+17:37:25.820 INFO      Scope            Interpreting Scope name:Verify customer add
+17:37:25.820 INFO      Variable         Interpreting Variable id:newCustomerNumber
+17:37:25.820 LOG       Variable         Resolved data:
+0
+17:37:25.821 INFO      Expression       Interpreting Expression:newCustomerNumber
+17:37:25.837 LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+newCustomerNumber
+17:37:25.839 INFO      Expression       Comments from JavaScript execution:
+2020-09-28 17:37:25,837 DEBUG com.compuware.xatester -  LOG       Expression       Evaluating expression:function println(text){print(text+'\n')};
+newCustomerNumber 
+
+17:37:25.839 LOG       Expression       Expression evaluated to:0
+17:37:25.839 COMMENT   Log              New Customer Number:0
+17:37:25.839 INFO      SQLSelect        Interpreting SQLSelect id:SQLSelect statement: SELECT FIRSTNAME, LASTNAME, DATEOFBIRTH, POSTCODE, PHONEHOME, PHONEMOBILE, EMAILADDRESS, NATIONALIDNBR, NINTYPE, STREETADDRESS, CITY, STATE, COUNTRYCODE, SALESTERRITORY FROM GENAPPDB.CUSTOMER WHERE CUSTOMERNUMBER = ${newCustomerNumber}
+17:37:25.839 INFO      SQLSelect        Using database from Environment:DSCCCWCC
+17:37:25.840 LOG       SQLSelect        SQL statement contained variable, now it has been substuted and the SQL is: SELECT FIRSTNAME, LASTNAME, DATEOFBIRTH, POSTCODE, PHONEHOME, PHONEMOBILE, EMAILADDRESS, NATIONALIDNBR, NINTYPE, STREETADDRESS, CITY, STATE, COUNTRYCODE, SALESTERRITORY FROM GENAPPDB.CUSTOMER WHERE CUSTOMERNUMBER = 0
+17:37:25.840 LOG       SQLSelect        Establishing connection to database DSCCCWCC
+17:37:26.347 LOG       SQLSelect        Preparing the SQL statement: SELECT FIRSTNAME, LASTNAME, DATEOFBIRTH, POSTCODE, PHONEHOME, PHONEMOBILE, EMAILADDRESS, NATIONALIDNBR, NINTYPE, STREETADDRESS, CITY, STATE, COUNTRYCODE, SALESTERRITORY FROM GENAPPDB.CUSTOMER WHERE CUSTOMERNUMBER = 0
+17:37:26.347 LOG       SQLSelect        Setting max rows to: 1
+17:37:26.347 LOG       SQLSelect        Setting up the SQL statement with parameters
+17:37:26.347 LOG       SQLSelect        Executing the SQL statement
+17:37:26.498 LOG       SQLSelect        Handling the SQL result
+17:37:26.498 INFO      SQLSelect        Finished SQLSelect. Number of rows selected:0
+17:37:26.498 INFO      Verify           Interpreting Verify component name:First Name
+17:37:26.511 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+customerInputData.record['dfhcommarea-customer']['ca-customer-request']['ca-first-name']
+17:37:26.512 INFO      Verify           Comments from JavaScript execution:
+2020-09-28 17:37:26,511 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+customerInputData.record['dfhcommarea-customer']['ca-customer-request']['ca-first-name'] 
+
+17:37:26.512 LOG       Verify           Expression evaluated to:Ralph
+17:37:26.512 LOG       Verify           Expected from expression:
+Ralph
+17:37:26.522 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+SQLSelect.Row.FIRSTNAME
+17:37:26.534 ERROR     Engine           Unable to execute expression. TypeError: Cannot read property "FIRSTNAME" from undefined in <eval> at line number 2
+17:37:26.534 ERROR     Engine           An error occurred. Now stopping the execution.
+17:37:26.534 ERROR     Scope            Scope completed unexpectedly. A child component failed.
+17:37:26.534 COMMENT   Engine           Test Scenario execution ended

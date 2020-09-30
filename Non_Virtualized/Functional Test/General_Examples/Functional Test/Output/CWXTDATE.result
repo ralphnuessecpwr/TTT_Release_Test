@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnitResult resultType="SUCCESS" containsSimulation="false">
+  <ExecutionId>73dbc026-ef0e-44a3-84f0-edb2ac337884</ExecutionId>
+  <Message />
+  <AST>
+    <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1">
+      <Test>
+        <Component label="CWXTDATE - CWCC" moduleName="CWXTDATE" programExitVerify="value &lt; 8" programExit="0" rollback="false">
+          <Data>
+            <eom-sw>N</eom-sw>
+            <yrs-of-service>0</yrs-of-service>
+            <run-date>
+              <run-yy>19</run-yy>
+              <run-mm>11</run-mm>
+              <run-dd>20</run-dd>
+            </run-date>
+            <hire-date>
+              <hire-yy>81</hire-yy>
+              <hire-mm>10</hire-mm>
+              <hire-dd>15</hire-dd>
+            </hire-date>
+          </Data>
+        </Component>
+      </Test>
+      <MetaData>
+        <Component name="CWXTDATE" type="COBOL">
+          <INOUT>
+            <eom-sw type="Character" length="1" bytes="1" />
+            <yrs-of-service type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0" />
+            <run-date>
+              <run-yy type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0" />
+              <run-mm type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0" />
+              <run-dd type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0" />
+            </run-date>
+            <hire-date>
+              <hire-yy type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0" />
+              <hire-mm type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0" />
+              <hire-dd type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0" />
+            </hire-date>
+          </INOUT>
+        </Component>
+      </MetaData>
+    </XaUnit>
+  </AST>
+  <Context>
+    <ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5f64570731d7ab4e8cb59b98" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" userid="HDDRXM0">
+      <platformruntime database="DBCCCWCC" driver="com.ibm.db2.jcc.DB2Driver" uri="jdbc:db2://cwcc.compuware.com:546/${database}" environmenttype="BATCH" callinterface="NONE" />
+      <ExtensionData />
+      <ExtensionData componentName="cwxtdate" componentId="5f686b8f31d7ab4e8cb59bcf">
+        <Parameter key="sourcelibrary">
+          <Value>HDDRXM0.RT.COB.BATCH</Value>
+        </Parameter>
+        <Parameter key="loadlibraries">
+          <Value>HDDRXM0.RT.LOAD.PDSE</Value>
+        </Parameter>
+        <Parameter key="sourcelibraries">
+          <Value>HDDRXM0.RT.COPY</Value>
+        </Parameter>
+        <Parameter key="callinterface">
+          <Value>NONE</Value>
+        </Parameter>
+      </ExtensionData>
+      <References componentName="cwxtdate" />
+      <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="cwxtdate" path="CWXTDATE.scenario">
+        <Test>
+          <Component label="CWXTDATE - CWCC" moduleName="CWXTDATE" programExitVerify="value &lt; 8" rollback="false">
+            <Data>
+              <eom-sw>N</eom-sw>
+              <yrs-of-service />
+              <run-date>
+                <run-yy>19</run-yy>
+                <run-mm>11</run-mm>
+                <run-dd>20</run-dd>
+              </run-date>
+              <hire-date>
+                <hire-yy>81</hire-yy>
+                <hire-mm>10</hire-mm>
+                <hire-dd>15</hire-dd>
+              </hire-date>
+            </Data>
+          </Component>
+        </Test>
+        <MetaData>
+          <Component name="CWXTDATE" type="COBOL">
+            <INOUT>
+              <eom-sw type="Character" length="1" bytes="1" />
+              <yrs-of-service type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0" />
+              <run-date>
+                <run-yy type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0" />
+                <run-mm type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0" />
+                <run-dd type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0" />
+              </run-date>
+              <hire-date>
+                <hire-yy type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0" />
+                <hire-mm type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0" />
+                <hire-dd type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0" />
+              </hire-date>
+            </INOUT>
+          </Component>
+        </MetaData>
+      </XaUnit>
+      <ExternalResources />
+    </ExecutionContext>
+  </Context>
+  <Started>20200921-11-06-11</Started>
+  <Ended>20200921-11-06-20</Ended>
+</XaUnitResult>

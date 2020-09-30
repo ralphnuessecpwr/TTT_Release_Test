@@ -16,7 +16,14 @@ Non existing customer&#xD;
   <Test>
     <Scope name="Positive Tests" disabled="false">
       <SQLSelect id="select" maxRows="3">
-        <Statement>SELECT CITY,  CUSTOMERNUMBER,  EMAILADDRESS,  FIRSTNAME,  LASTNAME,  STATE FROM GENAPPDB.CUSTOMER</Statement>
+        <Statement>SELECT &#xD;
+	CITY,  &#xD;
+	CUSTOMERNUMBER,  &#xD;
+	EMAILADDRESS,  &#xD;
+	FIRSTNAME,  &#xD;
+	LASTNAME,  &#xD;
+	STATE &#xD;
+FROM GENAPPDB.CUSTOMER</Statement>
         <Output name="CITY" />
         <Output name="CUSTOMERNUMBER" />
         <Output name="EMAILADDRESS" />

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnitResult resultType="FAILURE" containsSimulation="false">
+  <ExecutionId>6a2ff887-193d-41d3-ad5e-c3011c6804a5</ExecutionId>
+  <Message>An error occurred and the execution has been stopped. Unable to get a database connection. [jcc][t4][2057][11264][3.68.61] The application server rejected establishment of the connection.&#xD;
+An attempt was made to access a database, DSCCCWCC, which was either not found or does not support transactions. ERRORCODE=-4499, SQLSTATE=08004</Message>
+  <AST>
+    <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1">
+      <Test />
+    </XaUnit>
+  </AST>
+  <Context>
+    <ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5f64570731d7ab4e8cb59b98" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" userid="HDDRXM0" database="DSCCCWCC">
+      <platformruntime database="DBCCCWCC" driver="com.ibm.db2.jcc.DB2Driver" uri="jdbc:db2://cwcc.compuware.com:546/${database}" environmenttype="BATCH" callinterface="NONE" />
+      <ExtensionData />
+      <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" path="TestScenario1.scenario">
+        <Test>
+          <SQLSelect id="id" maxRows="1">
+            <Statement>SELECT MAX(RIDENT) FROM HDDRXM0.XAEMPLOYEE</Statement>
+            <Output name="MAX" />
+          </SQLSelect>
+        </Test>
+      </XaUnit>
+      <ExternalResources />
+    </ExecutionContext>
+  </Context>
+  <Started>20200921-17-21-33</Started>
+  <Ended>20200921-17-21-39</Ended>
+</XaUnitResult>

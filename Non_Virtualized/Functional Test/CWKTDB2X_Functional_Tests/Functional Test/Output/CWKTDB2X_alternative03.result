@@ -1,0 +1,1088 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnitResult resultType="SUCCESS" containsSimulation="false">
+  <ExecutionId>8734f770-8bd7-4131-a819-444875b892d3</ExecutionId>
+  <Message />
+  <AST>
+    <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1">
+      <Test>
+        <Scope name="Settings" disabled="false">
+          <Variable id="employeeFileName">HDDRXM0.RT.CWKTDATA</Variable>
+          <Variable id="reportFileNameActual">HDDRXM0.RT.KTDEMO.RPTFILE</Variable>
+        </Scope>
+        <Scope name="Initialization" disabled="false">
+          <SQLUpdate name="SQLUpdate">
+            <Statement><![CDATA[DELETE FROM HDDRXM0.KT_DEMOTAB 
+;]]></Statement>
+          </SQLUpdate>
+          <Variable id="employeeRecords">
+            <record>
+              <employee-work-area>
+                <wa-emp-num>03431</wa-emp-num>
+                <wa-emp-type>H</wa-emp-type>
+                <wa-emp-region>2</wa-emp-region>
+                <wa-emp-name>GAIL LAWRENCE</wa-emp-name>
+                <wa-emp-address>
+                  <wa-emp-street>123 NORTH AVE</wa-emp-street>
+                  <wa-emp-city>PLANO</wa-emp-city>
+                  <wa-emp-state>TX</wa-emp-state>
+                  <wa-emp-zip>57010</wa-emp-zip>
+                </wa-emp-address>
+                <wa-hourly-employee-data>
+                  <wa-emp-hours>38</wa-emp-hours>
+                  <wa-emp-rate>25</wa-emp-rate>
+                  <filler1 />
+                </wa-hourly-employee-data>
+                <wa-emp-hire-date>
+                  <wa-emp-hire-yy>84</wa-emp-hire-yy>
+                  <wa-emp-hire-mm>6</wa-emp-hire-mm>
+                  <wa-emp-hire-dd>25</wa-emp-hire-dd>
+                </wa-emp-hire-date>
+                <filler1 />
+              </employee-work-area>
+            </record>
+            <record>
+              <employee-work-area>
+                <wa-emp-num>02523</wa-emp-num>
+                <wa-emp-type>H</wa-emp-type>
+                <wa-emp-region>1</wa-emp-region>
+                <wa-emp-name>JOHN SMITH</wa-emp-name>
+                <wa-emp-address>
+                  <wa-emp-street>5456 ELM STREET</wa-emp-street>
+                  <wa-emp-city>WAYNE</wa-emp-city>
+                  <wa-emp-state>IL</wa-emp-state>
+                  <wa-emp-zip>77902</wa-emp-zip>
+                </wa-emp-address>
+                <wa-hourly-employee-data>
+                  <wa-emp-hours>30</wa-emp-hours>
+                  <wa-emp-rate>25</wa-emp-rate>
+                  <filler1 />
+                </wa-hourly-employee-data>
+                <wa-emp-hire-date>
+                  <wa-emp-hire-yy>81</wa-emp-hire-yy>
+                  <wa-emp-hire-mm>10</wa-emp-hire-mm>
+                  <wa-emp-hire-dd>15</wa-emp-hire-dd>
+                </wa-emp-hire-date>
+                <filler1 />
+              </employee-work-area>
+            </record>
+            <record>
+              <employee-work-area>
+                <wa-emp-num>01568</wa-emp-num>
+                <wa-emp-type>H</wa-emp-type>
+                <wa-emp-region>4</wa-emp-region>
+                <wa-emp-name>THOMAS LONG</wa-emp-name>
+                <wa-emp-address>
+                  <wa-emp-street>12 RACE STREET</wa-emp-street>
+                  <wa-emp-city>SAN JOSE</wa-emp-city>
+                  <wa-emp-state>CA</wa-emp-state>
+                  <wa-emp-zip>95126</wa-emp-zip>
+                </wa-emp-address>
+                <wa-hourly-employee-data>
+                  <wa-emp-hours>40</wa-emp-hours>
+                  <wa-emp-rate>25</wa-emp-rate>
+                  <filler1 />
+                </wa-hourly-employee-data>
+                <wa-emp-hire-date>
+                  <wa-emp-hire-yy>87</wa-emp-hire-yy>
+                  <wa-emp-hire-mm>3</wa-emp-hire-mm>
+                  <wa-emp-hire-dd>31</wa-emp-hire-dd>
+                </wa-emp-hire-date>
+                <filler1 />
+              </employee-work-area>
+            </record>
+            <record>
+              <employee-work-area>
+                <wa-emp-num>03241</wa-emp-num>
+                <wa-emp-type>H</wa-emp-type>
+                <wa-emp-region>3</wa-emp-region>
+                <wa-emp-name>MARCIA SULLIVAN</wa-emp-name>
+                <wa-emp-address>
+                  <wa-emp-street>55 SOUTH STREET</wa-emp-street>
+                  <wa-emp-city>NEW YORK</wa-emp-city>
+                  <wa-emp-state>NY</wa-emp-state>
+                  <wa-emp-zip>10017</wa-emp-zip>
+                </wa-emp-address>
+                <wa-hourly-employee-data>
+                  <wa-emp-hours>44</wa-emp-hours>
+                  <wa-emp-rate>30</wa-emp-rate>
+                  <filler1 />
+                </wa-hourly-employee-data>
+                <wa-emp-hire-date>
+                  <wa-emp-hire-yy>93</wa-emp-hire-yy>
+                  <wa-emp-hire-mm>4</wa-emp-hire-mm>
+                  <wa-emp-hire-dd>5</wa-emp-hire-dd>
+                </wa-emp-hire-date>
+                <filler1 />
+              </employee-work-area>
+            </record>
+            <record>
+              <employee-work-area>
+                <wa-emp-num>01343</wa-emp-num>
+                <wa-emp-type>H</wa-emp-type>
+                <wa-emp-region>3</wa-emp-region>
+                <wa-emp-name>JAMES MORRISON</wa-emp-name>
+                <wa-emp-address>
+                  <wa-emp-street>11-A MAPLE AVE</wa-emp-street>
+                  <wa-emp-city>SYRACUSE</wa-emp-city>
+                  <wa-emp-state>NY</wa-emp-state>
+                  <wa-emp-zip>12123</wa-emp-zip>
+                </wa-emp-address>
+                <wa-hourly-employee-data>
+                  <wa-emp-hours>37</wa-emp-hours>
+                  <wa-emp-rate>27.5</wa-emp-rate>
+                  <filler1 />
+                </wa-hourly-employee-data>
+                <wa-emp-hire-date>
+                  <wa-emp-hire-yy>91</wa-emp-hire-yy>
+                  <wa-emp-hire-mm>9</wa-emp-hire-mm>
+                  <wa-emp-hire-dd>13</wa-emp-hire-dd>
+                </wa-emp-hire-date>
+                <filler1 />
+              </employee-work-area>
+            </record>
+            <record>
+              <employee-work-area>
+                <wa-emp-num>02171</wa-emp-num>
+                <wa-emp-type>H</wa-emp-type>
+                <wa-emp-region>4</wa-emp-region>
+                <wa-emp-name>SAMUEL ADDAMS</wa-emp-name>
+                <wa-emp-address>
+                  <wa-emp-street>900 LINCOLN CT</wa-emp-street>
+                  <wa-emp-city>RENO</wa-emp-city>
+                  <wa-emp-state>NV</wa-emp-state>
+                  <wa-emp-zip>82433</wa-emp-zip>
+                </wa-emp-address>
+                <wa-hourly-employee-data>
+                  <wa-emp-hours>42</wa-emp-hours>
+                  <wa-emp-rate>27.5</wa-emp-rate>
+                  <filler1 />
+                </wa-hourly-employee-data>
+                <wa-emp-hire-date>
+                  <wa-emp-hire-yy>86</wa-emp-hire-yy>
+                  <wa-emp-hire-mm>1</wa-emp-hire-mm>
+                  <wa-emp-hire-dd>2</wa-emp-hire-dd>
+                </wa-emp-hire-date>
+                <filler1 />
+              </employee-work-area>
+            </record>
+            <record>
+              <employee-work-area>
+                <wa-emp-num>02175</wa-emp-num>
+                <wa-emp-type>H</wa-emp-type>
+                <wa-emp-region>2</wa-emp-region>
+                <wa-emp-name>KATIE WILLIAMS</wa-emp-name>
+                <wa-emp-address>
+                  <wa-emp-street>123 MAIN ST</wa-emp-street>
+                  <wa-emp-city>COLUMBUS</wa-emp-city>
+                  <wa-emp-state>OH</wa-emp-state>
+                  <wa-emp-zip>43082</wa-emp-zip>
+                </wa-emp-address>
+                <wa-hourly-employee-data>
+                  <wa-emp-hours>32</wa-emp-hours>
+                  <wa-emp-rate>27.5</wa-emp-rate>
+                  <filler1 />
+                </wa-hourly-employee-data>
+                <wa-emp-hire-date>
+                  <wa-emp-hire-yy>96</wa-emp-hire-yy>
+                  <wa-emp-hire-mm>10</wa-emp-hire-mm>
+                  <wa-emp-hire-dd>2</wa-emp-hire-dd>
+                </wa-emp-hire-date>
+                <filler1 />
+              </employee-work-area>
+            </record>
+            <record>
+              <employee-work-area>
+                <wa-emp-num>59999</wa-emp-num>
+                <wa-emp-type>D</wa-emp-type>
+                <wa-emp-region>3</wa-emp-region>
+                <wa-emp-name>MAX E MILLION</wa-emp-name>
+                <wa-emp-address>
+                  <wa-emp-street>100 MAIN STREET</wa-emp-street>
+                  <wa-emp-city>MAIN</wa-emp-city>
+                  <wa-emp-state>OH</wa-emp-state>
+                  <wa-emp-zip>34093</wa-emp-zip>
+                </wa-emp-address>
+                <wa-hourly-employee-data>
+                  <wa-emp-hours>88</wa-emp-hours>
+                  <wa-emp-rate>25</wa-emp-rate>
+                  <filler1 />
+                </wa-hourly-employee-data>
+                <wa-emp-hire-date>
+                  <wa-emp-hire-yy>91</wa-emp-hire-yy>
+                  <wa-emp-hire-mm>3</wa-emp-hire-mm>
+                  <wa-emp-hire-dd>23</wa-emp-hire-dd>
+                </wa-emp-hire-date>
+                <filler1 />
+              </employee-work-area>
+            </record>
+          </Variable>
+          <WriteRemoteFile fileName="HDDRXM0.RT.CWKTDATA" id="writeEmployeeFile" label="Write Employee File" mDataDefinitionName="EMPFILE1" recordLength="80" recordFormat="FB" blockSize="27920" volumnName="PCC006" unitName="" unitType="TRK" primaryAllocation="15" secondaryAllocation="5" directoryBlockCount="0" datasetType="BASIC" memberName="" disposition="Old" referencedId="employeeRecords" />
+          <IterateData id="loopThroughEmployeeRecords" referencedId="employeeRecords" dataPath="">
+            <Variable id="wa_emp_num">03431</Variable>
+            <Variable id="wa_emp_type">H</Variable>
+            <Variable id="wa_emp_region">2</Variable>
+            <Variable id="wa_emp_name">GAIL LAWRENCE</Variable>
+            <Variable id="wa_emp_street">123 NORTH AVE</Variable>
+            <Variable id="wa_emp_city">PLANO</Variable>
+            <Variable id="wa_emp_state">TX</Variable>
+            <Variable id="wa_emp_zip">57010</Variable>
+            <Variable id="wa_emp_hire_date">84625</Variable>
+            <Variable id="wa_emp_hours">38</Variable>
+            <Variable id="wa_emp_rate">25</Variable>
+            <SQLUpdate name="SQLUpdate">
+              <Statement><![CDATA[INSERT INTO HDDRXM0.KT_DEMOTAB 
+  (
+	EMP_NUM,
+	WAGE_TYPE,
+	REGION,
+	FIRST_LAST_NAME,
+	STREET_ADDR,
+	CITY,
+	STATE,
+	ZIP,
+	HIREDATE,
+	HOURS,
+	RATE,
+	WAGES,
+	OVERTIME,
+	COMM
+  )
+VALUES 
+  (
+	'03431',
+	'H',
+	'2',
+	'GAIL LAWRENCE',
+	'123 NORTH AVE',
+	'PLANO',
+	'TX',
+	'57010',
+	'84625',
+	'38',
+	'25',
+	0,
+	0,
+	0
+  );]]></Statement>
+            </SQLUpdate>
+            <Variable id="wa_emp_num">02523</Variable>
+            <Variable id="wa_emp_type">H</Variable>
+            <Variable id="wa_emp_region">1</Variable>
+            <Variable id="wa_emp_name">JOHN SMITH</Variable>
+            <Variable id="wa_emp_street">5456 ELM STREET</Variable>
+            <Variable id="wa_emp_city">WAYNE</Variable>
+            <Variable id="wa_emp_state">IL</Variable>
+            <Variable id="wa_emp_zip">77902</Variable>
+            <Variable id="wa_emp_hire_date">811015</Variable>
+            <Variable id="wa_emp_hours">30</Variable>
+            <Variable id="wa_emp_rate">25</Variable>
+            <SQLUpdate name="SQLUpdate">
+              <Statement><![CDATA[INSERT INTO HDDRXM0.KT_DEMOTAB 
+  (
+	EMP_NUM,
+	WAGE_TYPE,
+	REGION,
+	FIRST_LAST_NAME,
+	STREET_ADDR,
+	CITY,
+	STATE,
+	ZIP,
+	HIREDATE,
+	HOURS,
+	RATE,
+	WAGES,
+	OVERTIME,
+	COMM
+  )
+VALUES 
+  (
+	'02523',
+	'H',
+	'1',
+	'JOHN SMITH',
+	'5456 ELM STREET',
+	'WAYNE',
+	'IL',
+	'77902',
+	'811015',
+	'30',
+	'25',
+	0,
+	0,
+	0
+  );]]></Statement>
+            </SQLUpdate>
+            <Variable id="wa_emp_num">01568</Variable>
+            <Variable id="wa_emp_type">H</Variable>
+            <Variable id="wa_emp_region">4</Variable>
+            <Variable id="wa_emp_name">THOMAS LONG</Variable>
+            <Variable id="wa_emp_street">12 RACE STREET</Variable>
+            <Variable id="wa_emp_city">SAN JOSE</Variable>
+            <Variable id="wa_emp_state">CA</Variable>
+            <Variable id="wa_emp_zip">95126</Variable>
+            <Variable id="wa_emp_hire_date">87331</Variable>
+            <Variable id="wa_emp_hours">40</Variable>
+            <Variable id="wa_emp_rate">25</Variable>
+            <SQLUpdate name="SQLUpdate">
+              <Statement><![CDATA[INSERT INTO HDDRXM0.KT_DEMOTAB 
+  (
+	EMP_NUM,
+	WAGE_TYPE,
+	REGION,
+	FIRST_LAST_NAME,
+	STREET_ADDR,
+	CITY,
+	STATE,
+	ZIP,
+	HIREDATE,
+	HOURS,
+	RATE,
+	WAGES,
+	OVERTIME,
+	COMM
+  )
+VALUES 
+  (
+	'01568',
+	'H',
+	'4',
+	'THOMAS LONG',
+	'12 RACE STREET',
+	'SAN JOSE',
+	'CA',
+	'95126',
+	'87331',
+	'40',
+	'25',
+	0,
+	0,
+	0
+  );]]></Statement>
+            </SQLUpdate>
+            <Variable id="wa_emp_num">03241</Variable>
+            <Variable id="wa_emp_type">H</Variable>
+            <Variable id="wa_emp_region">3</Variable>
+            <Variable id="wa_emp_name">MARCIA SULLIVAN</Variable>
+            <Variable id="wa_emp_street">55 SOUTH STREET</Variable>
+            <Variable id="wa_emp_city">NEW YORK</Variable>
+            <Variable id="wa_emp_state">NY</Variable>
+            <Variable id="wa_emp_zip">10017</Variable>
+            <Variable id="wa_emp_hire_date">9345</Variable>
+            <Variable id="wa_emp_hours">44</Variable>
+            <Variable id="wa_emp_rate">30</Variable>
+            <SQLUpdate name="SQLUpdate">
+              <Statement><![CDATA[INSERT INTO HDDRXM0.KT_DEMOTAB 
+  (
+	EMP_NUM,
+	WAGE_TYPE,
+	REGION,
+	FIRST_LAST_NAME,
+	STREET_ADDR,
+	CITY,
+	STATE,
+	ZIP,
+	HIREDATE,
+	HOURS,
+	RATE,
+	WAGES,
+	OVERTIME,
+	COMM
+  )
+VALUES 
+  (
+	'03241',
+	'H',
+	'3',
+	'MARCIA SULLIVAN',
+	'55 SOUTH STREET',
+	'NEW YORK',
+	'NY',
+	'10017',
+	'9345',
+	'44',
+	'30',
+	0,
+	0,
+	0
+  );]]></Statement>
+            </SQLUpdate>
+            <Variable id="wa_emp_num">01343</Variable>
+            <Variable id="wa_emp_type">H</Variable>
+            <Variable id="wa_emp_region">3</Variable>
+            <Variable id="wa_emp_name">JAMES MORRISON</Variable>
+            <Variable id="wa_emp_street">11-A MAPLE AVE</Variable>
+            <Variable id="wa_emp_city">SYRACUSE</Variable>
+            <Variable id="wa_emp_state">NY</Variable>
+            <Variable id="wa_emp_zip">12123</Variable>
+            <Variable id="wa_emp_hire_date">91913</Variable>
+            <Variable id="wa_emp_hours">37</Variable>
+            <Variable id="wa_emp_rate">27.5</Variable>
+            <SQLUpdate name="SQLUpdate">
+              <Statement><![CDATA[INSERT INTO HDDRXM0.KT_DEMOTAB 
+  (
+	EMP_NUM,
+	WAGE_TYPE,
+	REGION,
+	FIRST_LAST_NAME,
+	STREET_ADDR,
+	CITY,
+	STATE,
+	ZIP,
+	HIREDATE,
+	HOURS,
+	RATE,
+	WAGES,
+	OVERTIME,
+	COMM
+  )
+VALUES 
+  (
+	'01343',
+	'H',
+	'3',
+	'JAMES MORRISON',
+	'11-A MAPLE AVE',
+	'SYRACUSE',
+	'NY',
+	'12123',
+	'91913',
+	'37',
+	'27.5',
+	0,
+	0,
+	0
+  );]]></Statement>
+            </SQLUpdate>
+            <Variable id="wa_emp_num">02171</Variable>
+            <Variable id="wa_emp_type">H</Variable>
+            <Variable id="wa_emp_region">4</Variable>
+            <Variable id="wa_emp_name">SAMUEL ADDAMS</Variable>
+            <Variable id="wa_emp_street">900 LINCOLN CT</Variable>
+            <Variable id="wa_emp_city">RENO</Variable>
+            <Variable id="wa_emp_state">NV</Variable>
+            <Variable id="wa_emp_zip">82433</Variable>
+            <Variable id="wa_emp_hire_date">8612</Variable>
+            <Variable id="wa_emp_hours">42</Variable>
+            <Variable id="wa_emp_rate">27.5</Variable>
+            <SQLUpdate name="SQLUpdate">
+              <Statement><![CDATA[INSERT INTO HDDRXM0.KT_DEMOTAB 
+  (
+	EMP_NUM,
+	WAGE_TYPE,
+	REGION,
+	FIRST_LAST_NAME,
+	STREET_ADDR,
+	CITY,
+	STATE,
+	ZIP,
+	HIREDATE,
+	HOURS,
+	RATE,
+	WAGES,
+	OVERTIME,
+	COMM
+  )
+VALUES 
+  (
+	'02171',
+	'H',
+	'4',
+	'SAMUEL ADDAMS',
+	'900 LINCOLN CT',
+	'RENO',
+	'NV',
+	'82433',
+	'8612',
+	'42',
+	'27.5',
+	0,
+	0,
+	0
+  );]]></Statement>
+            </SQLUpdate>
+            <Variable id="wa_emp_num">02175</Variable>
+            <Variable id="wa_emp_type">H</Variable>
+            <Variable id="wa_emp_region">2</Variable>
+            <Variable id="wa_emp_name">KATIE WILLIAMS</Variable>
+            <Variable id="wa_emp_street">123 MAIN ST</Variable>
+            <Variable id="wa_emp_city">COLUMBUS</Variable>
+            <Variable id="wa_emp_state">OH</Variable>
+            <Variable id="wa_emp_zip">43082</Variable>
+            <Variable id="wa_emp_hire_date">96102</Variable>
+            <Variable id="wa_emp_hours">32</Variable>
+            <Variable id="wa_emp_rate">27.5</Variable>
+            <SQLUpdate name="SQLUpdate">
+              <Statement><![CDATA[INSERT INTO HDDRXM0.KT_DEMOTAB 
+  (
+	EMP_NUM,
+	WAGE_TYPE,
+	REGION,
+	FIRST_LAST_NAME,
+	STREET_ADDR,
+	CITY,
+	STATE,
+	ZIP,
+	HIREDATE,
+	HOURS,
+	RATE,
+	WAGES,
+	OVERTIME,
+	COMM
+  )
+VALUES 
+  (
+	'02175',
+	'H',
+	'2',
+	'KATIE WILLIAMS',
+	'123 MAIN ST',
+	'COLUMBUS',
+	'OH',
+	'43082',
+	'96102',
+	'32',
+	'27.5',
+	0,
+	0,
+	0
+  );]]></Statement>
+            </SQLUpdate>
+            <Variable id="wa_emp_num">59999</Variable>
+            <Variable id="wa_emp_type">D</Variable>
+            <Variable id="wa_emp_region">3</Variable>
+            <Variable id="wa_emp_name">MAX E MILLION</Variable>
+            <Variable id="wa_emp_street">100 MAIN STREET</Variable>
+            <Variable id="wa_emp_city">MAIN</Variable>
+            <Variable id="wa_emp_state">OH</Variable>
+            <Variable id="wa_emp_zip">34093</Variable>
+            <Variable id="wa_emp_hire_date">91323</Variable>
+            <Variable id="wa_emp_hours">88</Variable>
+            <Variable id="wa_emp_rate">25</Variable>
+            <SQLUpdate name="SQLUpdate">
+              <Statement><![CDATA[INSERT INTO HDDRXM0.KT_DEMOTAB 
+  (
+	EMP_NUM,
+	WAGE_TYPE,
+	REGION,
+	FIRST_LAST_NAME,
+	STREET_ADDR,
+	CITY,
+	STATE,
+	ZIP,
+	HIREDATE,
+	HOURS,
+	RATE,
+	WAGES,
+	OVERTIME,
+	COMM
+  )
+VALUES 
+  (
+	'59999',
+	'D',
+	'3',
+	'MAX E MILLION',
+	'100 MAIN STREET',
+	'MAIN',
+	'OH',
+	'34093',
+	'91323',
+	'88',
+	'25',
+	0,
+	0,
+	0
+  );]]></Statement>
+            </SQLUpdate>
+          </IterateData>
+        </Scope>
+        <Scope name="Test Execution" disabled="false">
+          <Component label="CWKTDB2X" moduleName="CWKTDB2X" programExitVerify="value &lt; 8" programExit="0" rollback="false">
+            <Data>
+              <parminfo>
+                <parm-lth>5</parm-lth>
+                <parm-data>00001</parm-data>
+                <grand-total expected="7160">7160</grand-total>
+                <total-record expected="8">8</total-record>
+              </parminfo>
+            </Data>
+            <Setup>
+              <Content><![CDATA[//EMPFILE  DD DISP=SHR,DSN=HDDRXM0.RT.CWKTDATA
+//RPTFILE  DD DISP=SHR,DSN=HDDRXM0.RT.KTDEMO.RPTFILE
+//*RPTFILE  DD SYSOUT=*]]></Content>
+            </Setup>
+          </Component>
+        </Scope>
+      </Test>
+      <MetaData>
+        <Component name="CWKTDB2X" type="COBOL">
+          <INOUT>
+            <parminfo>
+              <parm-lth type="NumericBinary" length="4" bytes="2" signed="true" decimals="0" />
+              <parm-data type="Character" length="5" bytes="5" />
+              <grand-total type="NumericBinary" length="7" bytes="4" signed="true" decimals="0" />
+              <total-record type="NumericDisplay" length="3" bytes="3" signed="false" decimals="0" />
+            </parminfo>
+          </INOUT>
+        </Component>
+      </MetaData>
+    </XaUnit>
+  </AST>
+  <Context>
+    <ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5f64570731d7ab4e8cb59b98" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" userid="HDDRXM0">
+      <platformruntime database="DBCCCWCC" driver="com.ibm.db2.jcc.DB2Driver" uri="jdbc:db2://cwcc.compuware.com:546/${database}" environmenttype="BATCH" callinterface="NONE" />
+      <ExtensionData />
+      <ExtensionData componentName="cwktdb2x" componentId="5f64612b31d7ab4e8cb59bb0">
+        <Parameter key="db2id">
+          <Value>DSCC</Value>
+        </Parameter>
+        <Parameter key="db2plan">
+          <Value>RXNKTDB2</Value>
+        </Parameter>
+        <Parameter key="sourcelibrary">
+          <Value>HDDRXM0.RT.COB.BATCH</Value>
+        </Parameter>
+        <Parameter key="loadlibraries">
+          <Value>HDDRXM0.RT.LOAD.PDSE</Value>
+        </Parameter>
+        <Parameter key="sourcelibraries">
+          <Value>HDDRXM0.RT.COPY</Value>
+        </Parameter>
+        <Parameter key="callinterface">
+          <Value>NONE</Value>
+        </Parameter>
+      </ExtensionData>
+      <References componentName="cwktdb2x" />
+      <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="cwktdb2x" path="CWKTDB2X_alternative03.scenario">
+        <Test>
+          <Scope name="Settings" disabled="false">
+            <Variable id="employeeFileName">HDDRXM0.RT.CWKTDATA</Variable>
+            <Variable id="reportFileNameActual">HDDRXM0.RT.KTDEMO.RPTFILE</Variable>
+          </Scope>
+          <Scope name="Initialization" disabled="false">
+            <SQLUpdate name="SQLUpdate">
+              <Statement><![CDATA[DELETE FROM HDDRXM0.KT_DEMOTAB 
+;]]></Statement>
+            </SQLUpdate>
+            <Variable id="employeeRecords" filePath="Data/employee_records.xml" />
+            <WriteRemoteFile fileName="${employeeFileName}" id="writeEmployeeFile" label="Write Employee File" mDataDefinitionName="EMPFILE1" recordLength="80" recordFormat="FB" blockSize="27920" volumnName="PCC006" unitName="" unitType="TRK" primaryAllocation="15" secondaryAllocation="5" directoryBlockCount="0" datasetType="BASIC" memberName="" disposition="Old" referencedId="employeeRecords" />
+            <IterateData id="loopThroughEmployeeRecords" referencedId="employeeRecords" dataPath="">
+              <Variable id="wa_emp_num">
+                <data:Replaceable>
+                  <Expression>
+                    <Statement><![CDATA[employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-num']]]></Statement>
+                  </Expression>
+                </data:Replaceable>
+              </Variable>
+              <Variable id="wa_emp_type">
+                <data:Replaceable>
+                  <Expression>
+                    <Statement><![CDATA[employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-type']]]></Statement>
+                  </Expression>
+                </data:Replaceable>
+              </Variable>
+              <Variable id="wa_emp_region">
+                <data:Replaceable>
+                  <Expression>
+                    <Statement><![CDATA[employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-region']]]></Statement>
+                  </Expression>
+                </data:Replaceable>
+              </Variable>
+              <Variable id="wa_emp_name">
+                <data:Replaceable>
+                  <Expression>
+                    <Statement><![CDATA[employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-name']]]></Statement>
+                  </Expression>
+                </data:Replaceable>
+              </Variable>
+              <Variable id="wa_emp_street">
+                <data:Replaceable>
+                  <Expression>
+                    <Statement><![CDATA[employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-street']]]></Statement>
+                  </Expression>
+                </data:Replaceable>
+              </Variable>
+              <Variable id="wa_emp_city">
+                <data:Replaceable>
+                  <Expression>
+                    <Statement><![CDATA[employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-city']]]></Statement>
+                  </Expression>
+                </data:Replaceable>
+              </Variable>
+              <Variable id="wa_emp_state">
+                <data:Replaceable>
+                  <Expression>
+                    <Statement><![CDATA[employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-state']]]></Statement>
+                  </Expression>
+                </data:Replaceable>
+              </Variable>
+              <Variable id="wa_emp_zip">
+                <data:Replaceable>
+                  <Expression>
+                    <Statement><![CDATA[employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-address']['wa-emp-zip']]]></Statement>
+                  </Expression>
+                </data:Replaceable>
+              </Variable>
+              <Variable id="wa_emp_hire_date">
+                <data:Replaceable>
+                  <Expression>
+                    <Statement><![CDATA[employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-yy'].concat(
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-mm'],
+employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-emp-hire-date']['wa-emp-hire-dd']
+)]]></Statement>
+                  </Expression>
+                </data:Replaceable>
+              </Variable>
+              <Variable id="wa_emp_hours">
+                <data:Replaceable>
+                  <Expression>
+                    <Statement><![CDATA[employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-hours']]]></Statement>
+                  </Expression>
+                </data:Replaceable>
+              </Variable>
+              <Variable id="wa_emp_rate">
+                <data:Replaceable>
+                  <Expression>
+                    <Statement><![CDATA[employeeRecords.record[loopThroughEmployeeRecordsIndex]['employee-work-area']['wa-hourly-employee-data']['wa-emp-rate']]]></Statement>
+                  </Expression>
+                </data:Replaceable>
+              </Variable>
+              <SQLUpdate name="SQLUpdate">
+                <Statement><![CDATA[INSERT INTO HDDRXM0.KT_DEMOTAB 
+  (
+	EMP_NUM,
+	WAGE_TYPE,
+	REGION,
+	FIRST_LAST_NAME,
+	STREET_ADDR,
+	CITY,
+	STATE,
+	ZIP,
+	HIREDATE,
+	HOURS,
+	RATE,
+	WAGES,
+	OVERTIME,
+	COMM
+  )
+VALUES 
+  (
+	'${wa_emp_num}',
+	'${wa_emp_type}',
+	'${wa_emp_region}',
+	'${wa_emp_name}',
+	'${wa_emp_street}',
+	'${wa_emp_city}',
+	'${wa_emp_state}',
+	'${wa_emp_zip}',
+	'${wa_emp_hire_date}',
+	'${wa_emp_hours}',
+	'${wa_emp_rate}',
+	0,
+	0,
+	0
+  );]]></Statement>
+              </SQLUpdate>
+            </IterateData>
+          </Scope>
+          <Scope name="Test Execution" disabled="false">
+            <Component label="CWKTDB2X" moduleName="CWKTDB2X" programExitVerify="value &lt; 8" rollback="false">
+              <Data>
+                <parminfo>
+                  <parm-lth>5</parm-lth>
+                  <parm-data>00001</parm-data>
+                  <grand-total expected="7160" />
+                  <total-record expected="8" />
+                </parminfo>
+              </Data>
+              <Setup>
+                <Content><![CDATA[//EMPFILE  DD DISP=SHR,DSN=${employeeFileName}
+//RPTFILE  DD DISP=SHR,DSN=${reportFileNameActual}
+//*RPTFILE  DD SYSOUT=*]]></Content>
+              </Setup>
+            </Component>
+          </Scope>
+        </Test>
+        <MetaData>
+          <MDataDefinition name="employeeFileStructure">
+            <WA-EMP-NUM type="NumericDisplay" length="5" bytes="5" native="05 WA-EMP-NUM PIC 9(5)." signed="false" decimals="0" />
+            <WA-EMP-TYPE type="Character" length="1" bytes="1" native="05 WA-EMP-TYPE PIC X." />
+            <WA-EMP-REGION type="NumericDisplay" length="1" bytes="1" native="05 WA-EMP-REGION PIC 9." signed="false" decimals="0" />
+            <WA-EMP-NAME type="Character" length="15" bytes="15" native="05 WA-EMP-NAME PIC X(15)." />
+            <WA-EMP-STREET type="Character" length="15" bytes="15" native="10 WA-EMP-STREET PIC X(15)." />
+            <WA-EMP-CITY type="Character" length="8" bytes="8" native="10 WA-EMP-CITY PIC X(8)." />
+            <WA-EMP-STATE type="Character" length="2" bytes="2" native="10 WA-EMP-STATE PIC XX." />
+            <WA-EMP-ZIP type="Character" length="9" bytes="9" native="10 WA-EMP-ZIP PIC X(9)." />
+            <WA-EMP-HOURS type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HOURS PIC 9(2)." signed="false" decimals="0" />
+            <WA-EMP-RATE type="NumericPacked" length="3" bytes="3" native="10 WA-EMP-RATE PIC 9(3)V99 COMP-3." signed="false" decimals="2" />
+            <FILLER1 type="Character" length="8" bytes="8" native="10 FILLER PIC X(8)." />
+            <WA-EMP-HIRE-YY type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HIRE-YY PIC 9(2)." signed="false" decimals="0" />
+            <WA-EMP-HIRE-MM type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HIRE-MM PIC 9(2)." signed="false" decimals="0" />
+            <WA-EMP-HIRE-DD type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HIRE-DD PIC 9(2)." signed="false" decimals="0" />
+            <FILLER2 type="Character" length="5" bytes="5" native="10 FILLER PIC X(5)." />
+          </MDataDefinition>
+          <MDataDefinition name="EMPFILE1">
+            <employee-work-area native="01 EMPLOYEE-WORK-AREA.">
+              <wa-emp-num type="NumericDisplay" length="5" bytes="5" native="05 WA-EMP-NUM PIC 9(5)." signed="false" decimals="0" />
+              <wa-emp-type type="Character" length="1" bytes="1" native="05 WA-EMP-TYPE PIC X." />
+              <wa-emp-region type="NumericDisplay" length="1" bytes="1" native="05 WA-EMP-REGION PIC 9." signed="false" decimals="0" />
+              <wa-emp-name type="Character" length="15" bytes="15" native="05 WA-EMP-NAME PIC X(15)." />
+              <wa-emp-address native="05 WA-EMP-ADDRESS.">
+                <wa-emp-street type="Character" length="15" bytes="15" native="10 WA-EMP-STREET PIC X(15)." />
+                <wa-emp-city type="Character" length="8" bytes="8" native="10 WA-EMP-CITY PIC X(8)." />
+                <wa-emp-state type="Character" length="2" bytes="2" native="10 WA-EMP-STATE PIC XX." />
+                <wa-emp-zip type="Character" length="9" bytes="9" native="10 WA-EMP-ZIP PIC X(9)." />
+              </wa-emp-address>
+              <wa-hourly-employee-data native="05 WA-HOURLY-EMPLOYEE-DATA.">
+                <wa-emp-hours type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HOURS PIC 9(2)." signed="false" decimals="0" />
+                <wa-emp-rate type="NumericPacked" length="3" bytes="3" native="10 WA-EMP-RATE PIC 9(3)V99 COMP-3." signed="false" decimals="2" />
+                <filler1 type="Character" length="8" bytes="8" native="10 FILLER PIC X(8)." />
+              </wa-hourly-employee-data>
+              <wa-emp-hire-date native="05 WA-EMP-HIRE-DATE.">
+                <wa-emp-hire-yy type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HIRE-YY PIC 9(2)." signed="false" decimals="0" />
+                <wa-emp-hire-mm type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HIRE-MM PIC 9(2)." signed="false" decimals="0" />
+                <wa-emp-hire-dd type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HIRE-DD PIC 9(2)." signed="false" decimals="0" />
+              </wa-emp-hire-date>
+              <filler1 type="Character" length="5" bytes="5" native="05 FILLER PIC X(5)." />
+            </employee-work-area>
+          </MDataDefinition>
+          <MDataDefinition name="EMPFILE2">
+            <WA-EMP-NUM type="NumericDisplay" length="5" bytes="5" native="05 WA-EMP-NUM PIC 9(5)." signed="false" decimals="0" />
+            <WA-EMP-TYPE type="Character" length="1" bytes="1" native="05 WA-EMP-TYPE PIC X." />
+            <WA-EMP-REGION type="NumericDisplay" length="1" bytes="1" native="05 WA-EMP-REGION PIC 9." signed="false" decimals="0" />
+            <WA-EMP-NAME type="Character" length="15" bytes="15" native="05 WA-EMP-NAME PIC X(15)." />
+            <WA-EMP-STREET type="Character" length="15" bytes="15" native="10 WA-EMP-STREET PIC X(15)." />
+            <WA-EMP-CITY type="Character" length="8" bytes="8" native="10 WA-EMP-CITY PIC X(8)." />
+            <WA-EMP-STATE type="Character" length="2" bytes="2" native="10 WA-EMP-STATE PIC XX." />
+            <WA-EMP-ZIP type="Character" length="9" bytes="9" native="10 WA-EMP-ZIP PIC X(9)." />
+            <WA-EMP-HOURS type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HOURS PIC 9(2)." signed="false" decimals="0" />
+            <WA-EMP-RATE type="NumericPacked" length="3" bytes="3" native="10 WA-EMP-RATE PIC 9(3)V99 COMP-3." signed="false" decimals="2" />
+            <FILLER1 type="Character" length="8" bytes="8" native="10 FILLER PIC X(8)." />
+            <WA-EMP-HIRE-YY type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HIRE-YY PIC 9(2)." signed="false" decimals="0" />
+            <WA-EMP-HIRE-MM type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HIRE-MM PIC 9(2)." signed="false" decimals="0" />
+            <WA-EMP-HIRE-DD type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HIRE-DD PIC 9(2)." signed="false" decimals="0" />
+            <FILLER2 type="Character" length="5" bytes="5" native="05 FILLER PIC X(5)." />
+          </MDataDefinition>
+          <Component name="CWKTDB2X" type="COBOL">
+            <INOUT>
+              <parminfo>
+                <parm-lth type="NumericBinary" length="4" bytes="2" signed="true" decimals="0" />
+                <parm-data type="Character" length="5" bytes="5" />
+                <grand-total type="NumericBinary" length="7" bytes="4" signed="true" decimals="0" />
+                <total-record type="NumericDisplay" length="3" bytes="3" signed="false" decimals="0" />
+              </parminfo>
+            </INOUT>
+          </Component>
+        </MetaData>
+      </XaUnit>
+      <ExternalResources>
+        <Resource path="Data/employee_records.xml">
+          <SerializedData>
+            <record>
+              <employee-work-area>
+                <wa-emp-num>03431</wa-emp-num>
+                <wa-emp-type>H</wa-emp-type>
+                <wa-emp-region>2</wa-emp-region>
+                <wa-emp-name>GAIL LAWRENCE</wa-emp-name>
+                <wa-emp-address>
+                  <wa-emp-street>123 NORTH AVE</wa-emp-street>
+                  <wa-emp-city>PLANO</wa-emp-city>
+                  <wa-emp-state>TX</wa-emp-state>
+                  <wa-emp-zip>57010</wa-emp-zip>
+                </wa-emp-address>
+                <wa-hourly-employee-data>
+                  <wa-emp-hours>38</wa-emp-hours>
+                  <wa-emp-rate>25</wa-emp-rate>
+                  <filler1 />
+                </wa-hourly-employee-data>
+                <wa-emp-hire-date>
+                  <wa-emp-hire-yy>84</wa-emp-hire-yy>
+                  <wa-emp-hire-mm>6</wa-emp-hire-mm>
+                  <wa-emp-hire-dd>25</wa-emp-hire-dd>
+                </wa-emp-hire-date>
+                <filler1 />
+              </employee-work-area>
+            </record>
+            <record>
+              <employee-work-area>
+                <wa-emp-num>02523</wa-emp-num>
+                <wa-emp-type>H</wa-emp-type>
+                <wa-emp-region>1</wa-emp-region>
+                <wa-emp-name>JOHN SMITH</wa-emp-name>
+                <wa-emp-address>
+                  <wa-emp-street>5456 ELM STREET</wa-emp-street>
+                  <wa-emp-city>WAYNE</wa-emp-city>
+                  <wa-emp-state>IL</wa-emp-state>
+                  <wa-emp-zip>77902</wa-emp-zip>
+                </wa-emp-address>
+                <wa-hourly-employee-data>
+                  <wa-emp-hours>30</wa-emp-hours>
+                  <wa-emp-rate>25</wa-emp-rate>
+                  <filler1 />
+                </wa-hourly-employee-data>
+                <wa-emp-hire-date>
+                  <wa-emp-hire-yy>81</wa-emp-hire-yy>
+                  <wa-emp-hire-mm>10</wa-emp-hire-mm>
+                  <wa-emp-hire-dd>15</wa-emp-hire-dd>
+                </wa-emp-hire-date>
+                <filler1 />
+              </employee-work-area>
+            </record>
+            <record>
+              <employee-work-area>
+                <wa-emp-num>01568</wa-emp-num>
+                <wa-emp-type>H</wa-emp-type>
+                <wa-emp-region>4</wa-emp-region>
+                <wa-emp-name>THOMAS LONG</wa-emp-name>
+                <wa-emp-address>
+                  <wa-emp-street>12 RACE STREET</wa-emp-street>
+                  <wa-emp-city>SAN JOSE</wa-emp-city>
+                  <wa-emp-state>CA</wa-emp-state>
+                  <wa-emp-zip>95126</wa-emp-zip>
+                </wa-emp-address>
+                <wa-hourly-employee-data>
+                  <wa-emp-hours>40</wa-emp-hours>
+                  <wa-emp-rate>25</wa-emp-rate>
+                  <filler1 />
+                </wa-hourly-employee-data>
+                <wa-emp-hire-date>
+                  <wa-emp-hire-yy>87</wa-emp-hire-yy>
+                  <wa-emp-hire-mm>3</wa-emp-hire-mm>
+                  <wa-emp-hire-dd>31</wa-emp-hire-dd>
+                </wa-emp-hire-date>
+                <filler1 />
+              </employee-work-area>
+            </record>
+            <record>
+              <employee-work-area>
+                <wa-emp-num>03241</wa-emp-num>
+                <wa-emp-type>H</wa-emp-type>
+                <wa-emp-region>3</wa-emp-region>
+                <wa-emp-name>MARCIA SULLIVAN</wa-emp-name>
+                <wa-emp-address>
+                  <wa-emp-street>55 SOUTH STREET</wa-emp-street>
+                  <wa-emp-city>NEW YORK</wa-emp-city>
+                  <wa-emp-state>NY</wa-emp-state>
+                  <wa-emp-zip>10017</wa-emp-zip>
+                </wa-emp-address>
+                <wa-hourly-employee-data>
+                  <wa-emp-hours>44</wa-emp-hours>
+                  <wa-emp-rate>30</wa-emp-rate>
+                  <filler1 />
+                </wa-hourly-employee-data>
+                <wa-emp-hire-date>
+                  <wa-emp-hire-yy>93</wa-emp-hire-yy>
+                  <wa-emp-hire-mm>4</wa-emp-hire-mm>
+                  <wa-emp-hire-dd>5</wa-emp-hire-dd>
+                </wa-emp-hire-date>
+                <filler1 />
+              </employee-work-area>
+            </record>
+            <record>
+              <employee-work-area>
+                <wa-emp-num>01343</wa-emp-num>
+                <wa-emp-type>H</wa-emp-type>
+                <wa-emp-region>3</wa-emp-region>
+                <wa-emp-name>JAMES MORRISON</wa-emp-name>
+                <wa-emp-address>
+                  <wa-emp-street>11-A MAPLE AVE</wa-emp-street>
+                  <wa-emp-city>SYRACUSE</wa-emp-city>
+                  <wa-emp-state>NY</wa-emp-state>
+                  <wa-emp-zip>12123</wa-emp-zip>
+                </wa-emp-address>
+                <wa-hourly-employee-data>
+                  <wa-emp-hours>37</wa-emp-hours>
+                  <wa-emp-rate>27.5</wa-emp-rate>
+                  <filler1 />
+                </wa-hourly-employee-data>
+                <wa-emp-hire-date>
+                  <wa-emp-hire-yy>91</wa-emp-hire-yy>
+                  <wa-emp-hire-mm>9</wa-emp-hire-mm>
+                  <wa-emp-hire-dd>13</wa-emp-hire-dd>
+                </wa-emp-hire-date>
+                <filler1 />
+              </employee-work-area>
+            </record>
+            <record>
+              <employee-work-area>
+                <wa-emp-num>02171</wa-emp-num>
+                <wa-emp-type>H</wa-emp-type>
+                <wa-emp-region>4</wa-emp-region>
+                <wa-emp-name>SAMUEL ADDAMS</wa-emp-name>
+                <wa-emp-address>
+                  <wa-emp-street>900 LINCOLN CT</wa-emp-street>
+                  <wa-emp-city>RENO</wa-emp-city>
+                  <wa-emp-state>NV</wa-emp-state>
+                  <wa-emp-zip>82433</wa-emp-zip>
+                </wa-emp-address>
+                <wa-hourly-employee-data>
+                  <wa-emp-hours>42</wa-emp-hours>
+                  <wa-emp-rate>27.5</wa-emp-rate>
+                  <filler1 />
+                </wa-hourly-employee-data>
+                <wa-emp-hire-date>
+                  <wa-emp-hire-yy>86</wa-emp-hire-yy>
+                  <wa-emp-hire-mm>1</wa-emp-hire-mm>
+                  <wa-emp-hire-dd>2</wa-emp-hire-dd>
+                </wa-emp-hire-date>
+                <filler1 />
+              </employee-work-area>
+            </record>
+            <record>
+              <employee-work-area>
+                <wa-emp-num>02175</wa-emp-num>
+                <wa-emp-type>H</wa-emp-type>
+                <wa-emp-region>2</wa-emp-region>
+                <wa-emp-name>KATIE WILLIAMS</wa-emp-name>
+                <wa-emp-address>
+                  <wa-emp-street>123 MAIN ST</wa-emp-street>
+                  <wa-emp-city>COLUMBUS</wa-emp-city>
+                  <wa-emp-state>OH</wa-emp-state>
+                  <wa-emp-zip>43082</wa-emp-zip>
+                </wa-emp-address>
+                <wa-hourly-employee-data>
+                  <wa-emp-hours>32</wa-emp-hours>
+                  <wa-emp-rate>27.5</wa-emp-rate>
+                  <filler1 />
+                </wa-hourly-employee-data>
+                <wa-emp-hire-date>
+                  <wa-emp-hire-yy>96</wa-emp-hire-yy>
+                  <wa-emp-hire-mm>10</wa-emp-hire-mm>
+                  <wa-emp-hire-dd>2</wa-emp-hire-dd>
+                </wa-emp-hire-date>
+                <filler1 />
+              </employee-work-area>
+            </record>
+            <record>
+              <employee-work-area>
+                <wa-emp-num>59999</wa-emp-num>
+                <wa-emp-type>D</wa-emp-type>
+                <wa-emp-region>3</wa-emp-region>
+                <wa-emp-name>MAX E MILLION</wa-emp-name>
+                <wa-emp-address>
+                  <wa-emp-street>100 MAIN STREET</wa-emp-street>
+                  <wa-emp-city>MAIN</wa-emp-city>
+                  <wa-emp-state>OH</wa-emp-state>
+                  <wa-emp-zip>34093</wa-emp-zip>
+                </wa-emp-address>
+                <wa-hourly-employee-data>
+                  <wa-emp-hours>88</wa-emp-hours>
+                  <wa-emp-rate>25</wa-emp-rate>
+                  <filler1 />
+                </wa-hourly-employee-data>
+                <wa-emp-hire-date>
+                  <wa-emp-hire-yy>91</wa-emp-hire-yy>
+                  <wa-emp-hire-mm>3</wa-emp-hire-mm>
+                  <wa-emp-hire-dd>23</wa-emp-hire-dd>
+                </wa-emp-hire-date>
+                <filler1 />
+              </employee-work-area>
+            </record>
+          </SerializedData>
+        </Resource>
+      </ExternalResources>
+    </ExecutionContext>
+  </Context>
+  <Started>20200921-16-59-21</Started>
+  <Ended>20200921-16-59-44</Ended>
+</XaUnitResult>

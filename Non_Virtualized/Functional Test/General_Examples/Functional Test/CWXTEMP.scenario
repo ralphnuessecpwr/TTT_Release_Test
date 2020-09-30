@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="cwxtemp">
+  <Test>
+    <Component label="CWXTEMP - CWCC" moduleName="CWXTEMP" programExitVerify="value &lt; 8" rollback="false">
+      <Data>
+        <todays-date>191120</todays-date>
+        <rec-pointers>
+          <emp-rec-pointer />
+          <work-rec-pointer />
+        </rec-pointers>
+        <employee-work-area>
+          <wa-emp-num>2523</wa-emp-num>
+          <wa-emp-type>H</wa-emp-type>
+          <wa-emp-region>1</wa-emp-region>
+          <wa-emp-name>JOHN SMITH</wa-emp-name>
+          <wa-emp-address>
+            <wa-emp-street>5456 ELM STREET</wa-emp-street>
+            <wa-emp-city>WAYNE</wa-emp-city>
+            <wa-emp-state>IL</wa-emp-state>
+            <wa-emp-zip>77902</wa-emp-zip>
+          </wa-emp-address>
+          <wa-hourly-employee-data>
+            <wa-emp-hours>38</wa-emp-hours>
+            <wa-emp-rate>28.50</wa-emp-rate>
+            <filler />
+          </wa-hourly-employee-data>
+          <wa-emp-hire-date>
+            <wa-emp-hire-yy>81</wa-emp-hire-yy>
+            <wa-emp-hire-mm>10</wa-emp-hire-mm>
+            <wa-emp-hire-dd>15</wa-emp-hire-dd>
+          </wa-emp-hire-date>
+          <filler />
+        </employee-work-area>
+        <work-area>
+          <overtime-fields>
+            <ot-amount expected="0" />
+            <ot-hours />
+          </overtime-fields>
+          <total-fields>
+            <emp-wages expected="1083" />
+            <emp-compensation expected="1083" />
+            <mgmt-compensation />
+          </total-fields>
+          <grand-total-fields>
+            <grand-total-emp expected="1083" />
+            <grand-total-mgmt expected="0" />
+          </grand-total-fields>
+          <work-switches>
+            <region-error-sw />
+            <end-of-month-sw expected="N" />
+          </work-switches>
+          <yrs-of-service expected="38" />
+          <region-sales-table>
+            <region-data>
+              <region-name />
+              <region-manager />
+              <region-salary expected="0" />
+              <region-sales expected="0" />
+              <region-comment />
+            </region-data>
+            <region-data>
+              <region-name />
+              <region-manager />
+              <region-salary />
+              <region-sales />
+              <region-comment />
+            </region-data>
+            <region-data>
+              <region-name />
+              <region-manager />
+              <region-salary />
+              <region-sales />
+              <region-comment />
+            </region-data>
+            <region-data>
+              <region-name />
+              <region-manager />
+              <region-salary />
+              <region-sales />
+              <region-comment />
+            </region-data>
+          </region-sales-table>
+          <calc-commission-fields>
+            <emp-type />
+            <calc-sales expected="0" />
+            <calc-commission expected="0" />
+          </calc-commission-fields>
+        </work-area>
+      </Data>
+      <Subcomponents calltype="dynamic">
+        <Mockup moduleName="CWXTDATE" path="Stubs/CWXTDATE.xastub" />
+      </Subcomponents>
+    </Component>
+  </Test>
+  <MetaData>
+    <Component name="CWXTEMP" type="COBOL">
+      <INOUT>
+        <todays-date type="Character" length="6" bytes="6" />
+        <rec-pointers>
+          <emp-rec-pointer type="Pointer" length="9" bytes="4" reference="employee-work-area" programAssigned="false" />
+          <work-rec-pointer type="Pointer" length="9" bytes="4" reference="work-area" programAssigned="false" />
+        </rec-pointers>
+        <employee-work-area>
+          <wa-emp-num type="NumericDisplay" length="5" bytes="5" signed="false" decimals="0" />
+          <wa-emp-type type="Character" length="1" bytes="1" />
+          <wa-emp-region type="NumericDisplay" length="1" bytes="1" signed="false" decimals="0" />
+          <wa-emp-name type="Character" length="15" bytes="15" />
+          <wa-emp-address>
+            <wa-emp-street type="Character" length="15" bytes="15" />
+            <wa-emp-city type="Character" length="8" bytes="8" />
+            <wa-emp-state type="Character" length="2" bytes="2" />
+            <wa-emp-zip type="Character" length="9" bytes="9" />
+          </wa-emp-address>
+          <wa-hourly-employee-data>
+            <wa-emp-hours type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0" />
+            <wa-emp-rate type="NumericPacked" length="3" bytes="3" signed="false" decimals="2" />
+            <filler type="Character" length="8" bytes="8" />
+          </wa-hourly-employee-data>
+          <wa-emp-hire-date>
+            <wa-emp-hire-yy type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0" />
+            <wa-emp-hire-mm type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0" />
+            <wa-emp-hire-dd type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0" />
+          </wa-emp-hire-date>
+          <filler type="Character" length="5" bytes="5" />
+        </employee-work-area>
+        <work-area>
+          <overtime-fields>
+            <ot-amount type="NumericPacked" length="5" bytes="4" signed="false" decimals="2" />
+            <ot-hours type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0" />
+          </overtime-fields>
+          <total-fields>
+            <emp-wages type="NumericPacked" length="5" bytes="4" signed="false" decimals="2" />
+            <emp-compensation type="NumericPacked" length="5" bytes="4" signed="false" decimals="2" />
+            <mgmt-compensation type="NumericPacked" length="5" bytes="4" signed="false" decimals="2" />
+          </total-fields>
+          <grand-total-fields>
+            <grand-total-emp type="NumericPacked" length="7" bytes="5" signed="false" decimals="2" />
+            <grand-total-mgmt type="NumericPacked" length="7" bytes="5" signed="false" decimals="2" />
+          </grand-total-fields>
+          <work-switches>
+            <region-error-sw type="Character" length="1" bytes="1" />
+            <end-of-month-sw type="Character" length="1" bytes="1" />
+          </work-switches>
+          <yrs-of-service type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0" />
+          <region-sales-table>
+            <region-data count="4">
+              <region-name type="Character" length="5" bytes="5" />
+              <region-manager type="Character" length="15" bytes="15" />
+              <region-salary type="NumericDisplay" length="4" bytes="6" signed="false" decimals="2" />
+              <region-sales type="NumericDisplay" length="6" bytes="8" signed="false" decimals="2" />
+              <region-comment type="Character" length="5" bytes="5" />
+            </region-data>
+          </region-sales-table>
+          <calc-commission-fields>
+            <emp-type type="Character" length="1" bytes="1" />
+            <calc-sales type="NumericDisplay" length="6" bytes="8" signed="false" decimals="2" />
+            <calc-commission type="NumericPacked" length="5" bytes="4" signed="false" decimals="2" />
+          </calc-commission-fields>
+        </work-area>
+      </INOUT>
+    </Component>
+  </MetaData>
+</XaUnit>

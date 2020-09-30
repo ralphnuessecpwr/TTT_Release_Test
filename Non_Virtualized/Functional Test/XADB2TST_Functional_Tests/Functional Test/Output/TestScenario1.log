@@ -1,0 +1,30 @@
+17:21:33.379 COMMENT   Engine           Test Scenario execution started
+17:21:33.379 INFO      Engine           Using context settings:
+  Engine Version       : 20.3
+  Environment id                : 5f64570731d7ab4e8cb59b98
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwcc.compuware.com
+  Server port                   : 16196
+  Job execution timeout seconds : 300
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+  Use Repository Server         : true
+17:21:33.380 INFO      Engine           Setting variables from context and context data extensions
+17:21:33.380 INFO      Engine             id: environmentId      value: 5f64570731d7ab4e8cb59b98
+17:21:33.380 INFO      Engine             id: environmentType    value: BATCH
+17:21:33.380 INFO      Engine             id: userId             value: HDDRXM0
+17:21:33.380 INFO      Engine             id: accountingInfo     value: 
+17:21:33.381 INFO      SQLSelect        Interpreting SQLSelect id:id statement: SELECT MAX(RIDENT) FROM HDDRXM0.XAEMPLOYEE
+17:21:33.381 INFO      SQLSelect        Using database from ExecutionContext:DSCCCWCC
+17:21:33.381 LOG       SQLSelect        Establishing connection to database DSCCCWCC
+17:21:39.556 ERROR     SQLSelect        Unable to get a database connection. [jcc][t4][2057][11264][3.68.61] The application server rejected establishment of the connection.
+An attempt was made to access a database, DSCCCWCC, which was either not found or does not support transactions. ERRORCODE=-4499, SQLSTATE=08004
+17:21:39.557 ERROR     Engine           Unable to get a database connection. [jcc][t4][2057][11264][3.68.61] The application server rejected establishment of the connection.
+An attempt was made to access a database, DSCCCWCC, which was either not found or does not support transactions. ERRORCODE=-4499, SQLSTATE=08004
+17:21:39.557 ERROR     Engine           An error occurred. Now stopping the execution.
+17:21:39.557 COMMENT   Engine           Test Scenario execution ended

@@ -1,0 +1,1642 @@
+12:44:56.497 COMMENT   Engine           Test Scenario execution started
+12:44:56.497 INFO      Engine           Using context settings:
+  Engine Version       : 20.3
+  Environment id                : 5cee98c2d3142c1f90a4976d
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwcc.compuware.com
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+  Use Repository Server         : true
+12:44:56.497 INFO      Engine           Setting variables from context and context data extensions
+12:44:56.497 INFO      Engine             id: environmentId      value: 5cee98c2d3142c1f90a4976d
+12:44:56.497 INFO      Engine             id: environmentType    value: BATCH
+12:44:56.497 INFO      Engine             id: userId             value: HDDRXM0
+12:44:56.498 INFO      Engine             id: accountingInfo     value: 
+12:44:56.499 INFO      Variable         Interpreting Variable id:data dataFile:../Data/CWXTSUBC Test Cases.xlsx
+12:44:56.509 LOG       Variable         Resolved data items from file ../Data/CWXTSUBC Test Cases.xlsx
+<testcase>
+  <emptype_input>M</emptype_input>
+  <salesamount_input>0</salesamount_input>
+  <factor>0</factor>
+  <commtotal>0</commtotal>
+  <commtotal_expected>0</commtotal_expected>
+</testcase>
+<testcase>
+  <emptype_input>M</emptype_input>
+  <salesamount_input>1</salesamount_input>
+  <factor>0.02</factor>
+  <commtotal>0.02</commtotal>
+  <commtotal_expected>0.02</commtotal_expected>
+</testcase>
+<testcase>
+  <emptype_input>M</emptype_input>
+  <salesamount_input>75000</salesamount_input>
+  <factor>0.02</factor>
+  <commtotal>1500</commtotal>
+  <commtotal_expected>1500</commtotal_expected>
+</testcase>
+<testcase>
+  <emptype_input>M</emptype_input>
+  <salesamount_input>100000</salesamount_input>
+  <factor>0.02</factor>
+  <commtotal>2000</commtotal>
+  <commtotal_expected>2000</commtotal_expected>
+</testcase>
+<testcase>
+  <emptype_input>M</emptype_input>
+  <salesamount_input>100001</salesamount_input>
+  <factor>0.025</factor>
+  <commtotal>2500.025</commtotal>
+  <commtotal_expected>2500.03</commtotal_expected>
+</testcase>
+<testcase>
+  <emptype_input>M</emptype_input>
+  <salesamount_input>150000</salesamount_input>
+  <factor>0.025</factor>
+  <commtotal>3750</commtotal>
+  <commtotal_expected>3750</commtotal_expected>
+</testcase>
+<testcase>
+  <emptype_input>M</emptype_input>
+  <salesamount_input>200000</salesamount_input>
+  <factor>0.025</factor>
+  <commtotal>5000</commtotal>
+  <commtotal_expected>5000</commtotal_expected>
+</testcase>
+<testcase>
+  <emptype_input>M</emptype_input>
+  <salesamount_input>200001</salesamount_input>
+  <factor>0.03</factor>
+  <commtotal>6000.03</commtotal>
+  <commtotal_expected>6000.03</commtotal_expected>
+</testcase>
+<testcase>
+  <emptype_input>M</emptype_input>
+  <salesamount_input>250000</salesamount_input>
+  <factor>0.03</factor>
+  <commtotal>7500</commtotal>
+  <commtotal_expected>7500</commtotal_expected>
+</testcase>
+<testcase>
+  <emptype_input>M</emptype_input>
+  <salesamount_input>300000</salesamount_input>
+  <factor>0.03</factor>
+  <commtotal>9000</commtotal>
+  <commtotal_expected>9000</commtotal_expected>
+</testcase>
+<testcase>
+  <emptype_input>M</emptype_input>
+  <salesamount_input>300001</salesamount_input>
+  <factor>0.035</factor>
+  <commtotal>10500.035000000002</commtotal>
+  <commtotal_expected>10500.04</commtotal_expected>
+</testcase>
+<testcase>
+  <emptype_input>M</emptype_input>
+  <salesamount_input>350000</salesamount_input>
+  <factor>0.035</factor>
+  <commtotal>12250.000000000002</commtotal>
+  <commtotal_expected>12250</commtotal_expected>
+</testcase>
+<testcase>
+  <emptype_input>M</emptype_input>
+  <salesamount_input>400000</salesamount_input>
+  <factor>0.035</factor>
+  <commtotal>14000.000000000002</commtotal>
+  <commtotal_expected>14000</commtotal_expected>
+</testcase>
+<testcase>
+  <emptype_input>M</emptype_input>
+  <salesamount_input>400001</salesamount_input>
+  <factor>0.04</factor>
+  <commtotal>16000.04</commtotal>
+  <commtotal_expected>16000.04</commtotal_expected>
+</testcase>
+<testcase>
+  <emptype_input>M</emptype_input>
+  <salesamount_input>450000</salesamount_input>
+  <factor>0.04</factor>
+  <commtotal>18000</commtotal>
+  <commtotal_expected>18000</commtotal_expected>
+</testcase>
+<testcase>
+  <emptype_input>M</emptype_input>
+  <salesamount_input>500000</salesamount_input>
+  <factor>0.04</factor>
+  <commtotal>20000</commtotal>
+  <commtotal_expected>20000</commtotal_expected>
+</testcase>
+<testcase>
+  <emptype_input>S</emptype_input>
+  <salesamount_input>0</salesamount_input>
+  <factor>0</factor>
+  <commtotal>0</commtotal>
+  <commtotal_expected>0</commtotal_expected>
+</testcase>
+<testcase>
+  <emptype_input>S</emptype_input>
+  <salesamount_input>1</salesamount_input>
+  <factor>0.02</factor>
+  <commtotal>0.02</commtotal>
+  <commtotal_expected>0.02</commtotal_expected>
+</testcase>
+<testcase>
+  <emptype_input>S</emptype_input>
+  <salesamount_input>15000</salesamount_input>
+  <factor>0.02</factor>
+  <commtotal>300</commtotal>
+  <commtotal_expected>300</commtotal_expected>
+</testcase>
+<testcase>
+  <emptype_input>S</emptype_input>
+  <salesamount_input>20000</salesamount_input>
+  <factor>0.02</factor>
+  <commtotal>400</commtotal>
+  <commtotal_expected>400</commtotal_expected>
+</testcase>
+<testcase>
+  <emptype_input>S</emptype_input>
+  <salesamount_input>20001</salesamount_input>
+  <factor>0.04</factor>
+  <commtotal>800.04</commtotal>
+  <commtotal_expected>800.04</commtotal_expected>
+</testcase>
+<testcase>
+  <emptype_input>S</emptype_input>
+  <salesamount_input>25000</salesamount_input>
+  <factor>0.04</factor>
+  <commtotal>1000</commtotal>
+  <commtotal_expected>1000</commtotal_expected>
+</testcase>
+<testcase>
+  <emptype_input>S</emptype_input>
+  <salesamount_input>40000</salesamount_input>
+  <factor>0.04</factor>
+  <commtotal>1600</commtotal>
+  <commtotal_expected>1600</commtotal_expected>
+</testcase>
+<testcase>
+  <emptype_input>S</emptype_input>
+  <salesamount_input>40001</salesamount_input>
+  <factor>0.06</factor>
+  <commtotal>2400.06</commtotal>
+  <commtotal_expected>2400.06</commtotal_expected>
+</testcase>
+<testcase>
+  <emptype_input>S</emptype_input>
+  <salesamount_input>55000</salesamount_input>
+  <factor>0.06</factor>
+  <commtotal>3300</commtotal>
+  <commtotal_expected>3300</commtotal_expected>
+</testcase>
+<testcase>
+  <emptype_input>S</emptype_input>
+  <salesamount_input>60000</salesamount_input>
+  <factor>0.06</factor>
+  <commtotal>3600</commtotal>
+  <commtotal_expected>3600</commtotal_expected>
+</testcase>
+<testcase>
+  <emptype_input>S</emptype_input>
+  <salesamount_input>60001</salesamount_input>
+  <factor>0.08</factor>
+  <commtotal>4800.08</commtotal>
+  <commtotal_expected>4800.08</commtotal_expected>
+</testcase>
+<testcase>
+  <emptype_input>S</emptype_input>
+  <salesamount_input>75000</salesamount_input>
+  <factor>0.08</factor>
+  <commtotal>6000</commtotal>
+  <commtotal_expected>6000</commtotal_expected>
+</testcase>
+<testcase>
+  <emptype_input>S</emptype_input>
+  <salesamount_input>80000</salesamount_input>
+  <factor>0.08</factor>
+  <commtotal>6400</commtotal>
+  <commtotal_expected>6400</commtotal_expected>
+</testcase>
+<testcase>
+  <emptype_input>S</emptype_input>
+  <salesamount_input>80001</salesamount_input>
+  <factor>0.1</factor>
+  <commtotal>8000.1</commtotal>
+  <commtotal_expected>8000.1</commtotal_expected>
+</testcase>
+<testcase>
+  <emptype_input>S</emptype_input>
+  <salesamount_input>85000</salesamount_input>
+  <factor>0.1</factor>
+  <commtotal>8500</commtotal>
+  <commtotal_expected>8500</commtotal_expected>
+</testcase>
+<testcase>
+  <emptype_input>S</emptype_input>
+  <salesamount_input>100000</salesamount_input>
+  <factor>0.1</factor>
+  <commtotal>10000</commtotal>
+  <commtotal_expected>10000</commtotal_expected>
+</testcase>
+12:44:56.509 INFO      IterateData      Interpreting IterateData id: iterate. Number of data iterations: 32. Variable iterateIndex contains iteration number
+12:44:56.509 INFO      IterateData      Iteration number 0 started.
+12:44:56.510 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emptype_input>M</emptype_input>
+  <salesamount_input>0</salesamount_input>
+  <factor>0</factor>
+  <commtotal>0</commtotal>
+  <commtotal_expected>0</commtotal_expected>
+</testcase>
+12:44:56.510 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+12:44:57.567 LOG       Component        Created MBF record for XATZCDLL as main program. JOB: HDDRXM0E STEP XATEST
+12:44:57.570 LOG       CWCC Batch       Component Runtime Settings:
+12:44:57.570 LOG       CWCC Batch         Load libraries :HDDRXM0.DEMO.LOAD.PDSE
+12:44:57.571 LOG       CWCC Batch         Optional main Load library:
+12:44:57.571 LOG       CWCC Batch         Listing libraries         :
+12:44:57.571 LOG       CWCC Batch         SysDebug libraries        :
+12:44:57.571 LOG       CWCC Batch         DB2 Subsystem ID          :
+12:44:57.572 LOG       CWCC Batch         DB2 plan                  :
+12:44:57.572 LOG       CWCC Batch         Call interface            :NONE
+12:44:57.572 LOG       CWCC Batch         Debugger type             :CCEXPEDITER
+12:44:57.572 LOG       CWCC Batch         Component type            :COBOL
+12:44:57.573 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+12:44:57.756 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/bd59461121a848f3b8d5703246e8d94d
+12:44:58.067 LOG       CWCC Batch       Uploading input data for module CWXTSUBC
+12:44:59.103 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>bd59461121a848f3b8d5703246e8d94d</jobdirectory><amode24>false</amode24><members><membername>CWXTSUBC</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:44:59.328 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927649</jobid><jobname>HDDRXM0E</jobname><starttime>20200928064459297</starttime></xatz_response></XATZRESP>
+12:44:59.329 LOG       HCIClient        Response received from Host. Message: JobId:J0927649
+12:44:59.329 INFO      HCIClient        Job has been started at host with JobId:J0927649
+12:45:05.214 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0927649) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0927649
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:45:05.507 INFO      CWCC Batch       Component completed with program exit: +0
+12:45:05.654 LOG       CWCC Batch       Setting execution variable 'jobid' to J0927649
+12:45:05.654 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:45:05.654 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+12:45:05.802 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:45:05.812 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:45:05.813 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+12:45:05.813 INFO      IterateData      Iteration number 1 started.
+12:45:05.813 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emptype_input>M</emptype_input>
+  <salesamount_input>1</salesamount_input>
+  <factor>0.02</factor>
+  <commtotal>0.02</commtotal>
+  <commtotal_expected>0.02</commtotal_expected>
+</testcase>
+12:45:05.813 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+12:45:06.727 LOG       Component        Created MBF record for XATZCDLL as main program. JOB: HDDRXM0E STEP XATEST
+12:45:06.727 LOG       CWCC Batch       Component Runtime Settings:
+12:45:06.727 LOG       CWCC Batch         Load libraries :HDDRXM0.DEMO.LOAD.PDSE
+12:45:06.727 LOG       CWCC Batch         Optional main Load library:
+12:45:06.727 LOG       CWCC Batch         Listing libraries         :
+12:45:06.728 LOG       CWCC Batch         SysDebug libraries        :
+12:45:06.728 LOG       CWCC Batch         DB2 Subsystem ID          :
+12:45:06.728 LOG       CWCC Batch         DB2 plan                  :
+12:45:06.728 LOG       CWCC Batch         Call interface            :NONE
+12:45:06.728 LOG       CWCC Batch         Debugger type             :CCEXPEDITER
+12:45:06.728 LOG       CWCC Batch         Component type            :COBOL
+12:45:06.728 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+12:45:06.875 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/b31b1b6aa9ea4239b1b81c336d4ffb38
+12:45:07.165 LOG       CWCC Batch       Uploading input data for module CWXTSUBC
+12:45:08.198 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>b31b1b6aa9ea4239b1b81c336d4ffb38</jobdirectory><amode24>false</amode24><members><membername>CWXTSUBC</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:45:08.423 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927651</jobid><jobname>HDDRXM0E</jobname><starttime>20200928064508392</starttime></xatz_response></XATZRESP>
+12:45:08.423 LOG       HCIClient        Response received from Host. Message: JobId:J0927651
+12:45:08.424 INFO      HCIClient        Job has been started at host with JobId:J0927651
+12:45:14.305 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0927651) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0927651
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:45:14.602 INFO      CWCC Batch       Component completed with program exit: +0
+12:45:14.748 LOG       CWCC Batch       Setting execution variable 'jobid' to J0927651
+12:45:14.749 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:45:14.749 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+12:45:14.896 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:45:14.899 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:45:14.900 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+12:45:14.900 INFO      IterateData      Iteration number 2 started.
+12:45:14.900 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emptype_input>M</emptype_input>
+  <salesamount_input>75000</salesamount_input>
+  <factor>0.02</factor>
+  <commtotal>1500</commtotal>
+  <commtotal_expected>1500</commtotal_expected>
+</testcase>
+12:45:14.900 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+12:45:15.814 LOG       Component        Created MBF record for XATZCDLL as main program. JOB: HDDRXM0E STEP XATEST
+12:45:15.814 LOG       CWCC Batch       Component Runtime Settings:
+12:45:15.815 LOG       CWCC Batch         Load libraries :HDDRXM0.DEMO.LOAD.PDSE
+12:45:15.815 LOG       CWCC Batch         Optional main Load library:
+12:45:15.815 LOG       CWCC Batch         Listing libraries         :
+12:45:15.815 LOG       CWCC Batch         SysDebug libraries        :
+12:45:15.815 LOG       CWCC Batch         DB2 Subsystem ID          :
+12:45:15.815 LOG       CWCC Batch         DB2 plan                  :
+12:45:15.815 LOG       CWCC Batch         Call interface            :NONE
+12:45:15.815 LOG       CWCC Batch         Debugger type             :CCEXPEDITER
+12:45:15.815 LOG       CWCC Batch         Component type            :COBOL
+12:45:15.815 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+12:45:15.963 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/a3fb87f48cec4dbf873fc614af9eb33d
+12:45:16.260 LOG       CWCC Batch       Uploading input data for module CWXTSUBC
+12:45:17.300 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>a3fb87f48cec4dbf873fc614af9eb33d</jobdirectory><amode24>false</amode24><members><membername>CWXTSUBC</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:45:17.524 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927652</jobid><jobname>HDDRXM0E</jobname><starttime>20200928064517493</starttime></xatz_response></XATZRESP>
+12:45:17.525 LOG       HCIClient        Response received from Host. Message: JobId:J0927652
+12:45:17.525 INFO      HCIClient        Job has been started at host with JobId:J0927652
+12:45:23.404 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0927652) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0927652
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:45:23.697 INFO      CWCC Batch       Component completed with program exit: +0
+12:45:23.848 LOG       CWCC Batch       Setting execution variable 'jobid' to J0927652
+12:45:23.849 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:45:23.850 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+12:45:23.998 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:45:24.003 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:45:24.004 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+12:45:24.004 INFO      IterateData      Iteration number 3 started.
+12:45:24.004 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emptype_input>M</emptype_input>
+  <salesamount_input>100000</salesamount_input>
+  <factor>0.02</factor>
+  <commtotal>2000</commtotal>
+  <commtotal_expected>2000</commtotal_expected>
+</testcase>
+12:45:24.004 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+12:45:24.934 LOG       Component        Created MBF record for XATZCDLL as main program. JOB: HDDRXM0E STEP XATEST
+12:45:24.934 LOG       CWCC Batch       Component Runtime Settings:
+12:45:24.934 LOG       CWCC Batch         Load libraries :HDDRXM0.DEMO.LOAD.PDSE
+12:45:24.934 LOG       CWCC Batch         Optional main Load library:
+12:45:24.934 LOG       CWCC Batch         Listing libraries         :
+12:45:24.934 LOG       CWCC Batch         SysDebug libraries        :
+12:45:24.934 LOG       CWCC Batch         DB2 Subsystem ID          :
+12:45:24.934 LOG       CWCC Batch         DB2 plan                  :
+12:45:24.935 LOG       CWCC Batch         Call interface            :NONE
+12:45:24.935 LOG       CWCC Batch         Debugger type             :CCEXPEDITER
+12:45:24.935 LOG       CWCC Batch         Component type            :COBOL
+12:45:24.935 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+12:45:25.082 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/363f5dea656c46979f3a5b172d164238
+12:45:25.371 LOG       CWCC Batch       Uploading input data for module CWXTSUBC
+12:45:26.406 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>363f5dea656c46979f3a5b172d164238</jobdirectory><amode24>false</amode24><members><membername>CWXTSUBC</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:45:27.132 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927653</jobid><jobname>HDDRXM0E</jobname><starttime>20200928064526599</starttime></xatz_response></XATZRESP>
+12:45:27.133 LOG       HCIClient        Response received from Host. Message: JobId:J0927653
+12:45:27.133 INFO      HCIClient        Job has been started at host with JobId:J0927653
+12:45:33.044 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0927653) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0927653
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:45:33.337 INFO      CWCC Batch       Component completed with program exit: +0
+12:45:33.549 LOG       CWCC Batch       Setting execution variable 'jobid' to J0927653
+12:45:33.549 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:45:33.549 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+12:45:33.701 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:45:33.706 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:45:33.706 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+12:45:33.706 INFO      IterateData      Iteration number 4 started.
+12:45:33.706 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emptype_input>M</emptype_input>
+  <salesamount_input>100001</salesamount_input>
+  <factor>0.025</factor>
+  <commtotal>2500.025</commtotal>
+  <commtotal_expected>2500.03</commtotal_expected>
+</testcase>
+12:45:33.706 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+12:45:34.634 LOG       Component        Created MBF record for XATZCDLL as main program. JOB: HDDRXM0E STEP XATEST
+12:45:34.634 LOG       CWCC Batch       Component Runtime Settings:
+12:45:34.634 LOG       CWCC Batch         Load libraries :HDDRXM0.DEMO.LOAD.PDSE
+12:45:34.634 LOG       CWCC Batch         Optional main Load library:
+12:45:34.635 LOG       CWCC Batch         Listing libraries         :
+12:45:34.635 LOG       CWCC Batch         SysDebug libraries        :
+12:45:34.635 LOG       CWCC Batch         DB2 Subsystem ID          :
+12:45:34.635 LOG       CWCC Batch         DB2 plan                  :
+12:45:34.635 LOG       CWCC Batch         Call interface            :NONE
+12:45:34.635 LOG       CWCC Batch         Debugger type             :CCEXPEDITER
+12:45:34.635 LOG       CWCC Batch         Component type            :COBOL
+12:45:34.635 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+12:45:34.784 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/8f4862d0cb5c4236aa3d9f7b405166e4
+12:45:35.075 LOG       CWCC Batch       Uploading input data for module CWXTSUBC
+12:45:36.113 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>8f4862d0cb5c4236aa3d9f7b405166e4</jobdirectory><amode24>false</amode24><members><membername>CWXTSUBC</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:45:36.338 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927654</jobid><jobname>HDDRXM0E</jobname><starttime>20200928064536306</starttime></xatz_response></XATZRESP>
+12:45:36.339 LOG       HCIClient        Response received from Host. Message: JobId:J0927654
+12:45:36.339 INFO      HCIClient        Job has been started at host with JobId:J0927654
+12:45:42.218 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0927654) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0927654
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:45:42.512 INFO      CWCC Batch       Component completed with program exit: +0
+12:45:42.660 LOG       CWCC Batch       Setting execution variable 'jobid' to J0927654
+12:45:42.661 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:45:42.661 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+12:45:42.810 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:45:42.818 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:45:42.818 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+12:45:42.819 VERIFY    ExpectedData     VerificationResult : DataItem: /comm-total. Actual value is different from expected. Actual value: 2500.02 Expected: 2500.03. Actual value:2500.02. Expected value:2500.03
+12:45:42.819 VERIFY    Engine           Component name:CWXTSUBC contains data that where not verified correctly
+12:45:42.819 INFO      IterateData      Iteration number 5 started.
+12:45:42.819 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emptype_input>M</emptype_input>
+  <salesamount_input>150000</salesamount_input>
+  <factor>0.025</factor>
+  <commtotal>3750</commtotal>
+  <commtotal_expected>3750</commtotal_expected>
+</testcase>
+12:45:42.819 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+12:45:43.752 LOG       Component        Created MBF record for XATZCDLL as main program. JOB: HDDRXM0E STEP XATEST
+12:45:43.752 LOG       CWCC Batch       Component Runtime Settings:
+12:45:43.752 LOG       CWCC Batch         Load libraries :HDDRXM0.DEMO.LOAD.PDSE
+12:45:43.752 LOG       CWCC Batch         Optional main Load library:
+12:45:43.752 LOG       CWCC Batch         Listing libraries         :
+12:45:43.752 LOG       CWCC Batch         SysDebug libraries        :
+12:45:43.752 LOG       CWCC Batch         DB2 Subsystem ID          :
+12:45:43.752 LOG       CWCC Batch         DB2 plan                  :
+12:45:43.753 LOG       CWCC Batch         Call interface            :NONE
+12:45:43.753 LOG       CWCC Batch         Debugger type             :CCEXPEDITER
+12:45:43.753 LOG       CWCC Batch         Component type            :COBOL
+12:45:43.753 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+12:45:43.900 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/c3ab70d037d140388ac1a5e30cbc6be0
+12:45:44.191 LOG       CWCC Batch       Uploading input data for module CWXTSUBC
+12:45:45.226 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>c3ab70d037d140388ac1a5e30cbc6be0</jobdirectory><amode24>false</amode24><members><membername>CWXTSUBC</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:45:45.449 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927655</jobid><jobname>HDDRXM0E</jobname><starttime>20200928064545418</starttime></xatz_response></XATZRESP>
+12:45:45.450 LOG       HCIClient        Response received from Host. Message: JobId:J0927655
+12:45:45.451 INFO      HCIClient        Job has been started at host with JobId:J0927655
+12:45:51.336 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0927655) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0927655
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:45:51.629 INFO      CWCC Batch       Component completed with program exit: +0
+12:45:51.777 LOG       CWCC Batch       Setting execution variable 'jobid' to J0927655
+12:45:51.778 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:45:51.778 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+12:45:51.926 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:45:51.936 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:45:51.936 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+12:45:51.937 INFO      IterateData      Iteration number 6 started.
+12:45:51.937 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emptype_input>M</emptype_input>
+  <salesamount_input>200000</salesamount_input>
+  <factor>0.025</factor>
+  <commtotal>5000</commtotal>
+  <commtotal_expected>5000</commtotal_expected>
+</testcase>
+12:45:51.937 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+12:45:52.867 LOG       Component        Created MBF record for XATZCDLL as main program. JOB: HDDRXM0E STEP XATEST
+12:45:52.868 LOG       CWCC Batch       Component Runtime Settings:
+12:45:52.869 LOG       CWCC Batch         Load libraries :HDDRXM0.DEMO.LOAD.PDSE
+12:45:52.869 LOG       CWCC Batch         Optional main Load library:
+12:45:52.869 LOG       CWCC Batch         Listing libraries         :
+12:45:52.869 LOG       CWCC Batch         SysDebug libraries        :
+12:45:52.870 LOG       CWCC Batch         DB2 Subsystem ID          :
+12:45:52.924 LOG       CWCC Batch         DB2 plan                  :
+12:45:52.925 LOG       CWCC Batch         Call interface            :NONE
+12:45:52.925 LOG       CWCC Batch         Debugger type             :CCEXPEDITER
+12:45:52.925 LOG       CWCC Batch         Component type            :COBOL
+12:45:52.925 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+12:45:53.073 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/3259852e6ea04f7cbc291817fd91657b
+12:45:53.364 LOG       CWCC Batch       Uploading input data for module CWXTSUBC
+12:45:54.402 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>3259852e6ea04f7cbc291817fd91657b</jobdirectory><amode24>false</amode24><members><membername>CWXTSUBC</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:45:54.624 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927656</jobid><jobname>HDDRXM0E</jobname><starttime>20200928064554593</starttime></xatz_response></XATZRESP>
+12:45:54.624 LOG       HCIClient        Response received from Host. Message: JobId:J0927656
+12:45:54.624 INFO      HCIClient        Job has been started at host with JobId:J0927656
+12:46:00.506 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0927656) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0927656
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:46:00.800 INFO      CWCC Batch       Component completed with program exit: +0
+12:46:00.948 LOG       CWCC Batch       Setting execution variable 'jobid' to J0927656
+12:46:00.948 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:46:00.949 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+12:46:01.097 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:46:01.101 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:46:01.101 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+12:46:01.101 INFO      IterateData      Iteration number 7 started.
+12:46:01.101 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emptype_input>M</emptype_input>
+  <salesamount_input>200001</salesamount_input>
+  <factor>0.03</factor>
+  <commtotal>6000.03</commtotal>
+  <commtotal_expected>6000.03</commtotal_expected>
+</testcase>
+12:46:01.102 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+12:46:02.044 LOG       Component        Created MBF record for XATZCDLL as main program. JOB: HDDRXM0E STEP XATEST
+12:46:02.045 LOG       CWCC Batch       Component Runtime Settings:
+12:46:02.045 LOG       CWCC Batch         Load libraries :HDDRXM0.DEMO.LOAD.PDSE
+12:46:02.045 LOG       CWCC Batch         Optional main Load library:
+12:46:02.045 LOG       CWCC Batch         Listing libraries         :
+12:46:02.045 LOG       CWCC Batch         SysDebug libraries        :
+12:46:02.045 LOG       CWCC Batch         DB2 Subsystem ID          :
+12:46:02.045 LOG       CWCC Batch         DB2 plan                  :
+12:46:02.045 LOG       CWCC Batch         Call interface            :NONE
+12:46:02.045 LOG       CWCC Batch         Debugger type             :CCEXPEDITER
+12:46:02.046 LOG       CWCC Batch         Component type            :COBOL
+12:46:02.046 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+12:46:02.192 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/e69895a0bf7c46eb8525e6633f38d0f8
+12:46:02.483 LOG       CWCC Batch       Uploading input data for module CWXTSUBC
+12:46:03.521 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>e69895a0bf7c46eb8525e6633f38d0f8</jobdirectory><amode24>false</amode24><members><membername>CWXTSUBC</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:46:03.747 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927657</jobid><jobname>HDDRXM0E</jobname><starttime>20200928064603715</starttime></xatz_response></XATZRESP>
+12:46:03.748 LOG       HCIClient        Response received from Host. Message: JobId:J0927657
+12:46:03.748 INFO      HCIClient        Job has been started at host with JobId:J0927657
+12:46:09.629 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0927657) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0927657
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:46:09.924 INFO      CWCC Batch       Component completed with program exit: +0
+12:46:10.070 LOG       CWCC Batch       Setting execution variable 'jobid' to J0927657
+12:46:10.071 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:46:10.071 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+12:46:10.219 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:46:10.223 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:46:10.223 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+12:46:10.223 INFO      IterateData      Iteration number 8 started.
+12:46:10.223 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emptype_input>M</emptype_input>
+  <salesamount_input>250000</salesamount_input>
+  <factor>0.03</factor>
+  <commtotal>7500</commtotal>
+  <commtotal_expected>7500</commtotal_expected>
+</testcase>
+12:46:10.223 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+12:46:11.142 LOG       Component        Created MBF record for XATZCDLL as main program. JOB: HDDRXM0E STEP XATEST
+12:46:11.143 LOG       CWCC Batch       Component Runtime Settings:
+12:46:11.143 LOG       CWCC Batch         Load libraries :HDDRXM0.DEMO.LOAD.PDSE
+12:46:11.143 LOG       CWCC Batch         Optional main Load library:
+12:46:11.143 LOG       CWCC Batch         Listing libraries         :
+12:46:11.143 LOG       CWCC Batch         SysDebug libraries        :
+12:46:11.144 LOG       CWCC Batch         DB2 Subsystem ID          :
+12:46:11.144 LOG       CWCC Batch         DB2 plan                  :
+12:46:11.144 LOG       CWCC Batch         Call interface            :NONE
+12:46:11.144 LOG       CWCC Batch         Debugger type             :CCEXPEDITER
+12:46:11.144 LOG       CWCC Batch         Component type            :COBOL
+12:46:11.144 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+12:46:11.293 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/e1845014f58c4e0b83b884b654d35508
+12:46:11.588 LOG       CWCC Batch       Uploading input data for module CWXTSUBC
+12:46:12.625 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>e1845014f58c4e0b83b884b654d35508</jobdirectory><amode24>false</amode24><members><membername>CWXTSUBC</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:46:12.855 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927658</jobid><jobname>HDDRXM0E</jobname><starttime>20200928064612824</starttime></xatz_response></XATZRESP>
+12:46:12.855 LOG       HCIClient        Response received from Host. Message: JobId:J0927658
+12:46:12.855 INFO      HCIClient        Job has been started at host with JobId:J0927658
+12:46:18.742 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0927658) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0927658
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:46:19.036 INFO      CWCC Batch       Component completed with program exit: +0
+12:46:19.182 LOG       CWCC Batch       Setting execution variable 'jobid' to J0927658
+12:46:19.182 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:46:19.182 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+12:46:19.330 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:46:19.334 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:46:19.334 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+12:46:19.334 INFO      IterateData      Iteration number 9 started.
+12:46:19.334 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emptype_input>M</emptype_input>
+  <salesamount_input>300000</salesamount_input>
+  <factor>0.03</factor>
+  <commtotal>9000</commtotal>
+  <commtotal_expected>9000</commtotal_expected>
+</testcase>
+12:46:19.335 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+12:46:20.255 LOG       Component        Created MBF record for XATZCDLL as main program. JOB: HDDRXM0E STEP XATEST
+12:46:20.255 LOG       CWCC Batch       Component Runtime Settings:
+12:46:20.255 LOG       CWCC Batch         Load libraries :HDDRXM0.DEMO.LOAD.PDSE
+12:46:20.255 LOG       CWCC Batch         Optional main Load library:
+12:46:20.255 LOG       CWCC Batch         Listing libraries         :
+12:46:20.255 LOG       CWCC Batch         SysDebug libraries        :
+12:46:20.255 LOG       CWCC Batch         DB2 Subsystem ID          :
+12:46:20.255 LOG       CWCC Batch         DB2 plan                  :
+12:46:20.256 LOG       CWCC Batch         Call interface            :NONE
+12:46:20.256 LOG       CWCC Batch         Debugger type             :CCEXPEDITER
+12:46:20.256 LOG       CWCC Batch         Component type            :COBOL
+12:46:20.256 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+12:46:20.401 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/5c23bebd2f3548e1b1c2979b96e6e4dc
+12:46:20.692 LOG       CWCC Batch       Uploading input data for module CWXTSUBC
+12:46:21.736 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>5c23bebd2f3548e1b1c2979b96e6e4dc</jobdirectory><amode24>false</amode24><members><membername>CWXTSUBC</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:46:21.958 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927659</jobid><jobname>HDDRXM0E</jobname><starttime>20200928064621927</starttime></xatz_response></XATZRESP>
+12:46:21.959 LOG       HCIClient        Response received from Host. Message: JobId:J0927659
+12:46:21.959 INFO      HCIClient        Job has been started at host with JobId:J0927659
+12:46:28.356 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0927659) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0927659
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:46:28.650 INFO      CWCC Batch       Component completed with program exit: +0
+12:46:28.797 LOG       CWCC Batch       Setting execution variable 'jobid' to J0927659
+12:46:28.797 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:46:28.798 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+12:46:28.948 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:46:28.961 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:46:28.961 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+12:46:28.962 INFO      IterateData      Iteration number 10 started.
+12:46:28.962 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emptype_input>M</emptype_input>
+  <salesamount_input>300001</salesamount_input>
+  <factor>0.035</factor>
+  <commtotal>10500.035000000002</commtotal>
+  <commtotal_expected>10500.04</commtotal_expected>
+</testcase>
+12:46:28.962 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+12:46:29.874 LOG       Component        Created MBF record for XATZCDLL as main program. JOB: HDDRXM0E STEP XATEST
+12:46:29.875 LOG       CWCC Batch       Component Runtime Settings:
+12:46:29.875 LOG       CWCC Batch         Load libraries :HDDRXM0.DEMO.LOAD.PDSE
+12:46:29.875 LOG       CWCC Batch         Optional main Load library:
+12:46:29.875 LOG       CWCC Batch         Listing libraries         :
+12:46:29.875 LOG       CWCC Batch         SysDebug libraries        :
+12:46:29.875 LOG       CWCC Batch         DB2 Subsystem ID          :
+12:46:29.875 LOG       CWCC Batch         DB2 plan                  :
+12:46:29.875 LOG       CWCC Batch         Call interface            :NONE
+12:46:29.875 LOG       CWCC Batch         Debugger type             :CCEXPEDITER
+12:46:29.875 LOG       CWCC Batch         Component type            :COBOL
+12:46:29.875 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+12:46:30.023 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/d70dc9d8721c414480aad6be4ffa14b2
+12:46:30.314 LOG       CWCC Batch       Uploading input data for module CWXTSUBC
+12:46:31.356 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>d70dc9d8721c414480aad6be4ffa14b2</jobdirectory><amode24>false</amode24><members><membername>CWXTSUBC</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:46:31.646 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927660</jobid><jobname>HDDRXM0E</jobname><starttime>20200928064631615</starttime></xatz_response></XATZRESP>
+12:46:31.646 LOG       HCIClient        Response received from Host. Message: JobId:J0927660
+12:46:31.646 INFO      HCIClient        Job has been started at host with JobId:J0927660
+12:46:37.522 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0927660) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0927660
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:46:37.815 INFO      CWCC Batch       Component completed with program exit: +0
+12:46:37.961 LOG       CWCC Batch       Setting execution variable 'jobid' to J0927660
+12:46:37.962 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:46:37.962 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+12:46:38.109 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:46:38.113 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:46:38.113 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+12:46:38.113 VERIFY    ExpectedData     VerificationResult : DataItem: /comm-total. Actual value is different from expected. Actual value: 10500.03 Expected: 10500.04. Actual value:10500.03. Expected value:10500.04
+12:46:38.113 VERIFY    Engine           Component name:CWXTSUBC contains data that where not verified correctly
+12:46:38.113 INFO      IterateData      Iteration number 11 started.
+12:46:38.113 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emptype_input>M</emptype_input>
+  <salesamount_input>350000</salesamount_input>
+  <factor>0.035</factor>
+  <commtotal>12250.000000000002</commtotal>
+  <commtotal_expected>12250</commtotal_expected>
+</testcase>
+12:46:38.113 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+12:46:39.036 LOG       Component        Created MBF record for XATZCDLL as main program. JOB: HDDRXM0E STEP XATEST
+12:46:39.037 LOG       CWCC Batch       Component Runtime Settings:
+12:46:39.037 LOG       CWCC Batch         Load libraries :HDDRXM0.DEMO.LOAD.PDSE
+12:46:39.037 LOG       CWCC Batch         Optional main Load library:
+12:46:39.037 LOG       CWCC Batch         Listing libraries         :
+12:46:39.037 LOG       CWCC Batch         SysDebug libraries        :
+12:46:39.037 LOG       CWCC Batch         DB2 Subsystem ID          :
+12:46:39.037 LOG       CWCC Batch         DB2 plan                  :
+12:46:39.037 LOG       CWCC Batch         Call interface            :NONE
+12:46:39.037 LOG       CWCC Batch         Debugger type             :CCEXPEDITER
+12:46:39.037 LOG       CWCC Batch         Component type            :COBOL
+12:46:39.037 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+12:46:39.184 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/34df9335b71b4aa6a134fdaad1a3cb0f
+12:46:39.473 LOG       CWCC Batch       Uploading input data for module CWXTSUBC
+12:46:40.507 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>34df9335b71b4aa6a134fdaad1a3cb0f</jobdirectory><amode24>false</amode24><members><membername>CWXTSUBC</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:46:40.732 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927661</jobid><jobname>HDDRXM0E</jobname><starttime>20200928064640700</starttime></xatz_response></XATZRESP>
+12:46:40.733 LOG       HCIClient        Response received from Host. Message: JobId:J0927661
+12:46:40.734 INFO      HCIClient        Job has been started at host with JobId:J0927661
+12:46:46.614 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0927661) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0927661
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:46:46.904 INFO      CWCC Batch       Component completed with program exit: +0
+12:46:47.051 LOG       CWCC Batch       Setting execution variable 'jobid' to J0927661
+12:46:47.051 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:46:47.052 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+12:46:47.198 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:46:47.201 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:46:47.201 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+12:46:47.201 INFO      IterateData      Iteration number 12 started.
+12:46:47.201 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emptype_input>M</emptype_input>
+  <salesamount_input>400000</salesamount_input>
+  <factor>0.035</factor>
+  <commtotal>14000.000000000002</commtotal>
+  <commtotal_expected>14000</commtotal_expected>
+</testcase>
+12:46:47.202 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+12:46:48.118 LOG       Component        Created MBF record for XATZCDLL as main program. JOB: HDDRXM0E STEP XATEST
+12:46:48.118 LOG       CWCC Batch       Component Runtime Settings:
+12:46:48.118 LOG       CWCC Batch         Load libraries :HDDRXM0.DEMO.LOAD.PDSE
+12:46:48.118 LOG       CWCC Batch         Optional main Load library:
+12:46:48.118 LOG       CWCC Batch         Listing libraries         :
+12:46:48.118 LOG       CWCC Batch         SysDebug libraries        :
+12:46:48.118 LOG       CWCC Batch         DB2 Subsystem ID          :
+12:46:48.118 LOG       CWCC Batch         DB2 plan                  :
+12:46:48.118 LOG       CWCC Batch         Call interface            :NONE
+12:46:48.118 LOG       CWCC Batch         Debugger type             :CCEXPEDITER
+12:46:48.118 LOG       CWCC Batch         Component type            :COBOL
+12:46:48.119 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+12:46:48.266 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/ab26fdaf6ced41b68ec217721ef532cd
+12:46:48.555 LOG       CWCC Batch       Uploading input data for module CWXTSUBC
+12:46:49.591 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>ab26fdaf6ced41b68ec217721ef532cd</jobdirectory><amode24>false</amode24><members><membername>CWXTSUBC</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:46:49.814 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927662</jobid><jobname>HDDRXM0E</jobname><starttime>20200928064649783</starttime></xatz_response></XATZRESP>
+12:46:49.814 LOG       HCIClient        Response received from Host. Message: JobId:J0927662
+12:46:49.814 INFO      HCIClient        Job has been started at host with JobId:J0927662
+12:46:55.696 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0927662) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0927662
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:46:55.989 INFO      CWCC Batch       Component completed with program exit: +0
+12:46:56.136 LOG       CWCC Batch       Setting execution variable 'jobid' to J0927662
+12:46:56.137 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:46:56.137 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+12:46:56.290 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:46:56.304 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:46:56.304 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+12:46:56.305 INFO      IterateData      Iteration number 13 started.
+12:46:56.305 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emptype_input>M</emptype_input>
+  <salesamount_input>400001</salesamount_input>
+  <factor>0.04</factor>
+  <commtotal>16000.04</commtotal>
+  <commtotal_expected>16000.04</commtotal_expected>
+</testcase>
+12:46:56.305 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+12:46:57.215 LOG       Component        Created MBF record for XATZCDLL as main program. JOB: HDDRXM0E STEP XATEST
+12:46:57.215 LOG       CWCC Batch       Component Runtime Settings:
+12:46:57.215 LOG       CWCC Batch         Load libraries :HDDRXM0.DEMO.LOAD.PDSE
+12:46:57.215 LOG       CWCC Batch         Optional main Load library:
+12:46:57.215 LOG       CWCC Batch         Listing libraries         :
+12:46:57.216 LOG       CWCC Batch         SysDebug libraries        :
+12:46:57.216 LOG       CWCC Batch         DB2 Subsystem ID          :
+12:46:57.216 LOG       CWCC Batch         DB2 plan                  :
+12:46:57.216 LOG       CWCC Batch         Call interface            :NONE
+12:46:57.216 LOG       CWCC Batch         Debugger type             :CCEXPEDITER
+12:46:57.216 LOG       CWCC Batch         Component type            :COBOL
+12:46:57.216 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+12:46:57.362 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/7f39154f22844f9696be3dd47e24cdc9
+12:46:57.650 LOG       CWCC Batch       Uploading input data for module CWXTSUBC
+12:46:58.689 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>7f39154f22844f9696be3dd47e24cdc9</jobdirectory><amode24>false</amode24><members><membername>CWXTSUBC</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:46:58.909 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927663</jobid><jobname>HDDRXM0E</jobname><starttime>20200928064658879</starttime></xatz_response></XATZRESP>
+12:46:58.910 LOG       HCIClient        Response received from Host. Message: JobId:J0927663
+12:46:58.910 INFO      HCIClient        Job has been started at host with JobId:J0927663
+12:47:04.787 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0927663) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0927663
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:47:05.080 INFO      CWCC Batch       Component completed with program exit: +0
+12:47:05.232 LOG       CWCC Batch       Setting execution variable 'jobid' to J0927663
+12:47:05.232 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:47:05.232 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+12:47:05.383 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:47:05.397 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:47:05.397 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+12:47:05.397 INFO      IterateData      Iteration number 14 started.
+12:47:05.398 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emptype_input>M</emptype_input>
+  <salesamount_input>450000</salesamount_input>
+  <factor>0.04</factor>
+  <commtotal>18000</commtotal>
+  <commtotal_expected>18000</commtotal_expected>
+</testcase>
+12:47:05.398 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+12:47:06.317 LOG       Component        Created MBF record for XATZCDLL as main program. JOB: HDDRXM0E STEP XATEST
+12:47:06.317 LOG       CWCC Batch       Component Runtime Settings:
+12:47:06.317 LOG       CWCC Batch         Load libraries :HDDRXM0.DEMO.LOAD.PDSE
+12:47:06.317 LOG       CWCC Batch         Optional main Load library:
+12:47:06.318 LOG       CWCC Batch         Listing libraries         :
+12:47:06.318 LOG       CWCC Batch         SysDebug libraries        :
+12:47:06.318 LOG       CWCC Batch         DB2 Subsystem ID          :
+12:47:06.318 LOG       CWCC Batch         DB2 plan                  :
+12:47:06.318 LOG       CWCC Batch         Call interface            :NONE
+12:47:06.318 LOG       CWCC Batch         Debugger type             :CCEXPEDITER
+12:47:06.318 LOG       CWCC Batch         Component type            :COBOL
+12:47:06.319 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+12:47:06.467 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/d9b94824fc504de1bf09e2f3a5c8432c
+12:47:06.757 LOG       CWCC Batch       Uploading input data for module CWXTSUBC
+12:47:07.795 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>d9b94824fc504de1bf09e2f3a5c8432c</jobdirectory><amode24>false</amode24><members><membername>CWXTSUBC</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:47:08.018 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927664</jobid><jobname>HDDRXM0E</jobname><starttime>20200928064707987</starttime></xatz_response></XATZRESP>
+12:47:08.019 LOG       HCIClient        Response received from Host. Message: JobId:J0927664
+12:47:08.019 INFO      HCIClient        Job has been started at host with JobId:J0927664
+12:47:13.894 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0927664) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0927664
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:47:14.189 INFO      CWCC Batch       Component completed with program exit: +0
+12:47:14.335 LOG       CWCC Batch       Setting execution variable 'jobid' to J0927664
+12:47:14.336 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:47:14.336 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+12:47:14.482 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:47:14.487 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:47:14.487 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+12:47:14.487 INFO      IterateData      Iteration number 15 started.
+12:47:14.488 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emptype_input>M</emptype_input>
+  <salesamount_input>500000</salesamount_input>
+  <factor>0.04</factor>
+  <commtotal>20000</commtotal>
+  <commtotal_expected>20000</commtotal_expected>
+</testcase>
+12:47:14.488 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+12:47:15.421 LOG       Component        Created MBF record for XATZCDLL as main program. JOB: HDDRXM0E STEP XATEST
+12:47:15.423 LOG       CWCC Batch       Component Runtime Settings:
+12:47:15.423 LOG       CWCC Batch         Load libraries :HDDRXM0.DEMO.LOAD.PDSE
+12:47:15.423 LOG       CWCC Batch         Optional main Load library:
+12:47:15.423 LOG       CWCC Batch         Listing libraries         :
+12:47:15.424 LOG       CWCC Batch         SysDebug libraries        :
+12:47:15.424 LOG       CWCC Batch         DB2 Subsystem ID          :
+12:47:15.424 LOG       CWCC Batch         DB2 plan                  :
+12:47:15.424 LOG       CWCC Batch         Call interface            :NONE
+12:47:15.425 LOG       CWCC Batch         Debugger type             :CCEXPEDITER
+12:47:15.425 LOG       CWCC Batch         Component type            :COBOL
+12:47:15.426 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+12:47:15.575 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/460db3e6c29d4ece80c6ab2776033231
+12:47:15.865 LOG       CWCC Batch       Uploading input data for module CWXTSUBC
+12:47:16.906 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>460db3e6c29d4ece80c6ab2776033231</jobdirectory><amode24>false</amode24><members><membername>CWXTSUBC</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:47:17.130 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927665</jobid><jobname>HDDRXM0E</jobname><starttime>20200928064717099</starttime></xatz_response></XATZRESP>
+12:47:17.130 LOG       HCIClient        Response received from Host. Message: JobId:J0927665
+12:47:17.131 INFO      HCIClient        Job has been started at host with JobId:J0927665
+12:47:23.008 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0927665) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0927665
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:47:23.300 INFO      CWCC Batch       Component completed with program exit: +0
+12:47:23.453 LOG       CWCC Batch       Setting execution variable 'jobid' to J0927665
+12:47:23.453 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:47:23.453 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+12:47:23.602 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:47:23.610 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:47:23.610 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+12:47:23.610 INFO      IterateData      Iteration number 16 started.
+12:47:23.610 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emptype_input>S</emptype_input>
+  <salesamount_input>0</salesamount_input>
+  <factor>0</factor>
+  <commtotal>0</commtotal>
+  <commtotal_expected>0</commtotal_expected>
+</testcase>
+12:47:23.611 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+12:47:24.522 LOG       Component        Created MBF record for XATZCDLL as main program. JOB: HDDRXM0E STEP XATEST
+12:47:24.522 LOG       CWCC Batch       Component Runtime Settings:
+12:47:24.522 LOG       CWCC Batch         Load libraries :HDDRXM0.DEMO.LOAD.PDSE
+12:47:24.522 LOG       CWCC Batch         Optional main Load library:
+12:47:24.522 LOG       CWCC Batch         Listing libraries         :
+12:47:24.522 LOG       CWCC Batch         SysDebug libraries        :
+12:47:24.522 LOG       CWCC Batch         DB2 Subsystem ID          :
+12:47:24.522 LOG       CWCC Batch         DB2 plan                  :
+12:47:24.523 LOG       CWCC Batch         Call interface            :NONE
+12:47:24.523 LOG       CWCC Batch         Debugger type             :CCEXPEDITER
+12:47:24.523 LOG       CWCC Batch         Component type            :COBOL
+12:47:24.523 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+12:47:24.669 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/6e6ecd7ad5eb4f8787aa158fbbe4d4a4
+12:47:24.960 LOG       CWCC Batch       Uploading input data for module CWXTSUBC
+12:47:25.994 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>6e6ecd7ad5eb4f8787aa158fbbe4d4a4</jobdirectory><amode24>false</amode24><members><membername>CWXTSUBC</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:47:26.218 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927666</jobid><jobname>HDDRXM0E</jobname><starttime>20200928064726187</starttime></xatz_response></XATZRESP>
+12:47:26.219 LOG       HCIClient        Response received from Host. Message: JobId:J0927666
+12:47:26.220 INFO      HCIClient        Job has been started at host with JobId:J0927666
+12:47:32.103 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0927666) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0927666
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:47:32.394 INFO      CWCC Batch       Component completed with program exit: +0
+12:47:32.541 LOG       CWCC Batch       Setting execution variable 'jobid' to J0927666
+12:47:32.541 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:47:32.541 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+12:47:32.692 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:47:32.698 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:47:32.698 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+12:47:32.699 INFO      IterateData      Iteration number 17 started.
+12:47:32.699 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emptype_input>S</emptype_input>
+  <salesamount_input>1</salesamount_input>
+  <factor>0.02</factor>
+  <commtotal>0.02</commtotal>
+  <commtotal_expected>0.02</commtotal_expected>
+</testcase>
+12:47:32.699 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+12:47:33.608 LOG       Component        Created MBF record for XATZCDLL as main program. JOB: HDDRXM0E STEP XATEST
+12:47:33.608 LOG       CWCC Batch       Component Runtime Settings:
+12:47:33.609 LOG       CWCC Batch         Load libraries :HDDRXM0.DEMO.LOAD.PDSE
+12:47:33.609 LOG       CWCC Batch         Optional main Load library:
+12:47:33.609 LOG       CWCC Batch         Listing libraries         :
+12:47:33.609 LOG       CWCC Batch         SysDebug libraries        :
+12:47:33.609 LOG       CWCC Batch         DB2 Subsystem ID          :
+12:47:33.609 LOG       CWCC Batch         DB2 plan                  :
+12:47:33.609 LOG       CWCC Batch         Call interface            :NONE
+12:47:33.609 LOG       CWCC Batch         Debugger type             :CCEXPEDITER
+12:47:33.609 LOG       CWCC Batch         Component type            :COBOL
+12:47:33.609 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+12:47:33.755 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/d6ee0e8939724437b969c89e99e58ed2
+12:47:34.044 LOG       CWCC Batch       Uploading input data for module CWXTSUBC
+12:47:35.081 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>d6ee0e8939724437b969c89e99e58ed2</jobdirectory><amode24>false</amode24><members><membername>CWXTSUBC</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:47:35.302 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927667</jobid><jobname>HDDRXM0E</jobname><starttime>20200928064735273</starttime></xatz_response></XATZRESP>
+12:47:35.302 LOG       HCIClient        Response received from Host. Message: JobId:J0927667
+12:47:35.302 INFO      HCIClient        Job has been started at host with JobId:J0927667
+12:47:41.196 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0927667) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0927667
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:47:41.496 INFO      CWCC Batch       Component completed with program exit: +0
+12:47:41.644 LOG       CWCC Batch       Setting execution variable 'jobid' to J0927667
+12:47:41.644 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:47:41.644 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+12:47:41.797 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:47:41.811 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:47:41.811 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+12:47:41.811 INFO      IterateData      Iteration number 18 started.
+12:47:41.811 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emptype_input>S</emptype_input>
+  <salesamount_input>15000</salesamount_input>
+  <factor>0.02</factor>
+  <commtotal>300</commtotal>
+  <commtotal_expected>300</commtotal_expected>
+</testcase>
+12:47:41.812 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+12:47:42.760 LOG       Component        Created MBF record for XATZCDLL as main program. JOB: HDDRXM0E STEP XATEST
+12:47:42.760 LOG       CWCC Batch       Component Runtime Settings:
+12:47:42.760 LOG       CWCC Batch         Load libraries :HDDRXM0.DEMO.LOAD.PDSE
+12:47:42.760 LOG       CWCC Batch         Optional main Load library:
+12:47:42.760 LOG       CWCC Batch         Listing libraries         :
+12:47:42.760 LOG       CWCC Batch         SysDebug libraries        :
+12:47:42.760 LOG       CWCC Batch         DB2 Subsystem ID          :
+12:47:42.761 LOG       CWCC Batch         DB2 plan                  :
+12:47:42.761 LOG       CWCC Batch         Call interface            :NONE
+12:47:42.761 LOG       CWCC Batch         Debugger type             :CCEXPEDITER
+12:47:42.761 LOG       CWCC Batch         Component type            :COBOL
+12:47:42.761 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+12:47:42.910 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/2dc5f64ae60344b984b9b509ab93531e
+12:47:43.203 LOG       CWCC Batch       Uploading input data for module CWXTSUBC
+12:47:44.247 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>2dc5f64ae60344b984b9b509ab93531e</jobdirectory><amode24>false</amode24><members><membername>CWXTSUBC</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:47:44.472 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927668</jobid><jobname>HDDRXM0E</jobname><starttime>20200928064744439</starttime></xatz_response></XATZRESP>
+12:47:44.472 LOG       HCIClient        Response received from Host. Message: JobId:J0927668
+12:47:44.472 INFO      HCIClient        Job has been started at host with JobId:J0927668
+12:47:51.720 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0927668) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0927668
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:47:52.026 INFO      CWCC Batch       Component completed with program exit: +0
+12:47:52.175 LOG       CWCC Batch       Setting execution variable 'jobid' to J0927668
+12:47:52.175 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:47:52.175 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+12:47:52.331 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:47:52.336 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:47:52.336 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+12:47:52.336 INFO      IterateData      Iteration number 19 started.
+12:47:52.337 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emptype_input>S</emptype_input>
+  <salesamount_input>20000</salesamount_input>
+  <factor>0.02</factor>
+  <commtotal>400</commtotal>
+  <commtotal_expected>400</commtotal_expected>
+</testcase>
+12:47:52.337 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+12:47:53.307 LOG       Component        Created MBF record for XATZCDLL as main program. JOB: HDDRXM0E STEP XATEST
+12:47:53.309 LOG       CWCC Batch       Component Runtime Settings:
+12:47:53.310 LOG       CWCC Batch         Load libraries :HDDRXM0.DEMO.LOAD.PDSE
+12:47:53.310 LOG       CWCC Batch         Optional main Load library:
+12:47:53.310 LOG       CWCC Batch         Listing libraries         :
+12:47:53.310 LOG       CWCC Batch         SysDebug libraries        :
+12:47:53.310 LOG       CWCC Batch         DB2 Subsystem ID          :
+12:47:53.311 LOG       CWCC Batch         DB2 plan                  :
+12:47:53.311 LOG       CWCC Batch         Call interface            :NONE
+12:47:53.312 LOG       CWCC Batch         Debugger type             :CCEXPEDITER
+12:47:53.312 LOG       CWCC Batch         Component type            :COBOL
+12:47:53.313 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+12:47:53.462 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/77087066428f4aa9ae4db7f5569605e5
+12:47:53.753 LOG       CWCC Batch       Uploading input data for module CWXTSUBC
+12:47:54.788 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>77087066428f4aa9ae4db7f5569605e5</jobdirectory><amode24>false</amode24><members><membername>CWXTSUBC</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:47:55.011 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927669</jobid><jobname>HDDRXM0E</jobname><starttime>20200928064754980</starttime></xatz_response></XATZRESP>
+12:47:55.011 LOG       HCIClient        Response received from Host. Message: JobId:J0927669
+12:47:55.011 INFO      HCIClient        Job has been started at host with JobId:J0927669
+12:48:00.902 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0927669) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0927669
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:48:01.194 INFO      CWCC Batch       Component completed with program exit: +0
+12:48:01.342 LOG       CWCC Batch       Setting execution variable 'jobid' to J0927669
+12:48:01.342 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:48:01.342 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+12:48:01.498 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:48:01.511 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:48:01.512 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+12:48:01.512 INFO      IterateData      Iteration number 20 started.
+12:48:01.512 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emptype_input>S</emptype_input>
+  <salesamount_input>20001</salesamount_input>
+  <factor>0.04</factor>
+  <commtotal>800.04</commtotal>
+  <commtotal_expected>800.04</commtotal_expected>
+</testcase>
+12:48:01.512 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+12:48:02.429 LOG       Component        Created MBF record for XATZCDLL as main program. JOB: HDDRXM0E STEP XATEST
+12:48:02.430 LOG       CWCC Batch       Component Runtime Settings:
+12:48:02.430 LOG       CWCC Batch         Load libraries :HDDRXM0.DEMO.LOAD.PDSE
+12:48:02.431 LOG       CWCC Batch         Optional main Load library:
+12:48:02.431 LOG       CWCC Batch         Listing libraries         :
+12:48:02.431 LOG       CWCC Batch         SysDebug libraries        :
+12:48:02.431 LOG       CWCC Batch         DB2 Subsystem ID          :
+12:48:02.431 LOG       CWCC Batch         DB2 plan                  :
+12:48:02.431 LOG       CWCC Batch         Call interface            :NONE
+12:48:02.431 LOG       CWCC Batch         Debugger type             :CCEXPEDITER
+12:48:02.432 LOG       CWCC Batch         Component type            :COBOL
+12:48:02.432 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+12:48:02.579 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/a6d26b594da74f3387ff170b08a54864
+12:48:02.870 LOG       CWCC Batch       Uploading input data for module CWXTSUBC
+12:48:03.903 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>a6d26b594da74f3387ff170b08a54864</jobdirectory><amode24>false</amode24><members><membername>CWXTSUBC</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:48:04.126 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927670</jobid><jobname>HDDRXM0E</jobname><starttime>20200928064804097</starttime></xatz_response></XATZRESP>
+12:48:04.126 LOG       HCIClient        Response received from Host. Message: JobId:J0927670
+12:48:04.126 INFO      HCIClient        Job has been started at host with JobId:J0927670
+12:48:10.031 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0927670) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0927670
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:48:10.323 INFO      CWCC Batch       Component completed with program exit: +0
+12:48:10.471 LOG       CWCC Batch       Setting execution variable 'jobid' to J0927670
+12:48:10.472 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:48:10.472 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+12:48:10.621 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:48:10.624 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:48:10.625 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+12:48:10.625 INFO      IterateData      Iteration number 21 started.
+12:48:10.625 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emptype_input>S</emptype_input>
+  <salesamount_input>25000</salesamount_input>
+  <factor>0.04</factor>
+  <commtotal>1000</commtotal>
+  <commtotal_expected>1000</commtotal_expected>
+</testcase>
+12:48:10.625 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+12:48:11.597 LOG       Component        Created MBF record for XATZCDLL as main program. JOB: HDDRXM0E STEP XATEST
+12:48:11.597 LOG       CWCC Batch       Component Runtime Settings:
+12:48:11.597 LOG       CWCC Batch         Load libraries :HDDRXM0.DEMO.LOAD.PDSE
+12:48:11.597 LOG       CWCC Batch         Optional main Load library:
+12:48:11.598 LOG       CWCC Batch         Listing libraries         :
+12:48:11.598 LOG       CWCC Batch         SysDebug libraries        :
+12:48:11.598 LOG       CWCC Batch         DB2 Subsystem ID          :
+12:48:11.598 LOG       CWCC Batch         DB2 plan                  :
+12:48:11.598 LOG       CWCC Batch         Call interface            :NONE
+12:48:11.598 LOG       CWCC Batch         Debugger type             :CCEXPEDITER
+12:48:11.598 LOG       CWCC Batch         Component type            :COBOL
+12:48:11.598 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+12:48:11.745 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/cfb2dac8368f48158549e38ca8ac1d4a
+12:48:12.034 LOG       CWCC Batch       Uploading input data for module CWXTSUBC
+12:48:13.076 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>cfb2dac8368f48158549e38ca8ac1d4a</jobdirectory><amode24>false</amode24><members><membername>CWXTSUBC</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:48:13.298 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927671</jobid><jobname>HDDRXM0E</jobname><starttime>20200928064813268</starttime></xatz_response></XATZRESP>
+12:48:13.299 LOG       HCIClient        Response received from Host. Message: JobId:J0927671
+12:48:13.299 INFO      HCIClient        Job has been started at host with JobId:J0927671
+12:48:19.176 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0927671) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0927671
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:48:19.472 INFO      CWCC Batch       Component completed with program exit: +0
+12:48:19.620 LOG       CWCC Batch       Setting execution variable 'jobid' to J0927671
+12:48:19.621 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:48:19.621 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+12:48:19.766 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:48:19.770 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:48:19.770 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+12:48:19.771 INFO      IterateData      Iteration number 22 started.
+12:48:19.771 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emptype_input>S</emptype_input>
+  <salesamount_input>40000</salesamount_input>
+  <factor>0.04</factor>
+  <commtotal>1600</commtotal>
+  <commtotal_expected>1600</commtotal_expected>
+</testcase>
+12:48:19.771 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+12:48:20.686 LOG       Component        Created MBF record for XATZCDLL as main program. JOB: HDDRXM0E STEP XATEST
+12:48:20.686 LOG       CWCC Batch       Component Runtime Settings:
+12:48:20.686 LOG       CWCC Batch         Load libraries :HDDRXM0.DEMO.LOAD.PDSE
+12:48:20.686 LOG       CWCC Batch         Optional main Load library:
+12:48:20.686 LOG       CWCC Batch         Listing libraries         :
+12:48:20.687 LOG       CWCC Batch         SysDebug libraries        :
+12:48:20.687 LOG       CWCC Batch         DB2 Subsystem ID          :
+12:48:20.687 LOG       CWCC Batch         DB2 plan                  :
+12:48:20.687 LOG       CWCC Batch         Call interface            :NONE
+12:48:20.687 LOG       CWCC Batch         Debugger type             :CCEXPEDITER
+12:48:20.687 LOG       CWCC Batch         Component type            :COBOL
+12:48:20.687 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+12:48:20.834 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/7deba5c4614b4a8e8c6a9c0e54675176
+12:48:21.126 LOG       CWCC Batch       Uploading input data for module CWXTSUBC
+12:48:22.169 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>7deba5c4614b4a8e8c6a9c0e54675176</jobdirectory><amode24>false</amode24><members><membername>CWXTSUBC</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:48:22.393 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927672</jobid><jobname>HDDRXM0E</jobname><starttime>20200928064822364</starttime></xatz_response></XATZRESP>
+12:48:22.394 LOG       HCIClient        Response received from Host. Message: JobId:J0927672
+12:48:22.394 INFO      HCIClient        Job has been started at host with JobId:J0927672
+12:48:28.819 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0927672) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0927672
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:48:29.111 INFO      CWCC Batch       Component completed with program exit: +0
+12:48:29.258 LOG       CWCC Batch       Setting execution variable 'jobid' to J0927672
+12:48:29.259 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:48:29.259 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+12:48:29.406 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:48:29.412 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:48:29.413 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+12:48:29.413 INFO      IterateData      Iteration number 23 started.
+12:48:29.413 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emptype_input>S</emptype_input>
+  <salesamount_input>40001</salesamount_input>
+  <factor>0.06</factor>
+  <commtotal>2400.06</commtotal>
+  <commtotal_expected>2400.06</commtotal_expected>
+</testcase>
+12:48:29.413 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+12:48:30.322 LOG       Component        Created MBF record for XATZCDLL as main program. JOB: HDDRXM0E STEP XATEST
+12:48:30.322 LOG       CWCC Batch       Component Runtime Settings:
+12:48:30.322 LOG       CWCC Batch         Load libraries :HDDRXM0.DEMO.LOAD.PDSE
+12:48:30.322 LOG       CWCC Batch         Optional main Load library:
+12:48:30.323 LOG       CWCC Batch         Listing libraries         :
+12:48:30.323 LOG       CWCC Batch         SysDebug libraries        :
+12:48:30.323 LOG       CWCC Batch         DB2 Subsystem ID          :
+12:48:30.323 LOG       CWCC Batch         DB2 plan                  :
+12:48:30.323 LOG       CWCC Batch         Call interface            :NONE
+12:48:30.323 LOG       CWCC Batch         Debugger type             :CCEXPEDITER
+12:48:30.323 LOG       CWCC Batch         Component type            :COBOL
+12:48:30.323 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+12:48:30.471 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/25c5766a074b4e7bba249a6431497333
+12:48:30.761 LOG       CWCC Batch       Uploading input data for module CWXTSUBC
+12:48:31.797 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>25c5766a074b4e7bba249a6431497333</jobdirectory><amode24>false</amode24><members><membername>CWXTSUBC</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:48:32.018 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927673</jobid><jobname>HDDRXM0E</jobname><starttime>20200928064831988</starttime></xatz_response></XATZRESP>
+12:48:32.019 LOG       HCIClient        Response received from Host. Message: JobId:J0927673
+12:48:32.019 INFO      HCIClient        Job has been started at host with JobId:J0927673
+12:48:37.898 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0927673) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0927673
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:48:38.191 INFO      CWCC Batch       Component completed with program exit: +0
+12:48:38.340 LOG       CWCC Batch       Setting execution variable 'jobid' to J0927673
+12:48:38.341 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:48:38.341 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+12:48:38.491 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:48:38.497 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:48:38.498 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+12:48:38.498 INFO      IterateData      Iteration number 24 started.
+12:48:38.498 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emptype_input>S</emptype_input>
+  <salesamount_input>55000</salesamount_input>
+  <factor>0.06</factor>
+  <commtotal>3300</commtotal>
+  <commtotal_expected>3300</commtotal_expected>
+</testcase>
+12:48:38.498 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+12:48:39.442 LOG       Component        Created MBF record for XATZCDLL as main program. JOB: HDDRXM0E STEP XATEST
+12:48:39.443 LOG       CWCC Batch       Component Runtime Settings:
+12:48:39.443 LOG       CWCC Batch         Load libraries :HDDRXM0.DEMO.LOAD.PDSE
+12:48:39.443 LOG       CWCC Batch         Optional main Load library:
+12:48:39.443 LOG       CWCC Batch         Listing libraries         :
+12:48:39.443 LOG       CWCC Batch         SysDebug libraries        :
+12:48:39.443 LOG       CWCC Batch         DB2 Subsystem ID          :
+12:48:39.443 LOG       CWCC Batch         DB2 plan                  :
+12:48:39.443 LOG       CWCC Batch         Call interface            :NONE
+12:48:39.443 LOG       CWCC Batch         Debugger type             :CCEXPEDITER
+12:48:39.443 LOG       CWCC Batch         Component type            :COBOL
+12:48:39.443 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+12:48:39.589 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/400abeb80a4e4a688cd4f1798bdcc1ae
+12:48:39.880 LOG       CWCC Batch       Uploading input data for module CWXTSUBC
+12:48:40.912 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>400abeb80a4e4a688cd4f1798bdcc1ae</jobdirectory><amode24>false</amode24><members><membername>CWXTSUBC</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:48:41.138 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927674</jobid><jobname>HDDRXM0E</jobname><starttime>20200928064841108</starttime></xatz_response></XATZRESP>
+12:48:41.139 LOG       HCIClient        Response received from Host. Message: JobId:J0927674
+12:48:41.139 INFO      HCIClient        Job has been started at host with JobId:J0927674
+12:48:47.015 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0927674) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0927674
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:48:47.308 INFO      CWCC Batch       Component completed with program exit: +0
+12:48:47.459 LOG       CWCC Batch       Setting execution variable 'jobid' to J0927674
+12:48:47.459 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:48:47.460 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+12:48:47.608 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:48:47.612 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:48:47.612 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+12:48:47.612 INFO      IterateData      Iteration number 25 started.
+12:48:47.612 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emptype_input>S</emptype_input>
+  <salesamount_input>60000</salesamount_input>
+  <factor>0.06</factor>
+  <commtotal>3600</commtotal>
+  <commtotal_expected>3600</commtotal_expected>
+</testcase>
+12:48:47.612 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+12:48:48.520 LOG       Component        Created MBF record for XATZCDLL as main program. JOB: HDDRXM0E STEP XATEST
+12:48:48.521 LOG       CWCC Batch       Component Runtime Settings:
+12:48:48.521 LOG       CWCC Batch         Load libraries :HDDRXM0.DEMO.LOAD.PDSE
+12:48:48.521 LOG       CWCC Batch         Optional main Load library:
+12:48:48.521 LOG       CWCC Batch         Listing libraries         :
+12:48:48.521 LOG       CWCC Batch         SysDebug libraries        :
+12:48:48.521 LOG       CWCC Batch         DB2 Subsystem ID          :
+12:48:48.521 LOG       CWCC Batch         DB2 plan                  :
+12:48:48.521 LOG       CWCC Batch         Call interface            :NONE
+12:48:48.521 LOG       CWCC Batch         Debugger type             :CCEXPEDITER
+12:48:48.521 LOG       CWCC Batch         Component type            :COBOL
+12:48:48.522 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+12:48:48.667 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/c69e67cc3cf54772ae44be4aff387a71
+12:48:48.957 LOG       CWCC Batch       Uploading input data for module CWXTSUBC
+12:48:49.993 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>c69e67cc3cf54772ae44be4aff387a71</jobdirectory><amode24>false</amode24><members><membername>CWXTSUBC</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:48:50.216 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927675</jobid><jobname>HDDRXM0E</jobname><starttime>20200928064850187</starttime></xatz_response></XATZRESP>
+12:48:50.216 LOG       HCIClient        Response received from Host. Message: JobId:J0927675
+12:48:50.216 INFO      HCIClient        Job has been started at host with JobId:J0927675
+12:48:56.094 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0927675) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0927675
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:48:56.387 INFO      CWCC Batch       Component completed with program exit: +0
+12:48:56.534 LOG       CWCC Batch       Setting execution variable 'jobid' to J0927675
+12:48:56.535 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:48:56.535 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+12:48:56.681 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:48:56.685 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:48:56.685 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+12:48:56.685 INFO      IterateData      Iteration number 26 started.
+12:48:56.685 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emptype_input>S</emptype_input>
+  <salesamount_input>60001</salesamount_input>
+  <factor>0.08</factor>
+  <commtotal>4800.08</commtotal>
+  <commtotal_expected>4800.08</commtotal_expected>
+</testcase>
+12:48:56.685 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+12:48:57.603 LOG       Component        Created MBF record for XATZCDLL as main program. JOB: HDDRXM0E STEP XATEST
+12:48:57.604 LOG       CWCC Batch       Component Runtime Settings:
+12:48:57.605 LOG       CWCC Batch         Load libraries :HDDRXM0.DEMO.LOAD.PDSE
+12:48:57.605 LOG       CWCC Batch         Optional main Load library:
+12:48:57.605 LOG       CWCC Batch         Listing libraries         :
+12:48:57.605 LOG       CWCC Batch         SysDebug libraries        :
+12:48:57.605 LOG       CWCC Batch         DB2 Subsystem ID          :
+12:48:57.606 LOG       CWCC Batch         DB2 plan                  :
+12:48:57.606 LOG       CWCC Batch         Call interface            :NONE
+12:48:57.607 LOG       CWCC Batch         Debugger type             :CCEXPEDITER
+12:48:57.607 LOG       CWCC Batch         Component type            :COBOL
+12:48:57.607 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+12:48:57.756 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/f25b023fcc1143258ebd4777b5b301a7
+12:48:58.048 LOG       CWCC Batch       Uploading input data for module CWXTSUBC
+12:48:59.093 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>f25b023fcc1143258ebd4777b5b301a7</jobdirectory><amode24>false</amode24><members><membername>CWXTSUBC</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:48:59.316 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927676</jobid><jobname>HDDRXM0E</jobname><starttime>20200928064859286</starttime></xatz_response></XATZRESP>
+12:48:59.317 LOG       HCIClient        Response received from Host. Message: JobId:J0927676
+12:48:59.317 INFO      HCIClient        Job has been started at host with JobId:J0927676
+12:49:05.203 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0927676) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0927676
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:49:05.496 INFO      CWCC Batch       Component completed with program exit: +0
+12:49:05.643 LOG       CWCC Batch       Setting execution variable 'jobid' to J0927676
+12:49:05.644 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:49:05.644 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+12:49:05.792 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:49:05.802 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:49:05.802 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+12:49:05.803 VERIFY    ExpectedData     VerificationResult : DataItem: /comm-total. Actual value is different from expected. Actual value: 5400.09 Expected: 4800.08. Actual value:5400.09. Expected value:4800.08
+12:49:05.803 VERIFY    Engine           Component name:CWXTSUBC contains data that where not verified correctly
+12:49:05.803 INFO      IterateData      Iteration number 27 started.
+12:49:05.803 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emptype_input>S</emptype_input>
+  <salesamount_input>75000</salesamount_input>
+  <factor>0.08</factor>
+  <commtotal>6000</commtotal>
+  <commtotal_expected>6000</commtotal_expected>
+</testcase>
+12:49:05.803 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+12:49:06.714 LOG       Component        Created MBF record for XATZCDLL as main program. JOB: HDDRXM0E STEP XATEST
+12:49:06.716 LOG       CWCC Batch       Component Runtime Settings:
+12:49:06.716 LOG       CWCC Batch         Load libraries :HDDRXM0.DEMO.LOAD.PDSE
+12:49:06.716 LOG       CWCC Batch         Optional main Load library:
+12:49:06.717 LOG       CWCC Batch         Listing libraries         :
+12:49:06.717 LOG       CWCC Batch         SysDebug libraries        :
+12:49:06.717 LOG       CWCC Batch         DB2 Subsystem ID          :
+12:49:06.718 LOG       CWCC Batch         DB2 plan                  :
+12:49:06.718 LOG       CWCC Batch         Call interface            :NONE
+12:49:06.719 LOG       CWCC Batch         Debugger type             :CCEXPEDITER
+12:49:06.719 LOG       CWCC Batch         Component type            :COBOL
+12:49:06.720 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+12:49:06.869 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/fe7dce05ffd94c9c96e85483ddbeae0e
+12:49:07.158 LOG       CWCC Batch       Uploading input data for module CWXTSUBC
+12:49:08.201 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>fe7dce05ffd94c9c96e85483ddbeae0e</jobdirectory><amode24>false</amode24><members><membername>CWXTSUBC</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:49:08.423 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927677</jobid><jobname>HDDRXM0E</jobname><starttime>20200928064908394</starttime></xatz_response></XATZRESP>
+12:49:08.424 LOG       HCIClient        Response received from Host. Message: JobId:J0927677
+12:49:08.425 INFO      HCIClient        Job has been started at host with JobId:J0927677
+12:49:14.302 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0927677) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0927677
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:49:14.596 INFO      CWCC Batch       Component completed with program exit: +0
+12:49:14.743 LOG       CWCC Batch       Setting execution variable 'jobid' to J0927677
+12:49:14.743 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:49:14.743 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+12:49:14.890 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:49:14.894 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:49:14.894 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+12:49:14.894 VERIFY    ExpectedData     VerificationResult : DataItem: /comm-total. Actual value is different from expected. Actual value: 6750.0 Expected: 6000.0. Actual value:6750. Expected value:6000
+12:49:14.895 VERIFY    Engine           Component name:CWXTSUBC contains data that where not verified correctly
+12:49:14.895 INFO      IterateData      Iteration number 28 started.
+12:49:14.895 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emptype_input>S</emptype_input>
+  <salesamount_input>80000</salesamount_input>
+  <factor>0.08</factor>
+  <commtotal>6400</commtotal>
+  <commtotal_expected>6400</commtotal_expected>
+</testcase>
+12:49:14.895 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+12:49:15.819 LOG       Component        Created MBF record for XATZCDLL as main program. JOB: HDDRXM0E STEP XATEST
+12:49:15.821 LOG       CWCC Batch       Component Runtime Settings:
+12:49:15.821 LOG       CWCC Batch         Load libraries :HDDRXM0.DEMO.LOAD.PDSE
+12:49:15.821 LOG       CWCC Batch         Optional main Load library:
+12:49:15.821 LOG       CWCC Batch         Listing libraries         :
+12:49:15.822 LOG       CWCC Batch         SysDebug libraries        :
+12:49:15.822 LOG       CWCC Batch         DB2 Subsystem ID          :
+12:49:15.822 LOG       CWCC Batch         DB2 plan                  :
+12:49:15.822 LOG       CWCC Batch         Call interface            :NONE
+12:49:15.823 LOG       CWCC Batch         Debugger type             :CCEXPEDITER
+12:49:15.823 LOG       CWCC Batch         Component type            :COBOL
+12:49:15.823 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+12:49:15.973 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/2c8e4f49ebde4a908a10efa0cfc6b61f
+12:49:16.261 LOG       CWCC Batch       Uploading input data for module CWXTSUBC
+12:49:17.297 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>2c8e4f49ebde4a908a10efa0cfc6b61f</jobdirectory><amode24>false</amode24><members><membername>CWXTSUBC</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:49:17.522 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927678</jobid><jobname>HDDRXM0E</jobname><starttime>20200928064917492</starttime></xatz_response></XATZRESP>
+12:49:17.523 LOG       HCIClient        Response received from Host. Message: JobId:J0927678
+12:49:17.523 INFO      HCIClient        Job has been started at host with JobId:J0927678
+12:49:23.401 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0927678) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0927678
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:49:23.696 INFO      CWCC Batch       Component completed with program exit: +0
+12:49:23.845 LOG       CWCC Batch       Setting execution variable 'jobid' to J0927678
+12:49:23.845 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:49:23.846 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+12:49:23.998 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:49:24.003 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:49:24.003 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+12:49:24.003 VERIFY    ExpectedData     VerificationResult : DataItem: /comm-total. Actual value is different from expected. Actual value: 7200.0 Expected: 6400.0. Actual value:7200. Expected value:6400
+12:49:24.003 VERIFY    Engine           Component name:CWXTSUBC contains data that where not verified correctly
+12:49:24.003 INFO      IterateData      Iteration number 29 started.
+12:49:24.003 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emptype_input>S</emptype_input>
+  <salesamount_input>80001</salesamount_input>
+  <factor>0.1</factor>
+  <commtotal>8000.1</commtotal>
+  <commtotal_expected>8000.1</commtotal_expected>
+</testcase>
+12:49:24.004 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+12:49:24.948 LOG       Component        Created MBF record for XATZCDLL as main program. JOB: HDDRXM0E STEP XATEST
+12:49:24.948 LOG       CWCC Batch       Component Runtime Settings:
+12:49:24.948 LOG       CWCC Batch         Load libraries :HDDRXM0.DEMO.LOAD.PDSE
+12:49:24.948 LOG       CWCC Batch         Optional main Load library:
+12:49:24.948 LOG       CWCC Batch         Listing libraries         :
+12:49:24.948 LOG       CWCC Batch         SysDebug libraries        :
+12:49:24.948 LOG       CWCC Batch         DB2 Subsystem ID          :
+12:49:24.948 LOG       CWCC Batch         DB2 plan                  :
+12:49:24.948 LOG       CWCC Batch         Call interface            :NONE
+12:49:24.948 LOG       CWCC Batch         Debugger type             :CCEXPEDITER
+12:49:24.948 LOG       CWCC Batch         Component type            :COBOL
+12:49:24.948 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+12:49:25.095 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/c4973f49307a4776ab1dc46d40d8d51d
+12:49:25.391 LOG       CWCC Batch       Uploading input data for module CWXTSUBC
+12:49:26.489 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>c4973f49307a4776ab1dc46d40d8d51d</jobdirectory><amode24>false</amode24><members><membername>CWXTSUBC</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:49:27.319 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927679</jobid><jobname>HDDRXM0E</jobname><starttime>20200928064926684</starttime></xatz_response></XATZRESP>
+12:49:27.320 LOG       HCIClient        Response received from Host. Message: JobId:J0927679
+12:49:27.320 INFO      HCIClient        Job has been started at host with JobId:J0927679
+12:49:33.231 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0927679) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0927679
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:49:33.572 INFO      CWCC Batch       Component completed with program exit: +0
+12:49:33.719 LOG       CWCC Batch       Setting execution variable 'jobid' to J0927679
+12:49:33.719 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:49:33.720 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+12:49:33.866 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:49:33.870 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:49:33.871 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+12:49:33.871 VERIFY    ExpectedData     VerificationResult : DataItem: /comm-total. Actual value is different from expected. Actual value: 9600.12 Expected: 8000.1. Actual value:9600.12. Expected value:8000.1
+12:49:33.871 VERIFY    Engine           Component name:CWXTSUBC contains data that where not verified correctly
+12:49:33.871 INFO      IterateData      Iteration number 30 started.
+12:49:33.871 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emptype_input>S</emptype_input>
+  <salesamount_input>85000</salesamount_input>
+  <factor>0.1</factor>
+  <commtotal>8500</commtotal>
+  <commtotal_expected>8500</commtotal_expected>
+</testcase>
+12:49:33.871 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+12:49:34.779 LOG       Component        Created MBF record for XATZCDLL as main program. JOB: HDDRXM0E STEP XATEST
+12:49:34.780 LOG       CWCC Batch       Component Runtime Settings:
+12:49:34.780 LOG       CWCC Batch         Load libraries :HDDRXM0.DEMO.LOAD.PDSE
+12:49:34.780 LOG       CWCC Batch         Optional main Load library:
+12:49:34.780 LOG       CWCC Batch         Listing libraries         :
+12:49:34.780 LOG       CWCC Batch         SysDebug libraries        :
+12:49:34.780 LOG       CWCC Batch         DB2 Subsystem ID          :
+12:49:34.780 LOG       CWCC Batch         DB2 plan                  :
+12:49:34.780 LOG       CWCC Batch         Call interface            :NONE
+12:49:34.780 LOG       CWCC Batch         Debugger type             :CCEXPEDITER
+12:49:34.780 LOG       CWCC Batch         Component type            :COBOL
+12:49:34.780 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+12:49:34.932 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/fd04fdd2cc4e4819b7f4bc92e54a5d04
+12:49:35.221 LOG       CWCC Batch       Uploading input data for module CWXTSUBC
+12:49:36.264 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>fd04fdd2cc4e4819b7f4bc92e54a5d04</jobdirectory><amode24>false</amode24><members><membername>CWXTSUBC</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:49:36.487 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927680</jobid><jobname>HDDRXM0E</jobname><starttime>20200928064936458</starttime></xatz_response></XATZRESP>
+12:49:36.488 LOG       HCIClient        Response received from Host. Message: JobId:J0927680
+12:49:36.488 INFO      HCIClient        Job has been started at host with JobId:J0927680
+12:49:42.367 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0927680) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0927680
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:49:42.658 INFO      CWCC Batch       Component completed with program exit: +0
+12:49:42.804 LOG       CWCC Batch       Setting execution variable 'jobid' to J0927680
+12:49:42.805 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:49:42.805 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+12:49:42.951 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:49:42.956 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:49:42.956 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+12:49:42.956 VERIFY    ExpectedData     VerificationResult : DataItem: /comm-total. Actual value is different from expected. Actual value: 10200.0 Expected: 8500.0. Actual value:10200. Expected value:8500
+12:49:42.956 VERIFY    Engine           Component name:CWXTSUBC contains data that where not verified correctly
+12:49:42.956 INFO      IterateData      Iteration number 31 started.
+12:49:42.956 LOG       IterateData      Iteration Data:
+<testcase xmlns="http://www.xact.dk/xatester/v/1">
+  <emptype_input>S</emptype_input>
+  <salesamount_input>100000</salesamount_input>
+  <factor>0.1</factor>
+  <commtotal>10000</commtotal>
+  <commtotal_expected>10000</commtotal_expected>
+</testcase>
+12:49:42.956 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+12:49:43.878 LOG       Component        Created MBF record for XATZCDLL as main program. JOB: HDDRXM0E STEP XATEST
+12:49:43.878 LOG       CWCC Batch       Component Runtime Settings:
+12:49:43.878 LOG       CWCC Batch         Load libraries :HDDRXM0.DEMO.LOAD.PDSE
+12:49:43.878 LOG       CWCC Batch         Optional main Load library:
+12:49:43.878 LOG       CWCC Batch         Listing libraries         :
+12:49:43.878 LOG       CWCC Batch         SysDebug libraries        :
+12:49:43.878 LOG       CWCC Batch         DB2 Subsystem ID          :
+12:49:43.879 LOG       CWCC Batch         DB2 plan                  :
+12:49:43.879 LOG       CWCC Batch         Call interface            :NONE
+12:49:43.879 LOG       CWCC Batch         Debugger type             :CCEXPEDITER
+12:49:43.879 LOG       CWCC Batch         Component type            :COBOL
+12:49:43.879 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+12:49:44.024 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/3ce812b299534365a26e873f250d26c6
+12:49:44.313 LOG       CWCC Batch       Uploading input data for module CWXTSUBC
+12:49:45.342 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>3ce812b299534365a26e873f250d26c6</jobdirectory><amode24>false</amode24><members><membername>CWXTSUBC</membername></members><loads><mainload>HDDRXM0.DEMO.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:49:45.566 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927681</jobid><jobname>HDDRXM0E</jobname><starttime>20200928064945537</starttime></xatz_response></XATZRESP>
+12:49:45.566 LOG       HCIClient        Response received from Host. Message: JobId:J0927681
+12:49:45.566 INFO      HCIClient        Job has been started at host with JobId:J0927681
+12:49:51.441 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0927681) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0927681
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:49:51.732 INFO      CWCC Batch       Component completed with program exit: +0
+12:49:51.880 LOG       CWCC Batch       Setting execution variable 'jobid' to J0927681
+12:49:51.880 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:49:51.880 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+12:49:52.028 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:49:52.032 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:49:52.032 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+12:49:52.032 VERIFY    ExpectedData     VerificationResult : DataItem: /comm-total. Actual value is different from expected. Actual value: 12000.0 Expected: 10000.0. Actual value:12000. Expected value:10000
+12:49:52.032 VERIFY    Engine           Component name:CWXTSUBC contains data that where not verified correctly
+12:49:52.032 INFO      IterateData      IterateData completed
+12:49:52.032 COMMENT   Engine           Test Scenario execution ended

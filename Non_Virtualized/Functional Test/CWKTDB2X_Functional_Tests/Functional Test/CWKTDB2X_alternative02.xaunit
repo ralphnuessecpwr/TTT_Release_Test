@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="cwktdb2x">
   <Test>
-    <Job name="Load DB2" datasetName="hddrxm0.demo.cwc2.util.jcl(lodktbef)" jobLocation="DATASET">
+    <Variable id="lparName">CWC2</Variable>
+    <Job name="Load DB2" datasetName="hddrxm0.rt.util.jcl(ldkt${lparName})" jobLocation="DATASET">
       <Content><![CDATA[//XXX DD DSN=]]></Content>
     </Job>
     <Component label="CWKTDB2X" moduleName="CWKTDB2X" programExitVerify="value &lt; 8" rollback="true">
@@ -14,8 +15,8 @@
         </parminfo>
       </Data>
       <Setup>
-        <Content><![CDATA[//EMPFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.CWKTDATA
-//RPTFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE
+        <Content><![CDATA[//EMPFILE  DD DISP=SHR,DSN=HDDRXM0.RT.CWKTDATA
+//RPTFILE  DD DISP=SHR,DSN=HDDRXM0.RT.KTDEMO.RPTFILE
 //*RPTFILE  DD SYSOUT=*]]></Content>
       </Setup>
       <SQLSelect id="selectAfter" maxRows="20">
@@ -37,7 +38,7 @@
         <Output name="COMM" />
       </SQLSelect>
     </Component>
-    <ReadRemoteFile fileName="HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE" id="rptfileActual" label="Read report file" firstRecord="10" numberRecords="8" mDataDefinitionName="rptEmpDet" />
+    <ReadRemoteFile fileName="HDDRXM0.RT.KTDEMO.RPTFILE" id="rptfileActual" label="Read report file" firstRecord="10" numberRecords="8" mDataDefinitionName="rptEmpDet" />
     <IterateData id="loopThroughRptfileActual" referencedId="rptfileActual" dataPath="">
       <Verify name="Verify" haltExecution="false">
         <Expected expression="var tmpWages = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-wages'])&#xD;&#xA;var tmpOt    = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-ot'])&#xD;&#xA;var tmpComm  = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-comm'])&#xD;&#xA;var tmpTotal = tmpWages + tmpOt + tmpComm&#xD;&#xA;&#xD;&#xA;tmpTotal.toFixed(2)" />
@@ -50,15 +51,15 @@
 //         DD DISP=SHR,DSN=SYS2.CW.VJR17Y.SXVJLOAD
 //SYSPRINT DD  SYSOUT=*
 //SYSLIST  DD  SYSOUT=*
-//DD01     DD  DSN=HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE.EXPECT,
+//DD01     DD  DSN=HDDRXM0.RT.KTDEMO.RPTFILE.EXPECT,
 //             DISP=SHR
-//DD01C    DD  DSN=HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE,
+//DD01C    DD  DSN=HDDRXM0.RT.KTDEMO.RPTFILE,
 //             DISP=SHR
-//DD01CP   DD  DSN=HDDRXM0.DEMO.FA.COMPCRIT(CWXTCOB),
+//DD01CP   DD  DSN=HDDRXM0.RT.FA.COMPCRIT(CWXTCOB),
 //             DISP=SHR                              
-//DD01RL   DD  DSN=HDDRXM0.DEMO.COPY,
+//DD01RL   DD  DSN=HDDRXM0.RT.COPY,
 //             DISP=SHR
-//DD01XR   DD  DSN=HDDRXM0.DEMO.XREF(RPTFILE),
+//DD01XR   DD  DSN=HDDRXM0.RT.FA.XREF(RPTFILE),
 //             DISP=SHR
 //SYSIN    DD  *
 $$DD01 COMPARE

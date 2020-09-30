@@ -1,0 +1,1016 @@
+12:35:20.280 COMMENT   Engine           Test Scenario execution started
+12:35:20.281 INFO      Engine           Using context settings:
+  Engine Version       : 20.3
+  Environment id                : 5f6457ad31d7ab4e8cb59b9d
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwc2.nasa.cpwr.corp
+  Server port                   : 16196
+  Job execution timeout seconds : 300
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+  Use Repository Server         : true
+12:35:20.281 INFO      Engine           Setting variables from context and context data extensions
+12:35:20.281 INFO      Engine             id: environmentId      value: 5f6457ad31d7ab4e8cb59b9d
+12:35:20.281 INFO      Engine             id: environmentType    value: BATCH
+12:35:20.281 INFO      Engine             id: userId             value: HDDRXM0
+12:35:20.281 INFO      Engine             id: accountingInfo     value: 
+12:35:20.282 INFO      Variable         Interpreting Variable id:lparName
+12:35:20.282 LOG       Variable         Resolved data:
+CWC2
+12:35:20.282 INFO      Job              Interpreting JOB: Load DB2
+12:35:20.282 INFO      Job              Variable substitution found in File/Dataset, now substituted to hddrxm0.rt.util.jcl(ldktCWC2)
+12:35:20.283 INFO      Job              The Job in File/Dataset HDDRXM0.RT.UTIL.JCL(LDKTCWC2) will be executed
+12:35:20.283 INFO      CWC2 Batch       Sending Job execution request to Host 
+12:35:20.284 LOG       CWC2 Batch       Executing Job through HCI
+12:35:20.284 LOG       CWC2 Batch       Submitting job from dataset: HDDRXM0.RT.UTIL.JCL member:LDKTCWC2
+12:35:20.446 LOG       CWC2 Batch       Job submitted with jobId: J0923170 jobName:HDDRXM0L
+12:35:25.580 INFO      CWC2 Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0L(J0923170) ended with return code: 0000
+  Job name       : HDDRXM0L
+  Job id         : J0923170
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:35:25.580 LOG       CWC2 Batch       Setting execution variable 'jobid' to J0923170
+12:35:25.580 LOG       CWC2 Batch       Setting execution variable 'jobname' to HDDRXM0L
+12:35:25.580 LOG       CWC2 Batch       Setting execution variable 'returncode' to 0000
+12:35:25.580 INFO      Job              Successfully executed job: Load DB2
+12:35:25.580 INFO      Component        Interpreting Component: CWKTDB2X program:CWKTDB2X
+12:35:25.580 INFO      Component        Using setup JCL for execution
+12:35:25.580 INFO      Component          JCL for setup:
+//EMPFILE  DD DISP=SHR,DSN=HDDRXM0.RT.CWKTDATA
+//RPTFILE  DD DISP=SHR,DSN=HDDRXM0.RT.KTDEMO.RPTFILE
+//*RPTFILE  DD SYSOUT=*
+12:35:25.581 LOG       CWC2 Batch       Final JCL setup for the component:
+//EMPFILE  DD DISP=SHR,DSN=HDDRXM0.RT.CWKTDATA
+//RPTFILE  DD DISP=SHR,DSN=HDDRXM0.RT.KTDEMO.RPTFILE
+//*RPTFILE  DD SYSOUT=*
+
+12:35:25.581 LOG       CWC2 Batch       Component Runtime Settings:
+12:35:25.581 LOG       CWC2 Batch         Load libraries :HDDRXM0.RT.LOAD.PDSE
+12:35:25.581 LOG       CWC2 Batch         Optional main Load library:
+12:35:25.581 LOG       CWC2 Batch         Listing libraries         :
+12:35:25.581 LOG       CWC2 Batch         SysDebug libraries        :
+12:35:25.581 LOG       CWC2 Batch         DB2 Subsystem ID          :DSC2
+12:35:25.581 LOG       CWC2 Batch         DB2 plan                  :RXNKTDB2
+12:35:25.581 LOG       CWC2 Batch         Call interface            :NONE
+12:35:25.582 LOG       CWC2 Batch         Debugger type             :NONE
+12:35:25.582 LOG       CWC2 Batch         Component type            :COBOL
+12:35:25.582 INFO      CWC2 Batch       Sending Module execution request to Host for module:CWKTDB2X rollback:true
+12:35:25.717 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/11720d78f4374dcd9e49ced9949e7e9f
+12:35:25.987 LOG       CWC2 Batch       Uploading input data for module CWKTDB2X
+12:35:26.957 INFO      CWC2 Batch       Component has post SQLSelect statement that is: SELECT EMP_NUM,  WAGE_TYPE,  REGION,  FIRST_LAST_NAME,  STREET_ADDR,  CITY,  STATE,  ZIP,  HIREDATE,  HOURS,  RATE,  WAGES,  OVERTIME,  COMM
+ FROM HDDRXM0.KT_DEMOTAB
+12:35:26.958 LOG       CWC2 Batch       Uploading SQLSelect data into file XAT_Module.i.xmlsql
+12:35:27.927 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan>RXNKTDB2</db2plan><db2id>DSC2</db2id><rollback>true</rollback><jobdirectory>11720d78f4374dcd9e49ced9949e7e9f</jobdirectory><amode24>false</amode24><members><membername>CWKTDB2X</membername></members><loads><mainload>HDDRXM0.RT.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang><refs><ref>//EMPFILE  DD DISP=SHR,DSN=HDDRXM0.RT.CWKTDATA</ref><ref>//RPTFILE  DD DISP=SHR,DSN=HDDRXM0.RT.KTDEMO.RPTFILE</ref><ref>//*RPTFILE  DD SYSOUT=*</ref></refs><sql>true</sql></xatz_request></XATZREQ>
+12:35:28.139 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0923171</jobid><jobname>HDDRXM0E</jobname><starttime>20200918063528099</starttime></xatz_response></XATZRESP>
+12:35:28.140 LOG       HCIClient        Response received from Host. Message: JobId:J0923171
+12:35:28.140 INFO      HCIClient        Job has been started at host with JobId:J0923171
+12:35:33.675 INFO      CWC2 Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0923171) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0923171
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:35:33.945 INFO      CWC2 Batch       Component completed with program exit: +0
+12:35:34.078 LOG       CWC2 Batch       Setting execution variable 'jobid' to J0923171
+12:35:34.079 LOG       CWC2 Batch       Setting execution variable 'jobname' to HDDRXM0E
+12:35:34.079 LOG       CWC2 Batch       Setting execution variable 'programexit' to 0
+12:35:34.079 LOG       CWC2 Batch       Post SQLSelect has been executed, now getting result from file XAT_Module.o.xmlsql
+12:35:34.229 LOG       CWC2 Batch       Setting SQLSelect result at id:selectAfter
+12:35:34.367 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+12:35:34.372 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+12:35:34.372 INFO      Component        Finished interpreting Component: CWKTDB2X program:CWKTDB2X
+12:35:34.372 VERIFY    ExpectedData     VerificationResult : DataItem: /parminfo/grand-total. Actual value is different from expected. Actual value: 9080.0 Expected: 7160.0. Actual value:9080. Expected value:7160
+12:35:34.373 VERIFY    Engine           Component name:CWKTDB2X contains data that where not verified correctly
+12:35:34.373 INFO      ReadRemoteFile   Interpreting ReadRemoteFile for fileName: HDDRXM0.RT.KTDEMO.RPTFILE first record:10 number of records to read: 8
+12:35:34.373 INFO      ReadRemoteFile   Sending Read dataset request to Host 
+12:35:34.925 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/fe1c4425b2e7469d83cb8e9e1ce7f3fd
+12:35:38.509 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>IMPFILE</operation><runat>DAY</runat><loglevel>log</loglevel><encoding>EBCDIC</encoding><codepage>1047</codepage><jobdirectory>fe1c4425b2e7469d83cb8e9e1ce7f3fd</jobdirectory><outputfilepath>XAT_records.xml</outputfilepath><impfile><impdsn>HDDRXM0.RT.KTDEMO.RPTFILE</impdsn><imptpl>XAT_template.xml</imptpl><impxml>XAT_records.xml</impxml><impmax>8</impmax><impskip>9</impskip></impfile></xatz_request></XATZREQ>
+12:35:38.707 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0923172</jobid><jobname>HDDRXM0I</jobname><starttime>20200918063538666</starttime></xatz_response></XATZRESP>
+12:35:38.707 LOG       HCIClient        Response received from Host. Message: JobId:J0923172
+12:35:38.707 INFO      HCIClient        Job has been started at host with JobId:J0923172
+12:35:39.526 INFO      CWC2 Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0I(J0923172) ended with return code: 0000
+  Job name       : HDDRXM0I
+  Job id         : J0923172
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:35:40.096 INFO      ReadRemoteFile   Records received, count= 8
+12:35:40.097 INFO      IterateData      Interpreting IterateData id: loopThroughRptfileActual. Number of data iterations: 8. Variable loopThroughRptfileActualIndex contains iteration number
+12:35:40.097 INFO      IterateData      Iteration number 0 started.
+12:35:40.099 LOG       IterateData      Iteration Data:
+<record xmlns="http://www.xact.dk/xatester/v/1">
+  <employee-dtl>
+    <filler1></filler1>
+    <emp-dtl-name></emp-dtl-name>
+    <filler2></filler2>
+    <emp-dtl-region></emp-dtl-region>
+    <filler3></filler3>
+    <emp-dtl-type></emp-dtl-type>
+    <filler4></filler4>
+    <emp-dtl-hire-mm></emp-dtl-hire-mm>
+    <emp-dtl-slash1></emp-dtl-slash1>
+    <emp-dtl-hire-dd></emp-dtl-hire-dd>
+    <emp-dtl-slash2></emp-dtl-slash2>
+    <emp-dtl-hire-yy></emp-dtl-hire-yy>
+    <filler5></filler5>
+    <emp-dtl-yrs-of-service></emp-dtl-yrs-of-service>
+    <filler6></filler6>
+    <emp-dtl-wages></emp-dtl-wages>
+    <filler7></filler7>
+    <emp-dtl-ot></emp-dtl-ot>
+    <filler8></filler8>
+    <emp-dtl-comm></emp-dtl-comm>
+    <filler9></filler9>
+    <emp-dtl-total></emp-dtl-total>
+  </employee-dtl>
+</record>
+12:35:40.099 INFO      Verify           Interpreting Verify component name:Verify
+12:35:40.126 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+var tmpWages = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-wages'])
+var tmpOt    = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-ot'])
+var tmpComm  = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-comm'])
+var tmpTotal = tmpWages + tmpOt + tmpComm
+
+tmpTotal.toFixed(2)
+12:35:40.129 INFO      Verify           Comments from JavaScript execution:
+2020-09-18 12:35:40,126 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+var tmpWages = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-wages'])
+var tmpOt    = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-ot'])
+var tmpComm  = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-comm'])
+var tmpTotal = tmpWages + tmpOt + tmpComm
+
+tmpTotal.toFixed(2) 
+
+12:35:40.129 LOG       Verify           Expression evaluated to:0.00
+12:35:40.130 LOG       Verify           Expected from expression:
+0.00
+12:35:40.142 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-total']).toFixed(2)
+12:35:40.144 INFO      Verify           Comments from JavaScript execution:
+2020-09-18 12:35:40,142 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-total']).toFixed(2) 
+
+12:35:40.144 LOG       Verify           Expression evaluated to:0.00
+12:35:40.144 LOG       Verify           Actual from expression:
+0.00
+12:35:40.145 INFO      Verify           Expected and Actual data was found to be identical
+12:35:40.145 INFO      IterateData      Iteration number 1 started.
+12:35:40.145 LOG       IterateData      Iteration Data:
+<record xmlns="http://www.xact.dk/xatester/v/1">
+  <employee-dtl>
+    <filler1></filler1>
+    <emp-dtl-name>JOHN SMITH</emp-dtl-name>
+    <filler2></filler2>
+    <emp-dtl-region>NORTH</emp-dtl-region>
+    <filler3></filler3>
+    <emp-dtl-type>H</emp-dtl-type>
+    <filler4></filler4>
+    <emp-dtl-hire-mm>10</emp-dtl-hire-mm>
+    <emp-dtl-slash1>/</emp-dtl-slash1>
+    <emp-dtl-hire-dd>15</emp-dtl-hire-dd>
+    <emp-dtl-slash2>/</emp-dtl-slash2>
+    <emp-dtl-hire-yy>81</emp-dtl-hire-yy>
+    <filler5></filler5>
+    <emp-dtl-yrs-of-service>38</emp-dtl-yrs-of-service>
+    <filler6></filler6>
+    <emp-dtl-wages>'  750'</emp-dtl-wages>
+    <filler7></filler7>
+    <emp-dtl-ot>'  0'</emp-dtl-ot>
+    <filler8></filler8>
+    <emp-dtl-comm>'    0'</emp-dtl-comm>
+    <filler9></filler9>
+    <emp-dtl-total>'  750'</emp-dtl-total>
+  </employee-dtl>
+</record>
+12:35:40.145 INFO      Verify           Interpreting Verify component name:Verify
+12:35:40.162 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+var tmpWages = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-wages'])
+var tmpOt    = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-ot'])
+var tmpComm  = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-comm'])
+var tmpTotal = tmpWages + tmpOt + tmpComm
+
+tmpTotal.toFixed(2)
+12:35:40.166 INFO      Verify           Comments from JavaScript execution:
+2020-09-18 12:35:40,162 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+var tmpWages = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-wages'])
+var tmpOt    = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-ot'])
+var tmpComm  = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-comm'])
+var tmpTotal = tmpWages + tmpOt + tmpComm
+
+tmpTotal.toFixed(2) 
+
+12:35:40.166 LOG       Verify           Expression evaluated to:750.00
+12:35:40.166 LOG       Verify           Expected from expression:
+750.00
+12:35:40.184 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-total']).toFixed(2)
+12:35:40.187 INFO      Verify           Comments from JavaScript execution:
+2020-09-18 12:35:40,184 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-total']).toFixed(2) 
+
+12:35:40.187 LOG       Verify           Expression evaluated to:750.00
+12:35:40.187 LOG       Verify           Actual from expression:
+750.00
+12:35:40.187 INFO      Verify           Expected and Actual data was found to be identical
+12:35:40.187 INFO      IterateData      Iteration number 2 started.
+12:35:40.187 LOG       IterateData      Iteration Data:
+<record xmlns="http://www.xact.dk/xatester/v/1">
+  <employee-dtl>
+    <filler1></filler1>
+    <emp-dtl-name>GAIL LAWRENCE</emp-dtl-name>
+    <filler2></filler2>
+    <emp-dtl-region>SOUTH</emp-dtl-region>
+    <filler3></filler3>
+    <emp-dtl-type>H</emp-dtl-type>
+    <filler4></filler4>
+    <emp-dtl-hire-mm>6</emp-dtl-hire-mm>
+    <emp-dtl-slash1>/</emp-dtl-slash1>
+    <emp-dtl-hire-dd>25</emp-dtl-hire-dd>
+    <emp-dtl-slash2>/</emp-dtl-slash2>
+    <emp-dtl-hire-yy>84</emp-dtl-hire-yy>
+    <filler5></filler5>
+    <emp-dtl-yrs-of-service>36</emp-dtl-yrs-of-service>
+    <filler6></filler6>
+    <emp-dtl-wages>'  950'</emp-dtl-wages>
+    <filler7></filler7>
+    <emp-dtl-ot>'  0'</emp-dtl-ot>
+    <filler8></filler8>
+    <emp-dtl-comm>'    0'</emp-dtl-comm>
+    <filler9></filler9>
+    <emp-dtl-total>'  950'</emp-dtl-total>
+  </employee-dtl>
+</record>
+12:35:40.188 INFO      Verify           Interpreting Verify component name:Verify
+12:35:40.205 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+var tmpWages = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-wages'])
+var tmpOt    = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-ot'])
+var tmpComm  = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-comm'])
+var tmpTotal = tmpWages + tmpOt + tmpComm
+
+tmpTotal.toFixed(2)
+12:35:40.209 INFO      Verify           Comments from JavaScript execution:
+2020-09-18 12:35:40,205 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+var tmpWages = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-wages'])
+var tmpOt    = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-ot'])
+var tmpComm  = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-comm'])
+var tmpTotal = tmpWages + tmpOt + tmpComm
+
+tmpTotal.toFixed(2) 
+
+12:35:40.209 LOG       Verify           Expression evaluated to:950.00
+12:35:40.209 LOG       Verify           Expected from expression:
+950.00
+12:35:40.226 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-total']).toFixed(2)
+12:35:40.227 INFO      Verify           Comments from JavaScript execution:
+2020-09-18 12:35:40,226 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-total']).toFixed(2) 
+
+12:35:40.228 LOG       Verify           Expression evaluated to:950.00
+12:35:40.228 LOG       Verify           Actual from expression:
+950.00
+12:35:40.228 INFO      Verify           Expected and Actual data was found to be identical
+12:35:40.228 INFO      IterateData      Iteration number 3 started.
+12:35:40.228 LOG       IterateData      Iteration Data:
+<record xmlns="http://www.xact.dk/xatester/v/1">
+  <employee-dtl>
+    <filler1></filler1>
+    <emp-dtl-name>MARCIA SULLIVAN</emp-dtl-name>
+    <filler2></filler2>
+    <emp-dtl-region>EAST</emp-dtl-region>
+    <filler3></filler3>
+    <emp-dtl-type>H</emp-dtl-type>
+    <filler4></filler4>
+    <emp-dtl-hire-mm>4</emp-dtl-hire-mm>
+    <emp-dtl-slash1>/</emp-dtl-slash1>
+    <emp-dtl-hire-dd>5</emp-dtl-hire-dd>
+    <emp-dtl-slash2>/</emp-dtl-slash2>
+    <emp-dtl-hire-yy>93</emp-dtl-hire-yy>
+    <filler5></filler5>
+    <emp-dtl-yrs-of-service>27</emp-dtl-yrs-of-service>
+    <filler6></filler6>
+    <emp-dtl-wages>' 1200'</emp-dtl-wages>
+    <filler7></filler7>
+    <emp-dtl-ot>180</emp-dtl-ot>
+    <filler8></filler8>
+    <emp-dtl-comm>'    0'</emp-dtl-comm>
+    <filler9></filler9>
+    <emp-dtl-total>' 1380'</emp-dtl-total>
+  </employee-dtl>
+</record>
+12:35:40.228 INFO      Verify           Interpreting Verify component name:Verify
+12:35:40.242 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+var tmpWages = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-wages'])
+var tmpOt    = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-ot'])
+var tmpComm  = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-comm'])
+var tmpTotal = tmpWages + tmpOt + tmpComm
+
+tmpTotal.toFixed(2)
+12:35:40.246 INFO      Verify           Comments from JavaScript execution:
+2020-09-18 12:35:40,243 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+var tmpWages = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-wages'])
+var tmpOt    = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-ot'])
+var tmpComm  = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-comm'])
+var tmpTotal = tmpWages + tmpOt + tmpComm
+
+tmpTotal.toFixed(2) 
+
+12:35:40.246 LOG       Verify           Expression evaluated to:1380.00
+12:35:40.246 LOG       Verify           Expected from expression:
+1380.00
+12:35:40.260 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-total']).toFixed(2)
+12:35:40.262 INFO      Verify           Comments from JavaScript execution:
+2020-09-18 12:35:40,260 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-total']).toFixed(2) 
+
+12:35:40.262 LOG       Verify           Expression evaluated to:1380.00
+12:35:40.262 LOG       Verify           Actual from expression:
+1380.00
+12:35:40.262 INFO      Verify           Expected and Actual data was found to be identical
+12:35:40.262 INFO      IterateData      Iteration number 4 started.
+12:35:40.262 LOG       IterateData      Iteration Data:
+<record xmlns="http://www.xact.dk/xatester/v/1">
+  <employee-dtl>
+    <filler1></filler1>
+    <emp-dtl-name>JAMES MORRISON</emp-dtl-name>
+    <filler2></filler2>
+    <emp-dtl-region>EAST</emp-dtl-region>
+    <filler3></filler3>
+    <emp-dtl-type>H</emp-dtl-type>
+    <filler4></filler4>
+    <emp-dtl-hire-mm>9</emp-dtl-hire-mm>
+    <emp-dtl-slash1>/</emp-dtl-slash1>
+    <emp-dtl-hire-dd>13</emp-dtl-hire-dd>
+    <emp-dtl-slash2>/</emp-dtl-slash2>
+    <emp-dtl-hire-yy>91</emp-dtl-hire-yy>
+    <filler5></filler5>
+    <emp-dtl-yrs-of-service>29</emp-dtl-yrs-of-service>
+    <filler6></filler6>
+    <emp-dtl-wages>' 1017.5'</emp-dtl-wages>
+    <filler7></filler7>
+    <emp-dtl-ot>'  0'</emp-dtl-ot>
+    <filler8></filler8>
+    <emp-dtl-comm>'    0'</emp-dtl-comm>
+    <filler9></filler9>
+    <emp-dtl-total>' 1017.5'</emp-dtl-total>
+  </employee-dtl>
+</record>
+12:35:40.262 INFO      Verify           Interpreting Verify component name:Verify
+12:35:40.276 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+var tmpWages = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-wages'])
+var tmpOt    = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-ot'])
+var tmpComm  = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-comm'])
+var tmpTotal = tmpWages + tmpOt + tmpComm
+
+tmpTotal.toFixed(2)
+12:35:40.280 INFO      Verify           Comments from JavaScript execution:
+2020-09-18 12:35:40,277 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+var tmpWages = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-wages'])
+var tmpOt    = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-ot'])
+var tmpComm  = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-comm'])
+var tmpTotal = tmpWages + tmpOt + tmpComm
+
+tmpTotal.toFixed(2) 
+
+12:35:40.280 LOG       Verify           Expression evaluated to:1017.50
+12:35:40.280 LOG       Verify           Expected from expression:
+1017.50
+12:35:40.294 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-total']).toFixed(2)
+12:35:40.296 INFO      Verify           Comments from JavaScript execution:
+2020-09-18 12:35:40,294 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-total']).toFixed(2) 
+
+12:35:40.296 LOG       Verify           Expression evaluated to:1017.50
+12:35:40.296 LOG       Verify           Actual from expression:
+1017.50
+12:35:40.296 INFO      Verify           Expected and Actual data was found to be identical
+12:35:40.296 INFO      IterateData      Iteration number 5 started.
+12:35:40.297 LOG       IterateData      Iteration Data:
+<record xmlns="http://www.xact.dk/xatester/v/1">
+  <employee-dtl>
+    <filler1></filler1>
+    <emp-dtl-name>THOMAS LONG</emp-dtl-name>
+    <filler2></filler2>
+    <emp-dtl-region>WEST</emp-dtl-region>
+    <filler3></filler3>
+    <emp-dtl-type>H</emp-dtl-type>
+    <filler4></filler4>
+    <emp-dtl-hire-mm>3</emp-dtl-hire-mm>
+    <emp-dtl-slash1>/</emp-dtl-slash1>
+    <emp-dtl-hire-dd>31</emp-dtl-hire-dd>
+    <emp-dtl-slash2>/</emp-dtl-slash2>
+    <emp-dtl-hire-yy>87</emp-dtl-hire-yy>
+    <filler5></filler5>
+    <emp-dtl-yrs-of-service>33</emp-dtl-yrs-of-service>
+    <filler6></filler6>
+    <emp-dtl-wages>' 1000'</emp-dtl-wages>
+    <filler7></filler7>
+    <emp-dtl-ot>'  0'</emp-dtl-ot>
+    <filler8></filler8>
+    <emp-dtl-comm>'    0'</emp-dtl-comm>
+    <filler9></filler9>
+    <emp-dtl-total>' 1000'</emp-dtl-total>
+  </employee-dtl>
+</record>
+12:35:40.297 INFO      Verify           Interpreting Verify component name:Verify
+12:35:40.309 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+var tmpWages = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-wages'])
+var tmpOt    = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-ot'])
+var tmpComm  = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-comm'])
+var tmpTotal = tmpWages + tmpOt + tmpComm
+
+tmpTotal.toFixed(2)
+12:35:40.312 INFO      Verify           Comments from JavaScript execution:
+2020-09-18 12:35:40,309 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+var tmpWages = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-wages'])
+var tmpOt    = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-ot'])
+var tmpComm  = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-comm'])
+var tmpTotal = tmpWages + tmpOt + tmpComm
+
+tmpTotal.toFixed(2) 
+
+12:35:40.312 LOG       Verify           Expression evaluated to:1000.00
+12:35:40.312 LOG       Verify           Expected from expression:
+1000.00
+12:35:40.325 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-total']).toFixed(2)
+12:35:40.326 INFO      Verify           Comments from JavaScript execution:
+2020-09-18 12:35:40,325 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-total']).toFixed(2) 
+
+12:35:40.326 LOG       Verify           Expression evaluated to:1000.00
+12:35:40.326 LOG       Verify           Actual from expression:
+1000.00
+12:35:40.327 INFO      Verify           Expected and Actual data was found to be identical
+12:35:40.327 INFO      IterateData      Iteration number 6 started.
+12:35:40.327 LOG       IterateData      Iteration Data:
+<record xmlns="http://www.xact.dk/xatester/v/1">
+  <employee-dtl>
+    <filler1></filler1>
+    <emp-dtl-name>SAMUEL ADDAMS</emp-dtl-name>
+    <filler2></filler2>
+    <emp-dtl-region>WEST</emp-dtl-region>
+    <filler3></filler3>
+    <emp-dtl-type>H</emp-dtl-type>
+    <filler4></filler4>
+    <emp-dtl-hire-mm>1</emp-dtl-hire-mm>
+    <emp-dtl-slash1>/</emp-dtl-slash1>
+    <emp-dtl-hire-dd>2</emp-dtl-hire-dd>
+    <emp-dtl-slash2>/</emp-dtl-slash2>
+    <emp-dtl-hire-yy>86</emp-dtl-hire-yy>
+    <filler5></filler5>
+    <emp-dtl-yrs-of-service>34</emp-dtl-yrs-of-service>
+    <filler6></filler6>
+    <emp-dtl-wages>' 1100'</emp-dtl-wages>
+    <filler7></filler7>
+    <emp-dtl-ot>' 82.5'</emp-dtl-ot>
+    <filler8></filler8>
+    <emp-dtl-comm>'    0'</emp-dtl-comm>
+    <filler9></filler9>
+    <emp-dtl-total>' 1182.5'</emp-dtl-total>
+  </employee-dtl>
+</record>
+12:35:40.327 INFO      Verify           Interpreting Verify component name:Verify
+12:35:40.340 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+var tmpWages = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-wages'])
+var tmpOt    = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-ot'])
+var tmpComm  = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-comm'])
+var tmpTotal = tmpWages + tmpOt + tmpComm
+
+tmpTotal.toFixed(2)
+12:35:40.343 INFO      Verify           Comments from JavaScript execution:
+2020-09-18 12:35:40,340 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+var tmpWages = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-wages'])
+var tmpOt    = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-ot'])
+var tmpComm  = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-comm'])
+var tmpTotal = tmpWages + tmpOt + tmpComm
+
+tmpTotal.toFixed(2) 
+
+12:35:40.343 LOG       Verify           Expression evaluated to:1182.50
+12:35:40.343 LOG       Verify           Expected from expression:
+1182.50
+12:35:40.356 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-total']).toFixed(2)
+12:35:40.359 INFO      Verify           Comments from JavaScript execution:
+2020-09-18 12:35:40,356 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-total']).toFixed(2) 
+
+12:35:40.359 LOG       Verify           Expression evaluated to:1182.50
+12:35:40.359 LOG       Verify           Actual from expression:
+1182.50
+12:35:40.359 INFO      Verify           Expected and Actual data was found to be identical
+12:35:40.359 INFO      IterateData      Iteration number 7 started.
+12:35:40.359 LOG       IterateData      Iteration Data:
+<record xmlns="http://www.xact.dk/xatester/v/1">
+  <employee-dtl>
+    <filler1></filler1>
+    <emp-dtl-name>MAX E MILLION</emp-dtl-name>
+    <filler2></filler2>
+    <emp-dtl-region>WEST</emp-dtl-region>
+    <filler3></filler3>
+    <emp-dtl-type>H</emp-dtl-type>
+    <filler4></filler4>
+    <emp-dtl-hire-mm>2</emp-dtl-hire-mm>
+    <emp-dtl-slash1>/</emp-dtl-slash1>
+    <emp-dtl-hire-dd>3</emp-dtl-hire-dd>
+    <emp-dtl-slash2>/</emp-dtl-slash2>
+    <emp-dtl-hire-yy>91</emp-dtl-hire-yy>
+    <filler5></filler5>
+    <emp-dtl-yrs-of-service>29</emp-dtl-yrs-of-service>
+    <filler6></filler6>
+    <emp-dtl-wages>' 1000'</emp-dtl-wages>
+    <filler7></filler7>
+    <emp-dtl-ot>800</emp-dtl-ot>
+    <filler8></filler8>
+    <emp-dtl-comm>'    0'</emp-dtl-comm>
+    <filler9></filler9>
+    <emp-dtl-total>' 2800'</emp-dtl-total>
+  </employee-dtl>
+</record>
+12:35:40.359 INFO      Verify           Interpreting Verify component name:Verify
+12:35:40.375 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+var tmpWages = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-wages'])
+var tmpOt    = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-ot'])
+var tmpComm  = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-comm'])
+var tmpTotal = tmpWages + tmpOt + tmpComm
+
+tmpTotal.toFixed(2)
+12:35:40.378 INFO      Verify           Comments from JavaScript execution:
+2020-09-18 12:35:40,375 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+var tmpWages = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-wages'])
+var tmpOt    = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-ot'])
+var tmpComm  = Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-comm'])
+var tmpTotal = tmpWages + tmpOt + tmpComm
+
+tmpTotal.toFixed(2) 
+
+12:35:40.379 LOG       Verify           Expression evaluated to:1800.00
+12:35:40.379 LOG       Verify           Expected from expression:
+1800.00
+12:35:40.394 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-total']).toFixed(2)
+12:35:40.397 INFO      Verify           Comments from JavaScript execution:
+2020-09-18 12:35:40,394 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+Number(loopThroughRptfileActual.record['employee-dtl']['emp-dtl-total']).toFixed(2) 
+
+12:35:40.397 LOG       Verify           Expression evaluated to:2800.00
+12:35:40.397 LOG       Verify           Actual from expression:
+2800.00
+12:35:40.397 WARNING   Verify           Expected and Actual data are NOT equal
+12:35:40.397 WARNING   Verify           Values are not equal. Actual:2800.00 Expected:1800.00
+12:35:40.397 INFO      IterateData      IterateData completed
+12:35:40.397 INFO      FileAIDCompare   Executing File-AID Compare element with assertions:
+12:35:40.397 INFO      FileAIDCompare     Assert on changed records : true
+12:35:40.397 INFO      FileAIDCompare     Assert on inserted records: true
+12:35:40.397 INFO      FileAIDCompare     Assert on deleted records : true
+12:35:40.398 LOG       FileAIDCompare   Job definition to be executed:
+//FASTEP   EXEC PGM=FILEAID,REGION=08M
+//STEPLIB  DD DISP=SHR,DSN=SYS2.CW.VJR17Y.CXVJLOAD
+//         DD DISP=SHR,DSN=SYS2.CW.VJR17Y.SXVJLOAD
+//SYSPRINT DD  SYSOUT=*
+//SYSLIST  DD  SYSOUT=*
+//DD01     DD  DSN=HDDRXM0.RT.KTDEMO.RPTFILE.EXPECT,
+//             DISP=SHR
+//DD01C    DD  DSN=HDDRXM0.RT.KTDEMO.RPTFILE,
+//             DISP=SHR
+//DD01CP   DD  DSN=HDDRXM0.RT.FA.COMPCRIT(CWXTCOB),
+//             DISP=SHR                              
+//DD01RL   DD  DSN=HDDRXM0.RT.COPY,
+//             DISP=SHR
+//DD01XR   DD  DSN=HDDRXM0.RT.FA.XREF(RPTFILE),
+//             DISP=SHR
+//SYSIN    DD  *
+$$DD01 COMPARE
+/*
+12:35:40.398 INFO      CWC2 Batch       Sending Job execution request to Host 
+12:35:40.812 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/b8ac36c9f73c45d88523eff216f11d6b
+12:35:41.828 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><jobname>FILEAIDC</jobname><runtime>JOB</runtime><refs file="HDDRXM0.XAJCL.FA562655.REFS" /></xatz_request></XATZREQ>
+12:35:42.019 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0923173</jobid><jobname>FILEAIDC</jobname><starttime>20200918063541978</starttime></xatz_response></XATZRESP>
+12:35:42.019 LOG       HCIClient        Response received from Host. Message: JobId:J0923173
+12:35:42.019 INFO      HCIClient        Job has been started at host with JobId:J0923173
+12:35:42.020 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0923173</jobid></xatz_request></XATZREQ>
+12:35:42.175 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0016</resultcode><resultmessage>XATZJINF error 1504: Job not found      </resultmessage><jobid /></xatz_response></XATZRESP>
+12:35:42.175 LOG       HCIClient        Response received from Host. Message:XATZJINF error 1504: Job not found JobId:
+12:35:42.175 WARNING   CWC2 Batch       Unable to get job information from host. Server responded with an error. Message: XATZJINF error 1504: Job not found ReturnCode:0016
+12:35:45.177 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>JOBINFO</operation><runat>DAY</runat><jobid>J0923173</jobid></xatz_request></XATZREQ>
+12:35:45.775 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0000</resultcode><resultmessage>Job information successfully returned</resultmessage><jobid /><responsedata><job><name>FILEAIDC</name><status>OUTPUT</status><returncode>CC=0000    </returncode><steps><step><id>J0923173</id><name>JES2    </name><procstep>        </procstep><ddname>JESMSGLG</ddname><linect>   21</linect><lrecl>  133</lrecl><dsname>HDDRXM0.FILEAIDC.J0923173.D0000002.JESMSGLG </dsname></step><step><id>J0923173</id><name>JES2    </name><procstep>        </procstep><ddname>JESJCL  </ddname><linect>   33</linect><lrecl>  136</lrecl><dsname>HDDRXM0.FILEAIDC.J0923173.D0000003.JESJCL   </dsname></step><step><id>J0923173</id><name>JES2    </name><procstep>        </procstep><ddname>JESYSMSG</ddname><linect>   48</linect><lrecl>  137</lrecl><dsname>HDDRXM0.FILEAIDC.J0923173.D0000004.JESYSMSG </dsname></step><step><id>J0923173</id><name>FASTEP  </name><procstep>        </procstep><ddname>SYSPRINT</ddname><linect>   88</linect><lrecl>  133</lrecl><dsname>HDDRXM0.FILEAIDC.J0923173.D0000103.?        </dsname></step><step><id>J0923173</id><name>FASTEP  </name><procstep>        </procstep><ddname>SYSLIST </ddname><linect>  172</linect><lrecl>  133</lrecl><dsname>HDDRXM0.FILEAIDC.J0923173.D0000104.?        </dsname></step></steps></job></responsedata></xatz_response></XATZRESP>
+12:35:45.776 LOG       HCIClient        Response received from Host. Message:Job information successfully returned JobId:
+12:35:45.777 INFO      CWC2 Batch       Job has completed, JobId:J0923173
+12:35:45.778 LOG       CWC2 Batch       Setting execution variable 'jobid' to J0923173
+12:35:45.778 LOG       CWC2 Batch       Setting execution variable 'jobname' to FILEAIDC
+12:35:45.781 LOG       FileAIDCompare   File-AID Job submitted with jobID: J0923173
+12:35:45.782 LOG       FileAIDCompare   Retrieving File-AID compare result from spool file DD:SYSLIST, STEP: FASTEP...
+12:35:46.063 LOG       CWC2 Batch       Looking for spool file with stepName:FASTEP dd:SYSLIST procStep:
+12:35:46.499 ERROR     FileAIDCompare   Number of records changed: 3. We now set the test scenario to failed
+12:35:46.499 INFO      Variable         Interpreting Variable id:db2Expected dataFile:Data/KT_DEMO_expected.xml
+12:35:46.500 LOG       Variable         Resolved data items from file Data/KT_DEMO_expected.xml
+<Row>
+  <EMP_NUM>03431</EMP_NUM>
+  <WAGE_TYPE>H</WAGE_TYPE>
+  <REGION>2</REGION>
+  <FIRST_LAST_NAME>GAIL LAWRENCE</FIRST_LAST_NAME>
+  <STREET_ADDR>123 NORTH AVE</STREET_ADDR>
+  <CITY>PLANO</CITY>
+  <STATE>TX</STATE>
+  <ZIP>57010</ZIP>
+  <HIREDATE>840625</HIREDATE>
+  <HOURS>38</HOURS>
+  <RATE>25.00</RATE>
+  <WAGES>950.00</WAGES>
+  <OVERTIME>0.00</OVERTIME>
+  <COMM>950.00</COMM>
+</Row>
+<Row>
+  <EMP_NUM>02523</EMP_NUM>
+  <WAGE_TYPE>H</WAGE_TYPE>
+  <REGION>1</REGION>
+  <FIRST_LAST_NAME>JOHN SMITH</FIRST_LAST_NAME>
+  <STREET_ADDR>5456 ELM STREET</STREET_ADDR>
+  <CITY>WAYNE</CITY>
+  <STATE>IL</STATE>
+  <ZIP>77902</ZIP>
+  <HIREDATE>811015</HIREDATE>
+  <HOURS>30</HOURS>
+  <RATE>25.00</RATE>
+  <WAGES>750.00</WAGES>
+  <OVERTIME>0.00</OVERTIME>
+  <COMM>750.00</COMM>
+</Row>
+<Row>
+  <EMP_NUM>01568</EMP_NUM>
+  <WAGE_TYPE>H</WAGE_TYPE>
+  <REGION>4</REGION>
+  <FIRST_LAST_NAME>THOMAS LONG</FIRST_LAST_NAME>
+  <STREET_ADDR>12 RACE STREET</STREET_ADDR>
+  <CITY>SAN JOSE</CITY>
+  <STATE>CA</STATE>
+  <ZIP>95126</ZIP>
+  <HIREDATE>870331</HIREDATE>
+  <HOURS>40</HOURS>
+  <RATE>25.00</RATE>
+  <WAGES>1000.00</WAGES>
+  <OVERTIME>0.00</OVERTIME>
+  <COMM>1000.00</COMM>
+</Row>
+<Row>
+  <EMP_NUM>03241</EMP_NUM>
+  <WAGE_TYPE>H</WAGE_TYPE>
+  <REGION>3</REGION>
+  <FIRST_LAST_NAME>MARCIA SULLIVAN</FIRST_LAST_NAME>
+  <STREET_ADDR>55 SOUTH STREET</STREET_ADDR>
+  <CITY>NEW YORK</CITY>
+  <STATE>NY</STATE>
+  <ZIP>10017</ZIP>
+  <HIREDATE>930405</HIREDATE>
+  <HOURS>44</HOURS>
+  <RATE>30.00</RATE>
+  <WAGES>1200.00</WAGES>
+  <OVERTIME>0.00</OVERTIME>
+  <COMM>1380.00</COMM>
+</Row>
+<Row>
+  <EMP_NUM>01343</EMP_NUM>
+  <WAGE_TYPE>H</WAGE_TYPE>
+  <REGION>3</REGION>
+  <FIRST_LAST_NAME>JAMES MORRISON</FIRST_LAST_NAME>
+  <STREET_ADDR>11-A MAPLE AVE</STREET_ADDR>
+  <CITY>SYRACUSE</CITY>
+  <STATE>NY</STATE>
+  <ZIP>12123</ZIP>
+  <HIREDATE>910913</HIREDATE>
+  <HOURS>37</HOURS>
+  <RATE>27.50</RATE>
+  <WAGES>1017.50</WAGES>
+  <OVERTIME>0.00</OVERTIME>
+  <COMM>1017.50</COMM>
+</Row>
+<Row>
+  <EMP_NUM>02171</EMP_NUM>
+  <WAGE_TYPE>H</WAGE_TYPE>
+  <REGION>4</REGION>
+  <FIRST_LAST_NAME>SAMUEL ADDAMS</FIRST_LAST_NAME>
+  <STREET_ADDR>900 LINCOLN CT</STREET_ADDR>
+  <CITY>RENO</CITY>
+  <STATE>NV</STATE>
+  <ZIP>82433</ZIP>
+  <HIREDATE>860102</HIREDATE>
+  <HOURS>42</HOURS>
+  <RATE>27.50</RATE>
+  <WAGES>1100.00</WAGES>
+  <OVERTIME>0.00</OVERTIME>
+  <COMM>1182.50</COMM>
+</Row>
+<Row>
+  <EMP_NUM>59999</EMP_NUM>
+  <WAGE_TYPE>H</WAGE_TYPE>
+  <REGION>4</REGION>
+  <FIRST_LAST_NAME>MAX E MILLION</FIRST_LAST_NAME>
+  <STREET_ADDR>100 MAIN ST</STREET_ADDR>
+  <CITY>MAIN</CITY>
+  <STATE>OH</STATE>
+  <ZIP>34093</ZIP>
+  <HIREDATE>910203</HIREDATE>
+  <HOURS>88</HOURS>
+  <RATE>25.00</RATE>
+  <WAGES>1000.00</WAGES>
+  <OVERTIME>0.00</OVERTIME>
+  <COMM>2800.00</COMM>
+</Row>
+12:35:46.500 INFO      IterateData      Interpreting IterateData id: loopThroughSelectAfter. Number of data iterations: 7. Variable loopThroughSelectAfterIndex contains iteration number
+12:35:46.500 INFO      IterateData      Iteration number 0 started.
+12:35:46.500 LOG       IterateData      Iteration Data:
+<Row xmlns="http://www.xact.dk/xatester/v/1">
+  <EMP_NUM>03431</EMP_NUM>
+  <WAGE_TYPE>H</WAGE_TYPE>
+  <REGION>00002</REGION>
+  <FIRST_LAST_NAME>GAIL LAWRENCE</FIRST_LAST_NAME>
+  <STREET_ADDR>123 NORTH AVE</STREET_ADDR>
+  <CITY>PLANO</CITY>
+  <STATE>TX</STATE>
+  <ZIP>57010</ZIP>
+  <HIREDATE>840625</HIREDATE>
+  <HOURS>+38</HOURS>
+  <RATE>+2500</RATE>
+  <WAGES>+95000</WAGES>
+  <OVERTIME>+0</OVERTIME>
+  <COMM>+95000</COMM>
+</Row>
+12:35:46.500 INFO      Verify           Interpreting Verify component name:Verify
+12:35:46.516 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+Number(db2Expected.Row[loopThroughSelectAfterIndex].WAGES).toFixed(2)
+12:35:46.518 INFO      Verify           Comments from JavaScript execution:
+2020-09-18 12:35:46,516 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+Number(db2Expected.Row[loopThroughSelectAfterIndex].WAGES).toFixed(2) 
+
+12:35:46.518 LOG       Verify           Expression evaluated to:950.00
+12:35:46.518 LOG       Verify           Expected from expression:
+950.00
+12:35:46.531 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+tmpWages = Number(loopThroughSelectAfter.Row.WAGES) / 100
+tmpWages.toFixed(2)
+12:35:46.534 INFO      Verify           Comments from JavaScript execution:
+2020-09-18 12:35:46,531 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+tmpWages = Number(loopThroughSelectAfter.Row.WAGES) / 100
+tmpWages.toFixed(2) 
+
+12:35:46.534 LOG       Verify           Expression evaluated to:950.00
+12:35:46.534 LOG       Verify           Actual from expression:
+950.00
+12:35:46.534 INFO      Verify           Expected and Actual data was found to be identical
+12:35:46.534 INFO      IterateData      Iteration number 1 started.
+12:35:46.534 LOG       IterateData      Iteration Data:
+<Row xmlns="http://www.xact.dk/xatester/v/1">
+  <EMP_NUM>02523</EMP_NUM>
+  <WAGE_TYPE>H</WAGE_TYPE>
+  <REGION>00001</REGION>
+  <FIRST_LAST_NAME>JOHN SMITH</FIRST_LAST_NAME>
+  <STREET_ADDR>5456 ELM STREET</STREET_ADDR>
+  <CITY>WAYNE</CITY>
+  <STATE>IL</STATE>
+  <ZIP>77902</ZIP>
+  <HIREDATE>811015</HIREDATE>
+  <HOURS>+30</HOURS>
+  <RATE>+2500</RATE>
+  <WAGES>+75000</WAGES>
+  <OVERTIME>+0</OVERTIME>
+  <COMM>+75000</COMM>
+</Row>
+12:35:46.535 INFO      Verify           Interpreting Verify component name:Verify
+12:35:46.551 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+Number(db2Expected.Row[loopThroughSelectAfterIndex].WAGES).toFixed(2)
+12:35:46.553 INFO      Verify           Comments from JavaScript execution:
+2020-09-18 12:35:46,552 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+Number(db2Expected.Row[loopThroughSelectAfterIndex].WAGES).toFixed(2) 
+
+12:35:46.553 LOG       Verify           Expression evaluated to:750.00
+12:35:46.553 LOG       Verify           Expected from expression:
+750.00
+12:35:46.568 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+tmpWages = Number(loopThroughSelectAfter.Row.WAGES) / 100
+tmpWages.toFixed(2)
+12:35:46.570 INFO      Verify           Comments from JavaScript execution:
+2020-09-18 12:35:46,568 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+tmpWages = Number(loopThroughSelectAfter.Row.WAGES) / 100
+tmpWages.toFixed(2) 
+
+12:35:46.570 LOG       Verify           Expression evaluated to:750.00
+12:35:46.570 LOG       Verify           Actual from expression:
+750.00
+12:35:46.570 INFO      Verify           Expected and Actual data was found to be identical
+12:35:46.571 INFO      IterateData      Iteration number 2 started.
+12:35:46.571 LOG       IterateData      Iteration Data:
+<Row xmlns="http://www.xact.dk/xatester/v/1">
+  <EMP_NUM>01568</EMP_NUM>
+  <WAGE_TYPE>H</WAGE_TYPE>
+  <REGION>00004</REGION>
+  <FIRST_LAST_NAME>THOMAS LONG</FIRST_LAST_NAME>
+  <STREET_ADDR>12 RACE STREET</STREET_ADDR>
+  <CITY>SAN JOSE</CITY>
+  <STATE>CA</STATE>
+  <ZIP>95126</ZIP>
+  <HIREDATE>870331</HIREDATE>
+  <HOURS>+40</HOURS>
+  <RATE>+2500</RATE>
+  <WAGES>+100000</WAGES>
+  <OVERTIME>+0</OVERTIME>
+  <COMM>+100000</COMM>
+</Row>
+12:35:46.571 INFO      Verify           Interpreting Verify component name:Verify
+12:35:46.583 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+Number(db2Expected.Row[loopThroughSelectAfterIndex].WAGES).toFixed(2)
+12:35:46.585 INFO      Verify           Comments from JavaScript execution:
+2020-09-18 12:35:46,583 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+Number(db2Expected.Row[loopThroughSelectAfterIndex].WAGES).toFixed(2) 
+
+12:35:46.585 LOG       Verify           Expression evaluated to:1000.00
+12:35:46.585 LOG       Verify           Expected from expression:
+1000.00
+12:35:46.599 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+tmpWages = Number(loopThroughSelectAfter.Row.WAGES) / 100
+tmpWages.toFixed(2)
+12:35:46.601 INFO      Verify           Comments from JavaScript execution:
+2020-09-18 12:35:46,599 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+tmpWages = Number(loopThroughSelectAfter.Row.WAGES) / 100
+tmpWages.toFixed(2) 
+
+12:35:46.601 LOG       Verify           Expression evaluated to:1000.00
+12:35:46.602 LOG       Verify           Actual from expression:
+1000.00
+12:35:46.602 INFO      Verify           Expected and Actual data was found to be identical
+12:35:46.602 INFO      IterateData      Iteration number 3 started.
+12:35:46.602 LOG       IterateData      Iteration Data:
+<Row xmlns="http://www.xact.dk/xatester/v/1">
+  <EMP_NUM>03241</EMP_NUM>
+  <WAGE_TYPE>H</WAGE_TYPE>
+  <REGION>00003</REGION>
+  <FIRST_LAST_NAME>MARCIA SULLIVAN</FIRST_LAST_NAME>
+  <STREET_ADDR>55 SOUTH STREET</STREET_ADDR>
+  <CITY>NEW YORK</CITY>
+  <STATE>NY</STATE>
+  <ZIP>10017</ZIP>
+  <HIREDATE>930405</HIREDATE>
+  <HOURS>+44</HOURS>
+  <RATE>+3000</RATE>
+  <WAGES>+120000</WAGES>
+  <OVERTIME>+0</OVERTIME>
+  <COMM>+138000</COMM>
+</Row>
+12:35:46.602 INFO      Verify           Interpreting Verify component name:Verify
+12:35:46.624 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+Number(db2Expected.Row[loopThroughSelectAfterIndex].WAGES).toFixed(2)
+12:35:46.627 INFO      Verify           Comments from JavaScript execution:
+2020-09-18 12:35:46,624 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+Number(db2Expected.Row[loopThroughSelectAfterIndex].WAGES).toFixed(2) 
+
+12:35:46.627 LOG       Verify           Expression evaluated to:1200.00
+12:35:46.627 LOG       Verify           Expected from expression:
+1200.00
+12:35:46.646 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+tmpWages = Number(loopThroughSelectAfter.Row.WAGES) / 100
+tmpWages.toFixed(2)
+12:35:46.649 INFO      Verify           Comments from JavaScript execution:
+2020-09-18 12:35:46,647 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+tmpWages = Number(loopThroughSelectAfter.Row.WAGES) / 100
+tmpWages.toFixed(2) 
+
+12:35:46.649 LOG       Verify           Expression evaluated to:1200.00
+12:35:46.649 LOG       Verify           Actual from expression:
+1200.00
+12:35:46.649 INFO      Verify           Expected and Actual data was found to be identical
+12:35:46.649 INFO      IterateData      Iteration number 4 started.
+12:35:46.649 LOG       IterateData      Iteration Data:
+<Row xmlns="http://www.xact.dk/xatester/v/1">
+  <EMP_NUM>01343</EMP_NUM>
+  <WAGE_TYPE>H</WAGE_TYPE>
+  <REGION>00003</REGION>
+  <FIRST_LAST_NAME>JAMES MORRISON</FIRST_LAST_NAME>
+  <STREET_ADDR>11-A MAPLE AVE</STREET_ADDR>
+  <CITY>SYRACUSE</CITY>
+  <STATE>NY</STATE>
+  <ZIP>12123</ZIP>
+  <HIREDATE>910913</HIREDATE>
+  <HOURS>+37</HOURS>
+  <RATE>+2750</RATE>
+  <WAGES>+101750</WAGES>
+  <OVERTIME>+0</OVERTIME>
+  <COMM>+101750</COMM>
+</Row>
+12:35:46.649 INFO      Verify           Interpreting Verify component name:Verify
+12:35:46.669 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+Number(db2Expected.Row[loopThroughSelectAfterIndex].WAGES).toFixed(2)
+12:35:46.671 INFO      Verify           Comments from JavaScript execution:
+2020-09-18 12:35:46,669 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+Number(db2Expected.Row[loopThroughSelectAfterIndex].WAGES).toFixed(2) 
+
+12:35:46.671 LOG       Verify           Expression evaluated to:1017.50
+12:35:46.671 LOG       Verify           Expected from expression:
+1017.50
+12:35:46.688 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+tmpWages = Number(loopThroughSelectAfter.Row.WAGES) / 100
+tmpWages.toFixed(2)
+12:35:46.691 INFO      Verify           Comments from JavaScript execution:
+2020-09-18 12:35:46,688 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+tmpWages = Number(loopThroughSelectAfter.Row.WAGES) / 100
+tmpWages.toFixed(2) 
+
+12:35:46.691 LOG       Verify           Expression evaluated to:1017.50
+12:35:46.691 LOG       Verify           Actual from expression:
+1017.50
+12:35:46.691 INFO      Verify           Expected and Actual data was found to be identical
+12:35:46.691 INFO      IterateData      Iteration number 5 started.
+12:35:46.691 LOG       IterateData      Iteration Data:
+<Row xmlns="http://www.xact.dk/xatester/v/1">
+  <EMP_NUM>02171</EMP_NUM>
+  <WAGE_TYPE>H</WAGE_TYPE>
+  <REGION>00004</REGION>
+  <FIRST_LAST_NAME>SAMUEL ADDAMS</FIRST_LAST_NAME>
+  <STREET_ADDR>900 LINCOLN CT</STREET_ADDR>
+  <CITY>RENO</CITY>
+  <STATE>NV</STATE>
+  <ZIP>82433</ZIP>
+  <HIREDATE>860102</HIREDATE>
+  <HOURS>+42</HOURS>
+  <RATE>+2750</RATE>
+  <WAGES>+110000</WAGES>
+  <OVERTIME>+0</OVERTIME>
+  <COMM>+118250</COMM>
+</Row>
+12:35:46.691 INFO      Verify           Interpreting Verify component name:Verify
+12:35:46.706 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+Number(db2Expected.Row[loopThroughSelectAfterIndex].WAGES).toFixed(2)
+12:35:46.708 INFO      Verify           Comments from JavaScript execution:
+2020-09-18 12:35:46,706 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+Number(db2Expected.Row[loopThroughSelectAfterIndex].WAGES).toFixed(2) 
+
+12:35:46.708 LOG       Verify           Expression evaluated to:1100.00
+12:35:46.708 LOG       Verify           Expected from expression:
+1100.00
+12:35:46.721 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+tmpWages = Number(loopThroughSelectAfter.Row.WAGES) / 100
+tmpWages.toFixed(2)
+12:35:46.722 INFO      Verify           Comments from JavaScript execution:
+2020-09-18 12:35:46,721 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+tmpWages = Number(loopThroughSelectAfter.Row.WAGES) / 100
+tmpWages.toFixed(2) 
+
+12:35:46.722 LOG       Verify           Expression evaluated to:1100.00
+12:35:46.722 LOG       Verify           Actual from expression:
+1100.00
+12:35:46.722 INFO      Verify           Expected and Actual data was found to be identical
+12:35:46.722 INFO      IterateData      Iteration number 6 started.
+12:35:46.722 LOG       IterateData      Iteration Data:
+<Row xmlns="http://www.xact.dk/xatester/v/1">
+  <EMP_NUM>59999</EMP_NUM>
+  <WAGE_TYPE>H</WAGE_TYPE>
+  <REGION>00004</REGION>
+  <FIRST_LAST_NAME>MAX E MILLION</FIRST_LAST_NAME>
+  <STREET_ADDR>100 MAIN ST</STREET_ADDR>
+  <CITY>MAIN</CITY>
+  <STATE>OH</STATE>
+  <ZIP>34093</ZIP>
+  <HIREDATE>910203</HIREDATE>
+  <HOURS>+88</HOURS>
+  <RATE>+2500</RATE>
+  <WAGES>+100000</WAGES>
+  <OVERTIME>+0</OVERTIME>
+  <COMM>+280000</COMM>
+</Row>
+12:35:46.722 INFO      Verify           Interpreting Verify component name:Verify
+12:35:46.735 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+Number(db2Expected.Row[loopThroughSelectAfterIndex].WAGES).toFixed(2)
+12:35:46.736 INFO      Verify           Comments from JavaScript execution:
+2020-09-18 12:35:46,735 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+Number(db2Expected.Row[loopThroughSelectAfterIndex].WAGES).toFixed(2) 
+
+12:35:46.737 LOG       Verify           Expression evaluated to:1000.00
+12:35:46.737 LOG       Verify           Expected from expression:
+1000.00
+12:35:46.753 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+tmpWages = Number(loopThroughSelectAfter.Row.WAGES) / 100
+tmpWages.toFixed(2)
+12:35:46.754 INFO      Verify           Comments from JavaScript execution:
+2020-09-18 12:35:46,753 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+tmpWages = Number(loopThroughSelectAfter.Row.WAGES) / 100
+tmpWages.toFixed(2) 
+
+12:35:46.754 LOG       Verify           Expression evaluated to:1000.00
+12:35:46.754 LOG       Verify           Actual from expression:
+1000.00
+12:35:46.754 INFO      Verify           Expected and Actual data was found to be identical
+12:35:46.754 INFO      IterateData      IterateData completed
+12:35:46.754 COMMENT   Engine           Test Scenario execution ended

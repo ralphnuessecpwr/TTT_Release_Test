@@ -29,7 +29,7 @@ Sub Scope "Execute Negative Tests and Verify"&#xD;
 - Verify that return code indicates an error</Description>
   <Test>
     <Scope name="Initialization" disabled="false">
-      <Variable id="db2CreatorName">HDDRXM0</Variable>
+      <Variable id="db2CreatorName">ADKKXC0</Variable>
       <Variable id="db2TableName">XAEMPLOYEE</Variable>
     </Scope>
     <Scope name="Determine DB2 Row Ids" disabled="false">
@@ -49,7 +49,16 @@ tempRowId.toString();]]></Statement>
     </Scope>
     <Scope name="Check that row exists" disabled="false">
       <SQLSelect id="selectExisting" maxRows="1">
-        <Statement>SELECT RIDENT,  FIRSTNAME,  LASTNAME,  CPRNR,  TSTMP,  USERID,  STATUSCODE FROM ${db2CreatorName}.${db2TableName} where RIDENT= ${maxRowId};</Statement>
+        <Statement>SELECT &#xD;
+	RIDENT,  &#xD;
+	FIRSTNAME,  &#xD;
+	LASTNAME,  &#xD;
+	CPRNR,  &#xD;
+	TSTMP,  &#xD;
+	USERID,  &#xD;
+	STATUSCODE &#xD;
+FROM ${db2CreatorName}.${db2TableName} &#xD;
+	where RIDENT= ${maxRowId};</Statement>
         <Output name="RIDENT" />
         <Output name="FIRSTNAME" />
         <Output name="LASTNAME" />
@@ -149,7 +158,16 @@ tempRowId.toString();]]></Statement>
     <Scope name="Negative Tests" disabled="false">
       <Scope name="Check that row does not exist" disabled="false">
         <SQLSelect id="selectNonExisting" maxRows="1">
-          <Statement>SELECT RIDENT,  FIRSTNAME,  LASTNAME,  CPRNR,  TSTMP,  USERID,  STATUSCODE FROM ${db2CreatorName}.${db2TableName} where RIDENT= ${newRowId};</Statement>
+          <Statement>SELECT &#xD;
+	RIDENT,  &#xD;
+	FIRSTNAME,  &#xD;
+	LASTNAME,  &#xD;
+	CPRNR,  &#xD;
+	TSTMP,  &#xD;
+	USERID,  &#xD;
+	STATUSCODE &#xD;
+FROM ${db2CreatorName}.${db2TableName} &#xD;
+	where RIDENT= ${newRowId};</Statement>
           <Output name="RIDENT" />
           <Output name="FIRSTNAME" />
           <Output name="LASTNAME" />
@@ -158,9 +176,8 @@ tempRowId.toString();]]></Statement>
           <Output name="USERID" />
           <Output name="STATUSCODE" />
         </SQLSelect>
-        <Verify name="Verify" haltExecution="false">
-          <Expected />
-          <Actual />
+        <Verify name="Verify" haltExecution="true">
+          <Statement><![CDATA[selectNonExisting.Row == null]]></Statement>
         </Verify>
       </Scope>
       <Scope name="Execute Negative Tests and Verify" disabled="false">

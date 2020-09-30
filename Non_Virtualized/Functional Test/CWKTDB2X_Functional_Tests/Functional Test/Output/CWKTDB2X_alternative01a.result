@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <XaUnitResult resultType="VERIFICATION_ERROR" containsSimulation="false">
-  <ExecutionId>9e9262fa-b84a-4542-9bf0-309bcc559354</ExecutionId>
+  <ExecutionId>63f3a741-269a-42fd-9d03-bd01736aab51</ExecutionId>
   <Message />
   <AST>
     <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1">
       <Test>
-        <EnterpriseData repository="&lt;Local Repository&gt;" specification="CWC2_KT_DEMOTAB" specificationtype="LOAD" enginecompatibilitytype="RDX" description="Load Data">
-          <result>Job HDDRXM0X(J0885519) submitted for execution on host CWCC, 2020 JUN 26 09:01:13
-Reports File Location: HDDRXM0.FARDX.REPORTS.D200626.T090111
-Execution started on host CWC2, 2020 JUN 26 09:01:13
+        <EnterpriseData repository="&lt;Local Repository&gt;" specification="Load_CWC2_KT_DEMOTAB" specificationtype="LOAD" enginecompatibilitytype="RDX" description="Load Data">
+          <result>Job HDDRXM0X(J0923156) submitted for execution on host CWCC, 2020 SEP 18 06:29:28
+Reports File Location: HDDRXM0.FARDX.REPORTS.D200918.T062926
+Execution started on host CWC2, 2020 SEP 18 06:29:28
 
------------------------------------Execution completed, 2020 JUN 26 09:01:15, Return code = CC 0000-----------------------------------
+-----------------------------------Execution completed, 2020 SEP 18 06:29:30, Return code = CC 0000-----------------------------------
 
 
 1File-AID/RDX 17.02.00                              SQL Insert: DB2 Totals Report                                   PAGE  1          &#xD;
-                                                                                                                    DATE  2020-06-26 &#xD;
-                                                                                                                    TIME  09:01:14   &#xD;
+                                                                                                                    DATE  2020-09-18 &#xD;
+                                                                                                                    TIME  06:29:29   &#xD;
                                                                                                                                      &#xD;
   Inserted  Replaced  Discarded  Load Object                                                                                         &#xD;
  ---------  --------  ---------  ----------------------------------------------------------------------------------------------------&#xD;
@@ -34,23 +34,24 @@ Execution started on host CWC2, 2020 JUN 26 09:01:13
             </parminfo>
           </Data>
           <Setup>
-            <Content><![CDATA[//EMPFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.CWKTDATA
-//RPTFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE
+            <Content><![CDATA[//EMPFILE  DD DISP=SHR,DSN=HDDRXM0.RT.CWKTDATA
+//RPTFILE  DD DISP=SHR,DSN=HDDRXM0.RT.KTDEMO.RPTFILE
 //*RPTFILE  DD SYSOUT=*]]></Content>
           </Setup>
         </Component>
-        <EnterpriseData repository="&lt;Local Repository&gt;" specification="CWC2_KT_DEMOTAB" specificationtype="EXTRACT" enginecompatibilitytype="RDX" description="Extract Results">
-          <result>Job HDDRXM0X(J0885522) submitted for execution on host CWCC, 2020 JUN 26 09:01:43
-Reports File Location: HDDRXM0.FARDX.REPORTS.D200626.T090141
-Execution started on host CWC2, 2020 JUN 26 09:01:43
+        <EnterpriseData repository="&lt;Local Repository&gt;" specification="Extract_CWC2_KT_DEMOTAB" specificationtype="EXTRACT" enginecompatibilitytype="RDX" description="Extract Results">
+          <result>Job HDDRXM0X(J0923159) submitted for execution on host CWC2, 2020 SEP 18 06:29:57
+Reports File Location: HDDRXM0.FARDX.REPORTS.D200918.T062955
+Execution started on host CWC2, 2020 SEP 18 06:29:58
 
------------------------------------Execution completed, 2020 JUN 26 09:01:44, Return code = CC 0000-----------------------------------
+Failed to obtain the progress report. Refer to RDX documentation to configure the location for progress report.
+-----------------------------------Execution completed, 2020 SEP 18 06:29:59, Return code = CC 0000-----------------------------------
 
 
 1File-AID/RDX 17.02.00                         Object Sampling and Selection Criteria Report                        PAGE  1          &#xD;
-                                                                                                                    DATE  2020-06-26 &#xD;
- Extract File. . : HDDRXM0.DEMO.CWC2.KTDEMO.EXTRACT.ACT                                                             TIME  09.01.43   &#xD;
- Extract Request : HDDRXM0.FARDX.REQUEST.D200626.T090141                                                            SSID  DSC2       &#xD;
+                                                                                                                    DATE  2020-09-18 &#xD;
+ Extract File. . : HDDRXM0.DEMO.CWC2.KTDEMO.EXTRACT.ACT                                                             TIME  06.29.58   &#xD;
+ Extract Request : HDDRXM0.FARDX.REQUEST.D200918.T062955                                                            SSID  DSC2       &#xD;
  Driving Object. : D-DSC2CWC2.HDDRXM0.KT_DEMOTAB                                                                                     &#xD;
 0-------------------------------------------------------Extract Scope Information ---------------------------------------------------&#xD;
 0                    Cycle count. . . . . . . . . . . . . . . . . . . :  *                                                           &#xD;
@@ -62,9 +63,9 @@ Execution started on host CWC2, 2020 JUN 26 09:01:43
                      Delimited Extract. . . . . . . . . . . . . . . . :  NO                                                          &#xD;
                      Extract from Image Copy. . . . . . . . . . . . . :  NO                                                          &#xD;
 1File-AID/RDX 17.02.00                         Object Sampling and Selection Criteria Report                        PAGE  2          &#xD;
-                                                                                                                    DATE  2020-06-26 &#xD;
- Extract File. . : HDDRXM0.DEMO.CWC2.KTDEMO.EXTRACT.ACT                                                             TIME  09.01.43   &#xD;
- Extract Request : HDDRXM0.FARDX.REQUEST.D200626.T090141                                                            SSID  DSC2       &#xD;
+                                                                                                                    DATE  2020-09-18 &#xD;
+ Extract File. . : HDDRXM0.DEMO.CWC2.KTDEMO.EXTRACT.ACT                                                             TIME  06.29.58   &#xD;
+ Extract Request : HDDRXM0.FARDX.REQUEST.D200918.T062955                                                            SSID  DSC2       &#xD;
  Driving Object. : D-DSC2CWC2.HDDRXM0.KT_DEMOTAB                                                                                     &#xD;
  -------------------------------------------------- Criteria Set 1 of 1 - Object Information ----------------------------------------&#xD;
  Status     Cycle  MaxRows  NTH  Object Criteria                                                                                     &#xD;
@@ -73,9 +74,9 @@ Execution started on host CWC2, 2020 JUN 26 09:01:43
 0                                                    * * *  END OF REPORT  * * *                                                     &#xD;
 0                                                                                                                                    &#xD;
 1File-AID/RDX 17.02.00                                Extract Summary Report                                        PAGE  1          &#xD;
-                                                                                                                    DATE  2020-06-26 &#xD;
- Extract File. . : HDDRXM0.DEMO.CWC2.KTDEMO.EXTRACT.ACT                                                             TIME  09.01.43   &#xD;
- Extract Request : HDDRXM0.FARDX.REQUEST.D200626.T090141                                                            SSID  DSC2       &#xD;
+                                                                                                                    DATE  2020-09-18 &#xD;
+ Extract File. . : HDDRXM0.DEMO.CWC2.KTDEMO.EXTRACT.ACT                                                             TIME  06.29.58   &#xD;
+ Extract Request : HDDRXM0.FARDX.REQUEST.D200918.T062955                                                            SSID  DSC2       &#xD;
  Compression Type: None                                                                                                              &#xD;
  Driving Object. : D-DSC2CWC2.HDDRXM0.KT_DEMOTAB                                                                                     &#xD;
  ID         Rows  Extracted Objects and Relationships                                                                                &#xD;
@@ -90,22 +91,22 @@ Execution started on host CWC2, 2020 JUN 26 09:01:43
 //         DD DISP=SHR,DSN=SYS2.CW.VJR17Y.SXVJLOAD
 //SYSPRINT DD  SYSOUT=*
 //SYSLIST  DD  SYSOUT=*
-//DD01     DD  DSN=HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE.EXPECT,
+//DD01     DD  DSN=HDDRXM0.RT.KTDEMO.RPTFILE.EXPECT,
 //             DISP=SHR
-//DD01C    DD  DSN=HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE,
+//DD01C    DD  DSN=HDDRXM0.RT.KTDEMO.RPTFILE,
 //             DISP=SHR
-//DD01CP   DD  DSN=HDDRXM0.DEMO.FA.COMPCRIT(CWXTCOB),
+//DD01CP   DD  DSN=HDDRXM0.RT.FA.COMPCRIT(CWXTCOB),
 //             DISP=SHR                              
-//DD01RL   DD  DSN=HDDRXM0.DEMO.COPY,
+//DD01RL   DD  DSN=HDDRXM0.RT.COPY,
 //             DISP=SHR
-//DD01XR   DD  DSN=HDDRXM0.DEMO.XREF(RPTFILE),
+//DD01XR   DD  DSN=HDDRXM0.RT.FA.XREF(RPTFILE),
 //             DISP=SHR
 //SYSIN    DD  *
 $$DD01 COMPARE
 /*]]></JCL>
           <ResultReport><![CDATA[Â»
-ï¿½FILE-AID 17.2   COMPARE DETAIL REPORT              USERID-FILEAIDC       DATE 26/06/2020        TIME 09:02:01        PAGE         1
-ï¿½"OLD" DSN: HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE.EXPECT                "NEW" DSN: HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE
+ï¿½FILE-AID 17.2   COMPARE DETAIL REPORT              USERID-FILEAIDC       DATE 18/09/2020        TIME 06:30:16        PAGE         1
+ï¿½"OLD" DSN: HDDRXM0.RT.KTDEMO.RPTFILE.EXPECT                       "NEW" DSN: HDDRXM0.RT.KTDEMO.RPTFILE
 ï¿½===================================================================================================================================
 ï¿½CHANGED RECORD       "OLD" FILE RECORD:        12                |                     "NEW" FILE RECORD:        12
 ï¿½ NUM DATA-FIELD-NAME               FORMAT   FIELD VALUES         | NUM DATA-FIELD-NAME               FORMAT   FIELD VALUES
@@ -129,6 +130,17 @@ $$DD01 COMPARE
 ï¿½  15 EMP-DTL-YRS-OF-SERVICE       Z   2    26                    |  15 EMP-DTL-YRS-OF-SERVICE       Z   2    27
 ï¿½===================================================================================================================================
 ï¿½
+ï¿½CHANGED RECORD       "OLD" FILE RECORD:        14                |                     "NEW" FILE RECORD:        14
+ï¿½ NUM DATA-FIELD-NAME               FORMAT   FIELD VALUES         | NUM DATA-FIELD-NAME               FORMAT   FIELD VALUES
+ï¿½---- ---------------------------- -------- --------------------  |---- ---------------------------- -------- --------------------
+ï¿½   1 EMPLOYEE-DTL                                                |   1 EMPLOYEE-DTL
+ï¿½                                                                 |
+ï¿½>>> COMPARED FIELDS -    -    -    -    -    -    -    -    -    |    -    -    -    -    -    -    -    -    - COMPARED FIELDS <<<
+ï¿½                                                                 |
+ï¿½   3 EMP-DTL-NAME                 C     15 JAMES MORRISON        |   3 EMP-DTL-NAME                 C     15
+ï¿½  15 EMP-DTL-YRS-OF-SERVICE       Z   2    28                    |  15 EMP-DTL-YRS-OF-SERVICE       Z   2    29
+ï¿½===================================================================================================================================
+ï¿½
 ï¿½INSERTED RECORD                                                  |                     "NEW" FILE RECORD:        17
 ï¿½ NUM DATA-FIELD-NAME               FORMAT   FIELD VALUES         | NUM DATA-FIELD-NAME               FORMAT   FIELD VALUES
 ï¿½---- ---------------------------- -------- --------------------  |---- ---------------------------- -------- --------------------
@@ -148,6 +160,13 @@ $$DD01 COMPARE
 ï¿½                                                                 |  11 EMP-DTL-HIRE-DD              Z   2    03
 ï¿½                                                                 |  12 EMP-DTL-SLASH2               C      1 /
 ï¿½                                                                 |  13 EMP-DTL-HIRE-YY              Z   2    91
+Â»
+ï¿½FILE-AID 17.2   COMPARE DETAIL REPORT              USERID-FILEAIDC       DATE 18/09/2020        TIME 06:30:16        PAGE         2
+ï¿½"OLD" DSN: HDDRXM0.RT.KTDEMO.RPTFILE.EXPECT                       "NEW" DSN: HDDRXM0.RT.KTDEMO.RPTFILE
+ï¿½===================================================================================================================================
+ï¿½INSERTED RECORD                                                  |                     "NEW" FILE RECORD:        17
+ï¿½ NUM DATA-FIELD-NAME               FORMAT   FIELD VALUES         | NUM DATA-FIELD-NAME               FORMAT   FIELD VALUES
+ï¿½---- ---------------------------- -------- --------------------  |---- ---------------------------- -------- --------------------
 ï¿½                                                                 |  14 FILLER                       C      3
 ï¿½                                                                 |  15 EMP-DTL-YRS-OF-SERVICE       Z   2    29
 ï¿½                                                                 |  16 FILLER                       C      2
@@ -163,8 +182,8 @@ $$DD01 COMPARE
 ï¿½
 ï¿½                                                **** E N D   O F   R E P O R T ****
 Â»
-ï¿½FILE-AID 17.2   COMPARE CRITERIA CONTENTS REPORT   USERID-FILEAIDC       DATE 26/06/2020        TIME 09:02:01        PAGE         1
-ï¿½ COMPARE CRITERIA DSN: HDDRXM0.DEMO.FA.COMPCRIT(CWXTCOB)
+ï¿½FILE-AID 17.2   COMPARE CRITERIA CONTENTS REPORT   USERID-FILEAIDC       DATE 18/09/2020        TIME 06:30:16        PAGE         1
+ï¿½ COMPARE CRITERIA DSN: HDDRXM0.RT.FA.COMPCRIT(CWXTCOB)
 ï¿½===================================================================================================================================
 ï¿½    COMPARE CRITERIA CONTENTS:
 ï¿½    RECORD COMPARE CRITERIA:
@@ -219,8 +238,8 @@ $$DD01 COMPARE
 ï¿½  10 FILLER                             49 C      5 COMPARE    10|  10 FILLER                             49 C      5 COMPARE    10
 ï¿½  11 REG-DTL-COMM                       54 C      8 COMPARE    11|  11 REG-DTL-COMM                       54 C      8 COMPARE    11
 Â»
-ï¿½FILE-AID 17.2   COMPARE CRITERIA CONTENTS REPORT   USERID-FILEAIDC       DATE 26/06/2020        TIME 09:02:01        PAGE         2
-ï¿½ COMPARE CRITERIA DSN: HDDRXM0.DEMO.FA.COMPCRIT(CWXTCOB)
+ï¿½FILE-AID 17.2   COMPARE CRITERIA CONTENTS REPORT   USERID-FILEAIDC       DATE 18/09/2020        TIME 06:30:16        PAGE         2
+ï¿½ COMPARE CRITERIA DSN: HDDRXM0.RT.FA.COMPCRIT(CWXTCOB)
 ï¿½===================================================================================================================================
 ï¿½===================================================================================================================================
 ï¿½     OLD LAYOUT MEMBER: RPTFILE                              NEW |     NEW LAYOUT MEMBER: RPTFILE                              OLD
@@ -234,14 +253,14 @@ $$DD01 COMPARE
 ï¿½
 ï¿½                                                ****  E N D  O F  R E P O R T  ****
 Â»
-ï¿½FILE-AID 17.2   COMPARE SUMMARY REPORT             USERID-FILEAIDC       DATE 26/06/2020        TIME 09:02:01        PAGE         1
-ï¿½"OLD" DSN: HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE.EXPECT                "NEW" DSN: HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE
+ï¿½FILE-AID 17.2   COMPARE SUMMARY REPORT             USERID-FILEAIDC       DATE 18/09/2020        TIME 06:30:16        PAGE         1
+ï¿½"OLD" DSN: HDDRXM0.RT.KTDEMO.RPTFILE.EXPECT                       "NEW" DSN: HDDRXM0.RT.KTDEMO.RPTFILE
 ï¿½===================================================================================================================================
 ï¿½    COMPARE CRITERIA:
 ï¿½            COMPARE MODE:                               FORMATTED
 ï¿½            COBOL LAYOUT USAGE:                         XREF
-ï¿½            COBOL DATASET NAME:                         HDDRXM0.DEMO.COPY
-ï¿½            XREF DATASET NAME:                          HDDRXM0.DEMO.XREF(RPTFILE)
+ï¿½            COBOL DATASET NAME:                         HDDRXM0.RT.COPY
+ï¿½            XREF DATASET NAME:                          HDDRXM0.RT.FA.XREF(RPTFILE)
 ï¿½
 ï¿½    REPORT FORMAT PARAMETERS:
 ï¿½            PRINT FORMAT:                               FORMATTED
@@ -256,8 +275,8 @@ $$DD01 COMPARE
 ï¿½            "NEW" DATASET RECORDS READ:                19
 ï¿½            "OLD" DATASET RECORDS COMPARED:             7
 ï¿½            "NEW" DATASET RECORDS COMPARED:             8
-ï¿½            NUMBER OF RECORDS MATCHED:                  5
-ï¿½            NUMBER OF RECORDS CHANGED:                  2
+ï¿½            NUMBER OF RECORDS MATCHED:                  4
+ï¿½            NUMBER OF RECORDS CHANGED:                  3
 ï¿½            NUMBER OF RECORDS INSERTED:                 1
 ï¿½            NUMBER OF RECORDS DELETED:                  0
 ï¿½
@@ -269,23 +288,23 @@ $$DD01 COMPARE
 //         DD DISP=SHR,DSN=SYS2.CW.VJR17Z.SXVJLOAD
 //SYSPRINT DD  SYSOUT=*
 //SYSLIST  DD  SYSOUT=*,DCB=(LRECL=183,BLKSIZE=1830)
-//DD01     DD  DSN=HDDRXM0.DEMO.CWC2.KTDEMO.EXTRACT.EXPECT,
+//DD01     DD  DSN=HDDRXM0.RT.KTDEMO.EXTRACT.EXPECT,
 //             DISP=SHR
-//DD01C    DD  DSN=HDDRXM0.DEMO.CWC2.KTDEMO.EXTRACT.ACT,
+//DD01C    DD  DSN=HDDRXM0.RT.KTDEMO.EXTRACT.ACT,
 //             DISP=SHR
-//DD01CP   DD  DSN=HDDRXM0.DEMO.FA.COMPCRIT(KTDEMOTB),
+//DD01CP   DD  DSN=HDDRXM0.RT.FA.COMPCRIT(KTDEMOTB),
 //             DISP=SHR
-//DD01RL   DD  DSN=HDDRXM0.DEMO.COPY,
+//DD01RL   DD  DSN=HDDRXM0.RT.COPY,
 //             DISP=SHR
-//DD01XR   DD  DSN=HDDRXM0.DEMO.XREF(KTDEMTB),
+//DD01XR   DD  DSN=HDDRXM0.RT.FA.XREF(KTDEMTB),
 //             DISP=SHR
 //SYSIN    DD  *
 $$DD01 COMPARE
 /*
 //]]></JCL>
           <ResultReport><![CDATA[Â»
-ï¿½FILE-AID 17.2   COMPARE DETAIL REPORT              USERID-FILEAIDC       DATE 26/06/2020        TIME 09:02:07        PAGE         1
-ï¿½"OLD" DSN: HDDRXM0.DEMO.CWC2.KTDEMO.EXTRACT.EXPECT                "NEW" DSN: HDDRXM0.DEMO.CWC2.KTDEMO.EXTRACT.ACT
+ï¿½FILE-AID 17.2   COMPARE DETAIL REPORT              USERID-FILEAIDC       DATE 18/09/2020        TIME 06:30:21        PAGE         1
+ï¿½"OLD" DSN: HDDRXM0.RT.KTDEMO.EXTRACT.EXPECT                       "NEW" DSN: HDDRXM0.RT.KTDEMO.EXTRACT.ACT
 ï¿½===================================================================================================================================
 ï¿½INSERTED RECORD                                                  |                     "NEW" FILE RECORD:        10
 ï¿½ NUM DATA-FIELD-NAME               FORMAT   FIELD VALUES         | NUM DATA-FIELD-NAME               FORMAT   FIELD VALUES
@@ -342,8 +361,8 @@ $$DD01 COMPARE
 ï¿½
 ï¿½                                                **** E N D   O F   R E P O R T ****
 Â»
-ï¿½FILE-AID 17.2   COMPARE CRITERIA CONTENTS REPORT   USERID-FILEAIDC       DATE 26/06/2020        TIME 09:02:07        PAGE         1
-ï¿½ COMPARE CRITERIA DSN: HDDRXM0.DEMO.FA.COMPCRIT(KTDEMOTB)
+ï¿½FILE-AID 17.2   COMPARE CRITERIA CONTENTS REPORT   USERID-FILEAIDC       DATE 18/09/2020        TIME 06:30:21        PAGE         1
+ï¿½ COMPARE CRITERIA DSN: HDDRXM0.RT.FA.COMPCRIT(KTDEMOTB)
 ï¿½===================================================================================================================================
 ï¿½    COMPARE CRITERIA CONTENTS:
 ï¿½    RECORD COMPARE CRITERIA:
@@ -384,14 +403,14 @@ $$DD01 COMPARE
 ï¿½
 ï¿½                                                ****  E N D  O F  R E P O R T  ****
 Â»
-ï¿½FILE-AID 17.2   COMPARE SUMMARY REPORT             USERID-FILEAIDC       DATE 26/06/2020        TIME 09:02:07        PAGE         1
-ï¿½"OLD" DSN: HDDRXM0.DEMO.CWC2.KTDEMO.EXTRACT.EXPECT                "NEW" DSN: HDDRXM0.DEMO.CWC2.KTDEMO.EXTRACT.ACT
+ï¿½FILE-AID 17.2   COMPARE SUMMARY REPORT             USERID-FILEAIDC       DATE 18/09/2020        TIME 06:30:21        PAGE         1
+ï¿½"OLD" DSN: HDDRXM0.RT.KTDEMO.EXTRACT.EXPECT                       "NEW" DSN: HDDRXM0.RT.KTDEMO.EXTRACT.ACT
 ï¿½===================================================================================================================================
 ï¿½    COMPARE CRITERIA:
 ï¿½            COMPARE MODE:                               FORMATTED
 ï¿½            COBOL LAYOUT USAGE:                         XREF
-ï¿½            COBOL DATASET NAME:                         HDDRXM0.DEMO.COPY
-ï¿½            XREF DATASET NAME:                          HDDRXM0.DEMO.XREF(KTDEMTB)
+ï¿½            COBOL DATASET NAME:                         HDDRXM0.RT.COPY
+ï¿½            XREF DATASET NAME:                          HDDRXM0.RT.FA.XREF(KTDEMTB)
 ï¿½
 ï¿½    REPORT FORMAT PARAMETERS:
 ï¿½            PRINT FORMAT:                               FORMATTED
@@ -429,10 +448,10 @@ $$DD01 COMPARE
     </XaUnit>
   </AST>
   <Context>
-    <ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5e7a190fcf655a12a4d4df4d" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" userid="HDDRXM0" database="DSC2CWC2">
-      <platformruntime database="DSCCCWCC" driver="com.ibm.db2.jcc.DB2Driver" uri="jdbc:db2://cwc2.nasa.cpwr.corp:2846/${database}" environmenttype="BATCH" callinterface="NONE" />
+    <ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5f6457ad31d7ab4e8cb59b9d" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" userid="HDDRXM0" database="DSC2CWC2">
+      <platformruntime db2id="DSC2" database="DBCCCWCC" driver="com.ibm.db2.jcc.DB2Driver" uri="jdbc:db2://&lt;ip&gt;:&lt;port&gt;/${database}" environmenttype="BATCH" callinterface="NONE" />
       <ExtensionData />
-      <ExtensionData componentName="cwktdb2x" componentId="5e81aeb99aa1e25064976898">
+      <ExtensionData componentName="cwktdb2x" componentId="5f64649b31d7ab4e8cb59bb6">
         <Parameter key="db2id">
           <Value>DSC2</Value>
         </Parameter>
@@ -440,14 +459,13 @@ $$DD01 COMPARE
           <Value>RXNKTDB2</Value>
         </Parameter>
         <Parameter key="sourcelibrary">
-          <Value>HDDRXM0.DEMO.COB.BATCH</Value>
+          <Value>HDDRXM0.RT.COB.BATCH</Value>
         </Parameter>
         <Parameter key="loadlibraries">
-          <Value>HDDRXM0.DEMO.CWC2.LOAD.PDSE</Value>
-          <Value>HDDRXM0.DEMO.LOAD.PDSE</Value>
+          <Value>HDDRXM0.RT.LOAD.PDSE</Value>
         </Parameter>
         <Parameter key="sourcelibraries">
-          <Value>hddrxm0.demo.copy</Value>
+          <Value>HDDRXM0.RT.COPY</Value>
         </Parameter>
         <Parameter key="callinterface">
           <Value>NONE</Value>
@@ -456,7 +474,7 @@ $$DD01 COMPARE
       <References componentName="cwktdb2x" />
       <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="cwktdb2x" path="CWKTDB2X_alternative01a.scenario">
         <Test>
-          <EnterpriseData repository="&lt;Local Repository&gt;" specification="CWC2_KT_DEMOTAB" specificationtype="LOAD" enginecompatibilitytype="RDX" description="Load Data" />
+          <EnterpriseData repository="&lt;Local Repository&gt;" specification="Load_CWC2_KT_DEMOTAB" specificationtype="LOAD" enginecompatibilitytype="RDX" description="Load Data" />
           <Component label="CWKTDB2X" moduleName="CWKTDB2X" programExitVerify="value &lt; 8" rollback="false">
             <Data>
               <parminfo>
@@ -467,27 +485,27 @@ $$DD01 COMPARE
               </parminfo>
             </Data>
             <Setup>
-              <Content><![CDATA[//EMPFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.CWKTDATA
-//RPTFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE
+              <Content><![CDATA[//EMPFILE  DD DISP=SHR,DSN=HDDRXM0.RT.CWKTDATA
+//RPTFILE  DD DISP=SHR,DSN=HDDRXM0.RT.KTDEMO.RPTFILE
 //*RPTFILE  DD SYSOUT=*]]></Content>
             </Setup>
           </Component>
-          <EnterpriseData repository="&lt;Local Repository&gt;" specification="CWC2_KT_DEMOTAB" specificationtype="EXTRACT" enginecompatibilitytype="RDX" description="Extract Results" />
+          <EnterpriseData repository="&lt;Local Repository&gt;" specification="Extract_CWC2_KT_DEMOTAB" specificationtype="EXTRACT" enginecompatibilitytype="RDX" description="Extract Results" />
           <FileAIDCompare label="Compare Report File" checkChanged="true" checkInserted="true" checkDeleted="true">
             <JCL><![CDATA[//FASTEP   EXEC PGM=FILEAID,REGION=08M
 //STEPLIB  DD DISP=SHR,DSN=SYS2.CW.VJR17Y.CXVJLOAD
 //         DD DISP=SHR,DSN=SYS2.CW.VJR17Y.SXVJLOAD
 //SYSPRINT DD  SYSOUT=*
 //SYSLIST  DD  SYSOUT=*
-//DD01     DD  DSN=HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE.EXPECT,
+//DD01     DD  DSN=HDDRXM0.RT.KTDEMO.RPTFILE.EXPECT,
 //             DISP=SHR
-//DD01C    DD  DSN=HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE,
+//DD01C    DD  DSN=HDDRXM0.RT.KTDEMO.RPTFILE,
 //             DISP=SHR
-//DD01CP   DD  DSN=HDDRXM0.DEMO.FA.COMPCRIT(CWXTCOB),
+//DD01CP   DD  DSN=HDDRXM0.RT.FA.COMPCRIT(CWXTCOB),
 //             DISP=SHR                              
-//DD01RL   DD  DSN=HDDRXM0.DEMO.COPY,
+//DD01RL   DD  DSN=HDDRXM0.RT.COPY,
 //             DISP=SHR
-//DD01XR   DD  DSN=HDDRXM0.DEMO.XREF(RPTFILE),
+//DD01XR   DD  DSN=HDDRXM0.RT.FA.XREF(RPTFILE),
 //             DISP=SHR
 //SYSIN    DD  *
 $$DD01 COMPARE
@@ -499,15 +517,15 @@ $$DD01 COMPARE
 //         DD DISP=SHR,DSN=SYS2.CW.VJR17Z.SXVJLOAD
 //SYSPRINT DD  SYSOUT=*
 //SYSLIST  DD  SYSOUT=*,DCB=(LRECL=183,BLKSIZE=1830)
-//DD01     DD  DSN=HDDRXM0.DEMO.CWC2.KTDEMO.EXTRACT.EXPECT,
+//DD01     DD  DSN=HDDRXM0.RT.KTDEMO.EXTRACT.EXPECT,
 //             DISP=SHR
-//DD01C    DD  DSN=HDDRXM0.DEMO.CWC2.KTDEMO.EXTRACT.ACT,
+//DD01C    DD  DSN=HDDRXM0.RT.KTDEMO.EXTRACT.ACT,
 //             DISP=SHR
-//DD01CP   DD  DSN=HDDRXM0.DEMO.FA.COMPCRIT(KTDEMOTB),
+//DD01CP   DD  DSN=HDDRXM0.RT.FA.COMPCRIT(KTDEMOTB),
 //             DISP=SHR
-//DD01RL   DD  DSN=HDDRXM0.DEMO.COPY,
+//DD01RL   DD  DSN=HDDRXM0.RT.COPY,
 //             DISP=SHR
-//DD01XR   DD  DSN=HDDRXM0.DEMO.XREF(KTDEMTB),
+//DD01XR   DD  DSN=HDDRXM0.RT.FA.XREF(KTDEMTB),
 //             DISP=SHR
 //SYSIN    DD  *
 $$DD01 COMPARE
@@ -531,6 +549,6 @@ $$DD01 COMPARE
       <ExternalResources />
     </ExecutionContext>
   </Context>
-  <Started>20200626-15-00-59</Started>
-  <Ended>20200626-15-02-11</Ended>
+  <Started>20200918-12-29-13</Started>
+  <Ended>20200918-12-30-25</Ended>
 </XaUnitResult>

@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <XaUnitResult resultType="SUCCESS" containsSimulation="false">
-  <ExecutionId>c6594d19-9fd9-4b0f-95ce-62c46a9b6caf</ExecutionId>
+  <ExecutionId>d59e96a2-5336-43de-afac-a1d08812c943</ExecutionId>
   <Message />
   <AST>
     <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1">
       <Test>
+        <Variable id="lparName">CWCC</Variable>
         <Job name="Job" jobLocation="JOBDEFINITION">
           <Content><![CDATA[//HDDRXM0J JOB ('EUDD,INTL'),'NUESSE',NOTIFY=&SYSUID,
 //             MSGLEVEL=(1,1),MSGCLASS=X,CLASS=A,REGION=6M
-/*JOBPARM S=CWC2
+/*JOBPARM S=CWCC
 //STEP1  EXEC PGM=CWXTCOB,PARM=00003
 //STEPLIB DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.LOAD.PDSE
 //EMPFILE  DD  DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA
@@ -16,7 +17,7 @@
 //SYSUDUMP DD  SYSOUT=*
 //SYSOUT   DD  SYSOUT=*]]></Content>
         </Job>
-        <SpoolFile ddname="RPTFILE" stepname="STEP1" ashex="false" id="spoolId"><![CDATA[RUN DATE  07/01/20       EMPLOYEE COMPENSATION REPORT                  PAGE   1
+        <SpoolFile ddname="RPTFILE" stepname="STEP1" ashex="false" id="spoolId"><![CDATA[RUN DATE  09/21/20       EMPLOYEE COMPENSATION REPORT                  PAGE   1
  
  
                                HIRE  YRS OF
@@ -24,13 +25,13 @@
  
  JOHN SMITH      NORTH   H   10/15/81   38   1083.00     0.00      0.00  1083.00
  ROY GARDNER     NORTH   S   12/31/92   27    750.00     0.00   3300.00  4050.00
- DAN PEARSON     NORTH   S   07/20/89   30    850.00     0.00   1000.00  1850.00
- MICHAEL DAYTON  SOUTH   S   08/30/82   37    825.00     0.00   6000.00  6825.00
+ DAN PEARSON     NORTH   S   07/20/89   31    850.00     0.00   1000.00  1850.00
+ MICHAEL DAYTON  SOUTH   S   08/30/82   38    825.00     0.00   6000.00  6825.00
  DENNIS WHITE    SOUTH   S   02/29/88   32   1050.00     0.00   1120.00  2170.00
  VALERIE OLSEN   EAST    S   05/01/94   26    900.00     0.00   5600.00  6500.00
  LAURA MARTIN    EAST    S   06/14/83   37   1225.00     0.00   6000.00  7225.00
  MARCIA SULLIVAN EAST    H   04/05/93   27   1200.00   180.00      0.00  1380.00
- JAMES MORRISON  EAST    H   09/13/91   28   1017.50     0.00      0.00  1017.50
+ JAMES MORRISON  EAST    H   09/13/91   29   1017.50     0.00      0.00  1017.50
  THOMAS LONG     WEST    H   03/31/87   33   1000.00     0.00      0.00  1000.00
  DONNA BROWN     WEST    S   11/11/81   38   1000.00     0.00   3333.00  4333.00
  SAMUEL ADDAMS   WEST    H   01/02/86   34   1100.00    82.50      0.00  1182.50
@@ -44,15 +45,16 @@
     </XaUnit>
   </AST>
   <Context>
-    <ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5e7a190fcf655a12a4d4df4d" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" useRepository="false" userid="HDDRXM0">
-      <platformruntime database="DSCCCWCC" driver="com.ibm.db2.jcc.DB2Driver" uri="jdbc:db2://cwc2.nasa.cpwr.corp:2846/${database}" environmenttype="BATCH" callinterface="NONE" />
+    <ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5f64570731d7ab4e8cb59b98" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" useRepository="false" userid="HDDRXM0">
+      <platformruntime database="DBCCCWCC" driver="com.ibm.db2.jcc.DB2Driver" uri="jdbc:db2://cwcc.compuware.com:546/${database}" environmenttype="BATCH" callinterface="NONE" />
       <ExtensionData />
       <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" path="PlainJobAndReadSpoolFile.xaunit">
         <Test>
+          <Variable id="lparName">CWCC</Variable>
           <Job name="Job" jobLocation="JOBDEFINITION">
             <Content><![CDATA[//HDDRXM0J JOB ('EUDD,INTL'),'NUESSE',NOTIFY=&SYSUID,
 //             MSGLEVEL=(1,1),MSGCLASS=X,CLASS=A,REGION=6M
-/*JOBPARM S=CWC2
+/*JOBPARM S=${lparName}
 //STEP1  EXEC PGM=CWXTCOB,PARM=00003
 //STEPLIB DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.LOAD.PDSE
 //EMPFILE  DD  DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA
@@ -95,6 +97,6 @@
       <ExternalResources />
     </ExecutionContext>
   </Context>
-  <Started>20200701-12-51-50</Started>
-  <Ended>20200701-12-51-51</Ended>
+  <Started>20200921-11-43-49</Started>
+  <Ended>20200921-11-43-50</Ended>
 </XaUnitResult>

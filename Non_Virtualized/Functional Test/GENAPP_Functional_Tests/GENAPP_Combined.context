@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5f64584131d7ab4e8cb59ba3" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3">
+  <ExtensionData />
+  <ExtensionData componentName="lgicus01" componentId="5f687af231d7ab4e8cb59bdf" />
+  <ExtensionData componentName="lgacus01" componentId="5f68786331d7ab4e8cb59bd7" />
+  <XaUnit path="GENAPP_Combined.xaunit" />
+</ExecutionContext>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5f6457ad31d7ab4e8cb59b9d" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3">
+  <ExtensionData />
+  <ExtensionData componentName="cwktdb2x" componentId="5f64649b31d7ab4e8cb59bb6" />
+  <XaUnit path="CWKTDB2X_alternative02.xaunit" />
+</ExecutionContext>

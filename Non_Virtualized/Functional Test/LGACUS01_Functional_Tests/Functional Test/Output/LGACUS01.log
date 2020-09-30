@@ -1,0 +1,92 @@
+12:01:33.864 COMMENT   Engine           Test Scenario execution started
+12:01:33.864 INFO      Engine           Using context settings:
+  Engine Version       : 20.3
+  Environment id                : 5f64582531d7ab4e8cb59ba1
+  Environment type              : Cics
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwcc.compuware.com
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+  Use Repository Server         : true
+12:01:33.864 INFO      Engine           Setting variables from context and context data extensions
+12:01:33.864 INFO      Engine             id: environmentId      value: 5f64582531d7ab4e8cb59ba1
+12:01:33.865 INFO      Engine             id: environmentType    value: CICS
+12:01:33.865 INFO      Engine             id: userId             value: HDDRXM0
+12:01:33.865 INFO      Engine             id: accountingInfo     value: 
+12:01:33.865 INFO      Scope            Interpreting Scope name:Initialize
+12:01:33.866 INFO      Variable         Interpreting Variable id:customerInputData dataFile:Input_Data/customer_add_input.xml
+12:01:33.866 LOG       Variable         Resolved data items from file Input_Data/customer_add_input.xml
+<record>
+  <dfhcommarea-customer>
+    <ca-request-id></ca-request-id>
+    <ca-return-code></ca-return-code>
+    <ca-customer-num>1</ca-customer-num>
+    <ca-customer-request>
+      <ca-first-name>Ralph</ca-first-name>
+      <ca-last-name>Nuesse</ca-last-name>
+      <ca-dob>1970-02-01</ca-dob>
+      <ca-house-name>My Home Street</ca-house-name>
+      <ca-house-num>666</ca-house-num>
+      <ca-postcode>12345</ca-postcode>
+      <ca-num-policies></ca-num-policies>
+      <ca-phone-mobile>0000012345</ca-phone-mobile>
+      <ca-phone-home>0000012345</ca-phone-home>
+      <ca-email-address>RN@ACME.COM</ca-email-address>
+      <ca-national-id-nbr>12345678901234567890</ca-national-id-nbr>
+      <ca-nin-type>SS</ca-nin-type>
+      <ca-street-address>MY STREET 1</ca-street-address>
+      <ca-city>CITY</ca-city>
+      <ca-state>ST</ca-state>
+      <ca-country-code></ca-country-code>
+      <ca-sales-territory>EMEA</ca-sales-territory>
+      <ca-customer-pfkey></ca-customer-pfkey>
+      <ca-customer-begin></ca-customer-begin>
+      <ca-customer-end></ca-customer-end>
+      <ca-policy-data></ca-policy-data>
+    </ca-customer-request>
+  </dfhcommarea-customer>
+</record>
+12:01:33.867 INFO      Scope            Scope completed
+12:01:33.867 INFO      Scope            Interpreting Scope name:Execute
+12:01:33.867 INFO      Component        Interpreting Component: LGACUS01 program:LGACUS01
+12:01:33.867 INFO      Component        Component will be executed in CICS and top level element definitions are:
+12:01:33.867 INFO      Component          Element: dfhcommarea Area type:DEFAULT
+12:01:33.868 LOG       CWCC CICS        Component Runtime Settings:
+12:01:33.868 LOG       CWCC CICS          Load libraries :GENAPP.IWGENAPP.GENA.PROD.CICSLOAD,CTS530.CICS.HCCAC013.LOADLIB.PDSE
+12:01:33.868 LOG       CWCC CICS          Optional main Load library:
+12:01:33.868 LOG       CWCC CICS          Listing libraries         :
+12:01:33.868 LOG       CWCC CICS          SysDebug libraries        :
+12:01:33.868 LOG       CWCC CICS          DB2 Subsystem ID          :DBCC
+12:01:33.868 LOG       CWCC CICS          DB2 plan                  :GENAONE
+12:01:33.868 LOG       CWCC CICS          APPLID                    :HCCAC013
+12:01:33.868 LOG       CWCC CICS          Channel                   :
+12:01:33.868 LOG       CWCC CICS          Call interface            :CICSLINK
+12:01:33.868 LOG       CWCC CICS          Debugger type             :NONE
+12:01:33.868 LOG       CWCC CICS          Component type            :COBOL
+12:01:33.869 INFO      CWCC CICS        Sending Module execution request to Host for module:LGACUS01 rollback:false
+12:01:34.000 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/0df1c1d9e47346f4867395836cf53cc8
+12:01:34.257 LOG       CWCC CICS        Uploading input data for module LGACUS01
+12:01:37.543 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>CICS</runtime><callinterface>CICSLINK</callinterface><applid>HCCAC013</applid><db2plan>GENAONE</db2plan><db2id>DBCC</db2id><rollback>false</rollback><jobdirectory>0df1c1d9e47346f4867395836cf53cc8</jobdirectory><amode24>false</amode24><members><membername>LGACUS01</membername></members><loads><mainload>GENAPP.IWGENAPP.GENA.PROD.CICSLOAD</mainload><load>CTS530.CICS.HCCAC013.LOADLIB.PDSE</load></loads><codepage>1047</codepage><lang>COBOL</lang></xatz_request></XATZREQ>
+12:01:37.754 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0923941</jobid><jobname>HDDRXM0C</jobname><starttime>20200921060137728</starttime></xatz_response></XATZRESP>
+12:01:37.755 LOG       HCIClient        Response received from Host. Message: JobId:J0923941
+12:01:37.755 INFO      HCIClient        Job has been started at host with JobId:J0923941
+12:01:43.273 INFO      CWCC CICS        Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0C(J0923941) ended with return code: 0000
+  Job name       : HDDRXM0C
+  Job id         : J0923941
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:01:43.533 ERROR     CWCC CICS        Message from host: XATC002E CCEX Program LGACUS01 abended with LGV0
+12:01:43.534 INFO      CWCC CICS        Component completed with program exit: +0
+12:01:43.536 ERROR     Engine           Unable to execute the module:LGACUS01 at the host. Notification received from host with FAILURE status. Error: XATC002E CCEX Program LGACUS01 abended with LGV0
+12:01:43.536 ERROR     Engine           An error occurred. Now stopping the execution.
+12:01:43.536 ERROR     Scope            Scope completed unexpectedly. A child component failed.
+12:01:43.536 COMMENT   Engine           Test Scenario execution ended

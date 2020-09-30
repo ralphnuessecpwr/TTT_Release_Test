@@ -27,7 +27,7 @@ Scope "Clean Up Database"&#xD;
       <Variable id="initialFirstname">=inputRecords.record[0].dclxaemployee.firstname</Variable>
       <Variable id="initialLastname">=inputRecords.record[0].dclxaemployee.lastname</Variable>
       <Variable id="initialCprnr">=inputRecords.record[0].dclxaemployee.cprnr</Variable>
-      <Variable id="db2CreatorName">ADKKXC0</Variable>
+      <Variable id="db2CreatorName">HDDRXM0</Variable>
       <Variable id="db2TableName">XAEMPLOYEE</Variable>
       <Variable id="expectedEmployeeStatusInitial">O</Variable>
       <Variable id="expectedEmployeeStatusModify">M</Variable>

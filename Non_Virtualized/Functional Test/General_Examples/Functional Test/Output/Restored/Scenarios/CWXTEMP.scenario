@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="cwxtemp">
   <Test>
-    <Component id="cwxtemp" label="CWXTEMP" moduleName="CWXTEMP" programExitVerify="value &lt; 8" rollback="false">
+    <Component label="CWXTEMP - CWCC" moduleName="CWXTEMP" programExitVerify="value &lt; 8" rollback="false">
       <Data>
         <todays-date>191120</todays-date>
         <rec-pointers>
@@ -46,23 +46,23 @@
             <grand-total-mgmt expected="0" />
           </grand-total-fields>
           <work-switches>
-            <region-error-sw expected="N">N</region-error-sw>
-            <end-of-month-sw expected="N">N</end-of-month-sw>
+            <region-error-sw expected="N" />
+            <end-of-month-sw expected="N" />
           </work-switches>
           <yrs-of-service expected="38" />
           <region-sales-table>
             <region-data>
               <region-name />
               <region-manager />
-              <region-salary />
-              <region-sales />
+              <region-salary expected="0" />
+              <region-sales expected="0" />
               <region-comment />
             </region-data>
             <region-data>
               <region-name />
               <region-manager />
-              <region-salary expected="0" />
-              <region-sales expected="0" />
+              <region-salary />
+              <region-sales />
               <region-comment />
             </region-data>
             <region-data>
@@ -143,14 +143,14 @@
             <region-data count="4">
               <region-name type="Character" length="5" bytes="5" />
               <region-manager type="Character" length="15" bytes="15" />
-              <region-salary type="NumericDisplay" length="4" bytes="4" signed="false" decimals="2" />
-              <region-sales type="NumericDisplay" length="6" bytes="6" signed="false" decimals="2" />
+              <region-salary type="NumericDisplay" length="4" bytes="6" signed="false" decimals="2" />
+              <region-sales type="NumericDisplay" length="6" bytes="8" signed="false" decimals="2" />
               <region-comment type="Character" length="5" bytes="5" />
             </region-data>
           </region-sales-table>
           <calc-commission-fields>
             <emp-type type="Character" length="1" bytes="1" />
-            <calc-sales type="NumericDisplay" length="6" bytes="6" signed="false" decimals="2" />
+            <calc-sales type="NumericDisplay" length="6" bytes="8" signed="false" decimals="2" />
             <calc-commission type="NumericPacked" length="5" bytes="4" signed="false" decimals="2" />
           </calc-commission-fields>
         </work-area>

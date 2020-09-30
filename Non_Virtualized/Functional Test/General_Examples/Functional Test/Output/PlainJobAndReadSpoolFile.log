@@ -1,11 +1,11 @@
-12:51:50.308 COMMENT   Engine           Test Scenario execution started
-12:51:50.309 INFO      Engine           Using context settings:
+11:43:49.389 COMMENT   Engine           Test Scenario execution started
+11:43:49.389 INFO      Engine           Using context settings:
   Engine Version       : 20.3
-  Environment id                : 5e7a190fcf655a12a4d4df4d
+  Environment id                : 5f64570731d7ab4e8cb59b98
   Environment type              : Batch
   Operating system              : ZOS
   zOS agent version             : NEWEST
-  Server address                : cwc2.nasa.cpwr.corp
+  Server address                : cwcc.compuware.com
   Server port                   : 16196
   Job execution timeout seconds : 300
   Job info interval seconds     : 3
@@ -14,45 +14,49 @@
   Codepage                      : IBM-1047
   Host user Id                  : HDDRXM0
   Use Repository Server         : false
-12:51:50.310 INFO      Engine           Setting variables from context and context data extensions
-12:51:50.310 INFO      Engine             id: environmentId      value: 5e7a190fcf655a12a4d4df4d
-12:51:50.310 INFO      Engine             id: environmentType    value: BATCH
-12:51:50.310 INFO      Engine             id: userId             value: HDDRXM0
-12:51:50.311 INFO      Engine             id: accountingInfo     value: 
-12:51:50.311 INFO      Job              Interpreting JOB: Job
-12:51:50.312 LOG       Job              Job definition to be executed:
+11:43:49.389 INFO      Engine           Setting variables from context and context data extensions
+11:43:49.389 INFO      Engine             id: environmentId      value: 5f64570731d7ab4e8cb59b98
+11:43:49.389 INFO      Engine             id: environmentType    value: BATCH
+11:43:49.389 INFO      Engine             id: userId             value: HDDRXM0
+11:43:49.389 INFO      Engine             id: accountingInfo     value: 
+11:43:49.390 INFO      Variable         Interpreting Variable id:lparName
+11:43:49.390 LOG       Variable         Resolved data:
+CWCC
+11:43:49.390 INFO      Job              Interpreting JOB: Job
+11:43:49.390 INFO      Job              Variable substitution found in Job JCL, now substituted
+11:43:49.390 LOG       Job              Job definition to be executed:
 //HDDRXM0J JOB ('EUDD,INTL'),'NUESSE',NOTIFY=&SYSUID,
 //             MSGLEVEL=(1,1),MSGCLASS=X,CLASS=A,REGION=6M
-/*JOBPARM S=CWC2
+/*JOBPARM S=CWCC
 //STEP1  EXEC PGM=CWXTCOB,PARM=00003
 //STEPLIB DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.LOAD.PDSE
 //EMPFILE  DD  DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA
 //RPTFILE  DD  SYSOUT=*
 //SYSUDUMP DD  SYSOUT=*
 //SYSOUT   DD  SYSOUT=*
-12:51:50.312 INFO      CWC2 Batch       Sending Job execution request to Host 
-12:51:50.312 LOG       CWC2 Batch       Executing Job through HCI
-12:51:50.465 LOG       CWC2 Batch       Job submitted with jobId: J0887782 jobName:HDDRXM0J
-12:51:50.731 INFO      CWC2 Batch       Job execution completed with status:
+11:43:49.390 INFO      CWCC Batch       Sending Job execution request to Host 
+11:43:49.391 LOG       CWCC Batch       Executing Job through HCI
+11:43:49.543 LOG       CWCC Batch       Job submitted with jobId: J0923931 jobName:HDDRXM0J
+11:43:49.804 INFO      CWCC Batch       Job execution completed with status:
   Job status     : COMPLETED
-  Job status msg : Job HDDRXM0J(J0887782) ended with return code: 0000
+  Job status msg : Job HDDRXM0J(J0923931) ended with return code: 0000
   Job name       : HDDRXM0J
-  Job id         : J0887782
+  Job id         : J0923931
   Return code    : 0000
   Abend code     : 
   Abend reason   : 
-12:51:50.732 LOG       CWC2 Batch       Setting execution variable 'jobid' to J0887782
-12:51:50.732 LOG       CWC2 Batch       Setting execution variable 'jobname' to HDDRXM0J
-12:51:50.732 LOG       CWC2 Batch       Setting execution variable 'returncode' to 0000
-12:51:50.733 INFO      Job              Successfully executed job: Job
-12:51:50.733 INFO      SpoolFile        Interpreting SpoolFile element
-12:51:50.733 INFO      SpoolFile        Interpreting SpoolFile with jobId: J0887782 jobNameHDDRXM0J DD name: RPTFILE step name: STEP1
-12:51:50.734 LOG       CWC2 Batch       Looking for spool file with stepName:STEP1 dd:RPTFILE procStep:
-12:51:51.028 LOG       SpoolFile        Content from spool file:
+11:43:49.804 LOG       CWCC Batch       Setting execution variable 'jobid' to J0923931
+11:43:49.805 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0J
+11:43:49.805 LOG       CWCC Batch       Setting execution variable 'returncode' to 0000
+11:43:49.805 INFO      Job              Successfully executed job: Job
+11:43:49.806 INFO      SpoolFile        Interpreting SpoolFile element
+11:43:49.806 INFO      SpoolFile        Interpreting SpoolFile with jobId: J0923931 jobNameHDDRXM0J DD name: RPTFILE step name: STEP1
+11:43:49.808 LOG       CWCC Batch       Looking for spool file with stepName:STEP1 dd:RPTFILE procStep:
+11:43:50.101 LOG       SpoolFile        Content from spool file:
  
  
  
- RUN DATE  07/01/20       EMPLOYEE COMPENSATION REPORT                  PAGE   1
+ RUN DATE  09/21/20       EMPLOYEE COMPENSATION REPORT                  PAGE   1
  
  
                                HIRE  YRS OF
@@ -60,13 +64,13 @@
  
  JOHN SMITH      NORTH   H   10/15/81   38   1083.00     0.00      0.00  1083.00
  ROY GARDNER     NORTH   S   12/31/92   27    750.00     0.00   3300.00  4050.00
- DAN PEARSON     NORTH   S   07/20/89   30    850.00     0.00   1000.00  1850.00
- MICHAEL DAYTON  SOUTH   S   08/30/82   37    825.00     0.00   6000.00  6825.00
+ DAN PEARSON     NORTH   S   07/20/89   31    850.00     0.00   1000.00  1850.00
+ MICHAEL DAYTON  SOUTH   S   08/30/82   38    825.00     0.00   6000.00  6825.00
  DENNIS WHITE    SOUTH   S   02/29/88   32   1050.00     0.00   1120.00  2170.00
  VALERIE OLSEN   EAST    S   05/01/94   26    900.00     0.00   5600.00  6500.00
  LAURA MARTIN    EAST    S   06/14/83   37   1225.00     0.00   6000.00  7225.00
  MARCIA SULLIVAN EAST    H   04/05/93   27   1200.00   180.00      0.00  1380.00
- JAMES MORRISON  EAST    H   09/13/91   28   1017.50     0.00      0.00  1017.50
+ JAMES MORRISON  EAST    H   09/13/91   29   1017.50     0.00      0.00  1017.50
  THOMAS LONG     WEST    H   03/31/87   33   1000.00     0.00      0.00  1000.00
  DONNA BROWN     WEST    S   11/11/81   38   1000.00     0.00   3333.00  4333.00
  SAMUEL ADDAMS   WEST    H   01/02/86   34   1100.00    82.50      0.00  1182.50
@@ -74,14 +78,14 @@
  
     TOTAL                                                               45366.00
 
-12:51:51.028 INFO      Verify           Interpreting Verify component name:Verify
-12:51:51.028 INFO      Verify           Using verify expression:spoolId.indexOf('EMPLOYEE COMPENSATION REPORT') != -1
-12:51:51.041 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+11:43:50.101 INFO      Verify           Interpreting Verify component name:Verify
+11:43:50.102 INFO      Verify           Using verify expression:spoolId.indexOf('EMPLOYEE COMPENSATION REPORT') != -1
+11:43:50.112 LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
 spoolId.indexOf('EMPLOYEE COMPENSATION REPORT') != -1
-12:51:51.050 INFO      Verify           Comments from JavaScript execution:
-2020-07-01 12:51:51,041 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
+11:43:50.118 INFO      Verify           Comments from JavaScript execution:
+2020-09-21 11:43:50,112 DEBUG com.compuware.xatester -  LOG       Verify           Evaluating expression:function println(text){print(text+'\n')};
 spoolId.indexOf('EMPLOYEE COMPENSATION REPORT') != -1 
 
-12:51:51.050 LOG       Verify           Expression returned:
+11:43:50.118 LOG       Verify           Expression returned:
 true
-12:51:51.050 COMMENT   Engine           Test Scenario execution ended
+11:43:50.118 COMMENT   Engine           Test Scenario execution ended

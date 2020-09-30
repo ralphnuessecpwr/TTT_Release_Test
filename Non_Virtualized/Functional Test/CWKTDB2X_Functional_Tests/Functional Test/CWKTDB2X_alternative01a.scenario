@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="cwktdb2x">
   <Test>
-    <EnterpriseData repository="&lt;Local Repository&gt;" specification="CWC2_KT_DEMOTAB" specificationtype="LOAD" enginecompatibilitytype="RDX" description="Load Data" />
+    <EnterpriseData repository="&lt;Local Repository&gt;" specification="Load_CWC2_KT_DEMOTAB" specificationtype="LOAD" enginecompatibilitytype="RDX" description="Load Data" />
     <Component label="CWKTDB2X" moduleName="CWKTDB2X" programExitVerify="value &lt; 8" rollback="false">
       <Data>
         <parminfo>
@@ -12,27 +12,27 @@
         </parminfo>
       </Data>
       <Setup>
-        <Content><![CDATA[//EMPFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.CWKTDATA
-//RPTFILE  DD DISP=SHR,DSN=HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE
+        <Content><![CDATA[//EMPFILE  DD DISP=SHR,DSN=HDDRXM0.RT.CWKTDATA
+//RPTFILE  DD DISP=SHR,DSN=HDDRXM0.RT.KTDEMO.RPTFILE
 //*RPTFILE  DD SYSOUT=*]]></Content>
       </Setup>
     </Component>
-    <EnterpriseData repository="&lt;Local Repository&gt;" specification="CWC2_KT_DEMOTAB" specificationtype="EXTRACT" enginecompatibilitytype="RDX" description="Extract Results" />
+    <EnterpriseData repository="&lt;Local Repository&gt;" specification="Extract_CWC2_KT_DEMOTAB" specificationtype="EXTRACT" enginecompatibilitytype="RDX" description="Extract Results" />
     <FileAIDCompare label="Compare Report File" checkChanged="true" checkInserted="true" checkDeleted="true">
       <JCL><![CDATA[//FASTEP   EXEC PGM=FILEAID,REGION=08M
 //STEPLIB  DD DISP=SHR,DSN=SYS2.CW.VJR17Y.CXVJLOAD
 //         DD DISP=SHR,DSN=SYS2.CW.VJR17Y.SXVJLOAD
 //SYSPRINT DD  SYSOUT=*
 //SYSLIST  DD  SYSOUT=*
-//DD01     DD  DSN=HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE.EXPECT,
+//DD01     DD  DSN=HDDRXM0.RT.KTDEMO.RPTFILE.EXPECT,
 //             DISP=SHR
-//DD01C    DD  DSN=HDDRXM0.DEMO.CWC2.KTDEMO.RPTFILE,
+//DD01C    DD  DSN=HDDRXM0.RT.KTDEMO.RPTFILE,
 //             DISP=SHR
-//DD01CP   DD  DSN=HDDRXM0.DEMO.FA.COMPCRIT(CWXTCOB),
+//DD01CP   DD  DSN=HDDRXM0.RT.FA.COMPCRIT(CWXTCOB),
 //             DISP=SHR                              
-//DD01RL   DD  DSN=HDDRXM0.DEMO.COPY,
+//DD01RL   DD  DSN=HDDRXM0.RT.COPY,
 //             DISP=SHR
-//DD01XR   DD  DSN=HDDRXM0.DEMO.XREF(RPTFILE),
+//DD01XR   DD  DSN=HDDRXM0.RT.FA.XREF(RPTFILE),
 //             DISP=SHR
 //SYSIN    DD  *
 $$DD01 COMPARE
@@ -44,15 +44,15 @@ $$DD01 COMPARE
 //         DD DISP=SHR,DSN=SYS2.CW.VJR17Z.SXVJLOAD
 //SYSPRINT DD  SYSOUT=*
 //SYSLIST  DD  SYSOUT=*,DCB=(LRECL=183,BLKSIZE=1830)
-//DD01     DD  DSN=HDDRXM0.DEMO.CWC2.KTDEMO.EXTRACT.EXPECT,
+//DD01     DD  DSN=HDDRXM0.RT.KTDEMO.EXTRACT.EXPECT,
 //             DISP=SHR
-//DD01C    DD  DSN=HDDRXM0.DEMO.CWC2.KTDEMO.EXTRACT.ACT,
+//DD01C    DD  DSN=HDDRXM0.RT.KTDEMO.EXTRACT.ACT,
 //             DISP=SHR
-//DD01CP   DD  DSN=HDDRXM0.DEMO.FA.COMPCRIT(KTDEMOTB),
+//DD01CP   DD  DSN=HDDRXM0.RT.FA.COMPCRIT(KTDEMOTB),
 //             DISP=SHR
-//DD01RL   DD  DSN=HDDRXM0.DEMO.COPY,
+//DD01RL   DD  DSN=HDDRXM0.RT.COPY,
 //             DISP=SHR
-//DD01XR   DD  DSN=HDDRXM0.DEMO.XREF(KTDEMTB),
+//DD01XR   DD  DSN=HDDRXM0.RT.FA.XREF(KTDEMTB),
 //             DISP=SHR
 //SYSIN    DD  *
 $$DD01 COMPARE

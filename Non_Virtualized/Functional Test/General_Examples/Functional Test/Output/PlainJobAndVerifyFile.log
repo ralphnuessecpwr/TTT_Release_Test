@@ -1,0 +1,84 @@
+11:46:10.915 COMMENT   Engine           Test Scenario execution started
+11:46:10.915 INFO      Engine           Using context settings:
+  Engine Version       : 20.3
+  Environment id                : 5f64570731d7ab4e8cb59b98
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwcc.compuware.com
+  Server port                   : 16196
+  Job execution timeout seconds : 300
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+  Use Repository Server         : true
+11:46:10.915 INFO      Engine           Setting variables from context and context data extensions
+11:46:10.915 INFO      Engine             id: environmentId      value: 5f64570731d7ab4e8cb59b98
+11:46:10.915 INFO      Engine             id: environmentType    value: BATCH
+11:46:10.915 INFO      Engine             id: userId             value: HDDRXM0
+11:46:10.915 INFO      Engine             id: accountingInfo     value: 
+11:46:10.917 INFO      Variable         Interpreting Variable id:lparName
+11:46:10.918 LOG       Variable         Resolved data:
+CWCC
+11:46:10.918 INFO      Job              Interpreting JOB: Job
+11:46:10.918 INFO      Job              Variable substitution found in Job JCL, now substituted
+11:46:10.918 LOG       Job              Job definition to be executed:
+//HDDRXM0X JOB ('EUDD,INTL'),'NUESSE',NOTIFY=&SYSUID,      
+//             MSGLEVEL=(1,1),MSGCLASS=X,CLASS=A,REGION=6M 
+/*JOBPARM S=CWCC                                           
+//STEP1  EXEC PGM=CWXTCOB,PARM=00003                       
+//STEPLIB DD DISP=SHR,DSN=HDDRXM0.RT.LOAD.PDSE          
+//EMPFILE  DD  DISP=SHR,DSN=HDDRXM0.RT.CWXTDATA
+//RPTFILE  DD  DISP=SHR,DSN=HDDRXM0.RT.TTTFT.CWXTRPT
+//SYSUDUMP DD  SYSOUT=*                                    
+//SYSOUT   DD  SYSOUT=*
+11:46:10.918 INFO      CWCC Batch       Sending Job execution request to Host 
+11:46:10.919 LOG       CWCC Batch       Executing Job through HCI
+11:46:11.072 LOG       CWCC Batch       Job submitted with jobId: J0923934 jobName:HDDRXM0X
+11:46:11.331 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0X(J0923934) ended with return code: 0000
+  Job name       : HDDRXM0X
+  Job id         : J0923934
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+11:46:11.331 LOG       CWCC Batch       Setting execution variable 'jobid' to J0923934
+11:46:11.331 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0X
+11:46:11.331 LOG       CWCC Batch       Setting execution variable 'returncode' to 0000
+11:46:11.331 INFO      Job              Successfully executed job: Job
+11:46:11.331 INFO      VerifyRemoteFile Interpreting VerifyRemoteFile in COMPARE mode. Dataset to verify: HDDRXM0.RT.TTTFT.CWXTRPT
+11:46:11.332 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 52 to 54
+11:46:11.332 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 69 to 71
+11:46:11.332 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 60 to 62
+11:46:11.332 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 37 to 39
+11:46:11.332 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 42 to 44
+11:46:11.332 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 31 to 31
+11:46:11.332 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 34 to 34
+11:46:11.332 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 24 to 24
+11:46:11.333 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 26 to 28
+11:46:11.333 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 0 to 0
+11:46:11.333 LOG       VerifyRemoteFile Adding compare rule to exclude from pos: 16 to 16
+11:46:11.333 INFO      CWCC Batch       Sending Job execution request to Host 
+11:46:11.461 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/f534f13ffaf34b33a114b6092aa4cd59
+11:46:11.983 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>COMPARE</operation><runat>DAY</runat><jobdirectory>f534f13ffaf34b33a114b6092aa4cd59</jobdirectory><outputfilepath>output.xml</outputfilepath><snapshot><compare><olddsn>HDDRXM0.RT.TTTFT.CWXTRPT.EXPECT</olddsn><newdsn>HDDRXM0.RT.TTTFT.CWXTRPT</newdsn><compareopts><compareopt>excflds=1,1,17,1,25,1,27,3,32,1,35,1,38,3,43,3,53,3,61,3,70,3</compareopt></compareopts></compare></snapshot></xatz_request></XATZREQ>
+11:46:12.182 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0923935</jobid><jobname>HDDRXM0S</jobname><starttime>20200921054612144</starttime></xatz_response></XATZRESP>
+11:46:12.184 LOG       HCIClient        Response received from Host. Message: JobId:J0923935
+11:46:12.184 INFO      HCIClient        Job has been started at host with JobId:J0923935
+11:46:17.709 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0S(J0923935) ended with return code: 0000
+  Job name       : HDDRXM0S
+  Job id         : J0923935
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+11:46:17.970 LOG       VerifyRemoteFile Notification message contained a Verification Error, now retrieving compare files with content
+11:46:17.971 ERROR     VerifyRemoteFile Comparison of DSN expected:HDDRXM0.RT.TTTFT.CWXTRPT.EXPECT actual:HDDRXM0.RT.TTTFT.CWXTRPT was FAIL
+11:46:17.971 LOG       VerifyRemoteFile Getting information about the comparison from file:output.xml.cmpr12
+11:46:17.971 LOG       VerifyRemoteFile Retrieving file:output.xml.cmpr12
+11:46:18.130 ERROR     VerifyRemoteFile Expected and Actual files/datasets are NOT equal
+11:46:18.131 ERROR     VerifyRemoteFile Actual and expected datasets are not equal. Differences found in one or more records between actual dataset: HDDRXM0.RT.TTTFT.CWXTRPT and expected dataset:HDDRXM0.RT.TTTFT.CWXTRPT.EXPECT
+11:46:18.131 COMMENT   Engine           Test Scenario execution ended

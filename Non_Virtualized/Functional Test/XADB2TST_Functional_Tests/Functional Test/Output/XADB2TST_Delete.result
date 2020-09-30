@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnitResult resultType="VERIFICATION_ERROR" containsSimulation="false">
+  <ExecutionId>011dd410-fa83-4b6d-a2af-516b27c5e35b</ExecutionId>
+  <Message />
+  <AST>
+    <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1">
+      <Test>
+        <Scope name="Initialization" disabled="false">
+          <Variable id="inputRecords">
+            <record>
+              <dclxaemployee>
+                <rident>0</rident>
+                <firstname>Ralph</firstname>
+                <lastname>Nuesse</lastname>
+                <cprnr>12345678</cprnr>
+                <tstmp>2019-02-05-09.12.44.000416</tstmp>
+                <userid>XATESTER</userid>
+                <statuscode>O</statuscode>
+              </dclxaemployee>
+            </record>
+          </Variable>
+          <Variable id="oldFirstname">Ralph</Variable>
+          <Variable id="oldLastname">Nuesse</Variable>
+          <Variable id="oldUserid">XATESTER</Variable>
+          <Variable id="oldCprnr">12345678</Variable>
+          <Variable id="expectedStatuscode">D</Variable>
+          <Variable id="db2CreatorName">HDDRXM0</Variable>
+          <Variable id="db2TableName">XAEMPLOYEE</Variable>
+          <Variable id="expectedEmployeeStatus">D</Variable>
+          <Variable id="expectedUserId">XATESTER</Variable>
+        </Scope>
+        <Scope name="Determine DB2 Table Row Id" disabled="false">
+          <SQLSelect id="selectMaxRowId" maxRows="1">
+            <Statement>SELECT MAX(RIDENT) FROM HDDRXM0.XAEMPLOYEE</Statement>
+            <Output name="MAX_RIDENT" />
+            <Row>
+              <MAX_RIDENT>800010012</MAX_RIDENT>
+            </Row>
+          </SQLSelect>
+          <Variable id="maxRowId">800010012</Variable>
+          <Variable id="newRowId">800010013</Variable>
+        </Scope>
+        <Scope name="Add row to table" disabled="false">
+          <SQLUpdate name="insertOldRecord">
+            <Statement><![CDATA[INSERT INTO HDDRXM0.XAEMPLOYEE 
+  (
+  RIDENT, 
+  FIRSTNAME, 
+  LASTNAME, 
+  USERID, 
+  CPRNR, 
+  STATUSCODE, 
+  TSTMP
+  )
+VALUES 
+  (
+  '800010013',
+  'Ralph',
+  'Nuesse',
+  'XATESTER',
+  12345678,
+  'O',
+  current timestamp
+  );]]></Statement>
+          </SQLUpdate>
+        </Scope>
+        <Scope name="Postive Tests" disabled="false">
+          <Scope name="Execute Tests" disabled="false">
+            <Component label="XADB2TST" moduleName="XADB2TST" programExitVerify="value &lt; 8" programExit="12" rollback="false">
+              <Data>
+                <xadb2tst-import>
+                  <xadb2tst-imp-function>DELETE</xadb2tst-imp-function>
+                  <xadb2tst-imp-rident>800010013</xadb2tst-imp-rident>
+                  <xadb2tst-imp-firstname />
+                  <xadb2tst-imp-lastname />
+                  <xadb2tst-imp-cprnr>0</xadb2tst-imp-cprnr>
+                </xadb2tst-import>
+                <xadb2tst-export>
+                  <xadb2tst-exp-maxcount>7</xadb2tst-exp-maxcount>
+                  <xadb2tst-exp-count>0</xadb2tst-exp-count>
+                  <xadb2tst-exp-errorcode expected="0" verifiedFalse="DataItem: /xadb2tst-export/xadb2tst-exp-errorcode. Actual value is different from expected. Actual value: -805.0 Expected: 0.0">-805</xadb2tst-exp-errorcode>
+                  <xadb2tst-exp-message>Code: -805 Nr:01 Funk:Delete   Table:XaEmployee</xadb2tst-exp-message>
+                  <xadb2tst-exp-table>
+                    <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                    <xadb2tst-exp-firstname />
+                    <xadb2tst-exp-lastname />
+                    <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                    <xadb2tst-exp-tstmp />
+                    <xadb2tst-exp-statuscode />
+                    <xadb2tst-exp-userid />
+                  </xadb2tst-exp-table>
+                  <xadb2tst-exp-table>
+                    <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                    <xadb2tst-exp-firstname />
+                    <xadb2tst-exp-lastname />
+                    <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                    <xadb2tst-exp-tstmp />
+                    <xadb2tst-exp-statuscode />
+                    <xadb2tst-exp-userid />
+                  </xadb2tst-exp-table>
+                  <xadb2tst-exp-table>
+                    <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                    <xadb2tst-exp-firstname />
+                    <xadb2tst-exp-lastname />
+                    <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                    <xadb2tst-exp-tstmp />
+                    <xadb2tst-exp-statuscode />
+                    <xadb2tst-exp-userid />
+                  </xadb2tst-exp-table>
+                  <xadb2tst-exp-table>
+                    <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                    <xadb2tst-exp-firstname />
+                    <xadb2tst-exp-lastname />
+                    <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                    <xadb2tst-exp-tstmp />
+                    <xadb2tst-exp-statuscode />
+                    <xadb2tst-exp-userid />
+                  </xadb2tst-exp-table>
+                  <xadb2tst-exp-table>
+                    <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                    <xadb2tst-exp-firstname />
+                    <xadb2tst-exp-lastname />
+                    <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                    <xadb2tst-exp-tstmp />
+                    <xadb2tst-exp-statuscode />
+                    <xadb2tst-exp-userid />
+                  </xadb2tst-exp-table>
+                  <xadb2tst-exp-table>
+                    <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                    <xadb2tst-exp-firstname />
+                    <xadb2tst-exp-lastname />
+                    <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                    <xadb2tst-exp-tstmp />
+                    <xadb2tst-exp-statuscode />
+                    <xadb2tst-exp-userid />
+                  </xadb2tst-exp-table>
+                  <xadb2tst-exp-table>
+                    <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                    <xadb2tst-exp-firstname />
+                    <xadb2tst-exp-lastname />
+                    <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                    <xadb2tst-exp-tstmp />
+                    <xadb2tst-exp-statuscode />
+                    <xadb2tst-exp-userid />
+                  </xadb2tst-exp-table>
+                </xadb2tst-export>
+              </Data>
+            </Component>
+          </Scope>
+          <Scope name="Verification" disabled="false">
+            <SQLSelect id="selectAfter" maxRows="20">
+              <Statement>SELECT RIDENT,  FIRSTNAME,  LASTNAME,  CPRNR,  TSTMP,  USERID,  STATUSCODE FROM HDDRXM0.XAEMPLOYEE where RIDENT=800010013;</Statement>
+              <Output name="RIDENT" />
+              <Output name="FIRSTNAME" />
+              <Output name="LASTNAME" />
+              <Output name="CPRNR" />
+              <Output name="TSTMP" />
+              <Output name="USERID" />
+              <Output name="STATUSCODE" />
+              <Row>
+                <RIDENT>800010013</RIDENT>
+                <FIRSTNAME>Ralph</FIRSTNAME>
+                <LASTNAME>Nuesse</LASTNAME>
+                <CPRNR>12345678</CPRNR>
+                <TSTMP>2020-09-21-06.47.43.000331</TSTMP>
+                <USERID>XATESTER</USERID>
+                <STATUSCODE>O</STATUSCODE>
+              </Row>
+            </SQLSelect>
+            <Verify name="Status Code" haltExecution="false">
+              <Expected>D</Expected>
+              <Actual>O</Actual>
+            </Verify>
+          </Scope>
+        </Scope>
+        <Scope name="Negative Tests" disabled="false">
+          <Scope name="Set up" disabled="false">
+            <Variable id="nextRowId">800010014</Variable>
+            <SQLSelect id="selectNonExisting" maxRows="1">
+              <Statement>SELECT * FROM HDDRXM0.XAEMPLOYEE WHERE RIDENT = 800010014</Statement>
+            </SQLSelect>
+            <Verify name="Row does not exist" haltExecution="true">
+              <Statement><![CDATA[selectNonExisting.Row == null]]></Statement>
+            </Verify>
+          </Scope>
+          <Scope name="Execute Tests" disabled="false">
+            <Component label="XADB2TST" moduleName="XADB2TST" programExitVerify="value == 12" programExit="12" rollback="false">
+              <Data>
+                <xadb2tst-import>
+                  <xadb2tst-imp-function>DELETE</xadb2tst-imp-function>
+                  <xadb2tst-imp-rident>800010014</xadb2tst-imp-rident>
+                  <xadb2tst-imp-firstname />
+                  <xadb2tst-imp-lastname />
+                  <xadb2tst-imp-cprnr>0</xadb2tst-imp-cprnr>
+                </xadb2tst-import>
+                <xadb2tst-export>
+                  <xadb2tst-exp-maxcount>7</xadb2tst-exp-maxcount>
+                  <xadb2tst-exp-count>0</xadb2tst-exp-count>
+                  <xadb2tst-exp-errorcode>-805</xadb2tst-exp-errorcode>
+                  <xadb2tst-exp-message>Code: -805 Nr:01 Funk:Delete   Table:XaEmployee</xadb2tst-exp-message>
+                  <xadb2tst-exp-table>
+                    <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                    <xadb2tst-exp-firstname />
+                    <xadb2tst-exp-lastname />
+                    <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                    <xadb2tst-exp-tstmp />
+                    <xadb2tst-exp-statuscode />
+                    <xadb2tst-exp-userid />
+                  </xadb2tst-exp-table>
+                  <xadb2tst-exp-table>
+                    <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                    <xadb2tst-exp-firstname />
+                    <xadb2tst-exp-lastname />
+                    <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                    <xadb2tst-exp-tstmp />
+                    <xadb2tst-exp-statuscode />
+                    <xadb2tst-exp-userid />
+                  </xadb2tst-exp-table>
+                  <xadb2tst-exp-table>
+                    <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                    <xadb2tst-exp-firstname />
+                    <xadb2tst-exp-lastname />
+                    <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                    <xadb2tst-exp-tstmp />
+                    <xadb2tst-exp-statuscode />
+                    <xadb2tst-exp-userid />
+                  </xadb2tst-exp-table>
+                  <xadb2tst-exp-table>
+                    <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                    <xadb2tst-exp-firstname />
+                    <xadb2tst-exp-lastname />
+                    <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                    <xadb2tst-exp-tstmp />
+                    <xadb2tst-exp-statuscode />
+                    <xadb2tst-exp-userid />
+                  </xadb2tst-exp-table>
+                  <xadb2tst-exp-table>
+                    <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                    <xadb2tst-exp-firstname />
+                    <xadb2tst-exp-lastname />
+                    <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                    <xadb2tst-exp-tstmp />
+                    <xadb2tst-exp-statuscode />
+                    <xadb2tst-exp-userid />
+                  </xadb2tst-exp-table>
+                  <xadb2tst-exp-table>
+                    <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                    <xadb2tst-exp-firstname />
+                    <xadb2tst-exp-lastname />
+                    <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                    <xadb2tst-exp-tstmp />
+                    <xadb2tst-exp-statuscode />
+                    <xadb2tst-exp-userid />
+                  </xadb2tst-exp-table>
+                  <xadb2tst-exp-table>
+                    <xadb2tst-exp-id>0</xadb2tst-exp-id>
+                    <xadb2tst-exp-firstname />
+                    <xadb2tst-exp-lastname />
+                    <xadb2tst-exp-cprnr>0</xadb2tst-exp-cprnr>
+                    <xadb2tst-exp-tstmp />
+                    <xadb2tst-exp-statuscode />
+                    <xadb2tst-exp-userid />
+                  </xadb2tst-exp-table>
+                </xadb2tst-export>
+              </Data>
+            </Component>
+          </Scope>
+        </Scope>
+        <Scope name="Clean Up Database" disabled="false">
+          <SQLUpdate name="Delete inserted record">
+            <Statement><![CDATA[DELETE FROM HDDRXM0.XAEMPLOYEE WHERE RIDENT = 800010013]]></Statement>
+          </SQLUpdate>
+        </Scope>
+      </Test>
+      <MetaData>
+        <Component name="XADB2TST" type="COBOL">
+          <INOUT>
+            <xadb2tst-import>
+              <xadb2tst-imp-function type="Character" length="8" bytes="8" />
+              <xadb2tst-imp-rident type="NumericBinary" length="9" bytes="4" signed="true" decimals="0" />
+              <xadb2tst-imp-firstname type="Character" length="30" bytes="30" />
+              <xadb2tst-imp-lastname type="Character" length="30" bytes="30" />
+              <xadb2tst-imp-cprnr type="NumericPacked" length="11" bytes="6" signed="true" decimals="0" />
+            </xadb2tst-import>
+            <xadb2tst-export>
+              <xadb2tst-exp-maxcount type="NumericBinary" length="4" bytes="2" signed="true" decimals="0" />
+              <xadb2tst-exp-count type="NumericBinary" length="4" bytes="2" signed="true" decimals="0" />
+              <xadb2tst-exp-errorcode type="NumericBinary" length="9" bytes="4" signed="true" decimals="0" />
+              <xadb2tst-exp-message type="Character" length="80" bytes="80" />
+              <xadb2tst-exp-table count="7">
+                <xadb2tst-exp-id type="NumericBinary" length="9" bytes="4" signed="true" decimals="0" />
+                <xadb2tst-exp-firstname type="Character" length="30" bytes="30" />
+                <xadb2tst-exp-lastname type="Character" length="30" bytes="30" />
+                <xadb2tst-exp-cprnr type="NumericPacked" length="11" bytes="6" signed="true" decimals="0" />
+                <xadb2tst-exp-tstmp type="Character" length="26" bytes="26" />
+                <xadb2tst-exp-statuscode type="Character" length="1" bytes="1" />
+                <xadb2tst-exp-userid type="Character" length="8" bytes="8" />
+              </xadb2tst-exp-table>
+            </xadb2tst-export>
+          </INOUT>
+        </Component>
+      </MetaData>
+    </XaUnit>
+  </AST>
+  <Context>
+    <ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5f6457ad31d7ab4e8cb59b9d" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" userid="HDDRXM0" database="DSCCCWCC">
+      <platformruntime database="DSCCCWCC" driver="com.ibm.db2.jcc.DB2Driver" uri="jdbc:db2://cwc2.nasa.cpwr.corp:2846/${database}" environmenttype="BATCH" callinterface="NONE" />
+      <ExtensionData />
+      <ExtensionData componentName="xadb2tst" componentId="5f687c8a31d7ab4e8cb59be3">
+        <Parameter key="db2id">
+          <Value>DSC2</Value>
+        </Parameter>
+        <Parameter key="db2plan">
+          <Value>RNXAPLN</Value>
+        </Parameter>
+        <Parameter key="sourcelibrary">
+          <Value>HDDRXM0.RT.COB.BATCH</Value>
+        </Parameter>
+        <Parameter key="loadlibraries">
+          <Value>HDDRXM0.RT.LOAD.PDSE</Value>
+        </Parameter>
+        <Parameter key="sourcelibraries">
+          <Value>HDDRXM0.RT.COPY</Value>
+        </Parameter>
+        <Parameter key="callinterface">
+          <Value>NONE</Value>
+        </Parameter>
+      </ExtensionData>
+      <References componentName="xadb2tst" />
+      <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="xadb2tst" path="XADB2TST_Delete.xaunit">
+        <Description>Program receives a "function code" and data via linkage section. Based on the function code it executes different functions against DB2 table XAEMPLOYEE like&#xD;
+Insert, Get, Delete, Modify&#xD;
+&#xD;
+Scenario to test Delete function - the program will not delete the record physically. Instead it will set the status code to "D"&#xD;
+&#xD;
+Scope "Initialization"&#xD;
+- read data to be used from local file&#xD;
+- use variables for table name and creator name of DB2 table&#xD;
+- use variables for old values from local input file&#xD;
+- use variables for "fixed" expected values&#xD;
+&#xD;
+Scope "Determine DB2 Table Row Id"&#xD;
+- retrieve highest existing row id from the table and calculate next possible id&#xD;
+&#xD;
+Scope "Add row to table"&#xD;
+- use the next row id to insert new row into table natively using the data from local file&#xD;
+&#xD;
+Two tests&#xD;
+Scope "Positive Tests" - Existing row(s)&#xD;
+Sub Scope "Execute Tests"&#xD;
+- Use next row id function code "delete" to execute program&#xD;
+Sub Scope "Verification"&#xD;
+- use the next row id again and retrieve data natively from table&#xD;
+- verify that the status in the tabe has been set to "D"&#xD;
+&#xD;
+Scope "Negative Tests" - Non existing row&#xD;
+Sub Scope "Set up"&#xD;
+- Calculate new row id&#xD;
+- retrieve data from table natively, using new row id &#xD;
+- verify that no data was retrieved, otherwise abort test&#xD;
+Sub Scope "Execute Tests"&#xD;
+- execute program using new row id and "after" data from local file&#xD;
+- Verify that return code indicates error&#xD;
+&#xD;
+Scope "Clean Up Database"&#xD;
+- delete inserted row from the table to clean up database after test</Description>
+        <Test>
+          <Scope name="Initialization" disabled="false">
+            <Variable id="inputRecords" filePath="Input_Data/XADB2TST_Delete_Scenario_Records.xml" />
+            <Variable id="oldFirstname">=inputRecords.record[0].dclxaemployee.firstname</Variable>
+            <Variable id="oldLastname">=inputRecords.record[0].dclxaemployee.lastname</Variable>
+            <Variable id="oldUserid">=inputRecords.record[0].dclxaemployee.userid</Variable>
+            <Variable id="oldCprnr">=inputRecords.record[0].dclxaemployee.cprnr</Variable>
+            <Variable id="expectedStatuscode">D</Variable>
+            <Variable id="db2CreatorName">HDDRXM0</Variable>
+            <Variable id="db2TableName">XAEMPLOYEE</Variable>
+            <Variable id="expectedEmployeeStatus">D</Variable>
+            <Variable id="expectedUserId">XATESTER</Variable>
+          </Scope>
+          <Scope name="Determine DB2 Table Row Id" disabled="false">
+            <SQLSelect id="selectMaxRowId" maxRows="1">
+              <Statement>SELECT MAX(RIDENT) FROM ${db2CreatorName}.${db2TableName}</Statement>
+              <Output name="MAX_RIDENT" />
+            </SQLSelect>
+            <Variable id="maxRowId">=selectMaxRowId.Row[0].MAX_RIDENT</Variable>
+            <Variable id="newRowId">
+              <data:Replaceable>
+                <Expression>
+                  <Statement><![CDATA[var tempRowId = Number(maxRowId) + 1;
+tempRowId.toString();]]></Statement>
+                </Expression>
+              </data:Replaceable>
+            </Variable>
+          </Scope>
+          <Scope name="Add row to table" disabled="false">
+            <SQLUpdate name="insertOldRecord">
+              <Statement><![CDATA[INSERT INTO ${db2CreatorName}.${db2TableName} 
+  (
+  RIDENT, 
+  FIRSTNAME, 
+  LASTNAME, 
+  USERID, 
+  CPRNR, 
+  STATUSCODE, 
+  TSTMP
+  )
+VALUES 
+  (
+  '${newRowId}',
+  '${oldFirstname}',
+  '${oldLastname}',
+  '${oldUserid}',
+  ${oldCprnr},
+  'O',
+  current timestamp
+  );]]></Statement>
+            </SQLUpdate>
+          </Scope>
+          <Scope name="Postive Tests" disabled="false">
+            <Scope name="Execute Tests" disabled="false">
+              <Component label="XADB2TST" moduleName="XADB2TST" programExitVerify="value &lt; 8" rollback="false">
+                <Data>
+                  <xadb2tst-import>
+                    <xadb2tst-imp-function>DELETE</xadb2tst-imp-function>
+                    <xadb2tst-imp-rident>=${newRowId}</xadb2tst-imp-rident>
+                    <xadb2tst-imp-firstname />
+                    <xadb2tst-imp-lastname />
+                    <xadb2tst-imp-cprnr />
+                  </xadb2tst-import>
+                  <xadb2tst-export>
+                    <xadb2tst-exp-maxcount />
+                    <xadb2tst-exp-count />
+                    <xadb2tst-exp-errorcode expected="0" />
+                    <xadb2tst-exp-message />
+                    <xadb2tst-exp-table>
+                      <xadb2tst-exp-id />
+                      <xadb2tst-exp-firstname />
+                      <xadb2tst-exp-lastname />
+                      <xadb2tst-exp-cprnr />
+                      <xadb2tst-exp-tstmp />
+                      <xadb2tst-exp-statuscode />
+                      <xadb2tst-exp-userid />
+                    </xadb2tst-exp-table>
+                    <xadb2tst-exp-table>
+                      <xadb2tst-exp-id />
+                      <xadb2tst-exp-firstname />
+                      <xadb2tst-exp-lastname />
+                      <xadb2tst-exp-cprnr />
+                      <xadb2tst-exp-tstmp />
+                      <xadb2tst-exp-statuscode />
+                      <xadb2tst-exp-userid />
+                    </xadb2tst-exp-table>
+                    <xadb2tst-exp-table>
+                      <xadb2tst-exp-id />
+                      <xadb2tst-exp-firstname />
+                      <xadb2tst-exp-lastname />
+                      <xadb2tst-exp-cprnr />
+                      <xadb2tst-exp-tstmp />
+                      <xadb2tst-exp-statuscode />
+                      <xadb2tst-exp-userid />
+                    </xadb2tst-exp-table>
+                    <xadb2tst-exp-table>
+                      <xadb2tst-exp-id />
+                      <xadb2tst-exp-firstname />
+                      <xadb2tst-exp-lastname />
+                      <xadb2tst-exp-cprnr />
+                      <xadb2tst-exp-tstmp />
+                      <xadb2tst-exp-statuscode />
+                      <xadb2tst-exp-userid />
+                    </xadb2tst-exp-table>
+                    <xadb2tst-exp-table>
+                      <xadb2tst-exp-id />
+                      <xadb2tst-exp-firstname />
+                      <xadb2tst-exp-lastname />
+                      <xadb2tst-exp-cprnr />
+                      <xadb2tst-exp-tstmp />
+                      <xadb2tst-exp-statuscode />
+                      <xadb2tst-exp-userid />
+                    </xadb2tst-exp-table>
+                    <xadb2tst-exp-table>
+                      <xadb2tst-exp-id />
+                      <xadb2tst-exp-firstname />
+                      <xadb2tst-exp-lastname />
+                      <xadb2tst-exp-cprnr />
+                      <xadb2tst-exp-tstmp />
+                      <xadb2tst-exp-statuscode />
+                      <xadb2tst-exp-userid />
+                    </xadb2tst-exp-table>
+                    <xadb2tst-exp-table>
+                      <xadb2tst-exp-id />
+                      <xadb2tst-exp-firstname />
+                      <xadb2tst-exp-lastname />
+                      <xadb2tst-exp-cprnr />
+                      <xadb2tst-exp-tstmp />
+                      <xadb2tst-exp-statuscode />
+                      <xadb2tst-exp-userid />
+                    </xadb2tst-exp-table>
+                  </xadb2tst-export>
+                </Data>
+              </Component>
+            </Scope>
+            <Scope name="Verification" disabled="false">
+              <SQLSelect id="selectAfter" maxRows="20">
+                <Statement>SELECT RIDENT,  FIRSTNAME,  LASTNAME,  CPRNR,  TSTMP,  USERID,  STATUSCODE FROM ${db2CreatorName}.${db2TableName} where RIDENT=${newRowId};</Statement>
+                <Output name="RIDENT" />
+                <Output name="FIRSTNAME" />
+                <Output name="LASTNAME" />
+                <Output name="CPRNR" />
+                <Output name="TSTMP" />
+                <Output name="USERID" />
+                <Output name="STATUSCODE" />
+              </SQLSelect>
+              <Verify name="Status Code" haltExecution="false" description="Status Code is expected to be 'D'">
+                <Expected expression="expectedStatuscode" />
+                <Actual expression="selectAfter.Row.STATUSCODE" />
+              </Verify>
+            </Scope>
+          </Scope>
+          <Scope name="Negative Tests" disabled="false">
+            <Scope name="Set up" disabled="false">
+              <Variable id="nextRowId">
+                <data:Replaceable>
+                  <Expression description="Increase newRowId by 1">
+                    <Statement><![CDATA[var tempRowId = Number(newRowId) + 1;
+tempRowId.toString();]]></Statement>
+                  </Expression>
+                </data:Replaceable>
+              </Variable>
+              <SQLSelect id="selectNonExisting" maxRows="1">
+                <Statement>SELECT * FROM ${db2CreatorName}.${db2TableName} WHERE RIDENT = ${nextRowId}</Statement>
+              </SQLSelect>
+              <Verify name="Row does not exist" haltExecution="true">
+                <Statement><![CDATA[selectNonExisting.Row == null]]></Statement>
+              </Verify>
+            </Scope>
+            <Scope name="Execute Tests" disabled="false">
+              <Component label="XADB2TST" moduleName="XADB2TST" programExitVerify="value == 12" rollback="false">
+                <Data>
+                  <xadb2tst-import>
+                    <xadb2tst-imp-function>DELETE</xadb2tst-imp-function>
+                    <xadb2tst-imp-rident>=${nextRowId}</xadb2tst-imp-rident>
+                    <xadb2tst-imp-firstname />
+                    <xadb2tst-imp-lastname />
+                    <xadb2tst-imp-cprnr />
+                  </xadb2tst-import>
+                  <xadb2tst-export>
+                    <xadb2tst-exp-maxcount />
+                    <xadb2tst-exp-count />
+                    <xadb2tst-exp-errorcode>100</xadb2tst-exp-errorcode>
+                    <xadb2tst-exp-message />
+                    <xadb2tst-exp-table>
+                      <xadb2tst-exp-id />
+                      <xadb2tst-exp-firstname />
+                      <xadb2tst-exp-lastname />
+                      <xadb2tst-exp-cprnr />
+                      <xadb2tst-exp-tstmp />
+                      <xadb2tst-exp-statuscode />
+                      <xadb2tst-exp-userid />
+                    </xadb2tst-exp-table>
+                    <xadb2tst-exp-table>
+                      <xadb2tst-exp-id />
+                      <xadb2tst-exp-firstname />
+                      <xadb2tst-exp-lastname />
+                      <xadb2tst-exp-cprnr />
+                      <xadb2tst-exp-tstmp />
+                      <xadb2tst-exp-statuscode />
+                      <xadb2tst-exp-userid />
+                    </xadb2tst-exp-table>
+                    <xadb2tst-exp-table>
+                      <xadb2tst-exp-id />
+                      <xadb2tst-exp-firstname />
+                      <xadb2tst-exp-lastname />
+                      <xadb2tst-exp-cprnr />
+                      <xadb2tst-exp-tstmp />
+                      <xadb2tst-exp-statuscode />
+                      <xadb2tst-exp-userid />
+                    </xadb2tst-exp-table>
+                    <xadb2tst-exp-table>
+                      <xadb2tst-exp-id />
+                      <xadb2tst-exp-firstname />
+                      <xadb2tst-exp-lastname />
+                      <xadb2tst-exp-cprnr />
+                      <xadb2tst-exp-tstmp />
+                      <xadb2tst-exp-statuscode />
+                      <xadb2tst-exp-userid />
+                    </xadb2tst-exp-table>
+                    <xadb2tst-exp-table>
+                      <xadb2tst-exp-id />
+                      <xadb2tst-exp-firstname />
+                      <xadb2tst-exp-lastname />
+                      <xadb2tst-exp-cprnr />
+                      <xadb2tst-exp-tstmp />
+                      <xadb2tst-exp-statuscode />
+                      <xadb2tst-exp-userid />
+                    </xadb2tst-exp-table>
+                    <xadb2tst-exp-table>
+                      <xadb2tst-exp-id />
+                      <xadb2tst-exp-firstname />
+                      <xadb2tst-exp-lastname />
+                      <xadb2tst-exp-cprnr />
+                      <xadb2tst-exp-tstmp />
+                      <xadb2tst-exp-statuscode />
+                      <xadb2tst-exp-userid />
+                    </xadb2tst-exp-table>
+                    <xadb2tst-exp-table>
+                      <xadb2tst-exp-id />
+                      <xadb2tst-exp-firstname />
+                      <xadb2tst-exp-lastname />
+                      <xadb2tst-exp-cprnr />
+                      <xadb2tst-exp-tstmp />
+                      <xadb2tst-exp-statuscode />
+                      <xadb2tst-exp-userid />
+                    </xadb2tst-exp-table>
+                  </xadb2tst-export>
+                </Data>
+              </Component>
+            </Scope>
+          </Scope>
+          <Scope name="Clean Up Database" disabled="false">
+            <SQLUpdate name="Delete inserted record">
+              <Statement><![CDATA[DELETE FROM ${db2CreatorName}.${db2TableName} WHERE RIDENT = ${newRowId}]]></Statement>
+            </SQLUpdate>
+          </Scope>
+        </Test>
+        <MetaData>
+          <MDataDefinition name="dclxaemployee">
+            <dclxaemployee native="01 DCLXAEMPLOYEE.">
+              <rident type="NumericBinary" length="9" bytes="4" native="10 RIDENT PIC S9(9) USAGE COMP." signed="true" decimals="0" />
+              <firstname type="Character" length="32" bytes="32" native="10 FIRSTNAME PIC X(32)." />
+              <lastname type="Character" length="32" bytes="32" native="10 LASTNAME PIC X(32)." />
+              <cprnr type="NumericPacked" length="10" bytes="6" native="10 CPRNR PIC S9(10)V USAGE COMP-3." signed="true" decimals="0" />
+              <tstmp type="Character" length="26" bytes="26" native="10 TSTMP PIC X(26)." />
+              <userid type="Character" length="8" bytes="8" native="10 USERID PIC X(8)." />
+              <statuscode type="Character" length="1" bytes="1" native="10 STATUSCODE PIC X(1)." />
+            </dclxaemployee>
+          </MDataDefinition>
+          <Component name="XADB2TST" type="COBOL">
+            <INOUT>
+              <xadb2tst-import>
+                <xadb2tst-imp-function type="Character" length="8" bytes="8" />
+                <xadb2tst-imp-rident type="NumericBinary" length="9" bytes="4" signed="true" decimals="0" />
+                <xadb2tst-imp-firstname type="Character" length="30" bytes="30" />
+                <xadb2tst-imp-lastname type="Character" length="30" bytes="30" />
+                <xadb2tst-imp-cprnr type="NumericPacked" length="11" bytes="6" signed="true" decimals="0" />
+              </xadb2tst-import>
+              <xadb2tst-export>
+                <xadb2tst-exp-maxcount type="NumericBinary" length="4" bytes="2" signed="true" decimals="0" />
+                <xadb2tst-exp-count type="NumericBinary" length="4" bytes="2" signed="true" decimals="0" />
+                <xadb2tst-exp-errorcode type="NumericBinary" length="9" bytes="4" signed="true" decimals="0" />
+                <xadb2tst-exp-message type="Character" length="80" bytes="80" />
+                <xadb2tst-exp-table count="7">
+                  <xadb2tst-exp-id type="NumericBinary" length="9" bytes="4" signed="true" decimals="0" />
+                  <xadb2tst-exp-firstname type="Character" length="30" bytes="30" />
+                  <xadb2tst-exp-lastname type="Character" length="30" bytes="30" />
+                  <xadb2tst-exp-cprnr type="NumericPacked" length="11" bytes="6" signed="true" decimals="0" />
+                  <xadb2tst-exp-tstmp type="Character" length="26" bytes="26" />
+                  <xadb2tst-exp-statuscode type="Character" length="1" bytes="1" />
+                  <xadb2tst-exp-userid type="Character" length="8" bytes="8" />
+                </xadb2tst-exp-table>
+              </xadb2tst-export>
+            </INOUT>
+          </Component>
+        </MetaData>
+      </XaUnit>
+      <ExternalResources>
+        <Resource path="Input_Data/XADB2TST_Delete_Scenario_Records.xml">
+          <Data>
+            <record>
+              <dclxaemployee>
+                <rident>0</rident>
+                <firstname>Ralph</firstname>
+                <lastname>Nuesse</lastname>
+                <cprnr>12345678</cprnr>
+                <tstmp>2019-02-05-09.12.44.000416</tstmp>
+                <userid>XATESTER</userid>
+                <statuscode>O</statuscode>
+              </dclxaemployee>
+            </record>
+          </Data>
+        </Resource>
+      </ExternalResources>
+    </ExecutionContext>
+  </Context>
+  <Started>20200921-12-47-42</Started>
+  <Ended>20200921-12-48-06</Ended>
+</XaUnitResult>

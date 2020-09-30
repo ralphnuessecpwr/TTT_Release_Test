@@ -1,0 +1,58 @@
+13:57:58.635 COMMENT   Engine           Test Scenario execution started
+13:57:58.637 INFO      Engine           Using context settings:
+  Engine Version       : 20.3
+  Environment id                : 5f64570731d7ab4e8cb59b98
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwcc.compuware.com
+  Server port                   : 16196
+  Job execution timeout seconds : 300
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+  Use Repository Server         : true
+13:57:58.637 INFO      Engine           Setting variables from context and context data extensions
+13:57:58.637 INFO      Engine             id: environmentId      value: 5f64570731d7ab4e8cb59b98
+13:57:58.638 INFO      Engine             id: environmentType    value: BATCH
+13:57:58.638 INFO      Engine             id: userId             value: HDDRXM0
+13:57:58.638 INFO      Engine             id: accountingInfo     value: 
+13:57:58.664 INFO      Component        Interpreting Component: CWXTEMP - CWCC program:CWXTEMP
+13:57:58.666 INFO      Component        Using mockup data for mocking sub modules.
+13:57:58.667 INFO      Component          File path: Stubs/CWXTDATE.xastub
+13:57:58.697 LOG       CWCC Batch       Component Runtime Settings:
+13:57:58.697 LOG       CWCC Batch         Load libraries :HDDRXM0.RT.LOAD.PDSE
+13:57:58.697 LOG       CWCC Batch         Optional main Load library:
+13:57:58.698 LOG       CWCC Batch         Listing libraries         :
+13:57:58.698 LOG       CWCC Batch         SysDebug libraries        :
+13:57:58.698 LOG       CWCC Batch         DB2 Subsystem ID          :
+13:57:58.698 LOG       CWCC Batch         DB2 plan                  :
+13:57:58.698 LOG       CWCC Batch         Call interface            :NONE
+13:57:58.698 LOG       CWCC Batch         Debugger type             :NONE
+13:57:58.698 LOG       CWCC Batch         Component type            :COBOL
+13:57:58.709 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTEMP rollback:false
+13:57:59.403 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/d2c5fdf85e7447b4a04441b2ec507057
+13:57:59.823 LOG       CWCC Batch       Uploading input data for module CWXTEMP
+13:58:15.872 LOG       CWCC Batch       Uploading mockup data for sub modules into file XAT_mockups.xml
+13:58:19.702 LOG       HCIClient        Request to host: <?xml version="1.0" encoding="UTF-8"?><XATZREQ><xatz_request><userid>HDDRXM0</userid><xpassword>XXX</xpassword><operation>EXECUTE</operation><runat>DAY</runat><loglevel>log</loglevel><inputfilepath>XAT_Module.i.xml</inputfilepath><outputfilepath>XAT_Module.o.xml</outputfilepath><runtime>BATCH</runtime><callinterface /><applid /><db2plan /><db2id /><rollback>false</rollback><jobdirectory>d2c5fdf85e7447b4a04441b2ec507057</jobdirectory><amode24>false</amode24><members><membername>CWXTEMP</membername></members><loads><mainload>HDDRXM0.RT.LOAD.PDSE</mainload></loads><codepage>1047</codepage><lang>COBOL</lang><mockups><mockstate>dynamic</mockstate><mockup><modulename>CWXTDATE</modulename></mockup></mockups></xatz_request></XATZREQ>
+13:58:20.484 LOG       HCIClient        Response from host: <?xml version="1.0" encoding="UTF-8"?><XATZRESP xmlns:xsi="http://www.w3.ORG/2001/XMLSCHEMA-INSTANCE"><xatz_response><resultcode>0</resultcode><resultmessage></resultmessage><jobid>J0927131</jobid><jobname>HDDRXM0E</jobname><starttime>20200925075820454</starttime></xatz_response></XATZRESP>
+13:58:20.485 LOG       HCIClient        Response received from Host. Message: JobId:J0927131
+13:58:20.485 INFO      HCIClient        Job has been started at host with JobId:J0927131
+13:58:23.778 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0E(J0927131) ended with return code: 0000
+  Job name       : HDDRXM0E
+  Job id         : J0927131
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+13:58:25.040 INFO      CWCC Batch       Component completed with program exit: +0
+13:58:26.339 LOG       CWCC Batch       Setting execution variable 'jobid' to J0927131
+13:58:26.340 LOG       CWCC Batch       Setting execution variable 'jobname' to HDDRXM0E
+13:58:26.341 LOG       CWCC Batch       Setting execution variable 'programexit' to 0
+13:58:27.034 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+13:58:27.435 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+13:58:27.436 INFO      Component        Finished interpreting Component: CWXTEMP - CWCC program:CWXTEMP
+13:58:27.438 COMMENT   Engine           Test Scenario execution ended

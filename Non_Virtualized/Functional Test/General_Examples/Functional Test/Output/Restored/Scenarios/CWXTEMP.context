@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5f6457ad31d7ab4e8cb59b9d" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3">
+  <ExtensionData />
+  <ExtensionData componentName="cwxtemp" componentId="5f64a7f831d7ab4e8cb59bc9">
+    <Parameter key="sourcelibrary">
+      <Value>HDDRXM0.RT.COB.BATCH</Value>
+    </Parameter>
+    <Parameter key="loadlibraries">
+      <Value>HDDRXM0.RT.LOAD.PDSE</Value>
+    </Parameter>
+    <Parameter key="sourcelibraries">
+      <Value>HDDRXM0.RT.COPY</Value>
+    </Parameter>
+    <Parameter key="callinterface">
+      <Value>NONE</Value>
+    </Parameter>
+  </ExtensionData>
+  <XaUnit path="CWXTEMP.scenario" />
+</ExecutionContext>

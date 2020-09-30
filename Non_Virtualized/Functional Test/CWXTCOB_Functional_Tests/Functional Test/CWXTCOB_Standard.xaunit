@@ -14,11 +14,11 @@ Store expected RPFILE data locally and restore to mainframe</Description>
   <Test>
     <Scope name="Initialize" disabled="false">
       <Scope name="Variable Set Up" disabled="false">
-        <Variable id="empInDatasetNameHourly">HDDRXM0.DEMO.TTTFT.CWXTDATA.HOURLY</Variable>
-        <Variable id="empInDatasetNameSales">HDDRXM0.DEMO.TTTFT.CWXTDATA.SALES</Variable>
-        <Variable id="empInDatasetNameMgmt">HDDRXM0.DEMO.TTTFT.CWXTDATA.MGMT</Variable>
-        <Variable id="outDatasetNameActual">HDDRXM0.DEMO.TTTFT.CWXTRPT</Variable>
-        <Variable id="outDatasetNameExpected">HDDRXM0.DEMO.TTTFT.CWXTRPT.EXPECT</Variable>
+        <Variable id="empInDatasetNameHourly">HDDRXM0.RT.TTTFT.CWXTDATA.HOURLY</Variable>
+        <Variable id="empInDatasetNameSales">HDDRXM0.RT.TTTFT.CWXTDATA.SALES</Variable>
+        <Variable id="empInDatasetNameMgmt">HDDRXM0.RT.TTTFT.CWXTDATA.MGMT</Variable>
+        <Variable id="outDatasetNameActual">HDDRXM0.RT.TTTFT.CWXTRPT</Variable>
+        <Variable id="outDatasetNameExpected">HDDRXM0.RT.TTTFT.CWXTRPT.EXPECT</Variable>
         <Variable id="empInRecordsHourly" filePath="Input_Data/employee_input_file_hourly.xml" />
         <Variable id="empInRecordsSales" filePath="Input_Data/employee_input_file_sales.xml" />
         <Variable id="empInRecordsMgmt" filePath="Input_Data/employee_input_file_mgmt.xml" />
