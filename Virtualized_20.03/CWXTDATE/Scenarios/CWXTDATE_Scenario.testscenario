@@ -1,0 +1,706 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario">
+  <testscenario:description></testscenario:description>
+  <testscenario:testcases>
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" entrypoint="CWXTDATE" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase1" target="CWXTDATE">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.DEMO.CWC2.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1585036446000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTDATE.interface#Unit%20Test/Interfaces/CWXTDATE.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTDATE_EOM-SW.listructure#Unit%20Test/Structures/CWXTDATE_EOM-SW.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_EOM-SW.listructure#EOM_SW" id="arg0.EOM_SW">
+          <properties:properties>
+            <properties:property name="value" type="string">D5</properties:property>
+            <properties:property name="expectedValue" type="string">D5</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTDATE_YRS-OF-SERVICE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+          <properties:properties>
+            <properties:property name="value" type="string">F0F0</properties:property>
+            <properties:property name="expectedValue" type="string">F0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_RUN-DATE.listructure#Unit%20Test/Structures/CWXTDATE_RUN-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F0F0F3F2F5</properties:property>
+            <properties:property name="expectedValue" type="string">F2F0F0F3F2F5</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_HIRE-DATE.listructure#Unit%20Test/Structures/CWXTDATE_HIRE-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_HIRE-DATE.listructure#HIRE_DATE" id="arg3.HIRE_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">000000000000</properties:property>
+            <properties:property name="expectedValue" type="string">000000000000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:returncode listructure="../Structures/CWXTDATE_RETURN-CODE.listructure#Unit%20Test/Structures/CWXTDATE_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" entrypoint="CWXTDATE" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase2" target="CWXTDATE">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.DEMO.CWC2.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1585036446000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTDATE.interface#Unit%20Test/Interfaces/CWXTDATE.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTDATE_EOM-SW.listructure#Unit%20Test/Structures/CWXTDATE_EOM-SW.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_EOM-SW.listructure#EOM_SW" id="arg0.EOM_SW">
+          <properties:properties>
+            <properties:property name="value" type="string">D5</properties:property>
+            <properties:property name="expectedValue" type="string">D5</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTDATE_YRS-OF-SERVICE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+          <properties:properties>
+            <properties:property name="value" type="string">F0F0</properties:property>
+            <properties:property name="expectedValue" type="string">F3F8</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_RUN-DATE.listructure#Unit%20Test/Structures/CWXTDATE_RUN-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F0F0F3F2F5</properties:property>
+            <properties:property name="expectedValue" type="string">F2F0F0F3F2F5</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_HIRE-DATE.listructure#Unit%20Test/Structures/CWXTDATE_HIRE-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_HIRE-DATE.listructure#HIRE_DATE" id="arg3.HIRE_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F8F1F1F0F1F5</properties:property>
+            <properties:property name="expectedValue" type="string">F8F1F1F0F1F5</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:returncode listructure="../Structures/CWXTDATE_RETURN-CODE.listructure#Unit%20Test/Structures/CWXTDATE_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" entrypoint="CWXTDATE" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase3" target="CWXTDATE">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.DEMO.CWC2.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1585036446000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTDATE.interface#Unit%20Test/Interfaces/CWXTDATE.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTDATE_EOM-SW.listructure#Unit%20Test/Structures/CWXTDATE_EOM-SW.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_EOM-SW.listructure#EOM_SW" id="arg0.EOM_SW">
+          <properties:properties>
+            <properties:property name="value" type="string">D5</properties:property>
+            <properties:property name="expectedValue" type="string">D5</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTDATE_YRS-OF-SERVICE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+          <properties:properties>
+            <properties:property name="value" type="string">F3F8</properties:property>
+            <properties:property name="expectedValue" type="string">F2F7</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_RUN-DATE.listructure#Unit%20Test/Structures/CWXTDATE_RUN-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F0F0F3F2F5</properties:property>
+            <properties:property name="expectedValue" type="string">F2F0F0F3F2F5</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_HIRE-DATE.listructure#Unit%20Test/Structures/CWXTDATE_HIRE-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_HIRE-DATE.listructure#HIRE_DATE" id="arg3.HIRE_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F9F2F1F2F3F1</properties:property>
+            <properties:property name="expectedValue" type="string">F9F2F1F2F3F1</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:returncode listructure="../Structures/CWXTDATE_RETURN-CODE.listructure#Unit%20Test/Structures/CWXTDATE_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" entrypoint="CWXTDATE" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase4" target="CWXTDATE">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.DEMO.CWC2.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1585036446000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTDATE.interface#Unit%20Test/Interfaces/CWXTDATE.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTDATE_EOM-SW.listructure#Unit%20Test/Structures/CWXTDATE_EOM-SW.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_EOM-SW.listructure#EOM_SW" id="arg0.EOM_SW">
+          <properties:properties>
+            <properties:property name="value" type="string">D5</properties:property>
+            <properties:property name="expectedValue" type="string">D5</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTDATE_YRS-OF-SERVICE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F7</properties:property>
+            <properties:property name="expectedValue" type="string">F2F5</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_RUN-DATE.listructure#Unit%20Test/Structures/CWXTDATE_RUN-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F0F0F3F2F5</properties:property>
+            <properties:property name="expectedValue" type="string">F2F0F0F3F2F5</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_HIRE-DATE.listructure#Unit%20Test/Structures/CWXTDATE_HIRE-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_HIRE-DATE.listructure#HIRE_DATE" id="arg3.HIRE_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F9F4F0F5F0F1</properties:property>
+            <properties:property name="expectedValue" type="string">F9F4F0F5F0F1</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:returncode listructure="../Structures/CWXTDATE_RETURN-CODE.listructure#Unit%20Test/Structures/CWXTDATE_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" entrypoint="CWXTDATE" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase5" target="CWXTDATE">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.DEMO.CWC2.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1585036446000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTDATE.interface#Unit%20Test/Interfaces/CWXTDATE.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTDATE_EOM-SW.listructure#Unit%20Test/Structures/CWXTDATE_EOM-SW.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_EOM-SW.listructure#EOM_SW" id="arg0.EOM_SW">
+          <properties:properties>
+            <properties:property name="value" type="string">D5</properties:property>
+            <properties:property name="expectedValue" type="string">D5</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTDATE_YRS-OF-SERVICE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F5</properties:property>
+            <properties:property name="expectedValue" type="string">F3F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_RUN-DATE.listructure#Unit%20Test/Structures/CWXTDATE_RUN-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F0F0F3F2F5</properties:property>
+            <properties:property name="expectedValue" type="string">F2F0F0F3F2F5</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_HIRE-DATE.listructure#Unit%20Test/Structures/CWXTDATE_HIRE-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_HIRE-DATE.listructure#HIRE_DATE" id="arg3.HIRE_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F8F9F0F7F2F0</properties:property>
+            <properties:property name="expectedValue" type="string">F8F9F0F7F2F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:returncode listructure="../Structures/CWXTDATE_RETURN-CODE.listructure#Unit%20Test/Structures/CWXTDATE_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" entrypoint="CWXTDATE" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase6" target="CWXTDATE">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.DEMO.CWC2.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1585036446000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTDATE.interface#Unit%20Test/Interfaces/CWXTDATE.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTDATE_EOM-SW.listructure#Unit%20Test/Structures/CWXTDATE_EOM-SW.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_EOM-SW.listructure#EOM_SW" id="arg0.EOM_SW">
+          <properties:properties>
+            <properties:property name="value" type="string">D5</properties:property>
+            <properties:property name="expectedValue" type="string">D5</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTDATE_YRS-OF-SERVICE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+          <properties:properties>
+            <properties:property name="value" type="string">F3F0</properties:property>
+            <properties:property name="expectedValue" type="string">F3F6</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_RUN-DATE.listructure#Unit%20Test/Structures/CWXTDATE_RUN-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F0F0F3F2F5</properties:property>
+            <properties:property name="expectedValue" type="string">F2F0F0F3F2F5</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_HIRE-DATE.listructure#Unit%20Test/Structures/CWXTDATE_HIRE-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_HIRE-DATE.listructure#HIRE_DATE" id="arg3.HIRE_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F8F3F0F6F1F4</properties:property>
+            <properties:property name="expectedValue" type="string">F8F3F0F6F1F4</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:returncode listructure="../Structures/CWXTDATE_RETURN-CODE.listructure#Unit%20Test/Structures/CWXTDATE_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" entrypoint="CWXTDATE" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase7" target="CWXTDATE">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.DEMO.CWC2.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1585036446000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTDATE.interface#Unit%20Test/Interfaces/CWXTDATE.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTDATE_EOM-SW.listructure#Unit%20Test/Structures/CWXTDATE_EOM-SW.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_EOM-SW.listructure#EOM_SW" id="arg0.EOM_SW">
+          <properties:properties>
+            <properties:property name="value" type="string">D5</properties:property>
+            <properties:property name="expectedValue" type="string">D5</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTDATE_YRS-OF-SERVICE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+          <properties:properties>
+            <properties:property name="value" type="string">F3F6</properties:property>
+            <properties:property name="expectedValue" type="string">F3F2</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_RUN-DATE.listructure#Unit%20Test/Structures/CWXTDATE_RUN-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F0F0F3F2F5</properties:property>
+            <properties:property name="expectedValue" type="string">F2F0F0F3F2F5</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_HIRE-DATE.listructure#Unit%20Test/Structures/CWXTDATE_HIRE-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_HIRE-DATE.listructure#HIRE_DATE" id="arg3.HIRE_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F8F7F0F3F3F1</properties:property>
+            <properties:property name="expectedValue" type="string">F8F7F0F3F3F1</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:returncode listructure="../Structures/CWXTDATE_RETURN-CODE.listructure#Unit%20Test/Structures/CWXTDATE_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" entrypoint="CWXTDATE" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase8" target="CWXTDATE">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.DEMO.CWC2.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1585036446000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTDATE.interface#Unit%20Test/Interfaces/CWXTDATE.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTDATE_EOM-SW.listructure#Unit%20Test/Structures/CWXTDATE_EOM-SW.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_EOM-SW.listructure#EOM_SW" id="arg0.EOM_SW">
+          <properties:properties>
+            <properties:property name="value" type="string">D5</properties:property>
+            <properties:property name="expectedValue" type="string">D5</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTDATE_YRS-OF-SERVICE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+          <properties:properties>
+            <properties:property name="value" type="string">F3F2</properties:property>
+            <properties:property name="expectedValue" type="string">F3F8</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_RUN-DATE.listructure#Unit%20Test/Structures/CWXTDATE_RUN-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F0F0F3F2F5</properties:property>
+            <properties:property name="expectedValue" type="string">F2F0F0F3F2F5</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_HIRE-DATE.listructure#Unit%20Test/Structures/CWXTDATE_HIRE-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_HIRE-DATE.listructure#HIRE_DATE" id="arg3.HIRE_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F8F1F1F1F1F1</properties:property>
+            <properties:property name="expectedValue" type="string">F8F1F1F1F1F1</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:returncode listructure="../Structures/CWXTDATE_RETURN-CODE.listructure#Unit%20Test/Structures/CWXTDATE_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" entrypoint="CWXTDATE" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase9" target="CWXTDATE">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.DEMO.CWC2.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1585036446000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTDATE.interface#Unit%20Test/Interfaces/CWXTDATE.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTDATE_EOM-SW.listructure#Unit%20Test/Structures/CWXTDATE_EOM-SW.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_EOM-SW.listructure#EOM_SW" id="arg0.EOM_SW">
+          <properties:properties>
+            <properties:property name="value" type="string">D5</properties:property>
+            <properties:property name="expectedValue" type="string">D5</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTDATE_YRS-OF-SERVICE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+          <properties:properties>
+            <properties:property name="value" type="string">F3F8</properties:property>
+            <properties:property name="expectedValue" type="string">F3F7</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_RUN-DATE.listructure#Unit%20Test/Structures/CWXTDATE_RUN-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F0F0F3F2F5</properties:property>
+            <properties:property name="expectedValue" type="string">F2F0F0F3F2F5</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_HIRE-DATE.listructure#Unit%20Test/Structures/CWXTDATE_HIRE-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_HIRE-DATE.listructure#HIRE_DATE" id="arg3.HIRE_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F8F2F0F8F3F0</properties:property>
+            <properties:property name="expectedValue" type="string">F8F2F0F8F3F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:returncode listructure="../Structures/CWXTDATE_RETURN-CODE.listructure#Unit%20Test/Structures/CWXTDATE_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" entrypoint="CWXTDATE" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase10" target="CWXTDATE">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.DEMO.CWC2.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1585036446000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTDATE.interface#Unit%20Test/Interfaces/CWXTDATE.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTDATE_EOM-SW.listructure#Unit%20Test/Structures/CWXTDATE_EOM-SW.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_EOM-SW.listructure#EOM_SW" id="arg0.EOM_SW">
+          <properties:properties>
+            <properties:property name="value" type="string">D5</properties:property>
+            <properties:property name="expectedValue" type="string">D5</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTDATE_YRS-OF-SERVICE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+          <properties:properties>
+            <properties:property name="value" type="string">F3F7</properties:property>
+            <properties:property name="expectedValue" type="string">F2F6</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_RUN-DATE.listructure#Unit%20Test/Structures/CWXTDATE_RUN-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F0F0F3F2F5</properties:property>
+            <properties:property name="expectedValue" type="string">F2F0F0F3F2F5</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_HIRE-DATE.listructure#Unit%20Test/Structures/CWXTDATE_HIRE-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_HIRE-DATE.listructure#HIRE_DATE" id="arg3.HIRE_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F9F3F0F4F0F5</properties:property>
+            <properties:property name="expectedValue" type="string">F9F3F0F4F0F5</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:returncode listructure="../Structures/CWXTDATE_RETURN-CODE.listructure#Unit%20Test/Structures/CWXTDATE_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" entrypoint="CWXTDATE" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase11" target="CWXTDATE">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.DEMO.CWC2.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1585036446000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTDATE.interface#Unit%20Test/Interfaces/CWXTDATE.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTDATE_EOM-SW.listructure#Unit%20Test/Structures/CWXTDATE_EOM-SW.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_EOM-SW.listructure#EOM_SW" id="arg0.EOM_SW">
+          <properties:properties>
+            <properties:property name="value" type="string">D5</properties:property>
+            <properties:property name="expectedValue" type="string">D5</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTDATE_YRS-OF-SERVICE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F6</properties:property>
+            <properties:property name="expectedValue" type="string">F2F8</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_RUN-DATE.listructure#Unit%20Test/Structures/CWXTDATE_RUN-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F0F0F3F2F5</properties:property>
+            <properties:property name="expectedValue" type="string">F2F0F0F3F2F5</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_HIRE-DATE.listructure#Unit%20Test/Structures/CWXTDATE_HIRE-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_HIRE-DATE.listructure#HIRE_DATE" id="arg3.HIRE_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F9F1F0F9F1F3</properties:property>
+            <properties:property name="expectedValue" type="string">F9F1F0F9F1F3</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:returncode listructure="../Structures/CWXTDATE_RETURN-CODE.listructure#Unit%20Test/Structures/CWXTDATE_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" entrypoint="CWXTDATE" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase12" target="CWXTDATE">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.DEMO.CWC2.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1585036446000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTDATE.interface#Unit%20Test/Interfaces/CWXTDATE.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTDATE_EOM-SW.listructure#Unit%20Test/Structures/CWXTDATE_EOM-SW.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_EOM-SW.listructure#EOM_SW" id="arg0.EOM_SW">
+          <properties:properties>
+            <properties:property name="value" type="string">D5</properties:property>
+            <properties:property name="expectedValue" type="string">D5</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTDATE_YRS-OF-SERVICE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F8</properties:property>
+            <properties:property name="expectedValue" type="string">F3F2</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_RUN-DATE.listructure#Unit%20Test/Structures/CWXTDATE_RUN-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F0F0F3F2F5</properties:property>
+            <properties:property name="expectedValue" type="string">F2F0F0F3F2F5</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_HIRE-DATE.listructure#Unit%20Test/Structures/CWXTDATE_HIRE-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_HIRE-DATE.listructure#HIRE_DATE" id="arg3.HIRE_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F8F8F0F2F2F9</properties:property>
+            <properties:property name="expectedValue" type="string">F8F8F0F2F2F9</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:returncode listructure="../Structures/CWXTDATE_RETURN-CODE.listructure#Unit%20Test/Structures/CWXTDATE_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" entrypoint="CWXTDATE" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase13" target="CWXTDATE">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.DEMO.CWC2.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1585036446000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTDATE.interface#Unit%20Test/Interfaces/CWXTDATE.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTDATE_EOM-SW.listructure#Unit%20Test/Structures/CWXTDATE_EOM-SW.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_EOM-SW.listructure#EOM_SW" id="arg0.EOM_SW">
+          <properties:properties>
+            <properties:property name="value" type="string">D5</properties:property>
+            <properties:property name="expectedValue" type="string">D5</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTDATE_YRS-OF-SERVICE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+          <properties:properties>
+            <properties:property name="value" type="string">F3F2</properties:property>
+            <properties:property name="expectedValue" type="string">F3F4</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_RUN-DATE.listructure#Unit%20Test/Structures/CWXTDATE_RUN-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F0F0F3F2F5</properties:property>
+            <properties:property name="expectedValue" type="string">F2F0F0F3F2F5</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_HIRE-DATE.listructure#Unit%20Test/Structures/CWXTDATE_HIRE-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_HIRE-DATE.listructure#HIRE_DATE" id="arg3.HIRE_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F8F6F0F1F0F2</properties:property>
+            <properties:property name="expectedValue" type="string">F8F6F0F1F0F2</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:returncode listructure="../Structures/CWXTDATE_RETURN-CODE.listructure#Unit%20Test/Structures/CWXTDATE_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTDATE" encoding="1047" entrypoint="CWXTDATE" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase14" target="CWXTDATE">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.DEMO.CWC2.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1585036446000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTDATE.interface#Unit%20Test/Interfaces/CWXTDATE.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTDATE_EOM-SW.listructure#Unit%20Test/Structures/CWXTDATE_EOM-SW.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_EOM-SW.listructure#EOM_SW" id="arg0.EOM_SW">
+          <properties:properties>
+            <properties:property name="value" type="string">D5</properties:property>
+            <properties:property name="expectedValue" type="string">D5</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTDATE_YRS-OF-SERVICE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+          <properties:properties>
+            <properties:property name="value" type="string">F3F4</properties:property>
+            <properties:property name="expectedValue" type="string">F3F7</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_RUN-DATE.listructure#Unit%20Test/Structures/CWXTDATE_RUN-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_RUN-DATE.listructure#RUN_DATE" id="arg2.RUN_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F2F0F0F3F2F5</properties:property>
+            <properties:property name="expectedValue" type="string">F2F0F0F3F2F5</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTDATE_HIRE-DATE.listructure#Unit%20Test/Structures/CWXTDATE_HIRE-DATE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_HIRE-DATE.listructure#HIRE_DATE" id="arg3.HIRE_DATE">
+          <properties:properties>
+            <properties:property name="value" type="string">F8F2F0F9F3F0</properties:property>
+            <properties:property name="expectedValue" type="string">F8F2F0F9F3F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+      <testcase:returncode listructure="../Structures/CWXTDATE_RETURN-CODE.listructure#Unit%20Test/Structures/CWXTDATE_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTDATE_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+    </testscenario:testcase>
+  </testscenario:testcases>
+</testscenario:testscenario>
