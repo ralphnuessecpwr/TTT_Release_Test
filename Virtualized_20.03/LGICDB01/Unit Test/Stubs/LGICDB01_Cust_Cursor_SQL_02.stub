@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.1" encoding="UTF-8"?>
 <stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/LGICDB01_Cust_Cursor_SQL_02.stub" nextCalltoken="40012" stubtype="SQL CURSOR" target="Open" token="40000">
   <stub:description>Created: 21.05.2019 10:35:34</stub:description>
   <stub:stubdata id="0" name="Open">
