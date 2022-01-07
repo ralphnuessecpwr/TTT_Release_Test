@@ -1,0 +1,331 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="LGACDB01/Stubs/LGACDB01_EXEC_CICS_FORMATTIME1_01.stub" nextCalltoken="1230002" stubtype="CICS" target="" token="1230000">
+  <stub:description>Created: Jun 30, 2021 8:17:38 AM</stub:description>
+  <stub:stubdata callToken="1230001" id="0" name="EXEC CICS FORMATTIME">
+    <stub:interface>../Interfaces/LGACDB01_EXEC_CICS_FORMATTIME1.interface#LGACDB01/Interfaces/LGACDB01_EXEC_CICS_FORMATTIME1.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/LGACDB01_EXEC_CICS_FORMATTIME1.interface#LGACDB01/Interfaces/LGACDB01_EXEC_CICS_FORMATTIME1.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-0.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">4a048002078002080000000000f0f0f9f8f4404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_WS-ABSTIME.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_WS-ABSTIME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_WS-ABSTIME.listructure#WS_ABSTIME" id="arg1.WS_ABSTIME">
+        <properties:properties>
+          <properties:property name="value" type="string">00383400</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-2.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-2.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-2.listructure#CICS_GENERATED_CONSTANT_2" id="arg2.CICS_GENERATED_CONSTANT_2">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-3.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-3.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-3.listructure#CICS_GENERATED_CONSTANT_3" id="arg3.CICS_GENERATED_CONSTANT_3">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-4.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-4.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-4.listructure#CICS_GENERATED_CONSTANT_4" id="arg4.CICS_GENERATED_CONSTANT_4">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-5.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-5.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-5.listructure#CICS_GENERATED_CONSTANT_5" id="arg5.CICS_GENERATED_CONSTANT_5">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-6.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-6.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-6.listructure#CICS_GENERATED_CONSTANT_6" id="arg6.CICS_GENERATED_CONSTANT_6">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-7.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-7.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-7.listructure#CICS_GENERATED_CONSTANT_7" id="arg7.CICS_GENERATED_CONSTANT_7">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-8.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-8.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-8.listructure#CICS_GENERATED_CONSTANT_8" id="arg8.CICS_GENERATED_CONSTANT_8">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-9.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-9.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-9.listructure#CICS_GENERATED_CONSTANT_9" id="arg9.CICS_GENERATED_CONSTANT_9">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-10.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-10.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-10.listructure#CICS_GENERATED_CONSTANT_10" id="arg10.CICS_GENERATED_CONSTANT_10">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-11.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-11.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-11.listructure#CICS_GENERATED_CONSTANT_11" id="arg11.CICS_GENERATED_CONSTANT_11">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-12.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-12.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-12.listructure#CICS_GENERATED_CONSTANT_12" id="arg12.CICS_GENERATED_CONSTANT_12">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-13.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-13.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-13.listructure#CICS_GENERATED_CONSTANT_13" id="arg13.CICS_GENERATED_CONSTANT_13">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-14.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-14.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-14.listructure#CICS_GENERATED_CONSTANT_14" id="arg14.CICS_GENERATED_CONSTANT_14">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_WS-TIME.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_WS-TIME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_WS-TIME.listructure#WS_TIME" id="arg15.WS_TIME">
+        <properties:properties>
+          <properties:property name="value" type="string">4040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-16.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-16.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-16.listructure#CICS_GENERATED_CONSTANT_16" id="arg16.CICS_GENERATED_CONSTANT_16">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-17.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-17.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-17.listructure#CICS_GENERATED_CONSTANT_17" id="arg17.CICS_GENERATED_CONSTANT_17">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-18.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-18.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-18.listructure#CICS_GENERATED_CONSTANT_18" id="arg18.CICS_GENERATED_CONSTANT_18">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-19.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-19.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-19.listructure#CICS_GENERATED_CONSTANT_19" id="arg19.CICS_GENERATED_CONSTANT_19">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-20.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-20.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-20.listructure#CICS_GENERATED_CONSTANT_20" id="arg20.CICS_GENERATED_CONSTANT_20">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_WS-DATE.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_WS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_WS-DATE.listructure#WS_DATE" id="arg21.WS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">40404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-0.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">4a048002078002080000000000f0f0f9f8f4404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_WS-ABSTIME.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_WS-ABSTIME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_WS-ABSTIME.listructure#WS_ABSTIME" id="arg1.WS_ABSTIME">
+        <properties:properties>
+          <properties:property name="value" type="string">00383400</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-2.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-2.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-2.listructure#CICS_GENERATED_CONSTANT_2" id="arg2.CICS_GENERATED_CONSTANT_2">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-3.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-3.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-3.listructure#CICS_GENERATED_CONSTANT_3" id="arg3.CICS_GENERATED_CONSTANT_3">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-4.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-4.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-4.listructure#CICS_GENERATED_CONSTANT_4" id="arg4.CICS_GENERATED_CONSTANT_4">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-5.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-5.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-5.listructure#CICS_GENERATED_CONSTANT_5" id="arg5.CICS_GENERATED_CONSTANT_5">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-6.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-6.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-6.listructure#CICS_GENERATED_CONSTANT_6" id="arg6.CICS_GENERATED_CONSTANT_6">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-7.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-7.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-7.listructure#CICS_GENERATED_CONSTANT_7" id="arg7.CICS_GENERATED_CONSTANT_7">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-8.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-8.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-8.listructure#CICS_GENERATED_CONSTANT_8" id="arg8.CICS_GENERATED_CONSTANT_8">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-9.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-9.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-9.listructure#CICS_GENERATED_CONSTANT_9" id="arg9.CICS_GENERATED_CONSTANT_9">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-10.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-10.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-10.listructure#CICS_GENERATED_CONSTANT_10" id="arg10.CICS_GENERATED_CONSTANT_10">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-11.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-11.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-11.listructure#CICS_GENERATED_CONSTANT_11" id="arg11.CICS_GENERATED_CONSTANT_11">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-12.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-12.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-12.listructure#CICS_GENERATED_CONSTANT_12" id="arg12.CICS_GENERATED_CONSTANT_12">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-13.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-13.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-13.listructure#CICS_GENERATED_CONSTANT_13" id="arg13.CICS_GENERATED_CONSTANT_13">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-14.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-14.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-14.listructure#CICS_GENERATED_CONSTANT_14" id="arg14.CICS_GENERATED_CONSTANT_14">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_WS-TIME.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_WS-TIME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_WS-TIME.listructure#WS_TIME" id="arg15.WS_TIME">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F1F7F3F74040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-16.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-16.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-16.listructure#CICS_GENERATED_CONSTANT_16" id="arg16.CICS_GENERATED_CONSTANT_16">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-17.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-17.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-17.listructure#CICS_GENERATED_CONSTANT_17" id="arg17.CICS_GENERATED_CONSTANT_17">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-18.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-18.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-18.listructure#CICS_GENERATED_CONSTANT_18" id="arg18.CICS_GENERATED_CONSTANT_18">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-19.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-19.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-19.listructure#CICS_GENERATED_CONSTANT_19" id="arg19.CICS_GENERATED_CONSTANT_19">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-20.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-20.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-20.listructure#CICS_GENERATED_CONSTANT_20" id="arg20.CICS_GENERATED_CONSTANT_20">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_WS-DATE.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_WS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_WS-DATE.listructure#WS_DATE" id="arg21.WS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F6F3F0F2F0F2F14040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:statement type="EXEC CICS FORMATTIME">
+      <stub:text>      *EXEC CICS FORMATTIME ABSTIME(WS-ABSTIME)
+      *          MMDDYYYY(WS-DATE)
+      *          TIME(WS-TIME)
+      *END-EXEC
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_dfheiblk.listructure#LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_dfheiblk.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+        <properties:properties>
+          <properties:property name="value" type="string">0021737F0121181FE2E2C3F10001413CC3F9F4F3000006227EF47D4A040000000000000000000000000000000000000000000040404040404040400000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+</stub:stub>

@@ -1,0 +1,42 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?totaltestVersion 20.7.1.v20210611-0414_90?>
+<!--Topaz for Total Test 20.7.1.v20210611-0414_90 Jun 29, 2021 1:59:28 PM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="CWKTCOBP/Interfaces/CWXTCOBP_CWXTEMP.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/CWXTCOBP_CWXTEMP_TODAYS-DATE.listructure#CWKTCOBP/Structures/CWXTCOBP_CWXTEMP_TODAYS-DATE.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CWXTCOBP_CWXTEMP_TODAYS-DATE.listructure#TODAYS_DATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWXTCOBP_CWXTEMP_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CWXTCOBP_CWXTEMP_EMP-REC-POINTER.listructure#CWKTCOBP/Structures/CWXTCOBP_CWXTEMP_EMP-REC-POINTER.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CWXTCOBP_CWXTEMP_EMP-REC-POINTER.listructure#EMP_REC_POINTER">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWXTCOBP_CWXTEMP_EMP-REC-POINTER.listructure#EMP_REC_POINTER.EMP_REC_POINTER">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CWXTCOBP_CWXTEMP_WORK-AREA-POINTER.listructure#CWKTCOBP/Structures/CWXTCOBP_CWXTEMP_WORK-AREA-POINTER.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CWXTCOBP_CWXTEMP_WORK-AREA-POINTER.listructure#WORK_AREA_POINTER">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWXTCOBP_CWXTEMP_WORK-AREA-POINTER.listructure#WORK_AREA_POINTER.WORK_AREA_POINTER">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

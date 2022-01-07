@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.7.1.v20210611-0414_90?>
+<!--Topaz for Total Test 20.7.1.v20210611-0414_90 Jun 30, 2021 8:17:39 AM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="LGACDB01/Structures/CICS/LGACDB01_EXEC_CICS_FORMATTIME1/LGACDB01_EXEC_CICS_FORMATTIME1_WS-TIME.listructure">
+  <listructure:struct id="WS_TIME" name="WS_TIME">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">8</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">8</properties:property>
+    </properties:properties>
+    <listructure:string id="WS_TIME.WS_TIME" initial="        " length="8" name="WS_TIME">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(8)</properties:property>
+        <properties:property name="value">spaces</properties:property>
+        <properties:property name="displayLength" type="number">8</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(8)</properties:property>
+        <properties:property name="storageLength" type="number">8</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>

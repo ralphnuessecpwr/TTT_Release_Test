@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.7.1.v20210611-0414_90?>
+<!--Topaz for Total Test 20.7.1.v20210611-0414_90 Jul 1, 2021 8:34:59 AM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="TRIMPP/Interfaces/TRIMPP_OUTPUT_MSG.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/IMS/TRIMPP/TRIMPP_ISRT.listructure#TRIMPP/Structures/IMS/TRIMPP/TRIMPP_ISRT.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/IMS/TRIMPP/TRIMPP_ISRT.listructure#ISRT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/TRIMPP/TRIMPP_ISRT.listructure#ISRT.ISRT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/IMS/TRIMPP/TRIMPP_IOPCB.listructure#TRIMPP/Structures/IMS/TRIMPP/TRIMPP_IOPCB.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/IMS/TRIMPP/TRIMPP_IOPCB.listructure#IOPCB">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/TRIMPP/TRIMPP_IOPCB.listructure#IOPCB.LTERM_NAME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/TRIMPP/TRIMPP_IOPCB.listructure#IOPCB.FILLER0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/TRIMPP/TRIMPP_IOPCB.listructure#IOPCB.IO_STCODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/IMS/TRIMPP/TRIMPP_IOPCB.listructure#IOPCB.C_DATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/IMS/TRIMPP/TRIMPP_IOPCB.listructure#IOPCB.C_TIME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/IMS/TRIMPP/TRIMPP_IOPCB.listructure#IOPCB.INSEQ_NUM">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/TRIMPP/TRIMPP_IOPCB.listructure#IOPCB.FILLER1">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/TRIMPP/TRIMPP_IOPCB.listructure#IOPCB.MOD_NAME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/TRIMPP/TRIMPP_IOPCB.listructure#IOPCB.USER_ID">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/IMS/TRIMPP/TRIMPP_OUTPUT-MSG.listructure#TRIMPP/Structures/IMS/TRIMPP/TRIMPP_OUTPUT-MSG.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/IMS/TRIMPP/TRIMPP_OUTPUT-MSG.listructure#OUTPUT_MSG">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/IMS/TRIMPP/TRIMPP_OUTPUT-MSG.listructure#OUTPUT_MSG.OUT_LL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/IMS/TRIMPP/TRIMPP_OUTPUT-MSG.listructure#OUTPUT_MSG.OUT_ZZ">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/TRIMPP/TRIMPP_OUTPUT-MSG.listructure#OUTPUT_MSG.OUT_TC">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/IMS/TRIMPP/TRIMPP_OUTPUT-MSG.listructure#OUTPUT_MSG.OUT_DATA">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/TRIMPP/TRIMPP_OUTPUT-MSG.listructure#OUTPUT_MSG.OUT_DATA.OUT_SIDEA">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/TRIMPP/TRIMPP_OUTPUT-MSG.listructure#OUTPUT_MSG.OUT_DATA.OUT_SIDEB">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/TRIMPP/TRIMPP_OUTPUT-MSG.listructure#OUTPUT_MSG.OUT_DATA.OUT_SIDEC">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/TRIMPP/TRIMPP_OUTPUT-MSG.listructure#OUTPUT_MSG.OUT_TYPE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/IMS/TRIMPP/TRIMPP_OUTPUT-MSG.listructure#OUTPUT_MSG.OUT_ERROR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/TRIMPP/TRIMPP_OUTPUT-MSG.listructure#OUTPUT_MSG.OUT_ERROR.ERR_PCB">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/TRIMPP/TRIMPP_OUTPUT-MSG.listructure#OUTPUT_MSG.OUT_ERROR.FILLER0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/IMS/TRIMPP/TRIMPP_OUTPUT-MSG.listructure#OUTPUT_MSG.OUT_ERROR.ERR_STCODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

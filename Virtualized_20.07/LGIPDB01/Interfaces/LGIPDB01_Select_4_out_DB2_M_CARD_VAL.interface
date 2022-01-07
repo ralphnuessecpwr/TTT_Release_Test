@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.7.1.v20210611-0414_90?>
+<!--Topaz for Total Test 20.7.1.v20210611-0414_90 Jun 30, 2021 8:34:25 AM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="LGIPDB01/Interfaces/LGIPDB01_Select_4_out_DB2_M_CARD_VAL.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-ISSUEDATE.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-ISSUEDATE.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-ISSUEDATE.listructure#DB2_ISSUEDATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-ISSUEDATE.listructure#DB2_ISSUEDATE.DB2_ISSUEDATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-EXPIRYDATE.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-EXPIRYDATE.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-EXPIRYDATE.listructure#DB2_EXPIRYDATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-EXPIRYDATE.listructure#DB2_EXPIRYDATE.DB2_EXPIRYDATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-LASTCHANGED.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-LASTCHANGED.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-LASTCHANGED.listructure#DB2_LASTCHANGED">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-LASTCHANGED.listructure#DB2_LASTCHANGED.DB2_LASTCHANGED">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-BROKERID-INT.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-BROKERID-INT.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-BROKERID-INT.listructure#DB2_BROKERID_INT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-BROKERID-INT.listructure#DB2_BROKERID_INT.DB2_BROKERID_INT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-BROKERSREF.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-BROKERSREF.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-BROKERSREF.listructure#DB2_BROKERSREF">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-BROKERSREF.listructure#DB2_BROKERSREF.DB2_BROKERSREF">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-PAYMENT-INT.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-PAYMENT-INT.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-PAYMENT-INT.listructure#DB2_PAYMENT_INT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-PAYMENT-INT.listructure#DB2_PAYMENT_INT.DB2_PAYMENT_INT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-MAKE.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-MAKE.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-MAKE.listructure#DB2_M_MAKE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-MAKE.listructure#DB2_M_MAKE.DB2_M_MAKE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-MODEL.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-MODEL.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-MODEL.listructure#DB2_M_MODEL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-MODEL.listructure#DB2_M_MODEL.DB2_M_MODEL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-VALUE-INT.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-VALUE-INT.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-VALUE-INT.listructure#DB2_M_VALUE_INT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-VALUE-INT.listructure#DB2_M_VALUE_INT.DB2_M_VALUE_INT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-REGNUMBER.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-REGNUMBER.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-REGNUMBER.listructure#DB2_M_REGNUMBER">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-REGNUMBER.listructure#DB2_M_REGNUMBER.DB2_M_REGNUMBER">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-COLOUR.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-COLOUR.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-COLOUR.listructure#DB2_M_COLOUR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-COLOUR.listructure#DB2_M_COLOUR.DB2_M_COLOUR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CC-SINT.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CC-SINT.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CC-SINT.listructure#DB2_M_CC_SINT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CC-SINT.listructure#DB2_M_CC_SINT.DB2_M_CC_SINT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-MANUFACTURED.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-MANUFACTURED.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-MANUFACTURED.listructure#DB2_M_MANUFACTURED">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-MANUFACTURED.listructure#DB2_M_MANUFACTURED.DB2_M_MANUFACTURED">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-PREMIUM-INT.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-PREMIUM-INT.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-PREMIUM-INT.listructure#DB2_M_PREMIUM_INT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-PREMIUM-INT.listructure#DB2_M_PREMIUM_INT.DB2_M_PREMIUM_INT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-ACCIDENTS-INT.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-ACCIDENTS-INT.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-ACCIDENTS-INT.listructure#DB2_M_ACCIDENTS_INT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-ACCIDENTS-INT.listructure#DB2_M_ACCIDENTS_INT.DB2_M_ACCIDENTS_INT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CAR-YEAR.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CAR-YEAR.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CAR-YEAR.listructure#DB2_M_CAR_YEAR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CAR-YEAR.listructure#DB2_M_CAR_YEAR.DB2_M_CAR_YEAR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CAR-VIN.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CAR-VIN.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CAR-VIN.listructure#DB2_M_CAR_VIN">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CAR-VIN.listructure#DB2_M_CAR_VIN.DB2_M_CAR_VIN">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-AUTO-PAY.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-AUTO-PAY.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-AUTO-PAY.listructure#DB2_M_AUTO_PAY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-AUTO-PAY.listructure#DB2_M_AUTO_PAY.DB2_M_AUTO_PAY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CHECK-ACCT-NBR.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CHECK-ACCT-NBR.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CHECK-ACCT-NBR.listructure#DB2_M_CHECK_ACCT_NBR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CHECK-ACCT-NBR.listructure#DB2_M_CHECK_ACCT_NBR.DB2_M_CHECK_ACCT_NBR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-BANK-ROUTE-CODE.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-BANK-ROUTE-CODE.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-BANK-ROUTE-CODE.listructure#DB2_M_BANK_ROUTE_CODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-BANK-ROUTE-CODE.listructure#DB2_M_BANK_ROUTE_CODE.DB2_M_BANK_ROUTE_CODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CREDIT-CARD-TYP.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CREDIT-CARD-TYP.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CREDIT-CARD-TYP.listructure#DB2_M_CREDIT_CARD_TYP">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CREDIT-CARD-TYP.listructure#DB2_M_CREDIT_CARD_TYP.DB2_M_CREDIT_CARD_TYP">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CREDIT-CARD-NBR.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CREDIT-CARD-NBR.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CREDIT-CARD-NBR.listructure#DB2_M_CREDIT_CARD_NBR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CREDIT-CARD-NBR.listructure#DB2_M_CREDIT_CARD_NBR.DB2_M_CREDIT_CARD_NBR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CREDIT-CARD-PIN.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CREDIT-CARD-PIN.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CREDIT-CARD-PIN.listructure#DB2_M_CREDIT_CARD_PIN">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CREDIT-CARD-PIN.listructure#DB2_M_CREDIT_CARD_PIN.DB2_M_CREDIT_CARD_PIN">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CARD-VAL.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CARD-VAL.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CARD-VAL.listructure#DB2_M_CARD_VAL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CARD-VAL.listructure#DB2_M_CARD_VAL.DB2_M_CARD_VAL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

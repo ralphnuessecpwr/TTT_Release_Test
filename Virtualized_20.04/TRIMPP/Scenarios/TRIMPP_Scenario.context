@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="192.168.96.130:16196" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="CCEXPEDITER" jobInfoInterval="3" ccrepository="HDDRXM0.RT.COCO.REPOS" ccsystem="RT_JUL2021" cctestid="TTT" ccprogramtype="TOTALTEST - TTTRUNNR" ccreset="false" ccshow="false">
+  <ExtensionData>
+    <Parameter key="unittest.loadlibraries">
+      <Value>IMS151A.CWCC.PGMLIB</Value>
+      <Value>SALESSUP.XE.LOAD</Value>
+      <Value>SALESSUP.XE.PDSE.LOAD</Value>
+    </Parameter>
+  </ExtensionData>
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="TRIMPP" caseInsensitiveCompare="false" path="TRIMPP_Scenario.context">
+    <Test>
+      <Unittest testscenariopath="TRIMPP_Scenario.testscenario" moduleName="TRIMPP" />
+    </Test>
+  </XaUnit>
+</ExecutionContext>

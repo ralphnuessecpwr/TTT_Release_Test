@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5b5089c9787be73b59238d35" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="CCEXPEDITER" jobInfoInterval="3" ccrepository="HDDRXM0.RT.COCO.REPOS" ccsystem="RT_JUL2021" cctestid="TTT" ccprogramtype="TOTALTEST - TTTRUNNR" ccreset="false" ccshow="false">
+  <ExtensionData>
+    <Parameter key="unittest.staticjcl">
+      <Value>../JCL/Runner_CWC2.jcl</Value>
+    </Parameter>
+  </ExtensionData>
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="LGTESTC1" caseInsensitiveCompare="false" path="LGTESTC1_Scenario1.context">
+    <Test>
+      <Unittest testscenariopath="LGTESTC1_Scenario1.testscenario" moduleName="LGTESTC1" />
+    </Test>
+  </XaUnit>
+</ExecutionContext>

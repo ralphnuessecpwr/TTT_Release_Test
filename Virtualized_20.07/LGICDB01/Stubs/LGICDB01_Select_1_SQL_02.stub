@@ -1,0 +1,232 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="LGICDB01/Stubs/LGICDB01_Select_1_SQL_02.stub" nextCalltoken="1100003" stubtype="SQL" target="Select" token="1100000">
+  <stub:description>Created: Jun 30, 2021 8:04:36 AM</stub:description>
+  <stub:stubdata id="0" name="Select">
+    <stub:interface>../Interfaces/LGICDB01_Select_1_in_DB2_CUSTOMERNUMBER_BIGINT.interface#LGICDB01/Interfaces/LGICDB01_Select_1_in_DB2_CUSTOMERNUMBER_BIGINT.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_DB2-CUSTOMERNUMBER-BIGINT.listructure#LGICDB01/Structures/Db2/LGICDB01/LGICDB01_Select_DB2-CUSTOMERNUMBER-BIGINT.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_DB2-CUSTOMERNUMBER-BIGINT.listructure#DB2_CUSTOMERNUMBER_BIGINT" id="arg0.DB2_CUSTOMERNUMBER_BIGINT">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000000000003</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlResults>
+      <stub:result id="1" name="Select">
+        <stub:interface>../Interfaces/LGICDB01_Select_1_out_CA_SALES_TERRITORY.interface#LGICDB01/Interfaces/LGICDB01_Select_1_out_CA_SALES_TERRITORY.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_CA-FIRST-NAME.listructure#LGICDB01/Structures/Db2/LGICDB01/LGICDB01_Select_CA-FIRST-NAME.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-FIRST-NAME.listructure#CA_FIRST_NAME" id="arg0.CA_FIRST_NAME">
+            <properties:properties>
+              <properties:property name="value" type="string">D9D6C2C5D9E340404040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_CA-LAST-NAME.listructure#LGICDB01/Structures/Db2/LGICDB01/LGICDB01_Select_CA-LAST-NAME.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-LAST-NAME.listructure#CA_LAST_NAME" id="arg1.CA_LAST_NAME">
+            <properties:properties>
+              <properties:property name="value" type="string">E3C8C9D9E2E3E840404040404040404040404040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_CA-DOB.listructure#LGICDB01/Structures/Db2/LGICDB01/LGICDB01_Select_CA-DOB.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-DOB.listructure#CA_DOB" id="arg2.CA_DOB">
+            <properties:properties>
+              <properties:property name="value" type="string">F1F9F8F360F1F060F0F5</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_CA-HOUSE-NAME.listructure#LGICDB01/Structures/Db2/LGICDB01/LGICDB01_Select_CA-HOUSE-NAME.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-HOUSE-NAME.listructure#CA_HOUSE_NAME" id="arg3.CA_HOUSE_NAME">
+            <properties:properties>
+              <properties:property name="value" type="string">D7898395898340C281A29285A340404040404040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_CA-HOUSE-NUM.listructure#LGICDB01/Structures/Db2/LGICDB01/LGICDB01_Select_CA-HOUSE-NUM.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-HOUSE-NUM.listructure#CA_HOUSE_NUM" id="arg4.CA_HOUSE_NUM">
+            <properties:properties>
+              <properties:property name="value" type="string">F2F94040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_CA-POSTCODE.listructure#LGICDB01/Structures/Db2/LGICDB01/LGICDB01_Select_CA-POSTCODE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-POSTCODE.listructure#CA_POSTCODE" id="arg5.CA_POSTCODE">
+            <properties:properties>
+              <properties:property name="value" type="string">F5F5F0F8F2404040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_CA-PHONE-MOBILE.listructure#LGICDB01/Structures/Db2/LGICDB01/LGICDB01_Select_CA-PHONE-MOBILE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-PHONE-MOBILE.listructure#CA_PHONE_MOBILE" id="arg6.CA_PHONE_MOBILE">
+            <properties:properties>
+              <properties:property name="value" type="string">F6F5F1F3F0F3F6F5F7F540404040404040404040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_CA-PHONE-HOME.listructure#LGICDB01/Structures/Db2/LGICDB01/LGICDB01_Select_CA-PHONE-HOME.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-PHONE-HOME.listructure#CA_PHONE_HOME" id="arg7.CA_PHONE_HOME">
+            <properties:properties>
+              <properties:property name="value" type="string">F6F5F1F2F7F5F7F7F7F840404040404040404040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_CA-EMAIL-ADDRESS.listructure#LGICDB01/Structures/Db2/LGICDB01/LGICDB01_Select_CA-EMAIL-ADDRESS.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-EMAIL-ADDRESS.listructure#CA_EMAIL_ADDRESS" id="arg8.CA_EMAIL_ADDRESS">
+            <properties:properties>
+              <properties:property name="value" type="string">D9E3C8C9D9E2E3E87CC1D5C4E8E2D7E4C24BC3D6D440404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_CA-NATIONAL-ID-NBR.listructure#LGICDB01/Structures/Db2/LGICDB01/LGICDB01_Select_CA-NATIONAL-ID-NBR.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-NATIONAL-ID-NBR.listructure#CA_NATIONAL_ID_NBR" id="arg9.CA_NATIONAL_ID_NBR">
+            <properties:properties>
+              <properties:property name="value" type="string">F6F2F360F8F4F860F7F8F3F24040404040404040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_CA-NIN-TYPE.listructure#LGICDB01/Structures/Db2/LGICDB01/LGICDB01_Select_CA-NIN-TYPE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-NIN-TYPE.listructure#CA_NIN_TYPE" id="arg10.CA_NIN_TYPE">
+            <properties:properties>
+              <properties:property name="value" type="string">E2E2</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_CA-STREET-ADDRESS.listructure#LGICDB01/Structures/Db2/LGICDB01/LGICDB01_Select_CA-STREET-ADDRESS.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-STREET-ADDRESS.listructure#CA_STREET_ADDRESS" id="arg11.CA_STREET_ADDRESS">
+            <properties:properties>
+              <properties:property name="value" type="string">F3F940D5D6D9E3C840D9D6C1C44040404040404040404040404040404040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_CA-CITY.listructure#LGICDB01/Structures/Db2/LGICDB01/LGICDB01_Select_CA-CITY.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-CITY.listructure#CA_CITY" id="arg12.CA_CITY">
+            <properties:properties>
+              <properties:property name="value" type="string">E2E3C9D3D3E6C1E3C5D940404040404040404040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_CA-STATE.listructure#LGICDB01/Structures/Db2/LGICDB01/LGICDB01_Select_CA-STATE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-STATE.listructure#CA_STATE" id="arg13.CA_STATE">
+            <properties:properties>
+              <properties:property name="value" type="string">D4D5404040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_CA-COUNTRY-CODE.listructure#LGICDB01/Structures/Db2/LGICDB01/LGICDB01_Select_CA-COUNTRY-CODE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-COUNTRY-CODE.listructure#CA_COUNTRY_CODE" id="arg14.CA_COUNTRY_CODE">
+            <properties:properties>
+              <properties:property name="value" type="string">E4E2C1</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGICDB01/LGICDB01_Select_CA-SALES-TERRITORY.listructure#LGICDB01/Structures/Db2/LGICDB01/LGICDB01_Select_CA-SALES-TERRITORY.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGICDB01/LGICDB01_Select_CA-SALES-TERRITORY.listructure#CA_SALES_TERRITORY" id="arg15.CA_SALES_TERRITORY">
+            <properties:properties>
+              <properties:property name="value" type="string">D5C1404040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="Select">
+            <stub:text>      *****EXEC SQL
+      *****    SELECT FIRSTNAME,
+      *****           LASTNAME,
+      *****           DATEOFBIRTH,
+      *****           HOUSENAME,
+      *****           HOUSENUMBER,
+      *****           POSTCODE,
+      *****           PHONEMOBILE,
+      *****           PHONEHOME,
+      *****           EMAILADDRESS,
+      *****           NATIONALIDNBR,
+      *****           NINTYPE,
+      *****           STREETADDRESS,
+      *****           CITY,
+      *****           STATE,
+      *****           COUNTRYCODE,
+      *****           SALESTERRITORY
+      *****    INTO  :CA-FIRST-NAME,
+      *****          :CA-LAST-NAME,
+      *****          :CA-DOB,
+      *****          :CA-HOUSE-NAME,
+      *****          :CA-HOUSE-NUM,
+      *****          :CA-POSTCODE,
+      *****          :CA-PHONE-MOBILE,
+      *****          :CA-PHONE-HOME,
+      *****          :CA-EMAIL-ADDRESS,
+      *****          :CA-NATIONAL-ID-NBR,
+      *****          :CA-NIN-TYPE,
+      *****          :CA-STREET-ADDRESS,
+      *****          :CA-CITY,
+      *****          :CA-STATE,
+      *****          :CA-COUNTRY-CODE,
+      *****          :CA-SALES-TERRITORY
+      *****    FROM CUSTOMER
+      *****    WHERE CUSTOMERNUMBER = :DB2-CUSTOMERNUMBER-BIGINT
+      *****END-EXEC.
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00404400001E4C474943444230311B2CAED80AF47438000739C667A039C6F5D839C6F61404B800E7000003130000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C1404008000002D00010001001C4000A39C393FA39C6F278000040404040404040404040404040404040404040404040404040404040404001C4001439C3940439C6F278000040404040404040404040404040404040404040404040404040404040404001C4000A39C3941839C6F278000040404040404040404040404040404040404040404040404040404040404001C4001439C3942239C6F278000040404040404040404040404040404040404040404040404040404040404001C4000439C3943639C6F278000040404040404040404040404040404040404040404040404040404040404001C4000839C3943A39C6F278000040404040404040404040404040404040404040404040404040404040404001C4001439C3944539C6F278000040404040404040404040404040404040404040404040404040404040404001C4001439C3945939C6F278000040404040404040404040404040404040404040404040404040404040404001C4006439C3946D39C6F278000040404040404040404040404040404040404040404040404040404040404001C4001439C394D139C6F278000040404040404040404040404040404040404040404040404040404040404001C4000239C394E539C6F278000040404040404040404040404040404040404040404040404040404040404001C4001E39C394E739C6F278000040404040404040404040404040404040404040404040404040404040404001C4001439C3950539C6F278000040404040404040404040404040404040404040404040404040404040404001C4000539C3951939C6F278000040404040404040404040404040404040404040404040404040404040404001C4000339C3951E39C6F278000040404040404040404040404040404040404040404040404040404040404001C4000539C3952139C6F2780000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+            <stub:varRawData>E2D8D3C4C14040080000003C0001000101EC000839C6678839C6F2780000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="1100002">
+            <stub:rawData>E2D8D3C3C14040400000008800000064000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D5E7C5C2D940FFFFFF600000000000000000FFFFFFFF00000000000000004040404040404040404040F0F2F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+    </stub:sqlResults>
+    <stub:sqlStatus>
+      <stub:statement type="Select">
+        <stub:text>      *****EXEC SQL
+      *****    SELECT FIRSTNAME,
+      *****           LASTNAME,
+      *****           DATEOFBIRTH,
+      *****           HOUSENAME,
+      *****           HOUSENUMBER,
+      *****           POSTCODE,
+      *****           PHONEMOBILE,
+      *****           PHONEHOME,
+      *****           EMAILADDRESS,
+      *****           NATIONALIDNBR,
+      *****           NINTYPE,
+      *****           STREETADDRESS,
+      *****           CITY,
+      *****           STATE,
+      *****           COUNTRYCODE,
+      *****           SALESTERRITORY
+      *****    INTO  :CA-FIRST-NAME,
+      *****          :CA-LAST-NAME,
+      *****          :CA-DOB,
+      *****          :CA-HOUSE-NAME,
+      *****          :CA-HOUSE-NUM,
+      *****          :CA-POSTCODE,
+      *****          :CA-PHONE-MOBILE,
+      *****          :CA-PHONE-HOME,
+      *****          :CA-EMAIL-ADDRESS,
+      *****          :CA-NATIONAL-ID-NBR,
+      *****          :CA-NIN-TYPE,
+      *****          :CA-STREET-ADDRESS,
+      *****          :CA-CITY,
+      *****          :CA-STATE,
+      *****          :CA-COUNTRY-CODE,
+      *****          :CA-SALES-TERRITORY
+      *****    FROM CUSTOMER
+      *****    WHERE CUSTOMERNUMBER = :DB2-CUSTOMERNUMBER-BIGINT
+      *****END-EXEC.
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404400001E4C474943444230311B2CAED80AF47438000739C667A039C6F5D839C6F61404B800E7000003130000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C1404008000002D00010001001C4000A39C393FA39C6F278000040404040404040404040404040404040404040404040404040404040404001C4001439C3940439C6F278000040404040404040404040404040404040404040404040404040404040404001C4000A39C3941839C6F278000040404040404040404040404040404040404040404040404040404040404001C4001439C3942239C6F278000040404040404040404040404040404040404040404040404040404040404001C4000439C3943639C6F278000040404040404040404040404040404040404040404040404040404040404001C4000839C3943A39C6F278000040404040404040404040404040404040404040404040404040404040404001C4001439C3944539C6F278000040404040404040404040404040404040404040404040404040404040404001C4001439C3945939C6F278000040404040404040404040404040404040404040404040404040404040404001C4006439C3946D39C6F278000040404040404040404040404040404040404040404040404040404040404001C4001439C394D139C6F278000040404040404040404040404040404040404040404040404040404040404001C4000239C394E539C6F278000040404040404040404040404040404040404040404040404040404040404001C4001E39C394E739C6F278000040404040404040404040404040404040404040404040404040404040404001C4001439C3950539C6F278000040404040404040404040404040404040404040404040404040404040404001C4000539C3951939C6F278000040404040404040404040404040404040404040404040404040404040404001C4000339C3951E39C6F278000040404040404040404040404040404040404040404040404040404040404001C4000539C3952139C6F2780000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+        <stub:varRawData>E2D8D3C4C14040080000003C0001000101EC000839C6678839C6F2780000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="1100001">
+        <stub:rawData>E2D8D3C3C14040400000008800000064000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D5E7C5C2D940FFFFFF600000000000000000FFFFFFFF00000000000000004040404040404040404040F0F2F0F0F0</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:database version="1215"/>
+</stub:stub>

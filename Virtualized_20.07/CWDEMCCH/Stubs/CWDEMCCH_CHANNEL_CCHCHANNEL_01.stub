@@ -1,0 +1,937 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="CWDEMCCH/Stubs/CWDEMCCH_CHANNEL_CCHCHANNEL_01.stub" nextCalltoken="990003" stubtype="CICS" target="CCHCHANNEL      " token="990000">
+  <stub:description>Created: Jun 29, 2021 3:22:01 PM</stub:description>
+  <stub:stubdata callToken="990001" id="0" name="EXEC CICS GET">
+    <stub:interface>../Interfaces/CWDEMCCH_CHANNEL_CCHCHANNEL.interface#CWDEMCCH/Interfaces/CWDEMCCH_CHANNEL_CCHCHANNEL.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWDEMCCH_CHANNEL_CCHCHANNEL.interface#CWDEMCCH/Interfaces/CWDEMCCH_CHANNEL_CCHCHANNEL.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-0.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">341470000720000002000000000000F0F0F0F3F1F840400002048000077A</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-1.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-1.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-1.listructure#CICS_GENERATED_CONSTANT_1" id="arg1.CICS_GENERATED_CONSTANT_1">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_DUMMY-CONTAINER-INPUT.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_DUMMY-CONTAINER-INPUT.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_DUMMY-CONTAINER-INPUT.listructure#DUMMY_CONTAINER_INPUT" id="arg2.DUMMY_CONTAINER_INPUT">
+        <properties:properties>
+          <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-4.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-4.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-4.listructure#CICS_GENERATED_CONSTANT_4" id="arg3.CICS_GENERATED_CONSTANT_4">
+        <properties:properties>
+          <properties:property name="value" type="string">C3C3C8D9C5D7C3D6D4D4C1D9C5C14040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-41.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-41.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-41.listructure#CICS_GENERATED_CONSTANT_4" id="arg4.CICS_GENERATED_CONSTANT_4">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-5.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-5.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-5.listructure#CICS_GENERATED_CONSTANT_5" id="arg5.CICS_GENERATED_CONSTANT_5">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-6.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-6.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-6.listructure#CICS_GENERATED_CONSTANT_6" id="arg6.CICS_GENERATED_CONSTANT_6">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-7.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-7.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-7.listructure#CICS_GENERATED_CONSTANT_7" id="arg7.CICS_GENERATED_CONSTANT_7">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-8.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-8.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-8.listructure#CICS_GENERATED_CONSTANT_8" id="arg8.CICS_GENERATED_CONSTANT_8">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-9.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-9.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-9.listructure#CICS_GENERATED_CONSTANT_9" id="arg9.CICS_GENERATED_CONSTANT_9">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-10.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-10.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-10.listructure#CICS_GENERATED_CONSTANT_10" id="arg10.CICS_GENERATED_CONSTANT_10">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-11.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-11.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-11.listructure#CICS_GENERATED_CONSTANT_11" id="arg11.CICS_GENERATED_CONSTANT_11">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-12.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-12.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-12.listructure#CICS_GENERATED_CONSTANT_12" id="arg12.CICS_GENERATED_CONSTANT_12">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-13.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-13.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-13.listructure#CICS_GENERATED_CONSTANT_13" id="arg13.CICS_GENERATED_CONSTANT_13">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-14.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-14.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-14.listructure#CICS_GENERATED_CONSTANT_14" id="arg14.CICS_GENERATED_CONSTANT_14">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-15.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-15.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-15.listructure#CICS_GENERATED_CONSTANT_15" id="arg15.CICS_GENERATED_CONSTANT_15">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-16.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-16.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-16.listructure#CICS_GENERATED_CONSTANT_16" id="arg16.CICS_GENERATED_CONSTANT_16">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-17.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-17.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-17.listructure#CICS_GENERATED_CONSTANT_17" id="arg17.CICS_GENERATED_CONSTANT_17">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-18.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-18.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-18.listructure#CICS_GENERATED_CONSTANT_18" id="arg18.CICS_GENERATED_CONSTANT_18">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-19.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-19.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-19.listructure#CICS_GENERATED_CONSTANT_19" id="arg19.CICS_GENERATED_CONSTANT_19">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-20.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-20.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-20.listructure#CICS_GENERATED_CONSTANT_20" id="arg20.CICS_GENERATED_CONSTANT_20">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-21.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-21.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-21.listructure#CICS_GENERATED_CONSTANT_21" id="arg21.CICS_GENERATED_CONSTANT_21">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-22.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-22.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-22.listructure#CICS_GENERATED_CONSTANT_22" id="arg22.CICS_GENERATED_CONSTANT_22">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-23.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-23.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-23.listructure#CICS_GENERATED_CONSTANT_23" id="arg23.CICS_GENERATED_CONSTANT_23">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-24.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-24.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-24.listructure#CICS_GENERATED_CONSTANT_24" id="arg24.CICS_GENERATED_CONSTANT_24">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-25.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-25.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-25.listructure#CICS_GENERATED_CONSTANT_25" id="arg25.CICS_GENERATED_CONSTANT_25">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-26.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-26.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-26.listructure#CICS_GENERATED_CONSTANT_26" id="arg26.CICS_GENERATED_CONSTANT_26">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-27.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-27.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-27.listructure#CICS_GENERATED_CONSTANT_27" id="arg27.CICS_GENERATED_CONSTANT_27">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-28.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-28.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-28.listructure#CICS_GENERATED_CONSTANT_28" id="arg28.CICS_GENERATED_CONSTANT_28">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-29.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-29.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-29.listructure#CICS_GENERATED_CONSTANT_29" id="arg29.CICS_GENERATED_CONSTANT_29">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-30.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-30.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-30.listructure#CICS_GENERATED_CONSTANT_30" id="arg30.CICS_GENERATED_CONSTANT_30">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-32.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-32.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-32.listructure#CICS_GENERATED_CONSTANT_32" id="arg31.CICS_GENERATED_CONSTANT_32">
+        <properties:properties>
+          <properties:property name="value" type="string">C3C3C8C3C8C1D5D5C5D3404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-0.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">341470000720000002000000000000F0F0F0F3F1F840400002048000077A</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-1.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-1.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-1.listructure#CICS_GENERATED_CONSTANT_1" id="arg1.CICS_GENERATED_CONSTANT_1">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_DUMMY-CONTAINER-INPUT.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_DUMMY-CONTAINER-INPUT.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_DUMMY-CONTAINER-INPUT.listructure#DUMMY_CONTAINER_INPUT" id="arg2.DUMMY_CONTAINER_INPUT">
+        <properties:properties>
+          <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-4.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-4.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-4.listructure#CICS_GENERATED_CONSTANT_4" id="arg3.CICS_GENERATED_CONSTANT_4">
+        <properties:properties>
+          <properties:property name="value" type="string">C3C3C8D9C5D7C3D6D4D4C1D9C5C14040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-41.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-41.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-41.listructure#CICS_GENERATED_CONSTANT_4" id="arg4.CICS_GENERATED_CONSTANT_4">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-5.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-5.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-5.listructure#CICS_GENERATED_CONSTANT_5" id="arg5.CICS_GENERATED_CONSTANT_5">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-6.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-6.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-6.listructure#CICS_GENERATED_CONSTANT_6" id="arg6.CICS_GENERATED_CONSTANT_6">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-7.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-7.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-7.listructure#CICS_GENERATED_CONSTANT_7" id="arg7.CICS_GENERATED_CONSTANT_7">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-8.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-8.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-8.listructure#CICS_GENERATED_CONSTANT_8" id="arg8.CICS_GENERATED_CONSTANT_8">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-9.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-9.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-9.listructure#CICS_GENERATED_CONSTANT_9" id="arg9.CICS_GENERATED_CONSTANT_9">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-10.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-10.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-10.listructure#CICS_GENERATED_CONSTANT_10" id="arg10.CICS_GENERATED_CONSTANT_10">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-11.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-11.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-11.listructure#CICS_GENERATED_CONSTANT_11" id="arg11.CICS_GENERATED_CONSTANT_11">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-12.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-12.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-12.listructure#CICS_GENERATED_CONSTANT_12" id="arg12.CICS_GENERATED_CONSTANT_12">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-13.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-13.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-13.listructure#CICS_GENERATED_CONSTANT_13" id="arg13.CICS_GENERATED_CONSTANT_13">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-14.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-14.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-14.listructure#CICS_GENERATED_CONSTANT_14" id="arg14.CICS_GENERATED_CONSTANT_14">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-15.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-15.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-15.listructure#CICS_GENERATED_CONSTANT_15" id="arg15.CICS_GENERATED_CONSTANT_15">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-16.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-16.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-16.listructure#CICS_GENERATED_CONSTANT_16" id="arg16.CICS_GENERATED_CONSTANT_16">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-17.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-17.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-17.listructure#CICS_GENERATED_CONSTANT_17" id="arg17.CICS_GENERATED_CONSTANT_17">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-18.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-18.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-18.listructure#CICS_GENERATED_CONSTANT_18" id="arg18.CICS_GENERATED_CONSTANT_18">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-19.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-19.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-19.listructure#CICS_GENERATED_CONSTANT_19" id="arg19.CICS_GENERATED_CONSTANT_19">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-20.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-20.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-20.listructure#CICS_GENERATED_CONSTANT_20" id="arg20.CICS_GENERATED_CONSTANT_20">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-21.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-21.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-21.listructure#CICS_GENERATED_CONSTANT_21" id="arg21.CICS_GENERATED_CONSTANT_21">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-22.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-22.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-22.listructure#CICS_GENERATED_CONSTANT_22" id="arg22.CICS_GENERATED_CONSTANT_22">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-23.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-23.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-23.listructure#CICS_GENERATED_CONSTANT_23" id="arg23.CICS_GENERATED_CONSTANT_23">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-24.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-24.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-24.listructure#CICS_GENERATED_CONSTANT_24" id="arg24.CICS_GENERATED_CONSTANT_24">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-25.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-25.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-25.listructure#CICS_GENERATED_CONSTANT_25" id="arg25.CICS_GENERATED_CONSTANT_25">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-26.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-26.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-26.listructure#CICS_GENERATED_CONSTANT_26" id="arg26.CICS_GENERATED_CONSTANT_26">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-27.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-27.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-27.listructure#CICS_GENERATED_CONSTANT_27" id="arg27.CICS_GENERATED_CONSTANT_27">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-28.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-28.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-28.listructure#CICS_GENERATED_CONSTANT_28" id="arg28.CICS_GENERATED_CONSTANT_28">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-29.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-29.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-29.listructure#CICS_GENERATED_CONSTANT_29" id="arg29.CICS_GENERATED_CONSTANT_29">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-30.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-30.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-30.listructure#CICS_GENERATED_CONSTANT_30" id="arg30.CICS_GENERATED_CONSTANT_30">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-32.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-32.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-32.listructure#CICS_GENERATED_CONSTANT_32" id="arg31.CICS_GENERATED_CONSTANT_32">
+        <properties:properties>
+          <properties:property name="value" type="string">C3C3C8C3C8C1D5D5C5D3404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:statement type="EXEC CICS GET">
+      <stub:text>           EXEC CICS GET CONTAINER ('CCHREPCOMMAREA')
+                     CHANNEL ('CCHCHANNEL')
+                     INTO(DUMMY-CONTAINER-INPUT)
+           END-EXEC.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_DFHEIBLK.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_DFHEIBLK.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_DFHEIBLK.listructure#DFHEIBLK" id="arg0.DFHEIBLK">
+        <properties:properties>
+          <properties:property name="value" type="string">0092123C0121180FE7C3C3C80001214CC3F9F2F70001000400007D34140000007A000000000000000000000000000000000000404040404040404000000000000000000000000000000000000000007A0000000200</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+  <stub:stubdata callToken="990002" id="1" name="EXEC CICS PUT">
+    <stub:interface>../Interfaces/CWDEMCCH_CHANNEL_CCHCHANNEL1.interface#CWDEMCCH/Interfaces/CWDEMCCH_CHANNEL_CCHCHANNEL1.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWDEMCCH_CHANNEL_CCHCHANNEL1.interface#CWDEMCCH/Interfaces/CWDEMCCH_CHANNEL_CCHCHANNEL1.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-0.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">341670000720000002000000000000F0F0F0F4F3F140400002048000077A</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-1.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-1.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-1.listructure#CICS_GENERATED_CONSTANT_1" id="arg1.CICS_GENERATED_CONSTANT_1">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_DUMMY-COMMAREA.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_DUMMY-COMMAREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_DUMMY-COMMAREA.listructure#DUMMY_COMMAREA" id="arg2.DUMMY_COMMAREA">
+        <properties:properties>
+          <properties:property name="value" type="string">C3969494819985817A40E385A7A37AE3C5E2E340C38881997AE385A2A340C1A28389897A4C4D6E6F40C885A77A40E385A2A3404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-4.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-4.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-4.listructure#CICS_GENERATED_CONSTANT_4" id="arg3.CICS_GENERATED_CONSTANT_4">
+        <properties:properties>
+          <properties:property name="value" type="string">C3C3C8D9C5D7C3D6D4D4C1D9C5C14040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-41.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-41.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-41.listructure#CICS_GENERATED_CONSTANT_4" id="arg4.CICS_GENERATED_CONSTANT_4">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-5.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-5.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-5.listructure#CICS_GENERATED_CONSTANT_5" id="arg5.CICS_GENERATED_CONSTANT_5">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-6.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-6.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-6.listructure#CICS_GENERATED_CONSTANT_6" id="arg6.CICS_GENERATED_CONSTANT_6">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-7.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-7.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-7.listructure#CICS_GENERATED_CONSTANT_7" id="arg7.CICS_GENERATED_CONSTANT_7">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-8.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-8.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-8.listructure#CICS_GENERATED_CONSTANT_8" id="arg8.CICS_GENERATED_CONSTANT_8">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-9.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-9.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-9.listructure#CICS_GENERATED_CONSTANT_9" id="arg9.CICS_GENERATED_CONSTANT_9">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-10.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-10.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-10.listructure#CICS_GENERATED_CONSTANT_10" id="arg10.CICS_GENERATED_CONSTANT_10">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-11.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-11.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-11.listructure#CICS_GENERATED_CONSTANT_11" id="arg11.CICS_GENERATED_CONSTANT_11">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-12.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-12.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-12.listructure#CICS_GENERATED_CONSTANT_12" id="arg12.CICS_GENERATED_CONSTANT_12">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-13.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-13.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-13.listructure#CICS_GENERATED_CONSTANT_13" id="arg13.CICS_GENERATED_CONSTANT_13">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-14.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-14.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-14.listructure#CICS_GENERATED_CONSTANT_14" id="arg14.CICS_GENERATED_CONSTANT_14">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-15.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-15.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-15.listructure#CICS_GENERATED_CONSTANT_15" id="arg15.CICS_GENERATED_CONSTANT_15">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-16.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-16.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-16.listructure#CICS_GENERATED_CONSTANT_16" id="arg16.CICS_GENERATED_CONSTANT_16">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-17.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-17.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-17.listructure#CICS_GENERATED_CONSTANT_17" id="arg17.CICS_GENERATED_CONSTANT_17">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-18.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-18.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-18.listructure#CICS_GENERATED_CONSTANT_18" id="arg18.CICS_GENERATED_CONSTANT_18">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-19.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-19.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-19.listructure#CICS_GENERATED_CONSTANT_19" id="arg19.CICS_GENERATED_CONSTANT_19">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-20.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-20.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-20.listructure#CICS_GENERATED_CONSTANT_20" id="arg20.CICS_GENERATED_CONSTANT_20">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-21.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-21.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-21.listructure#CICS_GENERATED_CONSTANT_21" id="arg21.CICS_GENERATED_CONSTANT_21">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-22.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-22.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-22.listructure#CICS_GENERATED_CONSTANT_22" id="arg22.CICS_GENERATED_CONSTANT_22">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-23.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-23.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-23.listructure#CICS_GENERATED_CONSTANT_23" id="arg23.CICS_GENERATED_CONSTANT_23">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-24.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-24.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-24.listructure#CICS_GENERATED_CONSTANT_24" id="arg24.CICS_GENERATED_CONSTANT_24">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-25.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-25.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-25.listructure#CICS_GENERATED_CONSTANT_25" id="arg25.CICS_GENERATED_CONSTANT_25">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-26.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-26.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-26.listructure#CICS_GENERATED_CONSTANT_26" id="arg26.CICS_GENERATED_CONSTANT_26">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-27.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-27.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-27.listructure#CICS_GENERATED_CONSTANT_27" id="arg27.CICS_GENERATED_CONSTANT_27">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-28.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-28.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-28.listructure#CICS_GENERATED_CONSTANT_28" id="arg28.CICS_GENERATED_CONSTANT_28">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-29.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-29.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-29.listructure#CICS_GENERATED_CONSTANT_29" id="arg29.CICS_GENERATED_CONSTANT_29">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-30.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-30.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-30.listructure#CICS_GENERATED_CONSTANT_30" id="arg30.CICS_GENERATED_CONSTANT_30">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-32.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-32.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-32.listructure#CICS_GENERATED_CONSTANT_32" id="arg31.CICS_GENERATED_CONSTANT_32">
+        <properties:properties>
+          <properties:property name="value" type="string">C3C3C8C3C8C1D5D5C5D3404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-0.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">341670000720000002000000000000F0F0F0F4F3F140400002048000077A</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-1.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-1.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-1.listructure#CICS_GENERATED_CONSTANT_1" id="arg1.CICS_GENERATED_CONSTANT_1">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_DUMMY-COMMAREA.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_DUMMY-COMMAREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_DUMMY-COMMAREA.listructure#DUMMY_COMMAREA" id="arg2.DUMMY_COMMAREA">
+        <properties:properties>
+          <properties:property name="value" type="string">C3969494819985817A40E385A7A37AE3C5E2E340C38881997AE385A2A340C1A28389897A4C4D6E6F40C885A77A40E385A2A3404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-4.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-4.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-4.listructure#CICS_GENERATED_CONSTANT_4" id="arg3.CICS_GENERATED_CONSTANT_4">
+        <properties:properties>
+          <properties:property name="value" type="string">C3C3C8D9C5D7C3D6D4D4C1D9C5C14040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-41.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-41.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-41.listructure#CICS_GENERATED_CONSTANT_4" id="arg4.CICS_GENERATED_CONSTANT_4">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-5.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-5.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-5.listructure#CICS_GENERATED_CONSTANT_5" id="arg5.CICS_GENERATED_CONSTANT_5">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-6.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-6.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-6.listructure#CICS_GENERATED_CONSTANT_6" id="arg6.CICS_GENERATED_CONSTANT_6">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-7.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-7.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-7.listructure#CICS_GENERATED_CONSTANT_7" id="arg7.CICS_GENERATED_CONSTANT_7">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-8.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-8.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-8.listructure#CICS_GENERATED_CONSTANT_8" id="arg8.CICS_GENERATED_CONSTANT_8">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-9.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-9.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-9.listructure#CICS_GENERATED_CONSTANT_9" id="arg9.CICS_GENERATED_CONSTANT_9">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-10.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-10.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-10.listructure#CICS_GENERATED_CONSTANT_10" id="arg10.CICS_GENERATED_CONSTANT_10">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-11.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-11.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-11.listructure#CICS_GENERATED_CONSTANT_11" id="arg11.CICS_GENERATED_CONSTANT_11">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-12.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-12.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-12.listructure#CICS_GENERATED_CONSTANT_12" id="arg12.CICS_GENERATED_CONSTANT_12">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-13.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-13.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-13.listructure#CICS_GENERATED_CONSTANT_13" id="arg13.CICS_GENERATED_CONSTANT_13">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-14.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-14.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-14.listructure#CICS_GENERATED_CONSTANT_14" id="arg14.CICS_GENERATED_CONSTANT_14">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-15.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-15.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-15.listructure#CICS_GENERATED_CONSTANT_15" id="arg15.CICS_GENERATED_CONSTANT_15">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-16.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-16.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-16.listructure#CICS_GENERATED_CONSTANT_16" id="arg16.CICS_GENERATED_CONSTANT_16">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-17.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-17.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-17.listructure#CICS_GENERATED_CONSTANT_17" id="arg17.CICS_GENERATED_CONSTANT_17">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-18.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-18.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-18.listructure#CICS_GENERATED_CONSTANT_18" id="arg18.CICS_GENERATED_CONSTANT_18">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-19.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-19.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-19.listructure#CICS_GENERATED_CONSTANT_19" id="arg19.CICS_GENERATED_CONSTANT_19">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-20.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-20.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-20.listructure#CICS_GENERATED_CONSTANT_20" id="arg20.CICS_GENERATED_CONSTANT_20">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-21.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-21.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-21.listructure#CICS_GENERATED_CONSTANT_21" id="arg21.CICS_GENERATED_CONSTANT_21">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-22.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-22.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-22.listructure#CICS_GENERATED_CONSTANT_22" id="arg22.CICS_GENERATED_CONSTANT_22">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-23.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-23.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-23.listructure#CICS_GENERATED_CONSTANT_23" id="arg23.CICS_GENERATED_CONSTANT_23">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-24.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-24.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-24.listructure#CICS_GENERATED_CONSTANT_24" id="arg24.CICS_GENERATED_CONSTANT_24">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-25.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-25.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-25.listructure#CICS_GENERATED_CONSTANT_25" id="arg25.CICS_GENERATED_CONSTANT_25">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-26.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-26.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-26.listructure#CICS_GENERATED_CONSTANT_26" id="arg26.CICS_GENERATED_CONSTANT_26">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-27.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-27.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-27.listructure#CICS_GENERATED_CONSTANT_27" id="arg27.CICS_GENERATED_CONSTANT_27">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-28.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-28.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-28.listructure#CICS_GENERATED_CONSTANT_28" id="arg28.CICS_GENERATED_CONSTANT_28">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-29.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-29.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-29.listructure#CICS_GENERATED_CONSTANT_29" id="arg29.CICS_GENERATED_CONSTANT_29">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-30.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-30.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-30.listructure#CICS_GENERATED_CONSTANT_30" id="arg30.CICS_GENERATED_CONSTANT_30">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-32.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-32.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_CICS-GENERATED-CONSTANT-32.listructure#CICS_GENERATED_CONSTANT_32" id="arg31.CICS_GENERATED_CONSTANT_32">
+        <properties:properties>
+          <properties:property name="value" type="string">C3C3C8C3C8C1D5D5C5D3404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:statement type="EXEC CICS PUT">
+      <stub:text>           EXEC CICS PUT CONTAINER ('CCHREPCOMMAREA')
+                     CHANNEL ('CCHCHANNEL')
+                     FROM (DUMMY-COMMAREA)
+           END-EXEC.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_DFHEIBLK.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_DFHEIBLK.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_CHANNEL_CCHCHANNEL/CWDEMCCH_CHANNEL_CCHCHANNEL_DFHEIBLK.listructure#DFHEIBLK" id="arg0.DFHEIBLK">
+        <properties:properties>
+          <properties:property name="value" type="string">0092123C0121180FE7C3C3C80001214CC3F9F2F70000000400007D34160000000000000000000000000000000000000000000040404040404040400000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+</stub:stub>

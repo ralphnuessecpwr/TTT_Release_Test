@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <XaUnitResult resultType="VERIFICATION_ERROR" containsSimulation="false">
-  <ExecutionId>235c3ad6-7963-40ea-8f5a-e6031cfeeb90</ExecutionId>
+  <ExecutionId>a0231afe-1743-4fe7-b031-52aec5f8c8a8</ExecutionId>
   <Message />
   <AST>
-    <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1">
+    <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1" caseInsensitiveCompare="false">
       <Test>
         <Scope name="Initialize" disabled="false">
           <Scope name="Variable Set Up" disabled="false">
@@ -936,7 +936,7 @@
             <Scope name="Skip" disabled="false" />
           </Scope>
         </Scope>
-        <Scope name="Execute Test" disabled="false">
+        <Scope name="Execute Test - FT" disabled="false">
           <Component id="cwxtcob" label="CWXTCOB" moduleName="CWXTCOB" programExitVerify="value &lt; 8" programExit="0" rollback="false">
             <Data>
               <parminfo>
@@ -956,6 +956,7 @@
             </Setup>
           </Component>
         </Scope>
+        <Scope name="Execute Test - Job" disabled="false" />
         <Scope name="Verify" disabled="false">
           <ReadRemoteFile fileName="HDDRXM0.RT.TTTFT.CWXTRPT" id="readOutDatasetActual" label="readOutDatasetActual" firstRecord="10" numberRecords="12" mDataDefinitionName="rptEmpDet">
             <Records>
@@ -974,7 +975,7 @@
                   <emp-dtl-slash2>/</emp-dtl-slash2>
                   <emp-dtl-hire-yy>81</emp-dtl-hire-yy>
                   <filler5 />
-                  <emp-dtl-yrs-of-service>38</emp-dtl-yrs-of-service>
+                  <emp-dtl-yrs-of-service>40</emp-dtl-yrs-of-service>
                   <filler6 />
                   <emp-dtl-wages>' 1083'</emp-dtl-wages>
                   <filler7 />
@@ -1000,7 +1001,7 @@
                   <emp-dtl-slash2>/</emp-dtl-slash2>
                   <emp-dtl-hire-yy>79</emp-dtl-hire-yy>
                   <filler5 />
-                  <emp-dtl-yrs-of-service>41</emp-dtl-yrs-of-service>
+                  <emp-dtl-yrs-of-service>42</emp-dtl-yrs-of-service>
                   <filler6 />
                   <emp-dtl-wages>' 1000'</emp-dtl-wages>
                   <filler7 />
@@ -1026,7 +1027,7 @@
                   <emp-dtl-slash2>/</emp-dtl-slash2>
                   <emp-dtl-hire-yy>92</emp-dtl-hire-yy>
                   <filler5 />
-                  <emp-dtl-yrs-of-service>27</emp-dtl-yrs-of-service>
+                  <emp-dtl-yrs-of-service>28</emp-dtl-yrs-of-service>
                   <filler6 />
                   <emp-dtl-wages>'  750'</emp-dtl-wages>
                   <filler7 />
@@ -1052,7 +1053,7 @@
                   <emp-dtl-slash2>/</emp-dtl-slash2>
                   <emp-dtl-hire-yy>84</emp-dtl-hire-yy>
                   <filler5 />
-                  <emp-dtl-yrs-of-service>36</emp-dtl-yrs-of-service>
+                  <emp-dtl-yrs-of-service>37</emp-dtl-yrs-of-service>
                   <filler6 />
                   <emp-dtl-wages>' 1140'</emp-dtl-wages>
                   <filler7 />
@@ -1078,7 +1079,7 @@
                   <emp-dtl-slash2>/</emp-dtl-slash2>
                   <emp-dtl-hire-yy>94</emp-dtl-hire-yy>
                   <filler5 />
-                  <emp-dtl-yrs-of-service>26</emp-dtl-yrs-of-service>
+                  <emp-dtl-yrs-of-service>27</emp-dtl-yrs-of-service>
                   <filler6 />
                   <emp-dtl-wages>'  900'</emp-dtl-wages>
                   <filler7 />
@@ -1104,7 +1105,7 @@
                   <emp-dtl-slash2>/</emp-dtl-slash2>
                   <emp-dtl-hire-yy>82</emp-dtl-hire-yy>
                   <filler5 />
-                  <emp-dtl-yrs-of-service>38</emp-dtl-yrs-of-service>
+                  <emp-dtl-yrs-of-service>39</emp-dtl-yrs-of-service>
                   <filler6 />
                   <emp-dtl-wages>'  825'</emp-dtl-wages>
                   <filler7 />
@@ -1130,7 +1131,7 @@
                   <emp-dtl-slash2>/</emp-dtl-slash2>
                   <emp-dtl-hire-yy>88</emp-dtl-hire-yy>
                   <filler5 />
-                  <emp-dtl-yrs-of-service>32</emp-dtl-yrs-of-service>
+                  <emp-dtl-yrs-of-service>33</emp-dtl-yrs-of-service>
                   <filler6 />
                   <emp-dtl-wages>' 1050'</emp-dtl-wages>
                   <filler7 />
@@ -1156,7 +1157,7 @@
                   <emp-dtl-slash2>/</emp-dtl-slash2>
                   <emp-dtl-hire-yy>89</emp-dtl-hire-yy>
                   <filler5 />
-                  <emp-dtl-yrs-of-service>31</emp-dtl-yrs-of-service>
+                  <emp-dtl-yrs-of-service>32</emp-dtl-yrs-of-service>
                   <filler6 />
                   <emp-dtl-wages>'  850'</emp-dtl-wages>
                   <filler7 />
@@ -1182,7 +1183,7 @@
                   <emp-dtl-slash2>/</emp-dtl-slash2>
                   <emp-dtl-hire-yy>87</emp-dtl-hire-yy>
                   <filler5 />
-                  <emp-dtl-yrs-of-service>33</emp-dtl-yrs-of-service>
+                  <emp-dtl-yrs-of-service>34</emp-dtl-yrs-of-service>
                   <filler6 />
                   <emp-dtl-wages>' 1000'</emp-dtl-wages>
                   <filler7 />
@@ -1208,7 +1209,7 @@
                   <emp-dtl-slash2>/</emp-dtl-slash2>
                   <emp-dtl-hire-yy>83</emp-dtl-hire-yy>
                   <filler5 />
-                  <emp-dtl-yrs-of-service>37</emp-dtl-yrs-of-service>
+                  <emp-dtl-yrs-of-service>38</emp-dtl-yrs-of-service>
                   <filler6 />
                   <emp-dtl-wages>' 1225'</emp-dtl-wages>
                   <filler7 />
@@ -1234,7 +1235,7 @@
                   <emp-dtl-slash2>/</emp-dtl-slash2>
                   <emp-dtl-hire-yy>81</emp-dtl-hire-yy>
                   <filler5 />
-                  <emp-dtl-yrs-of-service>38</emp-dtl-yrs-of-service>
+                  <emp-dtl-yrs-of-service>40</emp-dtl-yrs-of-service>
                   <filler6 />
                   <emp-dtl-wages>' 1000'</emp-dtl-wages>
                   <filler7 />
@@ -1260,7 +1261,7 @@
                   <emp-dtl-slash2>/</emp-dtl-slash2>
                   <emp-dtl-hire-yy>82</emp-dtl-hire-yy>
                   <filler5 />
-                  <emp-dtl-yrs-of-service>37</emp-dtl-yrs-of-service>
+                  <emp-dtl-yrs-of-service>39</emp-dtl-yrs-of-service>
                   <filler6 />
                   <emp-dtl-wages>'  750'</emp-dtl-wages>
                   <filler7 />
@@ -1343,8 +1344,18 @@
               <Path>/employee-hdr1/emp-run-dd</Path>
               <Path>/employee-hdr1/emp-run-yy</Path>
             </ExcludedFields>
-            <Result>&lt;root&gt;&lt;difs&gt;&#xD;&lt;dif&gt;&lt;newrno&gt;12&lt;/newrno&gt;&lt;oldrno&gt;12&lt;/oldrno&gt; &#xD;&lt;newchr&gt;&lt;![CDATA[ ROY GARDNER     NORTH   S   12/31/92   27    750.00     0.00   3300.00  4050.00]]&gt;&lt;/newchr&gt; &#xD;&lt;oldchr&gt;&lt;![CDATA[ ROY GARDNER     NORTH   S   12/31/92   26    750.00     0.00   3300.00  4050.00]]&gt;&lt;/oldchr&gt; &#xD;&lt;newhex1&gt;4DDE4CCDCDCD44444DDDEC444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/newhex1&gt; &#xD;&lt;newhex2&gt;0968071945590000056938000200012131192000270000750B00000000B000003300B00004050B00&lt;/newhex2&gt; &#xD;&lt;oldhex1&gt;4DDE4CCDCDCD44444DDDEC444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/oldhex1&gt; &#xD;&lt;oldhex2&gt;0968071945590000056938000200012131192000260000750B00000000B000003300B00004050B00&lt;/oldhex2&gt; &#xD;&lt;/dif&gt;&#xD;&lt;dif&gt;&lt;newrno&gt;13&lt;/newrno&gt;&lt;oldrno&gt;13&lt;/oldrno&gt; &#xD;&lt;newchr&gt;&lt;![CDATA[ Ralph Nuesse    SOUTH   H   06/25/84   36   1140.00     0.00      0.00  1140.00]]&gt;&lt;/newchr&gt; &#xD;&lt;oldchr&gt;&lt;![CDATA[ Ralph Nuesse    SOUTH   H   06/25/84   35   1140.00     0.00      0.00  1140.00]]&gt;&lt;/oldchr&gt; &#xD;&lt;newhex1&gt;4D89984DA8AA84444EDEEC444C444FF6FF6FF444FF444FFFF4FF44444F4FF444444F4FF44FFFF4FF&lt;/newhex1&gt; &#xD;&lt;newhex2&gt;0913780545225000026438000800006125184000360001140B00000000B000000000B00001140B00&lt;/newhex2&gt; &#xD;&lt;oldhex1&gt;4D89984DA8AA84444EDEEC444C444FF6FF6FF444FF444FFFF4FF44444F4FF444444F4FF44FFFF4FF&lt;/oldhex1&gt; &#xD;&lt;oldhex2&gt;0913780545225000026438000800006125184000350001140B00000000B000000000B00001140B00&lt;/oldhex2&gt; &#xD;&lt;/dif&gt;&#xD;&lt;dif&gt;&lt;newrno&gt;14&lt;/newrno&gt;&lt;oldrno&gt;14&lt;/oldrno&gt; &#xD;&lt;newchr&gt;&lt;![CDATA[ VALERIE OLSEN   SOUTH   S   05/01/94   26    900.00     0.00   5600.00  6500.00]]&gt;&lt;/newchr&gt; &#xD;&lt;oldchr&gt;&lt;![CDATA[ VALERIE OLSEN   SOUTH   S   05/01/94   25    900.00     0.00   5600.00  6500.00]]&gt;&lt;/oldchr&gt; &#xD;&lt;newhex1&gt;4ECDCDCC4DDECD444EDEEC444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/newhex1&gt; &#xD;&lt;newhex2&gt;0513599506325500026438000200005101194000260000900B00000000B000005600B00006500B00&lt;/newhex2&gt; &#xD;&lt;oldhex1&gt;4ECDCDCC4DDECD444EDEEC444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/oldhex1&gt; &#xD;&lt;oldhex2&gt;0513599506325500026438000200005101194000250000900B00000000B000005600B00006500B00&lt;/oldhex2&gt; &#xD;&lt;/dif&gt;&#xD;&lt;dif&gt;&lt;newrno&gt;15&lt;/newrno&gt;&lt;oldrno&gt;15&lt;/oldrno&gt; &#xD;&lt;newchr&gt;&lt;![CDATA[ MICHAEL DAYTON  SOUTH   S   08/30/82   38    825.00     0.00   6000.00  6825.00]]&gt;&lt;/newchr&gt; &#xD;&lt;oldchr&gt;&lt;![CDATA[ MICHAEL DAYTON  SOUTH   S   08/30/82   37    825.00     0.00   6000.00  6825.00]]&gt;&lt;/oldchr&gt; &#xD;&lt;newhex1&gt;4DCCCCCD4CCEEDD44EDEEC444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/newhex1&gt; &#xD;&lt;newhex2&gt;0493815304183650026438000200008130182000380000825B00000000B000006000B00006825B00&lt;/newhex2&gt; &#xD;&lt;oldhex1&gt;4DCCCCCD4CCEEDD44EDEEC444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/oldhex1&gt; &#xD;&lt;oldhex2&gt;0493815304183650026438000200008130182000370000825B00000000B000006000B00006825B00&lt;/oldhex2&gt; &#xD;&lt;/dif&gt;&#xD;&lt;dif&gt;&lt;newrno&gt;17&lt;/newrno&gt;&lt;oldrno&gt;17&lt;/oldrno&gt; &#xD;&lt;newchr&gt;&lt;![CDATA[ DAN PEARSON     EAST    S   07/20/89   31    850.00     0.00   1000.00  1850.00]]&gt;&lt;/newchr&gt; &#xD;&lt;oldchr&gt;&lt;![CDATA[ DAN PEARSON     EAST    S   07/20/89   30    850.00     0.00   1000.00  1850.00]]&gt;&lt;/oldchr&gt; &#xD;&lt;newhex1&gt;4CCD4DCCDEDD44444CCEE4444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/newhex1&gt; &#xD;&lt;newhex2&gt;0415075192650000051230000200007120189000310000850B00000000B000001000B00001850B00&lt;/newhex2&gt; &#xD;&lt;oldhex1&gt;4CCD4DCCDEDD44444CCEE4444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/oldhex1&gt; &#xD;&lt;oldhex2&gt;0415075192650000051230000200007120189000300000850B00000000B000001000B00001850B00&lt;/oldhex2&gt; &#xD;&lt;/dif&gt;&#xD;&lt;dif&gt;&lt;newrno&gt;18&lt;/newrno&gt;&lt;oldrno&gt;18&lt;/oldrno&gt; &#xD;&lt;newchr&gt;&lt;![CDATA[ THOMAS LONG     WEST    H   03/31/87   33   1000.00   187.50      0.00  1187.50]]&gt;&lt;/newchr&gt; &#xD;&lt;oldchr&gt;&lt;![CDATA[ THOMAS LONG     WEST    H   03/31/87   32   1000.00   187.50      0.00  1187.50]]&gt;&lt;/oldchr&gt; &#xD;&lt;newhex1&gt;4ECDDCE4DDDC44444ECEE4444C444FF6FF6FF444FF444FFFF4FF444FFF4FF444444F4FF44FFFF4FF&lt;/newhex1&gt; &#xD;&lt;newhex2&gt;0386412036570000065230000800003131187000330001000B00000187B500000000B00001187B50&lt;/newhex2&gt; &#xD;&lt;oldhex1&gt;4ECDDCE4DDDC44444ECEE4444C444FF6FF6FF444FF444FFFF4FF444FFF4FF444444F4FF44FFFF4FF&lt;/oldhex1&gt; &#xD;&lt;oldhex2&gt;0386412036570000065230000800003131187000320001000B00000187B500000000B00001187B50&lt;/oldhex2&gt; &#xD;&lt;/dif&gt;&#xD;&lt;dif&gt;&lt;newrno&gt;19&lt;/newrno&gt;&lt;oldrno&gt;19&lt;/oldrno&gt; &#xD;&lt;newchr&gt;&lt;![CDATA[ LAURA MARTIN    WEST    S   06/14/83   37   1225.00     0.00   6000.00  7225.00]]&gt;&lt;/newchr&gt; &#xD;&lt;oldchr&gt;&lt;![CDATA[ LAURA MARTIN    WEST    S   06/14/83   36   1225.00     0.00   6000.00  7225.00]]&gt;&lt;/oldchr&gt; &#xD;&lt;newhex1&gt;4DCEDC4DCDECD4444ECEE4444E444FF6FF6FF444FF444FFFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/newhex1&gt; &#xD;&lt;newhex2&gt;0314910419395000065230000200006114183000370001225B00000000B000006000B00007225B00&lt;/newhex2&gt; &#xD;&lt;oldhex1&gt;4DCEDC4DCDECD4444ECEE4444E444FF6FF6FF444FF444FFFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/oldhex1&gt; &#xD;&lt;oldhex2&gt;0314910419395000065230000200006114183000360001225B00000000B000006000B00007225B00&lt;/oldhex2&gt; &#xD;&lt;/dif&gt;&#xD;&lt;/difs&gt;&lt;/root&gt;</Result>
-            <ExpectedResult><![CDATA[Record number: 12
+            <Result>&lt;root&gt;&lt;difs&gt;&lt;dif&gt;&lt;newrno&gt;10&lt;/newrno&gt;&lt;oldrno&gt;10&lt;/oldrno&gt; &lt;newchr&gt;&lt;![CDATA[ JOHN SMITH      NORTH   H   10/15/81   40   1083.00     0.00      0.00  1083.00]]&gt;&lt;/newchr&gt; &lt;oldchr&gt;&lt;![CDATA[ JOHN SMITH      NORTH   H   10/15/81   38   1083.00     0.00      0.00  1083.00]]&gt;&lt;/oldchr&gt; &lt;newhex1&gt;4DDCD4EDCEC444444DDDEC444C444FF6FF6FF444FF444FFFF4FF44444F4FF444444F4FF44FFFF4FF&lt;/newhex1&gt; &lt;newhex2&gt;0168502493800000056938000800010115181000400001083B00000000B000000000B00001083B00&lt;/newhex2&gt; &lt;oldhex1&gt;4DDCD4EDCEC444444DDDEC444C444FF6FF6FF444FF444FFFF4FF44444F4FF444444F4FF44FFFF4FF&lt;/oldhex1&gt; &lt;oldhex2&gt;0168502493800000056938000800010115181000380001083B00000000B000000000B00001083B00&lt;/oldhex2&gt; &lt;/dif&gt;&lt;dif&gt;&lt;newrno&gt;11&lt;/newrno&gt;&lt;oldrno&gt;11&lt;/oldrno&gt; &lt;newchr&gt;&lt;![CDATA[ TED NESSMAN     NORTH   S   01/30/79   42   1000.00     0.00      0.00  1000.00]]&gt;&lt;/newchr&gt; &lt;oldchr&gt;&lt;![CDATA[ TED NESSMAN     NORTH   S   01/30/79   41   1000.00     0.00      0.00  1000.00]]&gt;&lt;/oldchr&gt; &lt;newhex1&gt;4ECC4DCEEDCD44444DDDEC444E444FF6FF6FF444FF444FFFF4FF44444F4FF444444F4FF44FFFF4FF&lt;/newhex1&gt; &lt;newhex2&gt;0354055224150000056938000200001130179000420001000B00000000B000000000B00001000B00&lt;/newhex2&gt; &lt;oldhex1&gt;4ECC4DCEEDCD44444DDDEC444E444FF6FF6FF444FF444FFFF4FF44444F4FF444444F4FF44FFFF4FF&lt;/oldhex1&gt; &lt;oldhex2&gt;0354055224150000056938000200001130179000410001000B00000000B000000000B00001000B00&lt;/oldhex2&gt; &lt;/dif&gt;&lt;dif&gt;&lt;newrno&gt;12&lt;/newrno&gt;&lt;oldrno&gt;12&lt;/oldrno&gt; &lt;newchr&gt;&lt;![CDATA[ ROY GARDNER     NORTH   S   12/31/92   28    750.00     0.00   3300.00  4050.00]]&gt;&lt;/newchr&gt; &lt;oldchr&gt;&lt;![CDATA[ ROY GARDNER     NORTH   S   12/31/92   26    750.00     0.00   3300.00  4050.00]]&gt;&lt;/oldchr&gt; &lt;newhex1&gt;4DDE4CCDCDCD44444DDDEC444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/newhex1&gt; &lt;newhex2&gt;0968071945590000056938000200012131192000280000750B00000000B000003300B00004050B00&lt;/newhex2&gt; &lt;oldhex1&gt;4DDE4CCDCDCD44444DDDEC444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/oldhex1&gt; &lt;oldhex2&gt;0968071945590000056938000200012131192000260000750B00000000B000003300B00004050B00&lt;/oldhex2&gt; &lt;/dif&gt;&lt;dif&gt;&lt;newrno&gt;13&lt;/newrno&gt;&lt;oldrno&gt;13&lt;/oldrno&gt; &lt;newchr&gt;&lt;![CDATA[ Ralph Nuesse    SOUTH   H   06/25/84   37   1140.00     0.00      0.00  1140.00]]&gt;&lt;/newchr&gt; &lt;oldchr&gt;&lt;![CDATA[ Ralph Nuesse    SOUTH   H   06/25/84   35   1140.00     0.00      0.00  1140.00]]&gt;&lt;/oldchr&gt; &lt;newhex1&gt;4D89984DA8AA84444EDEEC444C444FF6FF6FF444FF444FFFF4FF44444F4FF444444F4FF44FFFF4FF&lt;/newhex1&gt; &lt;newhex2&gt;0913780545225000026438000800006125184000370001140B00000000B000000000B00001140B00&lt;/newhex2&gt; &lt;oldhex1&gt;4D89984DA8AA84444EDEEC444C444FF6FF6FF444FF444FFFF4FF44444F4FF444444F4FF44FFFF4FF&lt;/oldhex1&gt; &lt;oldhex2&gt;0913780545225000026438000800006125184000350001140B00000000B000000000B00001140B00&lt;/oldhex2&gt; &lt;/dif&gt;&lt;dif&gt;&lt;newrno&gt;14&lt;/newrno&gt;&lt;oldrno&gt;14&lt;/oldrno&gt; &lt;newchr&gt;&lt;![CDATA[ VALERIE OLSEN   SOUTH   S   05/01/94   27    900.00     0.00   5600.00  6500.00]]&gt;&lt;/newchr&gt; &lt;oldchr&gt;&lt;![CDATA[ VALERIE OLSEN   SOUTH   S   05/01/94   25    900.00     0.00   5600.00  6500.00]]&gt;&lt;/oldchr&gt; &lt;newhex1&gt;4ECDCDCC4DDECD444EDEEC444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/newhex1&gt; &lt;newhex2&gt;0513599506325500026438000200005101194000270000900B00000000B000005600B00006500B00&lt;/newhex2&gt; &lt;oldhex1&gt;4ECDCDCC4DDECD444EDEEC444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/oldhex1&gt; &lt;oldhex2&gt;0513599506325500026438000200005101194000250000900B00000000B000005600B00006500B00&lt;/oldhex2&gt; &lt;/dif&gt;&lt;dif&gt;&lt;newrno&gt;15&lt;/newrno&gt;&lt;oldrno&gt;15&lt;/oldrno&gt; &lt;newchr&gt;&lt;![CDATA[ MICHAEL DAYTON  SOUTH   S   08/30/82   39    825.00     0.00   6000.00  6825.00]]&gt;&lt;/newchr&gt; &lt;oldchr&gt;&lt;![CDATA[ MICHAEL DAYTON  SOUTH   S   08/30/82   37    825.00     0.00   6000.00  6825.00]]&gt;&lt;/oldchr&gt; &lt;newhex1&gt;4DCCCCCD4CCEEDD44EDEEC444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/newhex1&gt; &lt;newhex2&gt;0493815304183650026438000200008130182000390000825B00000000B000006000B00006825B00&lt;/newhex2&gt; &lt;oldhex1&gt;4DCCCCCD4CCEEDD44EDEEC444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/oldhex1&gt; &lt;oldhex2&gt;0493815304183650026438000200008130182000370000825B00000000B000006000B00006825B00&lt;/oldhex2&gt; &lt;/dif&gt;&lt;dif&gt;&lt;newrno&gt;16&lt;/newrno&gt;&lt;oldrno&gt;16&lt;/oldrno&gt; &lt;newchr&gt;&lt;![CDATA[ DENNIS WHITE    SOUTH   S   02/29/88   33   1050.00     0.00   1120.00  2170.00]]&gt;&lt;/newchr&gt; &lt;oldchr&gt;&lt;![CDATA[ DENNIS WHITE    SOUTH   S   02/29/88   32   1050.00     0.00   1120.00  2170.00]]&gt;&lt;/oldchr&gt; &lt;newhex1&gt;4CCDDCE4ECCEC4444EDEEC444E444FF6FF6FF444FF444FFFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/newhex1&gt; &lt;newhex2&gt;0455592068935000026438000200002129188000330001050B00000000B000001120B00002170B00&lt;/newhex2&gt; &lt;oldhex1&gt;4CCDDCE4ECCEC4444EDEEC444E444FF6FF6FF444FF444FFFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/oldhex1&gt; &lt;oldhex2&gt;0455592068935000026438000200002129188000320001050B00000000B000001120B00002170B00&lt;/oldhex2&gt; &lt;/dif&gt;&lt;dif&gt;&lt;newrno&gt;17&lt;/newrno&gt;&lt;oldrno&gt;17&lt;/oldrno&gt; &lt;newchr&gt;&lt;![CDATA[ DAN PEARSON     EAST    S   07/20/89   32    850.00     0.00   1000.00  1850.00]]&gt;&lt;/newchr&gt; &lt;oldchr&gt;&lt;![CDATA[ DAN PEARSON     EAST    S   07/20/89   30    850.00     0.00   1000.00  1850.00]]&gt;&lt;/oldchr&gt; &lt;newhex1&gt;4CCD4DCCDEDD44444CCEE4444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/newhex1&gt; &lt;newhex2&gt;0415075192650000051230000200007120189000320000850B00000000B000001000B00001850B00&lt;/newhex2&gt; &lt;oldhex1&gt;4CCD4DCCDEDD44444CCEE4444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/oldhex1&gt; &lt;oldhex2&gt;0415075192650000051230000200007120189000300000850B00000000B000001000B00001850B00&lt;/oldhex2&gt; &lt;/dif&gt;&lt;dif&gt;&lt;newrno&gt;18&lt;/newrno&gt;&lt;oldrno&gt;18&lt;/oldrno&gt; &lt;newchr&gt;&lt;![CDATA[ THOMAS LONG     WEST    H   03/31/87   34   1000.00   187.50      0.00  1187.50]]&gt;&lt;/newchr&gt; &lt;oldchr&gt;&lt;![CDATA[ THOMAS LONG     WEST    H   03/31/87   32   1000.00   187.50      0.00  1187.50]]&gt;&lt;/oldchr&gt; &lt;newhex1&gt;4ECDDCE4DDDC44444ECEE4444C444FF6FF6FF444FF444FFFF4FF444FFF4FF444444F4FF44FFFF4FF&lt;/newhex1&gt; &lt;newhex2&gt;0386412036570000065230000800003131187000340001000B00000187B500000000B00001187B50&lt;/newhex2&gt; &lt;oldhex1&gt;4ECDDCE4DDDC44444ECEE4444C444FF6FF6FF444FF444FFFF4FF444FFF4FF444444F4FF44FFFF4FF&lt;/oldhex1&gt; &lt;oldhex2&gt;0386412036570000065230000800003131187000320001000B00000187B500000000B00001187B50&lt;/oldhex2&gt; &lt;/dif&gt;&lt;dif&gt;&lt;newrno&gt;19&lt;/newrno&gt;&lt;oldrno&gt;19&lt;/oldrno&gt; &lt;newchr&gt;&lt;![CDATA[ LAURA MARTIN    WEST    S   06/14/83   38   1225.00     0.00   6000.00  7225.00]]&gt;&lt;/newchr&gt; &lt;oldchr&gt;&lt;![CDATA[ LAURA MARTIN    WEST    S   06/14/83   36   1225.00     0.00   6000.00  7225.00]]&gt;&lt;/oldchr&gt; &lt;newhex1&gt;4DCEDC4DCDECD4444ECEE4444E444FF6FF6FF444FF444FFFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/newhex1&gt; &lt;newhex2&gt;0314910419395000065230000200006114183000380001225B00000000B000006000B00007225B00&lt;/newhex2&gt; &lt;oldhex1&gt;4DCEDC4DCDECD4444ECEE4444E444FF6FF6FF444FF444FFFF4FF44444F4FF444FFFF4FF44FFFF4FF&lt;/oldhex1&gt; &lt;oldhex2&gt;0314910419395000065230000200006114183000360001225B00000000B000006000B00007225B00&lt;/oldhex2&gt; &lt;/dif&gt;&lt;/difs&gt;&lt;/root&gt;</Result>
+            <ExpectedResult><![CDATA[Record number: 10
+ JOHN SMITH      NORTH   H   10/15/81   38   1083.00     0.00      0.00  1083.00
+4DDCD4EDCEC444444DDDEC444C444FF6FF6FF444FF444FFFF4FF44444F4FF444444F4FF44FFFF4FF
+0168502493800000056938000800010115181000380001083B00000000B000000000B00001083B00
+
+Record number: 11
+ TED NESSMAN     NORTH   S   01/30/79   41   1000.00     0.00      0.00  1000.00
+4ECC4DCEEDCD44444DDDEC444E444FF6FF6FF444FF444FFFF4FF44444F4FF444444F4FF44FFFF4FF
+0354055224150000056938000200001130179000410001000B00000000B000000000B00001000B00
+
+Record number: 12
  ROY GARDNER     NORTH   S   12/31/92   26    750.00     0.00   3300.00  4050.00
 4DDE4CCDCDCD44444DDDEC444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF
 0968071945590000056938000200012131192000260000750B00000000B000003300B00004050B00
@@ -1364,6 +1375,11 @@ Record number: 15
 4DCCCCCD4CCEEDD44EDEEC444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF
 0493815304183650026438000200008130182000370000825B00000000B000006000B00006825B00
 
+Record number: 16
+ DENNIS WHITE    SOUTH   S   02/29/88   32   1050.00     0.00   1120.00  2170.00
+4CCDDCE4ECCEC4444EDEEC444E444FF6FF6FF444FF444FFFF4FF44444F4FF444FFFF4FF44FFFF4FF
+0455592068935000026438000200002129188000320001050B00000000B000001120B00002170B00
+
 Record number: 17
  DAN PEARSON     EAST    S   07/20/89   30    850.00     0.00   1000.00  1850.00
 4CCD4DCCDEDD44444CCEE4444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF
@@ -1378,40 +1394,55 @@ Record number: 19
  LAURA MARTIN    WEST    S   06/14/83   36   1225.00     0.00   6000.00  7225.00
 4DCEDC4DCDECD4444ECEE4444E444FF6FF6FF444FF444FFFF4FF44444F4FF444FFFF4FF44FFFF4FF
 0314910419395000065230000200006114183000360001225B00000000B000006000B00007225B00]]></ExpectedResult>
-            <ActualResult><![CDATA[Record number: 12
- ROY GARDNER     NORTH   S   12/31/92   27    750.00     0.00   3300.00  4050.00
+            <ActualResult><![CDATA[Record number: 10
+ JOHN SMITH      NORTH   H   10/15/81   40   1083.00     0.00      0.00  1083.00
+4DDCD4EDCEC444444DDDEC444C444FF6FF6FF444FF444FFFF4FF44444F4FF444444F4FF44FFFF4FF
+0168502493800000056938000800010115181000400001083B00000000B000000000B00001083B00
+
+Record number: 11
+ TED NESSMAN     NORTH   S   01/30/79   42   1000.00     0.00      0.00  1000.00
+4ECC4DCEEDCD44444DDDEC444E444FF6FF6FF444FF444FFFF4FF44444F4FF444444F4FF44FFFF4FF
+0354055224150000056938000200001130179000420001000B00000000B000000000B00001000B00
+
+Record number: 12
+ ROY GARDNER     NORTH   S   12/31/92   28    750.00     0.00   3300.00  4050.00
 4DDE4CCDCDCD44444DDDEC444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF
-0968071945590000056938000200012131192000270000750B00000000B000003300B00004050B00
+0968071945590000056938000200012131192000280000750B00000000B000003300B00004050B00
 
 Record number: 13
- Ralph Nuesse    SOUTH   H   06/25/84   36   1140.00     0.00      0.00  1140.00
+ Ralph Nuesse    SOUTH   H   06/25/84   37   1140.00     0.00      0.00  1140.00
 4D89984DA8AA84444EDEEC444C444FF6FF6FF444FF444FFFF4FF44444F4FF444444F4FF44FFFF4FF
-0913780545225000026438000800006125184000360001140B00000000B000000000B00001140B00
+0913780545225000026438000800006125184000370001140B00000000B000000000B00001140B00
 
 Record number: 14
- VALERIE OLSEN   SOUTH   S   05/01/94   26    900.00     0.00   5600.00  6500.00
+ VALERIE OLSEN   SOUTH   S   05/01/94   27    900.00     0.00   5600.00  6500.00
 4ECDCDCC4DDECD444EDEEC444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF
-0513599506325500026438000200005101194000260000900B00000000B000005600B00006500B00
+0513599506325500026438000200005101194000270000900B00000000B000005600B00006500B00
 
 Record number: 15
- MICHAEL DAYTON  SOUTH   S   08/30/82   38    825.00     0.00   6000.00  6825.00
+ MICHAEL DAYTON  SOUTH   S   08/30/82   39    825.00     0.00   6000.00  6825.00
 4DCCCCCD4CCEEDD44EDEEC444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF
-0493815304183650026438000200008130182000380000825B00000000B000006000B00006825B00
+0493815304183650026438000200008130182000390000825B00000000B000006000B00006825B00
+
+Record number: 16
+ DENNIS WHITE    SOUTH   S   02/29/88   33   1050.00     0.00   1120.00  2170.00
+4CCDDCE4ECCEC4444EDEEC444E444FF6FF6FF444FF444FFFF4FF44444F4FF444FFFF4FF44FFFF4FF
+0455592068935000026438000200002129188000330001050B00000000B000001120B00002170B00
 
 Record number: 17
- DAN PEARSON     EAST    S   07/20/89   31    850.00     0.00   1000.00  1850.00
+ DAN PEARSON     EAST    S   07/20/89   32    850.00     0.00   1000.00  1850.00
 4CCD4DCCDEDD44444CCEE4444E444FF6FF6FF444FF4444FFF4FF44444F4FF444FFFF4FF44FFFF4FF
-0415075192650000051230000200007120189000310000850B00000000B000001000B00001850B00
+0415075192650000051230000200007120189000320000850B00000000B000001000B00001850B00
 
 Record number: 18
- THOMAS LONG     WEST    H   03/31/87   33   1000.00   187.50      0.00  1187.50
+ THOMAS LONG     WEST    H   03/31/87   34   1000.00   187.50      0.00  1187.50
 4ECDDCE4DDDC44444ECEE4444C444FF6FF6FF444FF444FFFF4FF444FFF4FF444444F4FF44FFFF4FF
-0386412036570000065230000800003131187000330001000B00000187B500000000B00001187B50
+0386412036570000065230000800003131187000340001000B00000187B500000000B00001187B50
 
 Record number: 19
- LAURA MARTIN    WEST    S   06/14/83   37   1225.00     0.00   6000.00  7225.00
+ LAURA MARTIN    WEST    S   06/14/83   38   1225.00     0.00   6000.00  7225.00
 4DCEDC4DCDECD4444ECEE4444E444FF6FF6FF444FF444FFFF4FF44444F4FF444FFFF4FF44FFFF4FF
-0314910419395000065230000200006114183000370001225B00000000B000006000B00007225B00]]></ActualResult>
+0314910419395000065230000200006114183000380001225B00000000B000006000B00007225B00]]></ActualResult>
           </VerifyRemoteFile>
         </Scope>
       </Test>
@@ -1419,7 +1450,7 @@ Record number: 19
         <Component name="CWXTCOB" type="COBOL">
           <INOUT>
             <parminfo>
-              <parm-lth type="NumericBinary" length="4" bytes="2" signed="true" decimals="0" />
+              <parm-lth type="NumericBinary" length="4" bytes="2" signed="true" decimals="0" signsep="false" signpos="" />
               <parm-data type="Character" length="5" bytes="5" />
             </parminfo>
           </INOUT>
@@ -1428,25 +1459,42 @@ Record number: 19
     </XaUnit>
   </AST>
   <Context>
-    <ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5f6457ad31d7ab4e8cb59b9d" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="CCEXPEDITER" jobInfoInterval="3" userid="HDDRXM0" ccrepository="HDDRXM0.DEMO.COCO.REPOS" ccsystem="2020JULY_TTT_FT" cctestid="CWXTCOB" ccreset="false">
-      <platformruntime database="DSCCCWCC" driver="com.ibm.db2.jcc.DB2Driver" uri="jdbc:db2://cwc2.nasa.cpwr.corp:2846/${database}" environmenttype="BATCH" callinterface="NONE" />
-      <ExtensionData />
-      <ExtensionData componentName="cwxtcob" componentId="5f6491b331d7ab4e8cb59bc1">
+    <ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5b508b8a787be73b59238d38" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="CCEXPEDITER" jobInfoInterval="3" userid="HDDRXM0" ccrepository="HDDRXM0.DEMO.COCO.REPOS" ccsystem="TTT_FT_COCO" cctestid="CWXTCOB_FT" ccreset="true" ccshow="true">
+      <platformruntime callinterface="NONE" database="DBCCCWCC" driver="com.ibm.db2.jcc.DB2Driver" uri="jdbc:db2://cwcc.compuware.com:546/${database}" environmenttype="BATCH" />
+      <ExtensionData>
+        <Parameter key="nvt_ispw_app">
+          <Value>GITE</Value>
+        </Parameter>
+        <Parameter key="nvt_ispw_level4">
+          <Value>PROD</Value>
+        </Parameter>
+        <Parameter key="nvt_ispw_level3">
+          <Value>DEVL</Value>
+        </Parameter>
+        <Parameter key="nvt_ispw_level2">
+          <Value>FT1</Value>
+        </Parameter>
+        <Parameter key="nvt_ispw_level1">
+          <Value>UT1</Value>
+        </Parameter>
+      </ExtensionData>
+      <ExtensionData componentName="cwxtcob" componentId="5d5fea81180742000cf98888">
         <Parameter key="sourcelibrary">
-          <Value>HDDRXM0.RT.COB.BATCH</Value>
+          <Value>SALESSUP.GITE.UT1.COB</Value>
         </Parameter>
         <Parameter key="loadlibraries">
-          <Value>HDDRXM0.RT.LOAD.PDSE</Value>
-        </Parameter>
-        <Parameter key="sourcelibraries">
-          <Value>HDDRXM0.RT.COPY</Value>
+          <Value>SALESSUP.${nvt_ispw_app}.${nvt_ispw_level1}.LOAD</Value>
+          <Value>SALESSUP.${nvt_ispw_app}.${nvt_ispw_level2}.LOAD</Value>
+          <Value>SALESSUP.${nvt_ispw_app}.${nvt_ispw_level3}.LOAD</Value>
+          <Value>SALESSUP.${nvt_ispw_app}.${nvt_ispw_level4}.LOAD</Value>
+          <Value>SALESSUP.${nvt_ispw_app}.PROD.LOAD</Value>
         </Parameter>
         <Parameter key="callinterface">
           <Value>NONE</Value>
         </Parameter>
       </ExtensionData>
       <References componentName="cwxtcob" />
-      <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="cwxtcob" path="CWXTCOB_Standard.xaunit">
+      <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="cwxtcob" caseInsensitiveCompare="false" path="CWXTCOB_Standard.xaunit">
         <Description>Program reads a file of records for employees containing, times worked, revenues achieved. Based on some rules creates a weekly report. At month end, and additional section gets generated in the report&#xD;
 &#xD;
 Execute program on a "normal" day&#xD;
@@ -1481,7 +1529,7 @@ Store expected RPFILE data locally and restore to mainframe</Description>
               </Scope>
             </Scope>
           </Scope>
-          <Scope name="Execute Test" disabled="false">
+          <Scope name="Execute Test - FT" disabled="false">
             <Component id="cwxtcob" label="CWXTCOB" moduleName="CWXTCOB" programExitVerify="value &lt; 8" rollback="false">
               <Data>
                 <parminfo>
@@ -1500,6 +1548,20 @@ Store expected RPFILE data locally and restore to mainframe</Description>
 //  DSN=${outDatasetNameActual}]]></Content>
               </Setup>
             </Component>
+          </Scope>
+          <Scope name="Execute Test - Job" disabled="true">
+            <Job name="Job" haltExecution="false" jobName="HDDRXM0X" jobLocation="JOBDEFINITION" jobcc="true" jclstepcc="STEP1" mainprogramcc="CWXTCOB" jobnamecc="HDDRXM0X" programtype="BATCH" returnCodeVerify="value &lt; 8">
+              <Content><![CDATA[//HDDRXM0X JOB ('EUDD,INTL'),'NUESSE',NOTIFY=&SYSUID,
+//             MSGLEVEL=(1,1),MSGCLASS=X,CLASS=A,REGION=6M
+/*JOBPARM S=*
+//STEP1  EXEC PGM=CWXTCOB,PARM=00003
+//STEPLIB DD DISP=SHR,DSN=HDDRXM0.DEMO.CWCC.LOAD.PDSE
+//XPSL0004 DD DISP=SHR,DSN=HDDRXM0.DEMO.CWCC.LOAD.PDSE.SSD
+//EMPFILE  DD  DISP=SHR,DSN=HDDRXM0.DEMO.CWXTDATA
+//RPTFILE  DD  SYSOUT=*
+//SYSUDUMP DD  SYSOUT=*
+//SYSOUT   DD  SYSOUT=*]]></Content>
+            </Job>
           </Scope>
           <Scope name="Verify" disabled="false">
             <ReadRemoteFile fileName="${outDatasetNameActual}" id="readOutDatasetActual" label="readOutDatasetActual" firstRecord="10" numberRecords="12" mDataDefinitionName="rptEmpDet" />
@@ -1535,9 +1597,9 @@ tmpTotal.toFixed(0)]]></Statement>
         <MetaData>
           <MDataDefinition name="empfile_hourly">
             <employee-work-area native="01 EMPLOYEE-WORK-AREA.">
-              <wa-emp-num type="NumericDisplay" length="5" bytes="5" native="05 WA-EMP-NUM PIC 9(5)." signed="false" decimals="0" />
+              <wa-emp-num type="NumericDisplay" length="5" bytes="5" native="05 WA-EMP-NUM PIC 9(5)." signed="false" decimals="0" signsep="false" signpos="" />
               <wa-emp-type type="Character" length="1" bytes="1" native="05 WA-EMP-TYPE PIC X." />
-              <wa-emp-region type="NumericDisplay" length="1" bytes="1" native="05 WA-EMP-REGION PIC 9." signed="false" decimals="0" />
+              <wa-emp-region type="NumericDisplay" length="1" bytes="1" native="05 WA-EMP-REGION PIC 9." signed="false" decimals="0" signsep="false" signpos="" />
               <wa-emp-name type="Character" length="15" bytes="15" native="05 WA-EMP-NAME PIC X(15)." />
               <wa-emp-address native="05 WA-EMP-ADDRESS.">
                 <wa-emp-street type="Character" length="15" bytes="15" native="10 WA-EMP-STREET PIC X(15)." />
@@ -1546,23 +1608,23 @@ tmpTotal.toFixed(0)]]></Statement>
                 <wa-emp-zip type="Character" length="9" bytes="9" native="10 WA-EMP-ZIP PIC X(9)." />
               </wa-emp-address>
               <wa-hourly-employee-data native="05 WA-HOURLY-EMPLOYEE-DATA.">
-                <wa-emp-hours type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HOURS PIC 9(2)." signed="false" decimals="0" />
-                <wa-emp-rate type="NumericPacked" length="3" bytes="3" native="10 WA-EMP-RATE PIC 9(3)V99 COMP-3." signed="false" decimals="2" />
+                <wa-emp-hours type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HOURS PIC 9(2)." signed="false" decimals="0" signsep="false" signpos="" />
+                <wa-emp-rate type="NumericPacked" length="3" bytes="3" native="10 WA-EMP-RATE PIC 9(3)V99 COMP-3." signed="false" decimals="2" signsep="false" signpos="" />
                 <filler1 type="Character" length="8" bytes="8" native="10 FILLER PIC X(8)." />
               </wa-hourly-employee-data>
               <wa-emp-hire-date native="05 WA-EMP-HIRE-DATE.">
-                <wa-emp-hire-yy type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HIRE-YY PIC 9(2)." signed="false" decimals="0" />
-                <wa-emp-hire-mm type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HIRE-MM PIC 9(2)." signed="false" decimals="0" />
-                <wa-emp-hire-dd type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HIRE-DD PIC 9(2)." signed="false" decimals="0" />
+                <wa-emp-hire-yy type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HIRE-YY PIC 9(2)." signed="false" decimals="0" signsep="false" signpos="" />
+                <wa-emp-hire-mm type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HIRE-MM PIC 9(2)." signed="false" decimals="0" signsep="false" signpos="" />
+                <wa-emp-hire-dd type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HIRE-DD PIC 9(2)." signed="false" decimals="0" signsep="false" signpos="" />
               </wa-emp-hire-date>
               <filler1 type="Character" length="5" bytes="5" native="05 FILLER PIC X(5)." />
             </employee-work-area>
           </MDataDefinition>
           <MDataDefinition name="empfile_sales">
             <employee-work-area native="01 EMPLOYEE-WORK-AREA.">
-              <wa-emp-num type="NumericDisplay" length="5" bytes="5" native="05 WA-EMP-NUM PIC 9(5)." signed="false" decimals="0" />
+              <wa-emp-num type="NumericDisplay" length="5" bytes="5" native="05 WA-EMP-NUM PIC 9(5)." signed="false" decimals="0" signsep="false" signpos="" />
               <wa-emp-type type="Character" length="1" bytes="1" native="05 WA-EMP-TYPE PIC X." />
-              <wa-emp-region type="NumericDisplay" length="1" bytes="1" native="05 WA-EMP-REGION PIC 9." signed="false" decimals="0" />
+              <wa-emp-region type="NumericDisplay" length="1" bytes="1" native="05 WA-EMP-REGION PIC 9." signed="false" decimals="0" signsep="false" signpos="" />
               <wa-emp-name type="Character" length="15" bytes="15" native="05 WA-EMP-NAME PIC X(15)." />
               <wa-emp-address native="05 WA-EMP-ADDRESS.">
                 <wa-emp-street type="Character" length="15" bytes="15" native="10 WA-EMP-STREET PIC X(15)." />
@@ -1571,23 +1633,23 @@ tmpTotal.toFixed(0)]]></Statement>
                 <wa-emp-zip type="Character" length="9" bytes="9" native="10 WA-EMP-ZIP PIC X(9)." />
               </wa-emp-address>
               <wa-sales-employee-data native="05 WA-SALES-EMPLOYEE-DATA REDEFINES WA-HOURLY-EMPLOYEE-DATA." redefines="wa-hourly-employee-data">
-                <wa-sales-salary type="NumericPacked" length="5" bytes="4" native="10 WA-SALES-SALARY PIC 9(5)V99 COMP-3." signed="false" decimals="2" />
-                <wa-sales-amount type="NumericDisplay" length="5" bytes="7" native="10 WA-SALES-AMOUNT PIC 9(5)V99." signed="false" decimals="2" />
+                <wa-sales-salary type="NumericPacked" length="5" bytes="4" native="10 WA-SALES-SALARY PIC 9(5)V99 COMP-3." signed="false" decimals="2" signsep="false" signpos="" />
+                <wa-sales-amount type="NumericDisplay" length="5" bytes="7" native="10 WA-SALES-AMOUNT PIC 9(5)V99." signed="false" decimals="2" signsep="false" signpos="" />
                 <filler1 type="Character" length="2" bytes="2" native="10 FILLER PIC X(2)." />
               </wa-sales-employee-data>
               <wa-emp-hire-date native="05 WA-EMP-HIRE-DATE.">
-                <wa-emp-hire-yy type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HIRE-YY PIC 9(2)." signed="false" decimals="0" />
-                <wa-emp-hire-mm type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HIRE-MM PIC 9(2)." signed="false" decimals="0" />
-                <wa-emp-hire-dd type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HIRE-DD PIC 9(2)." signed="false" decimals="0" />
+                <wa-emp-hire-yy type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HIRE-YY PIC 9(2)." signed="false" decimals="0" signsep="false" signpos="" />
+                <wa-emp-hire-mm type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HIRE-MM PIC 9(2)." signed="false" decimals="0" signsep="false" signpos="" />
+                <wa-emp-hire-dd type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HIRE-DD PIC 9(2)." signed="false" decimals="0" signsep="false" signpos="" />
               </wa-emp-hire-date>
               <filler1 type="Character" length="5" bytes="5" native="05 FILLER PIC X(5)." />
             </employee-work-area>
           </MDataDefinition>
           <MDataDefinition name="empfile_mgmt">
             <employee-work-area native="01 EMPLOYEE-WORK-AREA.">
-              <wa-emp-num type="NumericDisplay" length="5" bytes="5" native="05 WA-EMP-NUM PIC 9(5)." signed="false" decimals="0" />
+              <wa-emp-num type="NumericDisplay" length="5" bytes="5" native="05 WA-EMP-NUM PIC 9(5)." signed="false" decimals="0" signsep="false" signpos="" />
               <wa-emp-type type="Character" length="1" bytes="1" native="05 WA-EMP-TYPE PIC X." />
-              <wa-emp-region type="NumericDisplay" length="1" bytes="1" native="05 WA-EMP-REGION PIC 9." signed="false" decimals="0" />
+              <wa-emp-region type="NumericDisplay" length="1" bytes="1" native="05 WA-EMP-REGION PIC 9." signed="false" decimals="0" signsep="false" signpos="" />
               <wa-emp-name type="Character" length="15" bytes="15" native="05 WA-EMP-NAME PIC X(15)." />
               <wa-emp-address native="05 WA-EMP-ADDRESS.">
                 <wa-emp-street type="Character" length="15" bytes="15" native="10 WA-EMP-STREET PIC X(15)." />
@@ -1596,13 +1658,13 @@ tmpTotal.toFixed(0)]]></Statement>
                 <wa-emp-zip type="Character" length="9" bytes="9" native="10 WA-EMP-ZIP PIC X(9)." />
               </wa-emp-address>
               <wa-mgmt-employee-data native="05 WA-MGMT-EMPLOYEE-DATA REDEFINES WA-SALES-EMPLOYEE-DATA." redefines="wa-sales-employee-data">
-                <wa-mgmt-salary type="NumericPacked" length="5" bytes="4" native="10 WA-MGMT-SALARY PIC 9(5)V99 COMP-3." signed="false" decimals="2" />
+                <wa-mgmt-salary type="NumericPacked" length="5" bytes="4" native="10 WA-MGMT-SALARY PIC 9(5)V99 COMP-3." signed="false" decimals="2" signsep="false" signpos="" />
                 <filler1 type="Character" length="9" bytes="9" native="10 FILLER PIC X(9)." />
               </wa-mgmt-employee-data>
               <wa-emp-hire-date native="05 WA-EMP-HIRE-DATE.">
-                <wa-emp-hire-yy type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HIRE-YY PIC 9(2)." signed="false" decimals="0" />
-                <wa-emp-hire-mm type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HIRE-MM PIC 9(2)." signed="false" decimals="0" />
-                <wa-emp-hire-dd type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HIRE-DD PIC 9(2)." signed="false" decimals="0" />
+                <wa-emp-hire-yy type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HIRE-YY PIC 9(2)." signed="false" decimals="0" signsep="false" signpos="" />
+                <wa-emp-hire-mm type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HIRE-MM PIC 9(2)." signed="false" decimals="0" signsep="false" signpos="" />
+                <wa-emp-hire-dd type="NumericDisplay" length="2" bytes="2" native="10 WA-EMP-HIRE-DD PIC 9(2)." signed="false" decimals="0" signsep="false" signpos="" />
               </wa-emp-hire-date>
               <filler1 type="Character" length="5" bytes="5" native="05 FILLER PIC X(5)." />
             </employee-work-area>
@@ -1621,43 +1683,43 @@ tmpTotal.toFixed(0)]]></Statement>
               <filler3 type="Character" length="3" bytes="3" native="05 FILLER PIC X(3) VALUE SPACES." />
               <emp-dtl-type type="Character" length="1" bytes="1" native="05 EMP-DTL-TYPE PIC X." />
               <filler4 type="Character" length="3" bytes="3" native="05 FILLER PIC X(3) VALUE SPACES." />
-              <emp-dtl-hire-mm type="NumericDisplay" length="2" bytes="2" native="05 EMP-DTL-HIRE-MM PIC 9(2)." signed="false" decimals="0" />
+              <emp-dtl-hire-mm type="NumericDisplay" length="2" bytes="2" native="05 EMP-DTL-HIRE-MM PIC 9(2)." signed="false" decimals="0" signsep="false" signpos="" />
               <emp-dtl-slash1 type="Character" length="1" bytes="1" native="05 EMP-DTL-SLASH1 PIC X VALUE SPACES." />
-              <emp-dtl-hire-dd type="NumericDisplay" length="2" bytes="2" native="05 EMP-DTL-HIRE-DD PIC 9(2)." signed="false" decimals="0" />
+              <emp-dtl-hire-dd type="NumericDisplay" length="2" bytes="2" native="05 EMP-DTL-HIRE-DD PIC 9(2)." signed="false" decimals="0" signsep="false" signpos="" />
               <emp-dtl-slash2 type="Character" length="1" bytes="1" native="05 EMP-DTL-SLASH2 PIC X VALUE SPACES." />
-              <emp-dtl-hire-yy type="NumericDisplay" length="2" bytes="2" native="05 EMP-DTL-HIRE-YY PIC 9(2)." signed="false" decimals="0" />
+              <emp-dtl-hire-yy type="NumericDisplay" length="2" bytes="2" native="05 EMP-DTL-HIRE-YY PIC 9(2)." signed="false" decimals="0" signsep="false" signpos="" />
               <filler5 type="Character" length="3" bytes="3" native="05 FILLER PIC X(3) VALUE SPACES." />
-              <emp-dtl-yrs-of-service type="NumericDisplay" length="2" bytes="2" native="05 EMP-DTL-YRS-OF-SERVICE PIC 9(2)." signed="false" decimals="0" />
+              <emp-dtl-yrs-of-service type="NumericDisplay" length="2" bytes="2" native="05 EMP-DTL-YRS-OF-SERVICE PIC 9(2)." signed="false" decimals="0" signsep="false" signpos="" />
               <filler6 type="Character" length="2" bytes="2" native="05 FILLER PIC X(2) VALUE SPACES." />
-              <emp-dtl-wages type="NumericEdited" length="8" bytes="8" native="05 EMP-DTL-WAGES PIC ZZZZ9.99." signed="false" decimals="0" />
+              <emp-dtl-wages type="NumericEdited" length="8" bytes="8" native="05 EMP-DTL-WAGES PIC ZZZZ9.99." signed="false" decimals="0" signsep="false" signpos="" />
               <filler7 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE SPACES." />
-              <emp-dtl-ot type="NumericEdited" length="8" bytes="8" native="05 EMP-DTL-OT PIC ZZZZ9.99." signed="false" decimals="0" />
+              <emp-dtl-ot type="NumericEdited" length="8" bytes="8" native="05 EMP-DTL-OT PIC ZZZZ9.99." signed="false" decimals="0" signsep="false" signpos="" />
               <filler8 type="Character" length="2" bytes="2" native="05 FILLER PIC X(2) VALUE SPACES." />
-              <emp-dtl-comm type="NumericEdited" length="8" bytes="8" native="05 EMP-DTL-COMM PIC ZZZZ9.99." signed="false" decimals="0" />
+              <emp-dtl-comm type="NumericEdited" length="8" bytes="8" native="05 EMP-DTL-COMM PIC ZZZZ9.99." signed="false" decimals="0" signsep="false" signpos="" />
               <filler9 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE SPACES." />
-              <emp-dtl-total type="NumericEdited" length="8" bytes="8" native="05 EMP-DTL-TOTAL PIC ZZZZ9.99." signed="false" decimals="0" />
+              <emp-dtl-total type="NumericEdited" length="8" bytes="8" native="05 EMP-DTL-TOTAL PIC ZZZZ9.99." signed="false" decimals="0" signsep="false" signpos="" />
             </employee-dtl>
           </MDataDefinition>
           <MDataDefinition name="rptHdr">
             <employee-hdr1 native="01 EMPLOYEE-HDR1.">
               <filler1 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE SPACES." />
               <filler2 type="Character" length="10" bytes="10" native="05 FILLER PIC X(10) VALUE 'RUN DATE  '." />
-              <emp-run-mm type="NumericDisplay" length="2" bytes="2" native="05 EMP-RUN-MM PIC 99." signed="false" decimals="0" />
+              <emp-run-mm type="NumericDisplay" length="2" bytes="2" native="05 EMP-RUN-MM PIC 99." signed="false" decimals="0" signsep="false" signpos="" />
               <filler3 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE '/'." />
-              <emp-run-dd type="NumericDisplay" length="2" bytes="2" native="05 EMP-RUN-DD PIC 99." signed="false" decimals="0" />
+              <emp-run-dd type="NumericDisplay" length="2" bytes="2" native="05 EMP-RUN-DD PIC 99." signed="false" decimals="0" signsep="false" signpos="" />
               <filler4 type="Character" length="1" bytes="1" native="05 FILLER PIC X VALUE '/'." />
-              <emp-run-yy type="NumericDisplay" length="2" bytes="2" native="05 EMP-RUN-YY PIC 99." signed="false" decimals="0" />
+              <emp-run-yy type="NumericDisplay" length="2" bytes="2" native="05 EMP-RUN-YY PIC 99." signed="false" decimals="0" signsep="false" signpos="" />
               <filler5 type="Character" length="7" bytes="7" native="05 FILLER PIC X(7) VALUE SPACES." />
               <filler6 type="Character" length="28" bytes="28" native="05 FILLER PIC X(28) VALUE 'EMPLOYEE COMPENSATION REPORT'." />
               <filler7 type="Character" length="18" bytes="18" native="05 FILLER PIC X(18) VALUE SPACES." />
               <filler8 type="Character" length="5" bytes="5" native="05 FILLER PIC X(5) VALUE 'PAGE '." />
-              <emp-page type="NumericDisplay" length="3" bytes="3" native="05 EMP-PAGE PIC ZZ9." signed="false" decimals="0" />
+              <emp-page type="NumericDisplay" length="3" bytes="3" native="05 EMP-PAGE PIC ZZ9." signed="false" decimals="0" signsep="false" signpos="" />
             </employee-hdr1>
           </MDataDefinition>
           <Component name="CWXTCOB" type="COBOL">
             <INOUT>
               <parminfo>
-                <parm-lth type="NumericBinary" length="4" bytes="2" signed="true" decimals="0" />
+                <parm-lth type="NumericBinary" length="4" bytes="2" signed="true" decimals="0" signsep="false" signpos="" />
                 <parm-data type="Character" length="5" bytes="5" />
               </parminfo>
             </INOUT>
@@ -2594,6 +2656,6 @@ tmpTotal.toFixed(0)]]></Statement>
       </ExternalResources>
     </ExecutionContext>
   </Context>
-  <Started>20200918-13-13-47</Started>
-  <Ended>20200918-13-14-42</Ended>
+  <Started>20211119-14-52-26</Started>
+  <Ended>20211119-14-53-10</Ended>
 </XaUnitResult>

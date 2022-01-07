@@ -1,0 +1,21 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?totaltestVersion 20.7.1.v20210611-0414_90?>
+<!--Topaz for Total Test 20.7.1.v20210611-0414_90 Jun 29, 2021 1:59:28 PM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="CWKTCOBP/Structures/CWXTCOBP_CWXTEMP_WORK-AREA-POINTER.listructure">
+  <listructure:struct id="WORK_AREA_POINTER" name="WORK_AREA_POINTER">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">4</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">4</properties:property>
+    </properties:properties>
+    <listructure:number id="WORK_AREA_POINTER.WORK_AREA_POINTER" length="4" name="WORK_AREA_POINTER">
+      <properties:properties>
+        <properties:property name="usage" type="string">pointer</properties:property>
+        <properties:property name="displayLength" type="number">4</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">pointer</properties:property>
+        <properties:property name="storageLength" type="number">4</properties:property>
+      </properties:properties>
+    </listructure:number>
+  </listructure:struct>
+</listructure:listructure>

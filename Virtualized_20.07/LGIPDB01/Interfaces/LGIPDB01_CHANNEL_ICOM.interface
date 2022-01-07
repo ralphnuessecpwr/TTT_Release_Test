@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.7.1.v20210611-0414_90?>
+<!--Topaz for Total Test 20.7.1.v20210611-0414_90 Jun 30, 2021 8:31:04 AM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="LGIPDB01/Interfaces/LGIPDB01_CHANNEL_ICOM.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-0.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-0.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-1.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-1.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-1.listructure#CICS_GENERATED_CONSTANT_1">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-1.listructure#CICS_GENERATED_CONSTANT_1.CICS_GENERATED_CONSTANT_1">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Pointer.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Pointer.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Pointer.listructure#ICOM_Pointer">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Pointer.listructure#ICOM_Pointer.ICOM_Pointer">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Container.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Container.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Container.listructure#ICOM_Container">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Container.listructure#ICOM_Container.ICOM_Container">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Data-Length.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Data-Length.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Data-Length.listructure#ICOM_Data_Length">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Data-Length.listructure#ICOM_Data_Length.ICOM_Data_Length">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-5.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-5.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-5.listructure#CICS_GENERATED_CONSTANT_5">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-5.listructure#CICS_GENERATED_CONSTANT_5.CICS_GENERATED_CONSTANT_5">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-6.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-6.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-6.listructure#CICS_GENERATED_CONSTANT_6">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-6.listructure#CICS_GENERATED_CONSTANT_6.CICS_GENERATED_CONSTANT_6">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-7.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-7.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-7.listructure#CICS_GENERATED_CONSTANT_7">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-7.listructure#CICS_GENERATED_CONSTANT_7.CICS_GENERATED_CONSTANT_7">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-8.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-8.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-8.listructure#CICS_GENERATED_CONSTANT_8">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-8.listructure#CICS_GENERATED_CONSTANT_8.CICS_GENERATED_CONSTANT_8">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-9.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-9.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-9.listructure#CICS_GENERATED_CONSTANT_9">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-9.listructure#CICS_GENERATED_CONSTANT_9.CICS_GENERATED_CONSTANT_9">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-10.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-10.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-10.listructure#CICS_GENERATED_CONSTANT_10">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-10.listructure#CICS_GENERATED_CONSTANT_10.CICS_GENERATED_CONSTANT_10">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-11.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-11.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-11.listructure#CICS_GENERATED_CONSTANT_11">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-11.listructure#CICS_GENERATED_CONSTANT_11.CICS_GENERATED_CONSTANT_11">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-12.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-12.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-12.listructure#CICS_GENERATED_CONSTANT_12">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-12.listructure#CICS_GENERATED_CONSTANT_12.CICS_GENERATED_CONSTANT_12">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-13.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-13.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-13.listructure#CICS_GENERATED_CONSTANT_13">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-13.listructure#CICS_GENERATED_CONSTANT_13.CICS_GENERATED_CONSTANT_13">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-14.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-14.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-14.listructure#CICS_GENERATED_CONSTANT_14">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-14.listructure#CICS_GENERATED_CONSTANT_14.CICS_GENERATED_CONSTANT_14">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-15.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-15.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-15.listructure#CICS_GENERATED_CONSTANT_15">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-15.listructure#CICS_GENERATED_CONSTANT_15.CICS_GENERATED_CONSTANT_15">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-16.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-16.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-16.listructure#CICS_GENERATED_CONSTANT_16">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-16.listructure#CICS_GENERATED_CONSTANT_16.CICS_GENERATED_CONSTANT_16">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-17.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-17.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-17.listructure#CICS_GENERATED_CONSTANT_17">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-17.listructure#CICS_GENERATED_CONSTANT_17.CICS_GENERATED_CONSTANT_17">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-18.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-18.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-18.listructure#CICS_GENERATED_CONSTANT_18">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-18.listructure#CICS_GENERATED_CONSTANT_18.CICS_GENERATED_CONSTANT_18">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-19.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-19.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-19.listructure#CICS_GENERATED_CONSTANT_19">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-19.listructure#CICS_GENERATED_CONSTANT_19.CICS_GENERATED_CONSTANT_19">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-20.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-20.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-20.listructure#CICS_GENERATED_CONSTANT_20">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-20.listructure#CICS_GENERATED_CONSTANT_20.CICS_GENERATED_CONSTANT_20">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-21.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-21.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-21.listructure#CICS_GENERATED_CONSTANT_21">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-21.listructure#CICS_GENERATED_CONSTANT_21.CICS_GENERATED_CONSTANT_21">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-22.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-22.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-22.listructure#CICS_GENERATED_CONSTANT_22">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-22.listructure#CICS_GENERATED_CONSTANT_22.CICS_GENERATED_CONSTANT_22">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-23.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-23.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-23.listructure#CICS_GENERATED_CONSTANT_23">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-23.listructure#CICS_GENERATED_CONSTANT_23.CICS_GENERATED_CONSTANT_23">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-24.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-24.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-24.listructure#CICS_GENERATED_CONSTANT_24">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-24.listructure#CICS_GENERATED_CONSTANT_24.CICS_GENERATED_CONSTANT_24">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-25.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-25.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-25.listructure#CICS_GENERATED_CONSTANT_25">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-25.listructure#CICS_GENERATED_CONSTANT_25.CICS_GENERATED_CONSTANT_25">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-26.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-26.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-26.listructure#CICS_GENERATED_CONSTANT_26">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-26.listructure#CICS_GENERATED_CONSTANT_26.CICS_GENERATED_CONSTANT_26">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-27.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-27.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-27.listructure#CICS_GENERATED_CONSTANT_27">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-27.listructure#CICS_GENERATED_CONSTANT_27.CICS_GENERATED_CONSTANT_27">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-28.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-28.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-28.listructure#CICS_GENERATED_CONSTANT_28">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-28.listructure#CICS_GENERATED_CONSTANT_28.CICS_GENERATED_CONSTANT_28">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-29.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-29.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-29.listructure#CICS_GENERATED_CONSTANT_29">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-29.listructure#CICS_GENERATED_CONSTANT_29.CICS_GENERATED_CONSTANT_29">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-30.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-30.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-30.listructure#CICS_GENERATED_CONSTANT_30">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-30.listructure#CICS_GENERATED_CONSTANT_30.CICS_GENERATED_CONSTANT_30">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Channel.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Channel.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Channel.listructure#ICOM_Channel">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Channel.listructure#ICOM_Channel.ICOM_Channel">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

@@ -1,0 +1,473 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="LGIPDB01/Stubs/LGIPDB01_CHANNEL_ICOM_02.stub" nextCalltoken="1380002" stubtype="CICS" target="ICOM            " token="1380000">
+  <stub:description>Created: Jun 30, 2021 8:41:12 AM</stub:description>
+  <stub:stubdata callToken="1380001" id="0" name="EXEC CICS GET">
+    <stub:interface>../Interfaces/LGIPDB01_CHANNEL_ICOM.interface#LGIPDB01/Interfaces/LGIPDB01_CHANNEL_ICOM.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/LGIPDB01_CHANNEL_ICOM.interface#LGIPDB01/Interfaces/LGIPDB01_CHANNEL_ICOM.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-0.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">341470002721000002000000000000f0f4f2f1f2404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-1.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-1.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-1.listructure#CICS_GENERATED_CONSTANT_1" id="arg1.CICS_GENERATED_CONSTANT_1">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Pointer.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Pointer.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Pointer.listructure#ICOM_Pointer" id="arg2.ICOM_Pointer">
+        <properties:properties>
+          <properties:property name="value" type="string">00060000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Container.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Container.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Container.listructure#ICOM_Container" id="arg3.ICOM_Container">
+        <properties:properties>
+          <properties:property name="value" type="string">C9C3D6D460C481A38140404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Data-Length.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Data-Length.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Data-Length.listructure#ICOM_Data_Length" id="arg4.ICOM_Data_Length">
+        <properties:properties>
+          <properties:property name="value" type="string">00000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-5.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-5.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-5.listructure#CICS_GENERATED_CONSTANT_5" id="arg5.CICS_GENERATED_CONSTANT_5">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-6.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-6.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-6.listructure#CICS_GENERATED_CONSTANT_6" id="arg6.CICS_GENERATED_CONSTANT_6">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-7.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-7.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-7.listructure#CICS_GENERATED_CONSTANT_7" id="arg7.CICS_GENERATED_CONSTANT_7">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-8.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-8.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-8.listructure#CICS_GENERATED_CONSTANT_8" id="arg8.CICS_GENERATED_CONSTANT_8">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-9.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-9.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-9.listructure#CICS_GENERATED_CONSTANT_9" id="arg9.CICS_GENERATED_CONSTANT_9">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-10.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-10.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-10.listructure#CICS_GENERATED_CONSTANT_10" id="arg10.CICS_GENERATED_CONSTANT_10">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-11.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-11.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-11.listructure#CICS_GENERATED_CONSTANT_11" id="arg11.CICS_GENERATED_CONSTANT_11">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-12.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-12.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-12.listructure#CICS_GENERATED_CONSTANT_12" id="arg12.CICS_GENERATED_CONSTANT_12">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-13.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-13.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-13.listructure#CICS_GENERATED_CONSTANT_13" id="arg13.CICS_GENERATED_CONSTANT_13">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-14.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-14.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-14.listructure#CICS_GENERATED_CONSTANT_14" id="arg14.CICS_GENERATED_CONSTANT_14">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-15.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-15.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-15.listructure#CICS_GENERATED_CONSTANT_15" id="arg15.CICS_GENERATED_CONSTANT_15">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-16.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-16.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-16.listructure#CICS_GENERATED_CONSTANT_16" id="arg16.CICS_GENERATED_CONSTANT_16">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-17.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-17.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-17.listructure#CICS_GENERATED_CONSTANT_17" id="arg17.CICS_GENERATED_CONSTANT_17">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-18.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-18.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-18.listructure#CICS_GENERATED_CONSTANT_18" id="arg18.CICS_GENERATED_CONSTANT_18">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-19.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-19.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-19.listructure#CICS_GENERATED_CONSTANT_19" id="arg19.CICS_GENERATED_CONSTANT_19">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-20.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-20.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-20.listructure#CICS_GENERATED_CONSTANT_20" id="arg20.CICS_GENERATED_CONSTANT_20">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-21.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-21.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-21.listructure#CICS_GENERATED_CONSTANT_21" id="arg21.CICS_GENERATED_CONSTANT_21">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-22.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-22.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-22.listructure#CICS_GENERATED_CONSTANT_22" id="arg22.CICS_GENERATED_CONSTANT_22">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-23.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-23.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-23.listructure#CICS_GENERATED_CONSTANT_23" id="arg23.CICS_GENERATED_CONSTANT_23">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-24.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-24.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-24.listructure#CICS_GENERATED_CONSTANT_24" id="arg24.CICS_GENERATED_CONSTANT_24">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-25.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-25.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-25.listructure#CICS_GENERATED_CONSTANT_25" id="arg25.CICS_GENERATED_CONSTANT_25">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-26.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-26.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-26.listructure#CICS_GENERATED_CONSTANT_26" id="arg26.CICS_GENERATED_CONSTANT_26">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-27.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-27.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-27.listructure#CICS_GENERATED_CONSTANT_27" id="arg27.CICS_GENERATED_CONSTANT_27">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-28.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-28.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-28.listructure#CICS_GENERATED_CONSTANT_28" id="arg28.CICS_GENERATED_CONSTANT_28">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-29.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-29.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-29.listructure#CICS_GENERATED_CONSTANT_29" id="arg29.CICS_GENERATED_CONSTANT_29">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-30.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-30.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-30.listructure#CICS_GENERATED_CONSTANT_30" id="arg30.CICS_GENERATED_CONSTANT_30">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Channel.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Channel.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Channel.listructure#ICOM_Channel" id="arg31.ICOM_Channel">
+        <properties:properties>
+          <properties:property name="value" type="string">C9C3D6D4404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-0.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">341470002721000002000000000000f0f4f2f1f2404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-1.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-1.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-1.listructure#CICS_GENERATED_CONSTANT_1" id="arg1.CICS_GENERATED_CONSTANT_1">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Pointer.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Pointer.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Pointer.listructure#ICOM_Pointer" id="arg2.ICOM_Pointer">
+        <properties:properties>
+          <properties:property name="value" type="string">00060000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Container.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Container.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Container.listructure#ICOM_Container" id="arg3.ICOM_Container">
+        <properties:properties>
+          <properties:property name="value" type="string">C9C3D6D460C481A38140404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Data-Length.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Data-Length.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Data-Length.listructure#ICOM_Data_Length" id="arg4.ICOM_Data_Length">
+        <properties:properties>
+          <properties:property name="value" type="string">00000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-5.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-5.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-5.listructure#CICS_GENERATED_CONSTANT_5" id="arg5.CICS_GENERATED_CONSTANT_5">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-6.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-6.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-6.listructure#CICS_GENERATED_CONSTANT_6" id="arg6.CICS_GENERATED_CONSTANT_6">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-7.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-7.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-7.listructure#CICS_GENERATED_CONSTANT_7" id="arg7.CICS_GENERATED_CONSTANT_7">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-8.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-8.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-8.listructure#CICS_GENERATED_CONSTANT_8" id="arg8.CICS_GENERATED_CONSTANT_8">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-9.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-9.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-9.listructure#CICS_GENERATED_CONSTANT_9" id="arg9.CICS_GENERATED_CONSTANT_9">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-10.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-10.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-10.listructure#CICS_GENERATED_CONSTANT_10" id="arg10.CICS_GENERATED_CONSTANT_10">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-11.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-11.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-11.listructure#CICS_GENERATED_CONSTANT_11" id="arg11.CICS_GENERATED_CONSTANT_11">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-12.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-12.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-12.listructure#CICS_GENERATED_CONSTANT_12" id="arg12.CICS_GENERATED_CONSTANT_12">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-13.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-13.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-13.listructure#CICS_GENERATED_CONSTANT_13" id="arg13.CICS_GENERATED_CONSTANT_13">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-14.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-14.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-14.listructure#CICS_GENERATED_CONSTANT_14" id="arg14.CICS_GENERATED_CONSTANT_14">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-15.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-15.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-15.listructure#CICS_GENERATED_CONSTANT_15" id="arg15.CICS_GENERATED_CONSTANT_15">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-16.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-16.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-16.listructure#CICS_GENERATED_CONSTANT_16" id="arg16.CICS_GENERATED_CONSTANT_16">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-17.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-17.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-17.listructure#CICS_GENERATED_CONSTANT_17" id="arg17.CICS_GENERATED_CONSTANT_17">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-18.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-18.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-18.listructure#CICS_GENERATED_CONSTANT_18" id="arg18.CICS_GENERATED_CONSTANT_18">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-19.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-19.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-19.listructure#CICS_GENERATED_CONSTANT_19" id="arg19.CICS_GENERATED_CONSTANT_19">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-20.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-20.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-20.listructure#CICS_GENERATED_CONSTANT_20" id="arg20.CICS_GENERATED_CONSTANT_20">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-21.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-21.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-21.listructure#CICS_GENERATED_CONSTANT_21" id="arg21.CICS_GENERATED_CONSTANT_21">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-22.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-22.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-22.listructure#CICS_GENERATED_CONSTANT_22" id="arg22.CICS_GENERATED_CONSTANT_22">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-23.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-23.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-23.listructure#CICS_GENERATED_CONSTANT_23" id="arg23.CICS_GENERATED_CONSTANT_23">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-24.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-24.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-24.listructure#CICS_GENERATED_CONSTANT_24" id="arg24.CICS_GENERATED_CONSTANT_24">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-25.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-25.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-25.listructure#CICS_GENERATED_CONSTANT_25" id="arg25.CICS_GENERATED_CONSTANT_25">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-26.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-26.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-26.listructure#CICS_GENERATED_CONSTANT_26" id="arg26.CICS_GENERATED_CONSTANT_26">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-27.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-27.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-27.listructure#CICS_GENERATED_CONSTANT_27" id="arg27.CICS_GENERATED_CONSTANT_27">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-28.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-28.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-28.listructure#CICS_GENERATED_CONSTANT_28" id="arg28.CICS_GENERATED_CONSTANT_28">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-29.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-29.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-29.listructure#CICS_GENERATED_CONSTANT_29" id="arg29.CICS_GENERATED_CONSTANT_29">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-30.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-30.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_CICS-GENERATED-CONSTANT-30.listructure#CICS_GENERATED_CONSTANT_30" id="arg30.CICS_GENERATED_CONSTANT_30">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Channel.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Channel.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Channel.listructure#ICOM_Channel" id="arg31.ICOM_Channel">
+        <properties:properties>
+          <properties:property name="value" type="string">C9C3D6D4404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:statement type="EXEC CICS GET">
+      <stub:text>      *Exec Cics Get Container(ICOM-Container)
+      *              Channel(ICOM-Channel)
+      *              Flength(ICOM-Data-Length)
+      *              Set(ICOM-Pointer)
+      *              Resp(WS-RESP)
+      *End-Exec.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_dfheiblk.listructure#LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_dfheiblk.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+        <properties:properties>
+          <properties:property name="value" type="string">0023840C0121181FE2E2D7F10001446CC3F9F4F30000020B7D007D34140000007A000000000000000000000000000000000000404040404040404000000000000000000000000000000000000000007A0000000200</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+</stub:stub>

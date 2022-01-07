@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.7.1.v20210611-0414_90?>
+<!--Topaz for Total Test 20.7.1.v20210611-0414_90 Jun 30, 2021 8:34:25 AM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-BROKERSREF.listructure">
+  <listructure:struct id="DB2_BROKERSREF" name="DB2_BROKERSREF">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">10</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">10</properties:property>
+    </properties:properties>
+    <listructure:string id="DB2_BROKERSREF.DB2_BROKERSREF" length="10" name="DB2_BROKERSREF">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(10)</properties:property>
+        <properties:property name="displayLength" type="number">10</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(10)</properties:property>
+        <properties:property name="storageLength" type="number">10</properties:property>
+        <properties:property name="sqltype" type="number">453</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>

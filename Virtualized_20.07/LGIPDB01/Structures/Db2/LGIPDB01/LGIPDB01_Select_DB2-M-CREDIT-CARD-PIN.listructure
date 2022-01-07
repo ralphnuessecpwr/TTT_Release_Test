@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.7.1.v20210611-0414_90?>
+<!--Topaz for Total Test 20.7.1.v20210611-0414_90 Jun 30, 2021 8:34:25 AM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CREDIT-CARD-PIN.listructure">
+  <listructure:struct id="DB2_M_CREDIT_CARD_PIN" name="DB2_M_CREDIT_CARD_PIN">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">4</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">4</properties:property>
+    </properties:properties>
+    <listructure:string id="DB2_M_CREDIT_CARD_PIN.DB2_M_CREDIT_CARD_PIN" length="4" name="DB2_M_CREDIT_CARD_PIN">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(4)</properties:property>
+        <properties:property name="displayLength" type="number">4</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(4)</properties:property>
+        <properties:property name="storageLength" type="number">4</properties:property>
+        <properties:property name="sqltype" type="number">452</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>

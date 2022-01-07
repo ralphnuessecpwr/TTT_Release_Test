@@ -1,0 +1,152 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="LGACDB01/Stubs/LGACDB01_SUBP_LGSTSQ_01.stub" nextCalltoken="1240003" stubtype="CICS" target="LGSTSQ  " token="1240000">
+  <stub:description>Created: Jun 30, 2021 8:17:40 AM</stub:description>
+  <stub:stubdata callToken="1240001" id="0" name="EXEC CICS LINK">
+    <stub:interface>../Interfaces/LGACDB01_SUBP_LGSTSQ.interface#LGACDB01/Interfaces/LGACDB01_SUBP_LGSTSQ.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/LGACDB01_SUBP_LGSTSQ.interface#LGACDB01/Interfaces/LGACDB01_SUBP_LGSTSQ.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_CICS-GENERATED-CONSTANT-0.listructure#LGACDB01/Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0e02e0000700000100f0f0f9f9f1404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_dfhc0080.listructure#LGACDB01/Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_dfhc0080.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_dfhc0080.listructure#dfhc0080" id="arg1.dfhc0080">
+        <properties:properties>
+          <properties:property name="value" type="string">D3C7E2E3E2D84040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_ERROR-MSG.listructure#LGACDB01/Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_ERROR-MSG.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_ERROR-MSG.listructure#ERROR_MSG" id="arg2.ERROR_MSG">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F6F3F0F2F0F2F140F0F2F1F7F3F740D3C7C1C3C4C2F0F140C3D5E4D47E4040404040404040404040D7D5E4D47E4040404040404040404040C9D5E2C5D9E340C3E4E2E3D6D4C5D940E2D8D3C3D6C4C57E60F0F0F8F0F3</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_dfhb0020.listructure#LGACDB01/Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_dfhb0020.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_dfhb0020.listructure#dfhb0020" id="arg3.dfhb0020">
+        <properties:properties>
+          <properties:property name="value" type="string">0057</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_CICS-GENERATED-CONSTANT-0.listructure#LGACDB01/Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0e02e0000700000100f0f0f9f9f1404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_dfhc0080.listructure#LGACDB01/Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_dfhc0080.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_dfhc0080.listructure#dfhc0080" id="arg1.dfhc0080">
+        <properties:properties>
+          <properties:property name="value" type="string">D3C7E2E3E2D84040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_ERROR-MSG.listructure#LGACDB01/Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_ERROR-MSG.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_ERROR-MSG.listructure#ERROR_MSG" id="arg2.ERROR_MSG">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F6F3F0F2F0F2F140F0F2F1F7F3F740D3C7C1C3C4C2F0F140C3D5E4D47E4040404040404040404040D7D5E4D47E4040404040404040404040C9D5E2C5D9E340C3E4E2E3D6D4C5D940E2D8D3C3D6C4C57E60F0F0F8F0F3</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_dfhb0020.listructure#LGACDB01/Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_dfhb0020.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_dfhb0020.listructure#dfhb0020" id="arg3.dfhb0020">
+        <properties:properties>
+          <properties:property name="value" type="string">0057</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:statement type="EXEC CICS LINK">
+      <stub:text>      *EXEC CICS LINK PROGRAM('LGSTSQ')
+      *          COMMAREA(ERROR-MSG)
+      *          LENGTH(LENGTH OF ERROR-MSG)
+      *END-EXEC.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_dfheiblk.listructure#LGACDB01/Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_dfheiblk.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+        <properties:properties>
+          <properties:property name="value" type="string">0021737F0121181FE2E2C3F10001413CC3F9F4F3000006227EF47D0E080000000000000000000000000000000000000000000040404040404040400000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+  <stub:stubdata callToken="1240002" id="1" name="EXEC CICS LINK">
+    <stub:interface>../Interfaces/LGACDB01_SUBP_LGSTSQ1.interface#LGACDB01/Interfaces/LGACDB01_SUBP_LGSTSQ1.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/LGACDB01_SUBP_LGSTSQ1.interface#LGACDB01/Interfaces/LGACDB01_SUBP_LGSTSQ1.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_CICS-GENERATED-CONSTANT-0.listructure#LGACDB01/Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0e02e0000700000100f0f1f0f0f5404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_dfhc0080.listructure#LGACDB01/Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_dfhc0080.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_dfhc0080.listructure#dfhc0080" id="arg1.dfhc0080">
+        <properties:properties>
+          <properties:property name="value" type="string">D3C7E2E3E2D84040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_CA-ERROR-MSG.listructure#LGACDB01/Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_CA-ERROR-MSG.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_CA-ERROR-MSG.listructure#CA_ERROR_MSG" id="arg2.CA_ERROR_MSG">
+        <properties:properties>
+          <properties:property name="value" type="string">C3D6D4D4C1D9C5C17EF0F1C1C3E4E2F9F0F0F0F0F0F0F0F0F0F0F0D9C1D3D7C84040404040D5E4C5E2E2C54040404040404040404040404040F1F9F7F060F0F260F0F10720404040404040404039C2AFB039C2B238BA0B1DBC3A20F1F2F3F4F5F6F840</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_dfhb0020.listructure#LGACDB01/Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_dfhb0020.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_dfhb0020.listructure#dfhb0020" id="arg3.dfhb0020">
+        <properties:properties>
+          <properties:property name="value" type="string">0063</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_CICS-GENERATED-CONSTANT-0.listructure#LGACDB01/Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0e02e0000700000100f0f1f0f0f5404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_dfhc0080.listructure#LGACDB01/Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_dfhc0080.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_dfhc0080.listructure#dfhc0080" id="arg1.dfhc0080">
+        <properties:properties>
+          <properties:property name="value" type="string">D3C7E2E3E2D84040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_CA-ERROR-MSG.listructure#LGACDB01/Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_CA-ERROR-MSG.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_CA-ERROR-MSG.listructure#CA_ERROR_MSG" id="arg2.CA_ERROR_MSG">
+        <properties:properties>
+          <properties:property name="value" type="string">C3D6D4D4C1D9C5C17EF0F1C1C3E4E2F9F0F0F0F0F0F0F0F0F0F0F0D9C1D3D7C84040404040D5E4C5E2E2C54040404040404040404040404040F1F9F7F060F0F260F0F10720404040404040404039C2AFB039C2B238BA0B1DBC3A20F1F2F3F4F5F6F840</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_dfhb0020.listructure#LGACDB01/Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_dfhb0020.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_dfhb0020.listructure#dfhb0020" id="arg3.dfhb0020">
+        <properties:properties>
+          <properties:property name="value" type="string">0063</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:statement type="EXEC CICS LINK">
+      <stub:text>      *EXEC CICS LINK PROGRAM('LGSTSQ')
+      *          COMMAREA(CA-ERROR-MSG)
+      *          LENGTH(LENGTH OF CA-ERROR-MSG)
+      *END-EXEC
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_dfheiblk.listructure#LGACDB01/Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_dfheiblk.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+        <properties:properties>
+          <properties:property name="value" type="string">0021737F0121181FE2E2C3F10001413CC3F9F4F3000006227EF47D0E080000000000000000000000000000000000000000000040404040404040400000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+</stub:stub>

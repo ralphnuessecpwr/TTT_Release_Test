@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.7.1.v20210611-0414_90?>
+<!--Topaz for Total Test 20.7.1.v20210611-0414_90 Jun 30, 2021 8:17:42 AM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="LGACDB01/Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_CA-ERROR-MSG.listructure">
+  <listructure:struct id="CA_ERROR_MSG" name="CA_ERROR_MSG">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">99</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">99</properties:property>
+    </properties:properties>
+    <listructure:string id="CA_ERROR_MSG.FILLER0" initial="&quot;COMMAREA=&quot;" length="9" name="FILLER0">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="picture" type="string">X(9)</properties:property>
+        <properties:property name="value">&quot;COMMAREA=&quot;</properties:property>
+        <properties:property name="displayLength" type="number">9</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(9)</properties:property>
+        <properties:property name="storageLength" type="number">9</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="CA_ERROR_MSG.CA_DATA" initial="                                                                                          " length="90" name="CA_DATA">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(90)</properties:property>
+        <properties:property name="value">spaces</properties:property>
+        <properties:property name="displayLength" type="number">90</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(90)</properties:property>
+        <properties:property name="storageLength" type="number">90</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>

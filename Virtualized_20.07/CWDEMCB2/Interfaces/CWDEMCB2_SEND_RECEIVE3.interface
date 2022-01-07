@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.7.1.v20210611-0414_90?>
+<!--Topaz for Total Test 20.7.1.v20210611-0414_90 Jun 29, 2021 3:19:02 PM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="CWDEMCB2/Interfaces/CWDEMCB2_SEND_RECEIVE3.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CWDEMCB2/Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_CICS-GENERATED-CONSTANT-1.listructure#CWDEMCB2/Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_CICS-GENERATED-CONSTANT-1.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_CICS-GENERATED-CONSTANT-1.listructure#CICS_GENERATED_CONSTANT_1">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_CICS-GENERATED-CONSTANT-1.listructure#CICS_GENERATED_CONSTANT_1.CICS_GENERATED_CONSTANT_1">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_CICS-GENERATED-CONSTANT-2.listructure#CWDEMCB2/Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_CICS-GENERATED-CONSTANT-2.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_CICS-GENERATED-CONSTANT-2.listructure#CICS_GENERATED_CONSTANT_2">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_CICS-GENERATED-CONSTANT-2.listructure#CICS_GENERATED_CONSTANT_2.CICS_GENERATED_CONSTANT_2">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#CWDEMCB2/Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE1">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE1.FILLER0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE1.FILLER1">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE1.PAYSID2">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE2">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE2.FILLER2">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE2.FILLER3">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE3">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE3.FILLER4">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE4">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE4.FILLER5">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE4.EMPNUMB">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE4.FILLER6">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE5">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE5.FILLER7">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE5.EMPNAME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE5.FILLER8">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE6">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE6.FILLER9">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE6.HRSWRKD">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE6.FILLER10">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE7">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE7.FILLER11">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE7.HRLYRAT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE7.FILLER12">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE8">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE8.FILLER13">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE8.GROSPAY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE8.FILLER14">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE9">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE9.FILLER15">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE10">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE10.PAYMSG">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2.listructure#PAYMAP2.MAP2_LINE10.FILLER16">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2-LEN.listructure#CWDEMCB2/Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2-LEN.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2-LEN.listructure#PAYMAP2_LEN">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/CWDEMCB2_SEND_RECEIVE/CWDEMCB2_SEND_RECEIVE_PAYMAP2-LEN.listructure#PAYMAP2_LEN.PAYMAP2_LEN">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

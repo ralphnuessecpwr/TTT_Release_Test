@@ -1,0 +1,87 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="LGIPDB01/Stubs/LGIPDB01_Select_3_SQL_01.stub" nextCalltoken="1350003" stubtype="SQL" target="Select" token="1350000">
+  <stub:description>Created: Jun 30, 2021 8:34:23 AM</stub:description>
+  <stub:stubdata id="0" name="Select">
+    <stub:interface>../Interfaces/LGIPDB01_Select_3_in_DB2_POLICYNUMBER_BIGINT.interface#LGIPDB01/Interfaces/LGIPDB01_Select_3_in_DB2_POLICYNUMBER_BIGINT.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-POLICYNUMBER-BIGINT.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-POLICYNUMBER-BIGINT.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-POLICYNUMBER-BIGINT.listructure#DB2_POLICYNUMBER_BIGINT" id="arg0.DB2_POLICYNUMBER_BIGINT">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlResults>
+      <stub:result id="1" name="Select">
+        <stub:interface>../Interfaces/LGIPDB01_Select_3_out_DB2_POLICYTYPE_CHAR.interface#LGIPDB01/Interfaces/LGIPDB01_Select_3_out_DB2_POLICYTYPE_CHAR.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-POLICYNUMBER-BIGINT.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-POLICYNUMBER-BIGINT.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-POLICYNUMBER-BIGINT.listructure#DB2_POLICYNUMBER_BIGINT" id="arg0.DB2_POLICYNUMBER_BIGINT">
+            <properties:properties>
+              <properties:property name="value" type="string">00000000000F4242</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-CUSTOMERNUMBER-BIGINT.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-CUSTOMERNUMBER-BIGINT.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-CUSTOMERNUMBER-BIGINT.listructure#DB2_CUSTOMERNUMBER_BIGINT" id="arg1.DB2_CUSTOMERNUMBER_BIGINT">
+            <properties:properties>
+              <properties:property name="value" type="string">0000000000000001</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-POLICYTYPE-CHAR.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-POLICYTYPE-CHAR.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-POLICYTYPE-CHAR.listructure#DB2_POLICYTYPE_CHAR" id="arg2.DB2_POLICYTYPE_CHAR">
+            <properties:properties>
+              <properties:property name="value" type="string">D4</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="Select">
+            <stub:text>      *****    EXEC SQL
+      *****      SELECT POLICYNUMBER, CUSTOMERNUMBER, CHAR(POLICYTYPE)
+      *****      INTO  :DB2-POLICYNUMBER-BIGINT,
+      *****            :DB2-CUSTOMERNUMBER-BIGINT,
+      *****            :DB2-POLICYTYPE-CHAR
+      *****      FROM  POLICY
+      *****      WHERE (POLICYNUMBER > :DB2-POLICYNUMBER-BIGINT)
+      *****      ORDER BY POLICYNUMBER FETCH FIRST 1 ROWS ONLY
+      *****    END-EXEC
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00404400001E4C474950444230311AFC49290640E1F8001439C53D9039C54DA839C54DE404B800E7000005320000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C1404008000000940003000301EC000839C4B33839C53EC8000040404040404040404040404040404040404040404040404040404040404001EC000839C4B32039C53EC8000040404040404040404040404040404040404040404040404040404040404001C4000139C4B3B839C53EC80000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+            <stub:varRawData>E2D8D3C4C14040080000003C0001000101EC000839C4B33839C53EC80000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="1350002">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+    </stub:sqlResults>
+    <stub:sqlStatus>
+      <stub:statement type="Select">
+        <stub:text>      *****    EXEC SQL
+      *****      SELECT POLICYNUMBER, CUSTOMERNUMBER, CHAR(POLICYTYPE)
+      *****      INTO  :DB2-POLICYNUMBER-BIGINT,
+      *****            :DB2-CUSTOMERNUMBER-BIGINT,
+      *****            :DB2-POLICYTYPE-CHAR
+      *****      FROM  POLICY
+      *****      WHERE (POLICYNUMBER > :DB2-POLICYNUMBER-BIGINT)
+      *****      ORDER BY POLICYNUMBER FETCH FIRST 1 ROWS ONLY
+      *****    END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404400001E4C474950444230311AFC49290640E1F8001439C53D9039C54DA839C54DE404B800E7000005320000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C1404008000000940003000301EC000839C4B33839C53EC8000040404040404040404040404040404040404040404040404040404040404001EC000839C4B32039C53EC8000040404040404040404040404040404040404040404040404040404040404001C4000139C4B3B839C53EC80000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+        <stub:varRawData>E2D8D3C4C14040080000003C0001000101EC000839C4B33839C53EC80000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="1350001">
+        <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:database version="1215"/>
+</stub:stub>

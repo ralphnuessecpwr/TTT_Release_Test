@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.7.1.v20210611-0414_90?>
+<!--Topaz for Total Test 20.7.1.v20210611-0414_90 Jun 29, 2021 10:35:30 AM-->
+<testsuite:testsuite xmlns:testsuite="http://www.compuware.com/model/xml/testsuite" id="LGICDB01/Suites/LGICDB01.testsuite">
+  <testsuite:testscenario>../Scenarios/LGICDB01_Scenario1.testscenario#LGICDB01/Scenarios/LGICDB01_Scenario1.testscenario</testsuite:testscenario>
+  <testsuite:testscenario>../Scenarios/LGICDB01_Scenario2.testscenario#LGICDB01/Scenarios/LGICDB01_Scenario2.testscenario</testsuite:testscenario>
+</testsuite:testsuite>

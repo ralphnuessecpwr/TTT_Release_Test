@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5f6457ad31d7ab4e8cb59b9d" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="CCEXPEDITER" jobInfoInterval="3" ccrepository="HDDRXM0.DEMO.COCO.REPOS" ccsystem="2020JULY_TTT_FT" cctestid="CWXTCOB" ccreset="false">
-  <ExtensionData />
-  <ExtensionData componentName="cwxtcob" componentId="5f6491b331d7ab4e8cb59bc1" />
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5b508b8a787be73b59238d38" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="CCEXPEDITER" jobInfoInterval="3" ccrepository="HDDRXM0.DEMO.COCO.REPOS" ccsystem="TTT_FT_COCO" cctestid="CWXTCOB_FT" ccreset="true" ccshow="true">
+  <ExtensionData>
+    <Parameter key="nvt_ispw_app">
+      <Value>GITE</Value>
+    </Parameter>
+    <Parameter key="nvt_ispw_level4">
+      <Value>PROD</Value>
+    </Parameter>
+    <Parameter key="nvt_ispw_level3">
+      <Value>DEVL</Value>
+    </Parameter>
+    <Parameter key="nvt_ispw_level2">
+      <Value>FT1</Value>
+    </Parameter>
+    <Parameter key="nvt_ispw_level1">
+      <Value>UT1</Value>
+    </Parameter>
+  </ExtensionData>
+  <ExtensionData componentName="cwxtcob" componentId="5d5fea81180742000cf98888" />
   <XaUnit path="CWXTCOB_Standard.xaunit" />
 </ExecutionContext>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.7.1.v20210611-0414_90?>
+<!--Topaz for Total Test 20.7.1.v20210611-0414_90 Jun 30, 2021 8:17:40 AM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="LGACDB01/Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_ERROR-MSG.listructure">
+  <listructure:struct id="ERROR_MSG" name="ERROR_MSG">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">87</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">87</properties:property>
+    </properties:properties>
+    <listructure:string id="ERROR_MSG.EM_DATE" initial="        " length="8" name="EM_DATE">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(8)</properties:property>
+        <properties:property name="value">spaces</properties:property>
+        <properties:property name="displayLength" type="number">8</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(8)</properties:property>
+        <properties:property name="storageLength" type="number">8</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="ERROR_MSG.FILLER0" initial=" " length="1" name="FILLER0">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="picture" type="string">X</properties:property>
+        <properties:property name="value">spaces</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="ERROR_MSG.EM_TIME" initial="      " length="6" name="EM_TIME">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(6)</properties:property>
+        <properties:property name="value">spaces</properties:property>
+        <properties:property name="displayLength" type="number">6</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(6)</properties:property>
+        <properties:property name="storageLength" type="number">6</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="ERROR_MSG.FILLER1" initial="&quot; LGACDB01&quot;" length="9" name="FILLER1">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="picture" type="string">X(9)</properties:property>
+        <properties:property name="value">&quot; LGACDB01&quot;</properties:property>
+        <properties:property name="displayLength" type="number">9</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(9)</properties:property>
+        <properties:property name="storageLength" type="number">9</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:struct id="ERROR_MSG.EM_VARIABLE" name="EM_VARIABLE">
+      <properties:properties>
+        <properties:property name="displayLength" type="number">63</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">63</properties:property>
+      </properties:properties>
+      <listructure:string id="ERROR_MSG.EM_VARIABLE.FILLER2" initial="&quot; CNUM=&quot;" length="6" name="FILLER2">
+        <properties:properties>
+          <properties:property name="filler" type="boolean">true</properties:property>
+          <properties:property name="picture" type="string">X(6)</properties:property>
+          <properties:property name="value">&quot; CNUM=&quot;</properties:property>
+          <properties:property name="displayLength" type="number">6</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(6)</properties:property>
+          <properties:property name="storageLength" type="number">6</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="ERROR_MSG.EM_VARIABLE.EM_CUSNUM" initial="          " length="10" name="EM_CUSNUM">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(10)</properties:property>
+          <properties:property name="value">spaces</properties:property>
+          <properties:property name="displayLength" type="number">10</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(10)</properties:property>
+          <properties:property name="storageLength" type="number">10</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="ERROR_MSG.EM_VARIABLE.FILLER3" initial="&quot; PNUM=&quot;" length="6" name="FILLER3">
+        <properties:properties>
+          <properties:property name="filler" type="boolean">true</properties:property>
+          <properties:property name="picture" type="string">X(6)</properties:property>
+          <properties:property name="value">&quot; PNUM=&quot;</properties:property>
+          <properties:property name="displayLength" type="number">6</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(6)</properties:property>
+          <properties:property name="storageLength" type="number">6</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="ERROR_MSG.EM_VARIABLE.EM_POLNUM" initial="          " length="10" name="EM_POLNUM">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(10)</properties:property>
+          <properties:property name="value">spaces</properties:property>
+          <properties:property name="displayLength" type="number">10</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(10)</properties:property>
+          <properties:property name="storageLength" type="number">10</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="ERROR_MSG.EM_VARIABLE.EM_SQLREQ" initial="                " length="16" name="EM_SQLREQ">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(16)</properties:property>
+          <properties:property name="value">spaces</properties:property>
+          <properties:property name="displayLength" type="number">16</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(16)</properties:property>
+          <properties:property name="storageLength" type="number">16</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="ERROR_MSG.EM_VARIABLE.FILLER4" initial="&quot; SQLCODE=&quot;" length="9" name="FILLER4">
+        <properties:properties>
+          <properties:property name="filler" type="boolean">true</properties:property>
+          <properties:property name="picture" type="string">X(9)</properties:property>
+          <properties:property name="value">&quot; SQLCODE=&quot;</properties:property>
+          <properties:property name="displayLength" type="number">9</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(9)</properties:property>
+          <properties:property name="storageLength" type="number">9</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:number id="ERROR_MSG.EM_VARIABLE.EM_SQLRC" length="6" name="EM_SQLRC">
+        <properties:properties>
+          <properties:property name="picture" type="string">+9(5)</properties:property>
+          <properties:property name="usage" type="string">display</properties:property>
+          <properties:property name="displayLength" type="number">6</properties:property>
+          <properties:property name="edittedNumeric" type="boolean">true</properties:property>
+          <properties:property name="integerDigits" type="number">5</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">edited-numeric</properties:property>
+          <properties:property name="mask" type="string">+9(5)</properties:property>
+          <properties:property name="storageLength" type="number">6</properties:property>
+        </properties:properties>
+      </listructure:number>
+    </listructure:struct>
+  </listructure:struct>
+</listructure:listructure>

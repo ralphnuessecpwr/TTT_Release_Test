@@ -1,0 +1,22 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?totaltestVersion 20.3.1.v20200629-0403_106?>
+<!--Topaz for Total Test 20.3.1.v20200629-0403_106 Jul 7, 2020 10:59:19 AM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="CWDEMCB2/Structures/CWDEMCB2_CWCDSUBA_CWCDWRKA.listructure">
+  <listructure:struct id="CWCDWRKA" name="CWCDWRKA">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">256</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">256</properties:property>
+    </properties:properties>
+    <listructure:string id="CWCDWRKA.CWCDWRKA" length="256" name="CWCDWRKA">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(256)</properties:property>
+        <properties:property name="displayLength" type="number">256</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(256)</properties:property>
+        <properties:property name="storageLength" type="number">256</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>

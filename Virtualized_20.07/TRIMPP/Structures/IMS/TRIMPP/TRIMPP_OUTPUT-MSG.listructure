@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.7.1.v20210611-0414_90?>
+<!--Topaz for Total Test 20.7.1.v20210611-0414_90 Jul 1, 2021 8:34:59 AM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="TRIMPP/Structures/IMS/TRIMPP/TRIMPP_OUTPUT-MSG.listructure">
+  <listructure:struct id="OUTPUT_MSG" name="OUTPUT_MSG">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">44</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">44</properties:property>
+    </properties:properties>
+    <listructure:number id="OUTPUT_MSG.OUT_LL" initial="+256" length="4" name="OUT_LL">
+      <properties:properties>
+        <properties:property name="picture" type="string">S9(4)</properties:property>
+        <properties:property name="usage" type="string">computational</properties:property>
+        <properties:property name="signed" type="boolean">true</properties:property>
+        <properties:property name="value">+256</properties:property>
+        <properties:property name="displayLength" type="number">4</properties:property>
+        <properties:property name="integerDigits" type="number">4</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">binary</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:number id="OUTPUT_MSG.OUT_ZZ" initial="+0" length="4" name="OUT_ZZ">
+      <properties:properties>
+        <properties:property name="picture" type="string">S9(4)</properties:property>
+        <properties:property name="usage" type="string">computational</properties:property>
+        <properties:property name="signed" type="boolean">true</properties:property>
+        <properties:property name="value">+0</properties:property>
+        <properties:property name="displayLength" type="number">4</properties:property>
+        <properties:property name="integerDigits" type="number">4</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">binary</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:string id="OUTPUT_MSG.OUT_TC" length="8" name="OUT_TC">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(8)</properties:property>
+        <properties:property name="displayLength" type="number">8</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(8)</properties:property>
+        <properties:property name="storageLength" type="number">8</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:struct id="OUTPUT_MSG.OUT_DATA" name="OUT_DATA">
+      <properties:properties>
+        <properties:property name="displayLength" type="number">3</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">3</properties:property>
+      </properties:properties>
+      <listructure:string id="OUTPUT_MSG.OUT_DATA.OUT_SIDEA" length="1" name="OUT_SIDEA">
+        <properties:properties>
+          <properties:property name="picture" type="string">X</properties:property>
+          <properties:property name="displayLength" type="number">1</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X</properties:property>
+          <properties:property name="storageLength" type="number">1</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="OUTPUT_MSG.OUT_DATA.OUT_SIDEB" length="1" name="OUT_SIDEB">
+        <properties:properties>
+          <properties:property name="picture" type="string">X</properties:property>
+          <properties:property name="displayLength" type="number">1</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X</properties:property>
+          <properties:property name="storageLength" type="number">1</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="OUTPUT_MSG.OUT_DATA.OUT_SIDEC" length="1" name="OUT_SIDEC">
+        <properties:properties>
+          <properties:property name="picture" type="string">X</properties:property>
+          <properties:property name="displayLength" type="number">1</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X</properties:property>
+          <properties:property name="storageLength" type="number">1</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+    <listructure:string id="OUTPUT_MSG.OUT_TYPE" length="21" name="OUT_TYPE">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(21)</properties:property>
+        <properties:property name="displayLength" type="number">21</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(21)</properties:property>
+        <properties:property name="storageLength" type="number">21</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:struct id="OUTPUT_MSG.OUT_ERROR" name="OUT_ERROR">
+      <properties:properties>
+        <properties:property name="displayLength" type="number">8</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">8</properties:property>
+      </properties:properties>
+      <listructure:string id="OUTPUT_MSG.OUT_ERROR.ERR_PCB" length="5" name="ERR_PCB">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(5)</properties:property>
+          <properties:property name="displayLength" type="number">5</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(5)</properties:property>
+          <properties:property name="storageLength" type="number">5</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="OUTPUT_MSG.OUT_ERROR.FILLER0" initial="&quot; &quot;" length="1" name="FILLER0">
+        <properties:properties>
+          <properties:property name="filler" type="boolean">true</properties:property>
+          <properties:property name="picture" type="string">X</properties:property>
+          <properties:property name="value">&quot; &quot;</properties:property>
+          <properties:property name="displayLength" type="number">1</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X</properties:property>
+          <properties:property name="storageLength" type="number">1</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="OUTPUT_MSG.OUT_ERROR.ERR_STCODE" length="2" name="ERR_STCODE">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(2)</properties:property>
+          <properties:property name="displayLength" type="number">2</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(2)</properties:property>
+          <properties:property name="storageLength" type="number">2</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+  </listructure:struct>
+</listructure:listructure>

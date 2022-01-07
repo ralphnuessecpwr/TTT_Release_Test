@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.7.1.v20210611-0414_90?>
+<!--Topaz for Total Test 20.7.1.v20210611-0414_90 Jun 30, 2021 8:17:17 AM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="LGACDB01/Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_LastCustNum.listructure">
+  <listructure:struct id="LastCustNum" name="LastCustNum">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">4</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">4</properties:property>
+    </properties:properties>
+    <listructure:number id="LastCustNum.LastCustNum" length="8" name="LastCustNum">
+      <properties:properties>
+        <properties:property name="picture" type="string">S9(8)</properties:property>
+        <properties:property name="usage" type="string">computational</properties:property>
+        <properties:property name="signed" type="boolean">true</properties:property>
+        <properties:property name="displayLength" type="number">8</properties:property>
+        <properties:property name="integerDigits" type="number">8</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">binary</properties:property>
+        <properties:property name="storageLength" type="number">4</properties:property>
+      </properties:properties>
+    </listructure:number>
+  </listructure:struct>
+</listructure:listructure>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.7.1.v20210611-0414_90?>
+<!--Topaz for Total Test 20.7.1.v20210611-0414_90 Jun 30, 2021 8:47:45 AM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="LGIPOL01/Structures/CICS/LGIPOL01_SUBP_LGIPDB01/LGIPOL01_SUBP_LGIPDB01_LGIPDB01.listructure">
+  <listructure:struct id="LGIPDB01" name="LGIPDB01">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">8</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">8</properties:property>
+    </properties:properties>
+    <listructure:string id="LGIPDB01.LGIPDB01" initial="&quot;LGIPDB01&quot;" length="8" name="LGIPDB01">
+      <properties:properties>
+        <properties:property name="picture" type="string">x(8)</properties:property>
+        <properties:property name="value">&quot;LGIPDB01&quot;</properties:property>
+        <properties:property name="displayLength" type="number">8</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">x(8)</properties:property>
+        <properties:property name="storageLength" type="number">8</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="192.168.96.130:16196" logLevel="VERBOSE_E" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="CCEXPEDITER" jobInfoInterval="3" ccrepository="HDDRXM0.RT.COCO.REPOS" ccsystem="RT_JUL2021" cctestid="TTT" ccprogramtype="TOTALTEST - TTTRUNNR" ccreset="false" ccshow="false">
+  <ExtensionData>
+    <Parameter key="unittest.loadlibraries">
+      <Value>HDDRXM0.RT.LOAD.PDSE</Value>
+    </Parameter>
+  </ExtensionData>
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWXTEMP" caseInsensitiveCompare="false" path="CWXTEMP_Scenario.context">
+    <Test>
+      <Unittest testscenariopath="CWXTEMP_Scenario.testscenario" moduleName="CWXTEMP" />
+    </Test>
+  </XaUnit>
+</ExecutionContext>

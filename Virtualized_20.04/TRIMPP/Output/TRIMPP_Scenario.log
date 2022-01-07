@@ -1,0 +1,42 @@
+14:56:25.658 INFO      TOPAZ            ***************************************
+14:56:25.659 INFO      TOPAZ            ** Execution from Topaz with options **
+14:56:25.659 INFO      TOPAZ            ***************************************
+14:56:25.659 INFO      TOPAZ            Using repository: true
+14:56:25.660 INFO      TOPAZ            Repository URL: http://cwcc.nasa.cpwr.corp:2020/totaltestapi/
+14:56:25.660 INFO      TOPAZ            ***************************************
+14:56:25.661 INFO      Engine           Test Scenario execution started
+14:56:25.661 INFO      Engine           Using context settings:
+  Engine Version                : 20.7
+  Environment id                : 192.168.96.130:16196
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : 192.168.96.130
+  Server port                   : 16196
+  Job execution timeout seconds : 300
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+  Use Repository Server         : true
+14:56:25.661 INFO      Engine           Setting variables from context and context data extensions
+14:56:25.661 INFO      Engine             id: environmentId      value: 192.168.96.130:16196
+14:56:25.661 INFO      Engine             id: environmentType    value: BATCH
+14:56:25.661 INFO      Engine             id: userId             value: HDDRXM0
+14:56:25.661 INFO      Engine             id: accountingInfo     value: 
+14:56:25.661 INFO      Unittest         Interpreting Unittest of module: TRIMPP testscenario path: TRIMPP_Scenario.testscenario
+14:56:25.669 INFO      Unittest         Using JCL skeleton to submit JCL
+14:56:30.843 INFO      CWCC             Sending Job execution request to Host 
+14:57:39.007 INFO      CWCC             Job execution completed with status:
+  Job status     : ABEND
+  Job status msg : Job HDDRXM0T(J0164150) ended with ABEND code: S322
+  Job name       : HDDRXM0T
+  Job id         : J0164150
+  Return code    : 
+  Abend code     : S322
+  Abend reason   : U0000
+14:57:40.915 ERROR     Unittest         Unable to process TTTRunner output for the component 'TRIMPP'. Reason: com.compuware.unittest.eclipse.common.TotalTestException: Project C:\Users\rnuesse\git\TTT_Release_Test\Virtualized\TRIMPP requires an upgrade, but does not contain the required resources for the upgrade.com.compuware.unittest.eclipse.common.TotalTestException: Project C:\Users\rnuesse\git\TTT_Release_Test\Virtualized\TRIMPP requires an upgrade, but does not contain the required resources for the upgrade.com.compuware.unittest.cli.common.TotalTestCLIException: com.compuware.unittest.eclipse.common.TotalTestException: Project C:\Users\rnuesse\git\TTT_Release_Test\Virtualized\TRIMPP requires an upgrade, but does not contain the required resources for the upgrade.
+14:57:40.916 ERROR     Engine           Unable to process TTTRunner output for the component 'TRIMPP'. Reason: com.compuware.unittest.eclipse.common.TotalTestException: Project C:\Users\rnuesse\git\TTT_Release_Test\Virtualized\TRIMPP requires an upgrade, but does not contain the required resources for the upgrade.
+14:57:40.916 ERROR     Engine           An error occurred. Now stopping the execution.
+14:57:40.917 INFO      Engine           Test Scenario execution ended

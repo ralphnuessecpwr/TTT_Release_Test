@@ -1,0 +1,340 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="LGIPDB01/Stubs/LGIPDB01_Select_4_SQL_01.stub" nextCalltoken="1360003" stubtype="SQL" target="Select" token="1360000">
+  <stub:description>Created: Jun 30, 2021 8:34:25 AM</stub:description>
+  <stub:stubdata id="0" name="Select">
+    <stub:interface>../Interfaces/LGIPDB01_Select_4_in_DB2_POLICYNUMBER_BIGINT.interface#LGIPDB01/Interfaces/LGIPDB01_Select_4_in_DB2_POLICYNUMBER_BIGINT.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-CUSTOMERNUMBER-BIGINT.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-CUSTOMERNUMBER-BIGINT.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-CUSTOMERNUMBER-BIGINT.listructure#DB2_CUSTOMERNUMBER_BIGINT" id="arg0.DB2_CUSTOMERNUMBER_BIGINT">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000000000001</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-POLICYNUMBER-BIGINT.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-POLICYNUMBER-BIGINT.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-POLICYNUMBER-BIGINT.listructure#DB2_POLICYNUMBER_BIGINT" id="arg1.DB2_POLICYNUMBER_BIGINT">
+        <properties:properties>
+          <properties:property name="value" type="string">00000000000F4242</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlResults>
+      <stub:result id="1" name="Select">
+        <stub:interface>../Interfaces/LGIPDB01_Select_4_out_DB2_M_CARD_VAL.interface#LGIPDB01/Interfaces/LGIPDB01_Select_4_out_DB2_M_CARD_VAL.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-ISSUEDATE.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-ISSUEDATE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-ISSUEDATE.listructure#DB2_ISSUEDATE" id="arg0.DB2_ISSUEDATE">
+            <properties:properties>
+              <properties:property name="value" type="string">F2F0F2F060F1F160F0F1</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-EXPIRYDATE.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-EXPIRYDATE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-EXPIRYDATE.listructure#DB2_EXPIRYDATE" id="arg1.DB2_EXPIRYDATE">
+            <properties:properties>
+              <properties:property name="value" type="string">F2F0F2F060F1F260F3F1</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-LASTCHANGED.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-LASTCHANGED.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-LASTCHANGED.listructure#DB2_LASTCHANGED" id="arg2.DB2_LASTCHANGED">
+            <properties:properties>
+              <properties:property name="value" type="string">F2F0F2F060F0F960F2F860F1F14BF3F04BF0F84BF2F2F5F7F1F3</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-BROKERID-INT.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-BROKERID-INT.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-BROKERID-INT.listructure#DB2_BROKERID_INT" id="arg3.DB2_BROKERID_INT">
+            <properties:properties>
+              <properties:property name="value" type="string">00000000</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-BROKERSREF.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-BROKERSREF.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-BROKERSREF.listructure#DB2_BROKERSREF" id="arg4.DB2_BROKERSREF">
+            <properties:properties>
+              <properties:property name="value" type="string">40404040404040404040</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-PAYMENT-INT.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-PAYMENT-INT.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-PAYMENT-INT.listructure#DB2_PAYMENT_INT" id="arg5.DB2_PAYMENT_INT">
+            <properties:properties>
+              <properties:property name="value" type="string">00000000</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-MAKE.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-MAKE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-MAKE.listructure#DB2_M_MAKE" id="arg6.DB2_M_MAKE">
+            <properties:properties>
+              <properties:property name="value" type="string">E3D6E8D6E3C1404040404040404040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-MODEL.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-MODEL.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-MODEL.listructure#DB2_M_MODEL" id="arg7.DB2_M_MODEL">
+            <properties:properties>
+              <properties:property name="value" type="string">D9C1E5F14040404040404040404040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-VALUE-INT.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-VALUE-INT.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-VALUE-INT.listructure#DB2_M_VALUE_INT" id="arg8.DB2_M_VALUE_INT">
+            <properties:properties>
+              <properties:property name="value" type="string">00061A93</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-REGNUMBER.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-REGNUMBER.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-REGNUMBER.listructure#DB2_M_REGNUMBER" id="arg9.DB2_M_REGNUMBER">
+            <properties:properties>
+              <properties:property name="value" type="string">F1F34040404040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-COLOUR.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-COLOUR.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-COLOUR.listructure#DB2_M_COLOUR" id="arg10.DB2_M_COLOUR">
+            <properties:properties>
+              <properties:property name="value" type="string">C2D3C1C3D2404040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CC-SINT.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CC-SINT.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CC-SINT.listructure#DB2_M_CC_SINT" id="arg11.DB2_M_CC_SINT">
+            <properties:properties>
+              <properties:property name="value" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-MANUFACTURED.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-MANUFACTURED.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-MANUFACTURED.listructure#DB2_M_MANUFACTURED" id="arg12.DB2_M_MANUFACTURED">
+            <properties:properties>
+              <properties:property name="value" type="string">F2F0F0F060F0F160F0F1</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-PREMIUM-INT.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-PREMIUM-INT.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-PREMIUM-INT.listructure#DB2_M_PREMIUM_INT" id="arg13.DB2_M_PREMIUM_INT">
+            <properties:properties>
+              <properties:property name="value" type="string">000001E4</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-ACCIDENTS-INT.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-ACCIDENTS-INT.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-ACCIDENTS-INT.listructure#DB2_M_ACCIDENTS_INT" id="arg14.DB2_M_ACCIDENTS_INT">
+            <properties:properties>
+              <properties:property name="value" type="string">00000000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CAR-YEAR.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CAR-YEAR.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CAR-YEAR.listructure#DB2_M_CAR_YEAR" id="arg15.DB2_M_CAR_YEAR">
+            <properties:properties>
+              <properties:property name="value" type="string">F2F0F0F1</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CAR-VIN.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CAR-VIN.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CAR-VIN.listructure#DB2_M_CAR_VIN" id="arg16.DB2_M_CAR_VIN">
+            <properties:properties>
+              <properties:property name="value" type="string">D1E3D4E6D2F4C4E5F2C2F5F0F2F7F7F2F5404040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-AUTO-PAY.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-AUTO-PAY.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-AUTO-PAY.listructure#DB2_M_AUTO_PAY" id="arg17.DB2_M_AUTO_PAY">
+            <properties:properties>
+              <properties:property name="value" type="string">D5</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CHECK-ACCT-NBR.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CHECK-ACCT-NBR.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CHECK-ACCT-NBR.listructure#DB2_M_CHECK_ACCT_NBR" id="arg18.DB2_M_CHECK_ACCT_NBR">
+            <properties:properties>
+              <properties:property name="value" type="string">404040404040404040404040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-BANK-ROUTE-CODE.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-BANK-ROUTE-CODE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-BANK-ROUTE-CODE.listructure#DB2_M_BANK_ROUTE_CODE" id="arg19.DB2_M_BANK_ROUTE_CODE">
+            <properties:properties>
+              <properties:property name="value" type="string">404040404040404040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CREDIT-CARD-TYP.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CREDIT-CARD-TYP.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CREDIT-CARD-TYP.listructure#DB2_M_CREDIT_CARD_TYP" id="arg20.DB2_M_CREDIT_CARD_TYP">
+            <properties:properties>
+              <properties:property name="value" type="string">4040404040404040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CREDIT-CARD-NBR.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CREDIT-CARD-NBR.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CREDIT-CARD-NBR.listructure#DB2_M_CREDIT_CARD_NBR" id="arg21.DB2_M_CREDIT_CARD_NBR">
+            <properties:properties>
+              <properties:property name="value" type="string">40404040404040404040404040404040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CREDIT-CARD-PIN.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CREDIT-CARD-PIN.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CREDIT-CARD-PIN.listructure#DB2_M_CREDIT_CARD_PIN" id="arg22.DB2_M_CREDIT_CARD_PIN">
+            <properties:properties>
+              <properties:property name="value" type="string">40404040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CARD-VAL.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CARD-VAL.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-M-CARD-VAL.listructure#DB2_M_CARD_VAL" id="arg23.DB2_M_CARD_VAL">
+            <properties:properties>
+              <properties:property name="value" type="string">4040404040</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="Select">
+            <stub:text>      *****EXEC SQL
+      *****  SELECT  ISSUEDATE,
+      *****          EXPIRYDATE,
+      *****          LASTCHANGED,
+      *****          BROKERID,
+      *****          BROKERSREFERENCE,
+      *****          PAYMENT,
+      *****          MAKE,
+      *****          MODEL,
+      *****          VALUE,
+      *****          REGNUMBER,
+      *****          COLOUR,
+      *****          CC,
+      *****          YEAROFMANUFACTURE,
+      *****          PREMIUM,
+      *****          ACCIDENTS,
+      *****          CARYEAR,
+      *****          CARVIN,
+      *****          AUTOPAY,
+      *****          CHECKACCTNBR,
+      *****          BANKROUTECODE,
+      *****          CREDITCARDTYPE,
+      *****          CREDITCARDNBR,
+      *****          CREDITCARDPIN,
+      *****          CREDITVALIDTHRU
+      *****  INTO  :DB2-ISSUEDATE,
+      *****        :DB2-EXPIRYDATE,
+      *****        :DB2-LASTCHANGED,
+      *****        :DB2-BROKERID-INT INDICATOR :IND-BROKERID,
+      *****        :DB2-BROKERSREF INDICATOR :IND-BROKERSREF,
+      *****        :DB2-PAYMENT-INT INDICATOR :IND-PAYMENT,
+      *****        :DB2-M-MAKE,
+      *****        :DB2-M-MODEL,
+      *****        :DB2-M-VALUE-INT,
+      *****        :DB2-M-REGNUMBER,
+      *****        :DB2-M-COLOUR,
+      *****        :DB2-M-CC-SINT,
+      *****        :DB2-M-MANUFACTURED,
+      *****        :DB2-M-PREMIUM-INT,
+      *****        :DB2-M-ACCIDENTS-INT,
+      *****        :DB2-M-CAR-YEAR,
+      *****        :DB2-M-CAR-VIN,
+      *****        :DB2-M-AUTO-PAY,
+      *****        :DB2-M-CHECK-ACCT-NBR,
+      *****        :DB2-M-BANK-ROUTE-CODE,
+      *****        :DB2-M-CREDIT-CARD-TYP,
+      *****        :DB2-M-CREDIT-CARD-NBR,
+      *****        :DB2-M-CREDIT-CARD-PIN,
+      *****        :DB2-M-CARD-VAL
+      *****  FROM  POLICY,MOTOR
+      *****  WHERE ( POLICY.POLICYNUMBER =
+      *****             MOTOR.POLICYNUMBER           AND
+      *****          POLICY.CUSTOMERNUMBER =
+      *****             :DB2-CUSTOMERNUMBER-BIGINT   AND
+      *****          POLICY.POLICYNUMBER =
+      *****             :DB2-POLICYNUMBER-BIGINT )
+      *****END-EXEC
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00404400001E4C474950444230311AFC49290640E1F8001939C53D9039C5597839C559E004B800E7000006EC0000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C1404008000004300018001801C4000A39C4B55339C53EC8000040404040404040404040404040404040404040404040404040404040404001C4000A39C4B55D39C53EC8000040404040404040404040404040404040404040404040404040404040404001C4001A39C4B56739C53EC8000040404040404040404040404040404040404040404040404040404040404001F1000439C4B37039C53D68000040404040404040404040404040404040404040404040404040404040404001C5000A39C4B58B39C53D70000040404040404040404040404040404040404040404040404040404040404001F1000439C4B37439C53D78000040404040404040404040404040404040404040404040404040404040404001C4000F39C535E039C53EC8000040404040404040404040404040404040404040404040404040404040404001C4000F39C535EF39C53EC8000040404040404040404040404040404040404040404040404040404040404001F0000439C4B38839C53EC8000040404040404040404040404040404040404040404040404040404040404001C4000739C5360439C53EC8000040404040404040404040404040404040404040404040404040404040404001C4000839C5360B39C53EC8000040404040404040404040404040404040404040404040404040404040404001F4000239C4B38C39C53EC8000040404040404040404040404040404040404040404040404040404040404001C4000A39C5361739C53EC8000040404040404040404040404040404040404040404040404040404040404001F0000439C4B38E39C53EC8000040404040404040404040404040404040404040404040404040404040404001F0000439C4B39239C53EC8000040404040404040404040404040404040404040404040404040404040404001C4000439C5362D39C53EC8000040404040404040404040404040404040404040404040404040404040404001C4001439C5363139C53EC8000040404040404040404040404040404040404040404040404040404040404001C4000139C5364539C53EC8000040404040404040404040404040404040404040404040404040404040404001C4000C39C5364639C53EC8000040404040404040404040404040404040404040404040404040404040404001C4000939C5365239C53EC8000040404040404040404040404040404040404040404040404040404040404001C4000839C5365B39C53EC8000040404040404040404040404040404040404040404040404040404040404001C4001039C5366339C53EC8000040404040404040404040404040404040404040404040404040404040404001C4000439C5367339C53EC8000040404040404040404040404040404040404040404040404040404040404001C4000539C5367739C53EC80000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+            <stub:varRawData>E2D8D3C4C1404008000000680002000201EC000839C4B32039C53EC8000040404040404040404040404040404040404040404040404040404040404001EC000839C4B33839C53EC80000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="1360002">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+    </stub:sqlResults>
+    <stub:sqlStatus>
+      <stub:statement type="Select">
+        <stub:text>      *****EXEC SQL
+      *****  SELECT  ISSUEDATE,
+      *****          EXPIRYDATE,
+      *****          LASTCHANGED,
+      *****          BROKERID,
+      *****          BROKERSREFERENCE,
+      *****          PAYMENT,
+      *****          MAKE,
+      *****          MODEL,
+      *****          VALUE,
+      *****          REGNUMBER,
+      *****          COLOUR,
+      *****          CC,
+      *****          YEAROFMANUFACTURE,
+      *****          PREMIUM,
+      *****          ACCIDENTS,
+      *****          CARYEAR,
+      *****          CARVIN,
+      *****          AUTOPAY,
+      *****          CHECKACCTNBR,
+      *****          BANKROUTECODE,
+      *****          CREDITCARDTYPE,
+      *****          CREDITCARDNBR,
+      *****          CREDITCARDPIN,
+      *****          CREDITVALIDTHRU
+      *****  INTO  :DB2-ISSUEDATE,
+      *****        :DB2-EXPIRYDATE,
+      *****        :DB2-LASTCHANGED,
+      *****        :DB2-BROKERID-INT INDICATOR :IND-BROKERID,
+      *****        :DB2-BROKERSREF INDICATOR :IND-BROKERSREF,
+      *****        :DB2-PAYMENT-INT INDICATOR :IND-PAYMENT,
+      *****        :DB2-M-MAKE,
+      *****        :DB2-M-MODEL,
+      *****        :DB2-M-VALUE-INT,
+      *****        :DB2-M-REGNUMBER,
+      *****        :DB2-M-COLOUR,
+      *****        :DB2-M-CC-SINT,
+      *****        :DB2-M-MANUFACTURED,
+      *****        :DB2-M-PREMIUM-INT,
+      *****        :DB2-M-ACCIDENTS-INT,
+      *****        :DB2-M-CAR-YEAR,
+      *****        :DB2-M-CAR-VIN,
+      *****        :DB2-M-AUTO-PAY,
+      *****        :DB2-M-CHECK-ACCT-NBR,
+      *****        :DB2-M-BANK-ROUTE-CODE,
+      *****        :DB2-M-CREDIT-CARD-TYP,
+      *****        :DB2-M-CREDIT-CARD-NBR,
+      *****        :DB2-M-CREDIT-CARD-PIN,
+      *****        :DB2-M-CARD-VAL
+      *****  FROM  POLICY,MOTOR
+      *****  WHERE ( POLICY.POLICYNUMBER =
+      *****             MOTOR.POLICYNUMBER           AND
+      *****          POLICY.CUSTOMERNUMBER =
+      *****             :DB2-CUSTOMERNUMBER-BIGINT   AND
+      *****          POLICY.POLICYNUMBER =
+      *****             :DB2-POLICYNUMBER-BIGINT )
+      *****END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404400001E4C474950444230311AFC49290640E1F8001939C53D9039C5597839C559E004B800E7000006EC0000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C1404008000004300018001801C4000A39C4B55339C53EC8000040404040404040404040404040404040404040404040404040404040404001C4000A39C4B55D39C53EC8000040404040404040404040404040404040404040404040404040404040404001C4001A39C4B56739C53EC8000040404040404040404040404040404040404040404040404040404040404001F1000439C4B37039C53D68000040404040404040404040404040404040404040404040404040404040404001C5000A39C4B58B39C53D70000040404040404040404040404040404040404040404040404040404040404001F1000439C4B37439C53D78000040404040404040404040404040404040404040404040404040404040404001C4000F39C535E039C53EC8000040404040404040404040404040404040404040404040404040404040404001C4000F39C535EF39C53EC8000040404040404040404040404040404040404040404040404040404040404001F0000439C4B38839C53EC8000040404040404040404040404040404040404040404040404040404040404001C4000739C5360439C53EC8000040404040404040404040404040404040404040404040404040404040404001C4000839C5360B39C53EC8000040404040404040404040404040404040404040404040404040404040404001F4000239C4B38C39C53EC8000040404040404040404040404040404040404040404040404040404040404001C4000A39C5361739C53EC8000040404040404040404040404040404040404040404040404040404040404001F0000439C4B38E39C53EC8000040404040404040404040404040404040404040404040404040404040404001F0000439C4B39239C53EC8000040404040404040404040404040404040404040404040404040404040404001C4000439C5362D39C53EC8000040404040404040404040404040404040404040404040404040404040404001C4001439C5363139C53EC8000040404040404040404040404040404040404040404040404040404040404001C4000139C5364539C53EC8000040404040404040404040404040404040404040404040404040404040404001C4000C39C5364639C53EC8000040404040404040404040404040404040404040404040404040404040404001C4000939C5365239C53EC8000040404040404040404040404040404040404040404040404040404040404001C4000839C5365B39C53EC8000040404040404040404040404040404040404040404040404040404040404001C4001039C5366339C53EC8000040404040404040404040404040404040404040404040404040404040404001C4000439C5367339C53EC8000040404040404040404040404040404040404040404040404040404040404001C4000539C5367739C53EC80000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+        <stub:varRawData>E2D8D3C4C1404008000000680002000201EC000839C4B32039C53EC8000040404040404040404040404040404040404040404040404040404040404001EC000839C4B33839C53EC80000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="1360001">
+        <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:database version="1215"/>
+</stub:stub>

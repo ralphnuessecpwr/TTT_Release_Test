@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.7.1.v20210611-0414_90?>
+<!--Topaz for Total Test 20.7.1.v20210611-0414_90 Jun 29, 2021 3:23:31 PM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="CWDEMCCH/Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_DUMMY-EMP.listructure">
+  <listructure:struct id="DUMMY_EMP" name="DUMMY_EMP">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">80</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">80</properties:property>
+    </properties:properties>
+    <listructure:string id="DUMMY_EMP.FILLER0" length="3" name="FILLER0">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="picture" type="string">X(3)</properties:property>
+        <properties:property name="displayLength" type="number">3</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(3)</properties:property>
+        <properties:property name="storageLength" type="number">3</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="DUMMY_EMP.DUMMY_PAYEMP1" length="5" name="DUMMY_PAYEMP1">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(5)</properties:property>
+        <properties:property name="displayLength" type="number">5</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(5)</properties:property>
+        <properties:property name="storageLength" type="number">5</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="DUMMY_EMP.FILLER1" length="72" name="FILLER1">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="picture" type="string">X(72)</properties:property>
+        <properties:property name="displayLength" type="number">72</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(72)</properties:property>
+        <properties:property name="storageLength" type="number">72</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>

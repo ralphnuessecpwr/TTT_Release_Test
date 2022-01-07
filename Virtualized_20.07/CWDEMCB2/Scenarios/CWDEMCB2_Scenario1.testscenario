@@ -1,0 +1,76 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="CWDEMCB2/Scenarios/CWDEMCB2_Scenario1.testscenario">
+  <testscenario:description></testscenario:description>
+  <testscenario:testcases>
+    <testscenario:testcase alias="" csect="CWDEMCB2" encoding="1047" entrypoint="CWDEMCB2" id="CWDEMCB2/Scenarios/CWDEMCB2_Scenario1.testscenario%23CWDEMCB2Case1" target="CWDEMCB2">
+      <testcase:description></testcase:description>
+      <testcase:ddio>SYS2.CX.HC2AC013.LISTING.DB</testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1468831222000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWDEMCB2.interface#CWDEMCB2/Interfaces/CWDEMCB2.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWDEMCB2_DFHEIBLK.listructure#CWDEMCB2/Structures/CWDEMCB2_DFHEIBLK.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWDEMCB2_DFHEIBLK.listructure#DFHEIBLK" id="arg0.DFHEIBLK">
+          <properties:properties>
+            <properties:property name="value" type="string">0091659C0121180FE7C3C2F20001202CC3F9F2F70000000400007D00000000000000000000000000000000000000000000000040404040404040400000000000000000000000000000000000000000000000000000</properties:property>
+            <properties:property name="expectedValue" type="string">0091659C0121180FE7C3C2F20001202CC3F9F2F70000000400007D040400000000000000000000000000000000000000000000C3F9F2F7404040400000000000000000000000000000000000000000000000000000</properties:property>
+            <properties:property name="address" type="string">11111111</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWDEMCB2_DFHCOMMAREA.listructure#CWDEMCB2/Structures/CWDEMCB2_DFHCOMMAREA.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWDEMCB2_DFHCOMMAREA.listructure#DFHCOMMAREA" id="arg1.DFHCOMMAREA">
+          <properties:properties>
+            <properties:property name="value" type="string"></properties:property>
+            <properties:property name="address" type="string">22222222</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWDEMCB2_EXEC_CICS_ASSIGN1_01.stub#CWDEMCB2/Stubs/CWDEMCB2_EXEC_CICS_ASSIGN1_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWDEMCB2_RETURN_01.stub#CWDEMCB2/Stubs/CWDEMCB2_RETURN_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWDEMCB2_SEND_RECEIVE_01.stub#CWDEMCB2/Stubs/CWDEMCB2_SEND_RECEIVE_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:ddioMemberName>CWDEMCB2</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWDEMCB2" encoding="1047" entrypoint="CWDEMCB2" id="CWDEMCB2/Scenarios/CWDEMCB2_Scenario1.testscenario%23CWDEMCB2Case2" target="CWDEMCB2">
+      <testcase:description></testcase:description>
+      <testcase:ddio>SYS2.CX.HC2AC013.LISTING.DB</testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1468831222000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWDEMCB2.interface#CWDEMCB2/Interfaces/CWDEMCB2.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWDEMCB2_DFHEIBLK.listructure#CWDEMCB2/Structures/CWDEMCB2_DFHEIBLK.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWDEMCB2_DFHEIBLK.listructure#DFHEIBLK" id="arg0.DFHEIBLK">
+          <properties:properties>
+            <properties:property name="value" type="string">0091831C0121180FE7C3C2F20001209CC3F9F2F70000000600507D00000000000000000000000000000000000000000000000040404040404040400000000000000000000000000000000000000000000000000000</properties:property>
+            <properties:property name="expectedValue" type="string">0091831C0121180FE7C3C2F20001209CC3F9F2F70000000600507D040400000000000000000000000000000000000000000000C3F9F2F7404040400000000000000000000000000000000000000000000000000000</properties:property>
+            <properties:property name="address" type="string">11111111</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWDEMCB2_DFHCOMMAREA.listructure#CWDEMCB2/Structures/CWDEMCB2_DFHCOMMAREA.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWDEMCB2_DFHCOMMAREA.listructure#DFHCOMMAREA" id="arg1.DFHCOMMAREA">
+          <properties:properties>
+            <properties:property name="value" type="string">C3969494819985817A40E385A7A37AE3C5E2E340C38881997AE385A2A340C1A28389897A4C4D6E6F40C885A77A40E385A2A3404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="expectedValue" type="string">C3969494819985817A40E385A7A37AE3C5E2E340C38881997AE385A2A340C1A28389897A4C4D6E6F40C885A77A40E385A2A3404040404040404040404040404040404040404040404040404040404040</properties:property>
+            <properties:property name="address" type="string">22222222</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWDEMCB2_EXEC_CICS_ASSIGN2_01.stub#CWDEMCB2/Stubs/CWDEMCB2_EXEC_CICS_ASSIGN2_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWDEMCB2_HANDLE_01.stub#CWDEMCB2/Stubs/CWDEMCB2_HANDLE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWDEMCB2_RETURN_02.stub#CWDEMCB2/Stubs/CWDEMCB2_RETURN_02.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWDEMCB2_SEND_RECEIVE_02.stub#CWDEMCB2/Stubs/CWDEMCB2_SEND_RECEIVE_02.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:ddioMemberName>CWDEMCB2</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+  </testscenario:testcases>
+</testscenario:testscenario>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.7.1.v20210611-0414_90?>
+<!--Topaz for Total Test 20.7.1.v20210611-0414_90 Jun 30, 2021 8:20:01 AM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="LGACUS01/Structures/CICS/LGACUS01_SUBP_LGACDB01/LGACUS01_SUBP_LGACDB01_dfhb0020.listructure">
+  <listructure:struct id="dfhb0020" name="dfhb0020">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">2</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">2</properties:property>
+    </properties:properties>
+    <listructure:number id="dfhb0020.dfhb0020" length="4" name="dfhb0020">
+      <properties:properties>
+        <properties:property name="picture" type="string">s9(4)</properties:property>
+        <properties:property name="usage" type="string">computational</properties:property>
+        <properties:property name="signed" type="boolean">true</properties:property>
+        <properties:property name="displayLength" type="number">4</properties:property>
+        <properties:property name="integerDigits" type="number">4</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">binary</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+      </properties:properties>
+    </listructure:number>
+  </listructure:struct>
+</listructure:listructure>

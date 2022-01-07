@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.7.1.v20210611-0414_90?>
+<!--Topaz for Total Test 20.7.1.v20210611-0414_90 Jun 30, 2021 8:34:23 AM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="LGIPDB01/Interfaces/LGIPDB01_Select_3_in_DB2_POLICYNUMBER_BIGINT.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-POLICYNUMBER-BIGINT.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-POLICYNUMBER-BIGINT.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-POLICYNUMBER-BIGINT.listructure#DB2_POLICYNUMBER_BIGINT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-POLICYNUMBER-BIGINT.listructure#DB2_POLICYNUMBER_BIGINT.DB2_POLICYNUMBER_BIGINT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

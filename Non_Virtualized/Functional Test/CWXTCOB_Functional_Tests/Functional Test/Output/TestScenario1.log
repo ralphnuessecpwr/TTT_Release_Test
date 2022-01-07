@@ -1,0 +1,42 @@
+13:01:30.529 INFO      TOPAZ            ***************************************
+13:01:30.530 INFO      TOPAZ            ** Execution from Topaz with options **
+13:01:30.530 INFO      TOPAZ            ***************************************
+13:01:30.530 INFO      TOPAZ            Using repository: true
+13:01:30.530 INFO      TOPAZ            Repository URL: http://cwcc.nasa.cpwr.corp:2020/totaltestapi/
+13:01:30.531 INFO      TOPAZ            ***************************************
+13:01:30.531 INFO      Engine           Test Scenario execution started
+13:01:30.532 INFO      Engine           Using context settings:
+  Engine Version                : 20.7
+  Environment id                : 5b508b8a787be73b59238d38
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwcc.nasa.cpwr.corp
+  Server port                   : 16196
+  Job execution timeout seconds : 300
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+  Use Repository Server         : true
+13:01:30.532 INFO      Engine           Setting variables from context and context data extensions
+13:01:30.533 INFO      Engine             id: environmentId      value: 5b508b8a787be73b59238d38
+13:01:30.533 INFO      Engine             id: environmentType    value: BATCH
+13:01:30.533 INFO      Engine             id: userId             value: HDDRXM0
+13:01:30.533 INFO      Engine             id: accountingInfo     value: 
+13:01:30.535 INFO      ReadRemoteFile   Interpreting ReadRemoteFile for fileName: HDDRXM0.DEMO.CWXTDATA first record:1 number of records to read: 10
+13:01:30.536 INFO      ReadRemoteFile   Sending Read dataset request to Host 
+13:01:30.724 INFO      HCIClient        Creating job directory /u/xatester/hddrxm0/93af764f83c94d53aa7b2deacef50b69
+13:01:32.338 INFO      HCIClient        Job has been started at host with JobId:J0168494
+13:01:33.298 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0I(J0168494) ended with return code: 0000
+  Job name       : HDDRXM0I
+  Job id         : J0168494
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+13:01:34.102 INFO      ReadRemoteFile   Records received, count= 10
+13:01:34.102 INFO      ReadRemoteFile   The records can be refered to as an array through Test.record[<index>]
+13:01:34.103 INFO      Engine           Test Scenario execution ended

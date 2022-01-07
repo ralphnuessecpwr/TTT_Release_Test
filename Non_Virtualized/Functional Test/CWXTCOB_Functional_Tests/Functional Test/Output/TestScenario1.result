@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnitResult resultType="SUCCESS" containsSimulation="false">
+  <ExecutionId>86759671-337c-4d1d-996e-3c575438ce34</ExecutionId>
+  <Message />
+  <AST>
+    <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1" caseInsensitiveCompare="false">
+      <Test>
+        <ReadRemoteFile fileName="HDDRXM0.DEMO.CWXTDATA" id="Test" label="" firstRecord="1" numberRecords="10" mDataDefinitionName="CWXTEMP">
+          <Records>
+            <Record>
+              <first>03431H2GAI</first>
+            </Record>
+            <Record>
+              <first>01431S5TED</first>
+            </Record>
+            <Record>
+              <first>02523H1JOH</first>
+            </Record>
+            <Record>
+              <first>02334S1ROY</first>
+            </Record>
+            <Record>
+              <first>06745S3VAL</first>
+            </Record>
+            <Record>
+              <first>00765S1DAN</first>
+            </Record>
+            <Record>
+              <first>04147S3LAU</first>
+            </Record>
+            <Record>
+              <first>01568H4THO</first>
+            </Record>
+            <Record>
+              <first>00959S4DON</first>
+            </Record>
+            <Record>
+              <first>02010S2MIC</first>
+            </Record>
+          </Records>
+        </ReadRemoteFile>
+      </Test>
+    </XaUnit>
+  </AST>
+  <Context>
+    <ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5b508b8a787be73b59238d38" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" userid="HDDRXM0">
+      <platformruntime callinterface="NONE" database="DBCCCWCC" driver="com.ibm.db2.jcc.DB2Driver" uri="jdbc:db2://cwcc.compuware.com:546/${database}" environmenttype="BATCH" />
+      <ExtensionData />
+      <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" caseInsensitiveCompare="false" path="TestScenario1.scenario">
+        <Test>
+          <ReadRemoteFile fileName="HDDRXM0.DEMO.CWXTDATA" id="Test" label="" firstRecord="1" numberRecords="10" mDataDefinitionName="CWXTEMP" />
+        </Test>
+        <MetaData>
+          <MDataDefinition name="CWXTEMP">
+            <first type="Character" length="10" bytes="10" />
+          </MDataDefinition>
+        </MetaData>
+      </XaUnit>
+      <ExternalResources />
+    </ExecutionContext>
+  </Context>
+  <Started>20210722-13-01-30</Started>
+  <Ended>20210722-13-01-34</Ended>
+</XaUnitResult>

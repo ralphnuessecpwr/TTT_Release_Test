@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.7.1.v20210611-0414_90?>
+<!--Topaz for Total Test 20.7.1.v20210611-0414_90 Jun 30, 2021 8:17:40 AM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="LGACDB01/Structures/CICS/LGACDB01_SUBP_LGSTSQ/LGACDB01_SUBP_LGSTSQ_dfhc0080.listructure">
+  <listructure:struct id="dfhc0080" name="dfhc0080">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">8</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">8</properties:property>
+    </properties:properties>
+    <listructure:string id="dfhc0080.dfhc0080" length="8" name="dfhc0080">
+      <properties:properties>
+        <properties:property name="picture" type="string">x(8)</properties:property>
+        <properties:property name="displayLength" type="number">8</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">x(8)</properties:property>
+        <properties:property name="storageLength" type="number">8</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>

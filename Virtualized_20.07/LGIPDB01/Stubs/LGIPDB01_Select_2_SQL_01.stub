@@ -1,0 +1,84 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="LGIPDB01/Stubs/LGIPDB01_Select_2_SQL_01.stub" nextCalltoken="1340003" stubtype="SQL" target="Select" token="1340000">
+  <stub:description>Created: Jun 30, 2021 8:34:22 AM</stub:description>
+  <stub:stubdata id="0" name="Select">
+    <stub:interface>../Interfaces/LGIPDB01_Select_2_in_DB2_POLICYTYPE_CHAR.interface#LGIPDB01/Interfaces/LGIPDB01_Select_2_in_DB2_POLICYTYPE_CHAR.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-POLICYTYPE-CHAR.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-POLICYTYPE-CHAR.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-POLICYTYPE-CHAR.listructure#DB2_POLICYTYPE_CHAR" id="arg0.DB2_POLICYTYPE_CHAR">
+        <properties:properties>
+          <properties:property name="value" type="string">D4</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlResults>
+      <stub:result id="1" name="Select">
+        <stub:interface>../Interfaces/LGIPDB01_Select_2_out_DB2_POLICYTYPE_CHAR.interface#LGIPDB01/Interfaces/LGIPDB01_Select_2_out_DB2_POLICYTYPE_CHAR.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-POLICYNUMBER-END-BIGINT.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-POLICYNUMBER-END-BIGINT.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-POLICYNUMBER-END-BIGINT.listructure#DB2_POLICYNUMBER_END_BIGINT" id="arg0.DB2_POLICYNUMBER_END_BIGINT">
+            <properties:properties>
+              <properties:property name="value" type="string">00000000000F4501</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-POLICYTYPE-CHAR.listructure#LGIPDB01/Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-POLICYTYPE-CHAR.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/LGIPDB01/LGIPDB01_Select_DB2-POLICYTYPE-CHAR.listructure#DB2_POLICYTYPE_CHAR" id="arg1.DB2_POLICYTYPE_CHAR">
+            <properties:properties>
+              <properties:property name="value" type="string">D4</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="Select">
+            <stub:text>      *****EXEC SQL
+      *****    SELECT MAX(POLICYNUMBER),
+      *****           CHAR(POLICYTYPE)
+      *****    INTO  :DB2-POLICYNUMBER-END-BIGINT,
+      *****          :DB2-POLICYTYPE-CHAR
+      *****    FROM  POLICY
+      *****    WHERE CHAR(POLICYTYPE) = :DB2-POLICYTYPE-CHAR
+      *****    GROUP BY POLICYNUMBER, POLICYTYPE
+      *****    ORDER BY POLICYNUMBER DESC FETCH FIRST 1 ROWS ONLY
+      *******  WHERE CHAR(POLICYTYPE) = 'M'
+      *****END-EXEC
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00404400001E4C474950444230311AFC49290640E1F8000539C53D9039C5402039C5405C04B800E70000036B0000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C1404008000000680002000201EC000839C4B35039C53EC8000040404040404040404040404040404040404040404040404040404040404001C4000139C4B3B839C53EC80000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+            <stub:varRawData>E2D8D3C4C14040080000003C0001000101C4000139C4B3B839C53EC80000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="1340002">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+    </stub:sqlResults>
+    <stub:sqlStatus>
+      <stub:statement type="Select">
+        <stub:text>      *****EXEC SQL
+      *****    SELECT MAX(POLICYNUMBER),
+      *****           CHAR(POLICYTYPE)
+      *****    INTO  :DB2-POLICYNUMBER-END-BIGINT,
+      *****          :DB2-POLICYTYPE-CHAR
+      *****    FROM  POLICY
+      *****    WHERE CHAR(POLICYTYPE) = :DB2-POLICYTYPE-CHAR
+      *****    GROUP BY POLICYNUMBER, POLICYTYPE
+      *****    ORDER BY POLICYNUMBER DESC FETCH FIRST 1 ROWS ONLY
+      *******  WHERE CHAR(POLICYTYPE) = 'M'
+      *****END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404400001E4C474950444230311AFC49290640E1F8000539C53D9039C5402039C5405C04B800E70000036B0000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C1404008000000680002000201EC000839C4B35039C53EC8000040404040404040404040404040404040404040404040404040404040404001C4000139C4B3B839C53EC80000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+        <stub:varRawData>E2D8D3C4C14040080000003C0001000101C4000139C4B3B839C53EC80000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="1340001">
+        <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:database version="1215"/>
+</stub:stub>

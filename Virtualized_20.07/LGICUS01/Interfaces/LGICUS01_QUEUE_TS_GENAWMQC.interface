@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.7.1.v20210611-0414_90?>
+<!--Topaz for Total Test 20.7.1.v20210611-0414_90 Jun 30, 2021 8:09:36 AM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="LGICUS01/Interfaces/LGICUS01_QUEUE_TS_GENAWMQC.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/CICS/LGICUS01_QUEUE_TS_GENAWMQC/LGICUS01_QUEUE_TS_GENAWMQC_CICS-GENERATED-CONSTANT-0.listructure#LGICUS01/Structures/CICS/LGICUS01_QUEUE_TS_GENAWMQC/LGICUS01_QUEUE_TS_GENAWMQC_CICS-GENERATED-CONSTANT-0.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGICUS01_QUEUE_TS_GENAWMQC/LGICUS01_QUEUE_TS_GENAWMQC_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICUS01_QUEUE_TS_GENAWMQC/LGICUS01_QUEUE_TS_GENAWMQC_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGICUS01_QUEUE_TS_GENAWMQC/LGICUS01_QUEUE_TS_GENAWMQC_MQ-Control.listructure#LGICUS01/Structures/CICS/LGICUS01_QUEUE_TS_GENAWMQC/LGICUS01_QUEUE_TS_GENAWMQC_MQ-Control.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGICUS01_QUEUE_TS_GENAWMQC/LGICUS01_QUEUE_TS_GENAWMQC_MQ-Control.listructure#MQ_Control">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICUS01_QUEUE_TS_GENAWMQC/LGICUS01_QUEUE_TS_GENAWMQC_MQ-Control.listructure#MQ_Control.MQ_Control">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGICUS01_QUEUE_TS_GENAWMQC/LGICUS01_QUEUE_TS_GENAWMQC_MQ-Read-Record.listructure#LGICUS01/Structures/CICS/LGICUS01_QUEUE_TS_GENAWMQC/LGICUS01_QUEUE_TS_GENAWMQC_MQ-Read-Record.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGICUS01_QUEUE_TS_GENAWMQC/LGICUS01_QUEUE_TS_GENAWMQC_MQ-Read-Record.listructure#MQ_Read_Record">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICUS01_QUEUE_TS_GENAWMQC/LGICUS01_QUEUE_TS_GENAWMQC_MQ-Read-Record.listructure#MQ_Read_Record.MQ_Read_Record">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGICUS01_QUEUE_TS_GENAWMQC/LGICUS01_QUEUE_TS_GENAWMQC_dfhb0020.listructure#LGICUS01/Structures/CICS/LGICUS01_QUEUE_TS_GENAWMQC/LGICUS01_QUEUE_TS_GENAWMQC_dfhb0020.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGICUS01_QUEUE_TS_GENAWMQC/LGICUS01_QUEUE_TS_GENAWMQC_dfhb0020.listructure#dfhb0020">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGICUS01_QUEUE_TS_GENAWMQC/LGICUS01_QUEUE_TS_GENAWMQC_dfhb0020.listructure#dfhb0020.dfhb0020">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGICUS01_QUEUE_TS_GENAWMQC/LGICUS01_QUEUE_TS_GENAWMQC_CICS-GENERATED-CONSTANT-4.listructure#LGICUS01/Structures/CICS/LGICUS01_QUEUE_TS_GENAWMQC/LGICUS01_QUEUE_TS_GENAWMQC_CICS-GENERATED-CONSTANT-4.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGICUS01_QUEUE_TS_GENAWMQC/LGICUS01_QUEUE_TS_GENAWMQC_CICS-GENERATED-CONSTANT-4.listructure#CICS_GENERATED_CONSTANT_4">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGICUS01_QUEUE_TS_GENAWMQC/LGICUS01_QUEUE_TS_GENAWMQC_CICS-GENERATED-CONSTANT-4.listructure#CICS_GENERATED_CONSTANT_4.CICS_GENERATED_CONSTANT_4">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGICUS01_QUEUE_TS_GENAWMQC/LGICUS01_QUEUE_TS_GENAWMQC_dfhb0021.listructure#LGICUS01/Structures/CICS/LGICUS01_QUEUE_TS_GENAWMQC/LGICUS01_QUEUE_TS_GENAWMQC_dfhb0021.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGICUS01_QUEUE_TS_GENAWMQC/LGICUS01_QUEUE_TS_GENAWMQC_dfhb0021.listructure#dfhb0021">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGICUS01_QUEUE_TS_GENAWMQC/LGICUS01_QUEUE_TS_GENAWMQC_dfhb0021.listructure#dfhb0021.dfhb0021">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

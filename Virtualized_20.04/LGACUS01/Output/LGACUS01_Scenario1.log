@@ -1,0 +1,40 @@
+14:53:14.533 INFO      TOPAZ            ***************************************
+14:53:14.533 INFO      TOPAZ            ** Execution from Topaz with options **
+14:53:14.533 INFO      TOPAZ            ***************************************
+14:53:14.534 INFO      TOPAZ            Using repository: true
+14:53:14.534 INFO      TOPAZ            Repository URL: http://cwcc.nasa.cpwr.corp:2020/totaltestapi/
+14:53:14.534 INFO      TOPAZ            ***************************************
+14:53:14.534 INFO      Engine           Test Scenario execution started
+14:53:14.534 INFO      Engine           Using context settings:
+  Engine Version                : 20.7
+  Environment id                : 192.168.96.130:16196
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : 192.168.96.130
+  Server port                   : 16196
+  Job execution timeout seconds : 300
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HDDRXM0
+  Use Repository Server         : true
+14:53:14.534 INFO      Engine           Setting variables from context and context data extensions
+14:53:14.535 INFO      Engine             id: environmentId      value: 192.168.96.130:16196
+14:53:14.535 INFO      Engine             id: environmentType    value: BATCH
+14:53:14.535 INFO      Engine             id: userId             value: HDDRXM0
+14:53:14.535 INFO      Engine             id: accountingInfo     value: 
+14:53:14.535 INFO      Unittest         Interpreting Unittest of module: LGACUS01 testscenario path: LGACUS01_Scenario1.testscenario
+14:53:14.542 INFO      Unittest         Static JCL is being used, path is: C:/Users/rnuesse/git/TTT_Release_Test/Virtualized/LGACUS01/JCL/Runner_CWCC.jcl
+14:53:19.688 INFO      CWCC             Sending Job execution request to Host 
+14:53:25.075 INFO      CWCC             Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0T(J0164145) ended with return code: 0000
+  Job name       : HDDRXM0T
+  Job id         : J0164145
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+14:53:27.299 INFO      Unittest         Execution completed
+14:53:27.300 INFO      Engine           Test Scenario execution ended

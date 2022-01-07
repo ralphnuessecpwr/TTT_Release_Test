@@ -1,0 +1,50 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="TRIMPP/Stubs/TRIMPP_TRITST_01.stub" stubtype="Program" target="TRITST" token="1490000">
+  <properties:properties>
+    <properties:property name="programtype" type="string">ProgramStubAssertion</properties:property>
+  </properties:properties>
+  <stub:description>Created: Jul 1, 2021 8:36:42 AM</stub:description>
+  <stub:stubdata id="0" name="TRITST">
+    <stub:interface>../Interfaces/TRIMPP_TRITST.interface#TRIMPP/Interfaces/TRIMPP_TRITST.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/TRIMPP_TRITST.interface#TRIMPP/Interfaces/TRIMPP_TRITST.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/TRIMPP_TRITST_WORK-REC.listructure#TRIMPP/Structures/TRIMPP_TRITST_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMPP_TRITST_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F3F2</properties:property>
+          <properties:property name="address" type="string">000ACA28</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/TRIMPP_TRITST_TRIANGLE-TYPE.listructure#TRIMPP/Structures/TRIMPP_TRITST_TRIANGLE-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMPP_TRITST_TRIANGLE-TYPE.listructure#TRIANGLE_TYPE" id="arg1.TRIANGLE_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">F0</properties:property>
+          <properties:property name="address" type="string">000ACA30</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/TRIMPP_TRITST_WORK-REC.listructure#TRIMPP/Structures/TRIMPP_TRITST_WORK-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMPP_TRITST_WORK-REC.listructure#WORK_REC" id="arg0.WORK_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F3F2</properties:property>
+          <properties:property name="address" type="string">000ACA28</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/TRIMPP_TRITST_TRIANGLE-TYPE.listructure#TRIMPP/Structures/TRIMPP_TRITST_TRIANGLE-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMPP_TRITST_TRIANGLE-TYPE.listructure#TRIANGLE_TYPE" id="arg1.TRIANGLE_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2</properties:property>
+          <properties:property name="address" type="string">000ACA30</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/TRIMPP_TRITST_RETURN-CODE.listructure#TRIMPP/Structures/TRIMPP_TRITST_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TRIMPP_TRITST_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+</stub:stub>

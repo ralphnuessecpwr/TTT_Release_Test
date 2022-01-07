@@ -1,0 +1,39 @@
+13:30:21.442 INFO      TOPAZ            ***************************************
+13:30:21.442 INFO      TOPAZ            ** Execution from Topaz with options **
+13:30:21.442 INFO      TOPAZ            ***************************************
+13:30:21.442 INFO      TOPAZ            Using repository: false
+13:30:21.443 INFO      TOPAZ            ***************************************
+13:30:21.443 INFO      Engine           Test Scenario execution started
+13:30:21.444 INFO      Engine           Using context settings:
+  Engine Version                : 20.9.1.v20211213-1238_91
+  Environment id                : 192.168.96.130:16196
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : 192.168.96.130
+  Server port                   : 16196
+  Job execution timeout seconds : 300
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : 
+  Host user Id                  : HDDRXM0
+  Use Repository Server         : false
+13:30:21.444 INFO      Engine           Setting variables from context and context data extensions
+13:30:21.444 INFO      Engine             id: environmentId      value: 192.168.96.130:16196
+13:30:21.444 INFO      Engine             id: environmentType    value: BATCH
+13:30:21.445 INFO      Engine             id: userId             value: HDDRXM0
+13:30:21.445 INFO      Engine             id: accountingInfo     value: 
+13:30:21.445 INFO      Unittest         Interpreting Unittest of module: CWDEMCCH testscenario path: CWDEMCCH_Scenario1.testscenario
+13:30:21.455 INFO      Unittest         Static JCL is being used, path is: C:/Users/rnuesse/Compuware/Workbench/workspace_release_test/Virtualized/CWDEMCCH/JCL/Runner_CWCC.jcl
+13:30:26.546 INFO      CWCC             Sending Job execution request to Host 
+13:30:31.926 INFO      CWCC             Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HDDRXM0T(J0223434) ended with return code: 0000
+  Job name       : HDDRXM0T
+  Job id         : J0223434
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+13:30:33.972 INFO      Unittest         Execution completed
+13:30:33.972 INFO      Engine           Test Scenario execution ended

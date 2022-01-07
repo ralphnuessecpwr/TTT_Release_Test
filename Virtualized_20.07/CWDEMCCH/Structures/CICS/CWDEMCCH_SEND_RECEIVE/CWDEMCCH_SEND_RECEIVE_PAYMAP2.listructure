@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.7.1.v20210611-0414_90?>
+<!--Topaz for Total Test 20.7.1.v20210611-0414_90 Jun 29, 2021 3:23:33 PM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="CWDEMCCH/Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_PAYMAP2.listructure">
+  <listructure:struct id="PAYMAP2" name="PAYMAP2">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">800</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">800</properties:property>
+    </properties:properties>
+    <listructure:struct id="PAYMAP2.MAP2_LINE1" name="MAP2_LINE1">
+      <properties:properties>
+        <properties:property name="displayLength" type="number">80</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">80</properties:property>
+      </properties:properties>
+      <listructure:string id="PAYMAP2.MAP2_LINE1.FILLER0" initial="&quot;*** COMPUWARE CORPORATION ***&quot;" length="29" name="FILLER0">
+        <properties:properties>
+          <properties:property name="filler" type="boolean">true</properties:property>
+          <properties:property name="picture" type="string">X(29)</properties:property>
+          <properties:property name="value">&quot;*** COMPUWARE CORPORATION ***&quot;</properties:property>
+          <properties:property name="displayLength" type="number">29</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(29)</properties:property>
+          <properties:property name="storageLength" type="number">29</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="PAYMAP2.MAP2_LINE1.FILLER1" initial="                                               " length="47" name="FILLER1">
+        <properties:properties>
+          <properties:property name="filler" type="boolean">true</properties:property>
+          <properties:property name="picture" type="string">X(47)</properties:property>
+          <properties:property name="value">spaces</properties:property>
+          <properties:property name="displayLength" type="number">47</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(47)</properties:property>
+          <properties:property name="storageLength" type="number">47</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="PAYMAP2.MAP2_LINE1.PAYSID2" initial="    " length="4" name="PAYSID2">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(4)</properties:property>
+          <properties:property name="value">spaces</properties:property>
+          <properties:property name="displayLength" type="number">4</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(4)</properties:property>
+          <properties:property name="storageLength" type="number">4</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+    <listructure:struct id="PAYMAP2.MAP2_LINE2" name="MAP2_LINE2">
+      <properties:properties>
+        <properties:property name="displayLength" type="number">80</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">80</properties:property>
+      </properties:properties>
+      <listructure:string id="PAYMAP2.MAP2_LINE2.FILLER2" initial="&quot;  DEMONSTRATION TRANSACTION  &quot;" length="29" name="FILLER2">
+        <properties:properties>
+          <properties:property name="filler" type="boolean">true</properties:property>
+          <properties:property name="picture" type="string">X(29)</properties:property>
+          <properties:property name="value">&quot;  DEMONSTRATION TRANSACTION  &quot;</properties:property>
+          <properties:property name="displayLength" type="number">29</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(29)</properties:property>
+          <properties:property name="storageLength" type="number">29</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="PAYMAP2.MAP2_LINE2.FILLER3" initial="                                                   " length="51" name="FILLER3">
+        <properties:properties>
+          <properties:property name="filler" type="boolean">true</properties:property>
+          <properties:property name="picture" type="string">X(51)</properties:property>
+          <properties:property name="value">spaces</properties:property>
+          <properties:property name="displayLength" type="number">51</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(51)</properties:property>
+          <properties:property name="storageLength" type="number">51</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+    <listructure:struct id="PAYMAP2.MAP2_LINE3" name="MAP2_LINE3">
+      <properties:properties>
+        <properties:property name="displayLength" type="number">80</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">80</properties:property>
+      </properties:properties>
+      <listructure:string id="PAYMAP2.MAP2_LINE3.FILLER4" initial="                                                                                " length="80" name="FILLER4">
+        <properties:properties>
+          <properties:property name="filler" type="boolean">true</properties:property>
+          <properties:property name="picture" type="string">X(80)</properties:property>
+          <properties:property name="value">spaces</properties:property>
+          <properties:property name="displayLength" type="number">80</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(80)</properties:property>
+          <properties:property name="storageLength" type="number">80</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+    <listructure:struct id="PAYMAP2.MAP2_LINE4" name="MAP2_LINE4">
+      <properties:properties>
+        <properties:property name="displayLength" type="number">80</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">80</properties:property>
+      </properties:properties>
+      <listructure:string id="PAYMAP2.MAP2_LINE4.FILLER5" initial="&quot; EMPLOYEE NUMBER: &quot;" length="18" name="FILLER5">
+        <properties:properties>
+          <properties:property name="filler" type="boolean">true</properties:property>
+          <properties:property name="picture" type="string">X(18)</properties:property>
+          <properties:property name="value">&quot; EMPLOYEE NUMBER: &quot;</properties:property>
+          <properties:property name="displayLength" type="number">18</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(18)</properties:property>
+          <properties:property name="storageLength" type="number">18</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="PAYMAP2.MAP2_LINE4.EMPNUMB" length="5" name="EMPNUMB">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(5)</properties:property>
+          <properties:property name="displayLength" type="number">5</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(5)</properties:property>
+          <properties:property name="storageLength" type="number">5</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="PAYMAP2.MAP2_LINE4.FILLER6" initial="                                                         " length="57" name="FILLER6">
+        <properties:properties>
+          <properties:property name="filler" type="boolean">true</properties:property>
+          <properties:property name="picture" type="string">X(57)</properties:property>
+          <properties:property name="value">spaces</properties:property>
+          <properties:property name="displayLength" type="number">57</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(57)</properties:property>
+          <properties:property name="storageLength" type="number">57</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+    <listructure:struct id="PAYMAP2.MAP2_LINE5" name="MAP2_LINE5">
+      <properties:properties>
+        <properties:property name="displayLength" type="number">80</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">80</properties:property>
+      </properties:properties>
+      <listructure:string id="PAYMAP2.MAP2_LINE5.FILLER7" initial="&quot; EMPLOYEE NAME:   &quot;" length="18" name="FILLER7">
+        <properties:properties>
+          <properties:property name="filler" type="boolean">true</properties:property>
+          <properties:property name="picture" type="string">X(18)</properties:property>
+          <properties:property name="value">&quot; EMPLOYEE NAME:   &quot;</properties:property>
+          <properties:property name="displayLength" type="number">18</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(18)</properties:property>
+          <properties:property name="storageLength" type="number">18</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="PAYMAP2.MAP2_LINE5.EMPNAME" length="15" name="EMPNAME">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(15)</properties:property>
+          <properties:property name="displayLength" type="number">15</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(15)</properties:property>
+          <properties:property name="storageLength" type="number">15</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="PAYMAP2.MAP2_LINE5.FILLER8" initial="                                               " length="47" name="FILLER8">
+        <properties:properties>
+          <properties:property name="filler" type="boolean">true</properties:property>
+          <properties:property name="picture" type="string">X(47)</properties:property>
+          <properties:property name="value">spaces</properties:property>
+          <properties:property name="displayLength" type="number">47</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(47)</properties:property>
+          <properties:property name="storageLength" type="number">47</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+    <listructure:struct id="PAYMAP2.MAP2_LINE6" name="MAP2_LINE6">
+      <properties:properties>
+        <properties:property name="displayLength" type="number">80</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">80</properties:property>
+      </properties:properties>
+      <listructure:string id="PAYMAP2.MAP2_LINE6.FILLER9" initial="&quot; HOURS WORKED:    &quot;" length="18" name="FILLER9">
+        <properties:properties>
+          <properties:property name="filler" type="boolean">true</properties:property>
+          <properties:property name="picture" type="string">X(18)</properties:property>
+          <properties:property name="value">&quot; HOURS WORKED:    &quot;</properties:property>
+          <properties:property name="displayLength" type="number">18</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(18)</properties:property>
+          <properties:property name="storageLength" type="number">18</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:number id="PAYMAP2.MAP2_LINE6.HRSWRKD" length="3" name="HRSWRKD">
+        <properties:properties>
+          <properties:property name="picture" type="string">999</properties:property>
+          <properties:property name="displayLength" type="number">3</properties:property>
+          <properties:property name="integerDigits" type="number">3</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">zoned</properties:property>
+          <properties:property name="mask" type="string">999</properties:property>
+          <properties:property name="storageLength" type="number">3</properties:property>
+        </properties:properties>
+      </listructure:number>
+      <listructure:string id="PAYMAP2.MAP2_LINE6.FILLER10" initial="                                                           " length="59" name="FILLER10">
+        <properties:properties>
+          <properties:property name="filler" type="boolean">true</properties:property>
+          <properties:property name="picture" type="string">X(59)</properties:property>
+          <properties:property name="value">spaces</properties:property>
+          <properties:property name="displayLength" type="number">59</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(59)</properties:property>
+          <properties:property name="storageLength" type="number">59</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+    <listructure:struct id="PAYMAP2.MAP2_LINE7" name="MAP2_LINE7">
+      <properties:properties>
+        <properties:property name="displayLength" type="number">80</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">80</properties:property>
+      </properties:properties>
+      <listructure:string id="PAYMAP2.MAP2_LINE7.FILLER11" initial="&quot; HOURLY RATE:     &quot;" length="18" name="FILLER11">
+        <properties:properties>
+          <properties:property name="filler" type="boolean">true</properties:property>
+          <properties:property name="picture" type="string">X(18)</properties:property>
+          <properties:property name="value">&quot; HOURLY RATE:     &quot;</properties:property>
+          <properties:property name="displayLength" type="number">18</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(18)</properties:property>
+          <properties:property name="storageLength" type="number">18</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:number id="PAYMAP2.MAP2_LINE7.HRLYRAT" length="6" name="HRLYRAT">
+        <properties:properties>
+          <properties:property name="picture" type="string">ZZZ.99</properties:property>
+          <properties:property name="scale" type="number">2</properties:property>
+          <properties:property name="displayLength" type="number">6</properties:property>
+          <properties:property name="insertDecimalPoint" type="boolean">true</properties:property>
+          <properties:property name="edittedNumeric" type="boolean">true</properties:property>
+          <properties:property name="integerDigits" type="number">3</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">edited-numeric</properties:property>
+          <properties:property name="mask" type="string">ZZZ.99</properties:property>
+          <properties:property name="storageLength" type="number">6</properties:property>
+        </properties:properties>
+      </listructure:number>
+      <listructure:string id="PAYMAP2.MAP2_LINE7.FILLER12" initial="                                                        " length="56" name="FILLER12">
+        <properties:properties>
+          <properties:property name="filler" type="boolean">true</properties:property>
+          <properties:property name="picture" type="string">X(56)</properties:property>
+          <properties:property name="value">spaces</properties:property>
+          <properties:property name="displayLength" type="number">56</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(56)</properties:property>
+          <properties:property name="storageLength" type="number">56</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+    <listructure:struct id="PAYMAP2.MAP2_LINE8" name="MAP2_LINE8">
+      <properties:properties>
+        <properties:property name="displayLength" type="number">80</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">80</properties:property>
+      </properties:properties>
+      <listructure:string id="PAYMAP2.MAP2_LINE8.FILLER13" initial="&quot; GROSS PAY:       &quot;" length="18" name="FILLER13">
+        <properties:properties>
+          <properties:property name="filler" type="boolean">true</properties:property>
+          <properties:property name="picture" type="string">X(18)</properties:property>
+          <properties:property name="value">&quot; GROSS PAY:       &quot;</properties:property>
+          <properties:property name="displayLength" type="number">18</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(18)</properties:property>
+          <properties:property name="storageLength" type="number">18</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:number id="PAYMAP2.MAP2_LINE8.GROSPAY" length="10" name="GROSPAY">
+        <properties:properties>
+          <properties:property name="picture" type="string">ZZZZZZZ.99</properties:property>
+          <properties:property name="scale" type="number">2</properties:property>
+          <properties:property name="displayLength" type="number">10</properties:property>
+          <properties:property name="insertDecimalPoint" type="boolean">true</properties:property>
+          <properties:property name="edittedNumeric" type="boolean">true</properties:property>
+          <properties:property name="integerDigits" type="number">7</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">edited-numeric</properties:property>
+          <properties:property name="mask" type="string">ZZZZZZZ.99</properties:property>
+          <properties:property name="storageLength" type="number">10</properties:property>
+        </properties:properties>
+      </listructure:number>
+      <listructure:string id="PAYMAP2.MAP2_LINE8.FILLER14" initial="                                                    " length="52" name="FILLER14">
+        <properties:properties>
+          <properties:property name="filler" type="boolean">true</properties:property>
+          <properties:property name="picture" type="string">X(52)</properties:property>
+          <properties:property name="value">spaces</properties:property>
+          <properties:property name="displayLength" type="number">52</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(52)</properties:property>
+          <properties:property name="storageLength" type="number">52</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+    <listructure:struct id="PAYMAP2.MAP2_LINE9" name="MAP2_LINE9">
+      <properties:properties>
+        <properties:property name="displayLength" type="number">80</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">80</properties:property>
+      </properties:properties>
+      <listructure:string id="PAYMAP2.MAP2_LINE9.FILLER15" initial="                                                                                " length="80" name="FILLER15">
+        <properties:properties>
+          <properties:property name="filler" type="boolean">true</properties:property>
+          <properties:property name="picture" type="string">X(80)</properties:property>
+          <properties:property name="value">spaces</properties:property>
+          <properties:property name="displayLength" type="number">80</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(80)</properties:property>
+          <properties:property name="storageLength" type="number">80</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+    <listructure:struct id="PAYMAP2.MAP2_LINE10" name="MAP2_LINE10">
+      <properties:properties>
+        <properties:property name="displayLength" type="number">80</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">80</properties:property>
+      </properties:properties>
+      <listructure:string id="PAYMAP2.MAP2_LINE10.PAYMSG" initial="                            " length="28" name="PAYMSG">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(28)</properties:property>
+          <properties:property name="value">spaces</properties:property>
+          <properties:property name="displayLength" type="number">28</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(28)</properties:property>
+          <properties:property name="storageLength" type="number">28</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="PAYMAP2.MAP2_LINE10.FILLER16" initial="                                                    " length="52" name="FILLER16">
+        <properties:properties>
+          <properties:property name="filler" type="boolean">true</properties:property>
+          <properties:property name="picture" type="string">X(52)</properties:property>
+          <properties:property name="value">spaces</properties:property>
+          <properties:property name="displayLength" type="number">52</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(52)</properties:property>
+          <properties:property name="storageLength" type="number">52</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+  </listructure:struct>
+</listructure:listructure>

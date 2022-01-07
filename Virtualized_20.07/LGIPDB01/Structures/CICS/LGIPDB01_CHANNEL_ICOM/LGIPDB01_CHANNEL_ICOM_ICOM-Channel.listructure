@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.7.1.v20210611-0414_90?>
+<!--Topaz for Total Test 20.7.1.v20210611-0414_90 Jun 30, 2021 8:31:04 AM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="LGIPDB01/Structures/CICS/LGIPDB01_CHANNEL_ICOM/LGIPDB01_CHANNEL_ICOM_ICOM-Channel.listructure">
+  <listructure:struct id="ICOM_Channel" name="ICOM_Channel">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">16</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">16</properties:property>
+    </properties:properties>
+    <listructure:string id="ICOM_Channel.ICOM_Channel" initial="&quot;ICOM&quot;" length="16" name="ICOM_Channel">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(16)</properties:property>
+        <properties:property name="value">&quot;ICOM&quot;</properties:property>
+        <properties:property name="displayLength" type="number">16</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(16)</properties:property>
+        <properties:property name="storageLength" type="number">16</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>
