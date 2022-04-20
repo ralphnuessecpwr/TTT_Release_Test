@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.9.1.v20211213-1238_91?>
+<!--Topaz for Total Test 20.9.1.v20211213-1238_91 Jan 10, 2022 2:11:47 PM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="LGACDB01/Interfaces/LGACDB01_COUNTER.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_CICS-GENERATED-CONSTANT-0.listructure#LGACDB01/Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_CICS-GENERATED-CONSTANT-0.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_GENApool.listructure#LGACDB01/Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_GENApool.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_GENApool.listructure#GENApool">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_GENApool.listructure#GENApool.GENApool">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_GENAcount.listructure#LGACDB01/Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_GENAcount.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_GENAcount.listructure#GENAcount">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_GENAcount.listructure#GENAcount.GENAcount">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_CICS-GENERATED-CONSTANT-3.listructure#LGACDB01/Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_CICS-GENERATED-CONSTANT-3.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_CICS-GENERATED-CONSTANT-3.listructure#CICS_GENERATED_CONSTANT_3">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_CICS-GENERATED-CONSTANT-3.listructure#CICS_GENERATED_CONSTANT_3.CICS_GENERATED_CONSTANT_3">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_LastCustNum.listructure#LGACDB01/Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_LastCustNum.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_LastCustNum.listructure#LastCustNum">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_LastCustNum.listructure#LastCustNum.LastCustNum">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.9.1.v20211213-1238_91?>
+<!--Topaz for Total Test 20.9.1.v20211213-1238_91 Jan 10, 2022 2:12:10 PM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="LGACDB01/Interfaces/LGACDB01_Insert_1_CA_SALES_TERRITORY.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-FIRST-NAME.listructure#LGACDB01/Structures/Db2/LGACDB01/LGACDB01_Insert_CA-FIRST-NAME.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-FIRST-NAME.listructure#CA_FIRST_NAME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-FIRST-NAME.listructure#CA_FIRST_NAME.CA_FIRST_NAME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-LAST-NAME.listructure#LGACDB01/Structures/Db2/LGACDB01/LGACDB01_Insert_CA-LAST-NAME.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-LAST-NAME.listructure#CA_LAST_NAME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-LAST-NAME.listructure#CA_LAST_NAME.CA_LAST_NAME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-DOB.listructure#LGACDB01/Structures/Db2/LGACDB01/LGACDB01_Insert_CA-DOB.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-DOB.listructure#CA_DOB">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-DOB.listructure#CA_DOB.CA_DOB">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-HOUSE-NAME.listructure#LGACDB01/Structures/Db2/LGACDB01/LGACDB01_Insert_CA-HOUSE-NAME.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-HOUSE-NAME.listructure#CA_HOUSE_NAME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-HOUSE-NAME.listructure#CA_HOUSE_NAME.CA_HOUSE_NAME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-HOUSE-NUM.listructure#LGACDB01/Structures/Db2/LGACDB01/LGACDB01_Insert_CA-HOUSE-NUM.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-HOUSE-NUM.listructure#CA_HOUSE_NUM">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-HOUSE-NUM.listructure#CA_HOUSE_NUM.CA_HOUSE_NUM">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-POSTCODE.listructure#LGACDB01/Structures/Db2/LGACDB01/LGACDB01_Insert_CA-POSTCODE.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-POSTCODE.listructure#CA_POSTCODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-POSTCODE.listructure#CA_POSTCODE.CA_POSTCODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-PHONE-MOBILE.listructure#LGACDB01/Structures/Db2/LGACDB01/LGACDB01_Insert_CA-PHONE-MOBILE.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-PHONE-MOBILE.listructure#CA_PHONE_MOBILE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-PHONE-MOBILE.listructure#CA_PHONE_MOBILE.CA_PHONE_MOBILE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-PHONE-HOME.listructure#LGACDB01/Structures/Db2/LGACDB01/LGACDB01_Insert_CA-PHONE-HOME.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-PHONE-HOME.listructure#CA_PHONE_HOME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-PHONE-HOME.listructure#CA_PHONE_HOME.CA_PHONE_HOME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-EMAIL-ADDRESS.listructure#LGACDB01/Structures/Db2/LGACDB01/LGACDB01_Insert_CA-EMAIL-ADDRESS.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-EMAIL-ADDRESS.listructure#CA_EMAIL_ADDRESS">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-EMAIL-ADDRESS.listructure#CA_EMAIL_ADDRESS.CA_EMAIL_ADDRESS">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-NATIONAL-ID-NBR.listructure#LGACDB01/Structures/Db2/LGACDB01/LGACDB01_Insert_CA-NATIONAL-ID-NBR.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-NATIONAL-ID-NBR.listructure#CA_NATIONAL_ID_NBR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-NATIONAL-ID-NBR.listructure#CA_NATIONAL_ID_NBR.CA_NATIONAL_ID_NBR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-NIN-TYPE.listructure#LGACDB01/Structures/Db2/LGACDB01/LGACDB01_Insert_CA-NIN-TYPE.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-NIN-TYPE.listructure#CA_NIN_TYPE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-NIN-TYPE.listructure#CA_NIN_TYPE.CA_NIN_TYPE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-STREET-ADDRESS.listructure#LGACDB01/Structures/Db2/LGACDB01/LGACDB01_Insert_CA-STREET-ADDRESS.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-STREET-ADDRESS.listructure#CA_STREET_ADDRESS">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-STREET-ADDRESS.listructure#CA_STREET_ADDRESS.CA_STREET_ADDRESS">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-CITY.listructure#LGACDB01/Structures/Db2/LGACDB01/LGACDB01_Insert_CA-CITY.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-CITY.listructure#CA_CITY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-CITY.listructure#CA_CITY.CA_CITY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-STATE.listructure#LGACDB01/Structures/Db2/LGACDB01/LGACDB01_Insert_CA-STATE.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-STATE.listructure#CA_STATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-STATE.listructure#CA_STATE.CA_STATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-COUNTRY-CODE.listructure#LGACDB01/Structures/Db2/LGACDB01/LGACDB01_Insert_CA-COUNTRY-CODE.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-COUNTRY-CODE.listructure#CA_COUNTRY_CODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-COUNTRY-CODE.listructure#CA_COUNTRY_CODE.CA_COUNTRY_CODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-SALES-TERRITORY.listructure#LGACDB01/Structures/Db2/LGACDB01/LGACDB01_Insert_CA-SALES-TERRITORY.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-SALES-TERRITORY.listructure#CA_SALES_TERRITORY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/LGACDB01/LGACDB01_Insert_CA-SALES-TERRITORY.listructure#CA_SALES_TERRITORY.CA_SALES_TERRITORY">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

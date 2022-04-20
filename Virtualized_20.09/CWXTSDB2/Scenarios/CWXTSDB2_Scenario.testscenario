@@ -1,0 +1,409 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="CWXTSDB2/Scenarios/CWXTSDB2_Scenario.testscenario" persistent="true">
+  <testscenario:description></testscenario:description>
+  <testscenario:testcases>
+    <testscenario:testcase alias="" csect="CWXTSDB2" encoding="1047" entrypoint="CWXTSDB2" id="CWXTSDB2/Scenarios/CWXTSDB2_Scenario.testscenario%23CWXTSDB2Case1" target="CWXTSDB2">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1602141725000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTSDB2.interface#CWXTSDB2/Interfaces/CWXTSDB2.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTSDB2_EMP-FIELDS.listructure#CWXTSDB2/Structures/CWXTSDB2_EMP-FIELDS.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSDB2_EMP-FIELDS.listructure#EMP_FIELDS" id="arg0.EMP_FIELDS">
+          <properties:properties>
+            <properties:property name="value" type="string">F0F2F5F2F3404040404040</properties:property>
+            <properties:property name="expectedValue" type="string">F0F2F5F2F300000000000C</properties:property>
+            <properties:property name="address" type="string">37E1A018</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWXTSDB2_Select_1_SQL_01.stub#CWXTSDB2/Stubs/CWXTSDB2_Select_1_SQL_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/CWXTSDB2_RETURN-CODE.listructure#CWXTSDB2/Structures/CWXTSDB2_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSDB2_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTSDB2</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTSDB2" encoding="1047" entrypoint="CWXTSDB2" id="CWXTSDB2/Scenarios/CWXTSDB2_Scenario.testscenario%23CWXTSDB2Case2" target="CWXTSDB2">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1602141725000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTSDB2.interface#CWXTSDB2/Interfaces/CWXTSDB2.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTSDB2_EMP-FIELDS.listructure#CWXTSDB2/Structures/CWXTSDB2_EMP-FIELDS.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSDB2_EMP-FIELDS.listructure#EMP_FIELDS" id="arg0.EMP_FIELDS">
+          <properties:properties>
+            <properties:property name="value" type="string">F0F2F3F3F440400000000C</properties:property>
+            <properties:property name="expectedValue" type="string">F0F2F3F3F400000000000C</properties:property>
+            <properties:property name="address" type="string">37E1A018</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWXTSDB2_Select_1_SQL_02.stub#CWXTSDB2/Stubs/CWXTSDB2_Select_1_SQL_02.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/CWXTSDB2_RETURN-CODE.listructure#CWXTSDB2/Structures/CWXTSDB2_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSDB2_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTSDB2</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTSDB2" encoding="1047" entrypoint="CWXTSDB2" id="CWXTSDB2/Scenarios/CWXTSDB2_Scenario.testscenario%23CWXTSDB2Case3" target="CWXTSDB2">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1602141725000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTSDB2.interface#CWXTSDB2/Interfaces/CWXTSDB2.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTSDB2_EMP-FIELDS.listructure#CWXTSDB2/Structures/CWXTSDB2_EMP-FIELDS.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSDB2_EMP-FIELDS.listructure#EMP_FIELDS" id="arg0.EMP_FIELDS">
+          <properties:properties>
+            <properties:property name="value" type="string">F0F6F7F4F540400000000C</properties:property>
+            <properties:property name="expectedValue" type="string">F0F6F7F4F500000000000C</properties:property>
+            <properties:property name="address" type="string">37E1A018</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWXTSDB2_Select_1_SQL_03.stub#CWXTSDB2/Stubs/CWXTSDB2_Select_1_SQL_03.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/CWXTSDB2_RETURN-CODE.listructure#CWXTSDB2/Structures/CWXTSDB2_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSDB2_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTSDB2</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTSDB2" encoding="1047" entrypoint="CWXTSDB2" id="CWXTSDB2/Scenarios/CWXTSDB2_Scenario.testscenario%23CWXTSDB2Case4" target="CWXTSDB2">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1602141725000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTSDB2.interface#CWXTSDB2/Interfaces/CWXTSDB2.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTSDB2_EMP-FIELDS.listructure#CWXTSDB2/Structures/CWXTSDB2_EMP-FIELDS.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSDB2_EMP-FIELDS.listructure#EMP_FIELDS" id="arg0.EMP_FIELDS">
+          <properties:properties>
+            <properties:property name="value" type="string">F0F0F7F6F540400000000C</properties:property>
+            <properties:property name="expectedValue" type="string">F0F0F7F6F500004800090C</properties:property>
+            <properties:property name="address" type="string">37E1A018</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWXTSDB2_Select_1_SQL_04.stub#CWXTSDB2/Stubs/CWXTSDB2_Select_1_SQL_04.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/CWXTSDB2_RETURN-CODE.listructure#CWXTSDB2/Structures/CWXTSDB2_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSDB2_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTSDB2</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTSDB2" encoding="1047" entrypoint="CWXTSDB2" id="CWXTSDB2/Scenarios/CWXTSDB2_Scenario.testscenario%23CWXTSDB2Case5" target="CWXTSDB2">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1602141725000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTSDB2.interface#CWXTSDB2/Interfaces/CWXTSDB2.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTSDB2_EMP-FIELDS.listructure#CWXTSDB2/Structures/CWXTSDB2_EMP-FIELDS.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSDB2_EMP-FIELDS.listructure#EMP_FIELDS" id="arg0.EMP_FIELDS">
+          <properties:properties>
+            <properties:property name="value" type="string">F0F4F1F4F740404800090C</properties:property>
+            <properties:property name="expectedValue" type="string">F0F4F1F4F700000000000C</properties:property>
+            <properties:property name="address" type="string">37E1A018</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWXTSDB2_Select_1_SQL_05.stub#CWXTSDB2/Stubs/CWXTSDB2_Select_1_SQL_05.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/CWXTSDB2_RETURN-CODE.listructure#CWXTSDB2/Structures/CWXTSDB2_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSDB2_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTSDB2</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTSDB2" encoding="1047" entrypoint="CWXTSDB2" id="CWXTSDB2/Scenarios/CWXTSDB2_Scenario.testscenario%23CWXTSDB2Case6" target="CWXTSDB2">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1602141725000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTSDB2.interface#CWXTSDB2/Interfaces/CWXTSDB2.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTSDB2_EMP-FIELDS.listructure#CWXTSDB2/Structures/CWXTSDB2_EMP-FIELDS.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSDB2_EMP-FIELDS.listructure#EMP_FIELDS" id="arg0.EMP_FIELDS">
+          <properties:properties>
+            <properties:property name="value" type="string">F0F1F5F6F840400000000C</properties:property>
+            <properties:property name="expectedValue" type="string">F0F1F5F6F800000000000C</properties:property>
+            <properties:property name="address" type="string">37E1A018</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWXTSDB2_Select_1_SQL_06.stub#CWXTSDB2/Stubs/CWXTSDB2_Select_1_SQL_06.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/CWXTSDB2_RETURN-CODE.listructure#CWXTSDB2/Structures/CWXTSDB2_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSDB2_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTSDB2</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTSDB2" encoding="1047" entrypoint="CWXTSDB2" id="CWXTSDB2/Scenarios/CWXTSDB2_Scenario.testscenario%23CWXTSDB2Case7" target="CWXTSDB2">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1602141725000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTSDB2.interface#CWXTSDB2/Interfaces/CWXTSDB2.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTSDB2_EMP-FIELDS.listructure#CWXTSDB2/Structures/CWXTSDB2_EMP-FIELDS.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSDB2_EMP-FIELDS.listructure#EMP_FIELDS" id="arg0.EMP_FIELDS">
+          <properties:properties>
+            <properties:property name="value" type="string">F0F0F9F5F940400000000C</properties:property>
+            <properties:property name="expectedValue" type="string">F0F0F9F5F900002000000C</properties:property>
+            <properties:property name="address" type="string">37E1A018</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWXTSDB2_Select_1_SQL_07.stub#CWXTSDB2/Stubs/CWXTSDB2_Select_1_SQL_07.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/CWXTSDB2_RETURN-CODE.listructure#CWXTSDB2/Structures/CWXTSDB2_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSDB2_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTSDB2</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTSDB2" encoding="1047" entrypoint="CWXTSDB2" id="CWXTSDB2/Scenarios/CWXTSDB2_Scenario.testscenario%23CWXTSDB2Case8" target="CWXTSDB2">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1602141725000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTSDB2.interface#CWXTSDB2/Interfaces/CWXTSDB2.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTSDB2_EMP-FIELDS.listructure#CWXTSDB2/Structures/CWXTSDB2_EMP-FIELDS.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSDB2_EMP-FIELDS.listructure#EMP_FIELDS" id="arg0.EMP_FIELDS">
+          <properties:properties>
+            <properties:property name="value" type="string">F0F2F0F1F040402000000C</properties:property>
+            <properties:property name="expectedValue" type="string">F0F2F0F1F000098000000C</properties:property>
+            <properties:property name="address" type="string">37E1A018</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWXTSDB2_Select_1_SQL_08.stub#CWXTSDB2/Stubs/CWXTSDB2_Select_1_SQL_08.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/CWXTSDB2_RETURN-CODE.listructure#CWXTSDB2/Structures/CWXTSDB2_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSDB2_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTSDB2</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTSDB2" encoding="1047" entrypoint="CWXTSDB2" id="CWXTSDB2/Scenarios/CWXTSDB2_Scenario.testscenario%23CWXTSDB2Case9" target="CWXTSDB2">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1602141725000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTSDB2.interface#CWXTSDB2/Interfaces/CWXTSDB2.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTSDB2_EMP-FIELDS.listructure#CWXTSDB2/Structures/CWXTSDB2_EMP-FIELDS.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSDB2_EMP-FIELDS.listructure#EMP_FIELDS" id="arg0.EMP_FIELDS">
+          <properties:properties>
+            <properties:property name="value" type="string">F0F3F2F4F140408000000C</properties:property>
+            <properties:property name="expectedValue" type="string">F0F3F2F4F100000000000C</properties:property>
+            <properties:property name="address" type="string">37E1A018</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWXTSDB2_Select_1_SQL_09.stub#CWXTSDB2/Stubs/CWXTSDB2_Select_1_SQL_09.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/CWXTSDB2_RETURN-CODE.listructure#CWXTSDB2/Structures/CWXTSDB2_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSDB2_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTSDB2</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTSDB2" encoding="1047" entrypoint="CWXTSDB2" id="CWXTSDB2/Scenarios/CWXTSDB2_Scenario.testscenario%23CWXTSDB2Case10" target="CWXTSDB2">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1602141725000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTSDB2.interface#CWXTSDB2/Interfaces/CWXTSDB2.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTSDB2_EMP-FIELDS.listructure#CWXTSDB2/Structures/CWXTSDB2_EMP-FIELDS.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSDB2_EMP-FIELDS.listructure#EMP_FIELDS" id="arg0.EMP_FIELDS">
+          <properties:properties>
+            <properties:property name="value" type="string">F0F1F3F4F340400000000C</properties:property>
+            <properties:property name="expectedValue" type="string">F0F1F3F4F300000000000C</properties:property>
+            <properties:property name="address" type="string">37E1A018</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWXTSDB2_Select_1_SQL_10.stub#CWXTSDB2/Stubs/CWXTSDB2_Select_1_SQL_10.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/CWXTSDB2_RETURN-CODE.listructure#CWXTSDB2/Structures/CWXTSDB2_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSDB2_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTSDB2</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTSDB2" encoding="1047" entrypoint="CWXTSDB2" id="CWXTSDB2/Scenarios/CWXTSDB2_Scenario.testscenario%23CWXTSDB2Case11" target="CWXTSDB2">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1602141725000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTSDB2.interface#CWXTSDB2/Interfaces/CWXTSDB2.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTSDB2_EMP-FIELDS.listructure#CWXTSDB2/Structures/CWXTSDB2_EMP-FIELDS.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSDB2_EMP-FIELDS.listructure#EMP_FIELDS" id="arg0.EMP_FIELDS">
+          <properties:properties>
+            <properties:property name="value" type="string">F0F5F2F1F340400000000C</properties:property>
+            <properties:property name="expectedValue" type="string">F0F5F2F1F300000000000C</properties:property>
+            <properties:property name="address" type="string">37E1A018</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWXTSDB2_Select_1_SQL_11.stub#CWXTSDB2/Stubs/CWXTSDB2_Select_1_SQL_11.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/CWXTSDB2_RETURN-CODE.listructure#CWXTSDB2/Structures/CWXTSDB2_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSDB2_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTSDB2</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTSDB2" encoding="1047" entrypoint="CWXTSDB2" id="CWXTSDB2/Scenarios/CWXTSDB2_Scenario.testscenario%23CWXTSDB2Case12" target="CWXTSDB2">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1602141725000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTSDB2.interface#CWXTSDB2/Interfaces/CWXTSDB2.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTSDB2_EMP-FIELDS.listructure#CWXTSDB2/Structures/CWXTSDB2_EMP-FIELDS.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSDB2_EMP-FIELDS.listructure#EMP_FIELDS" id="arg0.EMP_FIELDS">
+          <properties:properties>
+            <properties:property name="value" type="string">F0F2F1F7F140400000000C</properties:property>
+            <properties:property name="expectedValue" type="string">F0F2F1F7F100000030000C</properties:property>
+            <properties:property name="address" type="string">37E1A018</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWXTSDB2_Select_1_SQL_12.stub#CWXTSDB2/Stubs/CWXTSDB2_Select_1_SQL_12.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/CWXTSDB2_RETURN-CODE.listructure#CWXTSDB2/Structures/CWXTSDB2_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSDB2_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTSDB2</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTSDB2" encoding="1047" entrypoint="CWXTSDB2" id="CWXTSDB2/Scenarios/CWXTSDB2_Scenario.testscenario%23CWXTSDB2Case13" target="CWXTSDB2">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1602141725000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTSDB2.interface#CWXTSDB2/Interfaces/CWXTSDB2.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTSDB2_EMP-FIELDS.listructure#CWXTSDB2/Structures/CWXTSDB2_EMP-FIELDS.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSDB2_EMP-FIELDS.listructure#EMP_FIELDS" id="arg0.EMP_FIELDS">
+          <properties:properties>
+            <properties:property name="value" type="string">F0F3F2F1F540400030000C</properties:property>
+            <properties:property name="expectedValue" type="string">F0F3F2F1F500000000000C</properties:property>
+            <properties:property name="address" type="string">37E1A018</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWXTSDB2_Select_1_SQL_13.stub#CWXTSDB2/Stubs/CWXTSDB2_Select_1_SQL_13.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/CWXTSDB2_RETURN-CODE.listructure#CWXTSDB2/Structures/CWXTSDB2_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSDB2_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTSDB2</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+  </testscenario:testcases>
+</testscenario:testscenario>

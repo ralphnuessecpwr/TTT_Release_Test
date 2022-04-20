@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.9.1.v20211213-1238_91?>
+<!--Topaz for Total Test 20.9.1.v20211213-1238_91 Jan 10, 2022 12:04:54 PM-->
+<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="CWXTCOB2/Scenarios/CWXTCOB2_Scenario.testscenario">
+  <testscenario:description></testscenario:description>
+  <testscenario:testcases>
+    <testscenario:testcase alias="" csect="CWXTCOB2" encoding="1047" entrypoint="CWXTCOB2" id="CWXTCOB2/Scenarios/CWXTCOB2_Scenario.testscenario%23CWXTCOB2Case1" target="CWXTCOB2">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1636432374000</testcase:targetCaptureCompileTime>
+      <testcase:checkconditions>
+        <checkconditions:simpleCheckcondition message="Check for RETURN_CODE failed" name="Check for RETURN_CODE" refData="#returnCode.arg0.RETURN_CODE.RETURN_CODE">
+          <checkconditions:expression>BigDecimalCreator.make('0').compareTo(output.arg0.RETURN_CODE.RETURN_CODE) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="&lt;>" type="number">0</checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWXTCOB2_CWXTSUBC_01.stub#CWXTCOB2/Stubs/CWXTCOB2_CWXTSUBC_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTCOB2_CWXTDATE_01.stub#CWXTCOB2/Stubs/CWXTCOB2_CWXTDATE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTCOB2_RPTFILE_FILE_01.stub#CWXTCOB2/Stubs/CWXTCOB2_RPTFILE_FILE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTCOB2_EMPFILE_FILE_01.stub#CWXTCOB2/Stubs/CWXTCOB2_EMPFILE_FILE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTCOB2_DATETIME_01.stub#CWXTCOB2/Stubs/CWXTCOB2_DATETIME_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/CWXTCOB2_RETURN-CODE.listructure#CWXTCOB2/Structures/CWXTCOB2_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTCOB2_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTCOB2_RETURN-CODE.listructure#RETURN_CODE.RETURN_CODE" id="returnCode.arg0.RETURN_CODE.RETURN_CODE"/>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTCOB2</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+  </testscenario:testcases>
+</testscenario:testscenario>

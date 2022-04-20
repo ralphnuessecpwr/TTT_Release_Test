@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.9.1.v20211213-1238_91?>
+<!--Topaz for Total Test 20.9.1.v20211213-1238_91 Jan 10, 2022 12:49:51 PM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="CWXTEMP/Structures/CWXTEMP_REC-POINTERS.listructure">
+  <listructure:struct id="REC_POINTERS" name="REC_POINTERS">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">8</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">8</properties:property>
+    </properties:properties>
+    <listructure:number id="REC_POINTERS.EMP_REC_POINTER" length="4" name="EMP_REC_POINTER">
+      <properties:properties>
+        <properties:property name="usage" type="string">pointer</properties:property>
+        <properties:property name="displayLength" type="number">4</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">pointer</properties:property>
+        <properties:property name="storageLength" type="number">4</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:number id="REC_POINTERS.WORK_REC_POINTER" length="4" name="WORK_REC_POINTER">
+      <properties:properties>
+        <properties:property name="usage" type="string">pointer</properties:property>
+        <properties:property name="displayLength" type="number">4</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">pointer</properties:property>
+        <properties:property name="storageLength" type="number">4</properties:property>
+      </properties:properties>
+    </listructure:number>
+  </listructure:struct>
+</listructure:listructure>

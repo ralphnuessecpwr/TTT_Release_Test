@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.9.1.v20211213-1238_91?>
+<!--Topaz for Total Test 20.9.1.v20211213-1238_91 Jan 10, 2022 1:15:32 PM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="TRIMPP/Structures/IMS/TRIMPP/TRIMPP_INPUT-MSG.listructure">
+  <listructure:struct id="INPUT_MSG" name="INPUT_MSG">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">15</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">15</properties:property>
+    </properties:properties>
+    <listructure:number id="INPUT_MSG.IN_LL" length="3" name="IN_LL">
+      <properties:properties>
+        <properties:property name="picture" type="string">S9(3)</properties:property>
+        <properties:property name="usage" type="string">computational</properties:property>
+        <properties:property name="signed" type="boolean">true</properties:property>
+        <properties:property name="displayLength" type="number">3</properties:property>
+        <properties:property name="integerDigits" type="number">3</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">binary</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:number id="INPUT_MSG.IN_ZZ" length="3" name="IN_ZZ">
+      <properties:properties>
+        <properties:property name="picture" type="string">S9(3)</properties:property>
+        <properties:property name="usage" type="string">computational</properties:property>
+        <properties:property name="signed" type="boolean">true</properties:property>
+        <properties:property name="displayLength" type="number">3</properties:property>
+        <properties:property name="integerDigits" type="number">3</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">binary</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:string id="INPUT_MSG.IN_TC" length="8" name="IN_TC">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(8)</properties:property>
+        <properties:property name="displayLength" type="number">8</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(8)</properties:property>
+        <properties:property name="storageLength" type="number">8</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:struct id="INPUT_MSG.IN_DATA" name="IN_DATA">
+      <properties:properties>
+        <properties:property name="displayLength" type="number">3</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">3</properties:property>
+      </properties:properties>
+      <listructure:string id="INPUT_MSG.IN_DATA.IN_SIDEA" length="1" name="IN_SIDEA">
+        <properties:properties>
+          <properties:property name="picture" type="string">X</properties:property>
+          <properties:property name="displayLength" type="number">1</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X</properties:property>
+          <properties:property name="storageLength" type="number">1</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="INPUT_MSG.IN_DATA.IN_SIDEB" length="1" name="IN_SIDEB">
+        <properties:properties>
+          <properties:property name="picture" type="string">X</properties:property>
+          <properties:property name="displayLength" type="number">1</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X</properties:property>
+          <properties:property name="storageLength" type="number">1</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="INPUT_MSG.IN_DATA.IN_SIDEC" length="1" name="IN_SIDEC">
+        <properties:properties>
+          <properties:property name="picture" type="string">X</properties:property>
+          <properties:property name="displayLength" type="number">1</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X</properties:property>
+          <properties:property name="storageLength" type="number">1</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+  </listructure:struct>
+</listructure:listructure>

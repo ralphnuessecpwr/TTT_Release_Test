@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.9.2.v20220119-0531_125?>
+<!--Topaz for Total Test 20.9.2.v20220119-0531_125 Apr 20, 2022 12:19:59 PM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="CWDEMCCH/Structures/CICS/CWDEMCCH_SEND_RECEIVE/CWDEMCCH_SEND_RECEIVE_PAYMAP1A-LEN.listructure">
+  <listructure:struct id="PAYMAP1A_LEN" name="PAYMAP1A_LEN">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">2</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">2</properties:property>
+    </properties:properties>
+    <listructure:number id="PAYMAP1A_LEN.PAYMAP1A_LEN" initial="+1053" length="4" name="PAYMAP1A_LEN">
+      <properties:properties>
+        <properties:property name="picture" type="string">S9(4)</properties:property>
+        <properties:property name="usage" type="string">computational</properties:property>
+        <properties:property name="signed" type="boolean">true</properties:property>
+        <properties:property name="value">+1053</properties:property>
+        <properties:property name="displayLength" type="number">4</properties:property>
+        <properties:property name="integerDigits" type="number">4</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">binary</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+      </properties:properties>
+    </listructure:number>
+  </listructure:struct>
+</listructure:listructure>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.9.2.v20220119-0531_125?>
+<!--Topaz for Total Test 20.9.2.v20220119-0531_125 Apr 20, 2022 12:20:02 PM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="CWDEMCCH/Interfaces/CWDEMCCH.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/CWDEMCCH_DFHEIBLK.listructure#CWDEMCCH/Structures/CWDEMCCH_DFHEIBLK.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CWDEMCCH_DFHEIBLK.listructure#DFHEIBLK">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWDEMCCH_DFHEIBLK.listructure#DFHEIBLK.EIBTIME">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWDEMCCH_DFHEIBLK.listructure#DFHEIBLK.EIBDATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWDEMCCH_DFHEIBLK.listructure#DFHEIBLK.EIBTRNID">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWDEMCCH_DFHEIBLK.listructure#DFHEIBLK.EIBTASKN">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWDEMCCH_DFHEIBLK.listructure#DFHEIBLK.EIBTRMID">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWDEMCCH_DFHEIBLK.listructure#DFHEIBLK.DFHEIGDI">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWDEMCCH_DFHEIBLK.listructure#DFHEIBLK.EIBCPOSN">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWDEMCCH_DFHEIBLK.listructure#DFHEIBLK.EIBCALEN">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWDEMCCH_DFHEIBLK.listructure#DFHEIBLK.EIBAID">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWDEMCCH_DFHEIBLK.listructure#DFHEIBLK.EIBFN">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWDEMCCH_DFHEIBLK.listructure#DFHEIBLK.EIBRCODE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWDEMCCH_DFHEIBLK.listructure#DFHEIBLK.EIBDS">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWDEMCCH_DFHEIBLK.listructure#DFHEIBLK.EIBREQID">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWDEMCCH_DFHEIBLK.listructure#DFHEIBLK.EIBRSRCE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWDEMCCH_DFHEIBLK.listructure#DFHEIBLK.EIBSYNC">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWDEMCCH_DFHEIBLK.listructure#DFHEIBLK.EIBFREE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWDEMCCH_DFHEIBLK.listructure#DFHEIBLK.EIBRECV">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWDEMCCH_DFHEIBLK.listructure#DFHEIBLK.EIBFIL01">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWDEMCCH_DFHEIBLK.listructure#DFHEIBLK.EIBATT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWDEMCCH_DFHEIBLK.listructure#DFHEIBLK.EIBEOC">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWDEMCCH_DFHEIBLK.listructure#DFHEIBLK.EIBFMH">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWDEMCCH_DFHEIBLK.listructure#DFHEIBLK.EIBCOMPL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWDEMCCH_DFHEIBLK.listructure#DFHEIBLK.EIBSIG">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWDEMCCH_DFHEIBLK.listructure#DFHEIBLK.EIBCONF">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWDEMCCH_DFHEIBLK.listructure#DFHEIBLK.EIBERR">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWDEMCCH_DFHEIBLK.listructure#DFHEIBLK.EIBERRCD">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWDEMCCH_DFHEIBLK.listructure#DFHEIBLK.EIBSYNRB">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWDEMCCH_DFHEIBLK.listructure#DFHEIBLK.EIBNODAT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWDEMCCH_DFHEIBLK.listructure#DFHEIBLK.EIBRESP">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWDEMCCH_DFHEIBLK.listructure#DFHEIBLK.EIBRESP2">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWDEMCCH_DFHEIBLK.listructure#DFHEIBLK.EIBRLDBK">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CWDEMCCH_DFHCOMMAREA.listructure#CWDEMCCH/Structures/CWDEMCCH_DFHCOMMAREA.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CWDEMCCH_DFHCOMMAREA.listructure#DFHCOMMAREA">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWDEMCCH_DFHCOMMAREA.listructure#DFHCOMMAREA.DFHCOMMAREA">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

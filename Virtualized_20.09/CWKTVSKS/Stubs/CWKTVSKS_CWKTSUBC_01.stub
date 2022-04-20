@@ -1,0 +1,479 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="CWKTVSKS/Stubs/CWKTVSKS_CWKTSUBC_01.stub" stubtype="Program" target="CWKTSUBC" token="1210000">
+  <properties:properties>
+    <properties:property name="programtype" type="string">ProgramStubAssertion</properties:property>
+  </properties:properties>
+  <stub:description>Created: Jan 10, 2022 10:45:34 AM</stub:description>
+  <stub:stubdata id="0" name="CWKTSUBC">
+    <stub:interface>../Interfaces/CWKTVSKS_CWKTSUBC.interface#CWKTVSKS/Interfaces/CWKTVSKS_CWKTSUBC.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKTVSKS_CWKTSUBC.interface#CWKTVSKS/Interfaces/CWKTVSKS_CWKTSUBC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+          <properties:property name="address" type="string">37CFE958</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F5F0F0F0F0F0</properties:property>
+          <properties:property name="address" type="string">37CFE959</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000F</properties:property>
+          <properties:property name="address" type="string">37CFE961</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+          <properties:property name="address" type="string">37CFE958</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F5F0F0F0F0F0</properties:property>
+          <properties:property name="address" type="string">37CFE959</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0100000F</properties:property>
+          <properties:property name="address" type="string">37CFE961</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/CWKTVSKS_CWKTSUBC_RETURN-CODE.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+  <stub:stubdata id="1" name="CWKTSUBC">
+    <stub:interface>../Interfaces/CWKTVSKS_CWKTSUBC.interface#CWKTVSKS/Interfaces/CWKTVSKS_CWKTSUBC.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKTVSKS_CWKTSUBC.interface#CWKTVSKS/Interfaces/CWKTVSKS_CWKTSUBC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+          <properties:property name="address" type="string">37CFE958</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F5F5F5F5F0F0F0</properties:property>
+          <properties:property name="address" type="string">37CFE959</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000F</properties:property>
+          <properties:property name="address" type="string">37CFE961</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+          <properties:property name="address" type="string">37CFE958</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F5F5F5F5F0F0F0</properties:property>
+          <properties:property name="address" type="string">37CFE959</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0333300F</properties:property>
+          <properties:property name="address" type="string">37CFE961</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/CWKTVSKS_CWKTSUBC_RETURN-CODE.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+  <stub:stubdata id="2" name="CWKTSUBC">
+    <stub:interface>../Interfaces/CWKTVSKS_CWKTSUBC.interface#CWKTVSKS/Interfaces/CWKTVSKS_CWKTSUBC.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKTVSKS_CWKTSUBC.interface#CWKTVSKS/Interfaces/CWKTVSKS_CWKTSUBC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+          <properties:property name="address" type="string">37CFE958</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F7F5F0F0F0F0F0</properties:property>
+          <properties:property name="address" type="string">37CFE959</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000F</properties:property>
+          <properties:property name="address" type="string">37CFE961</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+          <properties:property name="address" type="string">37CFE958</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F7F5F0F0F0F0F0</properties:property>
+          <properties:property name="address" type="string">37CFE959</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0600000F</properties:property>
+          <properties:property name="address" type="string">37CFE961</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/CWKTVSKS_CWKTSUBC_RETURN-CODE.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+  <stub:stubdata id="3" name="CWKTSUBC">
+    <stub:interface>../Interfaces/CWKTVSKS_CWKTSUBC.interface#CWKTVSKS/Interfaces/CWKTVSKS_CWKTSUBC.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKTVSKS_CWKTSUBC.interface#CWKTVSKS/Interfaces/CWKTVSKS_CWKTSUBC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+          <properties:property name="address" type="string">37CFE958</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F5F5F0F0F0F0F0</properties:property>
+          <properties:property name="address" type="string">37CFE959</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000F</properties:property>
+          <properties:property name="address" type="string">37CFE961</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+          <properties:property name="address" type="string">37CFE958</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F5F5F0F0F0F0F0</properties:property>
+          <properties:property name="address" type="string">37CFE959</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0330000F</properties:property>
+          <properties:property name="address" type="string">37CFE961</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/CWKTVSKS_CWKTSUBC_RETURN-CODE.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+  <stub:stubdata id="4" name="CWKTSUBC">
+    <stub:interface>../Interfaces/CWKTVSKS_CWKTSUBC.interface#CWKTVSKS/Interfaces/CWKTVSKS_CWKTSUBC.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKTVSKS_CWKTSUBC.interface#CWKTVSKS/Interfaces/CWKTVSKS_CWKTSUBC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+          <properties:property name="address" type="string">37CFE958</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F7F5F0F0F0F0F0</properties:property>
+          <properties:property name="address" type="string">37CFE959</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000F</properties:property>
+          <properties:property name="address" type="string">37CFE961</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+          <properties:property name="address" type="string">37CFE958</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F7F5F0F0F0F0F0</properties:property>
+          <properties:property name="address" type="string">37CFE959</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0600000F</properties:property>
+          <properties:property name="address" type="string">37CFE961</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/CWKTVSKS_CWKTSUBC_RETURN-CODE.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+  <stub:stubdata id="5" name="CWKTSUBC">
+    <stub:interface>../Interfaces/CWKTVSKS_CWKTSUBC.interface#CWKTVSKS/Interfaces/CWKTVSKS_CWKTSUBC.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKTVSKS_CWKTSUBC.interface#CWKTVSKS/Interfaces/CWKTVSKS_CWKTSUBC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+          <properties:property name="address" type="string">37CFE958</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F7F5F0F0F0F0F0</properties:property>
+          <properties:property name="address" type="string">37CFE959</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000F</properties:property>
+          <properties:property name="address" type="string">37CFE961</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+          <properties:property name="address" type="string">37CFE958</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F7F5F0F0F0F0F0</properties:property>
+          <properties:property name="address" type="string">37CFE959</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0600000F</properties:property>
+          <properties:property name="address" type="string">37CFE961</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/CWKTVSKS_CWKTSUBC_RETURN-CODE.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+  <stub:stubdata id="6" name="CWKTSUBC">
+    <stub:interface>../Interfaces/CWKTVSKS_CWKTSUBC.interface#CWKTVSKS/Interfaces/CWKTVSKS_CWKTSUBC.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKTVSKS_CWKTSUBC.interface#CWKTVSKS/Interfaces/CWKTVSKS_CWKTSUBC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+          <properties:property name="address" type="string">37CFE958</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F8F0F0F0F0F0</properties:property>
+          <properties:property name="address" type="string">37CFE959</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000F</properties:property>
+          <properties:property name="address" type="string">37CFE961</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+          <properties:property name="address" type="string">37CFE958</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F8F0F0F0F0F0</properties:property>
+          <properties:property name="address" type="string">37CFE959</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0112000F</properties:property>
+          <properties:property name="address" type="string">37CFE961</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/CWKTVSKS_CWKTSUBC_RETURN-CODE.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+  <stub:stubdata id="7" name="CWKTSUBC">
+    <stub:interface>../Interfaces/CWKTVSKS_CWKTSUBC.interface#CWKTVSKS/Interfaces/CWKTVSKS_CWKTSUBC.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKTVSKS_CWKTSUBC.interface#CWKTVSKS/Interfaces/CWKTVSKS_CWKTSUBC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+          <properties:property name="address" type="string">37CFE958</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F7F0F0F0F0F0F0</properties:property>
+          <properties:property name="address" type="string">37CFE959</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000F</properties:property>
+          <properties:property name="address" type="string">37CFE961</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+          <properties:property name="address" type="string">37CFE958</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F7F0F0F0F0F0F0</properties:property>
+          <properties:property name="address" type="string">37CFE959</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0560000F</properties:property>
+          <properties:property name="address" type="string">37CFE961</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:returncode listructure="../Structures/CWKTVSKS_CWKTSUBC_RETURN-CODE.listructure#CWKTVSKS/Structures/CWKTVSKS_CWKTSUBC_RETURN-CODE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTSUBC_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:returncode>
+  </stub:stubdata>
+</stub:stub>

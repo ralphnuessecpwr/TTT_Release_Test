@@ -1,0 +1,51 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="CWDEMCCH/Stubs/CWDEMCCH_EXEC_CICS_ASSIGN4_01.stub" nextCalltoken="2590002" stubtype="CICS" target="" token="2590000">
+  <stub:description>Created: Apr 20, 2022 12:23:22 PM</stub:description>
+  <stub:stubdata callToken="2590001" id="0" name="EXEC CICS ASSIGN">
+    <stub:interface>../Interfaces/CWDEMCCH_EXEC_CICS_ASSIGN4.interface#CWDEMCCH/Interfaces/CWDEMCCH_EXEC_CICS_ASSIGN4.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWDEMCCH_EXEC_CICS_ASSIGN4.interface#CWDEMCCH/Interfaces/CWDEMCCH_EXEC_CICS_ASSIGN4.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_EXEC_CICS_ASSIGN4/CWDEMCCH_EXEC_CICS_ASSIGN4_CICS-GENERATED-CONSTANT-0.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_EXEC_CICS_ASSIGN4/CWDEMCCH_EXEC_CICS_ASSIGN4_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_EXEC_CICS_ASSIGN4/CWDEMCCH_EXEC_CICS_ASSIGN4_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">02088000272000000000000000000000000000000000F0F0F0F3F0F94040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_EXEC_CICS_ASSIGN4/CWDEMCCH_EXEC_CICS_ASSIGN4_WS-SYSID.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_EXEC_CICS_ASSIGN4/CWDEMCCH_EXEC_CICS_ASSIGN4_WS-SYSID.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_EXEC_CICS_ASSIGN4/CWDEMCCH_EXEC_CICS_ASSIGN4_WS-SYSID.listructure#WS_SYSID" id="arg1.WS_SYSID">
+        <properties:properties>
+          <properties:property name="value" type="string">C3F0F1F3</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_EXEC_CICS_ASSIGN4/CWDEMCCH_EXEC_CICS_ASSIGN4_CICS-GENERATED-CONSTANT-0.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_EXEC_CICS_ASSIGN4/CWDEMCCH_EXEC_CICS_ASSIGN4_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_EXEC_CICS_ASSIGN4/CWDEMCCH_EXEC_CICS_ASSIGN4_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">02088000272000000000000000000000000000000000F0F0F0F3F0F94040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_EXEC_CICS_ASSIGN4/CWDEMCCH_EXEC_CICS_ASSIGN4_WS-SYSID.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_EXEC_CICS_ASSIGN4/CWDEMCCH_EXEC_CICS_ASSIGN4_WS-SYSID.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_EXEC_CICS_ASSIGN4/CWDEMCCH_EXEC_CICS_ASSIGN4_WS-SYSID.listructure#WS_SYSID" id="arg1.WS_SYSID">
+        <properties:properties>
+          <properties:property name="value" type="string">C3F0F1F3</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:statement type="EXEC CICS ASSIGN">
+      <stub:text>           EXEC CICS ASSIGN
+                 SYSID(WS-SYSID)
+                 NOHANDLE
+           END-EXEC.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/CWDEMCCH_EXEC_CICS_ASSIGN4/CWDEMCCH_EXEC_CICS_ASSIGN4_DFHEIBLK.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_EXEC_CICS_ASSIGN4/CWDEMCCH_EXEC_CICS_ASSIGN4_DFHEIBLK.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_EXEC_CICS_ASSIGN4/CWDEMCCH_EXEC_CICS_ASSIGN4_DFHEIBLK.listructure#DFHEIBLK" id="arg0.DFHEIBLK">
+        <properties:properties>
+          <properties:property name="value" type="string">0062306C0122110FE7C3C3C80002662CC3F2F6F60000000600007D02080000000000000000000000000000000000000000000040404040404040400000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+</stub:stub>

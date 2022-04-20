@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="192.168.96.142:16196" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" useRepository="false">
+  <ExtensionData>
+    <Parameter key="unittest.loadlibraries">
+      <Value>HDDRXM0.RT.LOAD.PDSE</Value>
+    </Parameter>
+  </ExtensionData>
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWKTVSKS" caseInsensitiveCompare="false" path="CWKTVSKS_Scenario.testscenario">
+    <Test>
+      <Unittest testscenariopath="CWKTVSKS_Scenario.testscenario" moduleName="CWKTVSKS" />
+    </Test>
+  </XaUnit>
+</ExecutionContext>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.9.1.v20211213-1238_91?>
+<!--Topaz for Total Test 20.9.1.v20211213-1238_91 Jan 10, 2022 2:28:22 PM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="LGICUS01/Interfaces/LGICUS01_WS_CUSTOMER_SUB.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/LGICUS01_WCI-LAST-PROCESS-DATE.listructure#LGICUS01/Structures/LGICUS01_WCI-LAST-PROCESS-DATE.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/LGICUS01_WCI-LAST-PROCESS-DATE.listructure#WCI_LAST_PROCESS_DATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/LGICUS01_WCI-LAST-PROCESS-DATE.listructure#WCI_LAST_PROCESS_DATE.WCI_LAST_PROCESS_DATE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/LGICUS01_WS-CUSTOMER-SUB.listructure#LGICUS01/Structures/LGICUS01_WS-CUSTOMER-SUB.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/LGICUS01_WS-CUSTOMER-SUB.listructure#WS_CUSTOMER_SUB">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/LGICUS01_WS-CUSTOMER-SUB.listructure#WS_CUSTOMER_SUB.WS_CUSTOMER_SUB">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

@@ -1,0 +1,247 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="LGICUS01/Stubs/LGICUS01_DATETIME_01.stub" nextCalltoken="2320010" stubtype="DATETIME" target="" token="2320000">
+  <stub:description>Created: Jan 10, 2022 2:28:22 PM</stub:description>
+  <stub:stubdata callToken="2320001" dateTimeType="2" id="0" name="ACCEPT DATE YYYYMMDD">
+    <stub:interface>../Interfaces/LGICUS01_WS_CUSTOMER_SUB.interface#LGICUS01/Interfaces/LGICUS01_WS_CUSTOMER_SUB.interface</stub:interface>
+    <stub:output listructure="../Structures/LGICUS01_WCI-LAST-PROCESS-DATE.listructure#LGICUS01/Structures/LGICUS01_WCI-LAST-PROCESS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/LGICUS01_WCI-LAST-PROCESS-DATE.listructure#WCI_LAST_PROCESS_DATE" id="arg0.WCI_LAST_PROCESS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F0F0F0F0F0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/LGICUS01_WS-CUSTOMER-SUB.listructure#LGICUS01/Structures/LGICUS01_WS-CUSTOMER-SUB.listructure">
+      <stub:data baseType="listructure:structType ../Structures/LGICUS01_WS-CUSTOMER-SUB.listructure#WS_CUSTOMER_SUB" id="arg1.WS_CUSTOMER_SUB">
+        <properties:properties>
+          <properties:property name="value" type="string">0064</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:dateTimeServiceList>
+      <stub:dateTimeService>
+        <stub:serviceName>IGZXLOCT</stub:serviceName>
+        <stub:serviceArg>000272AE</stub:serviceArg>
+        <stub:serviceArg>4933A30DC251851F</stub:serviceArg>
+        <stub:serviceArg>F2F0F2F2F0F1F1F0F0F8F2F8F2F1F0F9F5</stub:serviceArg>
+        <stub:serviceArg xsi:nil="true"/>
+      </stub:dateTimeService>
+    </stub:dateTimeServiceList>
+  </stub:stubdata>
+  <stub:stubdata callToken="2320002" dateTimeType="2" id="1" name="ACCEPT DATE YYYYMMDD">
+    <stub:interface>../Interfaces/LGICUS01_WS_CUSTOMER_SUB.interface#LGICUS01/Interfaces/LGICUS01_WS_CUSTOMER_SUB.interface</stub:interface>
+    <stub:output listructure="../Structures/LGICUS01_WCI-LAST-PROCESS-DATE.listructure#LGICUS01/Structures/LGICUS01_WCI-LAST-PROCESS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/LGICUS01_WCI-LAST-PROCESS-DATE.listructure#WCI_LAST_PROCESS_DATE" id="arg0.WCI_LAST_PROCESS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F0F0F0F0F0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/LGICUS01_WS-CUSTOMER-SUB.listructure#LGICUS01/Structures/LGICUS01_WS-CUSTOMER-SUB.listructure">
+      <stub:data baseType="listructure:structType ../Structures/LGICUS01_WS-CUSTOMER-SUB.listructure#WS_CUSTOMER_SUB" id="arg1.WS_CUSTOMER_SUB">
+        <properties:properties>
+          <properties:property name="value" type="string">00C8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:dateTimeServiceList>
+      <stub:dateTimeService>
+        <stub:serviceName>IGZXLOCT</stub:serviceName>
+        <stub:serviceArg>000272AE</stub:serviceArg>
+        <stub:serviceArg>4933A30DC271DB23</stub:serviceArg>
+        <stub:serviceArg>F2F0F2F2F0F1F1F0F0F8F2F8F2F3F1F1F6</stub:serviceArg>
+        <stub:serviceArg xsi:nil="true"/>
+      </stub:dateTimeService>
+    </stub:dateTimeServiceList>
+  </stub:stubdata>
+  <stub:stubdata callToken="2320003" dateTimeType="2" id="2" name="ACCEPT DATE YYYYMMDD">
+    <stub:interface>../Interfaces/LGICUS01_WS_CUSTOMER_SUB.interface#LGICUS01/Interfaces/LGICUS01_WS_CUSTOMER_SUB.interface</stub:interface>
+    <stub:output listructure="../Structures/LGICUS01_WCI-LAST-PROCESS-DATE.listructure#LGICUS01/Structures/LGICUS01_WCI-LAST-PROCESS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/LGICUS01_WCI-LAST-PROCESS-DATE.listructure#WCI_LAST_PROCESS_DATE" id="arg0.WCI_LAST_PROCESS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F0F0F0F0F0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/LGICUS01_WS-CUSTOMER-SUB.listructure#LGICUS01/Structures/LGICUS01_WS-CUSTOMER-SUB.listructure">
+      <stub:data baseType="listructure:structType ../Structures/LGICUS01_WS-CUSTOMER-SUB.listructure#WS_CUSTOMER_SUB" id="arg1.WS_CUSTOMER_SUB">
+        <properties:properties>
+          <properties:property name="value" type="string">012C</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:dateTimeServiceList>
+      <stub:dateTimeService>
+        <stub:serviceName>IGZXLOCT</stub:serviceName>
+        <stub:serviceArg>000272AE</stub:serviceArg>
+        <stub:serviceArg>4933A30DC291A5E3</stub:serviceArg>
+        <stub:serviceArg>F2F0F2F2F0F1F1F0F0F8F2F8F2F5F1F0F3</stub:serviceArg>
+        <stub:serviceArg xsi:nil="true"/>
+      </stub:dateTimeService>
+    </stub:dateTimeServiceList>
+  </stub:stubdata>
+  <stub:stubdata callToken="2320004" dateTimeType="2" id="3" name="ACCEPT DATE YYYYMMDD">
+    <stub:interface>../Interfaces/LGICUS01_WS_CUSTOMER_SUB.interface#LGICUS01/Interfaces/LGICUS01_WS_CUSTOMER_SUB.interface</stub:interface>
+    <stub:output listructure="../Structures/LGICUS01_WCI-LAST-PROCESS-DATE.listructure#LGICUS01/Structures/LGICUS01_WCI-LAST-PROCESS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/LGICUS01_WCI-LAST-PROCESS-DATE.listructure#WCI_LAST_PROCESS_DATE" id="arg0.WCI_LAST_PROCESS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F0F0F0F0F0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/LGICUS01_WS-CUSTOMER-SUB.listructure#LGICUS01/Structures/LGICUS01_WS-CUSTOMER-SUB.listructure">
+      <stub:data baseType="listructure:structType ../Structures/LGICUS01_WS-CUSTOMER-SUB.listructure#WS_CUSTOMER_SUB" id="arg1.WS_CUSTOMER_SUB">
+        <properties:properties>
+          <properties:property name="value" type="string">0190</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:dateTimeServiceList>
+      <stub:dateTimeService>
+        <stub:serviceName>IGZXLOCT</stub:serviceName>
+        <stub:serviceArg>000272AE</stub:serviceArg>
+        <stub:serviceArg>4933A30DC2B0F5C3</stub:serviceArg>
+        <stub:serviceArg>F2F0F2F2F0F1F1F0F0F8F2F8F2F7F0F6F0</stub:serviceArg>
+        <stub:serviceArg xsi:nil="true"/>
+      </stub:dateTimeService>
+    </stub:dateTimeServiceList>
+  </stub:stubdata>
+  <stub:stubdata callToken="2320005" dateTimeType="2" id="4" name="ACCEPT DATE YYYYMMDD">
+    <stub:interface>../Interfaces/LGICUS01_WS_CUSTOMER_SUB.interface#LGICUS01/Interfaces/LGICUS01_WS_CUSTOMER_SUB.interface</stub:interface>
+    <stub:output listructure="../Structures/LGICUS01_WCI-LAST-PROCESS-DATE.listructure#LGICUS01/Structures/LGICUS01_WCI-LAST-PROCESS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/LGICUS01_WCI-LAST-PROCESS-DATE.listructure#WCI_LAST_PROCESS_DATE" id="arg0.WCI_LAST_PROCESS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F0F0F0F0F0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/LGICUS01_WS-CUSTOMER-SUB.listructure#LGICUS01/Structures/LGICUS01_WS-CUSTOMER-SUB.listructure">
+      <stub:data baseType="listructure:structType ../Structures/LGICUS01_WS-CUSTOMER-SUB.listructure#WS_CUSTOMER_SUB" id="arg1.WS_CUSTOMER_SUB">
+        <properties:properties>
+          <properties:property name="value" type="string">01F4</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:dateTimeServiceList>
+      <stub:dateTimeService>
+        <stub:serviceName>IGZXLOCT</stub:serviceName>
+        <stub:serviceArg>000272AE</stub:serviceArg>
+        <stub:serviceArg>4933A30DC2D0D4FE</stub:serviceArg>
+        <stub:serviceArg>F2F0F2F2F0F1F1F0F0F8F2F8F2F9F0F5F2</stub:serviceArg>
+        <stub:serviceArg xsi:nil="true"/>
+      </stub:dateTimeService>
+    </stub:dateTimeServiceList>
+  </stub:stubdata>
+  <stub:stubdata callToken="2320006" dateTimeType="2" id="5" name="ACCEPT DATE YYYYMMDD">
+    <stub:interface>../Interfaces/LGICUS01_WS_CUSTOMER_SUB.interface#LGICUS01/Interfaces/LGICUS01_WS_CUSTOMER_SUB.interface</stub:interface>
+    <stub:output listructure="../Structures/LGICUS01_WCI-LAST-PROCESS-DATE.listructure#LGICUS01/Structures/LGICUS01_WCI-LAST-PROCESS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/LGICUS01_WCI-LAST-PROCESS-DATE.listructure#WCI_LAST_PROCESS_DATE" id="arg0.WCI_LAST_PROCESS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F0F0F0F0F0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/LGICUS01_WS-CUSTOMER-SUB.listructure#LGICUS01/Structures/LGICUS01_WS-CUSTOMER-SUB.listructure">
+      <stub:data baseType="listructure:structType ../Structures/LGICUS01_WS-CUSTOMER-SUB.listructure#WS_CUSTOMER_SUB" id="arg1.WS_CUSTOMER_SUB">
+        <properties:properties>
+          <properties:property name="value" type="string">0258</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:dateTimeServiceList>
+      <stub:dateTimeService>
+        <stub:serviceName>IGZXLOCT</stub:serviceName>
+        <stub:serviceArg>000272AE</stub:serviceArg>
+        <stub:serviceArg>4933A30DC2F01CAC</stub:serviceArg>
+        <stub:serviceArg>F2F0F2F2F0F1F1F0F0F8F2F8F3F1F0F0F7</stub:serviceArg>
+        <stub:serviceArg xsi:nil="true"/>
+      </stub:dateTimeService>
+    </stub:dateTimeServiceList>
+  </stub:stubdata>
+  <stub:stubdata callToken="2320007" dateTimeType="2" id="6" name="ACCEPT DATE YYYYMMDD">
+    <stub:interface>../Interfaces/LGICUS01_WS_CUSTOMER_SUB.interface#LGICUS01/Interfaces/LGICUS01_WS_CUSTOMER_SUB.interface</stub:interface>
+    <stub:output listructure="../Structures/LGICUS01_WCI-LAST-PROCESS-DATE.listructure#LGICUS01/Structures/LGICUS01_WCI-LAST-PROCESS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/LGICUS01_WCI-LAST-PROCESS-DATE.listructure#WCI_LAST_PROCESS_DATE" id="arg0.WCI_LAST_PROCESS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F0F0F0F0F0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/LGICUS01_WS-CUSTOMER-SUB.listructure#LGICUS01/Structures/LGICUS01_WS-CUSTOMER-SUB.listructure">
+      <stub:data baseType="listructure:structType ../Structures/LGICUS01_WS-CUSTOMER-SUB.listructure#WS_CUSTOMER_SUB" id="arg1.WS_CUSTOMER_SUB">
+        <properties:properties>
+          <properties:property name="value" type="string">02BC</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:dateTimeServiceList>
+      <stub:dateTimeService>
+        <stub:serviceName>IGZXLOCT</stub:serviceName>
+        <stub:serviceArg>000272AE</stub:serviceArg>
+        <stub:serviceArg>4933A30DC30FAE14</stub:serviceArg>
+        <stub:serviceArg>F2F0F2F2F0F1F1F0F0F8F2F8F3F2F9F8F0</stub:serviceArg>
+        <stub:serviceArg xsi:nil="true"/>
+      </stub:dateTimeService>
+    </stub:dateTimeServiceList>
+  </stub:stubdata>
+  <stub:stubdata callToken="2320008" dateTimeType="2" id="7" name="ACCEPT DATE YYYYMMDD">
+    <stub:interface>../Interfaces/LGICUS01_WS_CUSTOMER_SUB.interface#LGICUS01/Interfaces/LGICUS01_WS_CUSTOMER_SUB.interface</stub:interface>
+    <stub:output listructure="../Structures/LGICUS01_WCI-LAST-PROCESS-DATE.listructure#LGICUS01/Structures/LGICUS01_WCI-LAST-PROCESS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/LGICUS01_WCI-LAST-PROCESS-DATE.listructure#WCI_LAST_PROCESS_DATE" id="arg0.WCI_LAST_PROCESS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F0F0F0F0F0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/LGICUS01_WS-CUSTOMER-SUB.listructure#LGICUS01/Structures/LGICUS01_WS-CUSTOMER-SUB.listructure">
+      <stub:data baseType="listructure:structType ../Structures/LGICUS01_WS-CUSTOMER-SUB.listructure#WS_CUSTOMER_SUB" id="arg1.WS_CUSTOMER_SUB">
+        <properties:properties>
+          <properties:property name="value" type="string">0320</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:dateTimeServiceList>
+      <stub:dateTimeService>
+        <stub:serviceName>IGZXLOCT</stub:serviceName>
+        <stub:serviceArg>000272AE</stub:serviceArg>
+        <stub:serviceArg>4933A30DC32F8106</stub:serviceArg>
+        <stub:serviceArg>F2F0F2F2F0F1F1F0F0F8F2F8F3F4F9F6F9</stub:serviceArg>
+        <stub:serviceArg xsi:nil="true"/>
+      </stub:dateTimeService>
+    </stub:dateTimeServiceList>
+  </stub:stubdata>
+  <stub:stubdata callToken="2320009" dateTimeType="2" id="8" name="ACCEPT DATE YYYYMMDD">
+    <stub:interface>../Interfaces/LGICUS01_WS_CUSTOMER_SUB.interface#LGICUS01/Interfaces/LGICUS01_WS_CUSTOMER_SUB.interface</stub:interface>
+    <stub:output listructure="../Structures/LGICUS01_WCI-LAST-PROCESS-DATE.listructure#LGICUS01/Structures/LGICUS01_WCI-LAST-PROCESS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/LGICUS01_WCI-LAST-PROCESS-DATE.listructure#WCI_LAST_PROCESS_DATE" id="arg0.WCI_LAST_PROCESS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F0F0F0F0F0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/LGICUS01_WS-CUSTOMER-SUB.listructure#LGICUS01/Structures/LGICUS01_WS-CUSTOMER-SUB.listructure">
+      <stub:data baseType="listructure:structType ../Structures/LGICUS01_WS-CUSTOMER-SUB.listructure#WS_CUSTOMER_SUB" id="arg1.WS_CUSTOMER_SUB">
+        <properties:properties>
+          <properties:property name="value" type="string">0384</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:dateTimeServiceList>
+      <stub:dateTimeService>
+        <stub:serviceName>IGZXLOCT</stub:serviceName>
+        <stub:serviceArg>000272AE</stub:serviceArg>
+        <stub:serviceArg>4933A30DC34F1AA0</stub:serviceArg>
+        <stub:serviceArg>F2F0F2F2F0F1F1F0F0F8F2F8F3F6F9F4F4</stub:serviceArg>
+        <stub:serviceArg xsi:nil="true"/>
+      </stub:dateTimeService>
+    </stub:dateTimeServiceList>
+  </stub:stubdata>
+</stub:stub>

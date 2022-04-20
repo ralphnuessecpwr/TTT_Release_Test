@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.9.1.v20211213-1238_91?>
+<!--Topaz for Total Test 20.9.1.v20211213-1238_91 Jan 7, 2022 2:58:31 PM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="CWKTDB2X/Interfaces/CWKTDB2X_RPTFILE_ERROR_LINE.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/CWKTDB2X_RPTFILE_ERROR-LINE.listructure#CWKTDB2X/Structures/CWKTDB2X_RPTFILE_ERROR-LINE.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CWKTDB2X_RPTFILE_ERROR-LINE.listructure#ERROR_LINE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWKTDB2X_RPTFILE_ERROR-LINE.listructure#ERROR_LINE.ERROR_LINE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

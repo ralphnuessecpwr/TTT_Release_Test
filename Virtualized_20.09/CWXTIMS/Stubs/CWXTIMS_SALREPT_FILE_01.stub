@@ -1,0 +1,513 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="MOD" encoding="1047" fileStatus="00" id="CWXTIMS/Stubs/CWXTIMS_SALREPT_FILE_01.stub" stubtype="QSAM" target="SALREPT" token="1690000">
+  <properties:properties>
+    <properties:property name="bufferType" type="string">BA</properties:property>
+  </properties:properties>
+  <stub:description>Created: Jan 10, 2022 12:55:31 PM</stub:description>
+  <stub:stubdata id="0" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC" id="arg0.RPT_SALES_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">E2C1D3C5E240C9C47A4040F0F0F7F6F540404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="1" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CUST_ID_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_CUST_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC" id="arg0.RPT_CUST_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">C3E4E2E3D6D4C5D940D5E4D4C2C5D97A404040C3D5F0F0F0F140404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="2" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CUST_NAME_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_CUST_NAME_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#RPT_CUST_NAME_REC" id="arg0.RPT_CUST_NAME_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">40C3E4E2E3D6D4C5D940D5C1D4C57A40C1C3D4C540C3D6D4D7E4E3C5D940D7D9D6C4E4C3E3E240C3D6D9D7D6D9C1E3C9D6D5404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="3" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_ACTIVITY_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_ACTIVITY_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#RPT_ACTIVITY_REC" id="arg0.RPT_ACTIVITY_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">4040C1C3E3C9E5C9E3E87A404040F1F0F9F240C4C1E8E2404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="4" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CONTACT_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_CONTACT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC" id="arg0.RPT_CONTACT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">40C3D6D5E3C1C3E3404040F17A40C2C9D3D340D1D6C8D5E2D6D54040404040404040404040404040404040406B40D7E4D9C3C8C1E2C9D5C740C1D5C1D3E8E2E340404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="5" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CONTACT_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_CONTACT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC" id="arg0.RPT_CONTACT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">40C3D6D5E3C1C3E3404040F27A40D7C8C9D340E2D4C9E3C8C5D9E240404040404040404040404040404040406B40C2E4E8C5D94040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="6" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#RPT_BLANK_LINE" id="arg0.RPT_BLANK_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="7" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC" id="arg0.RPT_SALES_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">E2C1D3C5E240C9C47A4040F0F0F9F5F940404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="8" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CUST_ID_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_CUST_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC" id="arg0.RPT_CUST_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">C3E4E2E3D6D4C5D940D5E4D4C2C5D97A404040C3D5F0F0F0F240404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="9" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CUST_NAME_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_CUST_NAME_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#RPT_CUST_NAME_REC" id="arg0.RPT_CUST_NAME_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">40C3E4E2E3D6D4C5D940D5C1D4C57A40D7C5C1C3C8E3D9C5C540D7C5D9C9D7C8C5D9C1D3E240404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="10" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_ACTIVITY_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_ACTIVITY_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#RPT_ACTIVITY_REC" id="arg0.RPT_ACTIVITY_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">4040C1C3E3C9E5C9E3E87A4040404040F2F040C4C1E8E2404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="11" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CONTACT_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_CONTACT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC" id="arg0.RPT_CONTACT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">40C3D6D5E3C1C3E3404040F17A40C2C9D3D340D2C1C9E2C5D9404040404040404040404040404040404040406B40C2E4E8C5D94040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="12" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#RPT_BLANK_LINE" id="arg0.RPT_BLANK_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="13" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CUST_ID_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_CUST_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC" id="arg0.RPT_CUST_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">C3E4E2E3D6D4C5D940D5E4D4C2C5D97A404040C3D5F0F0F8F840404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="14" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#RPT_BLANK_LINE" id="arg0.RPT_BLANK_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="15" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC" id="arg0.RPT_SALES_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">E2C1D3C5E240C9C47A4040F0F1F4F3F140404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="16" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CUST_ID_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_CUST_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC" id="arg0.RPT_CUST_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">C3E4E2E3D6D4C5D940D5E4D4C2C5D97A404040C3D5F0F0F3F340404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="17" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CUST_NAME_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_CUST_NAME_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#RPT_CUST_NAME_REC" id="arg0.RPT_CUST_NAME_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">40C3E4E2E3D6D4C5D940D5C1D4C57A40C3D6D4D7E4E3C5D940E2D7C5C3C9C1D3E3C9C5E24040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="18" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_ACTIVITY_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_ACTIVITY_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#RPT_ACTIVITY_REC" id="arg0.RPT_ACTIVITY_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">4040C1C3E3C9E5C9E3E87A404040F1F1F0F640C4C1E8E2404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="19" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CONTACT_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_CONTACT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC" id="arg0.RPT_CONTACT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">40C3D6D5E3C1C3E3404040F17A40D1C5C6C640D3C9D5C3D6D3D54040404040404040404040404040404040406B40E2E3D6C3D240D4C1D5C1C7C5D9404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="20" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CONTACT_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_CONTACT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC" id="arg0.RPT_CONTACT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">40C3D6D5E3C1C3E3404040F27A40D7C5D9D9E840D9E4E2E3C9D54040404040404040404040404040404040406B40E2E3D6D9C5E240C3D3C5D9D240404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="21" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#RPT_BLANK_LINE" id="arg0.RPT_BLANK_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="22" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC" id="arg0.RPT_SALES_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">E2C1D3C5E240C9C47A4040F0F2F0F1F040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="23" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CUST_ID_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_CUST_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC" id="arg0.RPT_CUST_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">C3E4E2E3D6D4C5D940D5E4D4C2C5D97A404040C3D5F0F0F0F140404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="24" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CUST_NAME_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_CUST_NAME_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#RPT_CUST_NAME_REC" id="arg0.RPT_CUST_NAME_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">40C3E4E2E3D6D4C5D940D5C1D4C57A40C1C3D4C540C3D6D4D7E4E3C5D940D7D9D6C4E4C3E3E240C3D6D9D7D6D9C1E3C9D6D5404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="25" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_ACTIVITY_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_ACTIVITY_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#RPT_ACTIVITY_REC" id="arg0.RPT_ACTIVITY_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">4040C1C3E3C9E5C9E3E87A404040F1F0F9F240C4C1E8E2404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="26" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CONTACT_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_CONTACT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC" id="arg0.RPT_CONTACT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">40C3D6D5E3C1C3E3404040F17A40C2C9D3D340D1D6C8D5E2D6D54040404040404040404040404040404040406B40D7E4D9C3C8C1E2C9D5C740C1D5C1D3E8E2E340404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="27" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CONTACT_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_CONTACT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC" id="arg0.RPT_CONTACT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">40C3D6D5E3C1C3E3404040F27A40D7C8C9D340E2D4C9E3C8C5D9E240404040404040404040404040404040406B40C2E4E8C5D94040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="28" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#RPT_BLANK_LINE" id="arg0.RPT_BLANK_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="29" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CUST_ID_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_CUST_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC" id="arg0.RPT_CUST_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">C3E4E2E3D6D4C5D940D5E4D4C2C5D97A404040C3D5F0F0F5F540404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="30" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#RPT_BLANK_LINE" id="arg0.RPT_BLANK_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="31" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CUST_ID_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_CUST_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC" id="arg0.RPT_CUST_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">C3E4E2E3D6D4C5D940D5E4D4C2C5D97A404040C3D5F0F0F9F940404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="32" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#RPT_BLANK_LINE" id="arg0.RPT_BLANK_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="33" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC" id="arg0.RPT_SALES_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">E2C1D3C5E240C9C47A4040F0F2F3F3F440404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="34" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CUST_ID_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_CUST_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC" id="arg0.RPT_CUST_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">C3E4E2E3D6D4C5D940D5E4D4C2C5D97A404040C3D5F0F1F9F940404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="35" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CUST_NOT_FOUND_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_CUST_NOT_FOUND_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CUST-NOT-FOUND-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-CUST-NOT-FOUND-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CUST-NOT-FOUND-REC.listructure#RPT_CUST_NOT_FOUND_REC" id="arg0.RPT_CUST_NOT_FOUND_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">C3E4E2E3D6D4C5D940D5D6E340C6D6E4D5C47A40C3D5F0F1F9F9404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="36" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CUST_NAME_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_CUST_NAME_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#RPT_CUST_NAME_REC" id="arg0.RPT_CUST_NAME_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">40C3E4E2E3D6D4C5D940D5C1D4C57A4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="37" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_ACTIVITY_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_ACTIVITY_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#RPT_ACTIVITY_REC" id="arg0.RPT_ACTIVITY_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">4040C1C3E3C9E5C9E3E87A404040404040F040C4C1E8E2404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="38" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_ERROR_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_ERROR_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-ERROR-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-ERROR-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-ERROR-REC.listructure#RPT_ERROR_REC" id="arg0.RPT_ERROR_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">C5D9D9D6D940C9D540C3E4E2E340C4C27A4040C7D74040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="39" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#RPT_BLANK_LINE" id="arg0.RPT_BLANK_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="40" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC" id="arg0.RPT_SALES_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">E2C1D3C5E240C9C47A4040F0F3F2F1F540404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="41" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC" id="arg0.RPT_SALES_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">E2C1D3C5E240C9C47A4040F0F4F1F4F740404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="42" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC" id="arg0.RPT_SALES_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">E2C1D3C5E240C9C47A4040F0F5F2F1F340404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="43" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC" id="arg0.RPT_SALES_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">E2C1D3C5E240C9C47A4040F0F6F7F4F540404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="44" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#RPT_BLANK_LINE" id="arg0.RPT_BLANK_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="45" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_TOTAL_LINE.interface#CWXTIMS/Interfaces/CWXTIMS_SALREPT_RPT_TOTAL_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-TOTAL-LINE.listructure#CWXTIMS/Structures/CWXTIMS_SALREPT_RPT-TOTAL-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-TOTAL-LINE.listructure#RPT_TOTAL_LINE" id="arg0.RPT_TOTAL_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2C1D3C5E240D9C5C3D6D9C4E240D7D9D6C3C5E2E2C5C47A40F0F1F040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+</stub:stub>

@@ -1,0 +1,94 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="LGACDB01/Stubs/LGACDB01_COUNTER_01.stub" nextCalltoken="2200002" stubtype="CICS" target="" token="2200000">
+  <stub:description>Created: Jan 10, 2022 2:11:47 PM</stub:description>
+  <stub:stubdata callToken="2200001" id="0" name="EXEC CICS GET">
+    <stub:interface>../Interfaces/LGACDB01_COUNTER.interface#LGACDB01/Interfaces/LGACDB01_COUNTER.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/LGACDB01_COUNTER.interface#LGACDB01/Interfaces/LGACDB01_COUNTER.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_CICS-GENERATED-CONSTANT-0.listructure#LGACDB01/Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">2006d000270000010200000101f0f0f8f4f7404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_GENApool.listructure#LGACDB01/Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_GENApool.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_GENApool.listructure#GENApool" id="arg1.GENApool">
+        <properties:properties>
+          <properties:property name="value" type="string">C7C5D5C140404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_GENAcount.listructure#LGACDB01/Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_GENAcount.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_GENAcount.listructure#GENAcount" id="arg2.GENAcount">
+        <properties:properties>
+          <properties:property name="value" type="string">C7C5D5C1C3E4E2E3D5E4D44040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_CICS-GENERATED-CONSTANT-3.listructure#LGACDB01/Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_CICS-GENERATED-CONSTANT-3.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_CICS-GENERATED-CONSTANT-3.listructure#CICS_GENERATED_CONSTANT_3" id="arg3.CICS_GENERATED_CONSTANT_3">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_LastCustNum.listructure#LGACDB01/Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_LastCustNum.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_LastCustNum.listructure#LastCustNum" id="arg4.LastCustNum">
+        <properties:properties>
+          <properties:property name="value" type="string">00000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_CICS-GENERATED-CONSTANT-0.listructure#LGACDB01/Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">2006d000270000010200000101f0f0f8f4f7404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_GENApool.listructure#LGACDB01/Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_GENApool.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_GENApool.listructure#GENApool" id="arg1.GENApool">
+        <properties:properties>
+          <properties:property name="value" type="string">C7C5D5C140404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_GENAcount.listructure#LGACDB01/Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_GENAcount.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_GENAcount.listructure#GENAcount" id="arg2.GENAcount">
+        <properties:properties>
+          <properties:property name="value" type="string">C7C5D5C1C3E4E2E3D5E4D44040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_CICS-GENERATED-CONSTANT-3.listructure#LGACDB01/Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_CICS-GENERATED-CONSTANT-3.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_CICS-GENERATED-CONSTANT-3.listructure#CICS_GENERATED_CONSTANT_3" id="arg3.CICS_GENERATED_CONSTANT_3">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_LastCustNum.listructure#LGACDB01/Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_LastCustNum.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_LastCustNum.listructure#LastCustNum" id="arg4.LastCustNum">
+        <properties:properties>
+          <properties:property name="value" type="string">00000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:statement type="EXEC CICS GET">
+      <stub:text>      *Exec CICS Get Counter(GENAcount)
+      *              Pool(GENApool)
+      *              Value(LastCustNum)
+      *              Resp(WS-RESP)
+      *End-Exec.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_dfheiblk.listructure#LGACDB01/Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_dfheiblk.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/LGACDB01_COUNTER/LGACDB01_COUNTER_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+        <properties:properties>
+          <properties:property name="value" type="string">0081133C0122010FE2E2C3F10001468CC3F1F2F3000001BB09C47D20060000001000000000000000000000000000000000000040404040404040400000000000000000000000000000000000000000100000013100</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+</stub:stub>

@@ -1,0 +1,31 @@
+16:36:51.486 INFO      TOPAZ            ***************************************
+16:36:51.487 INFO      TOPAZ            ** Execution from Topaz with options **
+16:36:51.487 INFO      TOPAZ            ***************************************
+16:36:51.488 INFO      TOPAZ            Using repository: false
+16:36:51.488 INFO      TOPAZ            ***************************************
+16:36:51.490 INFO      Engine           Test Scenario execution started
+16:36:51.493 INFO      Engine           Using context settings:
+  Engine Version                : 20.9.1.v20211213-1238_91
+  Environment id                : 192.168.96.130:16196
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : 192.168.96.130
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : 
+  Host user Id                  : HDDRXM0
+  Use Repository Server         : false
+16:36:51.493 INFO      Engine           Setting variables from context and context data extensions
+16:36:51.493 INFO      Engine             id: environmentId      value: 192.168.96.130:16196
+16:36:51.496 INFO      Engine             id: environmentType    value: BATCH
+16:36:51.497 INFO      Engine             id: userId             value: HDDRXM0
+16:36:51.497 INFO      Engine             id: accountingInfo     value: 
+16:36:51.498 INFO      Unittest         Interpreting Unittest of module: LGICDB01 testscenario path: LGICDB01_Scenario.testscenario
+16:36:51.941 INFO      Unittest         Using JCL skeleton to submit JCL
+16:37:26.082 ERROR     Engine           Unable to upload binary files.
+16:37:26.082 ERROR     Engine           An error occurred. Now stopping the execution.
+16:37:26.082 INFO      Engine           Test Scenario execution ended

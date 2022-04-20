@@ -1,0 +1,68 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="CWDEMCCH/Stubs/CWDEMCCH_HANDLE_04.stub" nextCalltoken="2600003" stubtype="CICS" target="" token="2600000">
+  <stub:description>Created: Apr 20, 2022 12:23:23 PM</stub:description>
+  <stub:stubdata callToken="2600001" id="0" name="EXEC CICS HANDLE">
+    <stub:interface>../Interfaces/CWDEMCCH_HANDLE.interface#CWDEMCCH/Interfaces/CWDEMCCH_HANDLE.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWDEMCCH_HANDLE.interface#CWDEMCCH/Interfaces/CWDEMCCH_HANDLE.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_HANDLE/CWDEMCCH_HANDLE_CICS-GENERATED-CONSTANT-0.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_HANDLE/CWDEMCCH_HANDLE_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_HANDLE/CWDEMCCH_HANDLE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">02048000077A00000000000000000000000000000000F0F0F0F3F1F44040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_HANDLE/CWDEMCCH_HANDLE_CICS-GENERATED-CONSTANT-0.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_HANDLE/CWDEMCCH_HANDLE_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_HANDLE/CWDEMCCH_HANDLE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">02048000077A00000000000000000000000000000000F0F0F0F3F1F44040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:statement type="EXEC CICS HANDLE">
+      <stub:text>           EXEC CICS HANDLE CONDITION
+                     CHANNELERR (100-SEND-INITIAL-SCREEN)
+           END-EXEC.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/CWDEMCCH_HANDLE/CWDEMCCH_HANDLE_DFHEIBLK.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_HANDLE/CWDEMCCH_HANDLE_DFHEIBLK.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_HANDLE/CWDEMCCH_HANDLE_DFHEIBLK.listructure#DFHEIBLK" id="arg0.DFHEIBLK">
+        <properties:properties>
+          <properties:property name="value" type="string">0062306C0122110FE7C3C3C80002662CC3F2F6F60000000600007D02040000000000000000000000000000000000000000000040404040404040400000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+  <stub:stubdata callToken="2600002" id="1" name="EXEC CICS HANDLE">
+    <stub:interface>../Interfaces/CWDEMCCH_HANDLE.interface#CWDEMCCH/Interfaces/CWDEMCCH_HANDLE.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWDEMCCH_HANDLE.interface#CWDEMCCH/Interfaces/CWDEMCCH_HANDLE.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/CWDEMCCH_HANDLE/CWDEMCCH_HANDLE_CICS-GENERATED-CONSTANT-0.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_HANDLE/CWDEMCCH_HANDLE_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_HANDLE/CWDEMCCH_HANDLE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">02048000071600000000000000000000000000000000F0F0F0F3F4F04040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/CWDEMCCH_HANDLE/CWDEMCCH_HANDLE_CICS-GENERATED-CONSTANT-0.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_HANDLE/CWDEMCCH_HANDLE_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_HANDLE/CWDEMCCH_HANDLE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">02048000071600000000000000000000000000000000F0F0F0F3F4F04040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:statement type="EXEC CICS HANDLE">
+      <stub:text>           EXEC CICS HANDLE CONDITION
+                     LENGERR (500-MAPERR)
+           END-EXEC.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/CWDEMCCH_HANDLE/CWDEMCCH_HANDLE_DFHEIBLK.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_HANDLE/CWDEMCCH_HANDLE_DFHEIBLK.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/CWDEMCCH_HANDLE/CWDEMCCH_HANDLE_DFHEIBLK.listructure#DFHEIBLK" id="arg0.DFHEIBLK">
+        <properties:properties>
+          <properties:property name="value" type="string">0062306C0122110FE7C3C3C80002662CC3F2F6F60000000600007D02040000000000000000000000000000000000000000000040404040404040400000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+</stub:stub>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.9.1.v20211213-1238_91?>
+<!--Topaz for Total Test 20.9.1.v20211213-1238_91 Jan 10, 2022 12:49:51 PM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="CWXTEMP/Structures/CWXTEMP_WORK-AREA.listructure">
+  <listructure:struct id="WORK_AREA" name="WORK_AREA">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">201</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">201</properties:property>
+    </properties:properties>
+    <listructure:struct id="WORK_AREA.OVERTIME_FIELDS" name="OVERTIME_FIELDS">
+      <properties:properties>
+        <properties:property name="displayLength" type="number">6</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">6</properties:property>
+      </properties:properties>
+      <listructure:number id="WORK_AREA.OVERTIME_FIELDS.OT_AMOUNT" length="7" name="OT_AMOUNT">
+        <properties:properties>
+          <properties:property name="picture" type="string">9(5)V99</properties:property>
+          <properties:property name="usage" type="string">computational-3</properties:property>
+          <properties:property name="scale" type="number">2</properties:property>
+          <properties:property name="displayLength" type="number">7</properties:property>
+          <properties:property name="integerDigits" type="number">5</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">packed</properties:property>
+          <properties:property name="storageLength" type="number">4</properties:property>
+        </properties:properties>
+      </listructure:number>
+      <listructure:number id="WORK_AREA.OVERTIME_FIELDS.OT_HOURS" length="2" name="OT_HOURS">
+        <properties:properties>
+          <properties:property name="picture" type="string">9(2)</properties:property>
+          <properties:property name="displayLength" type="number">2</properties:property>
+          <properties:property name="integerDigits" type="number">2</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">zoned</properties:property>
+          <properties:property name="mask" type="string">9(2)</properties:property>
+          <properties:property name="storageLength" type="number">2</properties:property>
+        </properties:properties>
+      </listructure:number>
+    </listructure:struct>
+    <listructure:struct id="WORK_AREA.TOTAL_FIELDS" name="TOTAL_FIELDS">
+      <properties:properties>
+        <properties:property name="displayLength" type="number">12</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">12</properties:property>
+      </properties:properties>
+      <listructure:number id="WORK_AREA.TOTAL_FIELDS.EMP_WAGES" length="7" name="EMP_WAGES">
+        <properties:properties>
+          <properties:property name="picture" type="string">9(5)V99</properties:property>
+          <properties:property name="usage" type="string">computational-3</properties:property>
+          <properties:property name="scale" type="number">2</properties:property>
+          <properties:property name="displayLength" type="number">7</properties:property>
+          <properties:property name="integerDigits" type="number">5</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">packed</properties:property>
+          <properties:property name="storageLength" type="number">4</properties:property>
+        </properties:properties>
+      </listructure:number>
+      <listructure:number id="WORK_AREA.TOTAL_FIELDS.EMP_COMPENSATION" length="7" name="EMP_COMPENSATION">
+        <properties:properties>
+          <properties:property name="picture" type="string">9(5)V99</properties:property>
+          <properties:property name="usage" type="string">computational-3</properties:property>
+          <properties:property name="scale" type="number">2</properties:property>
+          <properties:property name="displayLength" type="number">7</properties:property>
+          <properties:property name="integerDigits" type="number">5</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">packed</properties:property>
+          <properties:property name="storageLength" type="number">4</properties:property>
+        </properties:properties>
+      </listructure:number>
+      <listructure:number id="WORK_AREA.TOTAL_FIELDS.MGMT_COMPENSATION" length="7" name="MGMT_COMPENSATION">
+        <properties:properties>
+          <properties:property name="picture" type="string">9(5)V99</properties:property>
+          <properties:property name="usage" type="string">computational-3</properties:property>
+          <properties:property name="scale" type="number">2</properties:property>
+          <properties:property name="displayLength" type="number">7</properties:property>
+          <properties:property name="integerDigits" type="number">5</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">packed</properties:property>
+          <properties:property name="storageLength" type="number">4</properties:property>
+        </properties:properties>
+      </listructure:number>
+    </listructure:struct>
+    <listructure:struct id="WORK_AREA.GRAND_TOTAL_FIELDS" name="GRAND_TOTAL_FIELDS">
+      <properties:properties>
+        <properties:property name="displayLength" type="number">10</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">10</properties:property>
+      </properties:properties>
+      <listructure:number id="WORK_AREA.GRAND_TOTAL_FIELDS.GRAND_TOTAL_EMP" initial="0" length="9" name="GRAND_TOTAL_EMP">
+        <properties:properties>
+          <properties:property name="picture" type="string">9(7)V99</properties:property>
+          <properties:property name="usage" type="string">computational-3</properties:property>
+          <properties:property name="value">0</properties:property>
+          <properties:property name="scale" type="number">2</properties:property>
+          <properties:property name="displayLength" type="number">9</properties:property>
+          <properties:property name="integerDigits" type="number">7</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">packed</properties:property>
+          <properties:property name="storageLength" type="number">5</properties:property>
+        </properties:properties>
+      </listructure:number>
+      <listructure:number id="WORK_AREA.GRAND_TOTAL_FIELDS.GRAND_TOTAL_MGMT" initial="0" length="9" name="GRAND_TOTAL_MGMT">
+        <properties:properties>
+          <properties:property name="picture" type="string">9(7)V99</properties:property>
+          <properties:property name="usage" type="string">computational-3</properties:property>
+          <properties:property name="value">0</properties:property>
+          <properties:property name="scale" type="number">2</properties:property>
+          <properties:property name="displayLength" type="number">9</properties:property>
+          <properties:property name="integerDigits" type="number">7</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">packed</properties:property>
+          <properties:property name="storageLength" type="number">5</properties:property>
+        </properties:properties>
+      </listructure:number>
+    </listructure:struct>
+    <listructure:struct id="WORK_AREA.WORK_SWITCHES" name="WORK_SWITCHES">
+      <properties:properties>
+        <properties:property name="displayLength" type="number">2</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+      </properties:properties>
+      <listructure:string id="WORK_AREA.WORK_SWITCHES.REGION_ERROR_SW" initial="&quot;N&quot;" length="1" name="REGION_ERROR_SW">
+        <properties:properties>
+          <properties:property name="picture" type="string">X</properties:property>
+          <properties:property name="value">&quot;N&quot;</properties:property>
+          <properties:property name="displayLength" type="number">1</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X</properties:property>
+          <properties:property name="storageLength" type="number">1</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="WORK_AREA.WORK_SWITCHES.END_OF_MONTH_SW" initial="&quot;N&quot;" length="1" name="END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="picture" type="string">X</properties:property>
+          <properties:property name="value">&quot;N&quot;</properties:property>
+          <properties:property name="displayLength" type="number">1</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X</properties:property>
+          <properties:property name="storageLength" type="number">1</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+    <listructure:number id="WORK_AREA.YRS_OF_SERVICE" initial="0" length="2" name="YRS_OF_SERVICE">
+      <properties:properties>
+        <properties:property name="picture" type="string">99</properties:property>
+        <properties:property name="value">0</properties:property>
+        <properties:property name="displayLength" type="number">2</properties:property>
+        <properties:property name="integerDigits" type="number">2</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">zoned</properties:property>
+        <properties:property name="mask" type="string">99</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:struct id="WORK_AREA.REGION_SALES_TABLE" name="REGION_SALES_TABLE">
+      <properties:properties>
+        <properties:property name="displayLength" type="number">156</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">156</properties:property>
+      </properties:properties>
+      <listructure:array id="WORK_AREA.REGION_SALES_TABLE.REGION_DATA" length="4" name="REGION_DATA">
+        <properties:properties>
+          <properties:property name="occurs" type="number">4</properties:property>
+          <properties:property name="displayLength" type="number">39</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="storageLength" type="number">39</properties:property>
+        </properties:properties>
+        <listructure:struct id="WORK_AREA.REGION_SALES_TABLE.REGION_DATA.REGION_DATA" name="REGION_DATA">
+          <properties:properties>
+            <properties:property name="displayLength" type="number">39</properties:property>
+            <properties:property name="platform" type="string">mainframe</properties:property>
+            <properties:property name="storageLength" type="number">39</properties:property>
+          </properties:properties>
+          <listructure:string id="WORK_AREA.REGION_SALES_TABLE.REGION_DATA.REGION_DATA.REGION_NAME" length="5" name="REGION_NAME">
+            <properties:properties>
+              <properties:property name="picture" type="string">X(5)</properties:property>
+              <properties:property name="displayLength" type="number">5</properties:property>
+              <properties:property name="platform" type="string">mainframe</properties:property>
+              <properties:property name="liType" type="string">char</properties:property>
+              <properties:property name="mask" type="string">X(5)</properties:property>
+              <properties:property name="storageLength" type="number">5</properties:property>
+            </properties:properties>
+          </listructure:string>
+          <listructure:string id="WORK_AREA.REGION_SALES_TABLE.REGION_DATA.REGION_DATA.REGION_MANAGER" length="15" name="REGION_MANAGER">
+            <properties:properties>
+              <properties:property name="picture" type="string">X(15)</properties:property>
+              <properties:property name="displayLength" type="number">15</properties:property>
+              <properties:property name="platform" type="string">mainframe</properties:property>
+              <properties:property name="liType" type="string">char</properties:property>
+              <properties:property name="mask" type="string">X(15)</properties:property>
+              <properties:property name="storageLength" type="number">15</properties:property>
+            </properties:properties>
+          </listructure:string>
+          <listructure:number id="WORK_AREA.REGION_SALES_TABLE.REGION_DATA.REGION_DATA.REGION_SALARY" length="6" name="REGION_SALARY">
+            <properties:properties>
+              <properties:property name="picture" type="string">9(4)V99</properties:property>
+              <properties:property name="scale" type="number">2</properties:property>
+              <properties:property name="displayLength" type="number">6</properties:property>
+              <properties:property name="integerDigits" type="number">4</properties:property>
+              <properties:property name="platform" type="string">mainframe</properties:property>
+              <properties:property name="liType" type="string">zoned</properties:property>
+              <properties:property name="mask" type="string">9(4)V99</properties:property>
+              <properties:property name="storageLength" type="number">6</properties:property>
+            </properties:properties>
+          </listructure:number>
+          <listructure:number id="WORK_AREA.REGION_SALES_TABLE.REGION_DATA.REGION_DATA.REGION_SALES" length="8" name="REGION_SALES">
+            <properties:properties>
+              <properties:property name="picture" type="string">9(6)V99</properties:property>
+              <properties:property name="scale" type="number">2</properties:property>
+              <properties:property name="displayLength" type="number">8</properties:property>
+              <properties:property name="integerDigits" type="number">6</properties:property>
+              <properties:property name="platform" type="string">mainframe</properties:property>
+              <properties:property name="liType" type="string">zoned</properties:property>
+              <properties:property name="mask" type="string">9(6)V99</properties:property>
+              <properties:property name="storageLength" type="number">8</properties:property>
+            </properties:properties>
+          </listructure:number>
+          <listructure:string id="WORK_AREA.REGION_SALES_TABLE.REGION_DATA.REGION_DATA.REGION_COMMENT" length="5" name="REGION_COMMENT">
+            <properties:properties>
+              <properties:property name="picture" type="string">X(5)</properties:property>
+              <properties:property name="displayLength" type="number">5</properties:property>
+              <properties:property name="platform" type="string">mainframe</properties:property>
+              <properties:property name="liType" type="string">char</properties:property>
+              <properties:property name="mask" type="string">X(5)</properties:property>
+              <properties:property name="storageLength" type="number">5</properties:property>
+            </properties:properties>
+          </listructure:string>
+        </listructure:struct>
+      </listructure:array>
+    </listructure:struct>
+    <listructure:struct id="WORK_AREA.CALC_COMMISSION_FIELDS" name="CALC_COMMISSION_FIELDS">
+      <properties:properties>
+        <properties:property name="displayLength" type="number">13</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">13</properties:property>
+      </properties:properties>
+      <listructure:string id="WORK_AREA.CALC_COMMISSION_FIELDS.EMP_TYPE" length="1" name="EMP_TYPE">
+        <properties:properties>
+          <properties:property name="picture" type="string">X</properties:property>
+          <properties:property name="displayLength" type="number">1</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X</properties:property>
+          <properties:property name="storageLength" type="number">1</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:number id="WORK_AREA.CALC_COMMISSION_FIELDS.CALC_SALES" initial="0" length="8" name="CALC_SALES">
+        <properties:properties>
+          <properties:property name="picture" type="string">9(6)V99</properties:property>
+          <properties:property name="value">0</properties:property>
+          <properties:property name="scale" type="number">2</properties:property>
+          <properties:property name="displayLength" type="number">8</properties:property>
+          <properties:property name="integerDigits" type="number">6</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">zoned</properties:property>
+          <properties:property name="mask" type="string">9(6)V99</properties:property>
+          <properties:property name="storageLength" type="number">8</properties:property>
+        </properties:properties>
+      </listructure:number>
+      <listructure:number id="WORK_AREA.CALC_COMMISSION_FIELDS.CALC_COMMISSION" initial="0" length="7" name="CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="picture" type="string">9(5)V99</properties:property>
+          <properties:property name="usage" type="string">computational-3</properties:property>
+          <properties:property name="value">0</properties:property>
+          <properties:property name="scale" type="number">2</properties:property>
+          <properties:property name="displayLength" type="number">7</properties:property>
+          <properties:property name="integerDigits" type="number">5</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">packed</properties:property>
+          <properties:property name="storageLength" type="number">4</properties:property>
+        </properties:properties>
+      </listructure:number>
+    </listructure:struct>
+  </listructure:struct>
+</listructure:listructure>

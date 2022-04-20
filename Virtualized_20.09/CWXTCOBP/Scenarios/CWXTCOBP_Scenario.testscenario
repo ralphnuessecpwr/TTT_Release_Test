@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.9.1.v20211213-1238_91?>
+<!--Topaz for Total Test 20.9.1.v20211213-1238_91 Jan 10, 2022 12:39:51 PM-->
+<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="CWXTCOBP/Scenarios/CWXTCOBP_Scenario.testscenario">
+  <testscenario:description></testscenario:description>
+  <testscenario:testcases>
+    <testscenario:testcase alias="" csect="CWXTCOBP" encoding="1047" entrypoint="CWXTCOBP" id="CWXTCOBP/Scenarios/CWXTCOBP_Scenario.testscenario%23CWXTCOBPCase1" target="CWXTCOBP">
+      <testcase:description></testcase:description>
+      <testcase:ddio>HDDRXM0.RT.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1593735913000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTCOBP.interface#CWXTCOBP/Interfaces/CWXTCOBP.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTCOBP_PARMINFO.listructure#CWXTCOBP/Structures/CWXTCOBP_PARMINFO.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTCOBP_PARMINFO.listructure#PARMINFO" id="arg0.PARMINFO">
+          <properties:properties>
+            <properties:property name="value" type="string">0005F0F0F0F0F3</properties:property>
+            <properties:property name="expectedValue" type="string">0005F0F0F0F0F3</properties:property>
+            <properties:property name="address" type="string">37A49568</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWXTCOBP_CWXTDATE_01.stub#CWXTCOBP/Stubs/CWXTCOBP_CWXTDATE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTCOBP_CWXTEMP_01.stub#CWXTCOBP/Stubs/CWXTCOBP_CWXTEMP_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTCOBP_EMPFILE_FILE_01.stub#CWXTCOBP/Stubs/CWXTCOBP_EMPFILE_FILE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTCOBP_RPTFILE_FILE_01.stub#CWXTCOBP/Stubs/CWXTCOBP_RPTFILE_FILE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTCOBP_DATETIME_01.stub#CWXTCOBP/Stubs/CWXTCOBP_DATETIME_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/CWXTCOBP_RETURN-CODE.listructure#CWXTCOBP/Structures/CWXTCOBP_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTCOBP_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CWXTCOBP</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+  </testscenario:testcases>
+</testscenario:testscenario>

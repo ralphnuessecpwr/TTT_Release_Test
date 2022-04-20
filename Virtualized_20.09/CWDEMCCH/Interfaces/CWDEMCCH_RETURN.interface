@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.9.2.v20220119-0531_125?>
+<!--Topaz for Total Test 20.9.2.v20220119-0531_125 Apr 20, 2022 12:20:02 PM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="CWDEMCCH/Interfaces/CWDEMCCH_RETURN.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-0.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-0.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-ARGUMENT-1.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-ARGUMENT-1.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-ARGUMENT-1.listructure#CICS_GENERATED_ARGUMENT_1">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-ARGUMENT-1.listructure#CICS_GENERATED_ARGUMENT_1.CICS_GENERATED_ARGUMENT_1">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-2.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-2.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-2.listructure#CICS_GENERATED_CONSTANT_2">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-2.listructure#CICS_GENERATED_CONSTANT_2.CICS_GENERATED_CONSTANT_2">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-3.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-3.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-3.listructure#CICS_GENERATED_CONSTANT_3">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-3.listructure#CICS_GENERATED_CONSTANT_3.CICS_GENERATED_CONSTANT_3">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-4.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-4.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-4.listructure#CICS_GENERATED_CONSTANT_4">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-4.listructure#CICS_GENERATED_CONSTANT_4.CICS_GENERATED_CONSTANT_4">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-5.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-5.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-5.listructure#CICS_GENERATED_CONSTANT_5">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-5.listructure#CICS_GENERATED_CONSTANT_5.CICS_GENERATED_CONSTANT_5">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-6.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-6.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-6.listructure#CICS_GENERATED_CONSTANT_6">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-6.listructure#CICS_GENERATED_CONSTANT_6.CICS_GENERATED_CONSTANT_6">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-7.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-7.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-7.listructure#CICS_GENERATED_CONSTANT_7">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-7.listructure#CICS_GENERATED_CONSTANT_7.CICS_GENERATED_CONSTANT_7">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-8.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-8.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-8.listructure#CICS_GENERATED_CONSTANT_8">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-8.listructure#CICS_GENERATED_CONSTANT_8.CICS_GENERATED_CONSTANT_8">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-9.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-9.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-9.listructure#CICS_GENERATED_CONSTANT_9">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-CONSTANT-9.listructure#CICS_GENERATED_CONSTANT_9.CICS_GENERATED_CONSTANT_9">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-ARGUMENT-10.listructure#CWDEMCCH/Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-ARGUMENT-10.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-ARGUMENT-10.listructure#CICS_GENERATED_ARGUMENT_10">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/CWDEMCCH_RETURN/CWDEMCCH_RETURN_CICS-GENERATED-ARGUMENT-10.listructure#CICS_GENERATED_ARGUMENT_10.CICS_GENERATED_ARGUMENT_10">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="192.168.96.130:16196" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" useRepository="false">
+  <ExtensionData>
+    <Parameter key="unittest.loadlibraries">
+      <Value>HDDRXM0.RT.LOAD.PDSE</Value>
+      <Value>DSNC10.DSCC.SDSNEXIT</Value>
+      <Value>DSNC10.DSCC.RUNLIB.LOAD</Value>
+      <Value>DSNC10.SDSNLOAD</Value>
+      <Value>CEE.SCEERUN</Value>
+    </Parameter>
+  </ExtensionData>
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWKTSQL" caseInsensitiveCompare="false" path="CWKTSQL_Scenario.testscenario">
+    <Test>
+      <Unittest testscenariopath="CWKTSQL_Scenario.testscenario" moduleName="CWKTSQL" />
+    </Test>
+  </XaUnit>
+</ExecutionContext>
